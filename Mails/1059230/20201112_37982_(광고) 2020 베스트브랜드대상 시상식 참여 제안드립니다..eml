@@ -1,0 +1,59 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1605132921;
+	cv=none; b=CX4Z1E9KkjTLifwjHjLedCVXNVg0qMUQcTAPKo/udxbo+TWIvOWyYRbwzdMo
+	 U0T5Q0NFPU8RyFufYKKuLJu7sLrgW8gzdIIunAwkLo62OfkEtGRPFUtGq1os3yEjfwwe3m
+	 N5CzP0yekps96N+OelGRNymYxwjBg34UUcRzhw+GX4GXfYvgRhIjoihu/7+7z0zkRnlQvg
+	 PHACzEcQSXFJE03ojFYTPMCsU11bWmEoORGkbAo1MtFBYf+z7TGhWowOzqFu3jUo5/nicQ
+	 nkSjQxBWSRFAy1WOmJkUGYc2f//u9HyHBKZ9Ge9URwR++zf/KCmLIA1z9FS/pozxY+lVyD
+	 EQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1605132921; c=relaxed/relaxed;
+	bh=8SgxhdYBi62CybsCKKhUlCLJRdf5mDuqFMSKHznRmTk=;
+	h=date:subject:from:to:message-id; b=lGeegCSANk5am10+Iv4ga84uKEFMY4OA98
+	 INPrsRsugG4BTS6DpzeRGlRHyxB8AkUpyYMcWGMZqo8RwmLfjexSVTL7cukymMcSzVA+KK
+	 b+mAa8sqwNoR+ki/B9n+/0frbWdyP1V0yRbO4bnv6nbMc8UF3qG8S8Ai4ZVxF6DX+HwL2b
+	 K3vHQt+9obTp7t8OcH9tLNHVrZuQRKErdRFQAc496SJgKrkyhhCCawhMC7GmEUpfMZlxpv
+	 Aw3JcRix29VszW+1vzer9mYz29rv3KDbJyamGgDaxNCsStkC0uscWSYSLrhdXvLm/UTgCF
+	 NMp6xgMAxe3VSvieGxlNN0HPhXRQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@s4.maillink.co.kr designates 61.100.12.57 as permitted sender) smtp.mailfrom=noreply@s4.maillink.co.kr;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=naver.com
+Return-Path: <noreply@s4.maillink.co.kr>
+X-Suspicious-Sender: yes
+Received-SPF: pass (mx.naver.com: domain of noreply@s4.maillink.co.kr designates 61.100.12.57 as permitted sender)
+  client-ip=61.100.12.57; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@s4.maillink.co.kr designates 61.100.12.57 as permitted sender) smtp.mailfrom=noreply@s4.maillink.co.kr;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=naver.com
+X-Naver-ESV: +qRYpB3G1H+qbrJmjAMRjAUZKxEZKBwBjg==
+X-Session-IP: 61.100.12.57
+Received: from s3.maillink.co.kr (s4.maillink.co.kr [61.100.12.57])
+  by crcvmail31.nm.naver.com with ESMTP id BRMJFAYQTZqR4RHkrSmD6w
+  for <1059230@naver.com>;
+  Wed, 11 Nov 2020 22:15:21 -0000
+Date: Thu, 12 Nov 2020 07:15:16 +0900
+Subject: =?utf-8?B?KOq0keqzoCkgMjAyMCDrsqDsiqTtirjruIzrnpzrk5zrjIDsg4Eg7Iuc7IOB7IudIOywuOyXrCDsoJzslYjrk5zrpr3ri4jri6Qu?=
+From: "=?utf-8?B?7Jq07JiB7IKs66y06rWt?=" <best_awards@naver.com>
+Reply-To: <best_awards@naver.com>
+To: <1059230@naver.com>
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+Content-transfer-encoding: 8bit
+List-Unsubscribe: <http://track.maillink.co.kr/procresponse?a=5I-15538336I-45581I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4I-3>
+Message-ID: 1605132916450.5538336.1.5581
+X-Mailer: Maillink Scheduler v3.32
+X-NetpionMsgID: 1605132916450.5538336.1.5581
+
+
+<div style="line-height: 1.5; background-color: rgb(255, 255, 255); font-family: 나눔고딕, NanumGothic, sans-serif; font-size: 13.3333px;"><div style="line-height: 20px; font-size: 10pt;"><div style="line-height: 20px; font-size: 13.3333px; widows: 1;"><span style="font-family: 돋움, Dotum, Helvetica, sans-serif; font-size: 12px;">​&nbsp; &nbsp; </span><span style="font-size: 13.3333px;">한국경제매거진</span><span style="font-size: 10pt;">에서 주최하는 &lt;2020 대한민국베스트브랜드대상&gt; 시상식 운영사무국입니다.</span></div></div></div><p style="font-size: 10pt; margin-left: 20px;"><span style="font-family: 나눔고딕, NanumGothic, sans-serif; font-size: 10pt;">글로벌 미디어를 대표, 지향하는 &lt;한국경제매거진&gt; 에서</span></p><p style="font-size: 10pt; margin-left: 20px;"><font face="Malgun Gothic" size="3"><span style="font-family: 나눔고딕,NanumGothic,Sans-serif; font-size: 10pt;">2020 '대한민국베스트브랜드대상' 시상식을 통하여 최고의 브랜드를 선정, 발표 하고자 합니다.</span></font></p><p style="font-size: 10pt; margin-left: 20px;"><font face="나눔고딕, NanumGothic, sans-serif">지방자치단체 및 기업체의 많은 참여 부탁드립니다.</font></p><p style="font-size: 10pt; margin-left: 20px;">&nbsp;</p><p style="font-size: 10pt; margin-left: 20px;"><strong style="line-height: 1.5; font-family: 나눔고딕, NanumGothic, sans-serif; font-size: 12pt;"><span style="font-size: 11pt;">2020 베스트브랜드대상</span></strong><strong style="line-height: 1.5; font-family: 나눔고딕, NanumGothic, sans-serif; font-size: 12pt;"><span style="font-size: 11pt;">&nbsp;공표 일정</span></strong></p><p style="font-size: 10pt; margin-left: 20px;"><span style="line-height: 1.5; font-family: 나눔고딕,NanumGothic,Sans-serif; font-size: 10pt;"><span style="font-size: 10pt;">일 &nbsp; 시 : 2020년 12월 14일 월요일</span>&nbsp;</span></p><p style="font-size: 10pt; margin-left: 20px;"><span style="line-height: 1.5; font-family: 나눔고딕,NanumGothic,Sans-serif; font-size: 10pt;">시상명 : 대한민국베스트브랜드대상</span></p><p style="font-size: 10pt; margin-left: 20px;"><font face="나눔고딕, NanumGothic, sans-serif">취 &nbsp; 지 :<span style="font-size: 10pt;">&nbsp;</span></font><span style="font-size: 10pt; font-family: 나눔고딕코딩, NanumGothicCoding, sans-serif;">현 시대 최고의 기업 자산인 브랜딩, 소비자들의 마음을 사로잡기 위해 최선을 다하는 브랜드를 찾습니다.</span><span style="font-family: 나눔고딕코딩, NanumGothicCoding, sans-serif; font-size: 10pt;">​</span></p><p style="font-size: 10pt; margin-left: 20px;"><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-size: 11pt;"><br></span></font></p><p style="font-size: 10pt; margin-left: 20px;"><img src="http://creonmedia.cafe24.com/base/img/123/2020_KBBA_BEST.jpg" style="font-size: 12px;"><span style="font-size: 10pt;">​</span></p><div id=maillinkAutoCreatedFooter>
+<table width=550 style='border:1px solid #bebebe;'>	
+<tr><td width=550 bgcolor=#ffffff style='PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-TOP: 10px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 16px; font-family:dotum; font-size:12px; color:#787878;'>
+ 메일 수신을 원치 않으시면 <a href="https://trs.maillink.co.kr/procresponse?a=5I-15538336I-45581I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4ZbmCuUbI-3" style="color:#505050;" target="_blank">[수신거부]</A>를 클릭하십시오. If you don't want this type of information or e-mail, please click the <a href="https://trs.maillink.co.kr/procresponse?a=8I-15538336I-45581I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4ZbmCuUbI-3" style="color:#505050;" target="_blank">[unsubscription]</A>
+ 사업자 등록번호:190-86-00272 소재지:경기 안양시 동안구 엘에스로91번길 16-39안양IT밸리 501호 TEL:070-4858-6190 Email:best_awards@naver.com
+</td></tr></table></div><div id=maillinkFileAttachment>
+<table style='margin-top:2px;width:550px;' border=0 cellspacing=1 bgcolor=#bebebe>
+<tr><td width=18% height=30 bgcolor=#dedede style='text-align:center; font-family:dotum; font-size:12px; color:#787878;'>첨부파일</td>
+<td width=82% bgcolor=#ffffff align=right style='padding-right:10px;'><img src='http://www.maillink.co.kr/images/icn_attach2.gif' border=0 align=absmiddle><a href="http://track.maillink.co.kr/procresponse?a=4I-15538336I-45581I-4oaSoZI-4ehhgzE-8D-7D-7gUv3D-6bBSaaSHZD-6oCD-6ZuD-7JCDHmSaPF-3obgHoCJPF-15538336C-8zPqF-11I-3" style="font-family:malgun gothic; font-size:12px; text-decoration:underline;">2020_대한민국베스트브랜드대상_신청서.docx[1188Kbytes]</a></td></tr>
+<tr><td width=18% height=30 bgcolor=#dedede style='text-align:center; font-family:dotum; font-size:12px; color:#787878;'>첨부파일</td>
+<td width=82% bgcolor=#ffffff align=right style='padding-right:10px;'><img src='http://www.maillink.co.kr/images/icn_attach2.gif' border=0 align=absmiddle><a href="http://track.maillink.co.kr/procresponse?a=5I-15538336I-45581I-4oaSoZI-4ehhgzE-8D-7D-7gUv3D-6bBSaaSHZD-6oCD-6ZuD-7JCDHmSaPF-3obgHoCJPF-15538336C-8zPqF-12I-3" style="font-family:malgun gothic; font-size:12px; text-decoration:underline;">2020_대한민국베스트브랜드대상_소개서.pdf[3421Kbytes]</a></td></tr>
+</table></div><img height="1" width="1" border="0" src="https://trs.maillink.co.kr/procresponse?a=2I-15538336I-45581I-4SbBEPI-4I-3" />
+

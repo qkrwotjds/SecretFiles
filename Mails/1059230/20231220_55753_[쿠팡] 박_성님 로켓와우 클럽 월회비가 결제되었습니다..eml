@@ -1,0 +1,332 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1703032921;
+	cv=none; b=mrOiA2mBOsA7J0TvvEZ9iwwyOHqpIv4Kz3080dDdeLhdRWuF3ZCeRkuJs9dz
+	 17VuwUQkGxLFLihpD8PLpLy7uctb6OA2PWp+E2sO9o0OkM1rxh2U7dQSEZh0YUnXvwWkYy
+	 m0wQT1747G6AwCMQkJksG9c6T0V7eu0MQhrok4bEp65jzPw9w9Bma9kkR5e1yTR8YtubK4
+	 vQCQAO4eHR/1kumvLLNUnO57LMgNZIEmI6d5zVQEsnaTpTcCEn7ppbSGep8P3pS6LR0QvS
+	 WZU0rw1uN/DMzrxI30GH7qF4sdAmVmgqFw/RCFm7M6ucjACcMZ4lzkY3CPEEgc942/DBJM
+	 vA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1703032921; c=relaxed/relaxed;
+	bh=yIdbwxjT2on9Mu1hflWGGYbBG8ZnZFKBehCMfRA0xok=;
+	h=date:from:to:message-id:subject; b=QtEnfMOLnZO7VVj/JvGJfoc65Qe3LHe5o0
+	 pUXIiG3gdR63Dwye9U8DIFx9ph09aWmI8fEBDTcrTxNDgtioKa6GV4r+kPz56CvQOSuAsb
+	 CnDDa73kXg9GYgheWqlIeAmqvZLiLdrZMxbYRTxy3EzSrqBQyVWt3JzoytysL44Fy2ejiK
+	 xZ2zMUlFV4KEEaruq91H9Q7tmOFdngme5m+VJpJArlfieArrXATPo8WOuwBii+yYAmmWXP
+	 lmt0H2bJ5qM6otkl9GX9UNIHGqRqa3/jy7ZafhEUFEnJaFM3xXyx/B+rj6ND7vGHa80dkE
+	 vtg88A0zrXyvZl/shgLBJLbM+OaQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.32.5 as permitted sender) smtp.mailfrom=no_reply@coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=coupang.com
+Return-Path: <no_reply@coupang.com>
+Received-SPF: pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.32.5 as permitted sender)
+  client-ip=103.132.32.5; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.32.5 as permitted sender) smtp.mailfrom=no_reply@coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=coupang.com
+X-Naver-ESV: weRn+6J4p63CbHmwKBwdbXFYKAgdKogmjJ+Y
+X-Session-IP: 103.132.32.5
+Received: from smtp501.toastcloud.com (smtp501.toastcloud.com [103.132.32.5])
+  by crcvmail204.nm.naver.com with ESMTP id sWxUFH50TQGapHMzcyhERA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Wed, 20 Dec 2023 00:42:00 -0000
+Received: from [10.161.51.21] (HELO mmsa-batchcou-p1902.svr.toastmaker.net)
+ ([10.161.51.21]) by smtp501.toastcloud.com with SMTP id 02e92fee65823858;
+ Wed, 20 Dec 2023 09:42:00 +0900
+Date: Wed, 20 Dec 2023 09:42:00 +0900 (KST)
+From: =?UTF-8?B?7L+g7Yyh?= <no_reply@coupang.com>
+To: 1059230@naver.com
+Message-ID: <20231220094157pCsMAgL0@mmsa-batchcou-p1902>
+Subject: =?UTF-8?B?W+y/oO2MoV0g67CVKuyEseuLmCDroZzsvJPsmYDsmrAg?=
+ =?UTF-8?B?7YG065+9IOyblO2ajOu5hOqwgCDqsrDsoJzrkJjsl4jsirXri4jri6Qu?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Return-Allow: true
+X-Toast-Seq: 0
+
+<!DOCTYPE html>
+<html lang=3D"ko">
+<head>
+    <meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>=EB=A1=9C=EC=BC=93=EC=99=80=EC=9A=B0=ED=81=B4=EB=9F=BD =EC=9B=94=
+=ED=9A=8C=EB=B9=84 =EA=B2=B0=EC=A0=9C=EB=82=B4=EC=97=AD</title>
+    <style type=3D"text/css">
+
+        div[class*=3D"btn-link"] a[href]:link {
+            color: #111111 !important;
+        }
+
+        div[class*=3D"btn-link"] a[href]:visited {
+            color: #111111 !important;
+        }
+
+        @media screen and (max-width: 360px) {
+            div[class*=3D"coupang-logo"] {
+            }
+
+            div[class*=3D"btn-link"] {
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+
+            div[class*=3D"btn-link"] a {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body style=3D"margin: 0px">
+<div style=3D"box-sizing: border-box;
+             min-width:320px;
+             max-width: 640px;
+             margin:0px;
+             color: #111111;
+             font-family:'Apple SD Gothic Neo';
+             font-size: 14px;">
+    <div class=3D"main" style=3D"box-sizing: border-box;
+                            margin-top: 60px;
+                            margin-left: 24px;
+                            margin-right: 24px;
+                            margin-bottom: 40px;">
+        <div class=3D"logos" style=3D"box-sizing: border-box;
+                                        margin-top: 60px;
+                                        margin-bottom: 16px;">
+            <div class=3D"coupang-logo" style=3D"display: inline-block;
+                                             padding-right: 8px;
+                                             border-right: solid 1px #eeeee=
+e;
+                                             height: 17px;">
+                <a href=3D"https://www.coupang.com" style=3D"box-sizing: bo=
+rder-box;">
+                    <img src=3D"https://image12.coupangcdn.com/image/coupan=
+g/common/logo_coupang_w350.png" alt=3D"coupang"
+                         style=3D"box-sizing: border-box; width: 70px;"/>
+                </a>
+            </div>
+            <div class=3D"rocket-wow-club" style=3D"display: inline-block;
+                                                padding-left: 9px;
+                                                height: 17px;">
+                <a href=3D"https://coupa.ng/bhr8KQ" style=3D"box-sizing: bo=
+rder-box;">
+                    <img src=3D"https://static.coupangcdn.com/image/coupang=
+/loyalty/icons/icon_rocket_wow_email_v1.png" alt=3D"coupang" style=3D"box-s=
+izing: border-box; width: 65px;"/>
+                </a>
+            </div>
+        </div>
+        <div class=3D"title" style=3D"box-sizing: border-box;
+                                        margin-bottom: 24px;
+                                        font-size: 32px;
+                                        line-height: 1.5;
+                                        color: #555555;">
+            <span style=3D"box-sizing: border-box;color: #346aff;">=EC=9B=
+=94=ED=9A=8C=EB=B9=84 =EA=B2=B0=EC=A0=9C=EB=82=B4=EC=97=AD=EC=9D=84 </span>=
+<br>
+            <span style=3D"box-sizing: border-box;">=ED=99=95=EC=9D=B8=ED=
+=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.</span>
+        </div>
+        <hr style=3D"margin: 0px;border: 0.5px solid #eeeeee;">
+        <table class=3D"receipt" style=3D"box-sizing: border-box;
+                                            width: 100%;
+                                            border-width: 0px;
+                                            border-collapse: separate;
+                                            margin-top: 32px;
+                                            margin-bottom: 35px;
+                                            padding-left: 8px;
+                                            padding-right: 8px;
+                                            border-collapse: separate;
+                                            border-spacing: 0;">
+            <thead style=3D"box-sizing: border-box">
+            <tr style=3D"box-sizing: border-box;height: 32px;">
+                <th style=3D"box-sizing: border-box;
+                                text-align: left;
+                                font-weight: bold;
+                                line-height: 1.4;
+                                border-bottom: 1px solid #888888;
+                                padding: 0px;">=EA=B2=B0=EC=A0=9C =EC=A0=95=
+=EB=B3=B4
+                </th>
+                <th style=3D"box-sizing: border-box;
+                                text-align: left;
+                                font-weight: bold;
+                                line-height: 1.4;
+                                border-bottom: 1px solid #888888;
+                                padding: 0px;"></th>
+            </tr>
+            </thead>
+            <tbody style=3D"box-sizing: border-box;">
+            <tr style=3D"box-sizing: border-box;height: 44px;">
+                <td style=3D"box-sizing: border-box;padding: 0px;width: 80p=
+x;padding-top: 12px;">=EA=B2=B0=EC=A0=9C=EA=B8=88=EC=95=A1</td>
+                <td style=3D"box-sizing: border-box;padding: 0px;width: aut=
+o;padding-top: 12px;">4,990=EC=9B=90
+                </td>
+            </tr>
+            <tr style=3D"box-sizing: border-box;height: 32px;">
+                <td style=3D"box-sizing: border-box;padding: 0px;width: 80p=
+x;">=EA=B2=B0=EC=A0=9C=EC=88=98=EB=8B=A8</td>
+                <td style=3D"box-sizing: border-box;padding: 0px;width: aut=
+o;">=EC=BF=A0=ED=8E=98=EC=9D=B4(=EC=B9=B4=EB=93=9C) / NH=EB=86=8D=ED=98=91=
+=EC=B1=84=EC=9B=80 BAZIC(...</td>
+            </tr>
+            <tr style=3D"height: 40px;">
+                <td style=3D"box-sizing: border-box;
+                                padding: 0px;
+                                width: 80px;
+                                border-bottom: 1px solid #888888;
+                                padding-bottom: 8px;">=EC=A0=81=EC=9A=A9=EA=
+=B8=B0=EA=B0=84
+                </td>
+                <td style=3D"box-sizing: border-box;
+                                padding: 0px;
+                                width: auto;
+                                border-bottom: 1px solid #888888;
+                                padding-bottom: 8px;">
+                    2023. 12. 20 ~ 2024. 01. 19
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div class=3D"benefits" style=3D"box-sizing:border-box;">
+            <p style=3D"font-size: 14px;
+                          font-weight: bold;
+                          font-style: normal;
+                          font-stretch: normal;
+                          line-height: 1.5;
+                          letter-spacing: normal;
+                          color: #111111;
+                          padding-left: 8px;
+                          padding-right: 8px;
+                        ">=EB=A1=9C=EC=BC=93=EC=99=80=EC=9A=B0=ED=81=B4=EB=
+=9F=BD =ED=98=9C=ED=83=9D</p>
+            <div class=3D"benefits-content" style=3D"box-sizing:border-box;=
+">
+                <!--make sure below should wrap as one single line in sourc=
+e code, otherwise it will break with display:inline-block with percentage w=
+idth-->
+                <div style=3D"box-sizing: border-box; width: 48%; display: =
+inline-block;text-align: center"><div class=3D"benefit-responsive" style=3D=
+"box-sizing:border-box; min-width: 110px; display: inline-block; width: 48%=
+"><div class=3D"benefit-item" style=3D"width: 100%;max-width: 144px;height:=
+ 146px; margin-top: 24px; margin-bottom: 32px;margin-left: auto;margin-righ=
+t: auto; text-align: center;"><img src=3D"https://static.coupangcdn.com/ima=
+ge/coupang/loyalty/icons/icon_shipping_threshold_email_v1.png" alt=3D"=EB=
+=A1=9C=EC=BC=93=EC=83=81=ED=92=88 100% =EB=AC=B4=EB=A3=8C=EB=B0=B0=EC=86=A1=
+" style=3D"width:88px; height: 88px; alignment: center;"><p style=3D"font-w=
+eight: normal; font-style: normal; font-stretch: normal; line-height: 1.5; =
+letter-spacing: normal; text-align: center; margin-top: 16px; margin-bottom=
+: 0px; color: #111111;">=EB=A1=9C=EC=BC=93=EC=83=81=ED=92=88<br>100% =EB=AC=
+=B4=EB=A3=8C=EB=B0=B0=EC=86=A1</p></div></div><div class=3D"benefit-respons=
+ive" style=3D"box-sizing:border-box; min-width: 110px; display: inline-bloc=
+k; width: 48%"><div class=3D"benefit-item" style=3D"width: 100%;max-width: =
+144px;height: 146px; margin-top: 24px; margin-bottom: 32px;margin-left: aut=
+o;margin-right: auto; text-align: center"><img src=3D"https://static.coupan=
+gcdn.com/image/coupang/loyalty/icons/icon_sameday_delivery_email_v1.png" al=
+t=3D"=EC=95=84=EC=B9=A8=EC=A3=BC=EB=AC=B8 =EC=A0=80=EB=85=81=EB=8F=84=EC=B0=
+=A9" style=3D"width:88px; height: 88px; alignment: center;"><p style=3D"fon=
+t-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.=
+5; letter-spacing: normal; text-align: center; margin-top: 16px; margin-bot=
+tom: 0px; color: #111111;">=EC=95=84=EC=B9=A8=EC=A3=BC=EB=AC=B8<br>=EC=A0=
+=80=EB=85=81=EB=8F=84=EC=B0=A9</p></div></div></div><div style=3D"box-sizin=
+g: border-box; width: 48%; display: inline-block;text-align: center"><div c=
+lass=3D"benefit-responsive" style=3D"box-sizing:border-box; min-width: 110p=
+x; display: inline-block; width: 48%"><div class=3D"benefit-item" style=3D"=
+width: 100%;max-width: 144px;height: 146px; margin-top: 24px; margin-bottom=
+: 32px;margin-left: auto;margin-right: auto; text-align: center"><img src=
+=3D"https://static.coupangcdn.com/image/coupang/loyalty/icons/icon_fresh_pr=
+oduct_email_v1.png" alt=3D"=EC=8B=A0=EC=84=A0=EC=8B=9D=ED=92=88 =EC=83=88=
+=EB=B2=BD=EB=B0=B0=EC=86=A1" style=3D"width:88px; height: 88px; alignment: =
+center;"><p style=3D"font-weight: normal; font-style: normal; font-stretch:=
+ normal; line-height: 1.5; letter-spacing: normal; text-align: center; marg=
+in-top: 16px; margin-bottom: 0px; color: #111111;">=EC=8B=A0=EC=84=A0=EC=8B=
+=9D=ED=92=88<br>=EC=83=88=EB=B2=BD=EB=B0=B0=EC=86=A1</p></div></div><div cl=
+ass=3D"benefit-responsive" style=3D"box-sizing:border-box; min-width: 110px=
+; display: inline-block; width: 48%"><div class=3D"benefit-item" style=3D"w=
+idth: 100%;max-width: 144px;height: 146px;margin-top: 24px; margin-bottom: =
+32px;margin-left: auto;margin-right: auto; text-align: center"><img src=3D"=
+https://static.coupangcdn.com/image/coupang/loyalty/icons/icon_free_return_=
+email_v1.png" alt=3D"=EB=A1=9C=EC=BC=93=EC=83=81=ED=92=88 30=EC=9D=BC =EB=
+=AC=B4=EB=A3=8C=EB=B0=98=ED=92=88" style=3D"width:88px; height: 88px; align=
+ment: center;"><p style=3D"font-weight: normal; font-style: normal; font-st=
+retch: normal; line-height: 1.5; letter-spacing: normal; text-align: center=
+; margin-top: 16px; margin-bottom: 0px; color: #111111;">=EB=A1=9C=EC=BC=93=
+=EC=83=81=ED=92=88<br>30=EC=9D=BC =EB=AC=B4=EB=A3=8C=EB=B0=98=ED=92=88</p><=
+/div></div></div>
+            </div>
+        </div>
+        <div class=3D"btn-link" style=3D"margin-top: 32px;">
+            <p style=3D"box-sizing: border-box;
+                                                text-align: center;
+                                                margin-left: auto;
+                                                margin-right: auto;
+                                                border-radius: 2px;">
+                <a href=3D"https://coupa.ng/bhr8KQ" target=3D"_blank" style=
+=3D"box-sizing: border-box;font-weight: bold;
+                                                                           =
+                             text-align: center;
+                                                                           =
+                             border-image-width: 0px;
+                                                                           =
+                             background-color: white;
+                                                                           =
+                             border: 1px solid #aaaaaa;
+                                                                           =
+                             text-decoration: none;
+                                                                           =
+                             border-radius: 2px;
+                                                                           =
+                             padding: 10px 80px 9px 81px;
+                                                                           =
+                             line-height: 21px;
+                                                                           =
+                             font-size: 14px;
+                                                                           =
+                             color: #111111;
+                                                                           =
+                             cursor: pointer;
+                                                                           =
+                             display: inline-block;">
+                    =ED=98=9C=ED=83=9D =EC=9E=90=EC=84=B8=ED=9E=88=EB=B3=B4=
+=EA=B8=B0
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class=3D"footer" style=3D"box-sizing: border-box;
+                                font-size: 12px;
+                                color: #555555;
+                                background-color: #dddddd;
+                                padding: 32px 36px;
+                                line-height: 1.5;">
+        <p style=3D"box-sizing: border-box;margin:0 0 18px 0;">=EB=B3=B8 =
+=EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9C=BC=
+=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=
+=EB=8B=A4. =EB=AC=B8=EC=9D=98=EB=8A=94 =EC=BF=A0=ED=8C=A1 > =EA=B3=A0=EA=B0=
+=9D=EC=84=BC=ED=84=B0 > 1:1 =EB=AC=B8=EC=9D=98=EB=A5=BC =EC=9D=B4=EC=9A=A9=
+=ED=95=B4 =EC=A3=BC=EC=8B=9C=EA=B8=B0
+            =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.<br>
+            =EC=BF=A0=ED=8C=A1=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 =EC=9A=
+=B4=EC=98=81=EC=8B=9C=EA=B0=84 : 365=EC=9D=BC 24=EC=8B=9C=EA=B0=84 =EC=9A=
+=B4=EC=98=81</p>
+        <p style=3D"box-sizing: border-box;margin: 18px 0 0 0;">
+            =EC=BF=A0=ED=8C=A1(=EC=A3=BC) | =EB=8C=80=ED=91=9C=EC=9D=B4=EC=
+=82=AC : =EA=B0=95=ED=95=9C=EC=8A=B9, =EB=B0=95=EB=8C=80=EC=A4=80 | =EC=82=
+=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 :120-88-00767<br>
+            =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0=
+: 2017-=EC=84=9C=EC=9A=B8=EC=86=A1=ED=8C=8C-0680<br>
+            =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=86=A1=ED=8C=8C=EA=B5=AC =EC=86=
+=A1=ED=8C=8C=EB=8C=80=EB=A1=9C 570 | =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 :=
+ 1577-7011 | FAX : 02-3441-7011
+        </p>
+    </div>
+</div>
+</body>
+</html>
+<img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' src=3D'h=
+ttps://email.api.nhncloudservice.com/email/v1.0/collectors/readCheck/oxQ_MU=
+b-8N5yFIMe8XZrK13gBoySZvXp17aeiQoQTag?ext=3Dimg.gif' loading=3D'eager'/>
+

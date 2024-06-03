@@ -1,0 +1,2710 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1636687187;
+	cv=none; b=flI2wDrYff3Adp9VB6+3QZvwrujjYwsoBsTIeAC90qaAtYQs/98sdc1d+/aY
+	 xtZAH0rW0AP5tsJLlLvH9ppoTAtMR7aDhPL4u75QQCdqjLlXfeV4FvYhxitzFbwthggPHP
+	 NrA//SZslyphkyyOjU+0r/rxD/D2vXi+8gljiBu5GD6gOevsr+IIR20tu40BtAyqOqo9PS
+	 jjlQweXbtuJbqxvyNwZPtvH2G/AltZStvhqrrSMOdLgS8FYjapJHLma///c6R9pwk9SXmZ
+	 xsiMxIQrnq5cZ7pVdzrDym0iSGA3Jlhk2JRRtoDo0OhYx1zmz8k2OmMmDL95TciwIR5hwR
+	 Jw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1636687187; c=relaxed/relaxed;
+	bh=ivFB/9E17286L7rocUXRpVzqnxQpAiKgnX0VskeUgYA=;
+	h=dkim-signature:dkim-signature:date:from:to:message-id:subject; b=j0y8
+	 NiwrZcXt3XZQXVpxMcUaI56upc/YrqRUZslstSvwA3FAPDVOglPJ40j9hQw9YK33Qw/PvB
+	 tQBqZb37BfSG/gDIToBqrA68DEIVDXcN3V/NCvKko2JTULWUpij+G+yZUvuZh9hJQHCE7C
+	 C4lVqX5VfPPsf0RO5kIzJliiDyLULDqHnb/dt3mxSBieqTs4W80XZBRXXADwfzyXWFDBO6
+	 mTWD9MoaIhSnOF/DDThNWz88bbrl2Uj2mX03AoX+zIjA1h3SICnCVj6zHmESYFaHbYL9Jp
+	 01/Y2IJZYhp6ZBtN17r8xFgrLsaQHxecX6evDJSzVtMIhwr/m7s6owdXOA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com designates 54.240.14.118 as permitted sender) smtp.mailfrom=0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com;
+  dkim=pass header.i=@netflix.com;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=netflix.com
+Return-Path: <0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com>
+Received-SPF: pass (mx.naver.com: domain of 0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com designates 54.240.14.118 as permitted sender)
+  client-ip=54.240.14.118; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com designates 54.240.14.118 as permitted sender) smtp.mailfrom=0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@mailer.netflix.com;
+  dkim=pass header.i=@netflix.com;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=netflix.com
+X-Naver-ESV: wZRn+6J4p63CbHmqKBwdbXFYKAKwaxtXjJ+Y
+X-Session-IP: 54.240.14.118
+Received: from a14-118.smtp-out.amazonses.com (a14-118.smtp-out.amazonses.com [54.240.14.118])
+  by crcvmail203.nm.naver.com with ESMTP id GKAGFwPbTYCfOGMIca-ixQ
+  for <1059230@naver.com>;
+  Fri, 12 Nov 2021 03:19:47 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=emotixlbezkp6gpvmko5lunmgwd5syff; d=netflix.com; t=1636687185;
+	i=@mailer.netflix.com;
+	h=Date:From:Sender:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe;
+	bh=CnC9qVMFLDtO6MCq3uBGCE7mmbvCAjNySA8XuDpjn5A=;
+	b=W3gTgxkC12I9smDVUPqtefX9CXEHKU9nLhEG/KibIE6ix/Z3WkxqL7hZAIOwJLUi
+	l+8oQD+rxkrfqABDjVub2c8ecdZqsR8JXz8yztZlAGjU3sT2aQqRhU/r1QILFWW/osC
+	BD340LmLanFBH+4ac94oID9MjByUWTtnhxwnxVaY=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1636687185;
+	h=Date:From:Sender:To:Message-ID:Subject:MIME-Version:Content-Type:List-Unsubscribe:Feedback-ID;
+	bh=CnC9qVMFLDtO6MCq3uBGCE7mmbvCAjNySA8XuDpjn5A=;
+	b=dWGIqP/3BTMFB7VmOfDnzE6lprl6GTaWsDIMS6toKSrj+JumflZcYoZrjfxqiUed
+	iiriuGi7LtT6aCnrxTU6JNrBMpdJQ8hHk6KSn5U2LdbZ/htrMrHdKeQirLNLT4pAeyi
+	8spONEuHk8pvfBAynmS8QPjahtjyEd/bWgAwD3fs=
+Date: Fri, 12 Nov 2021 03:19:45 +0000
+From: =?UTF-8?B?64S37ZSM66at7IqkIO2CpOymiCAmIO2MqOuwgOumrA==?= <info@mailer.netflix.com>
+Sender: =?UTF-8?B?64S37ZSM66at7IqkIO2CpOymiCAmIO2MqOuwgOumrA==?= <info@mailer.netflix.com>
+To: 1059230@naver.com
+Message-ID: <0100017d12288796-b6bb03c3-6dd3-47bb-91fd-7b2a94fe8abb-000000@email.amazonses.com>
+Subject: =?utf-8?B?7YKk7KaIIOyXheuNsOydtO2KuDog7IaM7Jyg7ZWY66Oo?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_122562_526906054.1636687185755"
+X-To: 1059230@naver.com
+Precedence: bulk
+X-AppInfo: Netflix Mercury S s.7c7a22d.6628
+X-ProcEnc: BQAtAAEBEBtXOllOdpPWkGYsGaJljvsg8wbeCZSUniyGNDWEL5jFowxplVrJ8UANbltO/fY4Awc=
+X-MailingID: mercury::LOW_RISK::16615::CFE5A27FDE346FBE02D53A7317EF568B64558C73::CEC0E72175AB82A48ECE688F34326B29645296E0::<17D1228875C@netflix.com>
+X-GroupId: 4
+X-localeCountry: ko::KR
+X-ProcInfo: mercuryfigment::mercuryfigment::mercuryecsqs::mercuryecsqs-figment-i-0fa73b31e2b662fa6::mercurymp-engagement5-i-01ab30c8971ed3edb::00:10:04:30.669
+X-EvCacheKey: 16615.EMAIL.EMAIL_KIDS_ACTIVITY_REPORT.-0005.-5.ko.KR
+X-Version: 3302
+List-Unsubscribe: <mailto:N0pLNlNCQ0tVRkROWkpRTTU2VDI3TTdPU1lCQTcw@unsubscribe.netflix.com>, <https://www.netflix.com/EmailUnsubscribe?id=BQE0AAEBEF%2F6w48Uzbz7C8Yy5OeA6XmAkEHp5tCkKRoEkAMWSO4RMgWu0%2BlTofLAezvQA1Evd9urHL5Uv6DaV8ekp4j7ep2KvaDzv9cscGEjGOYvjH%2BbF1uuEL8jxlykO1e5ls1tWyu1awUzO%2Bh9WIKJBkFzTB0VrJvg6gPPpi8F22KllxcznGO%2FaM7SsPfdFE6dPjSHu4H92%2FbVT9A%2FI3NPhVpUz3mCFQ%3D%3D&lnktrk=EMP&g=CEC0E72175AB82A48ECE688F34326B29645296E0&lkid=unsubscribe_link>
+Feedback-ID: 1.us-east-1.TW2kQXBPKzEfHzcyZOUFPUd4i/tuZQjQCCDIsBA/Brk=:AmazonSES
+X-SES-Outgoing: 2021.11.12-54.240.14.118
+
+------=_Part_122562_526906054.1636687185755
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+=EC=95=84=EC=9D=B4=EB=93=A4=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A0 =EB=A7=8C=
+=ED=95=9C =EC=BD=98=ED=85=90=EC=B8=A0 =EC=B6=94=EC=B2=9C=EC=9D=80 =EB=8D=A4=
+!=20
+
+
+ =F0=9F=99=82 =EB=8B=98=EC=9D=84 =EC=9C=84=ED=95=9C =EC=B6=94=EC=B2=9C =EC=
+=BD=98=ED=85=90=EC=B8=A0
+ =20
+
+ =EB=84=B7=ED=94=8C=EB=A6=AD=EC=8A=A4 =ED=82=A4=EC=A6=88 =EC=97=85=EB=8D=B0=
+=EC=9D=B4=ED=8A=B8
+=20
+
+
+
+=20
+
+=EC=86=8C=EC=9C=A0=ED=95=98=EB=A3=A8 =EB=8B=98=EC=9D=B4 =EB=8B=A4=EC=9D=8C=
+=EC=97=90 =EC=8B=9C=EC=B2=AD=ED=95=A0 =EC=BD=98=ED=85=90=EC=B8=A0=EB=A5=BC =
+=EC=84=A0=ED=83=9D=ED=95=98=EB=8F=84=EB=A1=9D =EB=8F=84=EC=99=80=EC=A3=BC=
+=EC=84=B8=EC=9A=94.
+
+=EC=8A=A4=ED=81=AC=EB=A1=A4=ED=95=98=EC=97=AC =EC=9E=90=EB=85=80=EA=B0=80 =
+=EC=A2=8B=EC=95=84=ED=95=A0 =EB=A7=8C=ED=95=9C =EB=A7=9E=EC=B6=A4 =EC=BD=98=
+=ED=85=90=EC=B8=A0=EB=A5=BC =EC=B0=BE=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94.
+
+
+=EC=A6=90=EA=B2=A8 =EC=B0=BE=EB=8A=94 =EC=A3=BC=EC=A0=9C
+
+=EB=8B=A4=EC=9D=8C=EC=9D=80 =EC=86=8C=EC=9C=A0=ED=95=98=EB=A3=A8 =EB=8B=98=
+=EC=9D=B4 =EC=A7=80=EA=B8=88=EA=BB=8F =EC=8B=9C=EC=B2=AD=ED=95=9C =EC=BD=98=
+=ED=85=90=EC=B8=A0=EC=9D=98 =EA=B3=B5=ED=86=B5 =EC=A3=BC=EC=A0=9C=EC=9E=85=
+=EB=8B=88=EB=8B=A4.
+
+
+
+=ED=91=BC=EC=88=98 =EC=BA=90=EB=A6=AD=ED=84=B0
+80.0%
+
+
+
+=EC=9A=B0=EC=A0=95=EC=9D=80 =EB=82=98=EC=9D=98 =ED=9E=98
+56.67850799000%
+
+
+
+
+
+=EC=A0=95=EA=B8=80=EC=9D=98 =EB=B2=95=EC=B9=99
+50.0%
+
+
+
+
+
+
+
+=EC=B5=9C=EA=B7=BC =EB=B3=B8 =EC=BD=98=ED=85=90=EC=B8=A0
+
+
+=EB=9D=BC=EB=B0=94 =EC=95=84=EC=9D=BC=EB=9E=9C=EB=93=9C
+https://www.netflix.com/title/80994666?trkid=3D13710079&MSG_TITLE=3D8099466=
+6&lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&lkid=3DTOP_THEM=
+ES_TITLE2_TEXT
+
+
+
+
+
+
+=EB=8D=94 =EB=A7=8E=EC=9D=80 =ED=91=BC=EC=88=98 =EC=BA=90=EB=A6=AD=ED=84=B0=
+ =EC=BD=98=ED=85=90=EC=B8=A0
+
+=EA=B0=80=EC=9E=A5 =EC=A2=8B=EC=95=84=ED=95=98=EB=8A=94 =EC=A3=BC=EC=A0=9C=
+=EC=9D=98 =EC=8B=A0=EA=B7=9C =EC=BD=98=ED=85=90=EC=B8=A0=EC=97=90=EB=8A=94 =
+=EC=96=B4=EB=96=A4 =EA=B2=83=EB=93=A4=EC=9D=B4 =EC=9E=88=EB=8A=94=EC=A7=80 =
+=EC=86=8C=EC=9C=A0=ED=95=98=EB=A3=A8 =EB=8B=98=EC=97=90=EA=B2=8C =EC=86=8C=
+=EA=B0=9C=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94.
+
+=20
+
+
+=EC=9C=84 =EB=B2=A0=EC=96=B4 =EB=B2=A0=EC=96=B4=EC=8A=A4: =EA=B3=B0 =EB=B8=
+=8C=EB=9D=BC=EB=8D=94=EC=8A=A4
+https://www.netflix.com/title/80116921?trkid=3D13710079&MSG_TITLE=3D8011692=
+1&lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&lkid=3DTWO_UP_T=
+ITLE1_MDP_TEXT
+
+
++=C2=A0=EB=AA=A9=EB=A1=9D - https://www.netflix.com/add/80116921?msg_token=
+=3DEQIAmQABAYEAcrRWjj77NBfV1CZC0bOgxmgLssFKQ4exTPUL9wzqNpZQeQueQsDqLi0MDKZt=
+%2F%2BEJt3vft42ZYwhQkqnpPAnaX8wnUI39zWnpw4Vo6C7anj37QScbwL%2Bb5lzD27jBBPjjD=
+NNExDGCvS0c5nKc%2ByM5yVKPa9h%2BYAtKyy4uJprtLhJ0Dn5fTpglj512fT66aeAf31mmToIe=
+Ife0hVBQEffTJNvtonKQdqwRZZcCgTT6%2Fb6aBMBKMGXpGNAPGJTCwnwNsSSsDi%2Be%2F8E3V=
+ueFcqY7Fix8RTZkOCP4dyltg9Nakv9%2B%2FIeSZdVwsyaD5fYKS7XltRwkbpvmlPLyv%2BcotG=
+w8mnbePkY%3D&trkid=3D13710079&MSG_TITLE=3D80116921&lnktrk=3DEMP&g=3DCEC0E72=
+175AB82A48ECE688F34326B29645296E0&lkid=3DTWO_UP_TITLE1_ADD_TEXT&pid=3D75G75=
+ZGOLBEKLORCC3H43H3FGE
+
+
+=EB=BF=8C=EA=B9=8C
+https://www.netflix.com/title/81224811?trkid=3D13710079&MSG_TITLE=3D8122481=
+1&lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&lkid=3DTWO_UP_T=
+ITLE2_MDP_TEXT
+
+
++=C2=A0=EB=AA=A9=EB=A1=9D - https://www.netflix.com/add/81224811?msg_token=
+=3DEQIAmQABAYEAHNd%2FekE5Bq7Rf18EBkIAzrkMHxi%2BFEWcO5sMgfOaki82R%2FntRl2Y40=
+hOAjqEC8PPASeJJsOBjf5Sq5gOcGow%2BTGWIte86bc3MKUQ04tR03srNYDOkqUILhPAsDYoY4a=
+MaFq757lY9j7tcTX8tSfwFYx%2BxbGc05Vq2kV5fz9%2FXCYQ1YdMX0lngJEXsYDbnONopsajrV=
+1c1LCEhDxB%2FHTwONMnpCWNYXTBNpozMfWW5voaFumpXmB5X0xsQdWVZ3RDgMrn4%2BkquBIuS=
+7qDVgcsv0OF9VbpRV85jhmjnS5PpOg2qpTac40%2FVvGRwUO%2FcBu9PwEZpBH6Hd2QTPt6Dedr=
+7RTVFLw%3D&trkid=3D13710079&MSG_TITLE=3D81224811&lnktrk=3DEMP&g=3DCEC0E7217=
+5AB82A48ECE688F34326B29645296E0&lkid=3DTWO_UP_TITLE2_ADD_TEXT&pid=3D75G75ZG=
+OLBEKLORCC3H43H3FGE
+
+
+
+=20
+=20
+=20
+=20
+=20
+=20
+=EC=A3=BC=EC=A0=9C =EC=84=A0=ED=83=9D
+
+=EC=A3=BC=EC=A0=9C=EB=A5=BC =EC=84=A0=ED=83=9D=ED=95=B4 =EA=B4=80=EB=A0=A8 =
+TV =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=A8=EA=B3=BC =EC=98=81=ED=99=94=EB=A5=
+=BC =EC=B0=BE=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94.
+
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=EC=9A=B0=EC=A3=BC
+
+=20
+=20
+=20
+=20
+=EB=A7=90=ED=95=98=EB=8A=94 =EB=8F=99=EB=AC=BC
+
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=EC=98=A4=EC=8B=B9=ED=95=9C =EC=9D=B4=EC=95=BC=EA=B8=B0
+
+=20
+=20
+=20
+=20
+=EC=98=81=EC=9B=85 =EB=8C=80 =EC=95=85=EB=8B=B9
+
+=20
+=20
+
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=EC=98=B7 =EC=9E=98 =EC=9E=85=EB=8A=94 =EC=B9=9C=EA=B5=AC=EB=93=A4
+
+=20
+=20
+=20
+=20
+=EC=84=B8=EC=83=81=EC=97=90 =EC=9D=B4=EB=9F=B0 =EC=9D=BC=EC=9D=B4
+
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+=20
+
+
+
+
+=EC=95=8C=EA=B3=A0 =EA=B3=84=EC=85=A8=EB=82=98=EC=9A=94?
+
+=EC=9E=90=EB=85=80=EB=A5=BC =EC=9C=84=ED=95=B4 =EC=9E=90=EB=8F=99 =EC=9E=AC=
+=EC=83=9D =EA=B8=B0=EB=8A=A5=EC=9D=84 =EC=BC=9C=EA=B1=B0=EB=82=98 =EB=81=8C=
+ =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0, =EA=B3=84=EC=A0=95=EC=9D=98 =EA=B0=
+=81 =ED=94=84=EB=A1=9C=ED=95=84=EB=A7=88=EB=8B=A4 =EB=8B=A4=EB=A5=B4=EA=B2=
+=8C =EC=84=A4=EC=A0=95=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=
+=A4.
+
+=EC=9E=90=EC=84=B8=ED=9E=88 =EB=B3=B4=EA=B8=B0
+https://help.netflix.com/support/2102?lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE=
+688F34326B29645296E0&lkid=3DURL_TIP_TEXT
+
+
+
+-----------------------
+
+
+=EC=A7=88=EB=AC=B8=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0=EA=B0=80=EC=9A=94? =
+080-001-9587=EB=B2=88=EC=9C=BC=EB=A1=9C =EB=AC=B8=EC=9D=98=ED=95=B4 =EC=A3=
+=BC=EC=84=B8=EC=9A=94.
+=EB=84=B7=ED=94=8C=EB=A6=AD=EC=8A=A4=EC=84=9C=EB=B9=84=EC=8B=9C=EC=8A=A4=EC=
+=BD=94=EB=A6=AC=EC=95=84 =EC=9C=A0=ED=95=9C=ED=9A=8C=EC=82=AC
+=EC=88=98=EC=8B=A0 =EA=B1=B0=EB=B6=80: https://www.netflix.com/ManageSubscr=
+iptions?id=3DBQE0AAEBEF%2F6w48Uzbz7C8Yy5OeA6XmAkEHp5tCkKRoEkAMWSO4RMgWu0%2B=
+lTofLAezvQA1Evd9urHL5Uv6DaV8ekp4j7ep2KvaDzv9cscGEjGOYvjH%2BbF1uuEL8jxlykO1e=
+5ls1tWyu1awUzO%2Bh9WIKJBkFzTB0VrJvg6gPPpi8F22KllxcznGO%2FaM7SsPfdFE6dPjSHu4=
+H92%2FbVT9A%2FI3NPhVpUz3mCFQ%3D%3D&g=3DCEC0E72175AB82A48ECE688F34326B296452=
+96E0&mid=3D49539563&lkid=3DURL_UNSUB&lnktrk=3DEMP | =EC=9D=B4=EC=9A=A9 =EC=
+=95=BD=EA=B4=80: https://www.netflix.com/TermsOfUse?lnktrk=3DEMP&g=3DCEC0E7=
+2175AB82A48ECE688F34326B29645296E0&lkid=3DURL_TERMS | =EA=B0=9C=EC=9D=B8=EC=
+=A0=95=EB=B3=B4 =EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8: https://www.netflix.c=
+om/PrivacyPolicy?lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&=
+lkid=3DURL_PRIVACY | =EA=B3=A0=EA=B0=9D =EC=84=BC=ED=84=B0: https://help.ne=
+tflix.com/help?lnktrk=3DEMP&g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&lk=
+id=3DURL_HELP_3
+
+=EB=B3=B8 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=80 =EB=84=B7=ED=94=8C=EB=A6=AD=
+=EC=8A=A4=EC=97=90=EC=84=9C [1059230@naver.com] =EC=A3=BC=EC=86=8C=EB=A1=9C=
+ =EB=84=B7=ED=94=8C=EB=A6=AD=EC=8A=A4&nbsp;=ED=9A=8C=EC=9B=90=EB=8B=98=EA=
+=BB=98 =EB=B0=9C=EC=86=A1=ED=95=9C =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9E=85=EB=
+=8B=88=EB=8B=A4.
+SRC: 16615_ko_KR
+
+
+------=_Part_122562_526906054.1636687185755
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www=
+.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:o=3D"urn:schemas-microso=
+ft-com:office:office" style=3D"padding:0;margin:0;background-color:rgb(251,=
+ 251, 251);margin-top:0;">
+ <head>=20
+  <meta http-equiv=3D"Content-Type" content=3D"text/html charset=3DUTF-8">=
+=20
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">=20
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=20
+  <meta name=3D"format-detection" content=3D"telephone=3Dno">=20
+  <style type=3D"text/css">
+     =20
+  /* START ENVELOPE CSS */
+ =20
+  @media (max-width: 500px) {
+    /* Gmail iOS hack */
+    u + .body .inbox-fix, u + .body .content-shell-table,
+    u + .body .footer-shell-table, u + .body .footer {
+      min-width: calc(100vw - 8.5vw) !important;
+    }
+   =20
+u + .body .content-padding {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
+    .mobile-hide, .ios-hide {
+      display: none !important;
+    }
+    .desktop-hide, .desktop-hide img {
+      display: initial !important;
+    }
+    table.desktop-hide {
+      display: table !important;
+    }
+    .mobile-100w {
+      width: 100% !important;
+    }
+    .mobile-block {
+      display: block !important;
+    }
+    .mobile-left {
+      float: left !important;
+    }
+    .mobile-right {
+      float: right !important;
+    }
+    .mobile-center {
+      margin: 0 auto;
+      text-align: center !important;
+    }
+    .content-padding {
+      padding-left: 5.6% !important;
+      padding-right: 5.6% !important;
+    }
+    .inner-padding {
+      padding-left: 6% !important;
+      padding-right: 6% !important;
+    }
+    .outside-padding {
+      padding-left: 11.199999809265137% !important;
+      padding-right: 11.199999809265137% !important;
+    }
+  }
+
+  /*turn off border for iOS mobile*/
+  @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500=
+px) {
+    .container.main-border {
+      padding: 0 !important;
+    }
+    .content-shell {
+      border: none !important;
+    }
+  }
+
+  .hide, .hide div, .hide table, .hide td, .hide tr, .hide a, .hide img {
+    display: none !important;=20
+    width: 0 !important;=20
+    height: 0 !important;=20
+    max-height: 0 !important;=20
+    line-height: 0 !important;=20
+    mso-hide: all !important;=20
+    overflow: hidden !important;=20
+    visibility: hidden !important;
+  }
+  .pixel img {
+    overflow: hidden;
+    position: fixed;
+    visibility: hidden !important;
+    height: 1px !important;
+    width: 1px !important;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  @media yahoo {
+    table {
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+    table table {
+      table-layout: auto;
+    }
+  }
+  * [data-term] {
+    border-bottom: none !important;
+    pointer-events: none !important;
+  }
+  .ii a {
+    color: inherit !important;
+    text-decoration:none !important;
+  }
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+  table {
+    -wings-cellpadding: 0;
+    -wings-cellspacing: 0;
+    -wings-border: 0;
+    border-spacing: 0;
+  }
+  img {
+    -ms-interpolation-mode: bicubic;
+    border: none;
+    outline: none;
+    border-collapse: collapse;
+  }
+  .empty {
+    font-size: 0;
+    line-height: 0;
+  }
+  .desktop-hide, .desktop-hide img, .desktop-hide-max, .desktop-hide-max im=
+g {
+    display:none;
+    mso-hide:all;
+  }
+  .content-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .inner-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .outer-radius {
+    border-radius: 8px;
+  }
+  .outside-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .inner-radius {
+    border-radius: 4px;
+  }
+  .gmail-fix-no-inline {
+    display:none;
+    display:none !important;
+  }
+  a {
+    color: inherit;
+  }
+  a img {
+    border-style: none;
+  }
+  .hide-link a, .iosnonlink a, .hide-link {
+    text-decoration: none !important;
+    cursor: text;
+  }
+
+  body, .container, html {
+    margin-top: 0;
+  }
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+  /*Color Themes*/
+  body, .container, html, .container-table {
+    background-color: #FBFBFB;
+  }
+  .content-shell-table {
+    background-color: #FBFBFB;
+  }
+
+  /*Below 4 classes dynamically assigned via envelope prop for border*/
+  .container.main-border {
+    padding: 19px 0 20px 0;
+  }
+  .container.main-border .content-shell {
+    border: 2px solid #EAECED;
+    border-radius: 8px;
+  }
+  .container.main-border .content-shell-table {
+    border-radius: 8px;
+  }
+  .container.main-border #gem-footer {
+    border-radius: 0 0 8px 8px;
+  }
+
+ =20
+ =20
+/*envelope styles*/
+/*more styles*/
+.footer-shell-table {
+background-color: #FBFBFB;
+}
+@media (max-width: 499px) {
+.mobile-hide-max, .ios-hide-max {
+display: none !important;
+}
+.inbox-fix {
+display: none;
+}
+.desktop-hide-max, .desktop-hide-max img {
+display: initial !important;
+}
+table.content-shell-table, table.footer-shell-table, .footer {
+width: 100% !important;
+}
+}
+
+  /* END ENVELOPE CSS */
+  .gem-copy-table {
+  width: 100%;
+}
+table.gem-dual-buttons-table a {
+  text-decoration: none;=20
+}
+
+.gem-dual-buttons {
+  border-radius:4px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.gem-button-copy a {
+  text-align:center;
+  display: inline-block;
+}
+
+@media(max-width: 500px) {
+  .gem-button-copy a {
+    padding: 13px 0px !important;
+    width: 100% !important;
+  }
+}
+
+@media(min-width: 501px) {
+  .gem-button-copy a {
+    padding: 13px 40px;
+  }
+}
+.gem-component-image-cell img {display:block;}
+
+@media only screen and (max-width: 500px) {
+
+    .gem-component-image-cell img { width:100% !important; height:auto !imp=
+ortant; }
+}  =20
+
+.karHeaderHeadline { padding: 0px 0px 0px 12px; }
+
+.karHeaderHeadline-rtl { padding: 0px 12px 0px 0px; }
+.gem-header-copy-cell {
+  padding:0 0 3px 0;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  .kar-main-header-icon-cell {
+
+    width:12% !important;
+  }
+
+  .gem-header-copy-cell {
+
+    width:78% !important;
+  }
+
+  .gem-netflix-logo-cell {
+
+    width:10% !important;
+
+  }
+
+
+  .gem-header-copy-cell {
+    padding:0 0 3px 5px !important;
+  }
+}  =20
+
+
+
+.gem-component-social-inner-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);border-radius: 16px 16px=
+ 16px 16px;
+}
+
+.gem-component-social-body-cell { padding-top: 24px; padding-bottom: 24px; =
+}
+
+.karSocialBodyCopy-rtl { padding: 0px 12px 0px 0px; }
+
+.karSocialBodyCopy { padding: 0px 0px 0px 12px; }
+.gem-module-top-themes-outer-body-cell {
+
+}
+
+.gem-module-top-themes-body-cell {=20
+  border-radius: 43px;=20
+  border: 5px solid #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+
+}
+
+.gem-module-top-themes-body-inner-cell {
+
+  border-radius: 43px;=20
+}
+
+
+.gem-module-top-themes-body-copy-cell {
+
+  border-radius: 40px;=20
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+  border: 1px solid #F5F5F5;
+}
+
+.category {
+ =20
+  font-size:11px;
+}
+
+
+.theme-bar-images img {display:block;min-width:32px !important;}
+
+@media only screen and (max-width: 500px) {
+
+    .theme-bar-images img { width:100% !important; height:auto !important; =
+}
+}  =20
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+ =20
+}
+
+.gem-module-theme-picker-body-cell {=20
+  border-radius: 8px;=20
+  border: 1px solid #F5F5F5;
+}
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+
+}
+
+.gem-module-theme-picker-body-cell {=20
+  border-radius: 8px;=20
+  border: 1px solid #F5F5F5;
+}
+
+.gem-single-button.button-1-table {
+  width: 100%;
+}
+.gem-single-button.button-1-text.button-text-light {
+  color: #FFFFFF !important;
+}
+.gem-single-button.button-1-text.button-text-dark {
+  color: #000000 !important;
+}
+.gem-single-button.button-1-text a.button-text-light {
+  color: #FFFFFF !important;
+}
+.gem-single-button.button-1-text a.button-text-dark {
+  color: #000000 !important;
+}
+.gem-single-button.button-1-text {
+  -webkit-border-radius:4px;
+  border-radius:4px;
+  text-decoration: none !important;
+  text-align:center;
+  padding: 13px 0 13px 0;
+  width: 100%;
+}
+a.gem-single-button.button-1-link {
+  text-decoration: none !important;
+}
+
+
+
+@media(max-width: 500px) {
+  .gem-single-button-shell.button-mobile-flex {
+    width: 100%;
+  }
+  .gem-single-button-table {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+  .fixed-button-padding {
+  =09padding-left: 5.6% !important;
+  =09padding-right: 5.6% !important;
+  }
+}
+
+.gem-divider-bar-spacer, .gem-divider-bar, .gem-divider-bar-left-spacer, .g=
+em-divider-bar-left, .gem-divider-bar-full, .gem-divider-bar-full-spacer, .=
+gem-divider-bar-left-custom  {
+  line-height:0;
+  font-size:0;
+}
+
+.gem-divider-bar-spacer, .gem-divider-bar, .gem-divider-bar-left, .gem-divi=
+der-bar-left-spacer, .gem-divider-bar-full  {
+  height: 2px;
+}
+@media yahoo {
+  .gem-divider-bar-spacer, .gem-divider-bar, .gem-divider-bar-left, .gem-di=
+vider-bar-left-spacer, .gem-divider-bar-full  {
+    height: 2px;
+  }
+}
+
+.gem-divider-bar-spacer {
+  width: 45%;
+}
+.gem-divider-bar {
+  width: 10%;
+  border-radius: 10px;
+  box-shadow: 0 15px 10px -15px rgba(34,31,31,0.50);
+}
+
+.gem-divider-bar {
+  width: 10%;
+  border-radius: 10px;
+  box-shadow: 0 15px 10px -15px rgba(34,31,31,0.50);
+}
+.gem-element-round-container {
+  padding: 2px 4px 2px 4px;
+  border-radius:4px; =20
+ =20
+}
+.gem-footer .icon {
+  padding-right: 22px;
+}
+
+.gem-footer .icon.nonMember {
+  padding-bottom: 20px;
+}
+
+.gem-footer .address {
+  padding-bottom: 20px;
+}
+
+.gem-footer .footer-links {
+  padding-bottom: 20px;
+}
+
+#gem-footer .questions {
+  font-family: NetflixSans-Medium,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 500;
+}
+
+.gem-footer .footer-links a {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+#gem-footer .gem-legal, .gem-legal a, #gem-footer .hide-link, #gem-footer .=
+hide-link a,
+#gem-footer .footer-links a, #gem-footer .footer-links,
+#gem-footer .questions, #gem-footer .questions a {
+  color: #A4A4A4;
+}
+
+.gem-legal a {
+  text-decoration: underline;
+}
+
+#gem-footer .address {
+  color: #A4A4A4;
+  text-decoration: none !important;
+  cursor: text;
+}
+
+/*Conditional elements CSS*/
+.gem-legal.legal-top, .gem-legal.legal-bottom {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 499px) {
+  .gem-footer {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .gem-footer .outer-padding {
+    padding: 0  5.6% !important;
+  }
+}
+.gem-module-kar-category-cell-inner-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+}
+
+.gem-module-kar-category-cell-inner-table {
+  border-radius: 0px 0px 16px 16px;
+}
+
+.gem-module-kar-category-body-cell {
+
+  padding-bottom:20px;
+}
+
+.hero-module-subheadline { font-size: 12px !important;}
+
+.hero-module-body-headline { font-size:24px !important; }
+
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+}
+
+.gem-module-kar-hero-cell-inner-table {
+  border-radius: 0px 0px 16px 16px;
+}
+
+.gem-module-kar-hero-body-cell {
+
+  padding-bottom:20px;
+}
+
+.hero-module-subheadline { font-size: 12px !important;}
+
+.hero-module-body-headline { font-size:24px !important; }
+
+
+
+@media only screen and (max-width: 500px) {
+
+  .gem-module-kar-hero-inner-body-cell {
+
+    width: 88% !important;
+  }
+
+}  =20
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+
+}
+
+.gem-module-kar-printable-cell-inner-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border-radius: 16px 16px 0px 0px;
+}
+
+
+.gem-module-kar-printable-cell-inner-table_bottom {
+
+  border-radius: 0px 0px 16px 16px;
+  padding-bottom:20px;
+}
+
+.custom-kar-printable-headline {
+  font-size:24px !important;
+  line-height: 29px !important;
+  letter-spacing: -0.5px !important;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .right-pencil-image img { width:75% !important; height:auto !important; }
+ =20
+  .left-pencil-image img { width:85% !important; height:auto !important; }
+ =20
+  .left-pencil-cell { width: 30% !important; }
+  .right-pencil-cell { width: 30% !important; }
+  .color-page-cell { width: 40% !important; }
+ =20
+  .printable-logo-image img { width:40% !important; height:auto !important;=
+ }
+}=20
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+ =20
+}
+
+.gem-module-theme-picker-body-cell {=20
+  border-radius: 8px;=20
+  border: 1px solid #F5F5F5;
+}
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+ =20
+}
+
+.gem-module-theme-picker-body-cell {=20
+  border-radius: 8px;=20
+  border: 2px solid #F5F5F5;
+}
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+
+}
+
+.gem-module-outer-table {
+  box-shadow: 0px 4px 30px rgba(1, 131, 251, 0.17);
+  border: 1px solid #F5F5F5;
+  border-radius: 16px 16px 16px 16px;
+}
+
+
+.gem-module-outer-body-cell {
+
+  padding-bottom:20px;
+
+}
+
+.spacer {
+  font-size: 0;
+  line-height: 0;
+}
+
+@media (max-width: 500px) {
+  .mobile-block {
+    display: block !important;
+  }
+}
+/**** Global Font Styles ****/
+.gem-h0, .gem-h1, .gem-h2, .gem-h3, .gem-h4, .gem-h5, .gem-h6, .eyebrow, .h=
+0, .h1, .h2, .h3, .h4, .h5 {
+  font-family: NetflixSans-Bold,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.-important .bold, .gem-bold, b {
+  font-family: NetflixSans-Bold,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.gem-p1, .gem-p2, .gem-legal, .gem-p3, .gem-p, .p1, .p2, .p3, .p, .lrg-numb=
+er {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+}
+
+.-important .light, .gem-light {
+  font-family: NetflixSans-Light,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 300;
+}
+
+.-important .medium {
+  font-family: NetflixSans-Medium,Helvetica, Roboto, Segoe UI, sans-serif;
+  font-weight: 700;
+}
+
+.gem-h0, .h0 {
+  font-size: 44px;
+  line-height: 51px;
+  letter-spacing: -1px;
+}
+
+.gem-h1, .h1 {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -1px;
+}
+
+.gem-h2, .h2 {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.75px;
+}
+
+.gem-h3, .h3 {
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.5px;
+}
+
+.gem-h4, .h4 {
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.35px;
+}
+
+.gem-h5, .h5 {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.2px;
+}
+
+.eyebrow {
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: -0.25px;
+}
+
+.gem-p, .p {
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.gem-p1, .p1 {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+}
+
+.gem-p2, .p2 {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: -0.12px;
+}
+
+.gem-legal, .gem-p3, .p3 {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.1px;
+}
+
+.lrg-number {
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 6px;
+}
+
+.italic {
+  font-style: italic; =20
+}
+
+.underline {
+  text-decoration: underline; =20
+}
+.marker{padding:0px 7px 0px 7px;}
+
+@media only screen and (max-width: 480px) {
+
+ =20
+  .marker{padding:5px 7px 5px 7px !important;}
+
+}
+
+ =20
+  /* Add overrides for mobile styles */
+ =20
+  @media screen {@font-face {font-family: NetflixSans-Medium;src: url('http=
+s://assets.nflxext.com/us/email/fonts/NetflixSans-Medium-Opt.woff2');}@font=
+-face {font-family: NetflixSans-Light;src: url('https://assets.nflxext.com/=
+us/email/fonts/NetflixSans-Light-Opt.woff2');}@font-face {font-family: Netf=
+lixSans-Bold;src: url('https://assets.nflxext.com/us/email/fonts/NetflixSan=
+s-Bold-Opt.woff2');}}
+
+    </style>=20
+ </head>=20
+ <body class=3D"body" style=3D"padding:0;margin:0;background-color:rgb(251,=
+ 251, 251);margin-top:0;">=20
+  <!--/* 100% Size Container -->=20
+  <!-- Preview Text -->=20
+  <div class=3D"hide" style=3D"display:none;width:0;height:0;max-height:0;l=
+ine-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">
+   =EC=95=84=EC=9D=B4=EB=93=A4=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A0 =EB=A7=
+=8C=ED=95=9C =EC=BD=98=ED=85=90=EC=B8=A0 =EC=B6=94=EC=B2=9C=EC=9D=80 =EB=8D=
+=A4!
+   <!-- preview text hack -->=20
+   <div class=3D"hide" style=3D"display: none; max-height: 0px; overflow:hi=
+dden;display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;=
+overflow:hidden;visibility:hidden;">
+    &nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=
+=80=8C&nbsp;=E2=80=8C=20
+   </div>
+  </div>=20
+  <!-- End Preview Text -->=20
+  <table class=3D"container-table -important" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;background-col=
+or:rgb(251, 251, 251);">=20
+   <tbody>
+    <tr>=20
+     <td class=3D"container " align=3D"center" style=3D"background-color:rg=
+b(251, 251, 251);margin-top:0;">=20
+      <!--/* Hero + Content -->=20
+      <table class=3D"content-shell-table" width=3D"500" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;background-color:r=
+gb(251, 251, 251);">=20
+       <tbody>
+        <tr>=20
+         <td class=3D"pixel">=20
+          <!--legal_content_footer--> <img src=3D"https://beaconimages.netf=
+lix.net/img/BAQgBEAEa8AJ2THSsgosiINnMMOKPnivW6y_mJmXt8UuTQFSdM84tl0fCdw0SXu=
+ofUG0F4ygo6sICG-L-5ffOXTos9K409CMPOFes5UQtRdsAyOr463GS1ZlCPmvzcBlcCCjnos6Hj=
+m_H_JKTIFrzqiLwl5trhC9Q0OPKJFXPPyUU5NPWQ45EvZtwCx64jNpLYynYDIhaLycl2KDR9v1v=
+NlvHRk3KlCjg0cthVUKuWGQM9fWCHX4YuIb--DC34GU6ZY9ngXeu2umZ852OxAf_3227LHbXzeg=
+jbykuYKQ5izpVHFHfxBuvVY2i12WcOSDO13pdUFzfbQZyY1nwzEzZNaivduuaVXlIgtLPDzvnRS=
+zy9gaIW1dvPtCNbs4O-ZZRRqdvoASAf7u4oxiyuYkF5R33NDX7nfZwOhIaL0HnU26zindlxkY3p=
+L2KfMm6GmwvFK06BeDoMDzQHJvGt7SmS6oMEGzBNM-waskFHXg-8IeGBXhdiesisg.." style=
+=3D"display:block;overflow:hidden;position:fixed;visibility:hidden;height:1=
+px;width:1px;border:0;margin:0;padding:0;-ms-interpolation-mode:bicubic;bor=
+der:none;outline:none;border-collapse:collapse;" border=3D"0"> </td>=20
+        </tr>=20
+        <!--/* Content -->=20
+        <tr>=20
+         <td class=3D"content-shell" align=3D"center">=20
+          <table class=3D"gem-header-table" width=3D"100%" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-header-nflxLogo content-padding" style=3D"pad=
+ding-top:20px;padding-left:20px;padding-right:20px;" align=3D"left" width=
+=3D"100%">=20
+              <table class=3D"gem-header-nflxLogo" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td width=3D"8%" class=3D"gem-netflix-logo-cell"> <a href=
+=3D"https://www.netflix.com/browse?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48EC=
+E688F34326B29645296E0&amp;lkid=3DURL_HOME" target=3D"_blank" style=3D"color=
+:inherit;"><img alt=3D"Netflix" src=3D"https://assets.nflxext.com/us/email/=
+gem/nflx.png" width=3D"24" border=3D"0" style=3D"-ms-interpolation-mode:bic=
+ubic;border:none;outline:none;border-collapse:collapse;border-style:none;">=
+</a> </td>=20
+                 <td class=3D"gem-header-copy-cell" width=3D"82%" style=3D"=
+padding:0 0 3px 0;">=20
+                  <table class=3D"gem-header-wrapper-table" style=3D"paddin=
+g: 0 0 0 0;border-spacing:0;" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0">=20
+                   <tbody>
+                    <tr>=20
+                     <td id=3D"gem-header-copy" class=3D"gem-header-copy ge=
+m-h5" style=3D"color: #000000;font-family:NetflixSans-Bold, Helvetica, Robo=
+to, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;le=
+tter-spacing:-0.2px;"> =F0=9F=99=82 =EB=8B=98=EC=9D=84 =EC=9C=84=ED=95=9C =
+=EC=B6=94=EC=B2=9C =EC=BD=98=ED=85=90=EC=B8=A0 </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td id=3D"gem-header-copy" class=3D"gem-header-copy ge=
+m-p1" style=3D"color: #000000;font-size:14px;line-height:18px;letter-spacin=
+g:-0.25px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-=
+serif;font-weight:300;"> =EB=84=B7=ED=94=8C=EB=A6=AD=EC=8A=A4 =ED=82=A4=EC=
+=A6=88 =EC=97=85=EB=8D=B0=EC=9D=B4=ED=8A=B8 </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                 <td class=3D"kar-main-header-icon-cell" style=3D"" align=
+=3D"center" width=3D"10%">=20
+                  <table class=3D"gem-component-image " width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-component-image-cell _none" align=3D"=
+center" style=3D"padding-top:0px;"> <img src=3D"https://dnm.nflximg.net/api=
+/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABVaI1M31kBDxXt4xQ27Drqf6pHRdzICpeYzme0b=
+3b1qDs_oTV-RInmdsMrNISd6AHqz0BPPEKfbS5pKUiG9nnn6oQWNwSwaCYnQeSKA10KYQYpWB_q=
+eSsK2NuYFQ4DK78mSP0ws1.png?r=3Db08" width=3D"36px" border=3D"0" style=3D"bo=
+rder-radius:3px;box-shadow:none; max-width: 36pxpx;display:block;-ms-interp=
+olation-mode:bicubic;border:none;outline:none;border-collapse:collapse;"> <=
+/td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <table class=3D"gem-module-kar-hero-table" align=3D"center" width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"gem-module-kar-hero-image-cell content-padding" s=
+tyle=3D"padding-top:20px;padding-left:20px;padding-right:20px;" align=3D"ce=
+nter">=20
+              <table class=3D"gem-module-outer-table" align=3D"center" widt=
+h=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border=
+-spacing:0;box-shadow:0px 4px 30px rgba(1, 131, 251, 0.17);border:1px solid=
+ rgb(245, 245, 245);border-radius:16px 16px 16px 16px;">=20
+               <tbody>
+                <tr>=20
+                 <td>=20
+                  <table class=3D"gem-component-image " width=3D"100%" cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=
+=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-component-image-cell _none" align=3D"=
+center" style=3D"padding-top:0px;"> <a href=3D"https://www.netflix.com/titl=
+e/80991329?trkid=3D13710079&amp;MSG_TITLE=3D80991329&amp;lnktrk=3DEMP&amp;g=
+=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DHERO_IMAGE" target=
+=3D"_blank" style=3D"color:inherit;"> <img alt=3D"=EB=9D=BC=EB=B0=94 =EC=95=
+=84=EC=9D=BC=EB=9E=9C=EB=93=9C" src=3D"https://dnm.nflximg.net/api/v6/0bEPu=
+CXX63ADoAiU5-fmkws-FyY/AAAAC5EnVsUlfh5SpTE6o0dlBHeHXDb1oo8nD0vivbe63Z9ev8Ub=
+OY60bWsRzw1kt05cVs2J8nWf80CXH7yAzbirz_CD1WY917hyTggHfHQoaTte3SCYxqhX1SQCK2h=
+g6VDSWqqRQITml2B_znjqJ_lVeH7WzjuAoy7Ax6P2fP3vAlqYNGApK7oC.dyn?r=3D1cb" widt=
+h=3D"460" border=3D"0" style=3D"border-radius:16px 16px 0px 0px;box-shadow:=
+none; max-width: 460px;display:block;-ms-interpolation-mode:bicubic;border:=
+none;outline:none;border-collapse:collapse;border-style:none;"> </a> </td>=
+=20
+                    </tr>=20
+                   </tbody>
+                  </table>=20
+                  <table class=3D"gem-module-kar-hero-cell-inner-table" ali=
+gn=3D"center" width=3D"100%" bgcolor=3D"#0183FB" cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" style=3D"border-spacing:0;border-radius:0px 0px 16px=
+ 16px;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-module-kar-hero-body-cell" style=3D"p=
+adding-bottom:20px;">=20
+                      <table align=3D"center" width=3D"70%" class=3D"gem-mo=
+dule-kar-hero-inner-body-cell" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td>=20
+                          <table class=3D"gem-copy-table " align=3D"center"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0=
+;width:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy gem-light hero-module-bo=
+dy-headline _none" align=3D"center" style=3D"padding-top:0px; color:#F5F5F1=
+;font-size:24px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI,=
+ sans-serif;font-weight:300;">=EC=86=8C=EC=9C=A0=ED=95=98=EB=A3=A8 =EB=8B=
+=98=EC=9D=B4 =EB=8B=A4=EC=9D=8C=EC=97=90 =EC=8B=9C=EC=B2=AD=ED=95=A0 =EC=BD=
+=98=ED=85=90=EC=B8=A0=EB=A5=BC =EC=84=A0=ED=83=9D=ED=95=98=EB=8F=84=EB=A1=
+=9D =EB=8F=84=EC=99=80=EC=A3=BC=EC=84=B8=EC=9A=94. </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table>=20
+                          <table class=3D"gem-copy-table " align=3D"center"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0=
+;width:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy gem-p1 _none" align=3D"c=
+enter" style=3D"padding-top:8px; color:#F5F5F1;font-size:14px;line-height:1=
+8px;letter-spacing:-0.25px;font-family:NetflixSans-Light, Helvetica, Roboto=
+, Segoe UI, sans-serif;font-weight:300;">=EC=8A=A4=ED=81=AC=EB=A1=A4=ED=95=
+=98=EC=97=AC =EC=9E=90=EB=85=80=EA=B0=80 =EC=A2=8B=EC=95=84=ED=95=A0 =EB=A7=
+=8C=ED=95=9C =EB=A7=9E=EC=B6=A4 =EC=BD=98=ED=85=90=EC=B8=A0=EB=A5=BC =EC=B0=
+=BE=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94. </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-1 spacer" style=3D"padding: 20px 0 0 0;fon=
+t-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table class=3D"gem-module-theme-picker-table" align=3D"center" w=
+idth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bor=
+der-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:20px;paddin=
+g-left:20px;padding-right:20px;" align=3D"center">=20
+              <table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td>=20
+                  <table class=3D"gem-component-kar-header-table" align=3D"=
+center" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"border-spacing:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"20" height=3D"20" valign=3D"top" style=3D=
+"padding-top:0px;">=20
+                      <table align=3D"center" width=3D"100%" bgcolor=3D"#01=
+83FB" style=3D"border-radius: 4px;border-spacing:0;" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0">=20
+                       <tbody>
+                        <tr>=20
+                         <td align=3D"center" width=3D"10" height=3D"20" va=
+lign=3D"middle"> <img alt=3D"" src=3D"https://assets.nflxext.com/us/email/k=
+ar/icons/topThemes.png" width=3D"10" height=3D"10" border=3D"0" style=3D"di=
+splay:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-=
+collapse:collapse;"> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                     <td class=3D"karHeaderHeadline" style=3D"padding:0px 0=
+px 0px 12px;">=20
+                      <table align=3D"center" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-h4" style=3D"color:#000000;font-f=
+amily:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight=
+:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;" align=3D"left=
+"> =EC=A6=90=EA=B2=A8 =EC=B0=BE=EB=8A=94 =EC=A3=BC=EC=A0=9C </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td class=3D"gem-p1" style=3D"padding-top:4px;colo=
+r:#4D4D4D;font-size:14px;line-height:18px;letter-spacing:-0.25px;font-famil=
+y:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:30=
+0;" align=3D"left"> =EB=8B=A4=EC=9D=8C=EC=9D=80 =EC=86=8C=EC=9C=A0=ED=95=98=
+=EB=A3=A8 =EB=8B=98=EC=9D=B4 =EC=A7=80=EA=B8=88=EA=BB=8F =EC=8B=9C=EC=B2=AD=
+=ED=95=9C =EC=BD=98=ED=85=90=EC=B8=A0=EC=9D=98 =EA=B3=B5=ED=86=B5 =EC=A3=BC=
+=EC=A0=9C=EC=9E=85=EB=8B=88=EB=8B=A4. </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"padding-top:20px;" width=3D"100%">=20
+                  <table class=3D"gem-module-outer-table" align=3D"center" =
+width=3D"100%" bgcolor=3D"#FBFBFB" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" style=3D"border-spacing:0;box-shadow:0px 4px 30px rgba(1, 131, 251=
+, 0.17);border:1px solid rgb(245, 245, 245);border-radius:16px 16px 16px 16=
+px;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-module-outer-body-cell inner-padding"=
+ style=3D"padding-top:20px;padding-left:20px;padding-right:20px;padding-bot=
+tom:20px;">=20
+                      <table class=3D"gem-module-top-themes-body-copy-cell"=
+ align=3D"left" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;border-radius:40px;box-shadow:0px 4px 2=
+0px rgba(0, 0, 0, 0.07);border:1px solid rgb(245, 245, 245);">=20
+                       <tbody>
+                        <tr>=20
+                         <td style=3D"padding: 8px;">=20
+                          <table class=3D"gem-copy-table " align=3D"left" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;w=
+idth:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy category gem-bold _none"=
+ align=3D"left" style=3D"padding-top:0px; color:#DF4E68;font-size:11px;font=
+-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weig=
+ht:700;">=ED=91=BC=EC=88=98 =EC=BA=90=EB=A6=AD=ED=84=B0 </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- Spacer -->=20
+                      <table width=3D"100%" class=3D"" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"spacer-3 spacer" style=3D"padding: 8p=
+x 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- End Spacer -->=20
+                      <table align=3D"center" width=3D"100%" class=3D"gem-m=
+odule-top-themes-outer-body-cell" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-module-top-themes-body-cell" widt=
+h=3D"100%" bgcolor=3D"#FBE9ED" style=3D"border-radius:43px;border:5px solid=
+ rgb(255, 255, 255);box-shadow:0px 4px 20px rgba(0, 0, 0, 0.07);">=20
+                          <table class=3D"gem-module-top-themes-body-inner-=
+cell" align=3D"left" width=3D"80.0%" bgcolor=3D"#DF4E68" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;border-radius:43px=
+;">=20
+                           <tbody>
+                            <tr>=20
+                             <td style=3D"padding: 4px;">=20
+                              <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                               <tbody>
+                                <tr>=20
+                                 <td class=3D"theme-bar-images _none" align=
+=3D"left" style=3D"padding-top:0px;"> <img src=3D"https://assets.nflxext.co=
+m/us/email/kar/icons/topThemes/100043_topthemes.png" width=3D"32" border=3D=
+"0" style=3D"border-radius:0px;box-shadow:none; max-width: 32px;display:blo=
+ck;min-width:32px;-ms-interpolation-mode:bicubic;border:none;outline:none;b=
+order-collapse:collapse;"> </td>=20
+                                </tr>=20
+                               </tbody>
+                              </table> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-module-outer-body-cell inner-padding"=
+ style=3D"padding-left:20px;padding-right:20px;padding-bottom:20px;">=20
+                      <table class=3D"gem-module-top-themes-body-copy-cell"=
+ align=3D"left" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;border-radius:40px;box-shadow:0px 4px 2=
+0px rgba(0, 0, 0, 0.07);border:1px solid rgb(245, 245, 245);">=20
+                       <tbody>
+                        <tr>=20
+                         <td style=3D"padding: 8px;">=20
+                          <table class=3D"gem-copy-table " align=3D"left" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;w=
+idth:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy category gem-bold _none"=
+ align=3D"left" style=3D"padding-top:0px; color:#0183FB;font-size:11px;font=
+-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weig=
+ht:700;">=EC=9A=B0=EC=A0=95=EC=9D=80 =EB=82=98=EC=9D=98 =ED=9E=98 </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- Spacer -->=20
+                      <table width=3D"100%" class=3D"" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"spacer-4 spacer" style=3D"padding: 8p=
+x 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- End Spacer -->=20
+                      <table align=3D"center" width=3D"100%" class=3D"gem-m=
+odule-top-themes-outer-body-cell" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-module-top-themes-body-cell" widt=
+h=3D"100%" bgcolor=3D"#D9ECFE" style=3D"border-radius:43px;border:5px solid=
+ rgb(255, 255, 255);box-shadow:0px 4px 20px rgba(0, 0, 0, 0.07);">=20
+                          <table class=3D"gem-module-top-themes-body-inner-=
+cell" align=3D"left" width=3D"56.67850799000%" bgcolor=3D"#0183FB" cellpadd=
+ing=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;border-r=
+adius:43px;">=20
+                           <tbody>
+                            <tr>=20
+                             <td style=3D"padding: 4px;">=20
+                              <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                               <tbody>
+                                <tr>=20
+                                 <td class=3D"theme-bar-images _none" align=
+=3D"left" style=3D"padding-top:0px;"> <img src=3D"https://assets.nflxext.co=
+m/us/email/kar/icons/topThemes/67611_topthemes.png" width=3D"32" border=3D"=
+0" style=3D"border-radius:0px;box-shadow:none; max-width: 32px;display:bloc=
+k;min-width:32px;-ms-interpolation-mode:bicubic;border:none;outline:none;bo=
+rder-collapse:collapse;"> </td>=20
+                                </tr>=20
+                               </tbody>
+                              </table> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-module-outer-body-cell inner-padding"=
+ style=3D"padding-left:20px;padding-right:20px;padding-bottom:20px;">=20
+                      <table class=3D"gem-module-top-themes-body-copy-cell"=
+ align=3D"left" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;border-radius:40px;box-shadow:0px 4px 2=
+0px rgba(0, 0, 0, 0.07);border:1px solid rgb(245, 245, 245);">=20
+                       <tbody>
+                        <tr>=20
+                         <td style=3D"padding: 8px;">=20
+                          <table class=3D"gem-copy-table " align=3D"left" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;w=
+idth:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy category gem-bold _none"=
+ align=3D"left" style=3D"padding-top:0px; color:#14A38B;font-size:11px;font=
+-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weig=
+ht:700;">=EC=A0=95=EA=B8=80=EC=9D=98 =EB=B2=95=EC=B9=99 </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- Spacer -->=20
+                      <table width=3D"100%" class=3D"" cellpadding=3D"0" ce=
+llspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"spacer-2 spacer" style=3D"padding: 8p=
+x 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <!-- End Spacer -->=20
+                      <table align=3D"center" width=3D"100%" class=3D"gem-m=
+odule-top-themes-outer-body-cell" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-module-top-themes-body-cell" widt=
+h=3D"100%" bgcolor=3D"#DCF1EE" style=3D"border-radius:43px;border:5px solid=
+ rgb(255, 255, 255);box-shadow:0px 4px 20px rgba(0, 0, 0, 0.07);">=20
+                          <table class=3D"gem-module-top-themes-body-inner-=
+cell" align=3D"left" width=3D"50.0%" bgcolor=3D"#14A38B" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;border-radius:43px=
+;">=20
+                           <tbody>
+                            <tr>=20
+                             <td style=3D"padding: 4px;">=20
+                              <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                               <tbody>
+                                <tr>=20
+                                 <td class=3D"theme-bar-images _none" align=
+=3D"left" style=3D"padding-top:0px;"> <img src=3D"https://assets.nflxext.co=
+m/us/email/kar/icons/topThemes/1307113_topthemes.png" width=3D"32" border=
+=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width: 32px;display:=
+block;min-width:32px;-ms-interpolation-mode:bicubic;border:none;outline:non=
+e;border-collapse:collapse;"> </td>=20
+                                </tr>=20
+                               </tbody>
+                              </table> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-module-outer-body-cell inner-padding"=
+ style=3D"padding-left:20px;padding-right:20px;padding-bottom:20px;">=20
+                      <table id=3D"gem-divider-bar-table" class=3D"gem-divi=
+der-bar-table" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D=
+"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-divider-bar-td" style=3D"padding:=
+ 0px 0 20px 0;">=20
+                          <table id=3D"gem-divider-bar-shell" class=3D"gem-=
+divider-bar-shell" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"border-spacing:0;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-divider-bar-left-custom" alig=
+n=3D"left" width=3D"100%" height=3D"1" style=3D"background-color: #F3F3F3;h=
+eight:1px;line-height:0;font-size:0;"> &nbsp; </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table>=20
+                      <table align=3D"center" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td colspan=3D"3" style=3D"padding-top:20px;">=20
+                          <table class=3D"gem-copy-table " align=3D"left" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;w=
+idth:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-copy eyebrow _none" align=3D"=
+left" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans-Bold,=
+ Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:12px;lin=
+e-height:13px;letter-spacing:-0.25px;">=EC=B5=9C=EA=B7=BC =EB=B3=B8 =EC=BD=
+=98=ED=85=90=EC=B8=A0 </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td width=3D"42%" style=3D"padding-top:8px;">=20
+                          <table class=3D"gem-component-image " width=3D"10=
+0%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacin=
+g:0;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-component-image-cell _none" a=
+lign=3D"center" style=3D"padding-top:0px;"> <a href=3D"https://www.netflix.=
+com/title/80991329?trkid=3D13710079&amp;MSG_TITLE=3D80991329&amp;lnktrk=3DE=
+MP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTOP_THEMES_T=
+ITLE1" target=3D"_blank" style=3D"color:inherit;"> <img alt=3D"=EB=9D=BC=EB=
+=B0=94 =EC=95=84=EC=9D=BC=EB=9E=9C=EB=93=9C" src=3D"https://dnm.nflximg.net=
+/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUnu7MSm_naVwsZ9mfyE-NIpXjr4T0HxPgZ=
+ZJsdAGx8RDb50N5y4UeoCzHvBRPxv0NZch2fvN-BjuBwySIQ9seMBo4jjCPfHpi_s5HFp1yPDgQ=
+F9oMmk6DLG3Q8V.jpg?r=3D0cf" width=3D"200" border=3D"0" style=3D"border-radi=
+us:8px;box-shadow:none; max-width: 200px;display:block;-ms-interpolation-mo=
+de:bicubic;border:none;outline:none;border-collapse:collapse;border-style:n=
+one;"> </a> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                         <td width=3D"4%"> &nbsp; </td>=20
+                         <td width=3D"42%" style=3D"padding-top:8px;">=20
+                          <table class=3D"gem-component-image " width=3D"10=
+0%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacin=
+g:0;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-component-image-cell _none" a=
+lign=3D"center" style=3D"padding-top:0px;"> <a href=3D"https://www.netflix.=
+com/title/80994666?trkid=3D13710079&amp;MSG_TITLE=3D80994666&amp;lnktrk=3DE=
+MP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTOP_THEMES_T=
+ITLE2" target=3D"_blank" style=3D"color:inherit;"> <img alt=3D"=EB=9D=BC=EB=
+=B0=94 =EC=95=84=EC=9D=BC=EB=9E=9C=EB=93=9C" src=3D"https://dnm.nflximg.net=
+/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUav-5VX9pD8TzGwKjMDa2Blyuzga_5-qA3=
+UPuL-zIe2IG3-CPVP7_HjpXNUI9UrzBgrxZi3O-SxxyUPntcfbz3-3qh6ep8AmkWK4-MWTp6vj0=
+ostvAkw4AqPLup.jpg?r=3Db6a" width=3D"200" border=3D"0" style=3D"border-radi=
+us:8px;box-shadow:none; max-width: 200px;display:block;-ms-interpolation-mo=
+de:bicubic;border:none;outline:none;border-collapse:collapse;border-style:n=
+one;"> </a> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-5 spacer" style=3D"padding: 16px 0 0 0;fon=
+t-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table class=3D"gem-module-theme-picker-table" align=3D"center" w=
+idth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bor=
+der-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:16px;paddin=
+g-left:20px;padding-right:20px;" align=3D"center">=20
+              <table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td>=20
+                  <table class=3D"gem-component-kar-header-table" align=3D"=
+center" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"border-spacing:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"20" height=3D"20" valign=3D"top" style=3D=
+"padding-top:0px;">=20
+                      <table align=3D"center" width=3D"100%" bgcolor=3D"#14=
+A38B" style=3D"border-radius: 4px;border-spacing:0;" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0">=20
+                       <tbody>
+                        <tr>=20
+                         <td align=3D"center" width=3D"10" height=3D"20" va=
+lign=3D"middle"> <img alt=3D"" src=3D"https://assets.nflxext.com/us/email/k=
+ar/icons/category.png" width=3D"10" height=3D"10" border=3D"0" style=3D"dis=
+play:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-c=
+ollapse:collapse;"> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                     <td class=3D"karHeaderHeadline" style=3D"padding:0px 0=
+px 0px 12px;">=20
+                      <table align=3D"center" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-h4" style=3D"color:#000000;font-f=
+amily:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight=
+:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;" align=3D"left=
+"> =EB=8D=94 =EB=A7=8E=EC=9D=80 =ED=91=BC=EC=88=98 =EC=BA=90=EB=A6=AD=ED=84=
+=B0 =EC=BD=98=ED=85=90=EC=B8=A0 </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td class=3D"gem-p1" style=3D"padding-top:4px;colo=
+r:#4D4D4D;font-size:14px;line-height:18px;letter-spacing:-0.25px;font-famil=
+y:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:30=
+0;" align=3D"left"> =EA=B0=80=EC=9E=A5 =EC=A2=8B=EC=95=84=ED=95=98=EB=8A=94=
+ =EC=A3=BC=EC=A0=9C=EC=9D=98 =EC=8B=A0=EA=B7=9C =EC=BD=98=ED=85=90=EC=B8=A0=
+=EC=97=90=EB=8A=94 =EC=96=B4=EB=96=A4 =EA=B2=83=EB=93=A4=EC=9D=B4 =EC=9E=88=
+=EB=8A=94=EC=A7=80 =EC=86=8C=EC=9C=A0=ED=95=98=EB=A3=A8 =EB=8B=98=EC=97=90=
+=EA=B2=8C =EC=86=8C=EA=B0=9C=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94. </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"padding-top:20px;" width=3D"100%">=20
+                  <table align=3D"center" width=3D"100%" cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"48%">=20
+                      <table class=3D"gem-component-image " width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;=
+">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-component-image-cell _none" align=
+=3D"center" style=3D"padding-top:0px;"> <a href=3D"https://www.netflix.com/=
+title/80116921?trkid=3D13710079&amp;MSG_TITLE=3D80116921&amp;lnktrk=3DEMP&a=
+mp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTWO_UP_TITLE1_MD=
+P" target=3D"_blank" style=3D"color:inherit;"> <img alt=3D"=EC=9C=84 =EB=B2=
+=A0=EC=96=B4 =EB=B2=A0=EC=96=B4=EC=8A=A4: =EA=B3=B0 =EB=B8=8C=EB=9D=BC=EB=
+=8D=94=EC=8A=A4" src=3D"https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEF=
+b5-QjKc/AAAABRVq6wBBzyyG8AhACwXHdxhtPGcLRh5hOSUVk61FeBdvliA0wR6QhK11UaCRj3V=
+nF_gaTp4nseChUXqyd7mTkRsKJu1_.jpg?r=3D623" width=3D"220" border=3D"0" style=
+=3D"border-radius:8px;box-shadow:none; max-width: 220px;display:block;-ms-i=
+nterpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse=
+;border-style:none;"> </a> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                     <td width=3D"4%"> &nbsp; </td>=20
+                     <td width=3D"48%">=20
+                      <table class=3D"gem-component-image " width=3D"100%" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;=
+">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-component-image-cell _none" align=
+=3D"center" style=3D"padding-top:0px;"> <a href=3D"https://www.netflix.com/=
+title/81224811?trkid=3D13710079&amp;MSG_TITLE=3D81224811&amp;lnktrk=3DEMP&a=
+mp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTWO_UP_TITLE2_MD=
+P" target=3D"_blank" style=3D"color:inherit;"> <img alt=3D"=EB=BF=8C=EA=B9=
+=8C" src=3D"https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAA=
+BcaBGOeRAz1BzffunaBAvTxwKvSKi3amKP_aulbgu82O50Tbhi4mpsIn-n7Z5US1EdHD1NxnpX2=
+JCwenualQiVm9YvVb.jpg?r=3Dc56" width=3D"220" border=3D"0" style=3D"border-r=
+adius:8px;box-shadow:none; max-width: 220px;display:block;-ms-interpolation=
+-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-styl=
+e:none;"> </a> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td width=3D"48%">=20
+                      <table class=3D"gem-single-button-shell button-mobile=
+-flex " width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-single-button button-1-shell _non=
+e" style=3D"padding-top:16px;" align=3D"center">=20
+                          <table class=3D"gem-single-button button-1-table =
+" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:=
+0;width:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-single-button button-1-text g=
+em-h5" style=3D"background-color: #14A38C;border:solid 0px #14A38C;color:#F=
+FFFFF;box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);border-radius:8px  !impor=
+tant;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;=
+font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;-webk=
+it-border-radius:4px;border-radius:4px;text-decoration:none;text-align:cent=
+er;padding:13px 0 13px 0;width:100%;"> <a class=3D"gem-single-button gem-fi=
+lled-button-a gem-h5" href=3D"https://www.netflix.com/add/80116921?msg_toke=
+n=3DEQIAmQABAYEAcrRWjj77NBfV1CZC0bOgxmgLssFKQ4exTPUL9wzqNpZQeQueQsDqLi0MDKZ=
+t%2F%2BEJt3vft42ZYwhQkqnpPAnaX8wnUI39zWnpw4Vo6C7anj37QScbwL%2Bb5lzD27jBBPjj=
+DNNExDGCvS0c5nKc%2ByM5yVKPa9h%2BYAtKyy4uJprtLhJ0Dn5fTpglj512fT66aeAf31mmToI=
+eIfe0hVBQEffTJNvtonKQdqwRZZcCgTT6%2Fb6aBMBKMGXpGNAPGJTCwnwNsSSsDi%2Be%2F8E3=
+VueFcqY7Fix8RTZkOCP4dyltg9Nakv9%2B%2FIeSZdVwsyaD5fYKS7XltRwkbpvmlPLyv%2Bcot=
+Gw8mnbePkY%3D&amp;trkid=3D13710079&amp;MSG_TITLE=3D80116921&amp;lnktrk=3DEM=
+P&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTWO_UP_TITLE1=
+_ADD&amp;pid=3D75G75ZGOLBEKLORCC3H43H3FGE" style=3D"text-decoration:none;co=
+lor:#FFFFFF;display:block;font-family:NetflixSans-Bold, Helvetica, Roboto, =
+Segoe UI, sans-serif;font-weight:700;color:inherit;font-size:14px;line-heig=
+ht:17px;letter-spacing:-0.2px;">+&nbsp;=EB=AA=A9=EB=A1=9D</a> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                     <td width=3D"4%"> &nbsp; </td>=20
+                     <td width=3D"48%">=20
+                      <table class=3D"gem-single-button-shell button-mobile=
+-flex " width=3D"100%" align=3D"center" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-single-button button-1-shell _non=
+e" style=3D"padding-top:16px;" align=3D"center">=20
+                          <table class=3D"gem-single-button button-1-table =
+" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:=
+0;width:100%;">=20
+                           <tbody>
+                            <tr>=20
+                             <td class=3D"gem-single-button button-1-text g=
+em-h5" style=3D"background-color: #14A38C;border:solid 0px #14A38C;color:#F=
+FFFFF;box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);border-radius:8px !import=
+ant;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;f=
+ont-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;-webki=
+t-border-radius:4px;border-radius:4px;text-decoration:none;text-align:cente=
+r;padding:13px 0 13px 0;width:100%;"> <a class=3D"gem-single-button gem-fil=
+led-button-a gem-h5" href=3D"https://www.netflix.com/add/81224811?msg_token=
+=3DEQIAmQABAYEAHNd%2FekE5Bq7Rf18EBkIAzrkMHxi%2BFEWcO5sMgfOaki82R%2FntRl2Y40=
+hOAjqEC8PPASeJJsOBjf5Sq5gOcGow%2BTGWIte86bc3MKUQ04tR03srNYDOkqUILhPAsDYoY4a=
+MaFq757lY9j7tcTX8tSfwFYx%2BxbGc05Vq2kV5fz9%2FXCYQ1YdMX0lngJEXsYDbnONopsajrV=
+1c1LCEhDxB%2FHTwONMnpCWNYXTBNpozMfWW5voaFumpXmB5X0xsQdWVZ3RDgMrn4%2BkquBIuS=
+7qDVgcsv0OF9VbpRV85jhmjnS5PpOg2qpTac40%2FVvGRwUO%2FcBu9PwEZpBH6Hd2QTPt6Dedr=
+7RTVFLw%3D&amp;trkid=3D13710079&amp;MSG_TITLE=3D81224811&amp;lnktrk=3DEMP&a=
+mp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DTWO_UP_TITLE2_AD=
+D&amp;pid=3D75G75ZGOLBEKLORCC3H43H3FGE" style=3D"text-decoration:none;color=
+:#FFFFFF;display:block;font-family:NetflixSans-Bold, Helvetica, Roboto, Seg=
+oe UI, sans-serif;font-weight:700;color:inherit;font-size:14px;line-height:=
+17px;letter-spacing:-0.2px;">+&nbsp;=EB=AA=A9=EB=A1=9D</a> </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-6 spacer" style=3D"padding: 16px 0 0 0;fon=
+t-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table class=3D"gem-module-theme-picker-table" align=3D"center" w=
+idth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"bor=
+der-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:20px;paddin=
+g-left:20px;padding-right:20px;" align=3D"center">=20
+              <table bgcolor=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" c=
+ellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td>=20
+                  <table class=3D"gem-component-kar-header-table" align=3D"=
+center" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"border-spacing:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td width=3D"20" height=3D"20" valign=3D"top" style=3D=
+"padding-top:0px;">=20
+                      <table align=3D"center" width=3D"100%" bgcolor=3D"#DF=
+4E68" style=3D"border-radius: 4px;border-spacing:0;" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0">=20
+                       <tbody>
+                        <tr>=20
+                         <td align=3D"center" width=3D"10" height=3D"20" va=
+lign=3D"middle"> <img alt=3D"" src=3D"https://assets.nflxext.com/us/email/k=
+ar/icons/themePicker.png" width=3D"10" height=3D"10" border=3D"0" style=3D"=
+display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;borde=
+r-collapse:collapse;"> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                     <td class=3D"karHeaderHeadline" style=3D"padding:0px 0=
+px 0px 12px;">=20
+                      <table align=3D"center" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-h4" style=3D"color:#000000;font-f=
+amily:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight=
+:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;" align=3D"left=
+"> =EC=A3=BC=EC=A0=9C =EC=84=A0=ED=83=9D </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td class=3D"gem-p1" style=3D"padding-top:4px;colo=
+r:#4D4D4D;font-size:14px;line-height:18px;letter-spacing:-0.25px;font-famil=
+y:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:30=
+0;" align=3D"left"> =EC=A3=BC=EC=A0=9C=EB=A5=BC =EC=84=A0=ED=83=9D=ED=95=B4=
+ =EA=B4=80=EB=A0=A8 TV =ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=A8=EA=B3=BC =EC=98=
+=81=ED=99=94=EB=A5=BC =EC=B0=BE=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94. </td>=
+=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+                <tr>=20
+                 <td style=3D"padding-top:20px;" width=3D"100%">=20
+                  <table class=3D"gem-module-outer-table" align=3D"center" =
+width=3D"100%" bgcolor=3D"#FBFBFB" cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" style=3D"border-spacing:0;box-shadow:0px 4px 30px rgba(1, 131, 251=
+, 0.17);border:1px solid rgb(245, 245, 245);border-radius:16px 16px 16px 16=
+px;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-module-outer-body-cell inner-padding"=
+ style=3D"padding-top:20px;padding-left:20px;padding-right:20px;padding-bot=
+tom:20px;">=20
+                      <table align=3D"center" width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                       <tbody>
+                        <tr>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/114508=
+9?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3D=
+URL_1145089_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;=
+">=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/1145089_themepicker.png" width=
+=3D"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width:=
+ 70px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none=
+;border-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EC=9A=B0=EC=A3=BC </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-7 spacer" style=3D"pa=
+dding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                         <td style=3D"padding-top: 20px;" width=3D"4%"></td=
+>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/67604?=
+lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DUR=
+L_67604_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;">=
+=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/67604_themepicker.png" width=3D=
+"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width: 70=
+px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;bo=
+rder-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EB=A7=90=ED=95=98=EB=8A=94 =EB=
+=8F=99=EB=AC=BC </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-8 spacer" style=3D"pa=
+dding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td>=20
+                          <!-- Spacer -->=20
+                          <table width=3D"100%" class=3D"" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                           <tbody>
+                            <tr class=3D"mobile-hide">=20
+                             <td class=3D"spacer-9 spacer" style=3D"padding=
+: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                            </tr>=20
+                            <tr class=3D"desktop-hide mobile-block" style=
+=3D"display:none;mso-hide:all;">=20
+                             <td class=3D"spacer-9 spacer" style=3D"padding=
+: 12px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table>=20
+                          <!-- End Spacer --> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/776839=
+?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DU=
+RL_776839_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;">=
+=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/776839_themepicker.png" width=
+=3D"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width:=
+ 70px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none=
+;border-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EC=98=A4=EC=8B=B9=ED=95=9C =EC=
+=9D=B4=EC=95=BC=EA=B8=B0 </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-10 spacer" style=3D"p=
+adding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                         <td style=3D"padding-top: 20px;" width=3D"4%"></td=
+>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/173524=
+4?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3D=
+URL_1735244_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;=
+">=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/1735244_themepicker.png" width=
+=3D"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width:=
+ 70px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none=
+;border-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EC=98=81=EC=9B=85 =EB=8C=80 =
+=EC=95=85=EB=8B=B9 </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-11 spacer" style=3D"p=
+adding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td>=20
+                          <!-- Spacer -->=20
+                          <table width=3D"100%" class=3D"" cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                           <tbody>
+                            <tr class=3D"mobile-hide">=20
+                             <td class=3D"spacer-12 spacer" style=3D"paddin=
+g: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                            </tr>=20
+                            <tr class=3D"desktop-hide mobile-block" style=
+=3D"display:none;mso-hide:all;">=20
+                             <td class=3D"spacer-12 spacer" style=3D"paddin=
+g: 12px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                            </tr>=20
+                           </tbody>
+                          </table>=20
+                          <!-- End Spacer --> </td>=20
+                        </tr>=20
+                        <tr>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/130713=
+4?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3D=
+URL_1307134_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;=
+">=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/1307134_themepicker.png" width=
+=3D"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width:=
+ 70px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none=
+;border-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EC=98=B7 =EC=9E=98 =EC=9E=85=
+=EB=8A=94 =EC=B9=9C=EA=B5=AC=EB=93=A4 </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-13 spacer" style=3D"p=
+adding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                         <td style=3D"padding-top: 20px;" width=3D"4%"></td=
+>=20
+                         <td class=3D"gem-module-theme-picker-body-cell" st=
+yle=3D"padding-top: 20px;border-radius:8px;border:2px solid rgb(245, 245, 2=
+45);" width=3D"48%"> <a href=3D"https://www.netflix.com/browse/genre/130717=
+7?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3D=
+URL_1307177_GENRE&amp;so=3Dsu" style=3D"text-decoration:none;color:inherit;=
+">=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td>=20
+                               <table class=3D"gem-component-image " width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-=
+spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-component-image-cell _no=
+ne" align=3D"center" style=3D"padding-top:0px;"> <img src=3D"https://assets=
+.nflxext.com/us/email/kar/icons/themePicker/1307177_themepicker.png" width=
+=3D"70" border=3D"0" style=3D"border-radius:0px;box-shadow:none; max-width:=
+ 70px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none=
+;border-collapse:collapse;border-style:none;"> </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td style=3D"padding:0px 8px 0px 8px;">=20
+                               <table class=3D"gem-copy-table " align=3D"ce=
+nter" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spac=
+ing:0;width:100%;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"gem-copy gem-h5 _none" align=
+=3D"center" style=3D"padding-top:0px; color:#000000;font-family:NetflixSans=
+-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14=
+px;line-height:17px;letter-spacing:-0.2px;">=EC=84=B8=EC=83=81=EC=97=90 =EC=
+=9D=B4=EB=9F=B0 =EC=9D=BC=EC=9D=B4 </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table> </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td>=20
+                               <!-- Spacer -->=20
+                               <table width=3D"100%" class=3D"" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                                <tbody>
+                                 <tr>=20
+                                  <td class=3D"spacer-14 spacer" style=3D"p=
+adding: 20px 0 0 0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                                 </tr>=20
+                                </tbody>
+                               </table>=20
+                               <!-- End Spacer --> </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </a> </td>=20
+                        </tr>=20
+                       </tbody>
+                      </table> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-15 spacer" style=3D"padding: 16px 0 0 0;fo=
+nt-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table class=3D"gem-component-social-table" align=3D"center" widt=
+h=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border=
+-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:20px;paddin=
+g-left:20px;padding-right:20px;" align=3D"center" width=3D"100%">=20
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td>=20
+                  <table class=3D"gem-component-social-inner-table" align=
+=3D"center" width=3D"100%" bgcolor=3D"#FFFFFF" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" style=3D"border-spacing:0;box-shadow:0px 4px 30px rgba=
+(1, 131, 251, 0.17);border-radius:16px 16px 16px 16px;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-component-social-body-cell inner-padd=
+ing" style=3D"padding-left:20px;padding-right:20px;padding-top:24px;padding=
+-bottom:24px;"> <a href=3D"https://help.netflix.com/support/2102?lnktrk=3DE=
+MP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_TIP" sty=
+le=3D"text-decoration: none;color:inherit;">=20
+                       <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                        <tbody>
+                         <tr>=20
+                          <td width=3D"66" valign=3D"center"> <img alt=3D""=
+ src=3D"https://assets.nflxext.com/us/email/kar/icons/tips/PARENTAL_CONTROL=
+S_TIP4.png" width=3D"66" border=3D"0" style=3D"display: block;-ms-interpola=
+tion-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-=
+style:none;"> </td>=20
+                          <td class=3D"karSocialBodyCopy" style=3D"padding:=
+0px 0px 0px 12px;">=20
+                           <table align=3D"center" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+                            <tbody>
+                             <tr>=20
+                              <td class=3D"gem-h5" align=3D"left" style=3D"=
+color:#000000;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sa=
+ns-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.=
+2px;"> =EC=95=8C=EA=B3=A0 =EA=B3=84=EC=85=A8=EB=82=98=EC=9A=94? </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td class=3D"gem-p2" align=3D"left" style=3D"=
+color:#000000;padding-top:4px;font-size:12px;line-height:15px;letter-spacin=
+g:-0.12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-=
+serif;font-weight:300;"> =EC=9E=90=EB=85=80=EB=A5=BC =EC=9C=84=ED=95=B4 =EC=
+=9E=90=EB=8F=99 =EC=9E=AC=EC=83=9D =EA=B8=B0=EB=8A=A5=EC=9D=84 =EC=BC=9C=EA=
+=B1=B0=EB=82=98 =EB=81=8C =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0, =EA=B3=84=
+=EC=A0=95=EC=9D=98 =EA=B0=81 =ED=94=84=EB=A1=9C=ED=95=84=EB=A7=88=EB=8B=A4 =
+=EB=8B=A4=EB=A5=B4=EA=B2=8C =EC=84=A4=EC=A0=95=ED=95=A0 =EC=88=98 =EC=9E=88=
+=EC=8A=B5=EB=8B=88=EB=8B=A4. </td>=20
+                             </tr>=20
+                             <tr>=20
+                              <td class=3D"gem-p2" align=3D"left" style=3D"=
+color:#000000;text-decoration:underline;padding-top:4px;font-size:12px;line=
+-height:15px;letter-spacing:-0.12px;font-family:NetflixSans-Light, Helvetic=
+a, Roboto, Segoe UI, sans-serif;font-weight:300;"> =EC=9E=90=EC=84=B8=ED=9E=
+=88 =EB=B3=B4=EA=B8=B0 </td>=20
+                             </tr>=20
+                            </tbody>
+                           </table> </td>=20
+                         </tr>=20
+                        </tbody>
+                       </table> </a> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table> </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- Spacer -->=20
+          <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"spacer-16 spacer" style=3D"padding: 16px 0 0 0;fo=
+nt-size:0;line-height:0;"> &nbsp; </td>=20
+            </tr>=20
+           </tbody>
+          </table>=20
+          <!-- End Spacer -->=20
+          <table id=3D"gem-footer" class=3D"gem-footer mobile-100w" bgcolor=
+=3D"#FBFBFB" width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" style=3D"border-spacing:0;">=20
+           <tbody>
+            <tr>=20
+             <td class=3D"content-padding" style=3D"padding-top:40px;paddin=
+g-left:20px;padding-right:20px;">=20
+              <table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"icon" width=3D"1%" valign=3D"top" style=3D"pa=
+dding-right:22px;"> <a href=3D"https://www.netflix.com/browse?lnktrk=3DEMP&=
+amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_HOME_2" tar=
+get=3D"_blank" style=3D"color:inherit;"> <img alt=3D"Netflix" src=3D"https:=
+//assets.nflxext.com/us/email/gem/nflx.png" width=3D"24" border=3D"0" style=
+=3D"-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse=
+:collapse;border-style:none;"> </a> </td>=20
+                 <td>=20
+                  <table class=3D"footer-shell" width=3D"100%" valign=3D"to=
+p" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border-spacing=
+:0;">=20
+                   <tbody>
+                    <tr>=20
+                     <td class=3D"gem-p1 questions" style=3D"color:rgb(164,=
+ 164, 164);font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, san=
+s-serif;font-weight:500;font-size:14px;line-height:18px;letter-spacing:-0.2=
+5px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;=
+font-weight:300;"> =EC=A7=88=EB=AC=B8=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0=
+=EA=B0=80=EC=9A=94? 080-001-9587=EB=B2=88=EC=9C=BC=EB=A1=9C =EB=AC=B8=EC=9D=
+=98=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94. </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-legal address" style=3D"color:rgb(164=
+, 164, 164);font-size:11px;line-height:14px;letter-spacing:-0.1px;font-fami=
+ly:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:3=
+00;color:rgb(164, 164, 164);text-decoration:none;cursor:text;padding-bottom=
+:20px;"> <span class=3D"hide-link" style=3D"text-decoration:none;cursor:tex=
+t;color:rgb(164, 164, 164);"><a href=3D"https://www.netflix.com/browse?lnkt=
+rk=3DEMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_HO=
+ME_3" style=3D"text-decoration:none;cursor:text;color:rgb(164, 164, 164);co=
+lor:inherit;text-decoration:underline;">=EB=84=B7=ED=94=8C=EB=A6=AD=EC=8A=
+=A4=EC=84=9C=EB=B9=84=EC=8B=9C=EC=8A=A4=EC=BD=94=EB=A6=AC=EC=95=84 =EC=9C=
+=A0=ED=95=9C=ED=9A=8C=EC=82=AC</a></span> </td>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"footer-links" style=3D"color:rgb(164, 164=
+, 164);padding-bottom:20px;"> <a class=3D"footer-link nowrap" href=3D"https=
+://www.netflix.com/ManageSubscriptions?id=3DBQE0AAEBEF%2F6w48Uzbz7C8Yy5OeA6=
+XmAkEHp5tCkKRoEkAMWSO4RMgWu0%2BlTofLAezvQA1Evd9urHL5Uv6DaV8ekp4j7ep2KvaDzv9=
+cscGEjGOYvjH%2BbF1uuEL8jxlykO1e5ls1tWyu1awUzO%2Bh9WIKJBkFzTB0VrJvg6gPPpi8F2=
+2KllxcznGO%2FaM7SsPfdFE6dPjSHu4H92%2FbVT9A%2FI3NPhVpUz3mCFQ%3D%3D&amp;g=3DC=
+EC0E72175AB82A48ECE688F34326B29645296E0&amp;mid=3D49539563&amp;lkid=3DURL_U=
+NSUB&amp;lnktrk=3DEMP" style=3D"font-family:NetflixSans-Light, Helvetica, R=
+oboto, Segoe UI, sans-serif;font-weight:300;font-size:12px;line-height:20px=
+;text-decoration:underline;color:rgb(164, 164, 164);color:inherit;">=EC=88=
+=98=EC=8B=A0 =EA=B1=B0=EB=B6=80</a><br><a class=3D"footer-link nowrap" href=
+=3D"https://www.netflix.com/TermsOfUse?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A=
+48ECE688F34326B29645296E0&amp;lkid=3DURL_TERMS" style=3D"font-family:Netfli=
+xSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-s=
+ize:12px;line-height:20px;text-decoration:underline;color:rgb(164, 164, 164=
+);color:inherit;">=EC=9D=B4=EC=9A=A9 =EC=95=BD=EA=B4=80</a><br><a class=3D"=
+footer-link nowrap" href=3D"https://www.netflix.com/PrivacyPolicy?lnktrk=3D=
+EMP&amp;g=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_PRIVACY=
+" style=3D"font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans=
+-serif;font-weight:300;font-size:12px;line-height:20px;text-decoration:unde=
+rline;color:rgb(164, 164, 164);color:inherit;">=EA=B0=9C=EC=9D=B8=EC=A0=95=
+=EB=B3=B4 =EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8</a><br><a class=3D"footer-li=
+nk nowrap" href=3D"https://help.netflix.com/help?lnktrk=3DEMP&amp;g=3DCEC0E=
+72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_HELP_3" style=3D"font-fa=
+mily:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight=
+:300;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(16=
+4, 164, 164);color:inherit;">=EA=B3=A0=EA=B0=9D =EC=84=BC=ED=84=B0</a> </td=
+>=20
+                    </tr>=20
+                    <tr>=20
+                     <td class=3D"gem-legal mail-to" style=3D"color:rgb(164=
+, 164, 164);font-size:11px;line-height:14px;letter-spacing:-0.1px;font-fami=
+ly:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:3=
+00;"> =EB=B3=B8 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=80 =EB=84=B7=ED=94=8C=EB=
+=A6=AD=EC=8A=A4=EC=97=90=EC=84=9C <span class=3D"hide-link ignore-diff" sty=
+le=3D"text-decoration:none;cursor:text;color:rgb(164, 164, 164);"><a href=
+=3D"https://www.netflix.com/browse?lnktrk=3DEMP&amp;g=3DCEC0E72175AB82A48EC=
+E688F34326B29645296E0&amp;lkid=3DURL_HOME_4" style=3D"text-decoration:none;=
+cursor:text;color:rgb(164, 164, 164);color:inherit;text-decoration:underlin=
+e;">[1059230@naver.com]</a></span> =EC=A3=BC=EC=86=8C=EB=A1=9C =EB=84=B7=ED=
+=94=8C=EB=A6=AD=EC=8A=A4&nbsp;=ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98 =EB=B0=
+=9C=EC=86=A1=ED=95=9C =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=
+=A4.<br> SRC: <a href=3D"https://help.netflix.com/help?lnktrk=3DEMP&amp;g=
+=3DCEC0E72175AB82A48ECE688F34326B29645296E0&amp;lkid=3DURL_HELP_6" class=3D=
+"footer-no-link hide-link ignore-diff" style=3D"text-decoration:none;cursor=
+:text;color:rgb(164, 164, 164);color:inherit;text-decoration:underline;">16=
+615_ko_KR</a> </td>=20
+                    </tr>=20
+                   </tbody>
+                  </table> </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <!-- Spacer -->=20
+              <table width=3D"100%" class=3D"" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" style=3D"border-spacing:0;">=20
+               <tbody>
+                <tr>=20
+                 <td class=3D"spacer-17 spacer" style=3D"padding: 40px 0 0 =
+0;font-size:0;line-height:0;"> &nbsp; </td>=20
+                </tr>=20
+               </tbody>
+              </table>=20
+              <!-- End Spacer --> </td>=20
+            </tr>=20
+           </tbody>
+          </table> </td>=20
+        </tr>=20
+       </tbody>
+      </table> </td>=20
+    </tr>=20
+   </tbody>
+  </table>=20
+  <!-- Fix for Gmail on iOS -->=20
+  <div class=3D"mobile-hide-max gmail-fix-no-inline" style=3D"white-space:n=
+owrap; font:15px courier; line-height:0;">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=20
+  </div>  =20
+ </body>
+</html>
+------=_Part_122562_526906054.1636687185755--

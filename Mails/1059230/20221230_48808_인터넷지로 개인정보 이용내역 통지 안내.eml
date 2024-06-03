@@ -1,0 +1,256 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1672351972;
+	cv=none; b=ayXU3uIq0Fk8TqXznr+jhVoM0k91d1sF8RV+ciSILSW407IHABfdk6OI9NM2
+	 +kbN+mRsuXLdzhITfUV9b/GoVyei7AN9oPCyeGebBwzmdb2wdAbcMMTorGWng+zXGOKRTk
+	 MHHoWwkUlGXRoRSyvCS0V75tjT+6qhKroJ0kY+PTIFK918uWwfMEo2AMjkbX+sgAd+YjRe
+	 pp5eFtGVHk9fK0KKtcZOGAYGk1/Y4i61uEfOKSK8pSG+WkCOHpsZhdHPWCdy+8qePHsY/X
+	 2UqGvrKCB8ApUum0yDbfnOcjHvQEyxqAWruznaAZ0xHJ60LeiBe1/TswrxkPoEMb7s7xR5
+	 uA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1672351972; c=relaxed/relaxed;
+	bh=LBTWcqX83zjadFlFhiTHnoig6KUxFnj3C+Dcfhpd5gY=;
+	h=from:to:subject:date:message-id; b=VBu/tBkpXN/0DxHErJgeI1RDDr4E3riG8Q
+	 matKFMDqQsa5maYnx44fixZGDGLLfZQNKRS/59AKIRASJfRCYj4eEoRVn91AglYZuRZreQ
+	 Z/RcDJbWcVZBE4gXo2nKps7iYKoYYC9Dc4qeQLBxGEkMT7qh1sC3zyu0fLIVaakm96FdfR
+	 eV18672LrGN5P1dUXFZ0EZMR8nhwk91hzk3xM4+Fazea/GQfDGbBKQqHhbeQEC5nxo9dg5
+	 kexzds4OCmNT7rZ/MP2h3xxT9Hg8Qk+Fp2OddHR0waP2lC57JrQ4UT4f0ndE2QMxjzOGDf
+	 CxLn7xl4LyRw4zqWBXJ69jjvUMXw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender) smtp.mailfrom=igiromail@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+Return-Path: <igiromail@kftc.or.kr>
+Received-SPF: pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender)
+  client-ip=203.81.11.91; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender) smtp.mailfrom=igiromail@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+X-Naver-ESV: wm+n+6J4p63CbHmdKBwdbXFYKoUwKoEZjJ+Y
+X-Session-IP: 203.81.11.91
+Received: from ymail.kftc.or.kr (ymail.kftc.or.kr [203.81.11.91])
+  by crcvmail303.nm.naver.com with ESMTP id wqlpJ1r9ToCqJl-6NQOi5w
+  for <1059230@naver.com>;
+  Thu, 29 Dec 2022 22:12:52 -0000
+From: "=?utf-8?B?6riI7Jy16rKw7KCc7JuQ?=" <igiromail@kftc.or.kr>
+To: "=?utf-8?B?KO+8n++8nynvvJ/vvJ/vvJ/vvJ/vvJ/vvJ8=?=" <1059230@naver.com>
+Reply-to: <igiromail@kftc.or.kr>
+Subject: =?utf-8?B?7J247YSw64S37KeA66GcIOqwnOyduOygleuztCDsnbTsmqnrgrTsl60=?=
+ =?utf-8?B?IO2GteyngCDslYjrgrQ=?=
+Date: Fri, 30 Dec 2022 07:12:52 +0900
+X-WORKER_ID: <single.naver.com_Worker_4>
+X-MAIL_ID: <UE9TVF9JRD0yMDIyMTIyOTAwMDA2>
+X-MEMBER_ID: <TV9JRD04NjU2NA==>
+X-SEND_TYPE: <U1RZUEU9Q0FNUA==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMTI=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202212300712527342_TMS@ymail.kftc.or.kr>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>인터넷지로 개인정보 이용내역 통지문</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="800">
+<tbody>
+<tr>
+<td height="71" style="background: rgb(238, 238, 238); padding-right: 50px; padding-left: 50px; border-top-color: rgb(13, 144, 210); border-top-width: 5px; border-top-style: solid;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td align="left" width="153"><a href="http://203.81.11.91/TMS/tracking?TV9JRD04NjU2NA==&U1RZUEU9Q0FNUA==&p_id=2022122900006&m_id=86564&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIyMTIyOTAwMDA2&U0VSVkVSX0lEPTAx&VEM9MjAyMzAxMDU=&S0lORD1D&Q0lEPTAwMQ==&c_id=001&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=http://www.giro.or.kr" target="_blank" title="새창으로 열기"><img align="absmiddle" alt="인터넷지로" border="0" height="71" src="https://www.giro.or.kr/giro_mail/2022/email_giro_tit_logo.png" width="102" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="60" style="margin: 0px; padding: 20px 50px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td width="78"><img alt="아이콘" border="0" height="60" src="https://www.giro.or.kr/giro_mail/2022/email_common_ic_type05.gif" valign="absmiddle" width="60" /></td>
+<td style="margin: 0px; padding: 0px; line-height: 0;">
+<p style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 1.4; letter-spacing: -2px; font-family: &quot;맑은 고딕&quot;,&quot;Malgun Gothic&quot;,&quot;돋움&quot;,Dotum,sans-srif; font-size: 24px; font-weight: bold;">인터넷지로 개인정보 이용내역 안내</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="margin: 0px; padding: 0px 50px; line-height: 140%;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td>
+<p style="margin: 0px; padding: 15px 0px 0px; color: rgb(51, 51, 51); line-height: 24px; font-family: &quot;돋움&quot;,Dotum,sans-srif; font-size: 14px;">회원님 안녕하세요.<br />
+<br />
+인터넷지로 서비스를 제공하는 금융결제원입니다. 저희 인터넷지로 서비스를 이용해 주셔서 진심으로 감사드립니다.<br />
+금융결제원은 고객님의 소중한 개인(신용)정보의 보호를 위해 <strong style="margin: 0px; padding: 0px; color: rgb(28, 115, 221); font-weight: normal;">개인정보보호법 제39조의8에</strong> 따라 회원님께 개인(신용)정보 이용내역을 다음과 같이 안내드립니다.</p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 23px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td style="background: rgb(255, 255, 255); padding: 20px; border: 1px solid rgb(224, 224, 224); border-image: none;">
+<div style="margin: 0px; padding: 0px; color: rgb(51, 51, 51); line-height: 22px; font-family: 돋움,dotum,sans-srif; font-size: 12px;">
+<p style="margin: 0px; padding: 0px; font-weight: bold;">1. 개인(신용)정보의 처리 목적</p>
+금융결제원은 인터넷지로(모바일지로 포함) 서비스 제공을 위한 아래의 목적 이외의 용도로 개인(신용)정보를 이용하지 않으며,<br />
+이용목적이 변경되는 경우에는 개인정보보호법에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다.<br />
+가. 회원가입 및 관리<br />
+<span style="padding-left: 20px; display: inline-block;">회원 가입의사 확인, 회원제 서비스 제공에 따른 본인 식별&middot;인증, 회원자격 유지&middot;관리, 서비스 부정이용 방지, 만 14세<br />
+미만 아동의 개인(신용)정보 처리 시 법정대리인의 동의 여부 확인, 각종 고지&middot;통지 등</span><br />
+나. 납부 서비스<br />
+&nbsp;&nbsp;&nbsp; 고지내역 조회 및 납부, 정산, 납부확인증 발부 등<br />
+다. 민원관리<br />
+&nbsp;&nbsp;&nbsp; 민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락&middot;통지, 처리결과 통보 등<br />
+&nbsp;
+<p style="margin: 0px; padding: 0px; font-weight: bold;">2. 처리하는 개인(신용)정보의 항목</p>
+가. 금융결제원은 인터넷지로 서비스 제공을 위하여 아래의 개인(신용)정보를 처리하고 있습니다.<br />
+<table border="0" cellpadding="0" cellspacing="0" style="color: rgb(85, 85, 85); line-height: 18px; font-family: 돋움,dotum,sans-srif; font-size: 12px; border-top-color: rgb(28, 115, 221); border-bottom-color: rgb(28, 115, 221); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;" width="700">
+<tbody>
+<tr>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;">구분</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">필수여부</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">수집정보</th>
+</tr>
+<tr>
+<td align="center" rowspan="3" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;" width="140">회원가입</td>
+<td align="center" rowspan="3" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;" width="120">필수정보</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">ID, 비밀번호, 성명, 생년월일, (휴대)전화번호, 이메일주소, 성별<sup>주1)</sup>, 내/외국인<sup>주1)</sup>, CI/DI값<sup>주1)</sup></td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">단말기고유정보<sup>주2)</sup>, 간편비밀번호(6자리)</td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">CI해쉬값, 기기고유ID<sup>주3)</sup></td>
+</tr>
+<tr>
+<td align="center" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;" width="140">납부 서비스</td>
+<td align="center" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;" width="120">필수정보</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">성명, 주민등록번호<sup>주4)</sup>(고유식별정보) 또는 생년월일,<br />
+계좌(카드)번호, 계좌(카드)비밀번호, (휴대)전화번호</td>
+</tr>
+<tr>
+<td align="center" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px;" width="140">민원관리</td>
+<td align="center" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-left-color: rgb(224, 224, 224); border-left-width: 1px; border-left-style: solid;" width="120">필수정보</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-left-color: rgb(224, 224, 224); border-left-width: 1px; border-left-style: solid;">성명, 연락처</td>
+</tr>
+</tbody>
+</table>
+<p style="padding: 0px 0px 0px 15px; color: rgb(85, 85, 85); font-size: 11px; margin-top: 5px; margin-bottom: 0px;">주1) 본인확인기관으로부터 수집<br />
+주2) 단말기 운영체제(안드로이드, iOS)에서 제공하는 정보<br />
+주3) 단말기고유정보와 별도로 금융결제원 지문인증 시스템에서 생성하는 정보<br />
+주4) 주민등록번호는 국고금관리법, 지방세기본법 등에 법률적 근거가 있는 업무에 한함.</p>
+<span style="text-indent: -20px; padding-left: 20px; display: inline-block;">나. 기타 인터넷 서비스 이용과정에서 IP주소, 쿠키, MAC주소, 서비스 이용기록, 방문기록, 불량 이용기록 등의 개인(신용)정보 항목이 자동으로 생성되어 수집될 수 있습니다.</span><br />
+&nbsp;
+<p style="margin: 0px; padding: 0px; font-weight: bold;">3. 개인(신용)정보의 제3자 제공에 관한 사항</p>
+<span style="text-indent: -20px; padding-left: 20px; display: inline-block;">가. 금융결제원은 인터넷지로 이용 정보주체의 개인(신용)정보를 개인(신용)정보의 처리 목적에서 명시한 범위 내에서만 처리하며, 정보주체의 사전 동의 없이 동 범위를 초과하여 이용하거나 원칙적으로 외부에 공개 또는 제3자에게 제공하지 않습니다. 다만 아래의 경우는 예외로 합니다.</span><br />
+&nbsp;&nbsp;&nbsp;(1) 정보주체가 사전 동의한 경우<br />
+&nbsp;&nbsp;&nbsp;(2) 법령의 규정에 의거하거나 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우<br />
+나. 인터넷지로 이용 고객의 개인(신용)정보 제3자 제공 내역은 아래와 같습니다.<br />
+<table border="0" cellpadding="0" cellspacing="0" style="color: rgb(85, 85, 85); line-height: 18px; font-family: 돋움,dotum,sans-srif; font-size: 12px; border-top-color: rgb(28, 115, 221); border-bottom-color: rgb(28, 115, 221); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;" width="700">
+<tbody>
+<tr>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;">제공 받는자</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">제공목적</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">제공항목</th>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;" width="200">지로업무 참가 금융기관</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;" width="200">금융기관에 출금 및 승인 요청</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">성명, 주민등록번호(생년월일),계좌(카드)번호, 계좌(카드)비밀번호, (휴대)전화번호</td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;" width="200">국세청, 관세청, 기획재정부(D-Brain),<br />
+지방자치단체,일반지로이용기관</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;" width="200">고지내역 조회 및 납부</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">성명, 주민등록번호(생년월일)</td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;" width="200">㈜한국모바일인증</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;" width="200">휴대전화 본인 확인</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">성명, 생년월일, 성별, 내/외국인 구분,<br />
+통신사, 휴대전화번호</td>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;" width="200">㈜씽크에이티</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: currentColor; border-left-color: rgb(224, 224, 224); border-bottom-width: medium; border-left-width: 1px; border-bottom-style: none; border-left-style: solid;" width="200">휴대전화 본인 확인</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-bottom-color: currentColor; border-left-color: rgb(224, 224, 224); border-bottom-width: medium; border-left-width: 1px; border-bottom-style: none; border-left-style: solid;">휴대전화번호</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 0px; padding: 0px; font-weight: bold;">4. 개인(신용)정보처리의 위탁에 관한 사항</p>
+금융결제원은 모바일에서 서비스를 이용하는 경우 본인확인(고유식별정보 검증)을 위해 아래의 개인(신용)정보 처리업무를 위탁하고 있습니다.
+<table border="0" cellpadding="0" cellspacing="0" style="color: rgb(85, 85, 85); line-height: 18px; font-family: 돋움,dotum,sans-srif; font-size: 12px; border-top-color: rgb(28, 115, 221); border-bottom-color: rgb(28, 115, 221); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;" width="700">
+<tbody>
+<tr>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid;">위탁받는 자</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">위탁하는 업무 내용</th>
+<th align="center" scope="col" style="background: rgb(249, 249, 249); padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; border-bottom-color: rgb(224, 224, 224); border-left-color: rgb(224, 224, 224); border-bottom-width: 1px; border-left-width: 1px; border-bottom-style: solid; border-left-style: solid;">제공항목</th>
+</tr>
+<tr>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px;" width="200">나이스평가정보㈜</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-left-color: rgb(224, 224, 224); border-left-width: 1px; border-left-style: solid;" width="200">모바일에서의 이용자<br />
+본인확인(CI조회)</td>
+<td align="center" style="padding: 10px; text-align: center; color: rgb(51, 51, 51); font-size: 12px; border-left-color: rgb(224, 224, 224); border-left-width: 1px; border-left-style: solid;">주민등록번호<sup>주1)</sup></td>
+</tr>
+</tbody>
+</table>
+<p style="padding: 0px 0px 0px 15px; color: rgb(85, 85, 85); font-size: 11px; margin-top: 5px; margin-bottom: 0px;">주1) 나이스평가정보㈜는 정보통신망법 제23조의3에 따른 본인확인기관으로, 동 법 제23조의2에 따라 주민등록번호 처리 가능</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="margin: 0px; padding: 30px 50px 0px; line-height: 0;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td style="margin: 0px; padding: 19px 19px 15px; border: 1px solid rgb(230, 230, 230); border-image: none; text-align: left;">
+<p style="margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.4; font-family: &quot;돋움&quot;,Dotum,sans-srif; font-size: 12px;"><span style="color: rgb(51, 51, 51); font-size: 12px; font-weight: bold;">ㆍ</span>본 메일은 발신전용 메일입니다. 편리한 서비스를 제공하기 위하여 노력하겠습니다.</p>
+<p style="padding: 0px; color: rgb(102, 102, 102); line-height: 1.4; font-family: &quot;돋움&quot;,Dotum,sans-srif; font-size: 12px; margin-top: 5px;"><span style="color: rgb(51, 51, 51); font-size: 12px; font-weight: bold;">ㆍ</span>동 메일은 관계 법령에 따라 연 1회 자동으로 발송되는 메일입니다</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30" style="margin: 0px; padding: 0px; line-height: 0;"></td>
+</tr>
+<tr>
+<td style="background: rgb(230, 230, 230); margin: 0px; padding: 0px 50px; line-height: 0;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td width="188"><img align="absmiddle" alt="금융결제원" border="0" src="https://www.giro.or.kr/giro_mail/2022/email_common_img_footer.gif" /></td>
+<td style="padding: 20px 0px 15px;">
+<p style="margin: 0px; padding: 0px; color: rgb(102, 102, 102); line-height: 1.8; font-family: &quot;돋움&quot;,Dotum; font-size: 12px; font-style: normal;">(우)06220 서울특별시 강남구 논현로 432(역삼동 717번지)<br />
+Copyright ⓒ 2016 KFTC (Korea Financial Telecommunications &amp; Clearings Institute)<br />
+All rights reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="display:none"><IMG width=0 height=0 src="http://203.81.11.91/TMS/tracking?TV9JRD04NjU2NA==&U1RZUEU9Q0FNUA==&p_id=2022122900006&m_id=86564&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIyMTIyOTAwMDA2&U0VSVkVSX0lEPTAx&VEM9MjAyMzAxMDU=&S0lORD1P"></div></body>
+</html>
+
+

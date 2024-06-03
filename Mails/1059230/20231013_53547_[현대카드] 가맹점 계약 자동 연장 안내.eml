@@ -1,0 +1,369 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1697169831;
+	cv=none; b=CgOZe8AmQ6ic2wt6L1VkpT5EvJTnfAf523DiDZKNQm4wmlDgyOIc8lzZKia1
+	 CuzvscFHXRAXtHZl8NZWjDLTj7LqClp7Bljb48uqUdmKRg6FOuCX/WMNZ0zmiv07xh7l/c
+	 yTOhPTi+gSVuNujIfCbrYb0qLl6CPU5ikzg8evYVxCByupNKTfAOh/ZP7ECcq4uDIeZF/y
+	 X0ilsIoCrpQKHeJnLhx1kKCtPuUOpEXNjhaAPld5B7TF99a7WMxv39d3BwRyfVBwsbOqbx
+	 8RksqFx2ZOBYS3tG2OxCjn+aPcwo25s6omO91Oq4/ySOvV2ZSkRUYp7tTWEpx6UdpJq/+T
+	 uA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1697169831; c=relaxed/relaxed;
+	bh=qAGBX2SXWKz9CPIHWnF2YfS4P7J3tGL3zBeiBCY21WI=;
+	h=from:to:subject:date; b=QxWhyH/LDRX/+7XzAa5s/pX50rm5Z7ZwPfmHhIzDC8rKV
+	 qI2R5QuApjHE1uVFJ+7PzYs/kvefjCV38Szop/8eqlZSzuLUosf12MIBHvDtgUjp/CGZZ+
+	 qYGN0EDD1xjfd1IHUk7SAnkx763NjJlPE/eyOsxbBcNMumvS7iilFi4PfMdnrYff62MRhp
+	 t/21jdoDBr9Y5ivWqD9vht4Z/7ejg3vm08fKpEvwZx/mTbAbz3+ZZO5eRy4SAXjVFUKJXs
+	 NiIb3lltJ+7pdDRlmXYKXf66Ks2TVZYGa7xeeJCjzDgKY5GT+VSL2CMHaLJvJT/yQh/bQl
+	 h8X/1wK/jSLgGYEeQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of admin@hyundaicard.com designates 61.40.236.90 as permitted sender) smtp.mailfrom=admin@hyundaicard.com
+Return-Path: <admin@hyundaicard.com>
+Received-SPF: pass (mx.naver.com: domain of admin@hyundaicard.com designates 61.40.236.90 as permitted sender)
+  client-ip=61.40.236.90; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of admin@hyundaicard.com designates 61.40.236.90 as permitted sender) smtp.mailfrom=admin@hyundaicard.com
+X-Naver-ESV: wqen+6J4p63qMBIYFHwdbXmmFAgqFxJYkXm=
+X-Session-IP: 61.40.236.90
+Message-ID: <1697169831914.7f09b.58650495@crcvmail203.nm>
+Received: from dpvbulk02 (cabize.hyundaicard.com [61.40.236.90])
+  by crcvmail203.nm.naver.com with ESMTP id uRzDfKd-Q-qmblFci0PrSA
+  for <1059230@naver.com>;
+  Fri, 13 Oct 2023 04:03:51 -0000
+Reply-To: admin@hyundaicard.com
+From: 현대카드<admin@hyundaicard.com>
+To: 김소윤 <1059230@naver.com>
+Subject: [현대카드] 가맹점 계약 자동 연장 안내
+Date: Fri, 13 Oct 2023 11:44:26 +0900
+X-Mailer: bizenic_sender
+MIME-Version:  1.0
+Content-Type:text/html;
+	charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+Status: 
+
+<!DOCTYPE html  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html>
+	  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	  <title>현대카드</title><!-- 2019-10-14 수정 -->
+	  <meta    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"    name="viewport" />
+	  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+	  <style type="text/css">
+	    body,
+	    table,
+	    div,
+	    p,
+	    span {
+	      font-family: '맑은 고딕', SDNeoGothic, SDGothicNeo, '돋움', sans-serif
+	    }
+	  </style>
+	</head>
+	<body topmargin="0" rightmargin="0" bottommargin="0" leftmargin="0" style="margin: 0px; padding: 0px;">
+	  <center>
+	    <table width="100%" style="min-width: 230px; max-width: 740px; background-color: rgb(255, 255, 255);" border="0" cellspacing="0" cellpadding="0">
+	      <tbody>
+	        <tr>
+	          <td>
+	            <table width="100%" style="background-color: rgb(0, 0, 0);" border="0" cellspacing="0" cellpadding="0">
+	              <tbody>
+	                <tr>
+	                  <td width="5%" rowspan="5">&nbsp;</td>
+	                  <td width="90%" height="35">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td height="23" align="left"><img height="20" alt="DIGITAL Hyundai Card" src="https://www.hyundaicard.com/em/email/2016/160328_travel/images/em_ci.gif" border="0"></td>
+	                  <td align="right" rowspan="3"></td>
+	                  <td width="5%" rowspan="5">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td height="12">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td align="left" valign="top" style='text-align: left; color: rgb(255, 255, 255); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 22px; font-weight: bold;'>
+	                    <img align="left" style="vertical-align: bottom;" alt="현대카드 가맹점 계약 자동 연장 안내" src="https://www.hyundaicard.com/em/email/2019/190923_storeGuide/images/tit_cover02.jpg" border="0"></td>
+	                </tr>
+	                <tr>
+	                  <td height="25">&nbsp;</td>
+	                </tr>
+	              </tbody>
+	            </table>
+	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	              <tbody>
+	                <tr><td style="background-color: rgb(235, 237, 239);">
+	                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                    <tbody>
+	                      <tr>
+	                        <td height="21"><img alt="" src="https://www.hyundaicard.com/em/email/2015/151126_CA12/images/img_blank.gif" border="0"></td>
+	                      </tr>
+	                      <tr>
+	                        <td width="5%">&nbsp;</td>
+	                        <td colspan="3">
+	                          <table align="left" style="width: 100%; float: left !important; min-width: 200px;" border="0" cellspacing="0" cellpadding="0">
+	                            <tbody>
+	                              <tr>
+	                                <td align="left" valign="top" style='text-align: left; line-height: 47px; letter-spacing: -3px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 35px; font-weight: bold;'>
+	                                  <span style="color: rgb(50, 122, 170);">김소윤</span> 가맹점 대표님께</td>
+	                              </tr>
+	                              <tr>
+	                                <td height="7"><img alt="" src="https://www.hyundaicard.com/em/email/2015/151126_CA12/images/img_blank.gif" border="0"></td>
+	                              </tr>
+	                              <tr>
+	                                <td align="left" valign="top" style='text-align: left; color: rgb(102, 102, 102); line-height: 20px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px;'>
+	                                  현대카드에 보내 주시는 성원에 감사합니다. <br>
+	                                  귀 가맹점의 계약 만료 시기가 도래하였으며, 별도 의사 표시가 없는 경우<br>
+	                                  가맹점 계약이 1년간 자동 연장됨을 안내해드립니다.<br>
+	                                  현행 표준약관 제 23조 ②항에 따라 계약만료일 전까지 해지 신청이 없을 경우,<br> <!-- 2019-10-14 수정 -->
+	                                  만료일로부터 1년씩 유효기간이 연장됩니다.<br>
+	                                  가맹점 정보 변경 및 기타 자세한 내용은 고객센터(1577-6000)로 문의하시기 바랍니다.<br>
+	                                  감사합니다.</td>
+	                              </tr>
+	                            </tbody>
+	                          </table>
+	                        </td>
+	                        <td width="5%">&nbsp;</td>
+	                      </tr>
+	                      <tr>
+	                        <td height="38" colspan="3">&nbsp;</td>
+	                      </tr>
+	                    </tbody>
+	                  </table>
+	                </td>
+	                <tr>
+	                  <td width="100%">
+	                    <table width="90%" align="center" border="0" cellspacing="0" cellpadding="0">
+	                      <tbody>
+	                        <tr>
+	                          <td height="45">&nbsp;</td>
+	                        </tr>
+	                        <tr>
+	                          <td align="left" valign="top" style='text-align: left; line-height: 21px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 16px; font-weight: bold;'>
+	                            가맹점 기본정보</td>
+	                        </tr>
+	                        <tr>
+	                          <td height="14"><img alt="" src="https://www.hyundaicard.com/em/email/2015/151126_CA12/images/img_blank.gif" border="0"></td>
+	                        </tr>
+	                        <tr>
+	                          <td>
+	                            <table width="100%" style="border-top-color: rgb(66, 66, 66); border-bottom-color: rgb(219, 219, 219); border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;" border="0" cellspacing="0" cellpadding="0">
+	                              <tbody>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    사업자등록번호</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    647-61-00251</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    가맹점번호</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    880-340872</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    가맹점명</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    미더미</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    계약만료(예정)일</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    2023.11.29</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    총한도</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    10,000,000</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(184, 184, 184); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    할부한도</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal; border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;'>
+	                                    5,000,000</td>
+	                                </tr>
+	                                <tr>
+	                                  <th width="30%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(102, 102, 102); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal;'>
+	                                    KEY-IN 한도</th>
+	                                  <th width="2%">&nbsp;</th>
+	                                  <td width="68%" height="22" align="left" valign="middle" style='padding: 10px 0px 11px; text-align: left; color: rgb(0, 0, 0); font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, dotum, sans-serif; font-size: 14px; font-weight: normal;'>
+	                                    KEY-IN 미적용</td>
+	                                </tr>
+	                              </tbody>
+	                            </table>
+	                          </td>
+	                        </tr>
+	                        <tr>
+	                          <td height="9"><img alt="" src="https://www.hyundaicard.com/em/email/2015/151126_CA12/images/img_blank.gif" border="0"></td>
+	                        </tr>
+	                        <tr>
+	                          <td align="left" valign="top" style='text-align: left; color: rgb(102, 102, 102); line-height: 21px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;'>
+	                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                              <tbody><tr>
+	                                <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                  ·</td>
+	                                <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;'>
+	                                  현금융통 신용카드 거래 거절, 수수료 전가 등 부당대우를 하는 가맹점 정보는 여신금융협회에서 등재되어 관리되며, <br>
+	                                  상습적인 불법 가맹점은 가맹점 계약 해지될 수 있으니, 각 가맹점에서는 피해를 당하지 않도록 유의하시기 바랍니다.</td>
+	                              </tr>
+	                            </tbody></table>
+	                          </td>
+	                        </tr>
+	                        <tr>
+	                          <td height="45">&nbsp;</td>
+	                        </tr>
+	                        <tr>
+	                          <td align="left" valign="top" style='text-align: left; line-height: 21px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px;'>
+	                            유의사항</td><!-- 2019-10-14 수정 -->
+	                        </tr>
+	                        <tr>
+	                          <td height="9"><img alt="" src="https://www.hyundaicard.com/em/email/2015/151126_CA12/images/img_blank.gif" border="0"></td>
+	                        </tr>
+	                        <!-- 2019-10-14 수정 -->
+	                        <tr>
+	                          <td align="left" valign="top" style='text-align: left; color: rgb(102, 102, 102); line-height: 21px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;'>
+	                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                              <tbody>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    신용카드 상의 서명과 매출전표 상의 서명이 일치하는지 확인하셔야 합니다.</td>
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    신용카드를 받지 않거나 가맹점수수료를 회원에게 전가하는 등 신용카드 거래를 이유로 회원에게 불리한 대우를 하거나 현금융통 등 불법거래를 할 경우,
+	                                    가맹점 계약 해지 및 법에서 정한 불이익을 받을 수 있습니다.</td> <!-- 2019-10-21 -->
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    2015.07.21부터 가맹점에서 설치되는 단말기는 「신용카드 단말기 정보보호 기술 수준」을 준수해야 합니다.(등록단말기 사용의무)</td>
+	                                  <!-- 2019-10-21 -->
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    가맹점은 여신전문금융업감독규정 제24조의6(가맹점관리사항) 제3조 및 신용카드 가맹점 표준약관 제19조(정보유출금지)에 의거, 고객정보를 보유하지
+	                                    않아야 합니다. 특히 POS단말기의 경우 신용카드 결제와 관련한 다량의 고객정보가 저장될 수 있으므로, POS단말기 사용 가맹점에서는 신용정보가
+	                                    저장되지 않도록 유의하시고 POS단말기를 양도 또는 폐기할 경우 반드시 고객정보를 삭제해 주시기 바랍니다.</td>
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    물품가격 이상의 대금을 송금하고 다시 돌려받는 수법으로 가맹점의 영업 계좌를 보이스피싱에 악용하는 피해 사례가 발견되고 있습니다. 돈을 돌려줄 경우에는
+	                                    반드시 금융기관 등을 통해 송금인의 인적사항을 확인해 주시기 바랍니다.</td> <!-- 2019-10-21 -->
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    가맹점 해지 시에는 계약사항 일체가 종료되므로 카드 거래와 관련하여 대여받은 각종 표지물 및 광고물 제거를 부탁 드립니다.</td>
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    가맹점수수료 개편 시에는 가맹점별 원가에 따라 수수료율이 변경될 수 있습니다.</td>
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    여신전문금융업법 제18조3(가맹점수수료율의 차별금지 등)3항에 의거 일정 규모 이하의 영세한 중소신용카드가맹점으로 선정되실 경우, 우대 가맹점수수료율을
+	                                    적용받으실 수 있습니다. 다만, 추후에 영세한 중소신용카드가맹점 대상에서 제외 시 기존 수수료율로 원복됩니다.</td>
+	                                </tr>
+	                                <tr>
+	                                  <td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                    -</td>
+	                                  <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                    「특정 금융거래정보의 보고 및 이용 등에 관한 법률」제5조의2(금융회사 등의 고객확인의무) 및 관련 업무규정 제34조(지속적인 고객확인)에 근거하여
+	                                    가맹점의 주요정보 변경 시 카드사는 이를 반영하여야 합니다. 대표님의 주요정보(주소, 연락처, 대표자명, 실소유자 등)가 변경되신 경우 현대카드로 꼭
+	                                    연락하여 변경해 주시기 바랍니다.</td>
+	                                </tr>
+	                                <tr><td width="9" style='text-align: left; color: rgb(102, 102, 102); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 14px; font-weight: bold; vertical-align: top;'>
+	                                  -</td>
+	                                <td style='text-align: left; color: rgb(51, 51, 51); line-height: 22px; letter-spacing: -1px; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;' colspan="2">
+	                                  가맹점에서 소비자가 체크카드를 제시하였으나, 소비자에게 충분한 안내 없이 IC현금카드 결제로 처리하여 민원이 제기되고 있습니다. 이와 같은 민원이 발생하지
+	                                  않도록 각별한 주의를 부탁드리며, 결제 시 결제 수단 선택에 대한 고객 안내에 최선을 다하여 주시기 바랍니다.</td>
+	                        </tr>
+	                      </tbody>
+	                    </table>
+	                  </td>
+	                </tr>
+	                <!-- // 2019-10-14 -->
+	                <tr>
+	                  <td height="40">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td style="background: rgb(240, 240, 240);">
+	                    <table width="45%" style="float: left;" border="0" cellspacing="0" cellpadding="0">
+	                      <tbody><tr>
+	                        <td height="46"></td>
+	                      </tr>
+	                      <tr>
+	                        <td><img height="42" style="padding-top: 10px; margin-left: 15%;" src="https://www.hyundaicard.com/em/email/2016/161110_join/images/img_01.gif"></td>
+	                      </tr>
+	                    </tbody></table>
+	                    <table width="55%" style="float: left;" border="0" cellspacing="0" cellpadding="0">
+	                      <tbody><tr>
+	                        <td height="46"></td>
+	                      </tr>
+	                      <tr>
+	                        <td align="left" valign="top" style='text-align: left; color: rgb(102, 102, 102); line-height: 21px; letter-spacing: -1px; padding-left: 15%; font-family: "맑은 고딕", SDNeoGothic, SDGothicNeo, "돋움", sans-serif; font-size: 12px;'>
+	                          가맹점 수수료율 및 일· 기간별 카드거래 승인내역,<br>전표매입내역, 대금입금내역 정보를 제공합니다.<br><br>
+	                          <span style="color: rgb(0, 0, 0); font-size: 12px; font-weight: bold;">접속방법</span> <span style="letter-spacing: 0px; font-size: 12px;">www.cardsales.or.kr > 회원가입/로그인</span></td>
+	                      </tr>
+	                      <tr>
+	                        <td height="46"></td>
+	                      </tr>
+	                    </tbody></table>
+	                  </td>
+	                </tr>
+	                <tr>
+	                  <td height="50" style="border-bottom-color: rgb(219, 219, 219); border-bottom-width: 1px; border-bottom-style: solid;">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td height="18" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td align="left" valign="top" style="text-align: left; color: rgb(158, 158, 158); line-height: 18px; font-family: dotum, sans-serif; font-size: 11px;">
+	                    본 메일은 발신전용 메일이므로 회신이 되지 않습니다.<br>
+	                    문의사항은 <a style="color: rgb(105, 109, 112); font-family: dotum, sans-serif; text-decoration: underline;" href= "http://61.40.236.122:8080/response/LinkManager.jsp?mode=7&msg_seq=119657&msg_id=20230421094233364_98&msg_mem_id=5&mem_seq=88833&user_id=JUEA5bM7vvqcaL3m9U9nzg%3D%3D&user_em=cA70jxuDc5LFISzCSqt9sb5O5CmI9hZi&user_nm=Kak9M6Ab1Fk%3D&respStart=2023-09-23&respEnd=2023-10-07&tktype=LINK_03&link_id=202304210944755_0&redirectURL=https%3A%2F%2Fwww.hyundaicard.com%2Fcpu%2Fma%2FCPUMA0101_01.hc" target="_blank">홈페이지</a> 또는 <span style="color: rgb(105, 109, 112); font-family: dotum, sans-serif;">현대카드 고객센터(1577-6000)</span>을 이용하시기 바랍니다.
+	                  </td>
+	                </tr>
+	                <tr>
+	                  <td height="18" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
+	                </tr>
+	                <tr>
+	                  <td align="left" valign="top" style="text-align: left; color: rgb(105, 109, 112); line-height: 18px; font-family: dotum, sans-serif; font-size: 11px;">
+	                    서울시 영등포구 의사당대로3 현대캐피탈빌딩 | 대표이사 김데이비드덕환 | 사업자등록번호 213-86-15419<br>
+	                    ⓒ HYUNDAI CARD Corp.</td>
+	                </tr>
+	                <tr>
+	                  <td height="60" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
+	                </tr>
+	              </tbody>
+	            </table>
+	          </td>
+	        </tr>
+	    </tbody></table>
+	    </td>
+	    </tr>
+	    </tbody>
+	    </table>
+	  </center>
+	
+	<img src='http://61.40.236.122:8080/response/OpenManager.jsp?mode=4&msg_seq=119657&msg_id=20230421094233364_98&msg_mem_id=5&mem_seq=88833&user_id=JUEA5bM7vvqcaL3m9U9nzg%3D%3D&user_em=cA70jxuDc5LFISzCSqt9sb5O5CmI9hZi&user_nm=Kak9M6Ab1Fk%3D&respStart=2023-09-23&respEnd=2023-10-07' width=1 height=1 border=0>
+	</body></HTML>
+	
+

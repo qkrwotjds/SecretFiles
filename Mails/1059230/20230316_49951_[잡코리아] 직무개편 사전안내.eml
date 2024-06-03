@@ -1,0 +1,254 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1678931852;
+	cv=none; b=U7AvfNCx7fk8zY96Qtx9sabGe6Nw4i76rxbsNuHoRG5EFZI6iZKNRbnNTlCO
+	 akZZiareIg5z0gsR+MDQadsjWYUmD0rOD0+XBAeWuF7Nv1CBpPld4YfquFTDuhsxTx1EBo
+	 w8t8+gwmQIDwbLcI/Wiuo2EFlj5o5oYHTmwSsktuRV9hih3wlx3vOR0Y6tCQlKPdlf9gfa
+	 0oi1QOVQOvavfyaLIhENdCnlXkj7Ar+GQC+8wOj3mCDMGgolKAi8KpQ2bkh4HbIvpXn8UX
+	 tfe82QbKS/kbrPKQ6Sk3ET2+/kUyq1fbxXDCp+hUBiWo/FzyTkfwC4k7jZDSA0qdRr9+Oc
+	 ZQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1678931852; c=relaxed/relaxed;
+	bh=SnQ/gfGwsxlgSP5ju3sM1NO11aoHHLbaKDh5qiR5SGg=;
+	h=date:message-id:subject:from:to; b=KVdHi3Vh0z1hC3+jQRaJDP6yCjCQedpiSe
+	 S0VEzpm+24A1kyDCWIBkteArn4PjJCAaT4acoVHhMyovJzNDs4+t4ukhe/rnYJT7ivNFhq
+	 xibJ4Pw8MNEUph8PIBG8HQwWGJOdfjH1CjCuEqvIrMZqYPqrf2zUxXXp58naoHxp/Bx9W1
+	 mMi7KCOueqXYCRHhzv3+ElBEx9Wg3YtxNQ6C66/hDzZgWtYY/FV6jMwyOaICzG5co1TC+x
+	 zbh24LncA/G3frPX9ra6ZtjnYRaX8rZcTIuxXS6eWr9sYe0v2lQMDjmdZqjb5O0gVlJqaU
+	 k+xNp0H4rhzvAB0W8un98mwxzWNQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr designates 119.207.70.48 as permitted sender) smtp.mailfrom=219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr
+Return-Path: <219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr designates 119.207.70.48 as permitted sender)
+  client-ip=119.207.70.48; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr designates 119.207.70.48 as permitted sender) smtp.mailfrom=219018_1_1907_1059230_naver.com@imail4.jobkorea.co.kr
+X-Naver-ESV: wden+6J4p63qMBIYKXwdbXmmKxEXKqiYkXm=
+X-Session-IP: 119.207.70.48
+Received: from jobkorea.co.kr (imail4.jobkorea.co.kr [119.207.70.48])
+  by crcvmail304.nm.naver.com with ESMTP id ev1epuGWR22DyMdwz0rM9A
+  for <1059230@naver.com>;
+  Thu, 16 Mar 2023 01:57:32 -0000
+MIME-Version: 1.0
+Date: Thu, 16 Mar 2023 10:57:30 +0900
+Message-ID: <IWNID_219018_1907_0_0_0_20230316105730_119.207.70.48>
+Return-Path: <IWNID_219018_1907_0_0_0_20230316105730_119.207.70.48@imail4.jobkorea.co.kr>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?B?W+yeoey9lOumrOyVhF0g7KeB66y06rCc7Y64IOyCrOyghOyViOuCtA==?=
+From: =?utf-8?B?7J6h7L2U66as7JWE?=<helpdesk@jobkorea.co.kr>
+To: =?utf-8?B?MTA1OTIzMEBuYXZlci5jb20=?=<1059230@naver.com>
+Reply-To: 
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+  <!--[if !mso]> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <![endif]-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+</head>
+
+<body style="margin: 0; padding: 0; width: 100%; background-color: #ededed" border="0" cellspacing="0" cellpadding="0">
+  <!--[if mso]><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td align="center"><table border="0" cellpadding="0" cellspacing="0"><tr><tr width="595" align="center" background-color:#ffffff;><![endif]-->
+  <div style="min-width: 320px; width: 595px; margin: 0 auto; text-align: center">
+    <table border="0" cellspacing="0" cellpadding="0" style="
+          width: 595px;
+          table-layout: fixed;
+          margin: 0 auto;
+          background-color: #ffffff;
+          -webkit-text-size-adjust: 100%;
+          text-align: left;
+        ">
+      <tbody>
+        <!-- 헤더 -->
+        <tr>
+          <td style="padding: 0 30px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" height="30" style="font-size: 0">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="auto" height="38" align="left" valign="middle" style="overflow: hidden">
+                    <a href="http://imail4.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=219018&linkno=1&seqidx=1907&service=0&dmidx=0&emidx=0&uidx=7&gidx=5&site=0&linkurl=http://www.jobkorea.co.kr" target="_blank" title="새창" style="display: inline-block; border: none">
+                      <img src="http://file1.jobkorea.co.kr/Mailing/2018/logo_b.png" border="0" alt="JOBKOREA">
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td height="53">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" style="padding: 0 30px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff">
+              <tbody>
+                <tr>
+
+                  <td width="auto" align="center" style="
+                        font: normal 34px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                        color: #333333;
+                        line-height: 48px;
+                        font-weight: 400;
+                        letter-spacing: -2px;
+                        word-break: keep-all;
+                      ">
+                      잡코리아 <span style="color: #39f">직무개편</span> 사전안내
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 0 30px;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff">
+              <tbody>
+                <tr>
+                  <td colspan="3" height="30" style="font-size: 0;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="auto" style="
+                        font: normal 15px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                        color: #333;
+                        letter-spacing: -0.75px;
+                        line-height: 28px;
+                      ">
+                      안녕하세요. 잡코리아 회원님,<br>
+                      잡코리아의 직무가 사용자의 니즈와 최신 트렌드를 반영하여<br>새롭게 변경될 예정입니다.<br>
+                      <strong style="font-weight: bold;">런칭일 : 2023년 3월 31일 금요일</strong><br>
+                      등록하신 공고의 직무와 구매하신 상품의 직무도 자동으로 변경될 예정이니<br> 변경되는 직무를 미리 확인하여 주시기 바랍니다.<br>
+                      구매하신 유료채용광고 기간에 3월 31일이 포함된 경우, 1일 무료 연장됩니다.<br>
+                      감사합니다
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" height="30" style="font-size:0;">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="20">&nbsp;</td>
+                  <td align="center">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td align="center" width="260" height="50" style="font:normal 15px Malgun Gothic,맑은 고딕,'돋움',Dotum,'Apple SD Gothic Neo',Sans-serif; color:#ffffff; letter-spacing:-2px; background-color:#3399ff">
+                            <a href="http://imail4.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=219018&linkno=2&seqidx=1907&service=0&dmidx=0&emidx=0&uidx=7&gidx=5&site=0&linkurl=https://www.jobkorea.co.kr/help/notice/view?no=14559" target="_blank" rel="noopener noreferrer" data-auth="NotApplicable" title="새창" style="color:#ffffff; text-decoration:none; display:block;width: 100%; height: 100%; line-height: 50px;" data-safelink="true" data-linkindex="1">변경되는 직무 보러가기</a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                  <td width="20">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff">
+              <colgroup>
+                <col width="50%">
+                <col width="50%">
+              </colgroup>
+        
+      
+    </table>
+    </td>
+    </tr>
+    <tr>
+      <td height="30">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="20">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td align="center" bgcolor="#e1e1e1" width="20" style="font-size: 0">&nbsp;</td>
+              <td width="auto" align="center" bgcolor="#e1e1e1">
+                <table cellpadding="0" cellspacing="0" style="width: 100%; margin: 0; padding: 0">
+                  <tbody>
+                    <tr>
+                      <td height="55" align="center" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                color: #333333;
+                                letter-spacing: -1px;
+                              ">
+                        본 메일은 발신전용이며 궁금하신 사항은
+                        <a href="http://imail4.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=219018&linkno=3&seqidx=1907&service=0&dmidx=0&emidx=0&uidx=7&gidx=5&site=0&linkurl=http://www.jobkorea.co.kr/Customer_C/CC_Main.asp" target="_blank" title="새창" style="
+                                  font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                    Sans-serif;
+                                  color: #333333;
+                                  text-decoration: underline;
+                                ">고객센터</a>를 이용해주세요.
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="1" bgcolor="#d6d6d6"></td>
+                    </tr>
+                    <tr>
+                      <td height="15"></td>
+                    </tr>
+                    <tr>
+                      <td align="center" style="
+                                font: normal 12px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                color: #666666;
+                                letter-spacing: -1px;
+                                line-height: 22px;
+                                word-break: keep-all;
+                              ">
+                        잡코리아(유) &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 사업자등록번호 :
+                        110-81-34859 &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표자 : 윤현준
+                        &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표전화 : 1588-9350<br>주소 :
+                        서울특별시 서초구 서초대로 301 동익성봉빌딩 16~18층
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="15"></td>
+                    </tr>
+                    <tr>
+                      <td height="50" align="center" valign="top" style="
+                                font: normal 11px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                color: #666666;
+                              ">
+                        ⓒ
+                        <a href="http://imail4.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=219018&linkno=4&seqidx=1907&service=0&dmidx=0&emidx=0&uidx=7&gidx=5&site=0&linkurl=http://jobkorea.co.kr" target="_blank" title="새창" style="
+                                  font: normal 11px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                    Sans-serif;
+                                  color: #333333;
+                                  text-decoration: none;
+                                ">JOBKOREA</a>
+                        Corp
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td align="center" bgcolor="#e1e1e1" width="20" style="font-size: 0">&nbsp;</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    </tbody>
+    </table>
+  </div>
+  <!--[if mso]></td></tr></table></td></tr></table><![endif]-->
+
+
+
+<div style="display:none;"><img src="http://imail4.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=219018&seqidx=1907&service=0&dmidx=0&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail4.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=219018&seqidx=1907&service=0&dmidx=0&emidx=0&duration=1&dtime=1"></iframe>
+
+</body></html>
+

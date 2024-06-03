@@ -1,0 +1,185 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1704271931;
+	cv=none; b=IO6BGKHgAcfS8cuFYlU33YaT3LFCby7vo2o8hNNXpXc/34SLkyrnIrjqpFvI
+	 BCrDWgOlaqZq3H3EcibzvB/OKbKvyqjy7BGLFYu+UKzPb5WGWW54IL6uujoALMl792notD
+	 4noCTgravVYyZDRswiLcu+1mGUEb7esKonVwdij+tqPRx3dpLUvihsjC3YPe8oH1mH4D4d
+	 eQqxOL6XBUeywzbJxzS+Q+69kHdW2oL3yHBO0dFFONUdW1nhHOvgC70j9PyaSlV/HuzxyU
+	 5U5iNNOyvbZ8Ra27lS8H76rt/6LD4IM4PdY/bzjIJrIqYCd0luh8tYoMvQrrfKTS1Nfp5i
+	 ZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1704271931; c=relaxed/relaxed;
+	bh=498O+7OSSGeBeeD6uEhbqdf5TnJZ/0DPBk7ZYawaFJQ=;
+	h=from:to:subject:date:message-id; b=gPy2zUyIVpLA6orw3idmmGVOsrr1TvXSFz
+	 eTsxGH6ec018jLZGAUpX0TlqVgqekCk6dFFWuyTcU0NkHrY1rhW0MZJ7pj9CzUbBaT4pJ4
+	 I6MxUOFOE5xOdlROawx7gE/ATZdST+4fCusuiBFkT02+STC9DWYpYOOhI9OriHgn6nFgAk
+	 0shl8Gn+viP7CvAGGtBiUn8cxgfICZu2rhQKjuN7PsmwFzH6NjTawntK8bmqW44aHQsCu8
+	 5AS9Px0o3993lRPstbFqFmMSON6YBSKB2hwWOkUg0EnfzbeqxliHfIOMl2wgq2ojMRKNtw
+	 r7vnOyn6l3ZofDbxitUAafJsvPfQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.43 as permitted sender) smtp.mailfrom=sendmail@credit.co.kr
+Return-Path: <sendmail@credit.co.kr>
+Received-SPF: pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.43 as permitted sender)
+  client-ip=211.218.41.43; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.43 as permitted sender) smtp.mailfrom=sendmail@credit.co.kr
+X-Naver-ESV: wden+6J4p63qMBIYFHwdbXmmaAEZKxJYkXm=
+X-Session-IP: 211.218.41.43
+Received: from [credit.co.kr] (credit.co.kr [211.218.41.43])
+  by crcvmail303.nm.naver.com with ESMTP id MTdH3wFwQIexQJmb4v9aMw
+  for <1059230@naver.com>;
+  Wed, 03 Jan 2024 08:52:11 -0000
+From: "=?euc-kr?B?TklDRcbysKHBpLq4?=" <sendmail@credit.co.kr>
+To: "=?euc-kr?B?udoqvLo=?=" <1059230@naver.com>
+Reply-to: <sendmail@credit.co.kr>
+Subject: =?euc-kr?B?W05JQ0XB9sWwucxdILCzwM7BpLq4IA==?=
+ =?euc-kr?B?wMy/67O7v6rAuyC+yLO7teW4s7TPtNku?=
+Date: Wed, 03 Jan 2024 17:52:11 +0900
+X-WORKER_ID: <single.naver.com_Worker_9>
+X-MAIL_ID: <UE9TVF9JRD0yMDI0MDEwMjAwMDAx>
+X-MEMBER_ID: <TV9JRD0xMjAxODI0ODUy>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver5.0( PLUTO-build 0411 )
+MIME-Version: 1.0
+Message-ID: <202401031752119773@credit.co.kr_Ems@credit.co.kr>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>NICE지키미</title>
+</head>
+
+<body style="margin:0;">
+
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%; max-width:800px; padding:0; text-align:left; background-color:#fff; margin:0 auto; font-family:'Noto Sans CJK KR','맑은 고딕', malgun, dotum,'돋움'; color:#454545; letter-spacing:-1px !important; word-break:keep-all; line-height:1.3 !important;">
+<!-- top logo -->
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<tr>
+<td style="padding:4.63% 7.5%; background-color:#0669fa;">
+<h1 style="margin:0; font-size:0;"><a href="http://ems.credit.co.kr:80/Check.html?TV9JRD0xMjAxODI0ODUy&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDI0MDEwMjAwMDAx&VEM9MjAyNDAyMDQ=&S0lORD1D&Q0lEPTAwMQ==&URL=https://www.credit.co.kr" target="_blank"><img src="https://img.credit.co.kr/resource/img/zkm/rzm/em/email_logo1.png" alt="NICE지키미" border="0" style="width:23.68%; height:auto; vertical-align:top;"></a></h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- // top logo -->
+<!-- container -->
+<tr>
+<td style="padding:0 7.5%;">
+<h2 style="font-size:36px; margin:43px 0 0; line-height:46px; letter-spacing: -2.16px;">
+나이스지키미에서 <span style="color:#0669fa;">개인정보 상세 이용내역</span>을 확인하시기 바랍니다.
+</h2>
+<p style="margin:39px 0 0; font-size:16px; line-height:26px;">
+<span style="color:#0669fa;">「 개인정보 보호법 제20조(정보주체 이외로부터 수집한 개인정보의 수집 출처 등 통지) 」</span> 및 <span style="color:#0669fa;">「 개인정보 보호법 제20조의 2(개인정보 이용 · 제공 내역의 통지) 」</span>에 의거, 법적 의무준수를 위해 연 1회 전 회원님께 발송하는 메일입니다.
+</p>
+
+<h3 style="font-size:24px; font-weight: bold; line-height: 40px; margin-top:70px;">개인정보 이용내역 안내</h3>
+
+<div style="margin-top:25px; padding:24px 30px; background-color:#f9f9f9; border:1px solid #eee; border-radius:18px;">
+<table border="0" cellpadding="0" cellspacing="0" style="width:100%;">
+<tr style="vertical-align: top;">
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px; padding-right:5px;">1.</td>
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px;">개인정보의 수집 · 이용목적 및 수집한 개인정보의 항목</td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px; padding-right:5px;">2.</td>
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px;">개인정보를 제공받은 자와 그 제공 목적 및 제공한 개인정보의 항목 </td>
+</tr>
+<tr style="vertical-align: top;">
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px; padding-right:5px;">3.</td>
+<td style="padding: 0; margin:0; font-size:16px; line-height: 32px; color:#444; font-weight: normal; letter-spacing: -0.96px;">개인정보 처리위탁을 받은 자 및 그 처리위탁을 하는 업무의 내용</td>
+</tr>
+</table>
+</div>
+
+<div style="text-align:center;">
+<a href="http://ems.credit.co.kr:80/Check.html?TV9JRD0xMjAxODI0ODUy&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDI0MDEwMjAwMDAx&VEM9MjAyNDAyMDQ=&S0lORD1D&Q0lEPTAwMg==&URL=https://www.credit.co.kr/ib20/mnu/BZWCGMRTE11?uaCheck=Y" target="_blank" style="display:inline-block; margin-top:40px; padding:16px 30px; color:#222; font-size:16px; font-weight:bold; line-height: 28px; text-decoration:none; background-color: #fff; border:1px solid #444444; border-radius:15px;">
+개인정보 처리방침 확인하기
+</a>
+</div>
+
+<table border="0" cellpadding="0" cellspacing="0" style="margin-top:40px;">
+<tbody>
+<tr>
+<td style="width:15px; padding-top:6px; vertical-align:top; padding-bottom:40px;"><span style="display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#444; border-radius:50%; vertical-align:middle;"></span></td>
+<td style="color:#222; font-size:14px; line-height:28px; padding-bottom:40px;">NICE평가정보는 회원님의 개인정보를 동의 받은 목적 내에서만 이용하며, 회원님의 동의 없이 개인정보를 수집 · 이용하거나 외부에 제공하지 않습니다.</td>
+</tr>
+<tr>
+<td colspan="2" style="border-top:1px solid #eee; padding-top:16px; text-align: center; color:#222; font-size:14px; line-height:28px;">
+나이스지키미는 회원님의 소중한 개인정보 보호를 위해 언제나 최선을 다하겠습니다. 감사합니다.
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<!-- 일괄발송 이메일 안내, 보고서, 문서 표현 다음일 경우 marmgin-top:0 -->
+<div style="margin-top:47px; padding:4% 7.5%; color:#767676; font-size:12px; border-top:1px solid #bababa;">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="width:12px; padding-top:6px; vertical-align:top;"><span style="display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span></td>
+<td style="padding:2px 0 2px; line-height:22px;">2024년 01월 03일 발송 이메일입니다.</td>
+</tr>
+<tr>
+<td style="width:12px; padding-top:6px; vertical-align:top;"><span style="display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span></td>
+<td style="padding:2px 0 2px; line-height:22px;">본 이메일은 메일 수신동의 여부와 관계없이 발송되는 발신전용 메일입니다.</td>
+</tr>
+<tr>
+<td style="width:12px; padding-top:6px; vertical-align:top;"><span style="display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span></td>
+<td style="padding:2px 0 2px; line-height:22px;">관련 문의사항에 대해서는 고객센터로 문의하여 주시기 바랍니다.</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<!-- // container -->
+<!-- footer -->
+<tr>
+<td style="padding:4.365% 7.5% 6.25%; background-color:#f5f5f5;">
+<div style="color:#767676; font-size:12px; line-height:20px;">
+<span style="display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">주소</strong>서울 영등포구 은행로 17(여의도동 14-33)
+</span><span style="display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">대표이사</strong>신희부
+</span><span style="display:inline-block;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">사업자등록번호</strong>116-81-15020
+</span>
+</div>
+<div style="margin-top:1px; color:#767676; font-size:12px; line-height:20px;">
+<span style="display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">전화</strong>1588-2486
+</span><span style="display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">팩스</strong>(02)2122-8050
+</span><span style="display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style="display:inline-block; margin-right:10px; font-weight:bold;">통신판매업신고번호</strong>제2007-05725호
+</span><span style="display:inline-block;">
+webmaster@credit.co.kr
+</span>
+</div>
+
+<p style="margin:14px 0 0; color:#444; font-size:12px; letter-spacing:-0.5px;">COPYRIGHT NICE INFORMATION SERVICE. ALL RIGHTS RESERVED.</p>
+<p style="margin:16px 0 0;"><img src="https://img.credit.co.kr/resource/img/zkm/rzm/em/email_logo2.png" alt="NICE평가정보" border="0" style="vertical-align:top;"></h1>
+</td>
+</tr>
+<!-- // footer -->
+</table>
+
+<img src="http://ems.credit.co.kr:80/Check.html?TV9JRD0xMjAxODI0ODUy&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDI0MDEwMjAwMDAx&VEM9MjAyNDAyMDQ=&S0lORD1P" width=1 height=1>
+<iframe src="http://ems.credit.co.kr:80/Check.html?TV9JRD0xMjAxODI0ODUy&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDI0MDEwMjAwMDAx&VEM9MjAyNDAyMDQ=&S0lORD1E" frameborder="0" width="1" height="1"></iframe>
+</body>
+</html>
+
+
+

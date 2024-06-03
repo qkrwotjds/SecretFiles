@@ -1,0 +1,114 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1655895945;
+	cv=none; b=QUL7ZLmlLeF1+O1wnxrzhlVa6hPMvse/4MonqaqMGeN7VBivy5XnYzTh0Pk5
+	 gufzrp8O0Q0nu7A3iI3vXExjYsbTbsjcBTlVn7Tx/apA0jYST18+krngxCwv/dcBuaGbZb
+	 tE+9AN2fkMwib30jpPon8M8dgv7BHUk05/90fiI9yMEkABqIVZE7oTMfda202U1D8IxfBN
+	 KWsxdT9i8B5gV5Mvr+MpLPyQF4aziB3fPyg2rkG6mj/o87kcmWY62WDq7KHViSvRJ7j/dU
+	 KAHXBNBdIQXh88QVDoBlsgFWNUHrFI2s01nNKK5wx6vbAIiYTiU1bgKWSUOrF2LemR3i3q
+	 2Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1655895945; c=relaxed/relaxed;
+	bh=lyV8ZjFoSOrPcPLqp1fcsKup8r2MscNxFpeq1XPrrwU=;
+	h=date:from:to:message-id:subject; b=n96Lk+rDlRc1L+if2uISx18hWUPUakLq38
+	 8pAI4GCXTIUq2sgcHg3uFoZDNYTltYmF8mW6FP9VbkDWiCswqcRiSs4Vqf57NkIgxSfjsu
+	 UkdoWc15bf9Si+UUSwipqXPTKH7NlLBMRkiJScitKG2/6+f6r9FC4lJhDBnyKhoYO/ydGo
+	 v4sbgsodGxXIj0MZ7vjIXkvdfkWy3pHKmv5WjuHYYfcB/M4FBpVpZJ792xM0CQ522Cn1S2
+	 vgLJfbjtxSlOOrhY8Gl21YESSX7AuVC7s78KWhnxH464NGXEJUj4IZvERZv5ixFY9I3KdQ
+	 tT7qvmkaBdKHiEs8+Pi9nwG8R9Vg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of cyber@sgic.co.kr designates 203.229.175.115 as permitted sender) smtp.mailfrom=cyber@sgic.co.kr
+Return-Path: <cyber@sgic.co.kr>
+Received-SPF: pass (mx.naver.com: domain of cyber@sgic.co.kr designates 203.229.175.115 as permitted sender)
+  client-ip=203.229.175.115; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of cyber@sgic.co.kr designates 203.229.175.115 as permitted sender) smtp.mailfrom=cyber@sgic.co.kr
+X-Naver-ESV: wdRn+6J4p63qMBIYFHwdbXmwKxg9FAkYkXm=
+X-Session-IP: 203.229.175.115
+Received: from sgic.co.kr (sgic.co.kr [203.229.175.115])
+  by crcvmail204.nm.naver.com with ESMTP id Drp+1vw6T6SesHoA1PGXHw
+  for <1059230@naver.com>;
+  Wed, 22 Jun 2022 11:05:45 -0000
+Return-Path: cyber@sgic.co.kr
+Received: from sgic.co.kr (175.20.1.31)(permitted)
+	by localhost with ESMTP imoxion SensMail SmtpServer 10.0
+	id <5a21730392bc48d6beec35d48cd82d30> for <1059230@naver.com> from <cyber@sgic.co.kr>;
+	Wed, 22 Jun 2022 20:05:45 +0900
+Date: Wed, 22 Jun 2022 20:05:45 +0900 (KST)
+From: =?UTF-8?B?U0dJ7ISc7Jq467O07Kad?= <cyber@sgic.co.kr>
+To: 1059230@naver.com
+Message-ID: <791752497.151655895945192.JavaMail.jeus@egisap1>
+Subject: =?UTF-8?B?W1NHSeyEnOyauOuztOymnV0g7ZqM7JuQ6rCA7J6FIOyZhOujjCDslYjrgrQ=?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_15_538976288.1655895945191"
+
+------=_Part_15_538976288.1655895945191
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<center>
+  <div style=3D'max-width:670px;min-width:320px; line-height: 1.5; margin-t=
+op:30px;padding:40px;color:#333; font-family: Noto Sans KR, =EB=82=98=EB=88=
+=94=EA=B3=A0=EB=94=95, =EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95;border:rgb(222=
+, 222, 222) 1px solid'>
+    <table width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0"=
+>
+      <tr>
+        <td style=3D"border-bottom:rgb(222, 222, 222) 1px solid"><a target=
+=3D"_blank" href=3D"http://www.sgic.co.kr"><img src=3D'https://www.sgic.co.=
+kr/chp/img/co/slogo.jpg' alt=3D'=EB=A1=9C=EA=B3=A0'></a></td>
+        <td align=3D"right" style=3D"border-bottom:rgb(222, 222, 222) 1px s=
+olid;font-size:13px">=EC=B5=9C=EC=B4=88=EC=99=80 =EC=B5=9C=EA=B3=A0=EC=9D=
+=98 =EC=97=AD=EC=82=AC=EB=A1=9C =EC=96=B8=EC=A0=9C=EB=82=98 =EA=B3=A0=EA=B0=
+=9D=EC=9D=98 =EB=93=A0=EB=93=A0=ED=95=9C =EB=8F=99=EB=B0=98=EC=9E=90=EA=B0=
+=80 =EB=90=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.</td>
+      </tr>
+      <tr>
+        <td height=3D"120" colspan=3D"2" style=3D"font-size:40px;color:#039=
+;vertical-align:bottom;letter-spacing:-2px"><strong>=ED=9A=8C=EC=9B=90=EA=
+=B0=80=EC=9E=85=EC=95=88=EB=82=B4</strong></td>
+      </tr>
+      <tr>
+        <td height=3D"70" colspan=3D"2" style=3D"font-size:18px;">=EB=B0=95=
+=EC=9E=AC=EC=84=B1 =EA=B3=A0=EA=B0=9D=EB=8B=98, =EC=95=88=EB=85=95=ED=95=98=
+=EC=84=B8=EC=9A=94.</td>
+      </tr>
+      <tr>
+        <td colspan=3D"2"  style=3D"font-size:16px; line-height: 30px;">
+        SGI=EC=84=9C=EC=9A=B8=EB=B3=B4=EC=A6=9D =ED=9A=8C=EC=9B=90 =EA=B0=
+=80=EC=9E=85=EC=9D=84 =ED=99=98=EC=98=81=ED=95=A9=EB=8B=88=EB=8B=A4.<br/>
+=09=09=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=80 SGI=EC=84=9C=EC=9A=B8=EB=B3=B4=
+=EC=A6=9D =ED=99=88=ED=8E=98=EC=9D=B4=EC=A7=80=EC=99=80 =EB=AA=A8=EB=B0=94=
+=EC=9D=BC=EC=95=B1=EC=97=90=EC=84=9C<br/>
+=09=09=EB=B3=B4=ED=97=98=EA=B0=80=EC=9E=85, =EB=B3=B4=ED=97=98=EB=A3=8C=EA=
+=B2=B0=EC=A0=9C, =EA=B3=84=EC=95=BD=EC=A1=B0=ED=9A=8C =EB=93=B1 =EB=8B=A4=
+=EC=96=91=ED=95=9C =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=
+=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br/>
+=09=09<br/>=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=84 =EC=9C=84=ED=95=B4 =ED=95=
+=AD=EC=83=81 =EC=B5=9C=EA=B3=A0=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A1=
+=9C =EC=B5=9C=EC=84=A0=EC=9D=84 =EB=8B=A4=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.
+        </td>
+      </tr>     =20
+      <tr>
+        <td colspan=3D"2" align=3D"center"><div style=3D'border:1px solid #=
+e1e1e1;padding:20px;background:#EAEEF3;margin-top:30px'><a href=3D'http://w=
+ww.sgic.co.kr/' target=3D'_blank' style=3D'color:#1C3C72;font-weight:bold;f=
+ont-size:17px'>SGI=EC=84=9C=EC=9A=B8=EB=B3=B4=EC=A6=9D =ED=99=88=ED=8E=98=
+=EC=9D=B4=EC=A7=80 =EB=B0=94=EB=A1=9C=EA=B0=80=EA=B8=B0</a></div></td>
+      </tr>
+    </table>
+  </div>
+  <div style=3D'background:#ddd;max-width:670px;min-width:320px; line-heigh=
+t: 1.5;padding:20px 40px;color:#777; font-family: Noto Sans KR, =EB=82=98=
+=EB=88=94=EA=B3=A0=EB=94=95;font-size:12px;border:1px solid #ddd;text-align=
+:left;'>=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=
+=EC=9A=A9=EC=9E=85=EB=8B=88=EB=8B=A4. =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=
+=EC=9D=80 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0(1670-7000)=EB=A5=BC =EC=9D=
+=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4.<br>
+  =E2=93=92 Seoul Guarantee Insurance. All rights reserved.</div>
+</center>
+------=_Part_15_538976288.1655895945191--
+
+
+

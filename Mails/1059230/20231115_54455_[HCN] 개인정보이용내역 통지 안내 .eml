@@ -1,0 +1,63 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1700013900;
+	cv=none; b=hpIjDA8DcIWVYn4fWOlxnm4o18br1bq37PAxC+zJ6GXgqZ6MzibvORPyTmKe
+	 zhqvKu0eRnnMIruoFfwCy9kQ6RJvxJ3lLx+i3aJvcK4nVUnRAJCUYWG+o5ZiYACLHvl+7H
+	 X9EO46K/VVlq19JRHwfTbSGNKVBlvN/DgB4XinxOp6BrpTOTcXZhf18BsRElfAQohZs4Nb
+	 4U6CAJ72hIcwxKVMaXsCHmdSkAtVSFGShlxfGILp2CAyDgaYok8a1RgbluK9ZcK8q6yM6i
+	 8H0ziatZhnE1FncWZmoKJOYP3CwljY8vzmoaEb5GsGp9ixs+T/KSPnwVeRMUuq9RRGKfN0
+	 PA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1700013900; c=relaxed/relaxed;
+	bh=gtyRE/ddGoEaq4iRPSgdCqilyf2r2SXNGoCZ4UtVeN4=;
+	h=date:from:subject:to:message-id; b=ls23oDiyAQqKVGpBUsttWFjyIPfpaVd3W0
+	 IeCOrYj0QQAzGEtLFSAOM9Yx1eh+ya2HX0cHlyp8R8WcggIQDUs4DhCYw3jL5g7Y4cA82H
+	 m4jgfbrHQWHhQRzUrIA4QQPqkF9RhpDQ98IFaE+uZuoxjow8lo/81E43Xy7FNtsCb9ljVR
+	 HxNPJyygt3/Yh95b3jt+e6OTtXTgNgeA/dSHHfR+UbkHmLIHLL347aOrNZShPzuLXeM+wA
+	 0SLS3S91BFLDlLoRjreiWucKRnuhxkx9wJPRFTlJ53rgnNQ/Pphjvr3pmF6UMtjcA04g8N
+	 VC2ZLgc0fYCAGQOTKotRLlslYk2w==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@hcn.co.kr designates 118.91.5.211 as permitted sender) smtp.mailfrom=noreply@hcn.co.kr
+Return-Path: <noreply@hcn.co.kr>
+Received-SPF: pass (mx.naver.com: domain of noreply@hcn.co.kr designates 118.91.5.211 as permitted sender)
+  client-ip=118.91.5.211; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@hcn.co.kr designates 118.91.5.211 as permitted sender) smtp.mailfrom=noreply@hcn.co.kr
+X-Naver-ESV: wZ+n+6J4p63qMBIYFHwdbXmmKog9KAIYkXm=
+X-Session-IP: 118.91.5.211
+Received: from tabs.hcn.co.kr (tabs.hcn.co.kr [118.91.5.211])
+  by crcvmail106.nm.naver.com with ESMTP id HqrBtnqXTKqDXxXxAimw0g
+  for <1059230@naver.com>;
+  Wed, 15 Nov 2023 02:05:00 -0000
+Date: Wed, 15 Nov 2023 11:03:59 +0900
+From: "HCN" <noreply@hcn.co.kr>
+Subject: =?ks_c_5601-1987?B?W0hDTl0gsLPAzsGkurjAzL/rs7u/qiA=?=
+	=?ks_c_5601-1987?B?xevB9iC+yLO7IA==?=
+To: "=?ks_c_5601-1987?B?KCopvta15b7Yv/m15Q==?=" <1059230@naver.com>
+X-Mailer: TABSMailer 3
+X-TABS-MsgID: {b0c6bd6e-80cf-4455-b35f-2a82f6ef0e35}
+Message-ID: <b0c6bd6e-80cf-4455-b35f-2a82f6ef0e35@tabsmailer4>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="ks_c_5601-1987"
+Content-Transfer-Encoding: base64
+
+PEhUTUw+PEhFQUQ+PFRJVExFPkhDTiCws8DOwaS6uCDAzL/rs7u/qiDF68H2IL7Is7s8L1RJVExF
+Pg0KPE1FVEEgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PWV1Yy1rciIgaHR0cC1lcXVpdj1D
+b250ZW50LVR5cGU+PC9IRUFEPg0KPEJPRFkgYmdDb2xvcj0jZmZmZmZmIGxlZnRNYXJnaW49MCB0
+b3BNYXJnaW49MCBqUXVlcnkxOTEwNzkzNDcxODA3NzU2MjA0Nj0iMTIiIG1hcmdpbmhlaWdodD0i
+MCIgbWFyZ2lud2lkdGg9IjAiPjxJTUcgc3JjPSJodHRwOi8vdGFicy5oY24uY28ua3IvTWVkaWFG
+aWxlL0ltYWdlLzIwMjMxMTE0LyVFQyVCQSVBMSVFQyVCMiU5OF8xLlBORyI+PElNRyBzcmM9Imh0
+dHA6Ly90YWJzLmhjbi5jby5rci9NZWRpYUZpbGUvSW1hZ2UvMjAyMzExMTQvJUVDJUJBJUExJUVD
+JUIyJTk4XzIuUE5HIj48SU1HIHNyYz0iaHR0cDovL3RhYnMuaGNuLmNvLmtyL01lZGlhRmlsZS9J
+bWFnZS8yMDIzMTExNC8lRUMlQkElQTElRUMlQjIlOThfMy5QTkciPiANCjxESVYgc3R5bGU9IldJ
+RFRIOiAxMDAlIj48L0RJVj48U1BBTiBzdHlsZT0iRk9OVC1TSVpFOiAxMnB0OyBGT05ULUZBTUlM
+WTogsby4siI+PEEgaHJlZj0iaHR0cDovL3RhYnMuaGNuLmNvLmtyL1RyYWNlL0xpbmtDbGljay5h
+c3B4P2NhbXBhaWduPWNmYThmYTlmLWJmZTItNDVhMC05Mzk3LWJjNDY0NjBlMTkwNiZtc2dpZD1i
+MGM2YmQ2ZS04MGNmLTQ0NTUtYjM1Zi0yYTgyZjZlZjBlMzUmbGluaz1mY2Y2ZDU1MC0zOWRhLTQ4
+MTMtYjUyYS1kYjJiMmM3YmExYjYiIHRhcmdldD1fbmV3PjxTUEFOIHN0eWxlPSdGT05ULVNJWkU6
+IDEzLjVwdDsgRk9OVC1GQU1JTFk6ICK4vMC6ILDttfEiOyBCQUNLR1JPVU5EOiB3aGl0ZTsgQ09M
+T1I6IGJsdWUnPjxJTUcgaWQ9X3gwMDAwX2kxMDI1IGJvcmRlcj0wIGFsdD0iSENOILCzwM7BpLq4
+IMOzuK655sSnILnZt86wobHiILn2xrAiIHNyYz0iaHR0cHM6Ly93d3cuaGNuLmNvLmtyL25vdGlj
+ZS9tb2JpbGUvaW1hZ2VzLzIwMjExMTE4X3Rlcm1zX21vX2J0bi5naWYiPjwvU1BBTj48L0E+PC9T
+UEFOPjwvQk9EWT48L0hUTUw+
+
+

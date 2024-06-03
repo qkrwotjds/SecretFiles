@@ -1,0 +1,103 @@
+Received: (qmail 28150 invoked from network); 9 Sep 2015 01:35:42 -0000
+Received: from 10.114.49.220 (HELO crcvmail42-2.nm.naver.com) (10.114.49.220)
+  by cmda06-2.nm.naver.com with SMTP; 9 Sep 2015 01:35:42 -0000
+Received: from send65.postman.co.kr ([119.207.76.65])
+  by crcvmail42-2.nm.naver.com with ESMTP id PVKXVlZZQySZBM33x5fhIA
+  for <1059230@naver.com>;
+  Wed, 09 Sep 2015 01:35:42 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1441762542;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=cPNr58oaHG27MI4buW1atdnUpXobnrbi2Sei+rSlr8g=;
+	b=AjUqbYqX6VUkcSs3SRWDpLPinzZXXfgqQdGksT2+EW/TbxTYonNXuJ0uIeZ2I82l
+	bktQYYE8hocTnbqcCcO9mnstmzzZumygsVZd07f1qVwhpXQYCmJa2XfIzAiZ9zfiGKW
+	pnNCgAx3+AhTH9BzLKthurdLn5O7RhIV3gi07ibQ=
+From: "=?euc-kr?B?vNvA573C?=" <jsocean@openpress.co.kr>
+To: "=?euc-kr?B?udrA57y6ILTrx6U=?=" <1059230@naver.com>
+Reply-to: <jsocean@openpress.co.kr>
+Subject: =?euc-kr?B?W7S6vbrEs726xq5dILnawOe8uiC068eltNQ=?= =?euc-kr?B?ISDHs7y6x9EgsKHAuywgtLq9usSzvbrGrg==?= =?euc-kr?B?wMcgx6rB/MfRIDm/+SDH/cXDIL7Is7u15Q==?= =?euc-kr?B?uLO0z7TZLg==?=
+Date: Wed, 09 Sep 2015 10:35:42 +0900
+X-WORKER_ID: <single.naver.com_Worker_6>
+X-MAIL_ID: <UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA==>
+X-MEMBER_ID: <TV9JRD03NTk0ODI1OTgz>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDk2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=dyco7&customer_id=7594825983>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201509091035425051@send65.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +rRYpB3G1H+YbXFCbHmRKAuqFxtZjJ+Y
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4</font><span lang=3D"EN-US"><font size=3D"2">, =B9=DA=C0=E7=BC=BA =B4=EB=C7=A5</font></span><font size=3D"2">=B4=D4</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE =BC=DB=C0=E7=BD=C2 =C6=C0=C0=E5=C0=D4=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=BE=EE=B4=C0=B5=A1 =B9=CE=C1=B7=B4=EB=B8=ED=C0=FD =C3=DF=BC=AE=C0=CC =BA=B8=B8=A7 =B3=B2=C1=FE =B4=D9=B0=A1=BF=D4=BD=C0=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">.&nbsp;</font></span></font><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=C7=B3=BF=E4=B7=CE=BF=EE 9=BF=F9=B0=FA =B8=ED=C0=FD=C0=CC =B5=C7=BD=C3=B1=E6 =B9=D9=B6=F3=B8=E7</font><span lang=3D"EN-US"><font size=3D"2">, </font></span><br />
+<font size=3D"2">=C0=FA=C8=F1 =B4=BA=BD=BA=C4=B3=BD=BA=C6=AE=BF=A1=BC=AD=B4=C2 =C7=B3=BC=BA=C7=D1</font><span lang=3D"EN-US"><font size=3D"2"> 9</font></span><font size=3D"2">=BF=F9=C0=C7 =C7=FD=C5=C3=C0=BB =B8=B6=B7=C3=C7=DF=BD=C0=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">.<br />
+<br />
+<strong>=C0=CC=BA=A5=C6=AE =B3=BB=BF=EB</strong></font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"><font size=3D"2">* 9</font></span><font size=3D"2">=BF=F9 =B3=BB =B4=BA=BD=BA=C4=B3=BD=BA=C6=AE =BC=AD=BA=F1=BD=BA =B0=E8=BE=E0 =BD=C3</font></b><span lang=3D"EN-US"><font size=3D"2"> : </font></span><b style=3D"mso-bidi-font-weight: normal"><span style=3D"color: red"><font size=3D"2">=B1=E2=BB=E7</font><span lang=3D"EN-US"><font size=3D"2"> 1</font></span><font size=3D"2">=B0=C7</font></span></b><span style=3D"color: red"><font size=3D"2"> </font><b style=3D"mso-bidi-font-weight: normal"><font size=3D"2">=C3=DF=B0=A1 =B9=AB=B7=E1</font></b></span><font size=3D"2"> =BA=B8=B5=B5 (=B9=D9=C0=CC=B7=B2=B8=B6=C4=C9=C6=C3=B5=B5 =C7=D8=B4=E7)</font></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><span lang=3D"EN-US"><font size=3D"2">* </font><b style=3D"mso-bidi-font-weight: normal"><font size=3D"2">9</font></b></span><b style=3D"mso-bidi-font-weight: normal"><font size=3D"2">=BF=F9 =B3=BB</font><span lang=3D"EN-US"><font size=3D"2"> =B4=BA=BD=BA=C4=B3=BD=BA=C6=AE =BC=AD=BA=F1=BD=BA 200</font></span><font size=3D"2">=B8=B8=BF=F8 =C0=CC=BB=F3 =B0=E8=BE=E0 =BD=C3</font></b><span lang=3D"EN-US"><font size=3D"2"> : </font></span><font size=3D"2">=B9=D9=C0=CC=B7=B2=BF=C9=BC=C7 </font><b style=3D"mso-bidi-font-weight: normal"><span style=3D"color: red"><font size=3D"2">=B9=D9=C0=CC=B7=B2</font><span lang=3D"EN-US"><font size=3D"2">A</font></span></span><span lang=3D"EN-US"><font size=3D"2">&nbsp;</font></span></b><font size=3D"2"> =BC=AD=BA=F1=BD=BA <strong>=B9=AB=B7=E1 =C1=A6=B0=F8</strong></font></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE=C0=C7 =BE=F0=B7=D0=C8=AB=BA=B8</font><span lang=3D"EN-US"><font size=3D"2">, </font></span><font size=3D"2">=B9=D9=C0=CC=B7=B2=B8=B6=C4=C9=C6=C3 =B5=EE =BC=AD=BA=F1=BD=BA=BF=A1 =B4=EB=C7=D1 =C0=DA=BC=BC=C7=D1 =BB=E7=C7=D7=C0=BA =C8=A8=C6=E4=C0=CC=C1=F6</font><span lang=3D"EN-US"><font size=3D"2">( </font><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://www.newscast.co.kr/"><font color=3D"#0000ff" size=3D"2">www.newscast.co.kr</font></a><font size=3D"2"> )</font></span><font size=3D"2">=BF=A1=BC=AD =C8=AE=C0=CE =B0=A1=B4=C9=C7=D5=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B6=C7=C7=D1</font><span lang=3D"EN-US"><font size=3D"2">, </font></span><font size=3D"2">=B1=CD=BB=E7=C0=C7 =C8=AB=BA=B8 =BB=F3=C8=B2=C0=BB =BA=D0=BC=AE=C7=CF=BF=A9 =C1=A6=B0=F8=C7=CF=B4=C2</font></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US" style=3D"color: red"><font size=3D"2">* &#39;PR </font></span><span style=3D"color: red"><font size=3D"2">=C0=FC=B7=AB=B8=AE=C6=F7=C6=AE</font></span></b><span lang=3D"EN-US"><font size=3D"2">&#39; </font></span><font size=3D"2">=BC=AD=BA=F1=BD=BA</font><span lang=3D"EN-US"><font size=3D"2"> ( </font><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://www.newscast.co.kr/service/pr_report.asp"><font color=3D"#0000ff" size=3D"2">www.newscast.co.kr/service/pr_report.asp</font></a><font size=3D"2"> ) </font></span><font size=3D"2">=B8=A6 =BC=B1=BA=B8=C0=CC=B0=ED =C0=D6=BD=C0=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=BF=C2=B6=F3=C0=CE=BB=F3=C0=C7 =B0=ED=B0=B4=BB=E7</font><span lang=3D"EN-US"><font size=3D"2"> / </font></span><font size=3D"2">=B0=E6=C0=EF=BB=E7=C0=C7 =C8=AB=BA=B8 =C7=F6=C8=B2=C0=BB =BA=D0=BC=AE=C7=D8 =C2=F7=C8=C4 =C8=AB=BA=B8 =C0=FC=B7=AB =BC=F6=B8=B3=BF=A1 =B5=B5=BF=F2=C0=CC =B5=C7=B4=C2 =B8=AE=C6=F7=C6=AE=C0=CC=B4=CF</font><span lang=3D"EN-US"><font size=3D"2">, </font></span><br />
+<font size=3D"2">=C2=FC=B0=ED =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B3=BB=BF=EB =B0=CB=C5=E4&nbsp;=C8=C4 </font><font size=3D"2">=B1=C3=B1=DD=C7=CF=BD=C5 =BB=E7=C7=D7=C0=CC =C0=D6=C0=B8=BD=C3=B8=E9 </font></font><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=BE=F0=C1=A6=B5=E7=C1=F6 =BE=C6=B7=A1 =B9=F8=C8=A3=B7=CE =BF=AC=B6=F4=C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">. </font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=BF=C0=B4=C3 =C7=CF=B7=E7=B5=B5 =C1=F1=B0=CC=B0=D4 =BA=B8=B3=BB=BC=BC=BF=E4</font><span lang=3D"EN-US"><font size=3D"2">!</font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9</font><span lang=3D"EN-US"><font size=3D"2">.</font></span></font></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><b style=3D"mso-bidi-font-weight: normal"><span lang=3D"EN-US"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1" size=3D"2">&nbsp;</font></span></b></p>
+
+<p style=3D"margin: 0cm 0cm 0pt"><b style=3D"mso-bidi-font-weight: normal"><font face=3D"=B8=BC=C0=BA =B0=ED=B5=F1"><font size=3D"2">=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE =BC=DB=C0=E7=BD=C2 =C6=C0=C0=E5 - </font><span lang=3D"EN-US"><font size=3D"2">070-8656-2939 / 010-5450-7814 =B4=EB=C7=A5=B9=F8=C8=A3 02-922-9591</font></span></font></b><br />
+<br />
+<br />
+<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://www.openpress.co.kr/" target=3D"_blank"><img border=3D"0" src=3D"http://www.openpress.co.kr/signature/jsocean.png" /></a><br />
+&nbsp;</p>
+
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=C0=CC=B8=DE=C0=CF=C0=C7 =BC=F6=BD=C5=C0=BB =B4=F5 =C0=CC=BB=F3 =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 [<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D7594825983&amp;reject_script=3DK&amp;post_id=3D20150909100008489444" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =C5=AC=B8=AF=C7=D8 =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br />To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp=
+://www.postman.co.kr/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D7594825983&amp;reject_script=3DE" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD03NTk0ODI1OTgz&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDk2MA=3D=3D&UE9TVF9JRD0yMDE1MDkwOTEwMDAwODQ4OTQ0NA=3D=3D&VEM9MjAxNTA5MTY=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

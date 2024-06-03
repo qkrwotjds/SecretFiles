@@ -1,0 +1,72 @@
+Received-SPF: softfail (mx.naver.com: domain of transitioning simplexinternet@gmail.com does not designate 218.236.58.140 as permitted sender)
+  client-ip=218.236.58.140; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=softfail (mx.naver.com: domain of transitioning simplexinternet@gmail.com does not designate 218.236.58.140 as permitted sender) smtp.mailfrom=simplexinternet@gmail.com
+X-Naver-ESV: +fRYpB3G1H+4+zpTbXmRM60njAgdKqEdKNwBjg==
+X-Session-IP: 218.236.58.140
+Received: from sender-002.cafe24.com (sender-002.cafe24.com [218.236.58.140])
+  by crcvmail15.nm.naver.com with ESMTP id NfAsGNEKQ7uc5oqssDl8Bg
+  for <1059230@naver.com>;
+  Sat, 30 Dec 2017 04:35:42 -0000
+Date: Sat, 30 Dec 2017 13:35:26 +0900
+From: "=?euc-kr?B?vcXIrcSzvb0=?="<hello@hello-dm.kr>
+Subject: =?euc-kr?B?saSw7bimILjDsNzB1r3FICjB1im9xcitxLO9vSDH77fOv+y15biyIMDUtM+02S4gXl4=?=
+To: "=?euc-kr?B?J72swe667bfOsdcnILTU?="<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: ThunderMail ver 4.5
+Content-Type: text/html;	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<table cellpadding="10" cellspacing="0">
+<tr>
+<td>
+<p>
+</p>
+<p>
+<IMG
+ VSPACE="0" HSPACE="5" STYLE="width: 650px; height: 187px;" SRC="https://biz8888.sendmail.cafe24.com/filemanager2/data/20171230/copy(3)-20171228_160919_411.jpg"></p>
+<p><br>
+</p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;안녕하세요</span></span></p>
+<p><br>
+</p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;2017년 헬로우드림과 함께 해주셔서 늘 감사했던 한 해였습니다.</span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;귀하게 맺은 인연 앞으로도 좋은 인연으로 계속 이어 나갔으면 좋겠습니다.</span></span></p>
+<p><br>
+</p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;새해에는 소망하시는 모든 일들이 잘 이뤄지시길 바라고</span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;늘 건강하시고 가족과 행복한 연말 보내시길 바랍니다.</span></span></p>
+<p><br>
+</p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;광고주님의 파트너로써 2018년에도 최선을 다할 수 있도록 </span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;항상 노력하도록 하겠습니다.^^</span></span></p>
+<p><br>
+</p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;헬로우드림 마케팅!!</span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;2017년 배포형 포스팅 진행 건수 24만건!! </span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;2017년 함께 해주신 파트너 930업체!!</span></span></p>
+<p>
+<span style="font-size: 12pt;"><span style="font-size: 10pt;">&nbsp;2017년 마지막까지 감사합니다.!!</span></span></p>
+<p>
+<span style="font-size: 12pt;"><br />
+</span></p>
+<p>
+<span style="font-size: 12pt;"><IMG
+ VSPACE="0" HSPACE="5" SRC="http://hello-dm.kr/img/song.jpg"><br />
+</span></p>
+</td>
+</tr>
+</table>
+
+<img src='http://218.236.58.140:80/filter/checker.jsp?campaignID=84991&duplicationYN=N&targetIndex=657&email=1059230@naver.com&responseEnd=2018-01-06' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://218.236.58.140:80/filter/Tracker.jsp?campaignID=84991&duplicationYN=N&targetIndex=657&email=1059230@naver.com&responseEnd=2018-01-06'></iframe>

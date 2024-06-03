@@ -1,0 +1,426 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1639142118;
+	cv=none; b=eIIvojL9Q+sRKTOT9NkLeb6wu2bIhWWKDe7Xs0a2HayukXEyKzp8NEVq2q0M
+	 NQ/c2szLUPWOmj9FXrgpBykQGIIQdvSVBNrHg3V+rKX4jkVBU8HwYO9ALygLZ5y2Sc0PY3
+	 HVhKO1462aDxtq1iH0Crm9lC8n7W16vfX7mdEFImRpDFF0VaTjDC+bfA/9kG9cadic4fX9
+	 lpAizJpWitHAaDbRYQpk/zdun+mU5scb5jwK2U6+MkGWWrEkkWHTnqeP+Y/EeS4atfZI/I
+	 L4/oHysXS+SEEiuxPHnFcM1jXfZ3iyHO8HuQ9tyO4e4MOOT574VZm6tdBGrHoUVcFK3fST
+	 /A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1639142118; c=relaxed/relaxed;
+	bh=LAZJ3Ng1SaPBO2xUnWKWtWsHfeUvSwDT6UnL6kPB1eo=;
+	h=dkim-signature:dkim-signature:from:subject:message-id:to:date; b=ons/
+	 W5dEFgk8yM9QNbvtVCHKwXQ4hOFWATd1dPv2sc6cy2TATF0nP9XjgPT4BV68s3QhCRFxK9
+	 atGqo6ac7/bM7AzcyjxAQovOWreIJp5F/gb2L5FZw2vBa8BZ/1cgLaIJIEAzXkyJhhjGUT
+	 NQBlHrNudmLfb9wwCFhxh/gAR8V10iNEM5Pf6yTgliR96hqu0gjnMQW43UK6IGUXEpwm0M
+	 MejZhdMujr1OxOLDvk46rkudXbulHjiwM7QFGmxFiEvL3AKz+IyVlESK0mLj6eCHyMOmOq
+	 oYIaKXVEjYFEaRTeicDV7dHi+k2Cv1r+bMUE65ilmnyLoIBXGvN9R7GE1w==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com designates 198.2.134.190 as permitted sender) smtp.mailfrom=bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com;
+  dkim=pass header.i=@kmong.com;
+  dkim=pass header.i=@mandrillapp.com
+Return-Path: <bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com>
+Received-SPF: pass (mx.naver.com: domain of bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com designates 198.2.134.190 as permitted sender)
+  client-ip=198.2.134.190; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com designates 198.2.134.190 as permitted sender) smtp.mailfrom=bounce-md_30500750.61b352e2.v1-830928215f93445a9cb166cb5d6e7739@mandrillapp.com;
+  dkim=pass header.i=@kmong.com;
+  dkim=pass header.i=@mandrillapp.com
+X-Naver-ESV: w9Fn+6J4p63qMBIYKXwdbXmwKqu9KxCYkXm=
+X-Session-IP: 198.2.134.190
+Received: from mail134-190.atl141.mandrillapp.com (mail134-190.atl141.mandrillapp.com [198.2.134.190])
+  by crcvmail203.nm.naver.com with ESMTP id SUIfAtOkS9mCPeXtl-QOcg
+  for <1059230@naver.com>;
+  Fri, 10 Dec 2021 13:15:18 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kmong.com;
+	s=mandrill; t=1639142114; i=no-reply@kmong.com;
+	bh=LAZJ3Ng1SaPBO2xUnWKWtWsHfeUvSwDT6UnL6kPB1eo=;
+	h=From:Subject:Message-Id:To:Date:MIME-Version:Content-Type;
+	b=D2iL6YPy5pHpdPdWqgEyY1D7q7GDIElRvDe1ibgRgmmxyK5zCqQZSs3zdNL3FAbKt
+	 s4hBClOU0m23GohHjG3PAKpGL6qZXwJGWAG289gPsUgLOBBZnSpByWw0Wa67fRh/pw
+	 3VhYdnlqCpBAWZ9FmfCioRfNNECGiAasG68+2VVo=
+Received: from pmta10.mandrill.prod.atl01.rsglab.com (localhost [127.0.0.1])
+	by mail134-190.atl141.mandrillapp.com (Mailchimp) with ESMTP id 4J9Wbk6ndmz7lmDhX
+	for <1059230@naver.com>; Fri, 10 Dec 2021 13:15:14 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1639142114; h=From : 
+ Subject : Message-Id : To : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=LAZJ3Ng1SaPBO2xUnWKWtWsHfeUvSwDT6UnL6kPB1eo=; 
+ b=m8EpziW6YG3Dwn1sRayxfP36BqMqmsocaYZpedt/NBpECTyu/n2cItXLV7HXEo2rm/epAc
+ Sixld9LgwdmHc0JZQtP7XtG7N3RfuFAZyL/fyNFhASLZrTVSY9+HmnrhoxIJEJmb621NMzF3
+ 7F/kRlJ95lyvIeofJlkNVslwum3+M=
+From: =?utf-8?Q?=ED=81=AC=EB=AA=BD?= <no-reply@kmong.com>
+Subject: =?utf-8?Q?[=ED=81=AC=EB=AA=BD]=20=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=A5=BC=20=EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EA=B8=B0=20=EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.?=
+Received: from [52.68.222.51] by mandrillapp.com id 830928215f93445a9cb166cb5d6e7739; Fri, 10 Dec 2021 13:15:14 +0000
+Message-Id: <c1d16b5d212d3a49f6bd85644dc983d5@default>
+To: =?utf-8?Q?=ED=81=AC=EB=AA=BD=20=ED=9A=8C=EC=9B=90=EB=8B=98?= <1059230@naver.com>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30500750.830928215f93445a9cb166cb5d6e7739
+X-Mandrill-User: md_30500750
+Feedback-ID: 30500750:30500750.20211210:md
+Date: Fri, 10 Dec 2021 13:15:14 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-7YCE_2KeRAGa7N9QHwzDHg"
+
+--_av-7YCE_2KeRAGa7N9QHwzDHg
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+        [=ED=81=AC=EB=AA=BD] =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=A5=BC =
+=EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=
+=EB=8B=A4.
+<https://www.kmong.com> =3D=3D =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=
+=80=EA=B2=BD =EC=95=88=EB=82=B4 =3D=3D
+
+  =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94, =ED=9A=8C=EC=9B=90=EB=8B=
+=98! 
+  
+  *| =EA=BC=AD =ED=99=95=EC=9D=B8=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94!*  * =
+=EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=A5=BC =ED=86=B5=ED=95=B4 =EC=83=88=
+=EB=A1=9C=EC=9A=B4
+=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=A1=9C =EB=B3=80=EA=B2=BD=ED=95=B4=
+=EC=A3=BC=EC=84=B8=EC=9A=94.
+ * =EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=8A=94 =EB=B9=84=EB=B0=80=EB=B2=
+=88=ED=98=B8 =EC=B0=BE=EA=B8=B0=EB=A5=BC =EC=8B=A0=EC=B2=AD=ED=95=9C =ED=9B=
+=84 3=EC=8B=9C=EA=B0=84=EC=9D=B4
+=EC=A7=80=EB=82=98=EB=A9=B4 =EC=86=8C=EB=A9=B8=EB=90=A9=EB=8B=88=EB=8B=A4.
+ * =EB=A7=8C=EC=9D=BC =EB=B3=B8=EC=9D=B8=EC=9D=B4 =EC=A0=95=EB=B3=B4=EB=A5=
+=BC =EB=B3=80=EA=B2=BD=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=
+=B0,
+help@kmong.com=EC=9C=BC=EB=A1=9C =EA=B4=80=EB=A0=A8 =EB=82=B4=EC=9A=A9=EC=
+=9D=84 =EC=A0=84=EB=8B=AC=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=
+=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4. 
+
+   =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD
+<https://kmong.com/reset_pwd?token=3D90vdQ0vQKIl44qC7INuwO0DukZLQjU658vSpgv=
+kb>
+
+ 
+ 
+  =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=
+=A9 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.  =EA=B0=9C=EC=9D=B8=EC=
+=A0=95=EB=B3=B4=EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8
+<https://kmong.com/terms_of_service> | =EC=84=9C=EB=B9=84=EC=8A=A4=EC=9D=B4=
+=EC=9A=A9=EC=95=BD=EA=B4=80
+<https://kmong.com/privacy_policy>
+<https://play.google.com/store/apps/details?id=3Dcom.kmong.kmong&hl=3Dko>
+<https://itunes.apple.com/kr/app//id1039179300?mt=3D8>
+
+--_av-7YCE_2KeRAGa7N9QHwzDHg
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+    <!-- NAME: 1 COLUMN -->
+    <!--[if gte mso 15]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta charset=3D"UTF-8">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <title>[=ED=81=AC=EB=AA=BD] =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=A5=
+=BC =EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4.</title>
+
+    <style type=3D"text/css">
+
+        /*=EA=B8=B0=EB=B3=B8=EC=84=A4=EC=A0=95*/
+
+        table{
+            border-collapse:collapse;
+        }
+        h1,h2,h3,h4,h5,h6{
+            display:block;
+            margin:0;
+            padding:0;
+            color:#444;
+            font-family:Helvetica;
+            font-style:normal;
+            line-height: 1.6em !important;
+            letter-spacing:normal;
+            font-weight:inherit !important;;
+        }
+        img,a img{
+            border:0;
+            height:auto;
+            outline:none;
+            text-decoration:none;
+        }
+        body,#bodyTable,#bodyCell{
+            height:100%;
+            margin:0;
+            padding:0;
+            width:100%;
+        }
+        #outlook a{
+            padding:0;
+        }
+        img{
+            -ms-interpolation-mode:bicubic;
+        }
+        table{
+            mso-table-lspace:0pt;
+            mso-table-rspace:0pt;
+        }
+        p,a,li,td,blockquote{
+            mso-line-height-rule:exactly;
+        }
+        a[href^=3Dtel],a[href^=3Dsms]{
+            color:inherit;
+            cursor:default;
+            text-decoration:none;
+        }
+        p,a,li,td,body,table,blockquote{
+            -ms-text-size-adjust:100%;
+            -webkit-text-size-adjust:100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        a[x-apple-data-detectors]{
+            color:inherit !important;
+            text-decoration:none !important;
+            font-size:inherit !important;
+            font-family:inherit !important;
+            font-weight:inherit !important;
+            line-height:inherit !important;
+        }
+        h1{
+            font-size:26px;
+        }
+        h2{
+            font-size:22px;
+        }
+        h3{
+            font-size:20px;
+        }
+        h4{
+            font-size:18px;
+        }
+        h5{
+            font-size:15px;
+        }
+        h6{
+            font-size:13px;
+        }
+        .margin-top-10{margin-top: 10px !important;}
+        .margin-top-15{margin-top: 15px !important;}
+        .font-color-lighter{color: #666 !important;}
+        .color-red{color:#f26656;}
+        .text-center{text-align: center}
+
+        /*TAG =EC=8A=A4=ED=83=80=EC=9D=BC =EC=8B=9C=EC=9E=91*/
+
+        #bodyCell{
+            padding:10px;
+            border-top:0;
+        }
+        .templateContainer{
+            max-width:600px !important;
+            background: #fff;
+            padding: 20px;
+            margin: 40px auto 20px auto;
+        }
+        body,#bodyTable{
+            background-color:#FAFAFA;
+        }
+        .templateContainer{
+            border:0;
+        }
+        .mailing-info{
+            margin-top: 20px;
+            background: #fffdec;
+            padding: 10px;
+        }
+        .mailing-title{
+            background: #fff;
+            box-shadow: 1px 1px 10px #ddd;
+            text-align: center;
+            padding: 15px
+        }
+        .mailing-title > h3{
+            text-align: center;
+        }
+        .mailing-btn{
+            padding: 15px 20px;
+            background: #f3865b;
+            display: inline-block;
+            margin-top: 25px;
+        }
+        .mailing-btn > a{
+            color: #fff !important;
+        }
+
+        .footer-information{
+            text-align: center;
+        }
+        .footer-information .kmong-information{
+            color: #ee7149;
+        }
+        .footer-information .kmong-information > a{
+            color: #ee7149;
+        }
+        .footer-information a > img{
+            width: 130px;
+            padding: 20px 5px;
+        }
+    </style>
+</head>
+<body style=3D"height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #FAFAFA;">
+<center>
+
+    <table id=3D"bodyTable" style=3D"border-collapse: collapse;mso-table-ls=
+pace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;height: 100%;margin: 0;padding: 0;width: 100%;background-col=
+or: #FAFAFA;">
+        <tr>
+            <td id=3D"bodyCell" style=3D"mso-line-height-rule: exactly;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: =
+0;padding: 10px;width: 100%;border-top: 0;">
+                <div class=3D"templateContainer" style=3D"background: #fff;=
+padding: 20px;margin: 40px auto 20px auto;border: 0;max-width: 600px !impor=
+tant;">
+                    <div>
+                        <a href=3D"https://mandrillapp.com/track/click/3050=
+0750/www.kmong.com?p=3DeyJzIjoiRkpqRUFGUzR6eFNncFN3Ri1wcEJ2YWJHcktBIiwidiI6=
+MSwicCI6IntcInVcIjozMDUwMDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3d=
+3dy5rbW9uZy5jb21cIixcImlkXCI6XCI4MzA5MjgyMTVmOTM0NDVhOWNiMTY2Y2I1ZDZlNzczOV=
+wiLFwidXJsX2lkc1wiOltcIjZlOGU2ZTM5NWM1ZDg2ZjQ4OTY0ZGQ1ZTRlNDEwNzg4NDE5NDY0Z=
+TVcIl19In0" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;text-decoration: none;"><img src=3D"https=
+://gallery.mailchimp.com/eab3323d866622c6df5ef9d1b/images/dd93cb91-4722-47f=
+7-b054-2328c2c7861c.png" style=3D"border: 0;height: auto;outline: none;text=
+-decoration: none;-ms-interpolation-mode: bicubic;"></a>                   =
+     <h2 style=3D"display: block;margin: 0;padding: 0;color: #444;font-fami=
+ly: Helvetica;font-style: normal;letter-spacing: normal;font-size: 22px;lin=
+e-height: 1.6em !important;font-weight: inherit !important;">=EB=B9=84=EB=
+=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD =EC=95=88=EB=82=B4</h2>
+                        <h5 class=3D"margin-top-10 font-color-lighter" styl=
+e=3D"display: block;margin: 0;padding: 0;color: #666 !important;font-family=
+: Helvetica;font-style: normal;letter-spacing: normal;font-size: 15px;line-=
+height: 1.6em !important;font-weight: inherit !important;margin-top: 10px !=
+important;">
+                            =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94, =
+=ED=9A=8C=EC=9B=90=EB=8B=98! <br>
+                        </h5>
+                    </div>
+                    <div class=3D"mailing-info" style=3D"margin-top: 20px;b=
+ackground: #fffdec;padding: 10px;">
+                        <h6 class=3D"margin-top-15" style=3D"display: block=
+;margin: 0;padding: 0;color: #444;font-family: Helvetica;font-style: normal=
+;letter-spacing: normal;font-size: 13px;line-height: 1.6em !important;font-=
+weight: inherit !important;margin-top: 15px !important;"><b>| =EA=BC=AD =ED=
+=99=95=EC=9D=B8=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94!</b></h6>
+                        <h6 style=3D"display: block;margin: 0;padding: 0;co=
+lor: #444;font-family: Helvetica;font-style: normal;letter-spacing: normal;=
+font-size: 13px;line-height: 1.6em !important;font-weight: inherit !importa=
+nt;">
+
+                            * =EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=A5=
+=BC =ED=86=B5=ED=95=B4 =EC=83=88=EB=A1=9C=EC=9A=B4 =EB=B9=84=EB=B0=80=EB=B2=
+=88=ED=98=B8=EB=A1=9C =EB=B3=80=EA=B2=BD=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=
+=94.<br>
+                            * =EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=8A=
+=94 =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EC=B0=BE=EA=B8=B0=EB=A5=BC =EC=8B=
+=A0=EC=B2=AD=ED=95=9C =ED=9B=84 3=EC=8B=9C=EA=B0=84=EC=9D=B4 =EC=A7=80=EB=
+=82=98=EB=A9=B4 =EC=86=8C=EB=A9=B8=EB=90=A9=EB=8B=88=EB=8B=A4.<br />
+                            * =EB=A7=8C=EC=9D=BC =EB=B3=B8=EC=9D=B8=EC=9D=
+=B4 =EC=A0=95=EB=B3=B4=EB=A5=BC =EB=B3=80=EA=B2=BD=ED=95=98=EC=A7=80 =EC=95=
+=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0, <span class=3D"color-red" style=3D"color: =
+#f26656;">help@kmong.com</span>=EC=9C=BC=EB=A1=9C =EA=B4=80=EB=A0=A8 =EB=82=
+=B4=EC=9A=A9=EC=9D=84 =EC=A0=84=EB=8B=AC=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=
+=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+                        </h6>
+                    </div>
+
+                    <div class=3D"text-center" style=3D"text-align: center;=
+">
+                        <div class=3D"text-center mailing-btn" style=3D"tex=
+t-align: center;padding: 15px 20px;background: #f3865b;display: inline-bloc=
+k;margin-top: 25px;">
+                            <a href=3D"https://mandrillapp.com/track/click/=
+30500750/kmong.com?p=3DeyJzIjoiOWZBdHdoc2pDc1d2SDJ5QldJSzN0YURZT2Q4IiwidiI6=
+MSwicCI6IntcInVcIjozMDUwMDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2t=
+tb25nLmNvbVxcXC9yZXNldF9wd2Q_dG9rZW49OTB2ZFEwdlFLSWw0NHFDN0lOdXdPMER1a1pMUW=
+pVNjU4dlNwZ3ZrYlwiLFwiaWRcIjpcIjgzMDkyODIxNWY5MzQ0NWE5Y2IxNjZjYjVkNmU3NzM5X=
+CIsXCJ1cmxfaWRzXCI6W1wiZjhkZjM2ZmMzZDZiZTVjZTgyYWUyMDkxMzExZWY4ODA4OWNhMDQw=
+OFwiXX0ifQ" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #fff !import=
+ant;">=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD</a>
+                        </div>
+                    </div>
+                </div>
+                <div class=3D"footer-information" style=3D"text-align: cent=
+er;">
+    <h6 style=3D"display: block;margin: 0;padding: 0;color: #444;font-famil=
+y: Helvetica;font-style: normal;letter-spacing: normal;font-size: 13px;line=
+-height: 1.6em !important;font-weight: inherit !important;">=EB=B3=B8 =EB=
+=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9 =EB=A9=94=EC=
+=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.</h6>
+    <h6 class=3D"kmong-information" style=3D"display: block;margin: 0;paddi=
+ng: 0;color: #116ad4;font-family: Helvetica;font-style: normal;letter-spaci=
+ng: normal;font-size: 13px;line-height: 1.6em !important;font-weight: inher=
+it !important;">
+        <a href=3D"https://mandrillapp.com/track/click/30500750/kmong.com?p=
+=3DeyJzIjoieldfZjAtRHpnMGFpcG9IMWZScUJFS2VkVlZBIiwidiI6MSwicCI6IntcInVcIjoz=
+MDUwMDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2ttb25nLmNvbVxcXC90ZXJ=
+tc19vZl9zZXJ2aWNlXCIsXCJpZFwiOlwiODMwOTI4MjE1ZjkzNDQ1YTljYjE2NmNiNWQ2ZTc3Mz=
+lcIixcInVybF9pZHNcIjpbXCJkNWNkMzZkNzViNzA3YzQ5NTNiOTMyNmI1MWNlZjAzOTc1OGQ0N=
+2I3XCJdfSJ9" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;text-decoration: none;color: #116ad4;">=
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8</a=
+> | <a href=3D"https://mandrillapp.com/track/click/30500750/kmong.com?p=3De=
+yJzIjoiZUxDMjZ2VHdySFlHYm85Wi0wVVBVd0l1SFdNIiwidiI6MSwicCI6IntcInVcIjozMDUw=
+MDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2ttb25nLmNvbVxcXC9wcml2YWN=
+5X3BvbGljeVwiLFwiaWRcIjpcIjgzMDkyODIxNWY5MzQ0NWE5Y2IxNjZjYjVkNmU3NzM5XCIsXC=
+J1cmxfaWRzXCI6W1wiMzc2OWUyZTY0ZDFkNDBlYjM0NjMwMGU5MTI0ZmY1MWYwZTA5ZmEyOVwiX=
+X0ifQ" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-w=
+ebkit-text-size-adjust: 100%;text-decoration: none;color: #116ad4;">=EC=84=
+=9C=EB=B9=84=EC=8A=A4=EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80</a>
+    </h6>
+    <a href=3D"https://mandrillapp.com/track/click/30500750/play.google.com=
+?p=3DeyJzIjoiVVpNVXdBbm1uN3ZtNkVoVGw5MmlVeDBIRGV3IiwidiI6MSwicCI6IntcInVcIj=
+ozMDUwMDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL3BsYXkuZ29vZ2xlLmNvb=
+VxcXC9zdG9yZVxcXC9hcHBzXFxcL2RldGFpbHM_aWQ9Y29tLmttb25nLmttb25nJmhsPWtvXCIs=
+XCJpZFwiOlwiODMwOTI4MjE1ZjkzNDQ1YTljYjE2NmNiNWQ2ZTc3MzlcIixcInVybF9pZHNcIjp=
+bXCJhZGEyYzFiZjNlZWYwMDI0NzAzYjJiNTdmMmNmMjc3YTU2MDIyYjU1XCJdfSJ9" style=3D=
+"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;text-decoration: none;">
+        <img src=3D"https://d2v80xjmx68n4w.cloudfront.net/assets/email/goog=
+le-play-download.jpg" style=3D"border: 0;height: auto;outline: none;text-de=
+coration: none;-ms-interpolation-mode: bicubic;width: 142px;padding: 20px 5=
+px;">
+    </a>
+    <a href=3D"https://mandrillapp.com/track/click/30500750/itunes.apple.co=
+m?p=3DeyJzIjoiOXBrM2JNNE13RXk4NlFiVmFsSHhqeWpubjZFIiwidiI6MSwicCI6IntcInVcI=
+jozMDUwMDc1MCxcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2l0dW5lcy5hcHBsZS5j=
+b21cXFwva3JcXFwvYXBwXFxcL1xcXC9pZDEwMzkxNzkzMDA_bXQ9OFwiLFwiaWRcIjpcIjgzMDk=
+yODIxNWY5MzQ0NWE5Y2IxNjZjYjVkNmU3NzM5XCIsXCJ1cmxfaWRzXCI6W1wiZTVmODllZjM3Y2=
+IyOTg4MDJhNTI5NTc1OTEyZjQ0YWQ4NzNiOGU3ZlwiXX0ifQ" style=3D"mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;tex=
+t-decoration: none;">
+        <img src=3D"https://d2v80xjmx68n4w.cloudfront.net/assets/email/app-=
+store-download.jpg" style=3D"border: 0;height: auto;outline: none;text-deco=
+ration: none;-ms-interpolation-mode: bicubic;width: 142px;padding: 20px 5px=
+;">
+    </a>
+</div>            </td>
+        </tr>
+    </table>
+</center>
+<img src=3D"https://mandrillapp.com/track/open.php?u=3D30500750&id=3D830928=
+215f93445a9cb166cb5d6e7739" height=3D"1" width=3D"1"></body>
+</html>
+
+--_av-7YCE_2KeRAGa7N9QHwzDHg--
+

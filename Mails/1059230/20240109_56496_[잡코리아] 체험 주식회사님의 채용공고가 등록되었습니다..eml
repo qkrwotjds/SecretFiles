@@ -1,0 +1,170 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1704797720;
+	cv=none; b=LjNyoDx9qEGMp7Ai3sZrKgcxwdWv+8fPF5KgeU0wmHildlpr282R3q6H0HuI
+	 XmSRG8WJG9av2EyTBcKuP9EeghN7poWrniCthlYqTc6iofJg3zEvZkyux+rrQYrCeCVHPF
+	 5Sc0YdKNMkLhXF+rUSVYBOsK+dN6WVbzrn0iIL8mQWMvFCMSdgc7F0S1HN7zXAOn99NdyO
+	 a7H7h8k0dKA+BRPbQEwOrMKmVDykbFDxzABTrutyLzbrFxwmVsm2hdpY0JidYTpK/zsTZ9
+	 x5noSbuGz6cpxyVdGpqau1GZGiHuNXd/TNftn5IDMacuq0Kltp9I4HmVhoQmSiXFMPgo3Y
+	 nQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1704797720; c=relaxed/relaxed;
+	bh=+RXoU0Y5r848SulNTwMh3KnOqI0zHmHwnboqblIjpP0=;
+	h=date:message-id:subject:from:to; b=eEW7uxed2kAAedVkLIPRocyGdeM9zDbL5w
+	 /mJiLea2a9AO2cLoHWeFOqugN+YRoi30w0LKSIMSGtwwji1dQRFhOXcY/cLyOfI1I/stRx
+	 RSQwnjvI7s4C0Ep+ATTPu/elBmDPhwTfLy5dSrB28skXgvj1/OyIqlRGOy4f4aFdCHUM7s
+	 nTHXJWAo7E5i11mzVPOcTVyzGWOkRkppJXsVdHOdZBNjQbC2Qt9TKvjQJhquGBXXvjq+R2
+	 /5TL1clETGdcwmoOCPYNc7j1/ISSs8KoBjRZDewNRHDCUVhNkwOge/MrHB7dWJ0fS11sHS
+	 gQePFcVClXc3CQp/w02DjON69pOw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail1.jobkorea.co.kr
+Return-Path: <0_1_1_1059230_naver.com@imail1.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender)
+  client-ip=119.207.70.20; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail1.jobkorea.co.kr
+X-Naver-ESV: wqRn+6J4p63qMBIYKXwdbXmwKAE9KoIYkXm=
+X-Session-IP: 119.207.70.20
+Received: from jobkorea.co.kr (imail1.jobkorea.co.kr [119.207.70.20])
+  by crcvmail102.nm.naver.com with ESMTP id IlT7uYd0TpqEqdFZfHtvNw
+  for <1059230@naver.com>;
+  Tue, 09 Jan 2024 10:55:20 -0000
+MIME-Version: 1.0
+Date: Tue, 9 Jan 2024 19:55:14 +0900
+Message-ID: <IWNID_0_1_1_52416376_0_20240109195514>
+Return-Path: <IWNID_0_1_1_52416376_0_20240109195514@imail1.jobkorea.co.kr>
+Content-Type: text/html; 
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+Subject: =?euc-kr?B?W8DixNq4rr7GXSDDvMfoIMHWvcTIuLvntNTAxyDDpL/rsPiw7bChILXut8+1x776vcC0z7TZLg==?=
+From: =?euc-kr?B?wOLE2riuvsY=?=<helpdesk@jobkorea.co.kr>
+To: 1059230@naver.com
+Reply-To: =?euc-kr?B?wOLE2riuvsY=?=<return@infoweb.jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="euc-kr">
+    <title>취업 준비의 시작 ㅣ 잡코리아</title>
+</head>
+
+<body style="margin:0;">
+    <!--// 공고등록 메일 가입자용-->
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="font-family:Malgun Gothic, 맑은 고딕,'돋움',Dotum,Sans-serif; color:#666666; background-color:#ededed;">
+        <tr>
+            <td height="30"></td>
+        </tr>
+        <tr>
+            <td>
+                <table width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr> 
+                        <td bgcolor="#ffffff" style="padding:40px 40px 50px 40px;">
+                            <table width="100%" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td style="padding:21px 0 35px 0;"><a href="http://www.jobkorea.co.kr" target="_blank"><img src="//i.jobkorea.kr/content/images/mail/mailing_logo.png" border="0" alt="취업 준비의 시작ㅣJOBKOREA"></a></td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td style="font-size:36px; color:#000000; line-height:49px; letter-spacing:-2px;">체험 주식회사님,<br><span style="color:#3399ff;">채용공고</span>가 <span style="color:#3399ff;">등록</span>되었습니다.</td>
+                                </tr>
+                                <tr>
+                                    <td height="13"></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:15px; color:#666666; line-height:24px; letter-spacing:-1px;">안녕하세요.<br>체험 주식회사님의 채용공고가 정상적으로 등록되었습니다.</td>
+                                </tr>
+                                <tr>
+                                    <td height="45"></td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellspacing="0" cellpadding="0" style="font-size:15px;">
+                                <tr>
+                                    <td colspan="2" height="2" bgcolor="2c3941"></td>
+                                </tr>
+                                <tr height="50">
+                                    <td width="160" bgcolor="#fafbfb" style="color:#888888; padding:0 20px; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; letter-spacing:-0.5px;">기업명</td>
+                                    <td style="padding:0 20px; border-bottom:1px solid #e8e8e8;">체험 주식회사</td>
+                                </tr>
+                                <tr height="50">
+                                    <td width="160" bgcolor="#fafbfb" style="color:#888888; padding:0 20px; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; letter-spacing:-0.5px;">공고제목</td>
+                                    <td style="padding:0 20px; border-bottom:1px solid #e8e8e8;">관리팀 신입/경력 채용</td>
+                                </tr>
+                                    <tr height="50">
+                                        <td width="160" bgcolor="#fafbfb" style="color:#888888; padding:0 20px; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; letter-spacing:-0.5px;">진행중 공고</td>
+                                        <td style="padding:0 20px; border-bottom:1px solid #e8e8e8;">1건</td>
+                                    </tr>
+                                <tr>
+                                    <td colspan="2" height="6"></td>
+                                </tr>
+                            </table>
+                            <table width="100%" cellspacing="0" cellpadding="0" style="font-size:13px;">
+                                <tr>
+                                    <td height="44"></td>
+                                </tr>
+                                <tr>
+                                    <td width="100%" height="70" style="background-color:#3399ff; text-align: center;"><a href="https://www.jobkorea.co.kr/Recruit/GI_Read/43740174" target="_blank" style="display:block; font-size:22px; color:#ffffff; width:100%; height:100%; line-height:70px; text-decoration:none; letter-spacing:-2px;">채용공고 확인하기</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-size:13px; color:#666666; line-height:24px; letter-spacing:-1px;">회원님의 기업에서 등록한 공고가 아닌 경우, 잡코리아 고객센터로 연락해 주시기 바랍니다.<br>감사합니다.</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="600" cellspacing="0" cellpadding="0" align="center" bgcolor="#f4f4f4">
+                                <tr>
+                                    <td>
+                                        <table cellspacing="0" cellpadding="0" align="center" style="font-size:13px; color:#666666; line-height:24px; letter-spacing:-0.5px;">
+                                            <tr>
+                                                <td colspan="7" height="24"></td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td colspan="7">본 메일은 발신전용이며 궁금하신 사항은 <a href="http://www.jobkorea.co.kr/help/faq/corporation" target="_blank" style="color:#666666; text-decoration:underline;">고객센터</a>를 이용해주세요.</td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td>잡코리아(유)</td>
+                                                <td style="color:#cccccc; padding:0 7px; vertical-align:middle;">|</td>
+                                                <td>사업자등록번호 : 110-81-34859</td>
+                                                <td style="color:#cccccc; padding:0 7px;">|</td>
+                                                <td>대표자 : 윤현준</td>
+                                                <td style="color:#cccccc; padding:0 7px;">|</td>
+                                                <td>대표전화 : 1588-9350</td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td colspan="7">주소 : 서울특별시 서초구 서초대로 301 동익성봉빌딩 16~18층</td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="7" height="12"></td>
+                                            </tr>
+                                            <tr align="center">
+                                                <td colspan="7" style="font-size:11px; letter-spacing:0;">
+                                                    ⓒ JOBKOREA LLC. All rights reserved.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="7" height="30"></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="30"></td>
+        </tr>
+    </table>
+    <!-- 공고등록 메일 //-->
+
+<div style="display:none;"><img src="http://imail1.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=1&dmidx=52416376&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail1.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=1&dmidx=52416376&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+</html>
+

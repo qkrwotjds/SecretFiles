@@ -1,0 +1,184 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1702583415;
+	cv=none; b=NZ73N/Uj+MxJph4nP/dscy1oQMPlutfOO+0Dh4YBxMV0gJ5iGOMxQHHrf74P
+	 OpSIZo62yO3wuIGw9nmhY2IJHwyymast7myVesAuwXHtw+mjtrSF8umRrbqon885LTGwhe
+	 WETxzNSjfVx2oI28h7pgQuwYBpG1AjmSoc20VZHlzvSbpWOwcarfA8IdCi9N8f/t+c1lvC
+	 ZG0tBRalf5wFTaDJCyKimGpmZdVGrGdJsrfPA+X+PPfOUv3S+aLekMlGbNI9BYXjKQ74h9
+	 JJYBLwJ6RtkUxsFenUcuGEqva7JCu7FypQ0CQsn/K+KHKo36xJ+/bSjerjTzEWXUxEfC++
+	 YQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1702583415; c=relaxed/relaxed;
+	bh=Uy9UNZL6tndG0GIk03Fw0obfVRbU81fBihr0CDgLbPI=;
+	h=from:to:subject:date:message-id; b=UE13/4SnFqx89qJeo+tjwuppMSLzkS8TNP
+	 oP59lX7bTl+NqLiGJIncJ8NKvHSW/mK7EEHO8TlrPd9OeIMC7o78EciWwHZAFgXVpdbCD/
+	 a/bO67zAljcI3o8IpVsXFEhzp1jsVuZ4c1lwEkFakT0Jo/fc2fGPpWlrIvVxAbRXFq4/wD
+	 nksMzwojKvK76HeqtUwlCpVTLLFCGdc9zNzveJn+ywspm/C0jPr3oHpWMHw7uDiCA+VU3v
+	 tjeCcF4XCLv44DWsG1XTtbyd832tT/MWuz4CgX8U7gtZ6/iXvrmP9HuqYe/u/9i3cOV2+n
+	 hBfSaDYyGgloYMI3e2Yg/nBBWZew==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender) smtp.mailfrom=return@outback.co.kr
+Return-Path: <return@outback.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender)
+  client-ip=52.79.255.78; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender) smtp.mailfrom=return@outback.co.kr
+X-Naver-ESV: w9Fn+6J4p63qMBIYKBwdbXmwaxEmKxkYkXm=
+X-Session-IP: 52.79.255.78
+Received: from ems.outback.co.kr (ec2-52-79-255-78.ap-northeast-2.compute.amazonaws.com [52.79.255.78])
+  by crcvmail103.nm.naver.com with ESMTP id -yqngWvbQry3HLnFNIlXfA
+  for <1059230@naver.com>;
+  Thu, 14 Dec 2023 19:50:15 -0000
+From: "=?euc-kr?B?vsa/9Lnp?=" <outback@outback.co.kr>
+To: "=?euc-kr?B?MTA1OTIzMEBuYXZlci5jb20=?=" <1059230@naver.com>
+Reply-to: <outback@outback.co.kr>
+Subject: =?euc-kr?B?W77Gv/S56V0gsLPAzsGkurggwMy/67O7v6o=?=
+ =?euc-kr?B?IL7Is7s=?=
+Date: Fri, 15 Dec 2023 04:50:13 +0900
+X-WORKER_ID: <single.naver.com_Worker_5>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMTIxNDAwMDAy>
+X-MEMBER_ID: <TV9JRD05OTU5Mjk3>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202312150450136660@ems.outback.co.kr_Ems@ems.outback.co.kr>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div id='div_position' style='overflow:hidden;width:700px;'>
+<table>
+<td valign='top'><img src='http://safe.amail.co.kr/ems61/safemail.jpg?Q1VTVF9JRD1hbWFpbF9zYWZl&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&TV9JRD05OTU5Mjk3&RU1BSUxfSUQ9NzQxMzNhOGVhYjA2MWNhMWM3MTZmYmE5N2ExODVjZjMwNThkMDk0Y2ZhNzk2OWFjM2I2ZTE3OTQ4ZTg4MTA='></td>
+<td>
+<table>
+<tr>
+<td valign='top' style="width:700px;">
+<!-- 상단 헤더 -->    <table border="0" cellpadding="0" cellspacing="0" style="font-size: 0px; border-top: #ededed 1px solid; font-family: &quot;돋움&quot;, &quot;Dotum&quot;, &quot;Arial&quot;; border-right: #ededed 1px solid; border-collapse: collapse; border-bottom: medium none; word-break: break-all; color: #666; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; border-spacing: 0; border-left: #ededed 1px solid; margin: 0px auto; padding-right: 0px" width="620">
+<tbody>
+<tr>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="39">
+</td>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="541">
+<table border="0" cellpadding="0" cellspacing="0" width="541">
+<tbody>
+<tr>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px">
+<table border="0" cellpadding="0" cellspacing="0" width="541">
+<tbody>
+<tr>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="135">
+<a height="100" href="http://ems.outback.co.kr:90/Chdev.html?TV9JRD05OTU5Mjk3&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&VEM9MjAyMzEyMjE=&S0lORD1D&Q0lEPTAwMQ==&URL=https://www.outback.co.kr/" target="_blank"><img alt="" border="0" src="https://www.outback.co.kr/asset/images/email/email_tpl_top_logo.gif" /></a></td>
+<td style="font-size: 12px; font-weight: bold; color: #666; padding-bottom: 0px; text-align: right; padding-top: 55px; padding-left: 0px; margin: 0px; padding-right: 0px" width="406">
+2023-12-13</td>
+</tr>
+<tr>
+<td colspan="2" height="2" style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="541">
+<img alt="" border="0" src="https://www.outback.co.kr/asset/images/email/email_tpl_top_line.gif" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="39">
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //상단 헤더 --><!-- 컨텐츠 영역 -->    <table border="0" cellpadding="0" cellspacing="0" style="font-size: 0px; border-top: medium none; font-family: &quot;돋움&quot;, &quot;Dotum&quot;, &quot;Arial&quot;; border-right: #ededed 1px solid; border-collapse: collapse; border-bottom: medium none; color: #666; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; border-spacing: 0; border-left: #ededed 1px solid; margin: 0px auto; padding-right: 0px" width="620">
+<tbody>
+<tr>
+<td colspan="3" height="60">
+</td>
+</tr>
+<tr>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="39">
+</td>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="541">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td height="32">
+<img alt="개인정보 이용내역 안내" border="0" src="https://www.outback.co.kr/asset/images/email/2019/12/20191218_item01.gif" /></td>
+</tr>
+<tr>
+<td height="35">
+</td>
+</tr>
+<tr>
+<td style="font-size: 12px; color: #4c403a; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 24px; padding-right: 0px">
+안녕하세요, 아웃백 스테이크하우스입니다.<br />
+항상 저희 아웃백에 관심과 성원 보내주셔서 감사의 말씀드립니다.<br />
+<br />
+<strong style="color: #b93b29; font-style: normal">정보통신망 이용촉진 및 정보보호 등에 관한 법률 제30조의 2(개인 정보 이용내역의 통지)</strong>에 의거하여 개인 정보 이용내역에 대해 안내드립니다.</td>
+</tr>
+<tr>
+<td height="33">
+</td>
+</tr>
+<tr>
+<td height="1" style="background: #e0e0e0">
+</td>
+</tr>
+<tr>
+<td height="40">
+</td>
+</tr>
+<tr>
+<td height="32">
+<img alt="개인정보의 수집 항목 및 위탁 및 내역" border="0" src="https://www.outback.co.kr/asset/images/email/2023/20231205_item1.gif" /></td>
+</tr>
+<tr>
+<td height="40">
+</td>
+</tr>
+<tr>
+<td style="text-align: center">
+<a href="http://ems.outback.co.kr:90/Chdev.html?TV9JRD05OTU5Mjk3&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&VEM9MjAyMzEyMjE=&S0lORD1D&Q0lEPTAwMg==&URL=https://www.outback.co.kr/etc/privacy.do?menuIdx=159" target="_blank" title="개인정보처리방침 자세히 보기"><img border="0" src="https://www.outback.co.kr/asset/images/email/2019/12/20191218_item03.gif" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="39">
+</td>
+</tr>
+<tr>
+<td colspan="3" height="60">
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //컨텐츠 영역 --><!-- 하단 푸터 -->    <table border="0" cellpadding="0" cellspacing="0" style="font-size: 0px; border-top: #ededed 1px solid; font-family: &quot;돋움&quot;, &quot;Dotum&quot;, &quot;Arial&quot;; border-right: #ededed 1px solid; border-collapse: collapse; border-bottom: #ededed 1px solid; color: #666; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; border-spacing: 0; border-left: #ededed 1px solid; margin: 0px auto; padding-right: 0px" width="620">
+<tbody>
+<tr>
+<td style="border-top: #ededed 1px solid; padding-bottom: 59px; text-align: center; padding-top: 25px; padding-left: 39px; padding-right: 39px; background-color: #fafafa">
+<p style="font-size: 11px; color: #888; margin: 0px; letter-spacing: 0px; line-height: 20px">
+본 메일은 서비스 이용 및 법적 의무 고지사항 안내 메일로 수신 동의 여부와 상관없이 발송되었습니다.<br />
+본 메일은 발신전용이므로 회신되지 않으며, 문의사항은 <a href="http://ems.outback.co.kr:90/Chdev.html?TV9JRD05OTU5Mjk3&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&VEM9MjAyMzEyMjE=&S0lORD1D&Q0lEPTAwMw==&URL=https://www.outback.co.kr/customer/inquiryForm.do?menuIdx=37" style="font-size: 11px; font-weight: bold; color: #888" target="_blank">[고객의소리]</a>로 연락 주시기 바랍니다.</p>
+<p style="font-size: 11px; border-top: #e6e6e6 1px solid; color: #888; padding-top: 15px; margin: 15px 0px 0px; line-height: 20px">
+아웃백 스테이크하우스&nbsp;|&nbsp;사업자등록번호 : 211-86-42619</p>
+<p style="font-size: 11px; font-weight: bold; color: #888; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 10px 0px 0px; line-height: 1; padding-right: 0px">
+&copy; 2018 OUTBACK STEAKHOUSE. All Rights Reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //하단 푸터 -->
+</td>
+</tr>
+</table>
+</td>
+</table>
+</div><div style="display:none"><img src="http://ems.outback.co.kr:90/Chdev.html?TV9JRD05OTU5Mjk3&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&VEM9MjAyMzEyMjE=&S0lORD1P" width=1 height=1></div>
+<iframe src="http://ems.outback.co.kr:90/Chdev.html?TV9JRD05OTU5Mjk3&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIzMTIxNDAwMDAy&VEM9MjAyMzEyMjE=&S0lORD1E" frameborder="0" width="1" height="1"></iframe>
+</body>
+</html>
+
+
+

@@ -1,0 +1,247 @@
+Received: (qmail 7282 invoked from network); 21 Apr 2016 02:45:41 -0000
+Received: from 10.114.49.201 (HELO crcvmail11-1.nm.naver.com) (10.114.49.201)
+  by cmda017-2.nm.naver.com with SMTP; 21 Apr 2016 02:45:41 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender) smtp.mailfrom=mail@imas.inicis.com
+Received: from  ([203.238.37.180])
+  by crcvmail11-1.nm.naver.com with ESMTP id xwyIESKlSxqdDwefhuYPfA
+  for <1059230@naver.com>;
+  Thu, 21 Apr 2016 02:45:41 -0000
+Message-ID: <1461206738646.7668832@imas>
+From: "=?euc-kr?B?wMy0z73Dvbo=?=" <mail@imas.inicis.com>
+To: "=?euc-kr?B?KMHWKb7WteW+2L/5teUgsO2wtLTU?=" <1059230@naver.com>
+Subject: =?euc-kr?B?wMy0z73Dvbogx/ax3b+1vPbB9SC537Hev+TDuyDF67q4vK268b26?=
+Date: Thu, 21 Apr 2016 11:45:38 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000000002
+X-MNWISE-RESULT_SEQ: 1461206732208437
+X-MNWISE-USER_ID: des64riafqdlE73JKTLvyqZy2FQ==
+X-MNWISE-LIST_SEQ: des6486vu7GqIHKn6uYJIDhSoAg==
+X-MNWISE-RECORD_SEQ: des649AseupUOO8s=
+X-MNWISE-CLIENT_TYPE: ec
+Content-Type: text/html; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +reYpB3G1H+YbXFCbHmRKAUdFxtwjJ+Y
+
+<!-- 현금영수증 템플릿 (modified by yamsiri, 2005.01.25) -->
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<link href="https://www.inicis.com/receiptmail/site.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" text="#242424" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0 bottommargin=0 rightmargin=0><center> 
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr bgcolor="#BBBBBB" height="4"> 
+    <td height="4" align="center">
+      <table width="613" border="0" cellpadding="0" cellspacing="0">
+	<tr height="4">
+	  <td width="166"><img src="https://www.inicis.com/receiptmail/top_blue.gif" width=199 height=4></td>
+	  <td width="100%"><img src="http://img.onket.com/mail/withonket/030930/images/dot.gif" border="0" width="1" height="1"></td>
+	</tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<table width="613" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr height="4"> 
+    <td height="76" valign="bottom"><a href="https://www.inicis.com" target="new">
+    <img src="https://www.inicis.com/receiptmail/logo.gif" width="183" height="37" border="0" hspace="9" vspace="7"></a></td>
+  </tr>
+  <tr height="4"> 
+    <td>    
+    <img src="https://www.inicis.com/receiptmail/top_ok_img2.jpg" width="613" height="137">    
+    </td>
+  </tr>
+  <tr height="4">
+    <td height="7"></td>
+  </tr>
+</table>
+<table width="613" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr height="4"> 
+    <td valign="bottom"><img src="https://www.inicis.com/receiptmail/middle_top.gif" width="613" height="12"></td>
+  </tr>
+  <tr height="4"> 
+    <td height="4" align="center" background="https://www.inicis.com/receiptmail/middle_m.gif"><table width="525" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td class="txt_s01"><u>본 메일은 전자결제업체인 ㈜케이지이니시스를 통해 결제가 발생된 건 중 소득공제용 현금영수증 발급을
+            요청한 고객에 한해 발송되는 안내 메일입니다.</u> </td>
+        </tr>
+        <tr> 
+          <td height="8"></td>
+        </tr>
+        <tr> 
+<!-- 타이틀 시작 --> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="6"><img src="https://www.inicis.com/receiptmail/left_blue.gif" width="6" height="34"></td>
+                <td bgcolor="CDDFF8" class="txt_s02" style="padding:0 0 0 10">안녕하세요? 
+                  (주)애드앤월드 고객님 </td>
+                <td width="6"><img src="https://www.inicis.com/receiptmail/right_blue.gif" width="6" height="34"></td>
+              </tr>
+            </table></td>
+<!-- 타이틀 끝 --> 
+<!-- 현금영수증 발생내역 시작 --> 
+        </tr>
+        <tr> 
+          <td height="39" align="right"><a href="https://iniweb.inicis.com/DefaultWebApp/mall/cr/cm/mCmReceipt_head.jsp?noTid=INIphpRECPCAEsimplex20160421114459475701&noMethod=1" target="new">
+          <img src="https://www.inicis.com/receiptmail/button_blue.gif" width="120" height="25" border="0"></a></td>
+        </tr>
+        <tr> 
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr bgcolor="A2B8D4"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="F2F7FF"> 
+                <td height="2" colspan="3"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="2" colspan="3"></td>
+              </tr>
+              <tr bgcolor="F2F7FF"> 
+                <td width="40" height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+                <td width="156">거래금액 </td>
+                <td>117000원</td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3" background="https://www.inicis.com/receiptmail/line.gif"></td>
+              </tr>
+              <tr> 
+                <td height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+<!-- 현금영수증 상태에 따른 일자  -->
+<!-- 발행등록  -->
+                <td>발급요청일시</td>
+                <td>2016년 04월 21일</td>
+<!-- 발행처리완료  -->
+<!-- 발행처리실패  -->
+<!-- 발행취소등록  -->
+<!-- 발행취소완료  -->
+<!-- 발행취소실패  -->
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3" background="https://www.inicis.com/receiptmail/line.gif"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="F2F7FF"> 
+                <td width="40" height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+                <td width="156">결제수단 </td>
+                <td>현금</td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3" background="https://www.inicis.com/receiptmail/line.gif"></td>
+              </tr>
+              <tr> 
+                <td height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+                <td>이용상점 </td>
+                <td>(주)현대금융OA</td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3" background="https://www.inicis.com/receiptmail/line.gif"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="F2F7FF"> 
+                <td width="40" height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+                <td width="156">이용고객 정보</td>
+                <td>010941-*******</td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+              <tr bgcolor="ffffff"> 
+                <td height="1" colspan="3" background="https://www.inicis.com/receiptmail/line.gif"></td>
+              </tr>
+              <tr> 
+                <td height="22" align="center"><img src="https://www.inicis.com/receiptmail/icon_blue.gif" width="3" height="3"></td>
+<!-- 현금영수증 상태에 따른 승인번호  -->
+<!-- 발행등록  -->
+                <td>현금 영수증 승인번호</td>
+                <td>260531895</td>
+<!-- 발행처리완료  -->
+<!-- 발행처리실패  -->
+<!-- 발행취소등록  -->
+<!-- 발행취소완료  -->
+<!-- 발행취소실패  -->
+              </tr>
+              <tr bgcolor="F2F7FF"> 
+                <td height="2" colspan="3"></td>
+              </tr>
+              <tr bgcolor="A2B8D4"> 
+                <td height="1" colspan="3"></td>
+              </tr>
+            </table></td>
+        </tr>
+<!-- 현금영수증 발생내역 끝 --> 
+<!--공지사항 시작-->
+        <tr> 
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+		<!-- 공지사항 반복 시작 -->
+<pre></pre>
+<pre></table>
+            <table width="525" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td height="4" colspan="2"></td>
+              </tr>
+              <tr> 
+                <td align="center" class="lh18"><img src="https://www.inicis.com/receiptmail/icon_blue02.gif" width="2" height="2"></td>
+                <td class="txt_s03" >(주)케이지이니시스 현금영수증 사이트 (<a href="https://www.inicis.com/faq_08.jsp" class="global">바로가기</a>) 또는 국세청 현금영수증 사이트</td>
+              </tr>
+              <tr> 
+                <td>&nbsp;</td>
+                <td class="txt_s03" >(<a href="http://www.taxsave.go.kr/index_simple.jsp" target="_blank" class="global">http://현금영수증</a>)에서 
+                  자세한 내용을 확인하실 수 있습니다. </td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr height="4"> 
+    <td height="7"><img src="https://www.inicis.com/receiptmail/middle_bottom.gif" width="613" height="12"></td>
+  </tr>
+</table>
+<table width="613" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr height="4"> 
+    <td height="7"></td>
+  </tr>
+  <tr height="4"> 
+    <td height="108" background="https://www.inicis.com/receiptmail/bottom.jpg" class="txt_s04" style="padding:0 0 0 52"> <img src="https://www.inicis.com/receiptmail/icon_white.gif" width="5" height="5" hspace="10" align="absmiddle"> 
+      (주)케이지이니시스는 국내 1위의 전자결제기업으로 고객의 안전하고 편리한 결제 서비스를<br><img src="https://www.inicis.com/receiptmail/non.gif" width="5" height="5" hspace="10"> 제공하기 위해 최선을 다하고 있습니다. 
+      <br>
+      <img src="https://www.inicis.com/receiptmail/icon_white.gif" width="5" height="5" hspace="10" align="absmiddle"> 
+      본 메일은 발신전용으로 회신되지 않습니다. <br>
+      <img src="https://www.inicis.com/receiptmail/icon_white.gif" width="5" height="5" hspace="10" align="absmiddle"> 
+      1588-4954 <br>
+      <img src="https://www.inicis.com/receiptmail/icon_white.gif" width="5" height="5" hspace="10" align="absmiddle"> 
+      ㈜KG이니시스, 경기도 성남시 분당구 대왕판교로 660</td>
+  </tr>
+  <tr height="4">
+    <td height="20" align="right"><img src="https://www.inicis.com/receiptmail/copy_blue.gif" width="199" height="7" hspace="5"></td>
+  </tr>
+</table>
+<br><IMG width=0 height=0 src='http://203.238.37.180:9000/servlet/ReceiveConfirmEC?SEND_MODE=R&RESULT_SEQ=1461206732208437&CAMPAIGN_NO=000000000000002&START_DATE=20160421114535&END_DATE=20160428114535&LIST_SEQ=0000000001&RECORD_SEQ=0&CUSTOMER_ID=des64riafqdlE73JKTLvyqZy2FQ=='>
+</body></html>
+
+

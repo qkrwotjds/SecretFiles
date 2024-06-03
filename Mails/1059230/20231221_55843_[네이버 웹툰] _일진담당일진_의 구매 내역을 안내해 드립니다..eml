@@ -1,0 +1,341 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1703114331;
+	cv=none; b=XWfyfAvSRN75ukF1D4/AMqO9Mp++Gb4NijdOh6xChnSdexARJNnifZ01w4a0
+	 CQaTeJbQ5ICak+9B1mgqIFdS/Mxul++m27ehWcTXTnm+OqqWZqw+I8riiZBcHRXy6tUXIN
+	 QBfeQF5zW/Vz+AW8iTEOluxIm8oHJGpQ7KHsTigc1RIV8jY40bXbUSbg+7jYNcyyAKQtD/
+	 +pCNustJ2m/4gNEx8xdkI265qCHtLkc1eHJfT/5T8JXbXbPrLkn+ZuBO1b9V6XCWuxMmff
+	 EZ9eVkfT1ncBDuglY3DE8eGHEbAbg0C0TPe4HOoweUnpHHb8uZhPZA/nAtFXAQ1r8u2Qcd
+	 iQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1703114331; c=relaxed/relaxed;
+	bh=ltht2b6ZD95FufDvQj4l/AyJQjCPvBeXAvGGZxA+mrs=;
+	h=date:from:to:message-id:subject; b=kxp8jhp/wmcysRDKHi2fwDtp3U1+KIUmck
+	 ojx1z/ljTsvDH4MP2DMcBfjDsbdR3Be5rTQZqIc6mvUBLjYyqRumSleuQ+W8y3/CWAz2iX
+	 F1Tjs8SClhl7HIk3LxZRwJz2nHUP5X7puzC8r5u2dMWg0ijtF+IPxPkNX8DmxgBb29dEXU
+	 R3YP9xol74MzYcjhvuoNYi70U+GrCxZt1p6HMmy1/JbYD7Wcc/aaHh/cDbtMrPUwEL6V3D
+	 sQEhs9efxYClFI6/jeSYRIIgDegVn2JCxgQHobA3PoJLCwdUSP9o9vwqtJtk6biST7+9Kt
+	 FFs97SdwnfL/kZCcVUaErNh6cB9A==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of series_noreply@webtoonscorp.com designates 111.91.135.14 as permitted sender) smtp.mailfrom=series_noreply@webtoonscorp.com
+Return-Path: <series_noreply@webtoonscorp.com>
+Received-SPF: pass (mx.naver.com: domain of series_noreply@webtoonscorp.com designates 111.91.135.14 as permitted sender)
+  client-ip=111.91.135.14; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of series_noreply@webtoonscorp.com designates 111.91.135.14 as permitted sender) smtp.mailfrom=series_noreply@webtoonscorp.com
+X-Naver-ESV: +/eYpB3G1H+YbXFCbHmwKoKwaAEwjJ+Y
+X-Session-IP: 111.91.135.14
+Received: from mailsend4.cos.navercorp.com (mailsend4.cos.navercorp.com [111.91.135.14])
+  by crcvmail202.nm.naver.com with ESMTP id jAgpSI6KSPi5nNOEXWVRDg
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384);
+  Wed, 20 Dec 2023 23:18:51 -0000
+Date: Thu, 21 Dec 2023 08:18:51 +0900 (KST)
+From: =?UTF-8?B?64Sk7J2067KEIOybue2IsA==?= <series_noreply@webtoonscorp.com>
+To: 1059230 <1059230@naver.com>
+Message-ID: <1605557731.3937589.1703114331181@mailsend4.cos.navercorp.com>
+References: <b3bed7fc5ec1c57cbd1ff16bd123be89f62cb4bf6e99ceccd4ef4173cbad6061@cos.naver.com>
+Subject: =?UTF-8?B?W+uEpOydtOuyhCDsm7ntiLBdICfsnbzsp4Tri7Tri7nsnbzsp4Qn?=
+ =?UTF-8?B?7J2YIOq1rOunpCDrgrTsl63snYQg7JWI64K07ZW0IOuTnOumveuLiOuLpC4=?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_3937588_631088970.1703114331180"
+
+------=_Part_3937588_631088970.1703114331180
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<span style=3D"color: rgb(0, 0, 0); text-transform: none; text-indent: 0px;=
+ letter-spacing: normal; font-family: =EB=8F=8B=EC=9B=80, Dotum, Helvetica,=
+ sans-serif; font-size: 12px; font-style: normal; font-weight: normal; word=
+-spacing: 0px; float: none; display: inline !important; white-space: normal=
+; orphans: 2; widows: 2; font-variant-ligatures: normal; font-variant-caps:=
+ normal; -webkit-text-stroke-width: 0px;"><!doctype html>
+<html lang=3D"ko">
+<head>
+    <meta charset=3D"utf-8">
+    <meta name=3D"format-detection" content=3D"telephone=3Dno">
+    <title>=EC=9B=B9=ED=88=B0 =EA=B2=B0=EC=A0=9C=EC=95=88=EB=82=B4 =EB=A9=
+=94=EC=9D=BC</title>
+    <style type=3D"text/css">
+        body {
+            margin: 0;
+            padding: 0
+        }
+
+        html, body {
+            height: 100%
+        }
+    </style>
+</head>
+<body style=3D"margin:0;padding:20px 8px 15px;">
+<table cellspacing=3D"0" border=3D"0" align=3D"center" width=3D"800" cellpa=
+dding=3D"0" style=3D"letter-spacing:-0.2px; background-color:#e7e7e7;font-f=
+amily:=EB=8F=8B=EC=9B=80,dotum,applegothic,sans-serif">
+    <tbody>
+    <tr>
+        <td colspan=3D"3" height=3D"37" style=3D"font-size:0;line-height:0"=
+>&nbsp;</td>
+    </tr>
+    <tr>
+        <td width=3D"56" style=3D"font-size:0;line-height:0">&nbsp;</td>
+        <td width=3D"686">
+            <table cellspacing=3D"0" border=3D"0" width=3D"686" cellpadding=
+=3D"0" style=3D"background-color:#fff;font-family:=EB=8F=8B=EC=9B=80,dotum,=
+applegothic,sans-serif">
+                <tbody>
+                <tr>
+                    <td colspan=3D"3" height=3D"25" style=3D"border-top:1px=
+ solid #e7e7e7;font-size:0;line-height:0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" style=3D"padding-left:26px;font-size:=
+0;line-height:0">
+                        <a href=3D"http://m.comic.naver.com/index" style=3D=
+"margin-right:5px"><img src=3D"https://ssl.pstatic.net/static/nstore/em/img=
+_webtoon_store_v2.png" width=3D"50" height=3D"50" alt=3D"NAVER" border=3D"0=
+"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" height=3D"35" style=3D"font-size:0;li=
+ne-height:0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                    <td><img src=3D"https://ssl.pstatic.net/static/nstore/e=
+m/img_webtoonstore_title_2_v3.jpg" width=3D"299" height=3D"70" alt=3D"=EC=
+=9B=B9=ED=88=B0=EC=97=90=EC=84=9C =EA=B2=B0=EC=A0=9C=ED=95=9C =EB=82=B4=EC=
+=97=AD=EC=9D=84 =EC=95=88=EB=82=B4=ED=95=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=
+=8B=A4."></td>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" height=3D"22" style=3D"font-size:0;li=
+ne-height:0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                    <td>
+                        <p style=3D"margin:0;font-size:14px;font-weight:bol=
+d;line-height:20px;color:#222"><span style=3D"font-weight:bold;color:#00D56=
+4">1059***</span>=EB=8B=98, =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94,<=
+/p>
+                        <p style=3D"padding:11px 0 29px;margin:0;font-size:=
+12px;line-height:20px;color:#666">
+                            =EB=84=A4=EC=9D=B4=EB=B2=84 =EC=9B=B9=ED=88=B0=
+=EC=9D=84 =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=85=94=EC=84=9C =EA=B0=90=
+=EC=82=AC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br>
+                            =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98=EC=84=9C <=
+strong>2023=EB=85=84 12=EC=9B=94 21=EC=9D=BC 08:18</strong> =EC=9B=B9=ED=88=
+=B0=EC=97=90=EC=84=9C =EA=B2=B0=EC=A0=9C=ED=95=9C =EB=82=B4=EC=97=AD=EC=9D=
+=84 =EC=95=88=EB=82=B4=ED=95=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br>
+                            =EC=9D=B4=EC=9A=A9=EA=B8=B0=ED=95=9C/=EC=A7=80=
+=EC=9B=90=EA=B8=B0=EA=B8=B0 =EB=93=B1 =EC=9E=90=EC=84=B8=ED=95=9C =EB=82=B4=
+=EC=9A=A9=EC=9D=80 <a href=3D"http://series.naver.com/my/purchase/purchased=
+ProductList.nhn" style=3D"font-weight:bold;color:#666">=EC=8B=9C=EB=A6=AC=
+=EC=A6=88&gt;MY&gt;=EA=B5=AC=EC=9E=85=EB=82=B4=EC=97=AD</a>=EC=97=90=EC=84=
+=9C =ED=99=95=EC=9D=B8=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=
+=A4.
+                        </p>
+                    </td>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                </tr>
+                <tr>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                    <td>
+                        <table cellspacing=3D"0" border=3D"0" cellpadding=
+=3D"0" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <th scope=3D"row" align=3D"left" colspan=3D=
+"5" rowspan=3D"1" valign=3D"top" height=3D"22" style=3D"font-size:14px;colo=
+r:#222;border-bottom:2px solid #222">=EA=B5=AC=EC=9E=85=EB=82=B4=EC=97=AD<s=
+pan
+                                        style=3D"font-size:12px;font-weight=
+:normal">(<strong>1</strong>=EA=B1=B4)</span></th>
+                            </tr>
+                            <tr>
+                                <th scope=3D"row" align=3D"center" colspan=
+=3D"1" rowspan=3D"1" valign=3D"top" width=3D"68" style=3D"padding:8px 0 7px=
+ 0;border-bottom:1px solid #e7e7e7;background:#f8f8f8;font-size:12px;color:=
+#222;line-height:18px">=EB=B6=84=EB=A5=98</th>
+                                <th scope=3D"row" align=3D"left" colspan=3D=
+"1" rowspan=3D"1" valign=3D"top" width=3D"194" style=3D"padding:8px 0 7px 1=
+1px;border-bottom:1px solid #e7e7e7;background:#f8f8f8;font-size:12px;color=
+:#222;line-height:18px">=EC=83=81=ED=92=88=EB=AA=85</th>
+                                <th scope=3D"row" align=3D"center" colspan=
+=3D"1" rowspan=3D"1" valign=3D"top" width=3D"74" style=3D"padding:8px 0 7px=
+ 0;border-bottom:1px solid #e7e7e7;background:#f8f8f8;font-size:12px;color:=
+#222;line-height:18px">=EA=B5=AC=EC=9E=85=EC=9C=A0=ED=98=95</th>
+                                <th scope=3D"row" align=3D"center" colspan=
+=3D"1" rowspan=3D"1" valign=3D"top" width=3D"84" style=3D"padding:8px 0 7px=
+ 0;border-bottom:1px solid #e7e7e7;background:#f8f8f8;font-size:12px;color:=
+#222;line-height:18px">=EA=B0=80=EA=B2=A9</th>
+                                <th scope=3D"row" align=3D"center" colspan=
+=3D"1" rowspan=3D"1" valign=3D"top" width=3D"121" style=3D"padding:8px 0 7p=
+x 0;border-bottom:1px solid #e7e7e7;background:#f8f8f8;font-size:12px;color=
+:#222;line-height:18px">=EB=B9=84=EA=B3=A0</th>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" valign=3D"top" width=
+=3D"68" style=3D"padding:8px 0 7px 0;border-bottom:1px solid #e7e7e7;font-s=
+ize:12px;color:#222;line-height:18px">=EB=A7=8C=ED=99=94</td>
+                                <td align=3D"left" valign=3D"top" width=3D"=
+194" style=3D"padding:8px 0 7px 11px;border-bottom:1px solid #e7e7e7;font-s=
+ize:12px;color:#222;line-height:18px"><a href=3D"#" style=3D"text-decoratio=
+n:none;color:#222">
+                                <a href=3D"http://series.naver.com/comic/de=
+tail.nhn?originalProductId=3D473530" target=3D"_blank" style=3D"text-decora=
+tion:none;color:#000">=EC=9D=BC=EC=A7=84=EB=8B=B4=EB=8B=B9=EC=9D=BC=EC=A7=
+=84 8=ED=99=94</a>
+                                </a>
+                                </td>
+                                <td align=3D"center" valign=3D"top" width=
+=3D"74" style=3D"padding:8px 0 7px 0;border-bottom:1px solid #e7e7e7;font-s=
+ize:12px;color:#222;line-height:18px">
+                                =EB=8C=80=EC=97=AC
+                               =20
+                                </td>
+                                <td align=3D"right" valign=3D"top" width=3D=
+"84" style=3D"padding:8px 0 7px 0;border-bottom:1px solid #e7e7e7;font-size=
+:12px;line-height:18px;color:#00D564;text-align:center">
+                                    =EC=BF=A0=ED=82=A4<strong style=3D"font=
+-size:12px;color:#00D564">
+                                2</strong> =EA=B0=9C
+                                </td>
+                                <td align=3D"center" valign=3D"top" width=
+=3D"121" style=3D"padding:8px 0 7px 0;border-bottom:1px solid #e7e7e7;font-=
+size:12px;color:#222;line-height:18px;color:#999">&nbsp;</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                </tr>
+                <tr>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                    <td align=3D"right" style=3D"padding-top:10px;font-size=
+:12px;color:#999"><a href=3D"http://m.comic.naver.com/store/comic/my/paymen=
+t/userPaymentHistory.nhn"
+                                                                           =
+                 style=3D"text-decoration:none;font-size:12px;color:#999;pa=
+dding-right:5px;background:url(https://ssl.pstatic.net/static/nstore/em/bg_=
+dot.gif) no-repeat 100% 50%;text-decoration:underline">=EA=B5=AC=EC=9E=85=
+=EB=82=B4=EC=97=AD
+                        =EC=9E=90=EC=84=B8=ED=9E=88 =EB=B3=B4=EA=B8=B0</a><=
+/td>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" height=3D"49" style=3D"font-size:0;li=
+ne-height:0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                    <td align=3D"center" style=3D"padding:0 0 37px;font-siz=
+e:12px;color:#999">
+                        <a href=3D"http://m.comic.naver.com/index"><img src=
+=3D"https://ssl.pstatic.net/static/nstore/em/webtoon-view3_btn.jpg" width=
+=3D"134" height=3D"40" alt=3D"=EC=9B=B9=ED=88=B0 =ED=99=88 =EB=B0=94=EB=A1=
+=9C=EA=B0=80=EA=B8=B0" border=3D"0"></a>
+                        <a href=3D"http://series.naver.com/my/library/produ=
+ctList.series" style=3D"margin-left:4px"><img src=3D"https://ssl.pstatic.ne=
+t/static/nstore/ems_161017/btn_ems_locker.png" width=3D"134" height=3D"40" =
+alt=3D"=EB=B3=B4=EA=B4=80=ED=95=A8 =EB=B3=B4=EA=B8=B0" border=3D"0"></a>
+                    </td>
+                    <td width=3D"70" style=3D"font-size:0;line-height:0">&n=
+bsp;</td>
+                </tr>
+                <tr>
+                    <td colspan=3D"3" height=3D"18" style=3D"font-size:0;li=
+ne-height:0">&nbsp;</td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+        <td width=3D"58" style=3D"font-size:0;line-height:0">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align=3D"center" colspan=3D"3" height=3D"13"></td>
+    </tr>
+    <tr>
+        <td height=3D"19" style=3D"font-size:0;line-height:0">&nbsp;</td>
+    </tr>
+    <tr>
+        <td align=3D"center" valign=3D"top" colspan=3D"5" style=3D"backgrou=
+nd:#e7e7e7;font-family:'=EB=8F=8B=EC=9B=80',dotum;font-size:11px;color:#A8A=
+8A8;line-height:160%;letter-spacing:-0.2px">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=
+=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9 =EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EB=B3=B8 =EB=A9=94=EC=9D=BC=EA=B3=BC =EA=B4=80=EB=A0=A8=EB=90=98=EC=96=B4 =
+=EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=A0=90=EC=9D=B4=EB=82=98 =EB=B6=88=
+=ED=8E=B8=ED=95=9C =EC=82=AC=ED=95=AD=EC=9D=80 <a
+                href=3D"https://help.naver.com/" style=3D"color:#00d564;tex=
+t-decoration:none">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0</a>=EC=97=90 =EB=AC=
+=B8=EC=9D=98=ED=95=B4 =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4.
+        </td>
+    </tr>
+    <tr>
+        <td colspan=3D"5" align=3D"center" valign=3D"top" style=3D"padding-=
+bottom:12px;background:#e7e7e7;font-family:'=EB=8F=8B=EC=9B=80',dotum;font-=
+size:11px;color:#A8A8A8;line-height:160%;letter-spacing:-0.2px">=EC=A7=81=
+=EC=A0=91 =EA=B2=B0=EC=A0=9C=ED=95=9C =EB=82=B4=EC=9A=A9=EC=9D=B4 =EC=95=84=
+=EB=8B=88=EB=9D=BC=EB=A9=B4 <a
+                href=3D"https://help.pay.naver.com/mail/form.help?alias=3Dc=
+heckout_accuse" target=3D"_blank" style=3D"color:#00d564;text-decoration:no=
+ne">=EA=B2=B0=EC=A0=9C=EB=8F=84=EC=9A=A9=EC=8B=A0=EA=B3=A0</a>=EB=A1=9C =EB=
+=AC=B8=EC=9D=98=ED=95=B4 =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=
+=8B=88=EB=8B=A4.
+        </td>
+    </tr>
+    <tr>
+        <td align=3D"center" valign=3D"top" colspan=3D"3" style=3D"padding:=
+10px 0;background:#e7e7e7;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95=
+',NanumGothic,'=EB=8F=8B=EC=9B=80',Dotum;line-height:20px;font-size:11px;co=
+lor:#a9a9a9">
+            =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8=
+:669-86-01888&nbsp;&nbsp;&nbsp;=ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=
+=85 =EC=8B=A0=EA=B3=A0=EB=B2=88=ED=98=B8:2020-=EC=84=B1=EB=82=A8=EB=B6=84=
+=EB=8B=B9B-0719&nbsp;&nbsp;&nbsp;=EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC:=EA=
+=B9=80=EC=A4=80=EA=B5=AC&nbsp;&nbsp;&nbsp;<a
+                href=3D"https://www.ftc.go.kr/bizCommPop.do?wrkr_no=3D66986=
+01888" target=3D"_blank"
+                style=3D"color:#a9a9a9;text-decoration:none">=EC=82=AC=EC=
+=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EC=A0=95=EB=B3=B4 =ED=99=95=EC=9D=B8</a><=
+br>
+            =EC=A3=BC=EC=86=8C:=EA=B2=BD=EA=B8=B0=EB=8F=84 =EC=84=B1=EB=82=
+=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=EA=B5=AC =EB=B6=84=EB=8B=B9=EB=82=B4=EA=B3=
+=A1=EB=A1=9C 131 =ED=8C=90=EA=B5=90=ED=85=8C=ED=81=AC=EC=9B=90 =ED=83=80=EC=
+=9B=8C1, 11-12=EC=B8=B5&nbsp;&nbsp;&nbsp;=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=
+=B0:1588-3820&nbsp;&nbsp;&nbsp;=EC=9D=B4=EB=A9=94=EC=9D=BC:ccnaver@naver.co=
+m
+        </td>
+    </tr>
+    <tr>
+        <td align=3D"center" colspan=3D"3" style=3D"background:#e7e7e7;font=
+-family:verdana;line-height:120%;font-size:10px;color:#a9a9a9">
+            <a href=3D"https://webtoonscorp.com" style=3D"color:#a9a9a9;fon=
+t-weight:bold;font-family:tahoma;text-decoration:none">&copy; NAVER WEBTOON=
+ Limited</a>
+        </td>
+    </tr>
+    <tr>
+        <td colspan=3D"3" height=3D"42" style=3D"background:#e7e7e7"></td>
+    </tr>
+    </tbody>
+</table>
+
+<table style=3D'display:none'><tr><td><img src=3D'https://cos2.navercorp.co=
+m/received/MjAyMzEyMjEwODE4NTE5ODMzMDM7MTA1OTIzMEBuYXZlci5jb20=3D.gif' widt=
+h=3D'0' height=3D'0' border=3D'0'/></td></tr></table></body>
+</html>
+</span><br>
+------=_Part_3937588_631088970.1703114331180--

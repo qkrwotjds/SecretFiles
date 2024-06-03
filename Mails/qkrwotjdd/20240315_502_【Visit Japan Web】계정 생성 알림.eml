@@ -1,0 +1,86 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1710445998;
+	cv=none; b=h9Ex9Exm/xRJWBhVxWnCiewJBwSP5iHnjM/FstbI6YRpWdKDoIZKnJNqzSj6
+	 fWvR2BiUrPz+gzc4WRpK9PHYMsBz8PYep7X0hVQds/OkHhuNCNIseYT/6Jc+AvMqg6S6he
+	 sipRu+MUTlVJuFBa/gYv/HDob4hf5Yx2A7WnycWeqoknr4GTZcOdivt9rK4tORKm/KmUYA
+	 7RDxT9Mv3B1P9hvEtnzDdrnewNYdm8bPiGXa//32gGbSKO8QeZ0LSE5663KdGM+OF315Uh
+	 +0UGOqfzpQoQ6ij2KI3OcT1M2Eej1g16mt4wTnARqQhtsvnuQRXK/s5hAaTgCykFOw4nzj
+	 sA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1710445998; c=relaxed/relaxed;
+	bh=8wD6HFVAm5bOUulRpNmNcllWspq2wQ8YuI/ZfOJhQW4=;
+	h=dkim-signature:dkim-signature:date:from:to:message-id:subject; b=GKfg
+	 TUO95m6u5nK+E0unSYOpNGZsTluwU6+Vq3E6mrlwN08RCd77ZCKCbMIe/i8whrOcFORtvo
+	 eQzpz+JucSB84xKEPJ74eueXS21Xmpyyk4nstiTVXe1zGDFQZmKgtcxQygOMTY2ZNVUA8r
+	 Q0vBinmVFxk2ID9ztbFzqIN9F5mPNMZYjmnGyCzY5TvgB9+XS9lE7UG5I8Zc7I63kHr35Y
+	 UOKYuB6IN2+HZpHePchV2qnzk5la3ovsId7dWf+Cxdk+8wEpzWM/rnt9mG9VvOVMyvDAvn
+	 Yk8yuRgsFTyGqDNN/DjJXxpC3FAkaUBIUjQozB/gDbgBDucNXmmy0oyjdQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp designates 23.251.234.11 as permitted sender) smtp.mailfrom=0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp;
+  dkim=pass header.i=@vjw.digital.go.jp;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=vjw.digital.go.jp
+Return-Path: <0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp>
+Received-SPF: pass (mx.naver.com: domain of 0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp designates 23.251.234.11 as permitted sender)
+  client-ip=23.251.234.11; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp designates 23.251.234.11 as permitted sender) smtp.mailfrom=0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@mail.vjw.digital.go.jp;
+  dkim=pass header.i=@vjw.digital.go.jp;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=vjw.digital.go.jp
+X-Naver-ESV: wq+n+6J4p63CbHmqKBwdbXFYKxv9Kqu/jJ+Y
+X-Session-IP: 23.251.234.11
+Received: from e234-11.smtp-out.ap-northeast-1.amazonses.com (e234-11.smtp-out.ap-northeast-1.amazonses.com [23.251.234.11])
+  by crcvmail102.nm.naver.com with ESMTP id WnvDSw2uSfifFA12c1b4Yw
+  for <qkrwotjdd@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA256);
+  Thu, 14 Mar 2024 19:53:18 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=4sp3lmsud2tj6z6izzombsk6nqppkbks; d=vjw.digital.go.jp;
+	t=1710445997;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=8wD6HFVAm5bOUulRpNmNcllWspq2wQ8YuI/ZfOJhQW4=;
+	b=RpM07B0tvFMJTE85FlvlcpoBdlcA7gYw5bPmBhVYynGKr8YqiNlPZhMPpVZGKcsQ
+	IJl4XdVMquolm9kuOxd++4xi399IUyV3/0wWYAQwuvKfd622/CKldR2HjEnNmq4D6ET
+	3O5d8+kg00AoiHlmUtyhDxassWG0v58LYo1mKY6NvQBkdtICKzMyRA/Em5HiX1COcIy
+	+u+ABe2JrfLBFku9zWeuBNUZXWnhCKDrfRqs3BfJgGX440IyKMR6wB6NEFlU1uC0Sta
+	D+eXOD6PwPryJfdsFLtiUD76nQMO6TqB0O3HiqxlgIk6PNuGpKE+uKlg4LGLt1N8+5m
+	hdrNqOPqpQ==
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=zh4gjftm6etwoq6afzugpky45synznly; d=amazonses.com; t=1710445997;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=8wD6HFVAm5bOUulRpNmNcllWspq2wQ8YuI/ZfOJhQW4=;
+	b=iOuD+m9BnbsE9TnREV6q/imSWV4hSl0KmdqdWIyFuOPnBejClZYDYyCsZdovv5kf
+	bZbnppLMhbcC7ud7wC8GDQhkBEa3WcDEd3DpIOulBGMkd/gAj+NtgGUQYQ/IXNPRTUe
+	9gproc2QsfLYn1a5zia5CO/bjTQ781MZ6NvKlvRQ=
+Date: Thu, 14 Mar 2024 19:53:17 +0000
+From: no-reply@vjw.digital.go.jp
+To: qkrwotjdd@naver.com
+Message-ID: <0106018e3e86ae07-9fda55bb-82ce-43ac-ba1a-0ca810bc0ace-000000@ap-northeast-1.amazonses.com>
+Subject: =?UTF-8?Q?=E3=80=90Visit_Japan?= =?UTF-8?Q?_Web=E3=80=91=EA=B3=84?=
+ =?UTF-8?Q?=EC=A0=95_=EC=83=9D=EC=84=B1_=EC=95=8C=EB=A6=BC?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1146_2027297362.1710445997514"
+Feedback-ID: 1.ap-northeast-1.VTrTal/18HIN7AZU2b/fD5PZTM34Y0aMDw8tCbZRuqI=:AmazonSES
+X-SES-Outgoing: 2024.03.14-23.251.234.11
+
+------=_Part_1146_2027297362.1710445997514
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+44CQVmlzaXQgSmFwYW4gV2Vi44CR7J2YIOqzhOygleydhCDrp4zrk6TslrQg7KO87IWU7IScIOqw
+kOyCrO2VqeuLiOuLpC48YnI+MjTsi5zqsIQg7J2064K07JeQIFZpc2l0IEphcGFuIFdlYuyXkCDs
+lYTrnpjsnZgg7ZmV7J247L2U65Oc66W8IOyeheugpe2VmOyXrCDqs4TsoJXsnYQg66eM65Oc64qU
+IOygiOywqOulvCDsmYTro4ztlbQg7KO87Iut7Iuc7JikLjxicj48YnI+7ZmV7J247L2U65Oc77ya
+NzMyNzEwPGJyPjxicj48YnI+Jmx0O+yjvOydmOyCrO2VrSZndDs8YnI+KuuzuCDrqZTsnbzsnYAg
+7Iuc7Iqk7YWc7JeQ7IScIOyekOuPmeycvOuhnCDrsJzshqHtlZjripQg66mU7J287J6F64uI64uk
+LiDrlLDrnbzshJwsIOuzuCDrqZTsnbzsl5Ag7ZqM7Iug7ZW064+EIOuLteuzgOydhCDrsJvsnYQg
+7IiYIOyXhuyKteuLiOuLpC48YnI+KiDrs7gg7ISc67mE7Iqk7JeQIOuMgO2VnCDqtoHquIjtlZwg
+7IKs7ZWt7J2AIOyxl+u0hyAmbHQ7aHR0cHM6Ly9jaGF0Ym90LnZqdy5kaWdpdGFsLmdvLmpwL3Fh
+ZGlhbG9nX3dlYmNoYXQvJmd0O+uhnCDrrLjsnZjtlbQg7KO87Iut7Iuc7JikLjxicj4q7ZmV7J24
+IOy9lOuTnOulvCDsnoXroKXtlZjripQg7ZmU66m07J2EIOuLq+ydgCDqsr3smrDripQsIOyDgeq4
+sCDssZfrtIfsnLzroZwg44CMVmlzaXQgSmFwYW4gV2ViIOydtOyaqe2VmOq4sOOAjeKGkuOAjOqz
+hOygleOAjeKGkuOAjOqzhOyglSDrp4zrk6Qg65WMLCDtmZXsnbjsvZTrk5wg67Cc6riJIO2bhCDt
+mZTrqbTsnYQg64ur7JWE67KE66awIOqyveyasOOAjeyInOycvOuhnCDtmZXsnbjtlZjsi63si5zs
+mKQuPGJyPg==
+------=_Part_1146_2027297362.1710445997514--

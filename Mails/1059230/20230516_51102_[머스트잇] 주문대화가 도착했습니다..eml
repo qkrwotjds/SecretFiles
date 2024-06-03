@@ -1,0 +1,210 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1684219961;
+	cv=none; b=HS4Rsyk8HvxzONg403bOEvFy4sWh44FV9MM26empUtrWrHI/FxjYKYcZTFW0
+	 +GYsJlSdzZI1lf64dYKgNKck/0nVHqlOGugepC1l3hoRdmsX7A7Hg71ScStj6xSehpDhgD
+	 UV6+oFUOMiYK/QjGGulQ5HkqnIoYBLoY7ZfYJwBtXyWj9uO3A/Kftj/D5NDjC3UwVmFJsb
+	 PteXlrU8sCcYLxzGmekwuftk5WDbkddoXMwPJkx5gomY7jHL6dN/ZpbtFqVq/3da39a7Jh
+	 wIQo8oQyej459mG4UHzOwGFR+c9pzhBOIWWCFX+xqZ4bTbFeoIsOy3+fE/abUhZCPUBvQc
+	 4Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1684219961; c=relaxed/relaxed;
+	bh=dsXu9rNwUqu3EooZ7Biwx6vBsxDi4v7bhuTtyRV5lt8=;
+	h=to:subject:date:from:message-id; b=N2yhRb/OuIbvhX225lUu8tK0qSkxXs9OQv
+	 YlIn2igoopVrDRu6IMcvVmJS+aVac8awb0hVynenWcvS/cRVWCEQga5lo5P7oYxxcUPzQL
+	 ZBTXz790HTPo0TaMXSM/DhbId5a7tcHaWKhe3EotYevAsS1eimYJCAktlMINl+Zgfqniol
+	 qFL3x5XLTgI/1b/v5uA0jH7AA/AtN8+8t71Au6nS7LdCRBfR27scXrUYUaq2UJSO9aTdUd
+	 /2EchHwaPdzCj9LTNurRaj/kO+M6zRELWt6SYr1lC37OY245B5sJJFnDS26coB1tbPg7vQ
+	 Y+7MeN2oPgWkX7mC8KcnHZ5mQFhg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of mailing@mustit.co.kr designates 1.201.143.38 as permitted sender) smtp.mailfrom=mailing@mustit.co.kr
+Return-Path: <mailing@mustit.co.kr>
+Received-SPF: pass (mx.naver.com: domain of mailing@mustit.co.kr designates 1.201.143.38 as permitted sender)
+  client-ip=1.201.143.38; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mailing@mustit.co.kr designates 1.201.143.38 as permitted sender) smtp.mailfrom=mailing@mustit.co.kr
+X-Naver-ESV: w9Fn+6J4p63qMBIYFHwdbXmmFoEZFAJYkXm=
+X-Session-IP: 1.201.143.38
+Received: from mustit.co.kr (mail.mustit.co.kr [1.201.143.38])
+  by crcvmail104.nm.naver.com with ESMTP id 8OQrwQe3T3um3AjP9IL0ZQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Tue, 16 May 2023 06:52:41 -0000
+Received: from mustit-nfs01.localdomain (localhost [127.0.0.1])
+	by mustit.co.kr (8.14.7/8.14.7) with ESMTP id 34G6qewM004838
+	for <1059230@naver.com>; Tue, 16 May 2023 15:52:41 +0900
+Received: (from mustit_web@localhost)
+	by mustit-nfs01.localdomain (8.14.7/8.13.8/Submit) id 34G6qe9Q004837;
+	Tue, 16 May 2023 15:52:40 +0900
+X-Authentication-Warning: mustit-nfs01.localdomain: mustit_web set sender to mailing@mustit.co.kr using -f
+To: 1059230@naver.com
+Subject: =?utf-8?Q?[=eb=a8=b8=ec=8a=a4=ed=8a=b8=ec=9e=87]_=ec=a3=bc=eb=ac=b8=eb?=  =?utf-8?Q?=8c=80=ed=99=94=ea=b0=80_=eb=8f=84=ec=b0=a9=ed=96=88=ec=8a=b5?=  =?utf-8?Q?=eb=8b=88=eb=8b=a4.?=
+X-PHP-Originating-Script: 1001:Email.php
+User-Agent: CodeIgniter
+Date: Tue, 16 May 2023 15:52:40 +0900
+From: =?utf-8?Q?=eb=a8=b8=ec=8a=a4=ed=8a=b8=ec=9e=87?= <mailing@mustit.co.kr>
+Reply-To: "mailing@mustit.co.kr" <mailing@mustit.co.kr>
+X-Sender: mailing@mustit.co.kr
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <6463283818fd0@mustit.co.kr>
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="B_ALT_646328381902f"
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_646328381902f
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+2023.05.16
+
+1. 주문상품정보
+
+주문번호
+상품명
+
+판매자ID
+
+6834850186-965
+
+디올 B27 로우탑 스니커즈 화이트 3SN272ZIJ_H068
+ 
+
+chariot_ld
+
+2. 주문대화
+
+발송일자
+2023-05-16
+
+내용
+가격대가 동일한 다른 상품으로 변경도 가능하오니
+진행원하시는 방향 말씀주시길 바랍니다.
+
+※ 본 메일은 발신전용 메일입니다.
+
+
+--B_ALT_646328381902f
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<div class=3D"mail_wrap" style=3D"width:860px; max-width:860px; min-width:8=
+60px; height:990px; border:1px solid #e3e3e3; font-family:Arial,'돋움',Do=
+tum; background-color:#fff;">
+	<div style=3D"margin:0 30px;">
+		<div style=3D"padding-bottom: 10px; border-bottom:1px solid #e3e3e3; marg=
+in-top:40px;">
+			<a href=3D"https://mustit.co.kr" target=3D"_blank" style=3D"display:inli=
+ne-block">
+				<img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/mailing_=
+logo.png" alt=3D"" border=3D"0">
+			</a>
+			<span style=3D"margin-top:12px; font-size:12px; float:right;">2023.05.16=
+</span>
+		</div>
+	=09
+		<div class=3D"mail_contents">
+			<div style=3D"margin-top:25px;"><img src=3D"https://static-ux.mustit.co.=
+kr/img/front/etc/email/title_ordermemo_by_seller.png" alt=3D"판매자" wid=
+th=3D"559" /></div>
+			<div class=3D"product_info" style=3D"margin:50px 0;">
+				<p class=3D"title" style=3D"font-size:18px; font-weight:bold; color:#33=
+3;">1. 주문상품정보</p>
+				<table class=3D"talkMail" cellpadding=3D"0" cellspacing=3D"0" style=3D"=
+width:800px; margin-top:10px; border:1px solid #999; border-width:1px 0;tab=
+le-layout: fixed;">
+					<tr>
+						<th width=3D"120" style=3D"padding:10px 0; border-bottom:1px solid #e=
+3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f8f8=
+f8; text-align:center;">주문번호</th>
+						<th style=3D"padding:10px 0; border-bottom:1px solid #e3e3e3; font-si=
+ze:12px; font-weight:bold; color:#333; background-color:#f8f8f8; text-align=
+:center;">상품명</th>
+						<!-- <th width=3D"100" style=3D"padding:10px 0; border-bottom:1px sol=
+id #e3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:=
+#f8f8f8; text-align:center;">수량</th>
+						<th width=3D"140" style=3D"padding:10px 0; border-bottom:1px solid #e=
+3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f8f8=
+f8; text-align:center;">가격</th>
+						<th width=3D"120" style=3D"padding:10px 0; border-bottom:1px solid #e=
+3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f8f8=
+f8; text-align:center;">할인</th>
+						<th width=3D"100" style=3D"padding:10px 0; border-bottom:1px solid #e=
+3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f8f8=
+f8; text-align:center;">배송비</th> -->
+						<th width=3D"100" style=3D"padding:10px 0; border-bottom:1px solid #e=
+3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f8f8=
+f8; text-align:center;">판매자ID</th>
+						<!-- <th width=3D"120" style=3D"padding:10px 0; border-bottom:1px sol=
+id #e3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:=
+#f8f8f8; text-align:center;">주문상태</th> -->
+					</tr>
+					<tr>
+						<td style=3D"padding:10px 0; font-size:12px; color:#666; text-align:c=
+enter;">6834850186-965</td>
+						<td style=3D"padding:10px 0; font-size:12px; color:#666; text-align:c=
+enter;">
+							<span style=3D"display:inline-block;max-width:80%;overflow:hidden;te=
+xt-overflow:ellipsis;white-space:nowrap;vertical-align: middle;height:18px;=
+">
+								디올 B27 로우탑 스니커즈 화이트 3SN272ZIJ_H068							</=
+span>
+							=20
+						</td>
+												<td style=3D"padding:10px 0; font-size:12px; color:#666; text-a=
+lign:center;">chariot_ld</td>
+											</tr>
+				</table>
+			</div>
+		=09
+			<div class=3D"product_info" style=3D"margin-bottom:50px;">
+				<p class=3D"title" style=3D"font-size:18px; font-weight:bold; color:#33=
+3;">2. 주문대화</p>
+				<table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:800px; margin=
+-top:10px; border:1px solid #999; border-width:1px 0;">
+					<tr>
+						<th width=3D"115" style=3D"padding:10px 15px; border-bottom:1px solid=
+ #e3e3e3; font-size:12px; font-weight:bold; color:#333; background-color:#f=
+8f8f8; text-align:left;">발송일자</th>
+						<td style=3D"padding:10px 20px; border-bottom:1px solid #e3e3e3; font=
+-size:12px; color:#666; text-align:left;">2023-05-16</td>
+					</tr>
+					<tr>
+						<th width=3D"115" style=3D"padding:10px 15px; font-size:12px; font-we=
+ight:bold; color:#333; background-color:#f8f8f8; text-align:left;">내용</=
+th>
+						<td style=3D"padding:10px 20px; font-size:12px; color:#666; text-alig=
+n:left;">가격대가 동일한 다른 상품으로 변경도 가능하오�=
+�� 진행원하시는 방향 말씀주시길 바랍니다.</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	=09
+		<div style=3D"text-align:center; margin-bottom:40px; margin-top:30px;">
+			<a href=3D"https://mustit.co.kr" style=3D"display:inline-block;max-width=
+:283px;width:36%;">
+				<img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/btn_orde=
+rTalk_mail.png" width=3D"100%" />
+			</a>
+		</div>
+		<div style=3D"margin-bottom:50px;">
+			<a href=3D"https://mustit.co.kr/etc/app_release" style=3D"display:block;=
+">
+				<img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/mailing_=
+app_promote.png" alt=3D"메일링앱다운" width=3D"800" style=3D"display:=
+block;" />
+			</a>
+		</div>
+		<div>
+			<p style=3D"font-size:11px; color:#949494; margin-bottom:5px;">※ 본 �=
+��일은 발신전용 메일입니다.</p>
+			<p style=3D"margin:0">
+				<img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/mailing_=
+footer.png" width=3D"800" />
+			</p>
+		</div>
+	</div>
+</div>
+
+--B_ALT_646328381902f--

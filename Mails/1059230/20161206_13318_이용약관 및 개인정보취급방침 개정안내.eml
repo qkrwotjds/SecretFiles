@@ -1,0 +1,96 @@
+Received: (qmail 1571 invoked from network); 6 Dec 2016 10:05:32 -0000
+Received: from 10.114.49.224 (HELO crcvmail46-2.nm.naver.com) (10.114.49.224)
+  by cmda022-2.nm.naver.com with SMTP; 6 Dec 2016 10:05:32 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return_postman1206185418@return.postman.co.kr designates 119.207.76.41 as permitted sender) smtp.mailfrom=return_postman1206185418@return.postman.co.kr
+X-Session-IP: 119.207.76.41
+Received: from send41.postman.co.kr (send41.postman.co.kr [119.207.76.41])
+  by crcvmail46-2.nm.naver.com with ESMTP id Ov-cd5L5TXWBQcYfp7KBEg
+  for <1059230@naver.com>;
+  Tue, 06 Dec 2016 10:05:32 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1481018733;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=HaPoI+/0sq/hcK2kCKWKS7oBZT+M8W22wpGKP0SBZgM=;
+	b=pr+QtlR+msZ5R9eJRTS64o7Erfxu85/DNDmrAOiFZBySran8coaW2Q6ZS7HqUjXf
+	aU7OZE8L6crZ7MqAhcxjMCSf0AInfSXM7qm6Sbozuj4EDUsTCmMgZveObr7ZzMs9uvv
+	zhywsO0T1lfZ7Bk1Q/RQodVcTiiGIqOWluHI0SQA=
+From: "=?euc-kr?B?x6q15cfDtvPAzA==?=" <no-reply@foodfly.co.kr>
+To: "=?euc-kr?B?sO2wtLTU?=" <1059230@naver.com>
+Reply-to: <no-reply@foodfly.co.kr>
+Subject: =?euc-kr?B?wMy/677gsPwgudcgsLPAzsGkurjD67HeuebEpw==?= =?euc-kr?B?ILCzwaS+yLO7?=
+Date: Tue, 06 Dec 2016 19:05:33 +0900
+X-WORKER_ID: <single.naver.com_Worker_0>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ==>
+X-MEMBER_ID: <TV9JRD04NDg0MjAxNzI5>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMTI2MA==>
+List-Unsubscribe: <http://www.postman.co.kr/open/unsubscription_result.jsp?user_id=foodfly&customer_id=8484201729>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201612061905338025@send41.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+X-Naver-ESV: +9RYpB3G1H+YbXFCbHmRKxgmFxKZjJ+Y
+
+<html>
+<head>
+<title>=C7=C3=B6=F3=C0=CC=BE=D8=C4=C4=C6=DB=B4=CF =C1=D6=BD=C4=C8=B8=BB=E7::=B0=B3=C0=CE=C1=A4=BA=B8=C3=EB=B1=DE=B9=E6=C4=A7 =B0=B3=C1=A4=BE=C8=B3=BB</title>
+</head>
+<body>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%">
+<tbody>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20161206_1.png" style=3D"width:100%;" /></td>
+</tr>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://kcf1.foodfly.co.kr/service/161206_notice2.png.jpg" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20161206_2.png" style=3D"width:100%;" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20161206_3.png" style=3D"width:100%;" /></td>
+</tr>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://kcf1.foodfly.co.kr/service/161206_notice1.png.jpg" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20161206_2.png" style=3D"width:100%;" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20161206_4.png" style=3D"width:100%;" /></td>
+</tr>
+<tr>
+<td style=3D"line-height:0;font-size:0;"><a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttps://www.instagram.com/foodfly_official/" style=3D"overflow:auto;margin:0;padding:0;" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20160225_04.png" style=3D"width:41.5%;padding:0;margin:0;display:block;float:left;" /></a> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttps://www.facebook.com/foodfly.co.kr/?fref=3Dnf" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20160225_05.png" style=3D"width:7.625%;padding:0;margin:0;display:block;float:left;=
+" /></a> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://blog.foodfly.co.kr" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20160225_06.png" style=3D"width:8.5%;padding:0;margin:0;display:block;float:left;" /></a> <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttps://www.youtube.com/channel/UCYVpMZrbkiEIoFJMKU3uZFg" target=3D"_blank"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20160225_07.png" style=3D"width:42.375%;padding:0;margin:0;display:block;float:left;" /></a></td>
+</tr>
+<tr>
+<td colspan=3D"4" style=3D"line-height:0;font-size:0;"><img src=3D"http://kcf1.foodfly.co.kr/mail/privacy/20160225_08.png" style=3D"width:100%;" /></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+</table>
+
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=C7=AA=B5=E5=C7=C3=B6=F3=C0=CC =C8=B8=BF=F8 =BC=F6=BD=C5 =B5=BF=C0=C7 =B0=ED=B0=B4=B4=D4=B2=B2 =BA=B8=B3=BB=B5=E5=B8=AE=B4=C2 =B8=DE=C0=CF=C0=D4=B4=CF=B4=D9.
+=B8=DE=C0=CF =BC=F6=BD=C5=C0=BB =BF=F8=C4=A1 =BE=CA=C0=B8=BD=C3=B4=C2 =C8=B8=BF=F8=B4=D4=B2=B2=BC=AD=B4=C2 [=BC=F6=BD=C5 =B0=C5=BA=CE]=B8=A6 =B4=AD=B7=AF =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=C0=CC=B8=DE=C0=CF=C0=C7 =BC=F6=BD=C5=C0=BB =B4=F5 =C0=CC=BB=F3 =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9 [<a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dfoodfly&amp;customer_id=3D8484201729&amp;reject_script=3DK&amp;post_id=3D20161206100009771345" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =C5=AC=B8=AF=C7=D8 =C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.<br />To unsubscribe <a href=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dht=
+tp://www.postman.co.kr/open/unsubscription.jsp?user_id=3Dfoodfly&amp;customer_id=3D8484201729&amp;reject_script=3DE&amp;post_id=3D20161206100009771345" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=C7=C3=B6=F3=C0=CC=BE=D8=C4=C4=C6=DB=B4=CF(=C1=D6) =BC=AD=BF=EF=BD=C3 =B0=AD=B3=B2=B1=B8 =BF=AA=BB=EF=B5=BF 724-46
+=B4=EB=C7=A5 =C0=D3=C0=BA=BC=B1
+=B0=ED=B0=B4=BC=BE=C5=CD 1688-2263
+</td>
+</tr>
+</table><div style=3D"display:none"><img src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"http://image.postman.co.kr:80/CheckNew.html?TV9JRD04NDg0MjAxNzI5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMTI2MA=3D=3D&UE9TVF9JRD0yMDE2MTIwNjEwMDAwOTc3MTM0NQ=3D=3D&VEM9MjAxNjEyMTM=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+
+

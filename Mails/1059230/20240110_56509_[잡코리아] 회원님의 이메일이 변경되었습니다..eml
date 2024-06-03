@@ -1,0 +1,337 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1704846856;
+	cv=none; b=aQKFT6F6yqMiTnYQ2WnE/4fxmArU9P8VR8cdim93BeR2RsqcUuHGs3haBCT1
+	 33oOGcXgCfViEl7jPbJ4QvTf9kLlaTbv/XgNREVqp+FFutleTPLcOBupEgCCbgmxr9RMhJ
+	 lBWYVd+nl7K6KBT2unQqzAulvOe0VCWROmLlJ1Hha+OHiQVu6RZ5o3nzZ7pxzFj+3TKdm9
+	 mg9ClQTy1GbTDFrS0iqSpsvMW4rTNvgLgwxj308DNyn7edxz4kqDOCkc8rY6g++8ZDkB+D
+	 nW3xbY80s+lHmL3ZFD14B9MhUpVY+rKj4YfcdeW49TxHIuGtocpTnAwU4CSD+pLgfTAskr
+	 zg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1704846856; c=relaxed/relaxed;
+	bh=XeAxRYmAVPZlABna6wf6FyAkCpid02q2ehIoSVj3XKI=;
+	h=date:message-id:subject:from:to; b=V3Mrxet49ZvXWMalEBevR3R8hC/ttKFJyj
+	 O0cUzgskBv+03HutlxfBV8OPhFA2DM4HwDKj5eYfrUDX8i+18+SuKDc2jtUE5bUtF/7aKj
+	 jF6LL+WNlEK46gz4yd2K6LcBHf/ge820FgfdlG2K5I6q98urzPb8aXiTHAGHL2QrA8yUG7
+	 0xJxBJE1Txpk+NbQXtrNZXWI2ZsqRbZmSjMlFAKQ6yrM9IsEZzCpm2GnAnyQgrNYo695Oh
+	 WwLT9UVI2thaDlNQ21fHUgC7DOjbH82wa6DS/LOm/eEszkMCzTVLPlm3AIAwxZGBRfy9zU
+	 UxxuqTVFYavbJ7rRzVz1wFcWIgcQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail1.jobkorea.co.kr
+Return-Path: <0_1_1_1059230_naver.com@imail1.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender)
+  client-ip=119.207.70.20; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail1.jobkorea.co.kr designates 119.207.70.20 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail1.jobkorea.co.kr
+X-Naver-ESV: wqen+6J4p63qMBIYKXwdbXmmKAKdKxpYkXm=
+X-Session-IP: 119.207.70.20
+Received: from jobkorea.co.kr (imail1.jobkorea.co.kr [119.207.70.20])
+  by crcvmail202.nm.naver.com with ESMTP id sbBjgjKZQBapUveeQUSIbw
+  for <1059230@naver.com>;
+  Wed, 10 Jan 2024 00:34:16 -0000
+MIME-Version: 1.0
+Date: Wed, 10 Jan 2024 09:34:09 +0900
+Message-ID: <IWNID_0_1_1_52423731_0_20240110093409>
+Return-Path: <IWNID_0_1_1_52423731_0_20240110093409@imail1.jobkorea.co.kr>
+Content-Type: text/html; 
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+Subject: =?euc-kr?B?W8DixNq4rr7GXSDIuL/4tNTAxyDAzLjewM/AzCC6r7Dmtce++r3AtM+02S4=?=
+From: =?euc-kr?B?wOLE2riuvsY=?= < helpdesk@jobkorea.co.kr >
+To: 1059230@naver.com
+Reply-To: =?euc-kr?B?wOLE2riuvsY=?=<return@infoweb.jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<!DOCTYPE html
+          PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+    <!--[if !mso]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/> <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if gte mso 7
+        ]><xml>
+          <o:OfficeDocumentSettings>
+            <o:AllowPNG />
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+          </o:OfficeDocumentSettings>
+        </xml><!
+      [endif]-->
+    <title>2단계 인증번호 발송</title>
+</head>
+<body style="margin: 0; padding: 0; width: 100%; background-color: #ededed" border="0" cellspacing="0" cellpadding="0">
+    <!--[if mso]>
+    <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <tr>
+            <td align="center">
+                <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="595" align="center" background-color:#ffffff;><![endif]-->
+    <div style="min-width: 320px; max-width: 595px; margin: 0 auto; text-align: center">
+        <table border="0" cellspacing="0" cellpadding="0" style="
+          width: 100%;
+          margin: 0 auto;
+          background-color: #ffffff;
+          -webkit-text-size-adjust: 100%;
+          text-align: left;
+        ">
+            <tbody>
+                <!-- 헤더 -->
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td colspan="3" height="30" style="font-size: 0"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20" style="font-size: 0"></td>
+                                    <td width="auto" height="22" align="left" valign="middle" style="overflow: hidden">
+                                        <a href="http://www.jobkorea.co.kr" target="_blank" title="새창" style="display: inline-block; border: none">
+                                            <img src="http://file1.jobkorea.co.kr/mailing/2018/sample/logo_new.png" width="120" height="30" border="0" alt="JOBKOREA">
+                                        </a>
+                                    </td>
+                                    <td width="20" style="font-size: 0"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 간격 50 -->
+                <tr>
+                    <td height="40"></td>
+                </tr>
+                <!-- 2단계 인증번호 발송 -->
+                <tr>
+                    <td align="center">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff">
+                            <tbody>
+                                <tr>
+                                    <td width="20"></td>
+                                    <td align="center" style="
+                            font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                            font-size: 28px;
+                            font-weight: 700;
+                            line-height: 32px;
+                            color: #222;
+                            text-align: center;
+                            letter-spacing: -0.5px;
+                            word-break: keep-all;
+                          ">
+                                        <span style="display: inline-block;">
+                                            이메일이 <em style="display: inline-block; color: #0057FF
+                              ; font-style: normal;">변경</em>되었습니다.
+                                        </span>
+                                    </td>
+                                    <td width="20"></td>
+                                </tr>
+                                <tr>
+                                    <td height="40"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20"></td>
+                                    <td style="
+                      text-align: center;
+                      font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                      font-size: 14px;
+                      font-weight: 400;
+                      line-height: 22px;
+                      letter-spacing: 0;
+                      color: #222;
+                    ">
+                                        <span style="display: inline-block; color: #222; font-weight: 700;"><em style="font-style: normal; font-size: 14px; line-height: 22px;">체험 주식회사(ad******)</em>님,</span>
+                                        <em style="display: inline-block; color: #222; text-decoration: none; font-style: normal;">2024-01-10</em><em style="display: inline-block; color: #222; text-decoration: none; font-style: normal;">09:34</em>에
+                                        회원님의 이메일이 변경되었습니다.<br>
+                                        아래의 이메일을 회원님이 변경한 게 맞는지 확인해주세요.
+                                    </td>
+                                    <td width="20"></td>
+                                </tr>
+                                <tr>
+                                    <td height="22"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20"></td>
+                                    <td style="
+                    text-align: center;
+                    font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: -0.5px;
+                    color: #222;
+                    box-sizing: border-box;
+                  ">
+                                        <div style="color: #222; line-height: 28px;">
+                                            변경 전 <span style="display: inline-block; color: #222; line-height: 28px; font-weight: 700;">10*****@naver.com</span>
+                                        </div>
+                                        <div style="color: #0057FF; line-height: 28px; ">
+                                            변경 후 <span style="display: inline-block; color: #0057FF; line-height: 28px; font-weight: 700;">po*********@naver.com</span>
+                                        </div>
+                                    </td>
+                                    <td width="20"></td>
+                                </tr>
+                                <tr>
+                                    <td height="22"></td>
+                                </tr>
+                                <tr>
+                                    <td width="20"></td>
+                                    <td style="
+                      text-align: center;
+                      font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                      font-size: 14px;
+                      font-weight: 400;
+                      line-height: 22px;
+                      letter-spacing: 0;
+                      color: #6a6a6a;
+                    ">
+                                        만약, 이메일 인증을 요청하지 않은 경우 고객센터에 문의하시거나<br>
+                                        회원정보관리에서 비밀번호를 변경하셔서 개인정보를 보호하시기 바랍니다.
+                                    </td>
+                                    <td width="20"></td>
+                                </tr>
+                                <tr>
+                                    <td height="30"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff">
+                                            <tbody>
+                                                <tr>
+                                                    <td></td>
+                                                    <td width="240" height="52" style="
+                            text-align: center;
+                            font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: 0;
+                            color: #fff;
+                          ">
+                                                        <!-- <a href="#" target="_blank" title="새창열기" style="color: #fff; text-decoration: none; display: block; width: 100%; height: 100%; line-height: 52px; background-color: #0057FF; border-radius: 8px;">비밀번호 변경 &#62;</a> -->
+                                                        <a href="https://www.jobkorea.co.kr/Corp/Info/Member" target="_blank" title="새창열기">
+                                                            <img src="https://file1.jobkorea.co.kr/mailing/btn_mail_changePW.png" alt="비밀번호 변경 버튼">
+                                                        </a>
+                                                    </td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="40" style="font-size: 0"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 풋터 - 카피라이트 -->
+                <tr>
+                    <td>
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                                <tr>
+                                    <td align="center" bgcolor="#e1e1e1" width="30" style="font-size: 0"></td>
+                                    <td align="center" bgcolor="#e1e1e1">
+                                        <table cellpadding="0" cellspacing="0" style="width: 100%; margin: 0; padding: 0">
+                                            <tbody>
+
+                                                <tr>
+                                                    <td height="22"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20" align="center" style="
+                      font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                      font-size: 13px;
+                      font-weight: 400;
+                      line-height: 20px;
+                      color: #222;
+                    ">
+                                                        본 메일은 발신전용이며 궁금하신 사항은
+                                                        <a href="http://www.jobkorea.co.kr/Customer_C/CC_Main.asp" target="_blank" title="새창" style="
+                        font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        color: #222;
+                        text-decoration: underline;
+                      ">고객센터</a>를 이용해 주시기 바랍니다.
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td height="22"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" bgcolor="#d2d2d2"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="22"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="
+              font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16px;
+              color: #6a6a6a;
+              letter-spacing: 0;
+              word-break: keep-all;
+            ">
+                                                        잡코리아(유) &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 사업자등록번호 :
+                                                        110-81-34859 &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표자 : 윤현준
+                                                        &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표전화 : 1588-9350<br>주소 :
+                                                        서울특별시 서초구 서초대로 301 동익성봉빌딩 16~18층
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="18"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="16" align="center" valign="top" style="
+              font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+              font-size: 12px;
+              font-weight: 400;
+              line-height: 16px;
+              color: #6a6a6a;
+            ">
+                                                        ⓒ
+                                                        <a href="http://jobkorea.co.kr" target="_blank" title="새창" style="
+                font-family:'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif ;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 16px;
+                color: #6a6a6a;
+                text-decoration: none;
+              ">JOBKOREA</a>
+                                                        Corp
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="30"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!--[if mso]></td></tr></table></td></tr></table><![endif]-->
+
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<div style="display:none;"><img src="http://imail1.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=1&dmidx=52423731&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail1.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=1&dmidx=52423731&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+
+</html>
+

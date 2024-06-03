@@ -1,0 +1,296 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1695601966;
+	cv=none; b=DKVDgEduV94E5A1YCDUF2YkLHKFWKLay1imuHYzf7HbS7AQsnLSjpZe/7iSC
+	 a+8zLCUmmXZPgHGVS5Bagx6JDwx0VZjAzHR6FSZA8n/KsgS3JWFiNNib05KgppLc+vb/N/
+	 7jRZQ9vU6psg83jq9Sz3nOLFYOj0sunwD3Uk96HoqrjP9894CjXx0C2STYIP1GWA1D95w6
+	 uMy+KPoMKTK7bTeiuw6BnTfmR+lXh7Xdqw5BBgIaWfOuvOU7hqftrcqh+l3xChEYDC8KQT
+	 UYktRcexPYfgrSPwgTKMDWT77cYZ4VogTR020U2c3G87iOIMmVEMUKMjxORV7VH4ZIbJ4w
+	 sw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1695601966; c=relaxed/relaxed;
+	bh=5QXAq/6Zolo1qdSpi305Vvzsi8LYBKQWefXxrmpLaDQ=;
+	h=from:to:subject:date:message-id; b=A6kCnd65xighusqNHQ2U/n0+LNEy4zkjv2
+	 XsyGl9gnJoSiASFTRYujWnB27FCIO3H3L81S0OQCZl/P+PSIg1Af6utjOOrhmqCrUCuscm
+	 /19TEaz12/q4Qqlq783N+CP7f+xEWsGkAa3LYaZJpSaaGytQmjO1+rkzuEQ0nvdZ62HDHQ
+	 bISEuBMTzNvyx4Tc7Y/KNlYslO/y+cAi11D2svWm+zAx8TBRGOWrGymJ7b2sud+8s/De69
+	 FFVD+IhIbWCkITIw4OAvh3ExrIbFlLR0DPxDJi06ZyQcSYPTc+psn8XpjircYvIjOc0gQr
+	 PIxL93SWIar4wbx/SXDLFAJ29/aA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.61 as permitted sender) smtp.mailfrom=no-reply@hanacard.co.kr
+Return-Path: <no-reply@hanacard.co.kr>
+Received-SPF: pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.61 as permitted sender)
+  client-ip=211.51.103.61; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.61 as permitted sender) smtp.mailfrom=no-reply@hanacard.co.kr
+X-Naver-ESV: wd+n+6J4p63qMBIYFHwdbXmmKAKZFApYkXm=
+X-Session-IP: 211.51.103.61
+Received: from hanacard.co.kr (hanacard.co.kr [211.51.103.61])
+  by crcvmail206.nm.naver.com with ESMTP id BchHyG8YRJKkhjZgOxubiQ
+  for <1059230@naver.com>;
+  Mon, 25 Sep 2023 00:32:46 -0000
+From: "=?utf-8?B?7ZWY64KY7Lm065Oc?=" <no-reply@hanacard.co.kr>
+To: "=?utf-8?B?6rmAKuycpA==?=" <1059230@naver.com>
+Reply-to: <no-reply@hanacard.co.kr>
+Subject: =?utf-8?B?7J6s6rOE7JW9IOuMgOyDgSDqsIDrp7nsoJAg7J2066mU7J28IA==?=
+ =?utf-8?B?7IKs7KCEIOyViOuCtA==?=
+Date: Mon, 25 Sep 2023 09:32:46 +0900
+X-WORKER_ID: <single.default_Worker_8>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDkyNV8zMA==>
+X-MEMBER_ID: <TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202309250932466211@hanacard.co.kr_Ems@hanacard.co.kr>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>하나카드</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+</head>
+<script language="javascript" type="text/javascript" src="http://www.hanacard.co.kr/js/cmn/wl6.js"></script>
+<body style="margin:0;padding:0;line-height:0;">
+<!-- mail_wrap -->
+<table width="738" border="0" align="center" cellpadding="0" cellspacing="0">
+<!-- mail header -->
+<tr>
+<td style="margin:0;padding:0;background:#f0f0f0;line-height:0;">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td width="100%" height="177" valign="top"><img src="http://em.hanacard.co.kr:8080
+/camp_img/e_header.gif" alt="하나카드" width="738" height="177" border="0" style="margin:0;padding:0;vertical-align:top;" /></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="margin:0;padding:0 30px;background:#f0f0f0;text-align:center;line-height:0;">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="margin:0;padding:30px 0 43px 0;background:#fff;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:36px;font-weight:bold;line-height:36px;text-align:center;letter-spacing:-2px;">
+하나카드 가맹점 계약 연장안내문
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- //mail header -->
+
+<!-- mail contents -->
+<tr>
+<td style="margin:0;padding:0 30px;background:#f0f0f0;text-align:center;line-height:0;">
+<table width="678" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="margin:0;padding:0;background:#fff;text-align:center;line-height:0;padding:0 30px;">
+<!-- 본문 내용 -->
+<table width="610" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="margin:0;padding:0;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;text-align:center;line-height:0;">
+<div style="display:inline-block;width:300px;height:50px;margin:0 0 -27px 0;padding:0;line-height:0;">
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td style="margin:0;padding:10px;background:#00907f;color:#fff;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;line-height:20px;text-align:center;">
+미더미 대표자님, 안녕하세요.
+</td>
+</tr>
+<tr>
+<td style="height:10px;margin:0;padding:0;text-align:left;line-height:0;">
+<img src="http://em.hanacard.co.kr:8080/camp_img/e_name_bottom.gif" width="10" height="10" border="0" />
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="margin:0;padding:25px 25px 10px;border:1px solid #e1e1e1;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:27px;line-height:34px;letter-spacing:-1px;text-align:left;">
+<p style="font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;line-height:22px;letter-spacing:-1px;">
+가맹점 계약 만료일이 다가옴에 따라<br>
+신용카드 가맹점 표준약관 제23조 ②항에 의거하여 계약기간이 자동 연장됨을 안내해 드립니다.<br>
+계약 만료전까지 해지신청이 없을 경우 동일한 조건으로 만료일로부터 1년씩 계약기간이<br>자동연장됩니다.
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<!-- 고객정보테이블 -->
+<td style="margin:0;background:#f0f0f0;text-align:center;line-height:0;">
+<table width="678" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" height="30" style="margin:0;padding:0;background:#fff;line-height:0;"></td>
+</tr>
+<tr>
+<td colspan="2" style="margin:0;padding:0 35px;background:#fff;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;text-align:left;">
+<table width="610" border="0" cellspacing="0" cellpadding="0" style="border-top:2px solid #333;">
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">가맹점번호</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">00993364447</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">가맹점명</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">미더미</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">사업자번호</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">64761*****</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">대표자명</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">김*윤</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">가맹점가입일</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">2018년 11월 29일</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">계약만료일</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">2023년 11월 28일</td>
+</tr>
+<tr>
+<td width="130" style="margin:0;padding:10px 20px;background:#dae6eb;border-bottom:1px solid #bccdd4;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;font-weight:bold;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">관리점</td>
+<td style="margin:0;padding:10px 20px;border-bottom:1px solid #e1e1e1;color:#57575A;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;line-height:18px;text-align:left;word-wrap:break-word;word-break:break-all;">강남마케팅(0262063395)</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="30" style="margin:0;padding:0 30px;background:#fff;line-height:0;"></td>
+</tr>
+<tr>
+<td colspan="2" style="margin:0;padding:0 35px;background:#fff;color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:12px;text-align:left;">
+<table width="608" border="0" cellspacing="0" cellpadding="0" style="border:1px solid #e1e1e1; border-radius:10px; padding:10px 20px;">
+<tr>
+<td style="margin:0; padding:10px 20px; font-family:'맑은고딕',Malgun Gothic,Dotum,Arial; font-size:12px; line-height:18px; text-align:left; word-wrap:break-word; word-break:break-all;">
+<strong style="font-size:15px;">하나카드 가맹점 홈페이지(PC/Mobile)</strong>
+</td>
+<td style="margin:0; padding:10px 20px; color:#000; font-family:'맑은고딕',Malgun Gothic,Dotum,Arial; font-size:12px; line-height:18px; text-align:center; word-wrap:break-word; word-break:break-all;">
+</td>
+</tr>
+<tr>
+<td style="margin:0; padding:0 20px; vertical-align:top; font-family:'맑은고딕',Malgun Gothic,Dotum,Arial; font-size:12px; line-height:18px; text-align:left; word-wrap:break-word; word-break:break-all;">
+- 가맹점 정보 조회/변경<br/>
+- 입금/매출/승인 내역 조회<br/>
+- 세무신고 매출 자료 조회<br/>
+- 매출취소 신청<br/>
+- 우리 가게 홍보(Pick Partners)<br/>
+<p style="margin-top: 5px;">
+<span style="color:#00907f; font-family:'맑은고딕',Malgun Gothic,Dotum,Arial; letter-spacing:-1px; line-height: 28px; font-size: 14px; font-weight: 600; margin-left: -4px;">ㆍ소상공인 의무보험</span><br>예상치 못한 사고 대비! 사업자와 고객을 지키기 위한<br>필수 보험 간편하게 가입하기!!<br><span style="font-size:11px;letter-spacing: -0.025em;">(하나카드 가맹점 홈페이지 &gt; MENU &gt; 서비스 신청 &gt; 소상공인 의무보험)</span>
+</p>
+</td>
+<td style="margin:0; padding:10px 20px; color:#000; font-family:'맑은고딕',Malgun Gothic,Dotum,Arial; font-size:12px; line-height:18px; text-align:center; word-wrap:break-word; word-break:break-all; vertical-align: top;">
+<a href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDkyNV8zMA==&VEM9MjAyMzEwMDI=&S0lORD1D&Q0lEPTAwMQ==&URL=https://www.hanacard.co.kr/OMH30000000N.web?_frame=no&schID=mcd&mID=OMH30000000C" target="_blank" title="바로가기 새창열림" style="border:1px solid #999; border-radius:30px; padding:5px 10px; color:#000; text-decoration:none; font-size:13px; font-weight:bold;">바로가기</a><br>
+<img src="http://em.hanacard.co.kr:8080/camp_img/hana_fran_qr.jpg" alt="하나카드 가맹점 홈페이지 QR연결" border="0" style="vertical-align:top; width:80px; margin-top: 15px;" />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="10" style="margin:0;padding:0 30px;background:#fff;line-height:0;"></td>
+</tr>
+<tr>
+<td colspan="2" style="margin:0;padding:30px 35px 0px 35px;background:#fff;color:#666;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px; text-align:left;line-height:22px; letter-spacing:-1px; vertical-align:top; ">
+<p style="margin:0 0 5px 0;color:#000;font-size:14px;font-weight:bold;line-height:22px;">유의사항</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 최근 일부 가맹점에서 소비자가 체크카드를 제시하였으나, 소비자에게 충분한 안내 없이 IC현금카드 결제로 처리하여 민원이 제기되고 있습니다. 각 가맹점 대표님께서는 이와 같은 민원이 발생하지 않도록 각별한 주의를 부탁드리며, 고객 안내에 최선을 다하여 주시기 바랍니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 신용카드 상의 서명과 매출전표 상의 서명이 일치하는지 확인하셔야 합니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 신용카드를 받지 않거나 가맹점수수료를 회원에게 전가하는 등 신용카드 거래를 이유로 회원에게<br>불리한 대우를 하거나 현금융통 등 불법거래를 할 경우, 가맹점 계약 해지 및 법에서 정한 불이익을<br>받을 수 있습니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 2015.7.21부터 가맹점에서 설치되는 단말기는 「신용카드 단말기 정보보호 기술 수준」을 준수해야<br>합니다.(등록단말기 사용의무)</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 가맹점은 여신전문금융업감독규정 제24조의6(가맹점관리사항) 제3조 및 신용카드 가맹점 표준약관<br>제19조(정보유출금지)에 의거, 고객정보를 보유하지 않아야 합니다. 특히 POS단말기의 경우<br>신용카드 결제와 관련한 다량의 고객정보가 저장될 수 있으므로, POS단말기 사용 가맹점에서는 <br>신용정보가 저장되지 않도록 유의하시고 POS단말기를 양도 또는 폐기할 경우 반드시 고객정보를<br>삭제해 주시기 바랍니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 물품가격 이상의 대금을 송금하고 다시 돌려받는 수법으로 가맹점의 영업 계좌를 보이스피싱에<br>악용하는 피해 사례가 발견되고 있습니다. 돈을 돌려줄 경우에는 반드시 금융기관 등을 통해 송금안의<br>인적사항을 확인해 주시기 바랍니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 가맹점 해지 시에는 계약사항 일체가 종료되므로 카드 거래와 관련하여 대여받은 각종 표지물 및<br>광고물 제거를 부탁드립니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">- 가맹점수수료 개편 시에는 가맹점별 원가에 따라 수수료율이 변경될 수 있습니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">- 여신전문금융업법 제18조3(가맹점수수료율의 차별금지 등)3항에 의거 일정 규모 이하의 영세한<br>중소신용카드가맹점으로 신청되실 경우, 우대 가맹점수수료율을 적용받으실 수 있습니다. <br>다만, 추후에영세한 중소신용카드가맹점 대상에서 제외 시 기존 수수료율로 원복됩니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">- 「특정 금융거래정보의 보고 및 이용 등에 관한 법률」 제5조의2(금융회사 등의 고객확인의무) 및 <br>관련 업무규정 제34조(지속적인 고객확인)에 근거하여 가맹점의 주요정보 변경 시 카드사는<br> 이를 반영하여야 합니다. 대표님의 주요정보(주소, 연락처, 대표자명, 실소유자 등)가 변경되신 경우<br> 카드회사로 꼭 연락하여 변경해 주시기 바랍니다.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="margin:0;padding:30px 35px 0px 35px;background:#fff;color:#666;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px; text-align:left;line-height:22px; letter-spacing:-1px; vertical-align:top; ">
+<p style="margin:0 0 5px 0;color:#000;font-size:14px;font-weight:bold;line-height:22px;">가맹점 매출실적 및 수수료율 확인 방법</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 여신금융협회 홈페이지 매출거래정보 통합조회 시스템(<A
+href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDkyNV8zMA==&VEM9MjAyMzEwMDI=&S0lORD1D&Q0lEPTAwMg==&URL=http://www.cardsales.or.kr/">http://www.cardsales.or.kr/</A>) 카드거래 승인내역,<br>전표매입내역, 대금입금내역, 가맹점수수료율 등을 확인하실 수 있습니다.</p>
+<p  style="margin:0;padding-left:10px; text-indent:-9px;">
+- 당사 홈페이지(<A
+href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDkyNV8zMA==&VEM9MjAyMzEwMDI=&S0lORD1D&Q0lEPTAwMw==&URL=http://www.hanacard.co.kr">www.hanacard.co.kr</A>) 홈페이지 사이버지점에 가입하시면 매출대금 입금조회,<br>월간 매출실적 조회 등 다양한 서비스를 받으실 수 있습니다.</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="10" style="margin:0;padding:20px; 30px;background:#fff;line-height:0;"></td>
+</tr>
+</table>
+</td>
+<!-- //고객정보테이블 -->
+</tr>
+</table>
+<!-- //본문 내용 -->
+</td>
+</tr>
+
+<!-- //mail contents -->
+
+<!-- mail footer -->
+<tr>
+<td style="margin:0;padding:0 30px;background:#f0f0f0;line-height:0;text-align:center;">
+<table width="678" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td colspan="2" style="margin:0;padding:0 35px;background:#fff;text-align:center;line-height:0;">
+<img src="http://em.hanacard.co.kr:8080
+/camp_img/e_footer_cs01.gif" alt="하나카드 고객센터 1800-1111, 상담시간(평일) 09:00`18:00" width="608" height="120" border="0" style="vertical-align:top;" />
+</td>
+</tr>
+<tr>
+<td colspan="2" height="20" style="margin:0;padding:0 35px;background:#fff;color:#666;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;text-align:left;line-height:0;"></td>
+</tr>
+<tr>
+<td>
+<!-- 고객센터,동의 문구 -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="10" style="margin:0;padding:0 0 0 35px;background:#fff;color:#666;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:13px; text-align:left;line-height:22px;vertical-align:top;">-</td>
+<td style="margin:0;padding:0 35px 0 0;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:13px; color:#666;text-align:left;background:#fff;line-height:22px;letter-spacing:-0.5px;">
+본 메일은 발신전용이므로 문의가 있으신 분은 고객센터로 문의해 주시기 바랍니다.<br />
+고객센터 <strong style="color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:13px;font-weight:normal;line-height:22px;">1800-1111</strong> /
+해외에서 거실 때 <strong style="color:#000;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:13px;font-weight:normal;line-height:22px;">82-1800-1111</strong>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="20" style="margin:0;padding:0 30px;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;color:#666;text-align:left;background:#fff;line-height:0;"></td>
+</tr>
+</table>
+<!-- //고객센터,동의 문구 -->
+</td>
+</tr>
+<tr>
+<td style="margin:0;padding:0 35px;background:#fff;text-align:center;line-height:0;">
+<a href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDkyNV8zMA==&VEM9MjAyMzEwMDI=&S0lORD1D&Q0lEPTAwNA==&URL=https://www.hanacard.co.kr" target="_blank" title="새창열림"><img src="http://em.hanacard.co.kr:8080
+/camp_img/e_footer.gif" alt="하나카드 소개" width="608" height="88" border="0" style="vertical-align:top;" /></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="50" style="margin:0;padding:0 30px;background:#f0f0f0;color:#666;font-family:'맑은고딕',Malgun Gothic,Dotum,Arial;font-size:14px;line-height:0;text-align:left;"></td>
+</tr>
+<!-- //mail footer -->
+</table>
+<!-- //mail_wrap -->
+<div style="display:none"><IMG width=0 height=0 src="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD02NDc2MTAwMjUxXzg1NTI0MDI4&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDkyNV8zMA==&VEM9MjAyMzEwMDI=&S0lORD1P"></div></body>
+</html>
+
+

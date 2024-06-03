@@ -1,0 +1,423 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1692122489;
+	cv=none; b=Qkxso91bKJTN3r27DRN9BSGDilSw9spiVl3rXitvrHDob419tVpUflSJwYIA
+	 AcPBD/iADtJhWVcVOmnaSJEnZlpL34jOyr6c0CHWlJS7ndSKmHu4SCJptngS2qwVrkqkEH
+	 hzaTjh9oaAe36iBVxTBSDxDWlDkE6slNSiofr+7qF1W7zHGOQXyN+gK0ToR3E8JFGfesAD
+	 8JctpUFDcX48Zu+QHEaKGQfERxBWjLvt5yVxbN90/Z3029Tpi4PJdLZ4nSFFqI1kbqYth8
+	 yzm0/hGbAUx0JotWAHK3JRXskBsac2bgGD1eYOD0IApLO/VxMLmsj8QtgdWkVjCdZ/aHMw
+	 eQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1692122489; c=relaxed/relaxed;
+	bh=iCS3q6JYeHJGmRBKqIvAsAVOsm4Bm7agQakv6tlKKSo=;
+	h=date:from:to:message-id:subject; b=qUeCyQXOGQ9q9zQ3jkOX/2pc2REFnqrQhY
+	 U8yVmBv9bmN6Uypl3wjMuEHTz4WcubHpY58Ploo80L67Z7genfzKkcNY0Dtj7sdarzt60c
+	 8fQkyK7gus3RI3rBoS2T9FOkXkpul5TbCJQipGFUyYwCtxYrSHGb+UUGpSXvfk4cJz7LZQ
+	 onEw+G3PsY0QKkD2t41W73559L476BP74FHiL7J/hWj3DLHRN/sAointzMVLbvnrwMJG/R
+	 YTa1965r8wxL3DodfygBk2gQSCJ9CCFPfic2tJLE+EMkfIMGQ3zGO7lA7uujUyP6kaw/a1
+	 NuQUKwB32sKvNCb05CHqBMW08rtg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.33.71 as permitted sender) smtp.mailfrom=no_reply@coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=coupang.com
+Return-Path: <no_reply@coupang.com>
+Received-SPF: pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.33.71 as permitted sender)
+  client-ip=103.132.33.71; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of no_reply@coupang.com designates 103.132.33.71 as permitted sender) smtp.mailfrom=no_reply@coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=coupang.com
+X-Naver-ESV: ww+n+6J4p63CbHmwKBwdbXFYKx2mKxUljJ+Y
+X-Session-IP: 103.132.33.71
+Received: from smtp504.toastcloud.com (smtp504.toastcloud.com [103.132.33.71])
+  by crcvmail201.nm.naver.com with ESMTP id ECcqF8gGQBWlUXbp7uOlEQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Tue, 15 Aug 2023 18:01:29 -0000
+Received: from [10.161.51.24] (HELO mmsa-batchcou-p1902.svr.toastmaker.net)
+ ([10.161.51.24]) by smtp504.toastcloud.com with SMTP id 7f9adfa264dbbd78;
+ Wed, 16 Aug 2023 03:01:29 +0900
+Date: Wed, 16 Aug 2023 03:01:28 +0900 (KST)
+From: =?UTF-8?B?7L+g7Yyh?= <no_reply@coupang.com>
+To: 1059230@naver.com
+Message-ID: <20230816030124LOLqHRJ0@mmsa-batchcou-p1902>
+Subject: =?UTF-8?B?W+y/oO2MoV0g7JmA7JqwIOuppOuyhOyLrSA=?=
+ =?UTF-8?B?7J207JqpIOyVveq0gCDqsJzsoJUg7JWI64K0IA==?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Return-Allow: true
+X-Toast-Seq: 0
+
+<!DOCTYPE html>
+<html lang=3D"ko">
+<head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">
+  <title>[=EC=BF=A0=ED=8C=A1] =EC=99=80=EC=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=
+=AD =EC=9D=B4=EC=9A=A9 =EC=95=BD=EA=B4=80 =EA=B0=9C=EC=A0=95 =EC=95=88=EB=
+=82=B4</title>
+  <style type=3D"text/css">
+    div[class*=3D"btn-link"] a[href]:link {
+      color: #111111 !important;
+    }
+
+    div[class*=3D"btn-link"] a[href]:visited {
+      color: #111111 !important;
+    }
+
+    @media screen and (max-width: 360px) {
+      div[class*=3D"coupang-logo"] {
+      }
+
+      div[class*=3D"btn-link"] {
+        margin-left: 8px;
+        margin-right: 8px;
+      }
+
+      div[class*=3D"btn-link"] a {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body style=3D"margin: 0px">
+<div style=3D"box-sizing: border-box;min-width:320px;max-width: 798px;margi=
+n:0;color: #212B36;font-family:'Apple SD Gothic Neo','Malgun Gothic','=EB=
+=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95',NanumGothic,'Nanum Gothic',sans-serif,a=
+rial;font-size: 14px;">
+  <div class=3D"main" style=3D"box-sizing: border-box;color: #212B36;letter=
+-spacing: normal;line-height: 1.5;margin: 60px 24px 60px;">
+    <div class=3D"logos" style=3D"box-sizing: border-box;
+                                        margin-top: 60px;
+                                        margin-bottom: 20px; font-size: 0px=
+;">
+      <div class=3D"coupang-logo" style=3D"display: inline-block;
+                                             padding-right: 8px;
+                                             border-right: solid 1px #eeeee=
+e;
+                                             height: 16px;">
+        <a href=3D"https://www.coupang.com" style=3D"box-sizing: border-box=
+;height: 16px;">
+          <img src=3D"https://image12.coupangcdn.com/image/coupang/common/l=
+ogo_coupang_w350.png" alt=3D"Coupang"
+               style=3D"box-sizing: border-box; width: 70px;height: 16px"/>
+        </a>
+      </div>
+      <div class=3D"rocket-wow-club" style=3D"display: inline-block;
+                                                padding-left: 8px;
+                                                height: 16px;">
+        <a href=3D"https://coupa.ng/bhr8KQ" style=3D"box-sizing: border-box=
+; object-fit: contain; text-decoration: none;">
+          <img src=3D"https://static.coupangcdn.com/image/coupang/loyalty/l=
+ogo/wow-badge.png" alt=3D"WOW Membership" style=3D"box-sizing: border-box; =
+height: 16px;"/>
+          <span style=3D"line-height: 17px; font-size: 14px; color: #2D65BA=
+; font-weight: 700; padding: 0 0 0 4px; vertical-align: top;">=EC=99=80=EC=
+=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=AD</span>
+        </a>
+      </div>
+    </div>
+
+    <div class=3D"title" style=3D"box-sizing: border-box;
+                                        margin-bottom: 40px;
+                                        font-size: 32px;
+                                        color: #555555;">
+      <span style=3D"box-sizing: border-box; color: #111111;">=EC=99=80=EC=
+=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=
+=9A=A9 =EC=95=BD=EA=B4=80 =EA=B0=9C=EC=A0=95 =EC=95=88=EB=82=B4</span>
+    </div>
+    <hr style=3D"margin: 0px;border: 0.5px solid #eeeeee;">
+    <div style=3D"padding: 0px 8px;">
+      <div class=3D"coupang-policy" style=3D"line-height: 1.5;">
+        <p style=3D"margin: 0px 0px 28px;padding-top:40px;font-size: 14px; =
+line-height: 1.5;">
+          =EC=99=80=EC=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=84=9C=EB=B9=84=
+=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=8B=9C=EB=8A=94 =
+=EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =EC=A7=84=EC=8B=AC=EC=9C=BC=EB=A1=9C =
+=EA=B0=90=EC=82=AC=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br>
+          =EC=99=80=EC=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=9D=B4=EC=9A=A9=
+ =EC=95=BD=EA=B4=80 =EC=A4=91 =EC=9D=BC=EB=B6=80 =EB=82=B4=EC=9A=A9=EC=9D=
+=B4 =EA=B0=9C=EC=A0=95=EB=90=98=EC=96=B4 =EC=A0=81=EC=9A=A9 =EC=9D=BC=EC=A0=
+=95=EA=B3=BC =EA=B0=9C=EC=A0=95 =EB=82=B4=EC=9A=A9=EC=9D=84 =EC=95=84=EB=9E=
+=98=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=95=88=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=
+=88=EB=8B=A4.<br>
+          =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=97=90 =EC=B0=B8=
+=EA=B3=A0=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+        </p>
+
+        <p style=3D"margin: 0; line-height: 1.5;">
+          <span style=3D"display: block; font-weight: bold; padding: 0 0 2p=
+x;font-size:14px;">=EC=A0=81=EC=9A=A9 =EC=9D=BC=EC=A0=95<br></span>
+          2023=EB=85=84 9=EC=9B=94 17=EC=9D=BC
+        </p>
+
+        <p style=3D"margin: 20px 0 0; line-height: 1.5;">
+          <span style=3D"display: block; font-weight: bold; padding: 0 0 2p=
+x;font-size:14px;">=EA=B0=9C=EC=A0=95 =EB=AA=A9=EC=A0=81<br></span>
+          =EB=B3=B4=EB=8B=A4 =EB=82=98=EC=9D=80 =EC=84=9C=EB=B9=84=EC=8A=A4=
+=EB=A5=BC =EC=A0=9C=EA=B3=B5=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4 =EC=9D=B4=
+=EB=B2=A4=ED=8A=B8, =ED=94=84=EB=A1=9C=EB=AA=A8=EC=85=98 =EB=93=B1=EC=9D=84=
+ =ED=86=B5=ED=95=9C =ED=98=9C=ED=83=9D =EC=A0=9C=EA=B3=B5 =EA=B4=80=EB=A0=
+=A8 =EC=82=AC=ED=95=AD=EC=9D=84 =EA=B7=9C=EC=A0=95=ED=95=98=EA=B3=A0=EC=9E=
+=90 =ED=95=A9=EB=8B=88=EB=8B=A4.
+        </p>
+      </div>
+      <table class=3D"receipt" style=3D"box-sizing: border-box;width: 100%;=
+border-width: 0px;border-collapse: separate;margin-top: 20px;margin-bottom:=
+ 28px;border-collapse: separate;border-spacing: 0;">
+        <thead style=3D"box-sizing: border-box">
+        <tr style=3D"box-sizing: border-box;height: 37px;">
+          <th style=3D"box-sizing: border-box;text-align: left;font-weight:=
+ bold;border-bottom: 1px solid #454F5B;padding: 0px;font-size:14px;" colspa=
+n=3D"2">
+            =EC=99=80=EC=9A=B0 =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=84=9C=EB=B9=
+=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80 =EA=B0=9C=EC=A0=95=EB=82=
+=B4=EC=9A=A9
+          </th>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 37px;">
+          <th style=3D"box-sizing: border-box;text-align: center;font-weigh=
+t: normal;border-bottom: 1px solid #DFE3E8;padding: 0px;font-size:14px;">
+            =EA=B0=9C=EC=A0=95 =EC=A0=84
+          </th>
+          <th style=3D"box-sizing: border-box;text-align: center;font-weigh=
+t: normal;border-bottom: 1px solid #DFE3E8;padding: 0px;font-size:14px;">
+            =EA=B0=9C=EC=A0=95 =ED=9B=84
+          </th>
+        </tr>
+        </thead>
+        <tbody style=3D"box-sizing: border-box;">
+
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 16px 8px =
+30px 8px;vertical-align: top;">
+            <span style=3D"font-weight: bold;font-size:14px;">=EC=A0=9C3=EC=
+=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4=EC=9D=98 =EC=A0=9C=EA=B3=B5 =EB=B0=8F =
+=EB=B3=80=EA=B2=BD)</span>
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 16px 8px =
+30px 8px;vertical-align: top;">
+            <span style=3D"font-weight: bold;font-size:14px;">=EC=A0=9C3=EC=
+=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4=EC=9D=98 =EC=A0=9C=EA=B3=B5 =EB=B0=8F =
+=EB=B3=80=EA=B2=BD)</span>
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A0 ~ =E2=91=A3 (=EC=83=9D=EB=9E=B5)
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A0 ~ =E2=91=A3 (=ED=98=84=ED=96=89=EA=B3=BC =EA=B0=99=EC=
+=9D=8C)
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            (=EC=8B=A0=EC=84=A4)
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A4 <span style=3D"text-decoration: underline;">=ED=9A=8C=
+=EC=82=AC=EB=8A=94 =EB=AC=B4=EB=A3=8C=EC=B2=B4=ED=97=98 =EA=B8=B0=EA=B0=84 =
+=EC=99=B8=EC=97=90 =EB=8C=80=EC=83=81=ED=9A=8C=EC=9B=90 =EB=98=90=EB=8A=94 =
+=EB=B3=B8 =ED=9A=8C=EC=9B=90=EC=97=90=EA=B2=8C =EB=B3=84=EB=8F=84=EC=9D=98 =
+=EC=9D=B4=EC=9A=A9=EB=A3=8C=EB=A5=BC =EC=A7=80=EB=B6=88=ED=95=98=EC=A7=80 =
+=EC=95=8A=EA=B1=B0=EB=82=98, =ED=95=A0=EC=9D=B8=EB=90=9C =EC=9D=B4=EC=9A=A9=
+=EB=A3=8C=EB=A5=BC =EC=A7=80=EB=B6=88=ED=95=98=EA=B3=A0 =EB=B3=B8 =EC=84=9C=
+=EB=B9=84=EC=8A=A4=EC=9D=98 =EC=A0=84=EB=B6=80 =EB=98=90=EB=8A=94 =EC=9D=BC=
+=EB=B6=80=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94=
+ =ED=98=9C=ED=83=9D=EC=9D=84 =EC=A0=9C=EA=B3=B5=ED=95=A0 =EC=88=98 =EC=9E=
+=88=EB=8B=A4. =EC=9D=B4=EB=95=8C =EC=A0=9C=EA=B3=B5=ED=95=98=EB=8A=94 =EC=
+=84=9C=EB=B9=84=EC=8A=A4=EC=9D=98 =EB=82=B4=EC=9A=A9, =EB=8C=80=EC=83=81, =
+=EA=B8=B0=ED=95=9C, =EC=9D=B4=EC=9A=A9=EB=B0=A9=EB=B2=95 =EB=93=B1=EC=9D=80=
+ =EA=B0=81 =EC=9D=B4=EB=B2=A4=ED=8A=B8, =ED=94=84=EB=A1=9C=EB=AA=A8=EC=85=
+=98 =EB=98=90=EB=8A=94 =ED=9A=8C=EC=82=AC=EC=9D=98 =EC=A0=95=EC=B1=85=EC=97=
+=90 =EB=94=B0=EB=9D=BC =EB=B3=80=EA=B2=BD=EB=90=A0 =EC=88=98 =EC=9E=88=EB=
+=8B=A4. </span>
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A4 =EC=9D=B4=EC=9A=A9=EB=A3=8C =EC=95=A1=EC=88=98=EA=B0=
+=80 =EB=B3=80=EA=B2=BD=EB=90=9C =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94 =EC=9D=
+=B4=EC=9A=A9=EB=A3=8C=EA=B0=80 =EA=B2=B0=EC=A0=9C=EB=90=9C =EC=8B=9C=EC=A0=
+=90=EC=97=90 =ED=9A=8C=EC=9B=90=EC=97=90=EA=B2=8C =EB=B3=84=EB=8F=84=EB=A1=
+=9C =EC=83=88=EB=A1=9C=EC=9A=B4 =EB=8F=99=EC=9D=98=EB=A5=BC =EB=B0=9B=EC=95=
+=84=EC=95=BC =ED=95=9C=EB=8B=A4.
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A5 =EC=9D=B4=EC=9A=A9=EB=A3=8C =EC=95=A1=EC=88=98=EA=B0=
+=80 =EB=B3=80=EA=B2=BD=EB=90=9C =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94 =EC=9D=
+=B4=EC=9A=A9=EB=A3=8C=EA=B0=80 =EA=B2=B0=EC=A0=9C=EB=90=9C =EC=8B=9C=EC=A0=
+=90=EC=97=90 =ED=9A=8C=EC=9B=90=EC=97=90=EA=B2=8C =EB=B3=84=EB=8F=84=EB=A1=
+=9C =EC=83=88=EB=A1=9C=EC=9A=B4 =EB=8F=99=EC=9D=98=EB=A5=BC =EB=B0=9B=EC=95=
+=84=EC=95=BC =ED=95=9C=EB=8B=A4.
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+            <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0=
+ 8px;vertical-align: top;font-size: 14px;">
+              =E2=91=A5 =ED=9A=8C=EC=82=AC=EB=8A=94 =EB=B3=B8 =EC=84=9C=EB=
+=B9=84=EC=8A=A4=EC=97=90 =EB=B6=80=EC=88=98=ED=95=98=EB=8A=94 =EA=B0=9C=EB=
+=B3=84 =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EB=8C=80=ED=95=9C =EC=84=B8=EB=
+=B6=80=EC=A0=95=EC=B1=85=EC=9D=84 =EB=B3=84=EB=8F=84=EB=A1=9C =EC=A0=95=ED=
+=95=98=EC=97=AC =ED=9A=8C=EC=9B=90=EC=97=90=EA=B2=8C =ED=86=B5=EC=A7=80=ED=
+=95=A0 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0, =EC=9D=B4 =EA=B2=BD=EC=9A=B0 =
+=EA=B0=9C=EB=B3=84 =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EB=8C=80=ED=95=9C =
+=EC=84=B8=EB=B6=80=EC=A0=95=EC=B1=85=EC=9D=B4 =EB=B3=B8 =EC=95=BD=EA=B4=80=
+=EC=97=90 =EC=9A=B0=EC=84=A0=ED=95=9C=EB=8B=A4.
+            </td>
+            <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0=
+ 8px;vertical-align: top;font-size: 14px;">
+              =E2=91=A6 =ED=9A=8C=EC=82=AC=EB=8A=94 =EB=B3=B8 =EC=84=9C=EB=
+=B9=84=EC=8A=A4=EC=97=90 =EB=B6=80=EC=88=98=ED=95=98=EB=8A=94 =EA=B0=9C=EB=
+=B3=84 =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EB=8C=80=ED=95=9C =EC=84=B8=EB=
+=B6=80=EC=A0=95=EC=B1=85=EC=9D=84 =EB=B3=84=EB=8F=84=EB=A1=9C =EC=A0=95=ED=
+=95=98=EC=97=AC =ED=9A=8C=EC=9B=90=EC=97=90=EA=B2=8C =ED=86=B5=EC=A7=80=ED=
+=95=A0 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0, =EC=9D=B4 =EA=B2=BD=EC=9A=B0 =
+=EA=B0=9C=EB=B3=84 =EC=84=9C=EB=B9=84=EC=8A=A4=EC=97=90 =EB=8C=80=ED=95=9C =
+=EC=84=B8=EB=B6=80=EC=A0=95=EC=B1=85=EC=9D=B4 =EB=B3=B8 =EC=95=BD=EA=B4=80=
+=EC=97=90 =EC=9A=B0=EC=84=A0=ED=95=9C=EB=8B=A4.
+            </td>
+          </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 20px 8px =
+30px 8px;vertical-align: top;">
+            <span style=3D"font-weight: bold;font-size:14px;">=EC=A0=9C4=EC=
+=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4 =EA=B0=80=EC=9E=85 =EC=8B=A0=EC=B2=AD)<=
+/span>
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 20px 8px =
+30px 8px;vertical-align: top;">
+            <span style=3D"font-weight: bold;font-size:14px;">=EC=A0=9C4=EC=
+=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4 =EA=B0=80=EC=9E=85 =EC=8B=A0=EC=B2=AD)<=
+/span>
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A0 ~ =E2=91=A1 (=EC=83=9D=EB=9E=B5)
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A0 ~ =E2=91=A1 (=ED=98=84=ED=96=89=EA=B3=BC =EA=B0=99=EC=
+=9D=8C)
+          </td>
+        </tr>
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            (=EC=8B=A0=EC=84=A4)
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 0 8px 0 8=
+px;vertical-align: top;font-size: 14px;">
+            =E2=91=A2 <span style=3D"text-decoration: underline;">=EB=B3=B8=
+ =EC=95=BD=EA=B4=80 =EC=A0=9C3=EC=A1=B0 =EC=A0=9C5=ED=95=AD=EC=97=90 =EB=94=
+=B0=EB=9D=BC =EB=AC=B4=EB=A3=8C=EB=A1=9C =EB=B3=B8 =EC=84=9C=EB=B9=84=EC=8A=
+=A4=EC=9D=98 =EC=A0=84=EB=B6=80 =EB=98=90=EB=8A=94 =EC=9D=BC=EB=B6=80=EB=A5=
+=BC =EC=9D=B4=EC=9A=A9 =EC=A4=91=EC=9D=B8 =EB=8C=80=EC=83=81=ED=9A=8C=EC=9B=
+=90=EC=9D=98 =EA=B2=BD=EC=9A=B0, =ED=95=B4=EB=8B=B9 =EA=B8=B0=EA=B0=84 =EB=
+=8F=99=EC=95=88=EC=97=90 =ED=95=9C=ED=95=98=EC=97=AC =EB=B3=B8 =ED=9A=8C=EC=
+=9B=90=EC=97=90 =EC=A4=80=ED=95=98=EB=8A=94 =EA=B2=83=EC=9C=BC=EB=A1=9C =EB=
+=B3=B4=EB=A9=B0, =EB=B3=B8 =EC=95=BD=EA=B4=80 =EB=B0=8F =EC=9D=B4=EC=9A=A9=
+=EB=A3=8C =EA=B2=B0=EC=A0=9C =EB=93=B1=EC=97=90 =EB=8F=99=EC=9D=98=ED=95=A8=
+=EC=9C=BC=EB=A1=9C=EC=8D=A8 =EB=B3=B8 =ED=9A=8C=EC=9B=90=EC=9D=B4 =EB=90=9C=
+=EB=8B=A4.</span>
+          </td>
+        </tr>
+
+        <tr style=3D"box-sizing: border-box;height: 20px;">
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 10px 8px =
+20px 8px;vertical-align: top; border-bottom: 1px solid #454F5B;font-size: 1=
+4px;">
+            =EB=B3=B8 =EC=95=BD=EA=B4=80=EC=9D=80 <span style=3D"text-decor=
+ation: underline;">2022=EB=85=84 12=EC=9B=94 21=EC=9D=BC=EC=9E=90</span>=EB=
+=A1=9C =EA=B0=9C=EC=A0=95=EB=90=A8
+          </td>
+          <td style=3D"box-sizing: border-box;width: 50%;padding: 10px 8px =
+20px 8px;vertical-align: top; border-bottom: 1px solid #454F5B;font-size: 1=
+4px;">
+            =EB=B3=B8 =EC=95=BD=EA=B4=80=EC=9D=80 <span style=3D"text-decor=
+ation: underline;">2023=EB=85=84 9=EC=9B=94 17=EC=9D=BC=EC=9E=90</span>=EB=
+=A1=9C =EA=B0=9C=EC=A0=95=EB=90=A8
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+      <div class=3D"coupang-thanks">
+        <p style=3D"margin: 0; padding: 0;font-weight: bold;">=EC=9D=B4=EC=
+=9D=98 =EC=A0=9C=EA=B8=B0 =EB=B0=8F =EB=AC=B8=EC=9D=98</p>
+        <p style=3D"margin: 0; line-height: 1.5;">
+            =EA=B0=9C=EC=A0=95=EC=95=BD=EA=B4=80 =EC=8B=9C=ED=96=89=EC=9D=
+=BC =EC=A0=84=EA=B9=8C=EC=A7=80 =EB=B3=84=EB=8F=84=EC=9D=98 =EC=9D=B4=EC=9D=
+=98=EB=A5=BC =EC=A0=9C=EA=B8=B0=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=
+=A4 =EA=B2=BD=EC=9A=B0 =EB=B3=B8 =EA=B0=9C=EC=A0=95=EC=95=BD=EA=B4=80=EC=97=
+=90 =EB=8F=99=EC=9D=98=ED=95=98=EC=8B=9C=EB=8A=94 =EA=B2=83=EC=9C=BC=EB=A1=
+=9C =EA=B0=84=EC=A3=BC=EB=90=A9=EB=8B=88=EB=8B=A4.<br>
+            =EA=B0=9C=EC=A0=95=EB=90=98=EB=8A=94 =EC=9D=B4=EC=9A=A9=EC=95=
+=BD=EA=B4=80=EC=97=90 =EB=8F=99=EC=9D=98=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=
+=BC=EC=8B=9C=EB=8A=94 =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94 =ED=9A=8C=EC=9B=
+=90=ED=83=88=ED=87=B4(=EC=9D=B4=EC=9A=A9=EA=B3=84=EC=95=BD=EC=9D=98 =ED=95=
+=B4=EC=A7=80)=EB=A5=BC =EC=9A=94=EC=B2=AD=ED=95=98=EC=8B=A4 =EC=88=98 =EC=
+=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br>
+            =EC=95=BD=EA=B4=80 =EA=B0=9C=EC=A0=95=EA=B3=BC =EA=B4=80=EB=A0=
+=A8=ED=95=98=EC=97=AC =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=82=AC=ED=95=
+=AD=EC=9D=80 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0=EB=A1=9C =EB=AC=B8=EC=9D=
+=98=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=
+=88=EB=8B=A4.
+        </p>
+        <p style=3D"margin-bottom: 0px;line-height: 1.5;">
+            =EC=95=9E=EC=9C=BC=EB=A1=9C=EB=8F=84 =EB=8D=94=EC=9A=B1 =EC=8B=
+=A0=EB=A2=B0=EB=B0=9B=EB=8A=94 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A1=9C =EB=B3=
+=B4=EB=8B=B5=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8F=84=EB=A1=9D =EC=B5=9C=EC=84=
+=A0=EC=9D=84 =EB=8B=A4=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.<br>
+            =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+            =EC=BF=A0=ED=8C=A1 =EB=93=9C=EB=A6=BC<br><br>
+            (=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 2023=EB=85=84 8=EC=9B=94=
+ 15=EC=9D=BC =EA=B8=B0=EC=A4=80, =EC=99=80=EC=9A=B0 =EB=A9=A4=EB=B2=84=EC=
+=8B=AD =ED=9A=8C=EC=9B=90 =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C =EB=B0=9C=EC=
+=86=A1=EB=90=98=EB=8A=94 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4)
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class=3D"footer" style=3D"box-sizing: border-box;
+                                font-size: 12px;
+                                color: #555555;
+                                background-color: #dddddd;
+                                padding: 32px 36px;
+                                line-height: 1.5;">
+    <p style=3D"box-sizing: border-box;margin:0 0 18px 0;">=EB=B3=B8 =EB=A9=
+=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=
+=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=
+=A4. =EB=AC=B8=EC=9D=98=EB=8A=94 =EC=BF=A0=ED=8C=A1 > =EA=B3=A0=EA=B0=9D=EC=
+=84=BC=ED=84=B0 > 1:1 =EB=AC=B8=EC=9D=98=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=
+=B4 =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.<br>
+        =EC=BF=A0=ED=8C=A1=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 =EC=9A=B4=EC=
+=98=81=EC=8B=9C=EA=B0=84 : 365=EC=9D=BC 24=EC=8B=9C=EA=B0=84 =EC=9A=B4=EC=
+=98=81 </p>
+    <p style=3D"box-sizing: border-box;margin: 18px 0 0 0;">
+        =EC=BF=A0=ED=8C=A1(=EC=A3=BC) | =EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=
+=AC : =EA=B0=95=ED=95=9C=EC=8A=B9,=EB=B0=95=EB=8C=80=EC=A4=80 | =EC=82=AC=
+=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 :<span style=3D"whit=
+e-space: nowrap;">120-88-00767</span><br>
+        =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0: 20=
+17-=EC=84=9C=EC=9A=B8=EC=86=A1=ED=8C=8C-0680<br>
+        =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=86=A1=ED=8C=8C=EA=B5=AC =EC=86=A1=
+=ED=8C=8C=EB=8C=80=EB=A1=9C 570 | =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 : 15=
+77-7011 | FAX : 02-3441-7011
+    </p>
+  </div>
+</div>
+</body>
+</html><img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' s=
+rc=3D'https://email.api.nhncloudservice.com/email/v1.0/collectors/readCheck=
+/BNlOGZVtV7O61ebrN9CralPieRgXqds1aIZfQi8NV78?ext=3Dimg.gif' loading=3D'eage=
+r'/>
+

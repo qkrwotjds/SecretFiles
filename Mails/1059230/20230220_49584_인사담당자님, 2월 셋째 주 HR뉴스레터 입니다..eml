@@ -1,0 +1,765 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1676873442;
+	cv=none; b=gCr1voSJpCKSoRARKDqVCr1aiTxp2ch/Tz1qDdzyqVT5j757ekWRTyx6ns+g
+	 Ic+92sz8QfLtPjlXosT7JnMRuH6ZZp2EiwPEMN3GYdAxLre1FRZguzt+YnWjrqIx9BkyOH
+	 13X3qzvbU5x/sDWbkxbniubbNAXUPxQB9MiMW3H6x4JrxOiseZ7/ffPhbc+S5mWC7tDlek
+	 t8sGO8KThX2xdhavlTcpqTT96344CSlD5hkwlmwAAeZpGacpV9ns3+huScQAhuwY40N6ZN
+	 oHkds4x6rx0dE5Ix372+zWxOyK5aBXf798sUvVLvzp2jKlKLT/AJ7ijsSB/HnJ2lKtNBnm
+	 iA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1676873442; c=relaxed/relaxed;
+	bh=okqjzjPfvt93+rI9A8xuXJVvrKTCfWtMtuwDhGODmIc=;
+	h=date:message-id:subject:from:to; b=BHQFsHFx0afKOgLgZZIfzktUkgFoN6rUw7
+	 bw6YjJzQENDoM4WzJG8FEKqi8Fz86ZBpWACqggPsXxX8iN4VVWEsyj8n3IaNZg8vbBp33H
+	 EItUOw4B8WDxBusYVZ+EY3kIt4VhCQjTf8pSdkGUKDZbLP/Yg557dbxKkqb8gHEig0JMw1
+	 aLrpJdaEURUCj+wJzRAB7BZuYQTy+R9IvMTirwPctHq0tJKQZ7u8PUPMZ2Tf6M2915Emxd
+	 v2mBMsuQBcqAqm4RvoYHgMcB1EZt6W+bDxOs4QKPdrU3H18PK7tXr4LXsenn4T2V1hBvQf
+	 IE8Vd1iIwQdAPENVwPnR6eLGoj6A==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.40 as permitted sender) smtp.mailfrom=12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr
+Return-Path: <12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.40 as permitted sender)
+  client-ip=119.207.70.40; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.40 as permitted sender) smtp.mailfrom=12064_1_57295_1059230_naver.com@imail3.jobkorea.co.kr
+X-Naver-ESV: wqRn+6J4p63qMBIYKXwdbXmmFoumFAiYkXm=
+X-Session-IP: 119.207.70.40
+Received: from jobkorea.co.kr (imail3.jobkorea.co.kr [119.207.70.40])
+  by crcvmail106.nm.naver.com with ESMTP id 4aV3CTNpRAChcoWVWbWnxg
+  for <1059230@naver.com>;
+  Mon, 20 Feb 2023 06:10:42 -0000
+MIME-Version: 1.0
+Date: Mon, 20 Feb 2023 15:10:38 +0900
+Message-ID: <IWNID_12064_57295_23_0_0_20230220151038_119.207.70.40>
+Return-Path: <IWNID_12064_57295_23_0_0_20230220151038_119.207.70.40@imail3.jobkorea.co.kr>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?7J247IKs64u064u57J6Q64uYLCAy7JuUIOyFi+ynuCDso7wgSFLribTsiqTroIjthLAg7J6F64uI64ukLg==?=
+From: =?UTF-8?B?7J6h7L2U66as7JWE?=<helpdesk@jobkorea.co.kr>
+To: =?UTF-8?B?7LK07ZeYIOyjvOyLne2ajOyCrA==?=<1059230@naver.com>
+Reply-To: =?UTF-8?B?7J6h7L2U66as7JWE?=<helpdesk@jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+
+    <head>
+        <title>기업회원 뉴스레터 02월</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    </head>
+
+    <body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td bgcolor="#f1f1f1" style="text-align:center;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <style type="text/css">
+                        .hidden {display:none;}
+                    </style>
+                    <table border="0" cellpadding="0" cellspacing="0"><tr><td width="595">
+                    <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;width:595px;margin:0 auto;" width="100%" bgcolor="#ffffff">
+                        <tr>
+                            <td width="10"></td>
+                            <td style="text-align:center;">
+                                <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="555"><![endif]-->
+                                <table border="0" cellpadding="0" cellspacing="0" style="table-layout:fixed;max-width:555px;margin:0 auto;text-align:left;" width="100%" bgcolor="#ffffff">
+                                    <tr>
+                                        <td>
+                                            <!--// 타이틀영역 -->
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                <tr>
+                                                    <td height="40"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <div style="margin-left:10px;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=1&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr" target="_blank" style="text-decoration:none;">
+                                                                            <img src="http://file1.jobkorea.co.kr/Mailing/2018/logo.png" width="100" height="25" alt="JOBKOREA" border="0" />
+                                                                        </a>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;font-size:13px;text-align:right;letter-spacing:-1px;mso-line-height-rule:exactly;line-height:25px;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=2&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Recruit/Regist" target="_blank" style="text-decoration:none;color:#666666;">공고등록</a>&nbsp;&nbsp;
+                                                                        <span style="color:#edeef0;">|</span>&nbsp;&nbsp;
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=3&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Person/Find" target="_blank" style="text-decoration:none;color:#666666;">인재검색</a>&nbsp;&nbsp;
+                                                                        <span style="color:#edeef0;">|</span>&nbsp;&nbsp;
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=4&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Lounge/forum" target="_blank" style="text-decoration:none;color:#666666;">포럼/세미나</a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="60"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:46px;font-size:34px;color:#333333;letter-spacing:-3px;">
+                                                        2월 셋째주 <span style="color:#3399ff;">HR뉴스레터</span>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="60"></td>
+                                                </tr>
+                                            </table>
+                                            <!-- 타이틀영역 //-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td width="10"></td>
+                                                        <td width="535">
+                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=5&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/forum_View?W_No=162" target="_blank" style="text-decoration:none">
+                                                                <img src="https://file1.jobkorea.co.kr/Mng/2023/2/b535x274.png" width="100%" border="0" alt="오프닝배너메인타이틀" />
+                                                            </a>
+
+                                                        </td>
+                                                        <td width="10"></td>
+                                                    </tr>
+                                                </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="10"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table border="0" cellpadding="0" cellspacing="0" width="100%"
+                                                   style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;">
+                                                <tr>
+                                                    <td>
+                                                        <!--// HR정보 리스트 -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <!--// loop -->
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=6&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=585" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206_2.png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206_2.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=7&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=585" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">휴일근로 수당 안 줬지만 처벌 못하는 이유</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">근로기준법상 반의사불법죄가 적용되는 경우</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=8&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=590" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230213.png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230213.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=9&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=590" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">복지제도 이렇게 운영했다면 임금입니다</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">복리후생의 임금성 여부에 대한 판단과 판결 동향</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=10&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/forum_View?W_No=163" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206.png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=11&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/forum_View?W_No=163" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">대전환의 시대, HR트렌드 변화는?</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">#채용/보상 #일하는 방식 #HR DT #리더십/조직문</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=12&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=589" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206(3).png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206(3).png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=13&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=589" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">우리의 신년 계획을 공유합니다!</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">HR의 #영역 #계획 #역량 알아보기</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=14&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=588" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206(1).png ');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Mng/2023/2/인사자료배너_뉴스레터_230206(1).png " alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=15&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=588" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">인사담당자가 주목해야하는 채용 트렌드</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">#메타버스 #스토리리빙 #워라블 #멀티포텐션라이트 등</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="top" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=16&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=591&amp;Page=1&amp;psTab=10&amp;selText=" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;height:100px;background-image:url('https://file1.jobkorea.co.kr/Corp/Lounge/News/Imgs/591-600/591/2023_02.png');background-repeat:no-repeat;background-position:50% 50%;background-size:100% 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file1.jobkorea.co.kr/Corp/Lounge/News/Imgs/591-600/591/2023_02.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="371" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=17&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Corp/Lounge/News_View?GI_Trend_News_No=591&amp;Page=1&amp;psTab=10&amp;selText=" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <div style="margin-bottom:7px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;">대졸 신입직 구직자 취업 목표 기업 조사</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#888888;">대졸 신입직 구직자 취업 목표 기업 &#39;중견기업&#39;</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                        </table>
+                                                        <!-- HR정보 리스트 //-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-right:10px;font-size:0;" align="right">
+                                                        <div style="mso-line-height-rule:exactly;line-height:15px;">
+                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=18&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Lounge/News" target="_blank" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;font-size:15px;color:#333333;letter-spacing:-1px;text-decoration:none;line-height:15px;">더보기 &gt;</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=" 50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!--// 채용공고 등록 -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td style="padding:36px 20px 36px 20px;font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;text-align:center;font-size:0;" bgcolor="#ecf0f2">
+                                                                    <div style="margin-bottom:4px;mso-line-height-rule:exactly;line-height:30px;font-size:21px;color:#333333;">인사담당자님.</div>
+                                                                    <div style="margin-bottom:18px;mso-line-height-rule:exactly;line-height:25px;font-size:18px;color:#333333">원하시는 인재가 찾아올 수 있도록, <strong style="color:#3399ff;">채용공고</strong>를 등록해 보세요.</div>
+                                                                    <table width="100%">
+                                                                        <tr>
+                                                                            <td width="49%" height="50" bgcolor="#3399ff" style="font-size:0;">
+                                                                                <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=19&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Recruit/Regist" style="text-decoration:none;color:#ffffff;" target="_blank">
+                                                                                    <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:18px;font-size:18px;text-align:center;letter-spacing:-2px;">공고를 등록할게요</div>
+                                                                                </a>
+                                                                            </td>
+                                                                            <td width="2%" height="50"></td>
+                                                                            <td width="49%" height="50" bgcolor="#ffffff" style="font-size:0;border:1px solid #d5d5d7;">
+                                                                                <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=20&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Person/Find" style="text-decoration:none;color:#333333;" target="_blank">
+                                                                                    <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:16px;font-size:18px;text-align:center;letter-spacing:-2px;">인재를 찾아볼게요</div>
+                                                                                </a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                        <!-- 채용공고 등록 //-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="mso-line-height-rule:exactly;line-height:22px;font-size:20px;color:#333333;letter-spacing:-1px;text-indent:10px;">기업러닝 추천강좌</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" bgcolor="#d1d5d7"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!--// 기업러닝 리스트 -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                                                                <!--// loop -->
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="middle" align="center" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=21&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/D8A80979-121E-4DCE-8594-CCBBBDFFB082" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;padding:32px 0 32px 0;background-image:url('https://files.ubob.com/series/Company_PotOnly/Company_PotOnly1.png');background-repeat:no-repeat;background-position:50% 50%;background-size:auto 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><div class="hidden"><![endif]-->
+                                                                                <img src="https://file1.jobkorea.co.kr/Mailing/2018/ico_play.png" width="36" height="36px" alt="" />
+                                                                                <!--[if (gte mso 9)|(IE)]></div><![endif]-->
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://files.ubob.com/series/Company_PotOnly/Company_PotOnly1.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="361" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=22&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/D8A80979-121E-4DCE-8594-CCBBBDFFB082" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <!--인문/교양 &gt; 문학-->
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">법정교육 &gt; 성희롱 예방</div>
+                                                                                <div style="margin-bottom:2px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#000000;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">직장팟 On AIR, 성희롱 예방교육</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <!-- loop //-->
+                                                                <!--// loop -->
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="middle" align="center" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=23&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/7E72343E-32D7-4D47-8D7E-B79B7DFCD13C" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;padding:32px 0 32px 0;background-image:url('https://files.ubob.com/series/welllifeCoach/welllifeCoach1.png');background-repeat:no-repeat;background-position:50% 50%;background-size:auto 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><div class="hidden"><![endif]-->
+                                                                                <img src="https://file1.jobkorea.co.kr/Mailing/2018/ico_play.png" width="36" height="36px" alt="" />
+                                                                                <!--[if (gte mso 9)|(IE)]></div><![endif]-->
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://files.ubob.com/series/welllifeCoach/welllifeCoach1.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="361" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=24&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/7E72343E-32D7-4D47-8D7E-B79B7DFCD13C" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <!--인문/교양 &gt; 문학-->
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">법정교육 &gt; 감정노동자보호</div>
+                                                                                <div style="margin-bottom:2px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#000000;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">감정노동자를 위한 웰라이프 코칭</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <!-- loop //-->
+                                                                <!--// loop -->
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="middle" align="center" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=25&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/760B8D91-FF41-402D-AC69-1CD0999B93C6" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;padding:32px 0 32px 0;background-image:url('https://files.ubob.com/series/Stro_Suc/Stro_Suc1.png');background-repeat:no-repeat;background-position:50% 50%;background-size:auto 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><div class="hidden"><![endif]-->
+                                                                                <img src="https://file1.jobkorea.co.kr/Mailing/2018/ico_play.png" width="36" height="36px" alt="" />
+                                                                                <!--[if (gte mso 9)|(IE)]></div><![endif]-->
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://files.ubob.com/series/Stro_Suc/Stro_Suc1.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="361" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=26&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/760B8D91-FF41-402D-AC69-1CD0999B93C6" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <!--인문/교양 &gt; 문학-->
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">자기계발 &gt; 직급별 리더십</div>
+                                                                                <div style="margin-bottom:2px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#000000;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">강점리더십, 성공 리더를 위한 솔루션</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <!-- loop //-->
+                                                                <!--// loop -->
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="154" height="100" valign="middle" align="center" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=27&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/42221187-C2E2-4CF2-A656-2342E72A9BD3" target="_blank" style="border:0;font-size:0;">
+                                                                            <div style="width:154px;padding:32px 0 32px 0;background-image:url('https://files.ubob.com/series/NEbiz_pattCON/NEbiz_pattCON1.png');background-repeat:no-repeat;background-position:50% 50%;background-size:auto 100px;">
+                                                                                <!--[if (gte mso 9)|(IE)]><div class="hidden"><![endif]-->
+                                                                                <img src="https://file1.jobkorea.co.kr/Mailing/2018/ico_play.png" width="36" height="36px" alt="" />
+                                                                                <!--[if (gte mso 9)|(IE)]></div><![endif]-->
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://files.ubob.com/series/NEbiz_pattCON/NEbiz_pattCON1.png" alt="" width="154" height="100" border="0"><![endif]-->
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="20"></td>
+                                                                    <td width="361" style="font-size:0;">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=28&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://nowdemo.jobkorea.co.kr/preview/index/42221187-C2E2-4CF2-A656-2342E72A9BD3" target="_blank" style="text-decoration:none;">
+                                                                            <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;">
+                                                                                <!--인문/교양 &gt; 문학-->
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">영어 &gt; 비즈니스 영어</div>
+                                                                                <div style="margin-bottom:2px;mso-line-height-rule:exactly;line-height:30px;font-size:18px;color:#000000;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">[New Edition] 비즈니스영어 핵심패턴</div>
+                                                                            </div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="10"></td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                                </tr>
+                                                                <!-- loop //-->
+                                                        </table>
+                                                        <!-- 기업러닝 리스트 //-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-right:10px;font-size:0;" align="right">
+                                                        <div style="mso-line-height-rule:exactly;line-height:15px;">
+                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=29&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Service/Company/Learning" target="_blank" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;font-size:15px;color:#333333;letter-spacing:-1px;text-decoration:none;line-height:15px;">더보기 &gt;</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=" 50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                <tr>
+                                                                    <td width="10"></td>
+                                                                    <td width="535">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=30&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.ains.co.kr/" target="_blank" style="text-decoration:none">
+                                                                            <img src="https://file1.jobkorea.co.kr/Mng/2023/1/뉴스레터_아인스파트너.jpg" width="100%" border="0" alt="AD배너타이틀" />
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="10"></td>
+                                                                </tr>
+                                                            </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="mso-line-height-rule:exactly;line-height:22px;font-size:20px;color:#333333;letter-spacing:-1px;text-indent:10px;">이벤트&amp;설문</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" bgcolor="#d1d5d7"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+                                                                    <tr>
+                                                                    <td width="50%" valign="top" align="center" style="padding:15px 10px 13px 10px;border-bottom:1px solid #edeeef;font-size:0;">
+                                                                        <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="238"><![endif]-->
+                                                                        <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;max-width:238px;margin:0 auto;text-align:left;">
+                                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=31&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://survey.jobkorea.co.kr/?Main_No=4420" target="_blank" style="display:block;text-decoration:none;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://imgs.jobkorea.co.kr/img1/_thumb/238x0//Survey/Images/2023/2/1_4420_4_7.jpg" alt="" width="238" height="140" border="0"><![endif]-->
+                                                                                <div style="padding-top:58.82%;background-image:url('https://imgs.jobkorea.co.kr/img1/_thumb/238x0//Survey/Images/2023/2/1_4420_4_7.jpg');background-repeat:no-repeat;background-size:100% 100%;"></div>
+                                                                                <div style="margin:6px 0 3px 0;mso-line-height-rule:exactly;line-height:25px;font-size:15px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">마스크 착용 유무 조사</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">설문</div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                                    </td>
+                                                                    <td width="50%" valign="top" align="center" style="padding:15px 10px 13px 10px;border-bottom:1px solid #edeeef;font-size:0;">
+                                                                        <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="238"><![endif]-->
+                                                                        <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;max-width:238px;margin:0 auto;text-align:left;">
+                                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=32&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Events/2023mictevent" target="_blank" style="display:block;text-decoration:none;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=PC_%ec%84%a4%eb%ac%b8%ec%a1%b0%ec%82%ac%ec%9d%b4%eb%b2%a4%ed%8a%b8_%eb%a6%ac%ec%8a%a4%ed%8a%b8%ec%9d%b4%eb%af%b8%ec%a7%80_238x140%5b2%5d.jpg" alt="" width="238" height="140" border="0"><![endif]-->
+                                                                                <div style="padding-top:58.82%;background-image:url('https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=PC_%ec%84%a4%eb%ac%b8%ec%a1%b0%ec%82%ac%ec%9d%b4%eb%b2%a4%ed%8a%b8_%eb%a6%ac%ec%8a%a4%ed%8a%b8%ec%9d%b4%eb%af%b8%ec%a7%80_238x140%5b2%5d.jpg');background-repeat:no-repeat;background-size:100% 100%;"></div>
+                                                                                <div style="margin:6px 0 3px 0;mso-line-height-rule:exactly;line-height:25px;font-size:15px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">MICT 테스트로 내 강점 알아보기!</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">이벤트</div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                                    </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                    <td width="50%" valign="top" align="center" style="padding:15px 10px 13px 10px;border-bottom:1px solid #edeeef;font-size:0;">
+                                                                        <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="238"><![endif]-->
+                                                                        <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;max-width:238px;margin:0 auto;text-align:left;">
+                                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=33&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Events/Check/202302" target="_blank" style="display:block;text-decoration:none;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=238x140%5b74%5d.jpg" alt="" width="238" height="140" border="0"><![endif]-->
+                                                                                <div style="padding-top:58.82%;background-image:url('https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=238x140%5b74%5d.jpg');background-repeat:no-repeat;background-size:100% 100%;"></div>
+                                                                                <div style="margin:6px 0 3px 0;mso-line-height-rule:exactly;line-height:25px;font-size:15px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">2월 전체회원 이벤트</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">이벤트</div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                                    </td>
+                                                                    <td width="50%" valign="top" align="center" style="padding:15px 10px 13px 10px;border-bottom:1px solid #edeeef;font-size:0;">
+                                                                        <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="238"><![endif]-->
+                                                                        <div style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-1px;max-width:238px;margin:0 auto;text-align:left;">
+                                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=34&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=https://www.jobkorea.co.kr/Starter/ReviewEvent" target="_blank" style="display:block;text-decoration:none;">
+                                                                                <!--[if (gte mso 9)|(IE)]><img src="https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=b1_238x140.jpg" alt="" width="238" height="140" border="0"><![endif]-->
+                                                                                <div style="padding-top:58.82%;background-image:url('https://file2.jobkorea.co.kr/Net/Mng/Image/Event?FN=b1_238x140.jpg');background-repeat:no-repeat;background-size:100% 100%;"></div>
+                                                                                <div style="margin:6px 0 3px 0;mso-line-height-rule:exactly;line-height:25px;font-size:15px;color:#333333;white-space: normal;display: -webkit-box;-webkit-line-clamp: 1;-webkit-box-orient: vertical;overflow: hidden;">합격자소서&amp;취업후기 나눔 이벤트</div>
+                                                                                <div style="mso-line-height-rule:exactly;line-height:20px;font-size:13px;color:#3399ff;">이벤트</div>
+                                                                            </a>
+                                                                        </div>
+                                                                        <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                                                                    </td>
+                                                                    </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding-right:10px;font-size:0;" align="right">
+                                                        <div style="mso-line-height-rule:exactly;line-height:15px;">
+                                                            <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=35&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Lounge/Event" target="_blank" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;font-size:15px;color:#333333;letter-spacing:-1px;text-decoration:none;line-height:15px;">더보기 &gt;</a>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=" 50"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" bgcolor="#edeeef"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <!--// 잡코리아 서비스 -->
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td width="11"></td>
+                                                                    <td width="132" height="108" align="center">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=36&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Main" target="_blank" style="font-size:0;text-decoration:none;">
+                                                                            <img src="http://file1.jobkorea.co.kr/Mailing/2018/ico_bizletter01.gif" width="34" height="38" border="0" alt="" />
+                                                                            <div style="margin:14px 0 0 0;font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:14px;font-size:14px;color:#333333;letter-spacing:-1px;">기업회원 홈</div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="1" style="font-size:0;overflow:hidden;">
+                                                                        <div style="width:1px;height:63px;mso-line-height-rule:exactly;line-height:63px;background-color:#edeef0;color:#edeef0;" bgcolor="#edeef0">|</div>
+                                                                    </td>
+                                                                    <td width="132" height="108" align="center">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=37&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Corp/Lounge/News" target="_blank" style="font-size:0;text-decoration:none;">
+                                                                            <img src="http://file1.jobkorea.co.kr/Mailing/2018/ico_bizletter02.gif" width="41" height="38" border="0" alt="" />
+                                                                            <div style="margin:14px 0 0 0;font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:14px;font-size:14px;color:#333333;letter-spacing:-1px;">기업라운지</div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="1" style="font-size:0;overflow:hidden;">
+                                                                        <div style="width:1px;height:63px;mso-line-height-rule:exactly;line-height:63px;background-color:#edeef0;color:#edeef0;" bgcolor="#edeef0">|</div>
+                                                                    </td>
+                                                                    <td width="132" height="108" align="center">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=38&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Super/Main" target="_blank" style="font-size:0;text-decoration:none;">
+                                                                            <img src="http://file1.jobkorea.co.kr/Mailing/2018/ico_bizletter03.gif" width="36" height="38" border="0" alt="" />
+                                                                            <div style="margin:14px 0 0 0;font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:14px;font-size:14px;color:#333333;letter-spacing:-1px;">슈퍼기업관</div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="1" style="font-size:0;overflow:hidden;">
+                                                                        <div style="width:1px;height:63px;mso-line-height-rule:exactly;line-height:63px;background-color:#edeef0;color:#edeef0;" bgcolor="#edeef0">|</div>
+                                                                    </td>
+                                                                    <td width="132" height="108" align="center">
+                                                                        <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=39&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Service/Company/Option" target="_blank" style="font-size:0;text-decoration:none;">
+                                                                            <img src="http://file1.jobkorea.co.kr/Mailing/2018/ico_bizletter04.gif" width="26" height="38" border="0" alt="" />
+                                                                            <div style="margin:14px 0 0 0;font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;mso-line-height-rule:exactly;line-height:14px;font-size:14px;color:#333333;letter-spacing:-1px;">서비스 안내</div>
+                                                                        </a>
+                                                                    </td>
+                                                                    <td width="11"></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- 잡코리아 서비스 //-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5" height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="5" height="1" bgcolor="#edeeef"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            </td>
+                            <td width="10"></td>
+                        </tr>
+                        <!--// Footer -->
+                        <tr>
+                            <td width="10" bgcolor="#e1e1e1"></td>
+                            <td bgcolor="#e1e1e1" style="text-align:center;">
+                                <!--[if (gte mso 9)|(IE)]><table border="0" cellpadding="0" cellspacing="0"><tr><td width="555"><![endif]-->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0" style="table-layout:fixed;max-width:555px;margin:0 auto;">
+                                    <tr>
+                                        <td align="center">
+                                            <table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="font-size:13px;font-family:Malgun Gothic,'맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#333333;letter-spacing:-1px;">본 메일은 발신 전용 메일입니다. 메일수신을 원치 않으시면 <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=40&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Customer_C/CC_MailReject.asp?mailGubun=3&mailType=C&targetType=N&mailKey=0083C98671B4C34999EBE84AB5D758B001000000997704586A9D746BB11D00837E078A210F0A66A03B88F338E4F1DFBA7E036B24D5D6420B8EA559FC59DB65D18DFC5537" target="_blank" style="font-size:13px;font-family:Malgun Gothic, '맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#333333;text-decoration:underline; font-weight:bold;">[수신거부]</a>를 눌러주십시오. </td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="font-size:13px;font-family:Malgun Gothic,'맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#333333;letter-spacing:-1px;">If you are not a member or do not want to receive it, please click a<a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=41&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://www.jobkorea.co.kr/Customer_C/CC_MailReject.asp?mailGubun=3&mailType=C&targetType=N&mailKey=0083C98671B4C34999EBE84AB5D758B001000000997704586A9D746BB11D00837E078A210F0A66A03B88F338E4F1DFBA7E036B24D5D6420B8EA559FC59DB65D18DFC5537" target="_blank" style="font-size:13px;font-family:Malgun Gothic, '맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#333333;text-decoration:underline; font-weight:bold;">[Return button]</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" bgcolor="#d6d6d6"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td align="center" style="font-size:12px;font-family:Malgun Gothic,'맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#666666;letter-spacing:-1px;line-height:22px;word-break:keep-all;">잡코리아(유) &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp;사업자등록번호 : 110-81-34859 &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표자 : 윤현준 &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표전화 : 1588-9350<br />주소 : 서울특별시 서초구 서초대로 301 동익성봉빌딩16~18층</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="15"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="50" align="center" valign="top" style="font-size:11px;font-family:Malgun Gothic,'맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#666666;">ⓒ <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12064&linkno=42&seqidx=57295&service=23&dmidx=0&emidx=0&uidx=22&gidx=9&site=0&linkurl=http://jobkorea.co.kr" target="_blank" title="새창" style="font-size:11px;font-family:Malgun Gothic, '맑은 고딕','돋움',Dotum,'Apple SD Gothic Neo',Sans-serif;color:#333333;text-decoration:none;">JOBKOREA</a>Corp</td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                            </td>
+                            <td width="10" bgcolor="#e1e1e1"></td>
+                        </tr>
+                        <!-- Footer //-->
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]></td></tr></table><![endif]-->
+                </td>
+            </tr>
+        </table>
+    
+<div style="display:none;"><img src="http://imail3.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=12064&seqidx=57295&service=23&dmidx=0&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail3.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=12064&seqidx=57295&service=23&dmidx=0&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+</html>
+
+

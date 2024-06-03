@@ -1,0 +1,300 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1697506425;
+	cv=none; b=SO/Ec7/KMDnWKpPEnnREu/lkjBAwertVydqyMY/6ZDhHhj2DcIufCvGELX0E
+	 A2Nx+YC3qK8nYWMFCYXBU1cZtochLbj+2RRS5O+EOf5E6oKimhKixnGa27iYRyBLzwiGsR
+	 kV3yc/p5sKxy8w5si51D3zv0rROzlOodQOrMyE92dau1x57t3aPRsn3ld7YzEAwiGE/xG3
+	 S7kQZ4fKnMKbKZEbqjgaDLMRBu9BBukhgkF/KQ4sPqdjsURsgdRwZNXwhBIdqL+ZX+TG5Q
+	 HWudZUo/UJC535oueFXyCUBLEsPtfs2QOk0vCYSuUOzHAeExzlmeDxKMMuPWMlFtVFqbQ9
+	 9A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1697506425; c=relaxed/relaxed;
+	bh=489WWE9EQ7Fwj4TZYSin0bA7CaIGwZAxPVNLG46wyHg=;
+	h=message-id:from:to:subject:date; b=DMexkCWzI5ZBZKs4LklfbJDLqHVL0hoxv8
+	 oYB1ZOOP9roQgrVImLVySLXbA84FejMvq8c6Js1tXenllOmHHC7ocG+XAvmOHCCfssalyN
+	 4TOCCJImIPJIr4robXO5s0qSvj+6O49vJ3s9f5yiQFokheEUF5nUjyxdMHGLyIsNHBm+lu
+	 7bOYSnjMT0MhS9zg3oJQi3TPjOFQa0JsIEF2WVtdtu8hYoYI1dW4W89T8OGVAKZ7j3a7/O
+	 HqajmXzLdH1OzyiWIB50meSPB5jpjTP7V7jvNn73U7tyHbZfZ99yoBIaRJPcnAv8d9ATx6
+	 9/SV1wvIJFvbq+dXPHuj524Yvb4Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=retrun@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+Return-Path: <retrun@email2.citibank.co.kr>
+Received-SPF: pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender)
+  client-ip=192.193.83.185; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=retrun@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+X-Naver-ESV: wmRn+6J4p63CbHmqKBwdbXFYKAuqKqt9jJ+Y
+X-Session-IP: 192.193.83.185
+Received: from citibank.co.kr (email2.citibank.co.kr [192.193.83.185])
+  by crcvmail302.nm.naver.com with ESMTP id +mmk40X+QbKKZMKiMtnhJA
+  for <1059230@naver.com>;
+  Tue, 17 Oct 2023 01:33:45 -0000
+Message-ID: <1697504505583.2619549@krigcgemlla26pv.apac.nsroot.net>
+From: "=?EUC-KR?B?x9Gxub6+xrzAusfg?=" <citicenter@email2.citibank.co.kr>
+To: "=?EUC-KR?B?udrA57y6?=" <1059230@naver.com>
+Subject: =?EUC-KR?B?R28hR28hIMS3xuTAzg==?=
+Date: Tue, 17 Oct 2023 10:01:45 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000010225
+X-MNWISE-RESULT_SEQ: 1697504420870006
+X-MNWISE-USER_ID: des64oSReypgH84CUURTsK72dsw==
+X-MNWISE-LIST_SEQ: 0000249028
+X-MNWISE-RECORD_SEQ: 0
+X-MNWISE-CLIENT_TYPE: em
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">KB국민은행 제휴 기념 Go! Go! 캠페인!</div>
+<center> 
+<table class="container" style=" border: 1px solid #cccccc;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px;  max-width:0px; opacity:0; overflow:hidden;"></td>
+</tr>
+<tr>
+<td>
+<table class="container" style="max-width:642px;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td>
+<table style="background-color: #ffffff; width: 100%;" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<!--// 헤드 --> 
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" width="10" style="display:block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img alt="Citi" title="Citi" border="0" src="https://www.citibank.co.kr/download/cms/email/edm_logo_citi.png" width="35" height="20" style="width: 35px; height: 20px; display: block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 헤드 //--> <!--// 타이틀 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_top.jpg" alt="KB국민은행 제휴 기념 Go! Go! 캠페인!" style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<!-- 타이틀 //--> <!--// 내용 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_01.jpg" alt="미사용 입출금 계좌는 해지 하고(Go!) 갤럭시Z플립5 행운도 잡고(Go!)&#10;&#9;&#9;방카슈랑스 계약 관리 이전 신청하고(Go!) 스탠바이미 Go!&#10;&#9;&#9;&#10;&#9;&#9;캠페인 기간* :: 2023.10.17(화) ~2023.11.30(목)&#10;&#9;&#9;대상 : 한국씨티은행 상품 보유 고객&#10;&#9;&#9;&#10;&#9;&#9;캠페인 Go!&#10;&#9;&#9;내용 : 캠페인 기간 동안 보유한 금융상품에 대해 미션 성공시마다 선물증정&#10;&#9;&#9;&#10;&#9;&#9;미션 1 : 미사용 입출금 계좌 해지 (외화 입출금 계좌 포함)&#10;&#9;&#9;미션 2 : 방카슈랑스 계약 관리 이전 신청 (한국씨티은행에서 KB국민은행으로 이전) &#10;&#9;&#9;&#10;&#9;&#9;선물 : 스타벅스 아메리카노 Tall 사이즈 모바일 쿠폰&#10;&#9;&#9;      미션별 1잔, 최대 2잔 증정 (선착순 2만명) &#10;&#9;&#9;예시1) 입출금 계좌 해지 2개  = 스타벅스 아메리카노 1잔 (+이미지)&#10;&#9;&#9;예시2) 입출금 계좌 해지 1개 + 방카슈랑스 계약 관리 이전 3개 = 스타벅스 아메리카노 2잔 (+이미지)&#10;&#9;&#9;&#10;&#9;&#9;캠페인 Go Plus&#10;&#9;&#9;내용 : 캠페인 기간 동안 조건 중 하나만 충족해도 추첨을 통해 경품증정&#10;&#9;&#9;조건1: 캠페인 Go 미션 1개 이상 성공&#10;&#9;&#9;조건2: 체크카드 해지 (만기월 해지 제외)&#10;&#9;&#9;&#10;&#9;&#9;경품:&#10;&#9;&#9;1등 갤럭시Z플립5 256GB SM-F731 256GB 10명&#10;&#9;&#9;2등 스탠바이미Go고 27LX5QKNA 15명&#10;&#9;&#9;3등 아이패드 에어 64GB iPad Air 10.9 Wi-Fi  20명&#10;&#9;&#9;4등 골드바 1돈 (3.75g) 50명&#10;&#9;&#9;5등 신세계모바일 상품권 5만원권 1,000명&#10;&#9;&#9;&#10;&#9;&#9;*지급 및 당첨자 발표 : 22023년 12월 13일 (수) 이후&#10;&#9;&#9;※한국씨티은행 홈페이지 이벤트 결과 보기 페이지에서 확인" border="0" style="display:block;" /></td>
+</tr>
+<!-- 내용 //--> <!--// 뉴풋터 배너 --> 
+<tr>
+<td align="right">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="right" valign="top" id="mob-image-footer" style="background-color: #eee;"><img width="373" src="https://www.citibank.co.kr/download/cms/email/edm_bluebox_web_2x_new.png" border="0" style="width: 373px; display: block;" /></td>
+</tr>
+<tr>
+<td align="right" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img height="10" width="10" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" border="0" style="display:block; border-style: none;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 뉴풋터 배너 //--> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_02.jpg" alt="잠깐!" border="0" style="display:block;" /></td>
+</tr>
+<tr>
+<td><a href="https://obank.kbstar.com/quics?page=C110274" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_btn_01.jpg" alt="KB국민은행 제휴 혜택 지금 확인하기>>" border="0" style="display: block;" /></a></td>
+</tr>
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_03.jpg" alt="[상품해지 유의사항]&#10;&#9;&#9;&middot; 상품해지 및 금융상품 이동시 아래의 유의사항을 반드시 확인해 주시기 바랍니다. &#10;&#9;&#9;&middot; 상품을 해지한 경우, 신규 가입은 불가합니다." border="0" style="display:block;" /></td>
+</tr>
+<tr>
+<td><a href="https://www.citibank.co.kr/PbnEvntCnts0101.act?IDX=326783" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_btn_02.jpg" alt="입출금계좌 해지, 체크카드 해지 및 방카슈량랑스 이전 신청 유의사항 보기 >>" border="0" style="display: block;" /></a></td>
+</tr>
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202310/edm_231012_gogo_campaign_04.jpg" alt="[캠페인 유의사항]&#10;&#9;&#9;&middot; 해지 또는 보험상품 계약이전은 행사 기간 중 신청 기준입니다.&#10;&#9;&#9;&middot; 본 캠페인은 당행의 사정에 따라 사전 통보없이 변경 또는 중단될 수 있습니다.&#10;&#9;&#9;&middot; 캠페인 Go! 에서 제공해드리는 스타벅스 아메리카노는 캠페인 기간 동안 미션 달성시 선착순 2만명, 미션별 1잔 최대 2잔까지 수령 가능합니다&#10;&#9;&#9;&middot; 스타벅스 아메리카노 쿠폰과, 신세계 모바일 상품권은 당행에 등록된 본인명의 휴대폰번호로 발송되며, 유효기간 연장이 불가하므로 유효기간내 꼭 사용하시기 바랍니다. &#10;&#9;&#9;&middot; 캠페인 Go! 선물과 캠페인 Go Plus의 경품은 중복 지급 가능합니다.&#10;&#9;&#9;&middot; 선물과 경품은 캠페인 최종결과 확인 후 지급합니다.&#10;&#9;&#9;&middot; 경품은 명의 변경, 재발송, 교환 및 환급이 불가합니다.&#10;&#9;&#9;&middot; 경품의 색상은 랜덤으로 발송되며 동일 가액의 다른 경품으로 변경될 수 있습니다.&#10;&#9;&#9;&middot; 1등~4등 경품에 당첨된 고객님께서는 별도의 연락을 드려 해당 경품을 제공해드리며 경품 발송을 위해 당첨자의 개인정보(이름, 연락처등)가 제3자 (경품 발송 대행업체)에게 제공될 예정입니다.&#10;&#9;&#9;&middot; 제세공과금은 은행 부담이며, 기타소득금액은 경품금액과 은행이 부담한 제세공과금을 합산한 금액입니다.   &#10;&#9;&#9;&middot; 동 경품 가액을 포함한 기타소득금액이 300만원을 초과하는 경우, 종합소득신고시 종합소득 과세표준에 합산해야 합니다. &#10;&#9;&#9;&middot; 금융상품에 관한 계약을 체결하기 전에 반드시 금융상품 설명서 및 약관을 읽어 볼 것을 안내 드립니다.&#10;&#9;&#9;&middot; 금융소비자 금융상품 판매업자(한국씨티은행)으로부터 충분한 설명을 받을 권리가 있으며 그 설명을 이해한 후 거래할 것을 안내 드립니다.&#10;&#9;&#9;&middot; 한국씨티은행에 보유하고 계신 상품(유효기간이 있는 상품의 경우 유효기간까지)은 기존과 동일하게 이용 가능합니다.&#10;&#9;&#9;&middot; 본 광고는 법령 및 당행 내부통제기준에 따른 광고 관련 절차를 준수하여 제공됩니다.&#10;&#9;&#9;준법감시인 심의필 2310-05-045 (2023.10.05 - 2023.12.31)" border="0" style="display:block;" /></td>
+</tr>
+<!-- Security 배너 --> 
+<tr>
+<td>
+<table style="background-color:#f1f1f1;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 104px;"></col> <col style="width: 1px;"></col> <col style="width: 20px;"></col> <col style="width: *;"></col> <col style="width: 25px;"></col> </colgroup> 
+<tbody>
+<tr>
+<td colspan="5" height="40"></td>
+</tr>
+<tr>
+<td align="center"><img src="https://www.citibank.co.kr/download/cms/email/edm_security.png" border="0" width="34" height="37" style="width: 34px; height: 37px; display: block;" /></td>
+<td style="background-color:#979797;"></td>
+<td></td>
+<td>
+<table style="font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; font-size:15px; line-height:22px; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 20px;"></col> <col style="width: *;"></col> </colgroup> 
+<tbody>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top" align="left">한국씨티은행은 전화나 이메일을 통해 고객님의 개인 또는 계좌 정보를 묻지 않습니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top" align="left">계좌/카드 비밀번호, 로그인 패스워드, PIN 번호 등 금융정보는 스마트폰이나 인터넷(E-Mail함, 웹하드 등)에 저장하지 마시고 절대 다른 사람과 공유하지 마시기 바랍니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top" align="left">고객님의 거래관련 발송해드린 문자(SMS)와 알림은 항상 확인 부탁드리며, 의심스러운 거래는 당행으로 바로 알려주시기 바랍니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td></td>
+</tr>
+<tr>
+<td colspan="5" height="35"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!--// Security 배너 --> 
+<tr>
+<td align="left" valign="top" bgcolor="#f2f2f2">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<!-- Section 1 --> <!-- Template Body --> <!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td height="1" style="background:#ccc;"></td>
+</tr>
+<!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">본 메일은 발신전용으로 {2023.10.16} 기준으로 이메일 정보수신에 동의하신 고객 님께 발송되었습니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">한국씨티은행은 고객 여러분의 개인정보 보호를 위해, 이메일을 통하여 계좌번호, 비밀번호, 보유잔액, 카드번호, 신용카드 CVC번호 등의 개인정보를 확인하지 않습니다. 의심스러운 이메일을 받으신 경우 응답하지 마시고, 대표번호(<a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a>)로 연락주시기 바랍니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">추가되는 질문은 한국씨티은행 홈페이지의 고객센터를 통하여 남겨주시기 바라며,<br />회신을 통한 문의는 받지 않고 있습니다. 다음부터 이메일 수신을 원하시지 않으시면 <a href="https://www.citibank.co.kr/AdsElecEmal0100.act?LINK=160264801&EMAIL=1059230@naver.com" target="_blank" style="font-size: 12px; font-family: arial; color: #ea0000; text-decoration: none;">CLICK</a> 하세요.</span></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">(If you don't want to receive e-mail from Citibank Korea Inc. Please <a href="https://www.citibank.co.kr/AdsElecEmal0100.act?LINK=160264801&EMAIL=1059230@naver.com" target="_blank" style="font-size: 12px; font-family: arial; color: #ea0000; text-decoration: none;">CLICK</a> here.)</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">(주)한국씨티은행<span style="color:#aaa;">&nbsp;|&nbsp;</span>대표자: 유명순<span style="color:#aaa;">&nbsp;|&nbsp;</span>주소: 서울특별시 종로구 새문안로 50(신문로2가)<span style="color:#aaa;">&nbsp;|&nbsp;</span><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">대표전화: <a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a></span></span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">&copy;2023 Citigroup Inc<span style="margin:0 8px; color:#aaa;">|</span><a href="https://www.citibank.co.kr/CusIvinCnts0100.act" style="text-decoration:none; color:#007ad0;" target="_blank">Privacy</a><span style="margin:0 8px; color:#aaa;">|</span><a href="https://www.citibank.co.kr/ComStplCnts0100p.act" style="text-decoration:none; color:#007ad0;" target="_blank">Terms & Conditions</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<!-- Section 1 -->
+</tbody>
+</table>
+</td>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br><IMG width=0 height=0 src='http://email.goodbank.com:9000/servlet/ReceiveConfirmEM?SEND_MODE=R&RESULT_SEQ=1697504420870006&CAMPAIGN_NO=000000000010225&START_DATE=20231017000000&END_DATE=20231024235900&LIST_SEQ=0000249028&RECORD_SEQ=0&CUSTOMER_ID=des64oSReypgH84CUURTsK72dsw=='>
+</body>
+</html>

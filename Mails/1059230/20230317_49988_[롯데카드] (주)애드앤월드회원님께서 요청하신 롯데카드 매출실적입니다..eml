@@ -1,0 +1,330 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1679018519;
+	cv=none; b=YF/VdSD1Fv2QQBvP5JTl3C7U2XcdI8q18y1zSXe2kWrunwwdhVXvDgsab+SQ
+	 XdFMM7WV8N5Ze+wjzChcBWOAxubONmaQwg2l6HJJ5alQ3uHrOGElilKiUUDcg9yU3s7O9A
+	 Al4hzrJ2fOVkef8lQ/RSMxJjOE3biN857ZTEwRlAD6VD4gnnR5Fbupu6Br2w9/feYcYhf8
+	 tDmEoH4ZMwJ7WwVhM0dYq66eQj1HavVfcLmWqVaqOybCkz9gz3HuKI4Bg5wOMu/aTUuBBJ
+	 SWtrBW6SFIY3HOZvEoOj1ISn4Ejq6GoFBazpzVjPS1OuhYXKjru1lrvXccrh92TRtI1unG
+	 bw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1679018519; c=relaxed/relaxed;
+	bh=sefRIlShN9CCdWxLIbZPGr8ZwrD2K2SFP9T2oMm9lAA=;
+	h=from:to:subject:date; b=JofaCXpIQ9sJL0aoY2Gsku3m9eXEGdrAcq0HzI0Xcl95C
+	 E5O2BJhQl5j0qm7BY3JbC4aEBeLFHj00J8/C+S4HgpngiVnOis5tIjuiF0lClC6XDSvyIO
+	 jDoB13HUrMZpUDdBN3SIhyPLsCbUPXZqo3cWucV0obm/tzI7MkdSdTrLgucMunAnZuqqsd
+	 PS12X2wPSc7v1BweNHbUd7RWWpb+LgKECATvg/q7oVdpTZI27OwZ3mX4SJNysHAhNgOC9g
+	 fFOV/XR4vgNjZElsKVPAys0NVvxmufInGGRIQVTi6AaLRpDmQfMjZyHqfXTdNK4Qhqhujp
+	 yau1sE0dfM4c4XKrg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@lottecardmailcenter.net designates 124.243.36.223 as permitted sender) smtp.mailfrom=return@lottecardmailcenter.net
+Return-Path: <return@lottecardmailcenter.net>
+Received-SPF: pass (mx.naver.com: domain of return@lottecardmailcenter.net designates 124.243.36.223 as permitted sender)
+  client-ip=124.243.36.223; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@lottecardmailcenter.net designates 124.243.36.223 as permitted sender) smtp.mailfrom=return@lottecardmailcenter.net
+X-Naver-ESV: wden+6J4p63qMBIYFHwdbXmmKogwFx0YkXm=
+X-Session-IP: 124.243.36.223
+Message-ID: <1679018519516.7f1b8.14495135@crcvmail106.nm>
+Received: from ums01.lottecardmailcenter.net (ums01.lottecardmailcenter.net [124.243.36.223])
+  by crcvmail106.nm.naver.com with ESMTP id 8YJYIKdzSGejtLk8PdisxQ
+  for <1059230@naver.com>;
+  Fri, 17 Mar 2023 02:01:59 -0000
+From: "=?utf-8?B?66Gv642w7Lm065Oc?=" <mailmaster@lottecardmailcenter.net>
+To: "=?utf-8?B?KOyjvCnslaDrk5zslaTsm5Trk5w=?=" <1059230@naver.com>
+Reply-to: <mailmaster@lottecardmailcenter.net>
+Subject: =?utf-8?B?W+uhr+uNsOy5tOuTnF0gKOyjvCnslaDrk5zslaTsm5Trk5w=?=
+ =?utf-8?B?7ZqM7JuQ64uY6ruY7IScIOyalOyyre2VmOyLoCDroa/rjbDsubTrk5w=?=
+ =?utf-8?B?IOunpOy2nOyLpOyggeyeheuLiOuLpC4=?=
+Date: Fri, 17 Mar 2023 11:01:59 +0900
+X-WORKER_ID: <single.core.sender_Worker_16>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1>
+X-MEMBER_ID: <TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="_nextpart_2023.03.17.11.01.59.1679018519335"
+
+This is a multi-part message in MIME format.
+
+
+--_nextpart_2023.03.17.11.01.59.1679018519335
+Message-ID: <202303171101594628_TMS@humuson.com>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, viewport-fit=cover, user-scalable=no">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>이용내역서</title>
+</head>
+<body style="padding:0;margin:0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="center">
+<table cellspacing="0" cellpadding="0" border="0" style="max-width:720px;width:100%;">
+<tbody>
+<tr>
+<td style="padding:40px 40px 0;">
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+<tbody>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-bottom:40px;border-bottom:1px solid #d3d3d3">
+<tbody>
+<tr>
+<td align="left" width="20%">
+<a href="https://lcpush.lottecard.co.kr/tms-msg-api/tracking?TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0&U1RZUEU9QVVUTw==&p_id=20230317_1718535&m_id=20007665643_7316254&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1&U0VSVkVSX0lEPTAz&VEM9MjAyMzAzMjQ=&S0lORD1D&Q0lEPTAwMQ==&c_id=001&msg_type=111&msg_type_seq=10166007&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.lottecard.co.kr/" target="_blank" title="새창열림">
+<img src="http://image.lottecard.co.kr/webapp/v2/web/edm/images/img-logo.png" border="0"  alt="LOCA" width="48" alt="">
+</a>
+</td>
+<td align="right" width="80%">
+<p style="padding:0;margin:0">
+<img src="http://image.lottecard.co.kr/webapp/v2/web/edm/images/graphic-lavidaloca.png" border="0"  alt="La Vida LOCA" width="104">
+<img src="http://image.lottecard.co.kr/webapp/v2/web/edm/images/invalid-name.png" border="0"  alt="슬기로운 카드생활" width="101">
+</p>
+<p style="padding:0;margin:7px 0 0">
+<img src="http://image.lottecard.co.kr/webapp/v2/web/edm/images/lotte-card.png" border="0"  alt="롯데카드" width="69">
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:60px 0">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color:#222;font-size:36px;line-height:46px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif'; word-break: keep-all;letter-spacing:-1.5px;">
+<strong style="font-weight:bold;">이용내역서</strong> <span>안내</span>
+</td>
+</tr>
+<tr>
+<td style="padding-top:60px;">
+<p style="color:#544944;line-height:24px;font-size:22px;font-weight:bold;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';margin:0;letter-spacing:-.5px;">
+(주)애드앤월드 회원님
+</p>
+<P style="color:#222;line-height:28px;font-size:18px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';margin:10px 0 0;letter-spacing:-.5px;">
+요청하신 롯데카드 이용내역서를 보내드립니다.
+</P>
+</td>
+</tr>
+<tr>
+<td style="padding-top:60px;padding-bottom:20px;">
+<p style="line-height:28px;font-size:18px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;margin:0;">
+회원명 : (주)애드앤월드
+</p>
+<p style="line-height:28px;font-size:18px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;margin:0;">
+기준일 : 2023년 03월 17일
+</p>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:30px;">
+<div align="center" style="border:1px solid #ddd;font-size:16px;line-height:22px;padding:42px 26px;border-radius:10px;">
+이메일 상단 또는 하단의 <strong style="color:#544944;font-weight:bold;">첨부파일</strong>을 열어주세요.
+</div>
+</td>
+</tr>
+<tr>
+<td align="center" style="padding:30px 0 100px;">
+<a href="https://lcpush.lottecard.co.kr/tms-msg-api/tracking?TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0&U1RZUEU9QVVUTw==&p_id=20230317_1718535&m_id=20007665643_7316254&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1&U0VSVkVSX0lEPTAz&VEM9MjAyMzAzMjQ=&S0lORD1D&Q0lEPTAwMg==&c_id=002&msg_type=111&msg_type_seq=10166007&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.lottecard.co.kr/app/LPMCDBE_V100.lc" itle="새창으로 열림" target="_blank" style="width:280px;text-decoration:none;padding:18px 0;line-height:24px;display:inline-block;max-height:60px;border-radius:10px;background-color:#544944;color:#fff;font-size:18px;font-weight:bold;border:0;">
+이용내역 바로가기
+</a>
+</td>
+</tr>
+<tr>
+<td style="background-color:#fcfaf9;padding:20px 26px;border-radius:10px;">
+<h4 style="padding:0;margin:0 0 9px;font-size:16px;line-height:22px;font-weight:bold;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">반드시 확인하세요.</h4>
+<table cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td width="15" style="font-size:16px;padding:0 0 8px;vertical-align:top;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">-</td>
+<td style="font-size:16px;padding:0 0 8px;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">
+이용내역은 승인금액이 아닌 실제 납부금액 및 납부예정금액을 의미합니다.
+</td>
+</tr>
+<tr>
+<td width="15" style="font-size:16px;padding:0 0 8px;vertical-align:top;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">-</td>
+<td style="font-size:16px;padding:0 0 8px;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">
+이용내역은 회원님의 국내 일시불, 할부 이용내역입니다.(금융서비스 제외)
+</td>
+</tr>
+<tr>
+<td width="15" style="font-size:16px;padding:0 0 8px;vertical-align:top;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">-</td>
+<td style="font-size:16px;padding:0 0 8px;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">
+첨부한 엑셀파일을 통해 이용내역 조회, 인쇄, 다운로드 할 수 있습니다.
+</td>
+</tr>
+<tr>
+<td width="15" style="font-size:16px;padding:0 0 8px;vertical-align:top;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">-</td>
+<td style="font-size:16px;padding:0 0 8px;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">
+엑셀파일을 지원하는 환경에서만 이용내역을 확인할 수 있습니다.
+</td>
+</tr>
+<tr>
+<td width="15" style="font-size:16px;padding:0 0 8px;vertical-align:top;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">-</td>
+<td style="font-size:16px;padding:0 0 8px;line-height:22px;color:#222;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.5px;">
+더 자세한 내용은 롯데카드 고객센터(1588-8100)로 문의하시기 바랍니다.
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="background-color:#f1f1f1;padding:30px 40px 40px;text-align:left;">
+<table width="100%" cellpadding="0" cellsapcing="0" border="0">
+<colgroup>
+<col style="width:100%">
+</colgroup>
+<tbody>
+<tr>
+<td style="padding-bottom:30px;border-bottom:1px solid #cfcfcf;">
+<p style="color:#222;line-height:22px;font-size:16px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.6px;margin:0;">
+본 메일은 발신전용 메일입니다.<br>
+발신 주소로 회신 시 내용을 확인할 수 없으니, 관련 문의는 <strong>
+<a href="https://lcpush.lottecard.co.kr/tms-msg-api/tracking?TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0&U1RZUEU9QVVUTw==&p_id=20230317_1718535&m_id=20007665643_7316254&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1&U0VSVkVSX0lEPTAz&VEM9MjAyMzAzMjQ=&S0lORD1D&Q0lEPTAwMw==&c_id=003&msg_type=111&msg_type_seq=10166007&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.lottecard.co.kr/app/LPCSTAA_V100.lc?utm_medium=crm&utm_source=email&utm_campaign=qna" title="새창으로 열림" target="_blank" style="text-decoration:none;color:#222;line-height:22px;font-size:16px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.6px;">고객센터</a></strong>로 연락하시기 바랍니다.
+</p>
+<p style="color:#222;line-height:22px;font-size:16px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';margin:20px 0 0;letter-spacing:-.5px;">롯데카드 고객센터 <strong>1588-8100</strong></p>
+</td>
+</tr>
+<tr>
+<td style="padding-top:30px;">
+<p style="color:#222;line-height:22px;font-size:16px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.6px;margin:0;">
+롯데카드(<a href="mailto:email_center@lottecard.co.kr" style="text-decoration:none;color:#222;line-height:22px;font-size:16px;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';letter-spacing:-.6px;margin:0;">email_center@lottecard.co.kr</a>)<br>
+서울시 종로구 새문안로 76 롯데카드(주) | 사업자번호 120-81-54231
+</p>
+<p style="padding:10px 0 20px;color:#6d6d6d;font-size:14px;line-height:22px;margin:0;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">Copyright LOTTECARD CO.,LTD. All Rights Reserved.</p>
+<p style="margin:0;padding:0;">
+<a href="https://lcpush.lottecard.co.kr/tms-msg-api/tracking?TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0&U1RZUEU9QVVUTw==&p_id=20230317_1718535&m_id=20007665643_7316254&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1&U0VSVkVSX0lEPTAz&VEM9MjAyMzAzMjQ=&S0lORD1D&Q0lEPTAwNQ==&c_id=005&msg_type=111&msg_type_seq=10166007&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.lottecard.co.kr/app/LPMAIAA_V100.lc?utm_medium=crm&utm_source=email&utm_campaign=bottommain" title="새창으로 열림" target="_blank" style="letter-spacing:-.5px;color:#222;line-height:22px;font-size:16px;font-weight:bold;text-decoration:none;font-family:'malgun gothic','dotum','Apple SD Gothic Neo','arial','sans-serif';">
+https://www.lottecard.co.kr
+</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</table>
+<script>
+//전체인쇄 S
+function printBtn(){window.document.close();window.print();}
+</script>
+<div style="display:none"><IMG width=0 height=0 src="https://lcpush.lottecard.co.kr/tms-msg-api/tracking?TV9JRD0yMDAwNzY2NTY0M183MzE2MjU0&U1RZUEU9QVVUTw==&p_id=20230317_1718535&m_id=20007665643_7316254&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDMxN18xNzE4NTM1&U0VSVkVSX0lEPTAz&VEM9MjAyMzAzMjQ=&S0lORD1P"></div></body>
+</html>
+
+
+--_nextpart_2023.03.17.11.01.59.1679018519335
+Message-ID: <202303171101594227_TMS@humuson.com>
+Content-Type: application/octet-stream;
+	name="=?UTF-8?B?MjAyMzAzMTcwMDEzMS54bHM=?="
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+	filename="=?UTF-8?B?MjAyMzAzMTcwMDEzMS54bHM=?="
+
+0M8R4KGxGuEAAAAAAAAAAAAAAAAAAAAAOwADAP7/CQAGAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA
+EAAABgAAAAEAAAD+////AAAAAAcAAAD/////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////9S
+AG8AbwB0ACAARQBuAHQAcgB5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAFgAFAf//////////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAEAAAAACQAAAAAAAFcAbwByAGsAYgBvAG8AawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAASAAIB////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAOkIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAD///////////////8AAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+AgBkAA8AAgABABEAAgAAABAACAD8qfHSTWJQP18AAgABACoAAgAAACsAAgAAAIIAAgABAIAACAAA
+AAAAAAAAACUCBAAAAP8AgQACAMEEFAAAABUAAACDAAIAAACEAAIAAAChACIAAQBkAAEAAQABAAIA
+LAEsAQAAAAAAAOA/AAAAAAAA4D8BAFUAAgAIAH0ADAAAAAAALBEPAAIAAgB9AAwAAQABABoKDwAC
+AAIAfQAMAAIAAgD+Cw8AAgACAH0ADAADAAMA6goPAAIAAgB9AAwABAAEAJMWDwACAAIAfQAMAAUA
+BQD8Aw8AAgACAH0ADAAGAAYA5QgPAAIAAgAAAg4AAAAAAAIAAAAAAAcAAAAIAhAAAAAAAAcA/wAA
+AAAAAAEPAAgCEAABAAAABwD/AAAAAAAAAQ8A/QAKAAAAAAAVAAAAAAD9AAoAAAABABUAAQAAAP0A
+CgAAAAIAFQACAAAA/QAKAAAAAwAVAAMAAAD9AAoAAAAEABUABAAAAP0ACgAAAAUAFQAFAAAA/QAK
+AAAABgAVAAYAAAD9AAoAAQAAABYABwAAAP0ACgABAAEAFgAIAAAA/QAKAAEAAgAWAAkAAAD9AAoA
+AQADABYACgAAAP0ACgABAAQAFgALAAAA/QAKAAEABQAWAAwAAAADAg4AAQAGABcAAAAAAOEvQkHX
+AAgA8AAAABQAYgA+AhIAtgYAAAAAQAAAAAAAAAAAAAAAHQAPAAMAAAAAAAABAAAAAAAAAAoAAAD/
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////8BAAAAAgAA
+AAMAAAAEAAAABQAAAAYAAAAHAAAACAAAAAkAAAAKAAAACwAAAAwAAAANAAAADgAAAA8AAAAQAAAA
+EQAAABIAAAATAAAAFAAAABUAAAAWAAAAFwAAABgAAAAZAAAAGgAAABsAAAAcAAAAHQAAAB4AAAAf
+AAAAIAAAACEAAAAiAAAAIwAAAP7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////7///8CAAAA
+AwAAAAQAAAAFAAAA/v////7////+////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+
+--_nextpart_2023.03.17.11.01.59.1679018519335--
+

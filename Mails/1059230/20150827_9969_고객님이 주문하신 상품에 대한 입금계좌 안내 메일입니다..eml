@@ -1,0 +1,212 @@
+Received: (qmail 9535 invoked from network); 27 Aug 2015 14:05:02 -0000
+Received: from 10.114.49.206 (HELO crcvmail16-1.nm.naver.com) (10.114.49.206)
+  by cmda24-2.nm.naver.com with SMTP; 27 Aug 2015 14:05:02 -0000
+Received: from umout03.unitel.co.kr ([27.102.212.207])
+  by crcvmail16-1.nm.naver.com with ESMTP id WWTXwF3uRCSyWc0LvcK2oA
+  for <1059230@naver.com>;
+  Thu, 27 Aug 2015 14:05:02 -0000
+Received: from [27.102.213.204] ([27.102.213.204]) 
+          by umout03.unitel.co.kr ([27.102.212.207]) 
+          with ESMTP id 1440684280.637687.3049257872.umout03
+          for <1059230@naver.com>; 
+          Thu, 27 Aug 2015 23:04:40 +0900 (KST) 
+from: 다우페이 메일 발송관리자 <no-reply@daoupay.com>
+TO: <1059230@naver.com>
+Date:Thu, 27 Aug 2015 23:05:00 +0900
+Subject: 고객님이 주문하신 상품에 대한 입금계좌 안내 메일입니다.
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+MIME-Version: 1.0
+Content-Type: text/html; charset=euc-kr
+X-TERRACE-SUPERWHITEIP: Relay_IP_2014
+X-TERRACE-SID: 1440684280.637687.3049257872.umout03
+X-TERRACE-CLASSID: Terrace Spam system                                      
+X-Naver-ESV: +QFYpB3G1H+4+zpTbXmRM60njAudKAEmKNwBjg==
+
+<html>
+<head>
+<link rel=stylesheet href=http://www.daoupay.com/css/pay_style.css>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<title>입금계좌안내</title>
+</head>
+<body leftmargin="0" topmargin="0" >
+  <table cellpadding="0" cellspacing="0" border="0" align="center" width=650>
+    <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_topimg_01.gif" width=24 height=26></td>
+	  <td width=602 height=26  background="http://www.daoupay.com/pay_letter/images/e_topimg_02.gif" ></td>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_topimg_03.gif" width=24 height=26></td>
+	</tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" border="0" align="center" width=650>
+    <tr>
+	  <td width=24></td>
+	  <td><img src="http://www.daoupay.com/pay_letter/images/e_top_tx_01.gif"></td>
+	  <td width=330></td>
+	  <td><img src="http://www.daoupay.com/pay_letter/images/e_top_tx_02.gif"></td>
+	  <td width=24></td>
+	</tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" border="0" align="center" width=650>
+    <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_box_top.gif" width=650 height=10></td>
+    </tr>
+	 <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_box_middle.gif" width=650>
+	    <table cellpadding="0" cellspacing="0" border="0">
+		  <tr>
+		    <td style="padding-left:33px;"><img src="http://www.daoupay.com/pay_letter/images/e_img_account.gif" ></td>
+		  </tr>
+		</table>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_box_middle.gif" width=650 align="center">
+	    <table cellpadding="0" cellspacing="0" border="0" align="center" width="584">
+		  <tr>
+		    <td width=584 class="tb_line01"></td>
+		  </tr>
+		  <tr>
+		    <td height=31></td>
+		  </tr>
+		  <tr>
+		    <td align="left"><img src="http://www.daoupay.com/pay_letter/images/e_txt_deposit.gif"></td>
+		  </tr>
+		  <tr>
+		    <td>
+			  <table cellpadding="0" cellspacing="0" border="0" width=542 align="center">
+			    <tr>
+				  <td height=2 bgcolor="#5bb342" colspan="2"></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">결제수단</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line03" >가상계좌</span></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">발급일시</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line03">2015년 08월 27일 23시 02분</span></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">결제대상금액</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line04">29,370원</span></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26s align="left"><span class="txt_p_line03">입금은행</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line03">국민은행</span></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26s align="left"><span class="txt_p_line03">입금 계좌번호</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line03">024890-13-367843</span></td>
+				</tr>
+				<tr>
+				  <td class="p_line_gray01" width=125 height=26s align="left"><span class="txt_p_line03">입금기한</span></td>
+				  <td class="p_line_gray02" height=20 align="left"><span class="txt_p_line03">2015년 09월 03일 23시 59분</span></td>
+				</tr>
+				<tr>
+				 <td height=30 colspan="2"></td>
+				</tr>
+			  </table>
+	      <tr>
+		    <td align="left"><img src="http://www.daoupay.com/pay_letter/images/e_txt_02.gif"></td>
+		  </tr>
+		  <tr>
+		    <td>
+			  <table cellpadding="0" cellspacing="0" border="0" width=542 align="center">
+				<tr>
+				 <td colspan="2"><table cellpadding="0" cellspacing="0" border="0" width=542 align="center">
+                   <tr>
+                     <td height=2 bgcolor="#5bb342" colspan="2"></td>
+                   </tr>
+                   <tr>
+                     <td class="p_line_gray01" width=125 height=26  align="left"><span class="txt_p_line03">상점명</span></td>
+                     <td class="p_line_gray02"  width=414 height=26 align="left"><span class="txt_p_line03">주식회사 탑코믹스</span></td>
+                   </tr>
+                   <tr>
+                     <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">주문자명</span></td>
+                     <td class="p_line_gray02" width=414 height=26 align="left"><span class="txt_p_line03">nv:1059230@naver.com</span></td>
+                   </tr>
+                   <tr>
+                     <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">주문상품</span></td>
+                     <td class="p_line_gray02" width=414 height=26 align="left"><span class="txt_p_line03">TOPTOON.244</span></td>
+                   </tr>
+                   <tr>
+                     <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">상점 홈페이지</span></td>
+                     <td class="p_line_gray02" width=414 height=26 align="left"><span class="txt_p_line03"><a href="#" target="_blank">http://toptoon.com</a></span></td>
+                   </tr>
+                   <tr>
+                     <td class="p_line_gray01" width=125 height=26 align="left"><span class="txt_p_line03">연락처</span></td>
+                     <td class="p_line_gray02" width=414 height=26 align="left"><span class="txt_p_line03"><a href="#" target="_blank">1644-1531</a></span></td>
+                   </tr>
+                 </table></td>
+				</tr>
+				<tr>
+				 <td height=12 colspan="2"></td>
+				</tr>
+				<tr>
+				 <td height=20 colspan="2" align="left"><img src="http://www.daoupay.com/pay_letter/images/p_bul_02.gif"> 이 메일은 결제완료메일이 아니라 <span class="txt_p_green01">입금계좌발급안내</span>메일입니다.</td>
+				</tr>
+				<tr>
+				 <td height=20 colspan="2" align="left"><img src="http://www.daoupay.com/pay_letter/images/p_bul_02.gif"> 본 메일은 발신전용으로 회신되지 않습니다.</td>
+				</tr>
+				<tr>
+				 <td height=20 colspan="2"></td>
+				</tr>
+				<tr align="center">
+				 <td colspan="2"><a href="#"><img src="http://www.daoupay.com/pay_letter/images/e_bt_01.gif" border="0"></a></td>
+				</tr>
+				<tr>
+				 <td height=21 colspan="2"></td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+	  </td>
+	 </tr>
+	  <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_box_bottom.gif" width=650 height=10></td>
+	 </tr>
+	 <tr>
+	   <td height=4></td>
+	 </tr>
+	 <tr>
+	  <td>
+	 <table cellpadding="0" cellspacing="0" border="0" width=650 align="center">
+	  <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_ft_img_top.gif" width=645 height=4 align="center"></td>                                                                                                                              
+	 </tr>
+	 <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_ft_img_middle.gif" width=645 height=4 align="center">
+	    <table cellpadding="0" cellspacing="0" border="0" width=645 >
+		<tr>
+		   <td height=10 class="txt_p03" width=650 align="center"></td>
+		 </tr>
+		 <tr>
+		   <td height=15 class="txt_p03" width=650 align="center"><span class="txt_p04">본 메일은 “전자상거래등 에서의 소비자 보호에 관한 법률 제 8조3항”에 의거 전자상거래 상의 결제내역 확인을 위해</span></td> 
+		 </tr>
+		 <tr>
+		   <td height=16 class="txt_p03" width=650 align="center"><span class="txt_p04">Daoupay에서 자동발송되는 것으로 결제내역 확인외의 어떠한 용도로도 사용되어 질 수 없습니다.</span></td>
+		 </tr>
+		 <tr>
+		   <td height=15 class="txt_p03" width=650 align="center"><span class="txt_p04">㈜다우기술 경기도 용인시 수지구 죽전동 23-7 디지털스퀘어 6층 |  사업자번호: 220-81-02810  |  대표이사 : 김 영훈</span></td> 
+		 </tr>
+		 <tr>
+		   <td height=15 class="txt_p03" width=650 align="center"><span class="txt_p04">Copyrights ⓒ 2008 DAOU TECH Inc.  All rights reserved.</span></td>
+		 </tr>
+		 <tr>
+		   <td height=5 class="txt_p03" width=650 align="center"></td>
+		 </tr>
+		</table>
+	  </td>
+	 </tr>
+	 <tr>
+	  <td background="http://www.daoupay.com/pay_letter/images/e_ft_img_bottom.gif" width=645 height=4 align="center"></td>
+	 </tr>
+	 </table>
+	 </td>
+	 </tr>
+  </table>
+</body>
+</html>
+
+
+
+

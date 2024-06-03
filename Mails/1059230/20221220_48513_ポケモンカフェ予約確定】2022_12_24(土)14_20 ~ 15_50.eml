@@ -1,0 +1,45 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=naver.com; s=s20171208;
+	t=1671487633; bh=B372k6xNeORJQuSKYWTWuN8wRY4zhcaEn59Bi3qnoYE=;
+	h=Message-ID:Date:From:To:Subject:From:Subject:Feedback-ID:
+	 X-Works-Security;
+	b=TO7aHfq/Td/SYWYjNtRxPwGXvmk2eOk/MmqpS6Aw+sdh2EAfCNxfD6LCTeTOuW9Xm
+	 jZq0a3+h/46SBXnCYDUP6+GNI5uXNJdAMOe3uYIY0VDVys3WAOgUNR8WtQmQZC62/f
+	 iZMRPjjqSCHQPt6RSRiIgH6sJDOPCqS+l04+pnnf96iQHpr7g9NRS67/VS4YuFDyQT
+	 ARIRc+LV26aIbce0nU88n7pN/NmhLv8qM0eteDYuuAJztQ8yES7zXUAGTwqRa3Wz47
+	 Ipr3oSJKSb1MIYfYqqxHpIK+0wN/lSxNyrHsJJQtrXcgu2cZgQLnoy+iax96chSa5C
+	 I+4zC/aiKZgRA==
+X-Session-ID: GYKZKxUZKAUmFq2wBqgZ7qglKo_81BF9WSYqFoKdaAbrKxEwFot
+MIME-Version: 1.0
+Message-ID: <5ed58c6dc160786ece779fe4a2ad26@cweb009.nm.nfra.io>
+Date: Tue, 20 Dec 2022 07:07:13 +0900
+From: =?utf-8?B?7J6l7KeA7ISg?= <0927jisun@naver.com>
+Importance: normal
+To: <1059230@naver.com>
+Subject: =?utf-8?B?44Od44Kx44Oi44Oz44Kr44OV44Kn5LqI57SE56K65a6a44CRMjAyMi8xMi8yNCjlnJ8pMQ==?=
+	=?utf-8?B?NDoyMCB+IDE1OjUw?=
+X-Originating-IP: 210.105.42.120
+Content-Type: multipart/alternative;
+	boundary="-----Boundary-WM=_7f5fc8bf9700.1671487633979"
+
+-------Boundary-WM=_7f5fc8bf9700.1671487633979
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+
+
+-------Boundary-WM=_7f5fc8bf9700.1671487633979
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PHN0eWxlPnB7bWFyZ2luLXRvcDowcHg7bWFyZ2luLWJvdHRvbTowcHg7fTwv
+c3R5bGU+PC9oZWFkPjxib2R5PjxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxNHB4OyBmb250LWZhbWls
+eTpHdWxpbSzqtbTrprwsc2Fucy1zZXJpZjsiPjwvZGl2PjwvYm9keT48L2h0bWw+PHRhYmxlIHN0
+eWxlPSdkaXNwbGF5Om5vbmUnPjx0cj48dGQ+PGltZyBzcmM9Imh0dHBzOi8vbWFpbC5uYXZlci5j
+b20vcmVhZFJlY2VpcHQvbm90aWZ5Lz9pbWc9MFBlRzFvYlpheEkwRnhtc1dOa3FwQUUlMkZNcXB2
+TXF1cktBYiUyRkY0a29weGJYYTZwMEZ6dVpNNnRaRnZJbyUyQnJrU0tBZ2w3NGxSNzRsNGI0dTUx
+NllRYXF1bUZ4dlpLcUlnVzRKcnBCVTVNcmVSLmdpZiIgYm9yZGVyPSIwIi8+PC90ZD48L3RyPjwv
+dGFibGU+
+
+-------Boundary-WM=_7f5fc8bf9700.1671487633979--

@@ -1,0 +1,197 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1701390857;
+	cv=none; b=hidXHdu7pCdk4GdY02kaRzh1iWxg0w/gQzkW37zKNqE/92ZjpNR1REMiZz2r
+	 HiKu8GJUm8LCfkYZq1tGCTUkRsSjpAq7UuLrjBTtY/sD6mroqjAt589Uve90jx0gZd6uDV
+	 ALzJXcZMG8ks7a5SUWm9QM7mMksFTdxchwecAAb1ZIhXwsS5pwyOhXiToCMLpO0SYKSnd6
+	 9lZuhRTdkGfDJJK+oKaWScvNw55MN3Ra1RJRgiMyVTaC7pyhWcPf06XJbk+Vq5FLI+wLgP
+	 vVntJR363ccUQtITZg3H7EBvTiKqSNIWBRNOqVUKgL83THo800NeqMmkrPd1SnRCX+dMXC
+	 pA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1701390857; c=relaxed/relaxed;
+	bh=C7zwiMbJdg/MY3fWvSRk7qcWmxvR6odTseWX6eHhXG8=;
+	h=date:from:to:message-id:subject; b=DwDyCF1f4/F02zRU69U2P00UgHo7iA7fIw
+	 j1gZ206s2UeZ++21/vJoUrsckGCV8rx1kN8t1FsyNDuqDgtgf7nvdWT0cNjRM6jUCeIDEj
+	 S+u9S2asw1cLROGHT0xr8UUtdMpH7e3Z4zDgu+e56XqRHVsKjQTVCCM0DZ1y83qeZ5VXO1
+	 IEzOxGWh+ZkvilzFHvMfIFpPmsGd0KUFBCuSCNhQAySkwDtMdEwpQef1h34iLUlnlustMz
+	 gaCSdhyijdKv1wYjaaftweHE7UXMsRvx/WYuGJJmSJbMJhMa+4L8NeUSnR1z3+4MAtpESL
+	 bnGdSJ2EZbEWRlT6d9gJG3Z6sHyw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@mail.tadatada.com designates 211.56.0.83 as permitted sender) smtp.mailfrom=noreply@mail.tadatada.com
+Return-Path: <noreply@mail.tadatada.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@mail.tadatada.com designates 211.56.0.83 as permitted sender)
+  client-ip=211.56.0.83; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@mail.tadatada.com designates 211.56.0.83 as permitted sender) smtp.mailfrom=noreply@mail.tadatada.com
+X-Naver-ESV: wqRn+6J4p63qMBIYKBwdbXmmKAKdKx+YkXm=
+X-Session-IP: 211.56.0.83
+Received: from smtp004.toastcloud.com (smtp004.toastcloud.com [211.56.0.83])
+  by crcvmail305.nm.naver.com with ESMTP id IZ3x85KdRtu0hXOVDHo44A
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Fri, 01 Dec 2023 00:34:17 -0000
+Received: from [10.161.25.144] (HELO mmsa-newbat-t1901.svr.toastmaker.net)
+ ([10.161.25.144]) by smtp004.toastcloud.com with SMTP id da6a3c1365692a08;
+ Fri, 01 Dec 2023 09:34:16 +0900
+Date: Fri, 1 Dec 2023 09:34:16 +0900 (KST)
+From: TADA <noreply@mail.tadatada.com>
+To: 1059230@naver.com
+Message-ID: <20231201093414BfX2Jkv0@mmsa-newbat-t1901>
+Subject: =?UTF-8?B?W+2DgOuLpF0g6rCc7J247KCV67O0IOydtOyaqeuCtOyXrSDslYjrgrQ=?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Return-Allow: false
+X-Toast-Seq: 0
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/htm=
+l4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+</head>
+<body>
+
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" height=3D"110">
+            <tr>
+                <td align=3D"center" style=3D"line-height: 1; font-size: 0;=
+ background-image: url(https://static.tadatada.com/resources/email/email-he=
+ader-bg@3x.png); background-size: 100% 100%; background-repeat: no-repeat;"=
+>
+                    <img src=3D"https://static.tadatada.com/resources/email=
+/email-logo-with-bg@3x.png" width=3D"96" height=3D"20" alt=3D"=ED=83=80=EB=
+=8B=A4">
+                </td>
+            </tr>
+        </table>
+   =20
+    <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" =
+style=3D"font-size: 14px">
+        <tr><td colspan=3D"3" height=3D"30"></td></tr>
+        <tr>
+            <td width=3D"12">&nbsp;</td>
+            <td align=3D"center">
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" wid=
+th=3D"100%" style=3D"max-width: 480px">
+                    <tr>
+                        <td>
+                                <table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" width=3D"100%">
+        <tr><td height=3D"20"></td></tr>
+        <tr>
+            <td style=3D"color: #000000; font-size: 14px; line-height: 1.5;=
+">
+                =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94, =ED=83=80=EB=
+=8B=A4=EC=9E=85=EB=8B=88=EB=8B=A4.<br>
+                =ED=83=80=EB=8B=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=
+=A3=BC=EC=8B=9C=EB=8A=94 =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =EC=A7=84=EC=
+=8B=AC=EC=9C=BC=EB=A1=9C =EA=B0=90=EC=82=AC=EB=93=9C=EB=A6=BD=EB=8B=88=EB=
+=8B=A4.<br><br>
+
+                =ED=83=80=EB=8B=A4=EB=8A=94 =E3=80=8E=EA=B0=9C=EC=9D=B8=EC=
+=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=E3=80=8F =EC=A0=9C 39=EC=A1=B0=
+=EC=9D=988(=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9=EB=82=B4=
+=EC=97=AD=EC=9D=98 =ED=86=B5=EC=A7=80) =EB=B0=8F =EB=8F=99=EB=B2=95 =EC=8B=
+=9C=ED=96=89=EB=A0=B9 =EC=A0=9C48=EC=A1=B0=EC=9D=986=EC=97=90 =EC=9D=98=EA=
+=B1=B0=ED=95=98=EC=97=AC =EC=97=B0 1=ED=9A=8C =EB=AA=A8=EB=93=A0 =EA=B3=A0=
+=EA=B0=9D=EB=8B=98=EA=BB=98 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=
+=EC=9A=A9=EB=82=B4=EC=97=AD=EC=9D=84 =EC=95=88=EB=82=B4 =EB=93=9C=EB=A6=AC=
+=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>
+
+                =ED=83=80=EB=8B=A4 =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EC=
+=86=8C=EC=A4=91=ED=95=9C =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=8A=94 =EA=
+=B4=80=EB=A0=A8 =EB=B2=95=EA=B7=9C=EC=97=90 =EC=9D=98=EA=B1=B0 =ED=95=AD=EC=
+=83=81 =EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =EB=B3=B4=ED=98=B8=EB=90=98=EB=
+=A9=B0, =EC=9E=90=EC=84=B8=ED=95=9C =EB=82=B4=EC=97=AD=EC=9D=80 =EC=95=84=
+=EB=9E=98 [=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9=EB=82=B4=
+=EC=97=AD =EB=B3=B4=EA=B8=B0]=EB=A5=BC =ED=86=B5=ED=95=B4 =ED=99=95=EC=9D=
+=B8=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><b=
+r>
+
+                =ED=83=80=EB=8B=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=
+=A3=BC=EC=8B=9C=EB=8A=94 =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =EB=8B=A4=EC=
+=8B=9C =ED=95=9C =EB=B2=88 =EA=B0=90=EC=82=AC=EB=93=9C=EB=A6=AC=EB=A9=B0, =
+=EC=95=9E=EC=9C=BC=EB=A1=9C=EB=8F=84 =EB=8D=94 =ED=8E=B8=EC=95=88=ED=95=9C =
+=EC=9D=B4=EB=8F=99=EC=9D=84 =EC=A0=9C=EA=B3=B5=ED=95=98=EB=8A=94 =ED=83=80=
+=EB=8B=A4=EA=B0=80 =EB=90=98=EB=8F=84=EB=A1=9D =EB=85=B8=EB=A0=A5=ED=95=98=
+=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>
+
+                =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+                =ED=83=80=EB=8B=A4 =EB=93=9C=EB=A6=BC
+            </td>
+        </tr>
+        <tr><td height=3D"30"></td></tr>
+        <tr>
+            <td colspan=3D"2" align=3D"middle">
+                <a href=3D"https://support.tadatada.com/terms/user/privacyU=
+sageDetail" target=3D"_blank">
+                    <img src=3D"https://static.tadatada.com/resources/email=
+/btn-tada-privacy-usage@3x.png" width=3D"156" height=3D"44" style=3D"border=
+-radius: 2px; box-shadow: 0 10px 30px 0 rgba(42, 42, 76, 0.1);" alt=3D"=EA=
+=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9=EB=82=B4=EC=97=AD =EB=
+=B3=B4=EA=B8=B0">
+                </a>
+            </td>
+        </tr>
+        <tr><td height=3D"40"></td></tr>
+        <tr><td style=3D"color: #606079; font-size: 12px;">=E2=80=BB =EB=B3=
+=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B2=95=EB=A0=B9=EC=97=90 =EB=94=B0=EB=A5=
+=B8 =ED=86=B5=EC=A7=80 =EC=9D=98=EB=AC=B4=EC=82=AC=ED=95=AD=EC=9C=BC=EB=A1=
+=9C =EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EC=97=AC=EB=B6=80=EC=99=80 =EA=B4=
+=80=EA=B3=84=EC=97=86=EC=9D=B4 =EB=B0=9C=EC=86=A1=EB=90=98=EC=97=88=EC=8A=
+=B5=EB=8B=88=EB=8B=A4.</td></tr>
+    </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width=3D"12">&nbsp;</td>
+        </tr>
+    </table>
+
+
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"font-famil=
+y: sans-serif" width=3D"100%">
+    <tr><td height=3D"15">&nbsp;</td></tr>
+    <tr>
+        <td width=3D"12"></td>
+        <td align=3D"center">
+            <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%" style=3D"max-width: 480px">
+                <tr><td height=3D"1" bgcolor=3D"#dfdfe4"></td></tr>
+                <tr><td height=3D"15"></td></tr>
+                <tr>
+                    <td style=3D"font-size: 10px; color: #aab0bd; line-heig=
+ht: 1.5;">
+                                                    =ED=9A=8C=EC=82=AC=EB=
+=AA=85 : =EB=B8=8C=EC=9D=B4=EC=94=A8=EC=97=94=EC=94=A8 =EC=A3=BC=EC=8B=9D=
+=ED=9A=8C=EC=82=AC |
+                            =EB=8C=80=ED=91=9C : =EC=9D=B4=EC=A0=95=ED=96=
+=89 |
+                            =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=
+=EB=B2=88=ED=98=B8 : 119-86-38202 |
+                            =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=B1=85=
+=EC=9E=84=EB=8B=B4=EB=8B=B9=EC=9E=90: =EA=B9=80=EB=82=A8=ED=98=84 |
+                            =EC=A3=BC=EC=86=8C : =EC=84=9C=EC=9A=B8=ED=8A=
+=B9=EB=B3=84=EC=8B=9C =EC=84=B1=EB=8F=99=EA=B5=AC =EC=83=81=EC=9B=90=EA=B8=
+=B8 26 7=EC=B8=B5 |
+                            =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EB=B2=88=
+=ED=98=B8 : 2015-=EC=84=9C=EC=9A=B8=EA=B0=95=EB=82=A8-01065 |
+                            =EC=A0=84=ED=99=94 : 1800-8437 |
+                            E-mail:  help@tadatada.com
+                                            </td>
+                </tr>
+            </table>
+        </td>
+        <td width=3D"12"></td>
+    </tr>
+    <tr><td colspan=3D"3" height=3D"40"></td></tr>
+</table>
+
+</body>
+</html>
+<img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' src=3D'h=
+ttps://email.api.nhncloudservice.com/email/v1.0/collectors/readCheck/yLNtby=
+fwfl9C7_s6l9S6WUxieF7ileBziT30jyNEXk0?ext=3Dimg.gif' loading=3D'eager'/>
+

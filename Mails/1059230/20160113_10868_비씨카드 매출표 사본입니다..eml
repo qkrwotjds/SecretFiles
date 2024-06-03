@@ -1,0 +1,272 @@
+Received: (qmail 9667 invoked from network); 13 Jan 2016 07:49:59 -0000
+Received: from 10.114.49.224 (HELO crcvmail46-2.nm.naver.com) (10.114.49.224)
+  by cmda14-2.nm.naver.com with SMTP; 13 Jan 2016 07:49:59 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bics@bccard.com designates 211.181.255.132 as permitted sender) smtp.mailfrom=bics@bccard.com
+Received: from [211.181.255.132] ([211.181.255.132])
+  by crcvmail46-2.nm.naver.com with ESMTP id 5dSvwjsrSrunhK-9MJgiSA
+  for <1059230@naver.com>;
+  Wed, 13 Jan 2016 07:49:59 -0000
+From: "=?UTF-8?B?67mE7JSo7Lm065Oc?=" <bcadmin@bccard.com>
+To: "=?UTF-8?B?6rOg6rCd64uY?=" <1059230@naver.com>
+Reply-to: <bcadmin@bccard.com>
+Subject: =?UTF-8?B?67mE7JSo7Lm065OcIOunpOy2nO2RnCDsgqzrs7jsnoXri4jri6Qu?=
+Date: Wed, 13 Jan 2016 16:49:59 +0900
+X-WORKER_ID: <single.default_Worker_1>
+X-MAIL_ID: <UE9TVF9JRD0yMDE2MDExM18yMw==>
+X-MEMBER_ID: <TV9JRD0xMzYyNzI3Nl8zOTU4NDE4Mw==>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1BVVRPMTMw>
+X-Mailer: eMsSMTP Ver5.0( PLUTO-build 0411 )
+MIME-Version: 1.0
+Message-ID: <201601131649597776@211.181.255.132_Ems@211.181.255.132>
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +s+YpB3G1H+YbXFCbHmRKAbdaxEljJ+Y
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<title>비씨카드 사용내역 확인</title>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr" />
+<meta http-equiv="imagetoolbar" content="no" />
+</head>
+
+<body style="font-family:돋움; color:#666; padding:0; margin:0;">
+
+
+
+
+
+
+
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0">
+<tr>
+<td width="100%" align="center" valign="top" style="padding:0px; font-size:0px;">
+<!-- 메일내용 -->
+<table width="649" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="649" height="55" colspan="5" style="font-size:0px; padding:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_account01.gif" width="650" height="56" align="absmiddle" border="0" alt="본 사용내역 확인서는 카드이용에 따른 증빙용이며, 부가세 신고용 세금은 합계금액(부가세포함)에서 세금을 확인 후 사용하시기 바랍니다." /></td>
+</tr>
+<tr>
+<td width="20" height="100%" valign="top" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_account02.gif" align="absmiddle" border="0" width="20" height="723" alt="" /></td>
+<td width="609" height="712" valign="top" style="padding:0px; font-size:0px;">
+<table width="609" border="0" cellpadding="" cellspacing="0">
+<tr>
+<td width="296" height="356" valign="top" style="padding:0px; font-size:0px;">
+
+<!-- 매출표 -->
+<table width="296" height="356" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" width="296" height="356" style="padding:0px; font-size:0px;">
+<table width="296" height="356" border="0" cellpadding="0" cellspacing="0">
+<tr><td colspan="3" height="28" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout01.gif" alt="" width="296" height="28" border="0" align="absmiddle" /></td></tr>
+<tr><td width="32" height="75" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout02.gif" alt="" width="32" height="76" border="0" align="absmiddle" /></td>
+<td width="228" height="75" valign="top" style="padding:0px; font-size:0px;">
+<table width="228" height="75" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="80" height="75" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout11.gif" alt="" width="80" height="75" border="0" align="absmiddle" /></td>
+<td width="148" height="75" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="75" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">비씨카드</td>
+</tr>
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">9451-2000-****-1905</td>
+</tr>
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">****-**</td>
+</tr>
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px;">2015/12/29 15:14:58}</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="36" height="75" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout03.gif" alt="" width="36" height="76" border="0" align="absmiddle" /></td>
+</tr>
+<tr>
+<td colspan="3" height="7" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout04.gif" alt="" width="296" height="8" border="0" align="absmiddle" /></td>
+</tr>
+<tr>
+<td width="32" height="115" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout05.gif" alt="" width="32" height="116" border="0" align="absmiddle" /></td>
+<td width="228" height="115" valign="top" style="padding:0px; font-size:0px;">
+<table width="228" height="115" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="80" style="padding:0px; font-size:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout12.gif" alt="" width="80" height="115" border="0" align="absmiddle" /></td>
+<td width="148" height="115" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="115" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="19" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">할부 6개월</td>
+</tr>
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">73352185</td>
+</tr>
+<tr>
+<td height="19" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="19" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="60" height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; padding:0px; border-bottom:1px solid #efefef;">금액</td>
+<td width="78" height="18" style="font-size:11px; text-align:right; color:#7081b7; padding-right:10px; border-bottom:1px solid #efefef;">1,200,000원</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="19" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="19" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="60" height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">세금</td>
+<td width="78" height="18" style="font-size:11px; text-align:right; color:#7081b7; padding-right:10px; border-bottom:1px solid #efefef;">120,000원</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="20" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="20" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="60" height="19" style="font-size:11px; text-align:left; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">봉사료</td>
+<td width="78" height="19" style="font-size:11px; text-align:right; color:#7081b7; padding-right:10px; border-bottom:1px solid #efefef;">0원</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="19" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="19" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="60" height="19" style="font-size:11px; text-align:left; font-family:돋움; color:#666;">합계</td>
+<td width="78" height="19" style="font-size:11px; text-align:right; color:#7081b7; padding-right:10px;">1,320,000원</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="36" height="115" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout06.gif" alt="" width="36" height="116" border="0" align="absmiddle" /></td>
+</tr>
+<tr>
+<td colspan="3" height="7" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout07.gif" alt="" width="296" height="8" border="0" align="absmiddle" /></td>
+</tr>
+<tr>
+<td width="32" height="115" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout08.gif" alt="" width="32" height="116" border="0" align="absmiddle" /></td>
+<td width="228" height="115" valign="top" style="padding:0px; font-size:0px;">
+<table width="228" height="115" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="80" height="115" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout13.gif" alt="" width="80" height="115" border="0" align="absmiddle" /></td>
+<td width="148" height="115" valign="top" style="padding:0px; font-size:0px;">
+<table width="148" height="115" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">(주)애드앤월드</td>
+</tr>
+<tr>
+<td height="37" style="font-size:11px; text-align:left; line-height:18px; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">서울 관악구 신림로58길 13 301호 (신림동,다이아몬드빌딩)</td>
+</tr>
+<tr>
+<td height="18" style="font-size:11px; text-align:left; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">791653671</td>
+</tr>
+<tr>
+<td height="19" style="font-size:11px; text-align:left; font-family:돋움; color:#666; border-bottom:1px solid #efefef;">119-87-00800</td>
+</tr>
+<tr>
+<td height="19" style="font-size:11px; text-align:left; font-family:돋움; color:#666;">02-6013-8090</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width="36" height="115" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout09.gif" alt="" width="36" height="116" border="0" align="absmiddle" /></td>
+</tr>
+<tr>
+<td colspan="3" height="7" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_layout10.gif" alt="" width="296" height="9"border="0" align="absmiddle" /></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--// 매출표 -->
+
+
+
+
+
+
+</td>
+<td width="17" height="356" style="padding:0px; font-size:0px; line-height:0px;"></td>
+<td width="296" height="356" valign="top" style="padding:0px; font-size:0px;">
+
+
+
+</td>
+</tr>
+<tr>
+<td width="296" height="356" valign="top" style="padding:0px; font-size:0px;">
+
+
+
+</td>
+<td width="17" height="356" style="padding:0px; font-size:0px; line-height:0px;"></td>
+<td width="296" height="356" valign="top" style="padding:0px; font-size:0px;">
+</td>
+</tr>
+</table>
+</td>
+<td width="20" height="100%" valign="top" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_account05.gif" align="absmiddle" width="21" height="723" border="0" alt="" /></td>
+</tr>
+<tr>
+<td width="649" height="23" colspan="5" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/mail_card_account06.gif" align="absmiddle" width="650" height="23" border="0" alt="" /></td>
+</tr>
+<tr>
+<td width="650" valign="top" colspan="5" style="padding:0">
+<!-- footer -->
+<table width="650" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="20" height="110" style="padding:0px; font-size:0px; line-height:0px;border-left:1px solid #d4d4d4;" valign="top">&nbsp;</td>
+<td width="608" align="center" style="padding:0px; font-size:0px; line-height:0px;" valign="top">
+<table width="608" border="0" cellspacing="0" cellpadding="0" style="text-align:left;" >
+<tr><td height="21" colspan="3"></td></tr>
+<tr>
+<td rowspan="2" width="91" valign="top" style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/qrcode.gif"></td>
+<td height="45" style="vertical-align:top; color:#666666;font-size:12px;line-height:16px; text-align:left; padding:0;">본 메일은 발신 전용 메일입니다.<br />
+메일 관련 문의사항은 <a href="http://211.181.254.86/Check_auto.html?TV9JRD0xMzYyNzI3Nl8zOTU4NDE4Mw==&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPMTMw&UE9TVF9JRD0yMDE2MDExM18yMw==&VEM9MjAxNjAxMjA=&S0lORD1D&Q0lEPTAwMw==&URL=https://www.bccard.com/app/card/CstmrCentSubmain.do" target="_blank" style="font-weight:bold; text-decoration:underline;color:#f93344;">고객상담센터</a>로 문의해 주시기 바랍니다.</td>
+<td width="139" style="vertical-align:top; padding:0;">
+<img src="http://www.bccard.com/images/email/template/mail_logo_ncsi_s.gif" alt="7년 연속(2008-2014) 국가고객만족도(NCSI) 1위" border="0" style="vertical-align:top;float:left;" />
+<img src="http://www.bccard.com/images/email/template/mail_logo_nbci_s.gif" alt="국가브랜드 경쟁력지수(NBCI) 1위" border="0" style="margin-left:20px; vertical-align:top;float:right;"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="padding-top:11px; vertical-align:top;color:#666666;font-size:12px;line-height:16px; text-align:left; padding:0;">고객상담 1588-4000, 1566-4000  l  분실신고 1588-4515  ㅣ  이메일 <a href="mailto:webmaster@bccard.com" style="color:#666666;">webmaster@bccard.com</a><br />
+서울시 서초구 효령로 275 비씨카드(주) l 대표이사 서준희 l 사업자번호 214-81-37726<br />
+COPYRIGHT&copy; 2015 BCCARD Inc. ALL RIGHTS RESERVED</td>
+</tr>
+</table>
+</td>
+<td width="20" height="110" style="padding:0px; font-size:0px; line-height:0px;border-right:1px solid #d4d4d4;" valign="top">&nbsp;</td>
+</tr>
+</table>
+<!-- //footer -->
+<table width="649" border="0" cellpadding="0" cellspacing="0">
+<tr><td style="padding:0px; font-size:0px; line-height:0px;"><img src="http://www.bccard.com/images/email/template/round_btm_2.gif"></td></tr>
+</table>
+</td>
+</tr>
+</table>
+<!-- //메일내용 -->
+</td>
+</tr>
+</table>
+
+<div style="display:none"><IMG width=0 height=0 src="http://211.181.254.86/Check_auto.html?TV9JRD0xMzYyNzI3Nl8zOTU4NDE4Mw==&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPMTMw&UE9TVF9JRD0yMDE2MDExM18yMw==&VEM9MjAxNjAxMjA=&S0lORD1P"></div></body>
+</html>
+
+
+

@@ -1,0 +1,380 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1677687659;
+	cv=none; b=Mn3eYs2fMcSKqzeb3bLC+7lxdRdzbkvdVcjcBgMDmkDtnosGRI/a+LzH3UW4
+	 c0/mbBWj1kSA9QtOXAqNW2fC5HNmZiiySTyipqxWRnY7fv6LWCb4mJkAPWhalxGIbNJjdF
+	 PkD8/K2h/zuk9b2GJRi2jOHDxUvUhDd7NXOhX5MfD+uilw2XRFEMub0rijPaAwk3VqfX7E
+	 OK8M30fQox/LpWspJ/NZk/gk6TxArtGH1BcT/6MNiBdcEW/GlmlQef5FNOVxy72b8ZJdEP
+	 mqaE+yEVOMovlx0+9nabXt7GwJy8ni8uo6CJ8sGRELAAK+0/Y1MtHtD0ei877BXN6jN2El
+	 oQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1677687659; c=relaxed/relaxed;
+	bh=GZJx5Z+XZnzh+pN5JmM2yyOxyqvvkG3oGrry1xgEYFQ=;
+	h=dkim-signature:date:to:subject:from:message-id; b=UGfBXjFrj/NLJ2gKheX
+	 Ydo3Z9tNPtqlwBV7BQrEbDMobModco9XU5zAjecEZ+ReSgVkEGaYsK0DwztHJR+dlYq9ss
+	 GjDXzDhC64eFJwY0liOxGs83O7LWR8axYYhC8hQeJ3GomFd2x8Dnx1X6h4fw42BuOT3vn1
+	 GhUhn+evERYcHR8ylFAog8OKXJmefRTElGzF9LAoPtSAz5h0uZaYsoZAEYV9uegATqlGvX
+	 Bagap56S/h4JFmb3avF4YhmygFqrIIK+UDcEpFXA9uechtZ0ScbQz2hvJGkJWZJDULjtp0
+	 7rsFitHJUu8aU5c+maPEwPjfSNv/nh9ag8a4QCsBQnQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of groupupdates@facebookmail.com designates 69.171.232.146 as permitted sender) smtp.mailfrom=groupupdates@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+Return-Path: <groupupdates@facebookmail.com>
+Received-SPF: pass (mx.naver.com: domain of groupupdates@facebookmail.com designates 69.171.232.146 as permitted sender)
+  client-ip=69.171.232.146; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of groupupdates@facebookmail.com designates 69.171.232.146 as permitted sender) smtp.mailfrom=groupupdates@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+X-Naver-ESV: +r+YpB3G1H+qbrJmjAKwjAurKog9aBwBjg==
+X-Session-IP: 69.171.232.146
+Received: from 69-171-232-146.mail-mail.facebook.com (69-171-232-146.mail-mail.facebook.com [69.171.232.146])
+  by crcvmail301.nm.naver.com with ESMTP id 1LXVu54ZQ6Sox1DI4BrDfQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256);
+  Wed, 01 Mar 2023 16:20:59 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1677687646;
+	bh=GZJx5Z+XZnzh+pN5JmM2yyOxyqvvkG3oGrry1xgEYFQ=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=AtzVVt7BPmeDNsIGujz0DoWoey37jRVqq7Tik9vIEBt1IaP1q5hKUo7JelLkxYnQi
+	 0CuUMOL09E80VQgy7X0HVg7mfkzCJxPr04Jtdo2YrDkDLYBXud9tJi7T6RR4gIN7el
+	 pZI/1zHLQ/nfE0/rt+jKF+narFFJqrVXTYkhMRvQ=
+X-Facebook: from 2401:db00:125c:113:face:0:3f8:0 ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTPS (ZuckMail);
+Date: Wed, 1 Mar 2023 08:20:46 -0800
+To: =?UTF-8?B?67CV7J6s7ISx?= <1059230@naver.com>
+Subject: =?UTF-8?B?6re466O5IOy2lOyynOyXkCDshJzsmrjqs7ztlZnqs6Drk7HtlZnqtZA=?=
+ =?UTF-8?B?IDM0IDM16riwIOyZuCAx6rCc6rCAIOy2lA==?=
+ =?UTF-8?B?6rCA65CY7JeI7Iq164uI64uk?=
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Return-Path: groupupdates@facebookmail.com
+From: "Facebook" <groupupdates@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Errors-To: groupupdates@facebookmail.com
+X-Facebook-Notify: groups_you_should_join; mailid=U1U5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1
+List-Unsubscribe: <https://www.facebook.com/o.php?k=AS04JWchWkCpYNAJtkU&u=100006079116292&mid=5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&ee=AY1nDT993mo90MlLLf4q3iYzudWUEFk2JpoyKATtifMXyehv-Tml_7flTw9Rdw7rGKx5WLHp2FkGDwo>
+Feedback-ID: 98:groups_you_should_join:Facebook
+X-FACEBOOK-PRIORITY: 1
+X-Auto-Response-Suppress: All
+Require-Recipient-Valid-Since: 1059230@naver.com; Monday,  5 Apr 2021 23:21:56 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_5c57a370eb979101bbd3ce81ab405461"
+Message-ID: <05762fc4-b84d-11ed-ad6c-7b85411ee310@facebookmail.com>
+
+
+--b1_5c57a370eb979101bbd3ce81ab405461
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94!
+
+
+
+=EA=B3=A0=EB=A7=99=EC=8A=B5=EB=8B=88=EB=8B=A4!
+Facebook =ED=8C=80
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+1059230@naver.com =EC=A3=BC=EC=86=8C=EB=A1=9C =EC=A0=84=EC=86=A1=EB=90=9C =
+=EB=A9=94=EC=8B=9C=EC=A7=80=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EC=95=9E=EC=9C=BC=EB=A1=9C Meta=EB=A1=9C=EB=B6=80=ED=84=B0 =
+=EC=9D=B4=EC=99=80 =EA=B0=99=EC=9D=80 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =
+=EB=B0=9B=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A0=A4=EB=A9=B4 =
+=EC=88=98=EC=8B=A0=EC=9D=84 =EA=B1=B0=EB=B6=80=ED=95=98=EB=A0=A4=EB=A9=B4 =
+=EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=A5=BC =
+=EB=94=B0=EB=9D=BC=EA=B0=80=EC=84=B8=EC=9A=94.
+https://www.facebook.com/o.php?k=3DAS04JWchWkCpYNAJtkU&u=3D100006079116292=
+&mid=3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&ee=3DAY1cMHtne0VJTsZsW=
+y7NAaTEaC8EUqYD8tUYWSXAXm28x35EE4SuI8NUlqxBYR3OO6SIWoBVjsTiygA
+Meta Platforms, Inc., Attention: Community Support, 1 Facebook Way, Menlo =
+Park, CA 94025
+
+
+--b1_5c57a370eb979101bbd3ce81ab405461
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style nonce=3D"bNgPO0hk">@media =
+all and (max-width: 480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline =
+!important}*[class].d_mb_flex{display:block =
+!important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only =
+screen and (max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}.d_mb_flex{display:block =
+!important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text =
+h5,.mb_text h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr" bgcolor=3D"#ffffff"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+id=3D"email_table" style=3D"border-collapse:collapse;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"><span =
+style=3D"color:#FFFFFF;font-size:1px;opacity:0;">=EB=B0=95=EC=9E=AC=EC=84=
+=B1=EB=8B=98, =EA=B7=B8=EB=A3=B9=EC=97=90 =
+=EA=B0=80=EC=9E=85=ED=95=98=EC=97=AC =EA=B0=99=EC=9D=80 =
+=EA=B4=80=EC=8B=AC=EC=82=AC=EB=A5=BC =EA=B3=B5=EC=9C=A0=ED=95=98=EB=8A=94 =
+=EC=82=AC=EB=9E=8C=EB=93=A4=EA=B3=BC =EC=86=8C=ED=86=B5=ED=95=B4=EB=B3=B4=
+=EC=84=B8=EC=9A=94.</span></td></tr><tr><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"15" style=3D"line-height:15px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td width=3D"32" align=3D"left" =
+valign=3D"middle" style=3D"height:32;line-height:0px;"><a =
+href=3D"https://www.facebook.com/n/?groups%2F367512508894707%2F&amp;aref=
+=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9433dbG5af47ad2340=
+4G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"32" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/I92GqZOkKcu.png" =
+height=3D"32" style=3D"border:0;" /></a></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+width=3D"100%" style=3D""><a href=3D"https://www.facebook.com/n/?groups%2F=
+367512508894707%2F&amp;aref=3D1677687645681325&amp;medium=3Demail&amp;mid=
+=3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.=
+com" =
+style=3D"color:#1b74e4;text-decoration:none;">Facebook</a></td></tr><tr =
+style=3D"border-bottom:solid 1px #e5e5e5;"><td height=3D"15" =
+style=3D"line-height:15px;" colspan=3D"3">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" height=3D"100%" align=3D"center" =
+style=3D"border-collapse:collapse;max-width:500px;"><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:18px;color:#1C1E21;word-break:break-word;">=EA=
+=B7=B8=EB=A3=B9=EC=97=90 =EA=B0=80=EC=9E=85=ED=95=98=EC=97=AC =
+=EA=B0=99=EC=9D=80 =EA=B4=80=EC=8B=AC=EC=82=AC=EB=A5=BC =
+=EA=B3=B5=EC=9C=A0=ED=95=98=EB=8A=94 =EC=82=AC=EB=9E=8C=EB=93=A4=EA=B3=BC =
+=EC=86=8C=ED=86=B5=ED=95=B4=EB=B3=B4=EC=84=B8=EC=9A=94.<br =
+/></td></tr><tr><td style=3D""><table border=3D"0" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"padding-top:15px;"><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:12p=
+x;color:#8D949E;font-weight:500;">=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=84 =
+=EC=9C=84=ED=95=9C =EC=B6=94=EC=B2=9C<br /></div><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"padding-top:10px;padding-bottom:5px;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"height:100%;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;background:#FFFFFF;"><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;"><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?group=
+s%2F367512508894707%2F&amp;aref=3D1677687645681325&amp;medium=3Demail&amp;=
+mid=3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D1059230%40nav=
+er.com&amp;lloc=3Dgysj_gysj367512508894707&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-6/297659139_1848616839295=
+65_1776594754346453233_n.jpg?stp=3Dc459.0.540.540a_dst-jpg_p180x540&amp;_n=
+c_cat=3D109&amp;ccb=3D1-7&amp;_nc_sid=3Dac9ee4&amp;_nc_ohc=3DyEd6xAkSexEAX=
+_cRc7j&amp;_nc_oc=3DAQnal5oEa-cHks1QyazqEGy7usq92nvuFL6l_5EoW_FQML8prZdw48=
+sOT48BGwv4V04pnniOZpdCd8ysxyqe9ZvS&amp;_nc_ad=3Dz-m&amp;_nc_cid=3D0&amp;_n=
+c_ht=3Dscontent.xx&amp;oh=3D00_AfA5zPFJlpn3nhZ5DEDrFV-OHcql9HBtqIatk8o2_Ty=
+Xdg&amp;oe=3D64050FE8" style=3D"border:0;background:#FFFFFF;" =
+/></a></td><td width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?group=
+s%2Fsshs3334%2F&amp;aref=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5=
+f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com&=
+amp;lloc=3Dgysj_gysj315198813629000&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-6/217405627_2283460291765=
+35_6814845753813929005_n.jpg?stp=3Dc459.0.540.540a_dst-jpg_p180x540&amp;_n=
+c_cat=3D106&amp;ccb=3D1-7&amp;_nc_sid=3Dac9ee4&amp;_nc_ohc=3DccPfYp1jUM8AX=
+_W4h3k&amp;_nc_ad=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D=
+00_AfCv-MIt6Z_-8B6UVOF7PS0mRNG5YW5TewU0tCxlP-bOrQ&amp;oe=3D640523DB" =
+style=3D"border:0;background:#FFFFFF;" /></a></td></tr><tr><td =
+valign=3D"top" style=3D"background:#FFFFFF;padding:6px 10px 6px =
+10px;border:solid 1px #E5E5E5;border-bottom:0;border-top:0;width:48%;"><a =
+href=3D"https://www.facebook.com/n/?groups%2F367512508894707%2F&amp;aref=
+=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9433dbG5af47ad2340=
+4G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dgysj_gysj3675=
+12508894707&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">=EC=84=9C=EC=9A=B8=EA=B3=BC=ED=95=99=EA=B3=A0=EB=
+=93=B1=ED=95=99=EA=B5=90 34 35=EA=B8=B0</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;"></div><d=
+iv style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:13px;line-height:17px;col=
+or:#8D949E;"></div><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:13p=
+x;line-height:17px;color:#8D949E;;display: flex"></div></a></td><td =
+width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;padding:6px 10px 6px 10px;border:solid 1px =
+#E5E5E5;border-bottom:0;border-top:0;width:48%;"><a href=3D"https://www.fa=
+cebook.com/n/?groups%2Fsshs3334%2F&amp;aref=3D1677687645681325&amp;medium=
+=3Demail&amp;mid=3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D=
+1059230%40naver.com&amp;lloc=3Dgysj_gysj315198813629000&amp;rms=3Dv2&amp;i=
+rms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">=EC=84=9C=EC=9A=B8=EA=B3=BC=ED=95=99=EA=B3=A0=EB=
+=93=B1=ED=95=99=EA=B5=90 33 34=EA=B8=B0</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;"></div><d=
+iv style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:13px;line-height:17px;col=
+or:#8D949E;"></div><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:13p=
+x;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td></tr><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?groups%2F3675125088=
+94707%2F&amp;aref=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9=
+433dbG5af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com&amp;llo=
+c=3Dgysj_gysj367512508894707&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:10px 0px 10px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#3578E5;=
+background-color:#F1F6FF;width:100%;font-size:13px;font-weight:500;">=EA=
+=B7=B8=EB=A3=B9 =EB=B0=A9=EB=AC=B8</div></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?groups%2Fsshs3334%2=
+F&amp;aref=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9433dbG5=
+af47ad23404G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dgys=
+j_gysj315198813629000&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:10px 0px 10px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#3578E5;=
+background-color:#F1F6FF;width:100%;font-size:13px;font-weight:500;">=EA=
+=B7=B8=EB=A3=B9 =EB=B0=A9=EB=AC=B8</div></a></td></tr></table></td></tr></=
+table></td></tr></table></td></tr></table></td></tr></table></td></tr><tr>=
+<td style=3D"padding:10px 0 0 0;"><table border=3D"0" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"2" =
+style=3D"line-height:2px;">&nbsp;</td></tr><tr><td align=3D"middle" =
+style=3D""><a href=3D"https://www.facebook.com/n/?groups%2F&amp;aref=3D167=
+7687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9433dbG5af47ad23404G5f5d=
+9182a36adG7c1&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dgysj_more&amp;rms=
+=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-collapse:colla=
+pse;border-radius:4px;text-align:center;display:block;font-family:Helvetic=
+a Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#EBEDF0;padding:10px =
+20px 12px 20px;"><a href=3D"https://www.facebook.com/n/?groups%2F&amp;aref=
+=3D1677687645681325&amp;medium=3Demail&amp;mid=3D5f5d8ce9433dbG5af47ad2340=
+4G5f5d9182a36adG7c1&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dgysj_more&amp=
+;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;white-space:nowrap;font-weight:bold=
+;vertical-align:middle;color:#333639;font-size:13px;line-height:13px;font-=
+weight:500;">=EB=8D=94&nbsp;=EB=A7=8E=EC=9D=80&nbsp;=EA=B7=B8=EB=A3=B9=EC=
+=9D=84&nbsp;=EB=91=98=EB=9F=AC=EB=B3=B4=EC=84=B8=EC=9A=94</span></font></c=
+enter></a></td></tr></table></a></td></tr><tr style=3D""><td height=3D"8" =
+style=3D"line-height:8px;">&nbsp;</td></tr><tr style=3D""><td =
+height=3D"32" style=3D"line-height:32px;">&nbsp;</td></tr></table></td></t=
+r></table></td></tr><tr style=3D""><td height=3D"28" =
+style=3D"line-height:28px;">&nbsp;</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:14px;color:#65676B;"><span =
+style=3D"padding-right:12px;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;">=EC=9D=B4=EB=A9=94=EC=9D=BC=EC=97=
+=90 =EB=8C=80=ED=95=9C =ED=8F=89=EA=B0=80:</span><span =
+style=3D"color:#141823;font-size:14px;font-weight:normal;line-height:24px;=
+font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;"><a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook=
+.com/email_notification_feedback/?is_useful=3D1&amp;next_href=3Dhttps%3A%2=
+F%2Fwww.facebook.com%2Fn%2F%3Fgroups%252F367512508894707%252F%26aref%3D167=
+7687645681325%26medium%3Demail%26mid%3D5f5d8ce9433dbG5af47ad23404G5f5d9182=
+a36adG7c1%26n_m%3D1059230%2540naver.com&amp;ndid=3D5f5d8ce9433dbG5af47ad23=
+404G5f5d9182a36adG7c1">=EC=9C=A0=EC=9A=A9=ED=95=A8</a></span><span =
+style=3D"padding:0 12px;color:#C9CCD1;font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;"> | =
+</span><span style=3D"color:#141823;font-size:14px;font-weight:normal;line=
+-height:24px;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;"><a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook=
+.com/email_notification_feedback/?is_useful=3D0&amp;next_href=3Dhttps%3A%2=
+F%2Fwww.facebook.com%2Fn%2F%3Fhome.php%26aref%3D1677687645681325%26medium%=
+3Demail%26mid%3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1%26n_m%3D10592=
+30%2540naver.com%26lloc%3D2nd_cta%26rms%3Dv2%26irms%3Dtrue&amp;ndid=3D5f5d=
+8ce9433dbG5af47ad23404G5f5d9182a36adG7c1">=EC=9C=A0=EC=9A=A9=ED=95=98=EC=
+=A7=80 =EC=95=8A=EC=9D=8C</a></span></td></tr><tr style=3D""><td =
+height=3D"15" style=3D"line-height:15px;">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left" style=3D"border-collapse:collapse;"><tr =
+style=3D"border-top:solid 1px #e5e5e5;"><td height=3D"19" =
+style=3D"line-height:19px;">&nbsp;</td></tr><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px;"><a =
+href=3D"mailto:1059230&#064;naver.com" =
+style=3D"color:#3b5998;text-decoration:none;">1059230&#064;naver.com</a> =
+=EC=A3=BC=EC=86=8C=EB=A1=9C =EC=A0=84=EC=86=A1=EB=90=9C =
+=EB=A9=94=EC=8B=9C=EC=A7=80=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EC=95=9E=EC=9C=BC=EB=A1=9C Meta=EB=A1=9C=EB=B6=80=ED=84=B0 =
+=EC=9D=B4=EC=99=80 =EA=B0=99=EC=9D=80 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =
+=EB=B0=9B=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A0=A4=EB=A9=B4 <a =
+href=3D"https://www.facebook.com/o.php?k=3DAS04JWchWkCpYNAJtkU&amp;u=3D100=
+006079116292&amp;mid=3D5f5d8ce9433dbG5af47ad23404G5f5d9182a36adG7c1&amp;ee=
+=3DAY1tfUsj-7QD4Geqrq5Pv_Og2r-QDkeyL1s-BepNpIGC8psHGHJYXROcZ7JFzlsPz2-NTS6=
+yHCGfaRY" style=3D"color:#3b5998;text-decoration:none;">=EA=B7=B8=EB=A7=8C =
+=EB=B0=9B=EA=B8=B0=EB=A5=BC =EB=88=84=EB=A5=B4=EC=84=B8=EC=9A=94.</a><br =
+/>Meta Platforms, Inc., Attention: Community Support, 1 Facebook Way, =
+Menlo Park, CA 94025</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td height=3D"20" style=3D"line-height:20px;" =
+colspan=3D"3">&nbsp;</td></tr></table><span style=3D""><img =
+src=3D"https://www.facebook.com/email_open_log_pic.php?mid=3D5f5d8ce9433db=
+G5af47ad23404G5f5d9182a36adG7c1" style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_5c57a370eb979101bbd3ce81ab405461--
+

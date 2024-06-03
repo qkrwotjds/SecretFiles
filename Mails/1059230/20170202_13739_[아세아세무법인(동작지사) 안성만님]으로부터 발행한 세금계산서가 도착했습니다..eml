@@ -1,0 +1,179 @@
+Received: (qmail 19596 invoked from network); 2 Feb 2017 09:18:22 -0000
+Received: from 10.114.49.224 (HELO crcvmail46-2.nm.naver.com) (10.114.49.224)
+  by cmda030-2.nm.naver.com with SMTP; 2 Feb 2017 09:18:22 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of webmaster@bill36524.com designates 1.244.115.202 as permitted sender) smtp.mailfrom=webmaster@bill36524.com
+X-Session-IP: 1.244.115.202
+Received: from mail.bill36524.com (mail.bill36524.com [1.244.115.202])
+  by crcvmail46-2.nm.naver.com with ESMTP id 0OD+uG3hThiHzxYoY84Ekw
+  for <1059230@naver.com>;
+  Thu, 02 Feb 2017 09:18:22 -0000
+From: "=?EUC-KR?B?vsa8vL7GvLy5q7n9wM4otb/A28H2u+cpW7nfvcXA/L/rXQ==?=" <webmaster@bill36524.com>
+To: "=?EUC-KR?B?tOO058DavvjAvQ==?=" <1059230@naver.com>
+Reply-to: <webmaster@bill36524.com>
+Subject: =?EUC-KR?B?W77GvLy+xry8uau5/cDOKLW/wNvB9rvnKSA=?=
+ =?EUC-KR?B?vsi8uri4tNRdwLi3zrrOxc0gud/H4MfRILy8?=
+ =?EUC-KR?B?sd2w6LvqvK2woSC1tcL4x9+9wLTPtNku?=
+Date: Thu, 02 Feb 2017 18:18:22 +0900
+X-WORKER_ID: <single.naver.com_Worker_3>
+X-MAIL_ID: <UE9TVF9JRD0yMDE3MDIwMl83>
+X-MEMBER_ID: <TV9JRD05MTE5MDQ4M18yNjI0Mjk3Ng==>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver5.0( PLUTO-build 0411 )
+MIME-Version: 1.0
+Message-ID: <201702021818227545@mail.bill36524.com_Ems@mail.bill36524.com>
+Content-Type: text/html;
+	charset="EUC-KR"
+Content-Transfer-Encoding: 8bit
+X-Naver-ESV: +/+YpB3G1H+YbXFCbHmRKAvwaAUZjJ+Y
+
+<html>
+
+<head>
+<title>Bill36524 전자세금계산서</title>
+
+</head>
+
+
+<body style="font-family:Gulim, Dotum; font-size:12px;font-size:12px;line-height:1.5em; margin:0 0 20px 0;">
+
+<table width="690" cellpadding="0" cellspacing="0" border="0" align="center" style="border-collapse:separate;border-collapse:collapse;empty-cells:show">
+<tr><td style="padding:0;margin:0;font-size:0;line-height:0"><img src="http://www.bill36524.com/mail_template/01/20160316/images/top.gif" alt="Bill36524" ></td></tr><tr height="42"><td style="background:url(http://www.bill36524.com/mail_template/01/20160316/images/h1.gif) no-repeat;text-align:left;padding:0;padding-left:70px;font-size:15px;font-weight:bold;color:#583e24" width="630" height="42">발행한 세금계산서가 도착했습니다.</td></tr>
+<tr>
+<td style="padding:13px 13px 10px;border-left:1px solid #e4e3df;border-right:1px solid #e4e3df;">
+<!--  content -->
+<table width="663" cellpadding="0" cellspacing="0" border="0" valign="top">
+<tr>
+<td width=480 valign="top" align="left">
+<!--- 문서제목 및 종류 테이블 ---->
+<table width="467" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #aa7650;font-family:'굴림',Gulim;font-size:12px;">
+<tr>
+<td align="left" style="padding:15px"><b style="color:#dda657">&middot;</b><span style="color:#aa7650">문서제목:</span> <b style="color:#2d2d2d">확인요청</b></td>
+<td align="right" style="padding:15px"><b style="color:#dda657">&middot;</b><span style="color:#aa7650">문서종류:</span> <b style="color:#2d2d2d"> 전자 세금계산서</b></td>
+</tr>
+</table><!--- //문서제목 및 종류 테이블 ---->
+<!--- 수신자 정보 테이블 ---->
+<table width="467" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;font-family:'굴림',Gulim;font-size:12px;">
+<tr><td style="background:url(http://www.bill36524.com/mail_template/01/20160316/images/title_bg.png) no-repeat;height:25px;color:white;font-weight:bold;padding-left:10px;">수신자 정보</td></tr>
+<tr><td>
+<table width="100%" style="border:1px solid #d29a51;font-family:'굴림',Gulim;font-size:12px;" cellpadding="0" cellspacing="0" border="0" valign="top" align="left">
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;상호</th>
+<td align="left" style="padding:8px 10px;">(주)애드앤월드</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;담당자</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">담당자없음</td>
+</tr>
+</table>
+</td></tr>
+</table><!--- //수신자 정보 테이블 ---->
+<!--- 발신자 정보 테이블 ---->
+<table width="467" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;font-family:'굴림',Gulim;font-size:12px;">
+<tr><td style="background:url(http://www.bill36524.com/mail_template/01/20160316/images/title_bg.png) no-repeat;height:25px;color:white;font-weight:bold;padding-left:10px;">발신자 정보</td></tr>
+<tr><td>
+<table width="100%" style="border:1px solid #d29a51;font-family:'굴림',Gulim;font-size:12px;" cellpadding="0" cellspacing="0" border="0" valign="top" align="left">
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;상호</th>
+<td align="left" style="padding:8px 10px;">아세아세무법인(동작지사)</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;담당자</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">안성만</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;연락처</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">02-855-1155 (H.P: )
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;이메일</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">dj8412@bill36524.com</td>
+</tr>
+</table>
+</td></tr>
+</table><!--- //발신자 정보 테이블 ---->
+<!--- 전자(세금)계산서 정보 테이블 ---->
+<table width="467" cellpadding="0" cellspacing="0" border="0" style="margin-top:10px;font-family:'굴림',Gulim;font-size:12px;">
+<tr><td style="background:url(http://www.bill36524.com/mail_template/01/20160316/images/title_bg.png) no-repeat;height:25px;color:white;font-weight:bold;padding-left:10px;">전자(세금)계산서 정보</td></tr>
+<tr><td>
+<table width="100%" style="border:1px solid #d29a51;font-family:'굴림',Gulim;font-size:12px;" cellpadding="0" cellspacing="0" border="0" valign="top" align="left">
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;관리번호</th>
+<td align="left" style="padding:8px 10px;">TX2017025178003</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;품목</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">소모품비</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;공급가액</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">200,000원</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;부가세액</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">20,000원</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;메시지</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">.</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;처리일자</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">2017-02-02 18:19:17</td>
+</tr>
+<tr>
+<th align="left" bgcolor="#fbf9f4" style="border-right:1px solid #e8e4e0;border-top:1px solid #e8e4e0;padding:8px 10px;"><img src="http://www.bill36524.com/mail_template/01/20160316/images/bt.png" valign="absmiddle" />&nbsp;작성일자</th>
+<td align="left" style="border-top:1px solid #e8e4e0;padding:8px 10px;">2017-01-30</td>
+</tr>
+</table>
+</td></tr>
+<!--//문서내용-->
+<tr>
+
+<td>
+<ul style="vertical-align:top; text-align:left; margin:3; padding:0 0 0 0px; color:#676767;font-size:11px;">
+
+<li style="background:url(http://www.bill36524.com/mail_template/01/20160316/images/bill36524_bu_arrow.gif) no-repeat left 5px;padding:3px 0 3px 8px;margin:0;letter-spacing:-1px;color:#575757; list-style:none"> 발행된 세금계산서는 매입자확인여부와 상관없이 발행일의 익일날 국세청으로 일괄 전송 됩니다.</li>
+</ul>
+</td>
+
+</tr>
+
+
+</table><!--- //광고 메인 1,2 ---->
+</td>
+<td width=184 style="text-align:left;" valign="top" align="right">
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=TAX01" target="_blank" border="0"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=TAX01" style="border-style:none;margin-top:10px;" alt=""></a><br><br>
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=TAX02" target="_blank" border="0"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=TAX02" style="border-style:none;margin-top:10px;" alt="" ></a>
+</td>
+</tr>
+</tr>
+
+<!-- 세금계산서 보기_btn -->
+<tr>
+<td colspan="2" align="center" style="border-style:none;padding:20px;"><a href="http://www.bill36524.com/popupBillTax.jsp?NO_TAX=TX2017025178003&NO_BIZ_NO=1198700800" target="_blank" ><img src="http://www.bill36524.com/mail_template/01/20160316/images/btn_taxview.png" border="0" alt="세금계산서 보기" ></a></td>
+</tr>
+<tr>
+<!--- //광고 서브 3,4 ---->
+<td colspan="2" align="center" style="padding:0;">
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=TAX03" target="_blank" border="0"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=TAX03" style="border-style:none;margin-top:10px;" alt="" ></a>
+<!--a href="" target="_blank"><img src=""  style="margin-top:5px;" alt="" ></a-->
+</td>
+</tr>
+</table><!--  //content -->
+<!-- footer -->
+<tr><td><img src="http://www.bill36524.com/mail_template/01/20160316/images/footer.png" border="0" usemap="#Map"></td></tr> <!-- //footer -->
+</tr>
+</table>
+<map name="Map">
+<area shape="rect" coords="461,87,563,120" href="http://1.244.115.202:80/Check.html?TV9JRD05MTE5MDQ4M18yNjI0Mjk3Ng==&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDE3MDIwMl83&VEM9MjAxNzAyMDk=&S0lORD1D&Q0lEPTAwNQ==&URL=http://www.bill36524.com/AppDZMain.jsp" alt="Bill36524 바로가기" target="_blank">
+<area shape="rect" coords="568,87,670,120" href="http://1.244.115.202:80/Check.html?TV9JRD05MTE5MDQ4M18yNjI0Mjk3Ng==&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDE3MDIwMl83&VEM9MjAxNzAyMDk=&S0lORD1D&Q0lEPTAwNg==&URL=https://www.bill36524.com/html/service_intro.html" alt="서비스 소개하기" target="_blank">
+</map>
+
+<div style="display:none"><IMG width=0 height=0 src="http://1.244.115.202:80/Check.html?TV9JRD05MTE5MDQ4M18yNjI0Mjk3Ng==&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDE3MDIwMl83&VEM9MjAxNzAyMDk=&S0lORD1P"></div></body>
+
+</html>
+
+
+

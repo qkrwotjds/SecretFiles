@@ -1,0 +1,64 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1692854456;
+	cv=none; b=LLZ/4wyu7ggXScZzLgwFn9slW7aSJa846tI1j0IQXfFP+RVVa0MnsSxpPvSF
+	 sqZnvYts3Ln2/za9Xg+B1L/3HdSBPv9J8bdsSmbj91C3GbS4+GWB4j/jKCIzXO7K+YwtDE
+	 B3mniiXJUI4k/ch2aY8JcsgMZ8+xUmQ+nbI8va35q55Acwg3kF/OqT3INvb4X44QWB37tg
+	 f9I+hAULQ3uM95dn7s32qxXt3BCx4MoEMolIqu1Jgbbwn26ykv3/Hft+v8h51chwy57k6T
+	 6bftZDRyqIdRT9TuGwvwtSbsGUkRp+BdNfkF4bw5+FN9Iyb+fchP54iFtSeXMab866DFdQ
+	 pg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1692854456; c=relaxed/relaxed;
+	bh=iitie2kaCVD4R2vD5bT7KSC3opc/SovRDZnEo9sV8QQ=;
+	h=from:to:subject:date:message-id; b=JqNqq1ONiqEeRAMwVgSjGGzGQTbEe+00rs
+	 iotuJ3Vz+zd1dWT4YleqFWdWeRLAeqrL5Lbdoct29Hl73RSx1df4JUXpltTTmWqVxM6KPp
+	 SERG065ghJShaa36Nc2TeS4ReMsyJnI0GWswyRa8tsfkt68OGye9DceAbuJVpAsLBvibjW
+	 xWPeMNvPCQXpjuz5pNeuhYxm85+X+GeXAHn7doMZdfgAFhrXzNEBklrZIKTBZCf1hS8YyG
+	 /MmF6Bzu0XdZleRZfzN9yH2MDm2MGTrn6R5XWzWBHN9TIidHeZV/FlKyKUCOI85NGvPQg3
+	 Z8PTybBLTO7zy98gtKsF/EG67elA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of newsletter@donga.com designates 210.115.151.65 as permitted sender) smtp.mailfrom=newsletter@donga.com
+Return-Path: <newsletter@donga.com>
+Received-SPF: pass (mx.naver.com: domain of newsletter@donga.com designates 210.115.151.65 as permitted sender)
+  client-ip=210.115.151.65; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of newsletter@donga.com designates 210.115.151.65 as permitted sender) smtp.mailfrom=newsletter@donga.com
+X-Naver-ESV: w9Fn+6J4p63qMBIYFHwdbXmmFxUmFxpYkXm=
+X-Session-IP: 210.115.151.65
+Received: from ems.donga.com (ems.donga.com [210.115.151.65])
+  by crcvmail203.nm.naver.com with ESMTP id Tin3bOwdTk+Dmzy7DqB6UQ
+  for <1059230@naver.com>;
+  Thu, 24 Aug 2023 05:20:56 -0000
+From: "=?euc-kr?B?tb++xrTlxMQ=?=" <privacy@donga.com>
+To: "=?euc-kr?B?udrA57y6?=" <1059230@naver.com>
+Reply-to: <privacy@donga.com>
+Subject: =?euc-kr?B?W01MQlBBUktdILCzwM4gwaS6uA==?=
+ =?euc-kr?B?IMDMv+uzu7+qIL7Is7s=?=
+Date: Thu, 24 Aug 2023 14:21:00 +0900
+X-WORKER_ID: <single.naver.com_Worker_2>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDgyNDAwMDAy>
+X-MEMBER_ID: <TV9JRD1xa3J3b3RqZHM=>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDg=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202308241421002377@ems.donga.com_Ems@ems.donga.com>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html lang="ko">
+<head>
+<title>µ¿¾Æ´åÄÄ</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+</head>
+<body style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px auto; padding-right: 0px">
+<img border="0" src="https://image.donga.com/secure/images/private_mlbpark_mail.jpg" usemap="#Map" /> <map name="Map" id="Map">
+<area shape="rect" coords="440,26,619,87" href="http://ems.donga.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyNDAwMDAy&VEM9MjAyMzA5MjQ=&S0lORD1D&Q0lEPTAwMQ==&URL=https://mlbpark.donga.com/" />
+<area shape="rect" coords="178,815,457,867" href="http://ems.donga.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyNDAwMDAy&VEM9MjAyMzA5MjQ=&S0lORD1D&Q0lEPTAwMg==&URL=https://secure.donga.com/mlbpark/policy/privacy.php" />
+</map><div style="display:none"><img src="http://ems.donga.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyNDAwMDAy&VEM9MjAyMzA5MjQ=&S0lORD1P" width=1 height=1></div>
+<iframe src="http://ems.donga.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyNDAwMDAy&VEM9MjAyMzA5MjQ=&S0lORD1E" frameborder="0" width="1" height="1"></iframe>
+</body>
+</html>
+
+

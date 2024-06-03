@@ -1,0 +1,102 @@
+Received: (qmail 16381 invoked from network); 6 Dec 2016 21:58:19 -0000
+Received: from 10.114.49.204 (HELO crcvmail14-1.nm.naver.com) (10.114.49.204)
+  by cmda003-2.nm.naver.com with SMTP; 6 Dec 2016 21:58:19 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of nbbc337@gmail.com designates 209.85.217.170 as permitted sender) smtp.mailfrom=nbbc337@gmail.com;
+  dkim=pass header.i=@gmail.com;
+  dmarc=pass (p=NONE) header.from=gmail.com
+X-Session-IP: 209.85.217.170
+Received: from mail-ua0-f170.google.com (mail-ua0-f170.google.com [209.85.217.170])
+  by crcvmail14-1.nm.naver.com with ESMTP id ca9lMOwcTwCnID9keJKRfA
+  for <1059230@naver.com>;
+  Tue, 06 Dec 2016 21:58:19 -0000
+Received: by mail-ua0-f170.google.com with SMTP id b35so395791946uaa.3
+        for <1059230@naver.com>; Tue, 06 Dec 2016 13:58:19 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:in-reply-to:references:from:date:message-id:subject:to;
+        bh=9PZomD2lCSb98tPSyUnC7ZI9/mvPpZeAt/rNJzrfzno=;
+        b=HholsLneie2cr29hF5g2AJiSePKPCjUv/X6Qk6AhrzpgniwsQTVLsPG+GE8LM3RIrR
+         IDNfNKHYmYCjCZo9smukoaUbIKFy1b55KKhlN2t6P5i7IU4OopMAHzfDvk5ZUyWd1sxD
+         VWg5P2qacs4tvat0pnFUD93a/4jyqw9aE9ZLWAw+rRL0+iN3Tv6ilaAhRRcwvULxZjBF
+         gg0PLgBGSzRuHAH4NuG5R4JT1WBykbl4AIDXxcUp/rqcNAohLZu/bAN2Za+/Ke/UJ7gp
+         jV0kSi6mOeWf7R8E/neLQxzvWyJhgYQECxdmH62qH/C+AS52jgkIodUOSsbRYfmKqEm+
+         62Vw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:in-reply-to:references:from:date
+         :message-id:subject:to;
+        bh=9PZomD2lCSb98tPSyUnC7ZI9/mvPpZeAt/rNJzrfzno=;
+        b=RP6uIGVx0WrkUK1O83zdkj34/BQLWySTN4mdU4+6h99hhSBWAm2bLoj+s5s2yCOp53
+         RaipeLcEzaKNahqlnVQh6gcWfqrHbf97uJas8pGD2iEXBe5dQ8Di4bucJunjc3kmIp0J
+         Ky8b+CnPdicOLAoTqHn7o1ffQ12hWyozm+tELjZztgcu9s03+excfFDEbJlNUSGEpjJF
+         uBRXWQAZ3jeZgRiNlmzecxCBSAsNMSeZ9sHBAJq2c1EO8t4fwzJVbMfJIi2K0hPTJY2P
+         JTUcEcslYHKE+tuVaqJA9zx5eBgXvgvRgULfH1ykP2y3gmWbS+QfBfpSI0P7jfMtGcSi
+         FygQ==
+X-Gm-Message-State: AKaTC00cK9II2JPos9y3kaEli7tPDMl3Ko0JfAph/FaroQ+2mQKhYW4XKJeKBhk/XpnOyIQsNWSwwTmClOrkJQ==
+X-Received: by 10.176.4.101 with SMTP id 92mr23065721uav.15.1481061497013;
+ Tue, 06 Dec 2016 13:58:17 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.103.73.11 with HTTP; Tue, 6 Dec 2016 13:58:16 -0800 (PST)
+In-Reply-To: <305e3ae86a6620a64da88f1935c8ff51@cweb02.nm.nhnsystem.com>
+References: <305e3ae86a6620a64da88f1935c8ff51@cweb02.nm.nhnsystem.com>
+From: =?UTF-8?B?6rmA7Iq57ZuI?= <nbbc337@gmail.com>
+Date: Wed, 7 Dec 2016 06:58:16 +0900
+Message-ID: <CAObZV8W+pG40LQc1YXPPTRG5s=HSCCeX7PFa2Zp8a1nNyvgyAA@mail.gmail.com>
+Subject: =?UTF-8?B?UmU6IOyVoOuTnOyVpOyblOuTnCDqtIDroKjquLDsgqwg67CPIOyCrOynhCA06rCcIOuztA==?=
+	=?UTF-8?B?64K065Oc66a964uI64ukLiDsgqzsl4XsnpAg6rCZ7J20IOuztOuCtOuTnOumveuLiOuLpA==?=
+To: =?UTF-8?B?7J6E67OR656A?= <1059230@naver.com>
+Content-Type: multipart/mixed; boundary=001a114809fa6ba1be0543048045
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmRKou9aAuljJ+Y
+
+--001a114809fa6ba1be0543048045
+Content-Type: multipart/alternative; boundary=001a114809fa6ba1b90543048043
+
+--001a114809fa6ba1b90543048043
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+7IiY7KCV67O4IOuTnOumveuLiOuLpH4g7ZmV7J24IOu2gO2DgeuTnOugpOyalH4NCg0KMjAxNi0x
+Mi0wNSAxODozMyBHTVQrMDk6MDAg7J6E67OR656AIDwxMDU5MjMwQG5hdmVyLmNvbT46DQoNCj4N
+Cj4NCg==
+--001a114809fa6ba1b90543048043
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">=EC=88=98=EC=A0=95=EB=B3=B8 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=
+=8B=A4~ =ED=99=95=EC=9D=B8 =EB=B6=80=ED=83=81=EB=93=9C=EB=A0=A4=EC=9A=94~</=
+div><div class=3D"gmail_extra"><br><div class=3D"gmail_quote">2016-12-05 18=
+:33 GMT+09:00 =EC=9E=84=EB=B3=91=EB=9E=80 <span dir=3D"ltr">&lt;<a href=3D"=
+mailto:1059230@naver.com" target=3D"_blank">1059230@naver.com</a>&gt;</span=
+>:<br><blockquote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-l=
+eft:1px #ccc solid;padding-left:1ex"><div><div style=3D"font-size:10pt;font=
+-family:Gulim"><p>=C2=A0</p></div></div>
+<table style=3D"display:none"><tbody><tr><td><img src=3D"https://mail.naver=
+.com/readReceipt/notify/?img=3DdYbqKov9KAJ0FxgqhAnmKrJ0aApCFoMZKzurFz3CaAC4=
+KxvqF6K%2Fp4M9KEIo%2BrkSKAU5W4d5W4C5bX0q%2BzkR74FTWx%2FsW4iSMqKqFdINW6JGWVl=
+oWrd%3D.gif" border=3D"0"></td></tr></tbody></table></blockquote></div><br>=
+</div>
+
+--001a114809fa6ba1b90543048043--
+--001a114809fa6ba1be0543048045
+Content-Type: text/plain; charset=EUC-KR; name="=?UTF-8?B?7Iuk7J6l7KeA7JuQLnR4dA==?="
+Content-Disposition: attachment; filename="=?UTF-8?B?7Iuk7J6l7KeA7JuQLnR4dA==?="
+Content-Transfer-Encoding: base64
+X-Attachment-Id: f_iwe1rpux9
+
+waa48SA6ICjB1im+1rXlvti/+bXlLCDGwMDlsd4gwfe/+LXpv6Gw1CC/3MGmwvcsIL7GxsTGriDB
+9r/4DQoNCijB1im+1rXlvti/+bXltMIgw9ax2SC48LXnIMbAwOW16b+hsNQgv9zBpsL3v80gvsbG
+xMauuKYgwfa/+MfPseK3ziDH37TZsO0gMDDAzyC54Mf7tNkuDQoNCr7WteW+2L/5teW0wiDDvMfo
+tNyxpLDtICe9rMHuuu23zrHXJ7imIL/uv7XHz7+pIDcwJSDAzLvzwMcgwaHAr8CywLsgwvfB9sfP
+sO0gwNa0wiCxubO7IMO8x+i03LGksO0gutC+3yAxwKcgseK+98DMtNkuDQoNCsDMIL73w7y0wiCx
+ubO7v6G8rSDDs8C9wLi3ziC5/cGkILHZt869w7CjKMHWIDQwvcOwoym6uLTZIMD7wLogwdYzML3D
+sKMgsdm5q8GmuKYgtbXA1MffwLi45ywgMn41s+LC9yCw5rfCwfe/+MDHIMbysdUgv6y6wMC6IDYw
+MDC4uL/4v6G8rSA5NjAwuLi/+CC89sHYwLi3ziC+97DoIMPWsO0gvPbB2MDMtNkuDQoNCijB1im+
+1rXlvti/+bXltMIgwqrAuiCx2bmrvcOwo7D6ILP0wLogsd6/qcO8sOi/oSDAzL7uIDEwv6m47cDH
+IMbAwOW16b+hsNQgv9zBpsL3v80gvsbGxMauuKYgwfa/+MfPtMIgxsSw3cD7wM4gurnB9iDH/cXD
+wLsguLa3w8fftNkuDQoNCr7WteW+2L/5teUgMDAwILTrx6W0wiChsMbAwOW16cC6IMH3v/iw/Liu
+ILnXILGzwLDAuyC4w7DtIMDWwLi45yDG8rHVIL+susDAuiA4NDAwuLi/+Lz2wdjAzLTZLiC0qbG4
+s6ogwNq9xcDHILTJt8LAuyC538jWx8+46SDD1rDtwMcgtOu/7LimIMfPsNq02bTCILDNwMwgsOa/
+tbnmxKehscDMtvOw7SC4u8fftNkuDQo=
+--001a114809fa6ba1be0543048045--
+

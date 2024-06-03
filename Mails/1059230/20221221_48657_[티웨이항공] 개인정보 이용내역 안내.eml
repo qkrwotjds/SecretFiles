@@ -1,0 +1,404 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1671617105;
+	cv=none; b=KYyRhTaZAPzDSXvSjthxbu65AUICkVAVj2MpUC4RNb6Fy257yHqGQV/sIZus
+	 Cz9eyl+r1bAA0okRXnXKt4vORbilUcKvQcg0+BvS5QWZymFbTvau53i2uFlhTITy5t3ZAD
+	 4+5/kAB7WptEaN1oRDBH02jnNYFAxOfvGqNYx6o6Ri4NlvuJuh+s945Ks01hQFc8lloQfJ
+	 kAUeFZch73m7bUMRBMKDbC7eZSS4qRBZ+lOddLHVApy8MBM33neSNSf+vtgvrQQf0pZwo7
+	 XJLSWMUjMJjLq9BqZcGDDLsd+VN1sqx9fOkCkH4xKNEXYhGwNZn8lD4oMyfRKfFYgyTnXG
+	 rg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1671617105; c=relaxed/relaxed;
+	bh=RSfiNHGDXT3FXtn/PkvQVOkNakH70o+AAgKPNjXhJ8o=;
+	h=from:to:subject:date:message-id; b=nvzxTYiw3eTHAsNxp4lgAL904uP8L1Iq7o
+	 MpZYh4OKFDDtziJRaAag5H1stEjMs86DvxQFwAco8vtDC9+uEj/fD10M41ZAWBZy6kWFmj
+	 9qMew8B0zGu6ugoQQSMRlEN6xd7Lj2X7vu5+mefzXMdUrWj8MHZyCsd/6AaMvfZAd66Jmr
+	 dXq4+Fr2AXCBIYN/1R0gSIULZ82MXChdJWfpTnrQCZlvKv+FMw8N+819jwvPLosaNtmk0y
+	 r5BKaks3T5O54opQbgUS9OGDAEIJEayOF1x+S+1dk4yQhUQJ6lDfSuuGxcYadhUHI36sfK
+	 i2dKba2IQKouRU9OM2WtywvSE+tw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender) smtp.mailfrom=noreply@twayair.com
+Return-Path: <noreply@twayair.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender)
+  client-ip=218.145.27.234; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender) smtp.mailfrom=noreply@twayair.com
+X-Naver-ESV: wq+n+6J4p63qMBIYFHwdbXmwKAg9KAkYkXm=
+X-Session-IP: 218.145.27.234
+Received: from twayair.com (ems2.twayair.com [218.145.27.234])
+  by crcvmail103.nm.naver.com with ESMTP id mUtVdC25R-SrojStWpnffg
+  for <1059230@naver.com>;
+  Wed, 21 Dec 2022 10:05:05 -0000
+From: "=?euc-kr?B?xry//sDMx9ew+A==?=" <noreply@twayair.com>
+To: "=?euc-kr?B?udrA57y6?=" <1059230@naver.com>
+Reply-to: <noreply@twayair.com>
+Subject: =?euc-kr?B?W8a8v/7AzMfXsPhdILCzwM7BpLq4IMDMv+s=?= =?euc-kr?B?s7u/qiC+yLO7?=
+Date: Wed, 21 Dec 2022 19:05:05 +0900
+X-WORKER_ID: <single.naver.com_Worker_1>
+X-MAIL_ID: <UE9TVF9JRD0yMDIyMTIyMTAwMDAx>
+X-MEMBER_ID: <TV9JRD1xa3J3b3RqZHM=>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202212211905054771_Ems@twayair.com>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>개인정보 이용 내역 안내</title>
+</head>
+<body style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" style="color:#1a1a1a; margin:0 auto; border-spacing:0; border-collapse:collapse; border:1px solid #cdcdcd; text-align:left; font-family:dotum; font-size:13px; line-height:1.3;" width="700">
+<thead>
+<tr>
+<td style="line-height:1; font-size:0;" valign="top"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/bg_top.png" style="vertical-align:top;" /></td>
+</tr>
+<tr>
+<td style="padding:30px;" valign="top"><a href="#" style="border:0"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/logo.png" /></a></td>
+</tr>
+<tr>
+<td style="padding:10px 30px 30px 30px; font-weight:bold; font-family:'맑은 고딕'; font-size:30px;" valign="top">개인정보 이용 내역 안내</td>
+</tr>
+</thead>
+<tbody><!-- 메일링 인포 -->
+<tr>
+<td style="padding:10px 30px 30px 30px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="color:#1a1a1a; font-family:dotum; color:#4d4d4d; font-size:13px; line-height:1.3;" width="640">
+<tbody>
+<tr>
+<td style="padding-bottom:10px;"><span style="color:#696969; padding-right:5px;">&bull;</span> 티웨이항공을 이용해 주시는 고객님께 진심으로 감사의 말씀을 드립니다.</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;"><span style="color:#696969; padding-right:5px;">&bull;</span> 「개인정보 보호법」 제39조의8(개인정보 이용내역의 통지)에 따라 개인정보 이용내역을 안내해드립니다.</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;"><span style="color:#696969; padding-right:5px;">&bull;</span> 본 메일은 이메일 수신 동의 여부와 관계없이 법령 준수를 위해 연 1회 고객님께 발송하는 메일인 점 참고하여 주시기 바랍니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //메일링 인포 --><!-- 회원관리 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="font-family:'맑은 고딕'; font-size:20px; font-weight:bold; margin:0">1. 개인정보의 수집&middot;이용 목적 및 항목</p>
+<p style="margin:7px 0 20px 0;">티웨이항공은 서비스 제공을 위해 필요한 최소한의 범위 내에서 다음과 같은 개인정보를 수집하고 있습니다.</p>
+<p style="margin:0 0 10px 0; font-weight:bold">가. 회원관리</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">목적</th>
+<th colspan="2" height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">구분</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="320px">수집&middot;이용 항목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="50" rowspan="6" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">회원관리</td>
+<td colspan="2" height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">내국인</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 이름(한국, 영문), 성별, 아이디, 비밀번호,<br />
+생년월일, 이메일, 휴대폰번호, 본인확인정보(DI)<br />
+(선택) 자택전화번호, 주소</td>
+</tr>
+<tr>
+<td colspan="2" height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">외국인</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 이름(영문), 성별, 아이디, 비밀번호, 생년월일, 이메일, 휴대폰번호<br />
+(선택) 자택전화번호, 주소</td>
+</tr>
+<tr>
+<td colspan="2" height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">비회원</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 휴대폰번호, 이메일</td>
+</tr>
+<tr>
+<td height="50" rowspan="3" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">간편 로그인</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">카카오</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 프로필정보(닉네임/프로필사진), 카카오계정(이메일), 성별, CI(연계정보), 카카오계정(전화번호), 출생 연도, 생일</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">네이버</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 이용자 고유 식별자, 출생연도, 휴대폰번호, 이름, 이메일, 성별, 생일</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">페이스북</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(선택) Authorization ID</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //회원관리 --><!-- 항공권 예매 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="margin:0 0 10px 0; font-weight:bold">나. 항공권 예매</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">목적</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">구분</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="320px">수집&middot;이용 항목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="50" rowspan="3" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">항공권 예매</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">예약정보<br />
+수신연락처</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 휴대전화, 이메일주소</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">국내선 탑승자</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 성/이름, 성별, 생년월일<br />
+(선택) 국적</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">국제선 탑승자</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 성/이름, 성별, 생년월일, 여정정보(편명, 출발시간)<br />
+(선택) 여권정보(여권번호, 만료일 발급처, 국적)</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //항공권 예매 --><!-- 기타 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="margin:0 0 10px 0; font-weight:bold">다. 기타</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">목적</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="320px">수집&middot;이용 항목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">맞춤서비스제공 및 마케팅</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(선택) 휴대폰번호, 이메일, 주소, 모바일기기 정보(디바이스토큰), 광고식별값(ADID, IDFA)</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">제휴문의</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 업체명, 이름, 이메일, 연락처</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">온라인면세점 주문</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">(필수) 이메일주소, 휴대전화번호, 성별, 여권이름(영문), 생년월일, 여권번호</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //기타 --><!-- 결제 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="margin:0 0 10px 0; font-weight:bold">라. 결제</p>
+<p style="margin:0 0 10px 0;">결제정보는 이용자로부터 수집하지 않으며 결제업체로부터 제공 받아 결산 목적으로 보관하고 있습니다.</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">목적</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">구분</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="320px">수집&middot;이용 항목</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="50" rowspan="5" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">결산</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">실시간 계좌이체</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">은행/증권사코드, 계좌번호, 결제자 성명,<br />
+결제자 연락처</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">신용카드</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">카드번호, 유효기간, 결제자, 결제자연락처,<br />
+생년월일, 사업자번호</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">현금영수증</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">카드번호 또는 결제자연락처</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">간편결제</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">결제자, 결제자 연락처</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">DCC(해외카드)</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">카드번호 또는 결제자연락처</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //결제 --><!-- 개인정보 취급 위탁 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="font-family:'맑은 고딕'; font-size:20px; font-weight:bold; margin:0">2. 개인정보 취급 위탁</p>
+<p style="margin:7px 0 10px 0;">티웨이항공은 서비스 향상을 위해 아래와 같이 개인정보를 위탁하고 있으며, 관계법령에 따라 위탁계약 시 개인정보가 안전하게 관리될 수 있도록 규정하고 있습니다.</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">위탁업체</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="420px">위탁업무</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">IBS</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">항공권 예약 발권 서비스(시스템 임대)</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">㈜나이스평가정보</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">본인인증</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">공항지점 조업사</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">탑승수속 등 공항운송 업무 및 예약관련 업무(인력파견)</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">㈜티웨이에어서비스</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">전화를 이용한 항공권 예약 발권 및 고객상담</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">인포뱅크<br />
+KT 크로샷<br />
+비즈톡</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">SMS, LMS 카카오톡 알림톡 발송</td>
+</tr>
+<tr>
+<td height="50" style="padding:10px; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">KICC<br />
+FDK<br />
+엑심베이<br />
+E-Context<br />
+금융결제원<br />
+토스페이먼츠<br />
+갤럭시아컴즈<br />
+KSNET<br />
+페이코<br />
+카카오<br />
+네이버파이낸셜<br />
+LINE<br />
+현대이지웰</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">항공권 구매 등 당사의 유사 상품 및 서비스에 대한 대금 결제</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">갤럭시아컴즈</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">편의점결제 관련 고객 상담</td>
+</tr>
+<tr>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">에스케이플래닛</td>
+<td height="50" style="text-align:left; padding:10px; border-bottom:1px solid #e1e1e1;">이벤트 당첨자 기프티콘 전송</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //개인정보 취급 위탁 --><!-- 개인정보 제3자 제공 -->
+<tr>
+<td style="padding:0 30px 40px 30px;">
+<p style="font-family:'맑은 고딕'; font-size:20px; font-weight:bold; margin:0">3. 개인정보 제3자 제공</p>
+<p style="margin:7px 0 10px 0;">티웨이항공은 개인정보 제3자 제공에 동의한 이용자에 한하여 정보를 제공합니다. 이용자는 제3자에게 개인정보 제공 여부에 대해 선택할 수 있으며, 제3자 정보 제공 및 활용 동의 여부와 관계없이 티웨이항공 서비스에 가입할 수 있습니다.</p>
+<table border="0" cellpadding="0" cellspacing="0" style="border-top:1px solid #000; text-align:center; font-family:dotum; font-size:13px; border-spacing:0;" width="640">
+<thead>
+<tr>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="320px">제공받는자</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="200px">목적</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="480px">항목</th>
+<th height="50" style="font-weight:normal; background-color:#f5f5f5; border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;" width="200px">보유기간</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td height="60" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">(주)타이거에어타이완</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">공동운항 구간<br />
+항공권 이용</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">성명,탑승관련 정보(영문 성명, 성별,<br />
+생년월일), 여권정보(여권번호, 여권만료일, 발급국가, 국적)</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">해당 제휴사<br />
+서비스<br />
+종료시점까지</td>
+</tr>
+<tr>
+<td height="60" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">에이스아메리칸<br />
+화재해상보험주식회사<br />
+한국지점</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">여행자보험 가입</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">예약번호, 여행일, 여행지, 이름, 생년월일, 성별, 전화번호, 이메일</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">보험 서비스<br />
+종료시점까지</td>
+</tr>
+<tr>
+<td height="60" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">(주)지마켓</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">티웨이페이 가입</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">암호화된 본인인증정보(CI)</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">해당 제휴사<br />
+서비스<br />
+종료시점까지</td>
+</tr>
+<tr>
+<td height="60" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">한국공항공사</td>
+<td height="50" rowspan="2" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">탑승객 신원 확인</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">생년월일, 전화번호, 성별, 내/외국인 구분, 국적, 좌석번호, 예약번호</td>
+<td height="50" rowspan="2" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">서비스 제공 및<br />
+관계법령에 따른<br />
+보존 기간<br />
+(탑승수속 시 제공되며, 개인정보는 항공기 출발 즉시 폐기)</td>
+</tr>
+<tr>
+<td height="60" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">인천공항공사</td>
+<td height="50" style="border-right:1px solid #e1e1e1; border-bottom:1px solid #e1e1e1;">(국내선) 탑승자 성명, 국적, 예약번호<br />
+(국제선) 탑승자 성명, 국적, 여권번호,<br />
+예약번호</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //개인정보 제3자 제공 --><!-- button 2type -->
+<tr>
+<td style="text-align:center; padding:0 30px 40px 30px; border-radius:3px;">
+<table border="0" cellpadding="0" cellspacing="10" height="46" style="text-align:center; margin:0 auto;" width="500">
+<tbody>
+<tr>
+<td style="height:46px; font-family:dotum,'돋움'; font-size:14px; background-color:#d32c26; border-radius:3px;" width="240"><a href="http://ems2.twayair.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIyMTIyMTAwMDAx&VEM9MjAyMjEyMzA=&S0lORD1D&Q0lEPTAwMg==&URL=https://www.twayair.com/app/board/regulation?viewIndex=5" style="display:block; padding:10px 0; color:#fff; font-weight:bold; text-decoration:none;" target="_blank">개인정보 처리방침 자세히보기 </a></td>
+<td width="10"></td>
+<td style="height:46px; font-family:dotum,'돋움'; font-size:14px; background-color:#d32c26; border-radius:3px;" width="240"><a href="http://ems2.twayair.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIyMTIyMTAwMDAx&VEM9MjAyMjEyMzA=&S0lORD1D&Q0lEPTAwMw==&URL=https://www.twayair.com/app/main" style="display:block; padding:10px 0; color:#fff; font-weight:bold; text-decoration:none;" target="_blank">티웨이항공 홈페이지 바로가기 </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //button 2type -->
+<tr>
+<td height="60"></td>
+</tr>
+</tbody>
+<!-- 안내성 수신동의 footer -->
+<tfoot>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="border-spacing:0; border-collapse:collapse; background-color:#f5f5f5; border-top:1px solid #ccc; padding:30px; line-height:1.7; font-size:11px;" width="700">
+<tbody>
+<tr>
+<td colspan="2" style="padding:30px 30px 15px 30px;" width="700">
+<p style="margin:0; word-break:keep-all; font-size:11px;">본 메일은 발신전용이므로, 문의사항은 <span style="color:#d22c26;">홈페이지&gt;고객센터</span> 혹은 <span style="color:#d22c26;">예약센터 (+82 1688-8686)</span>를 이용해 주시기 바랍니다.</p>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0 30px 30px;" valign="top" width="120"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/logo_footer.png" /></td>
+<td style="padding:0 30px 30px 0;" width="580">
+<p style="margin:0; word-break:keep-all; font-size:11px;">대표이사. 정홍근 I 사업자등록번호. 101-81-94800 I 주소. 서울시 강서구 하늘길 210 국제화물청사 3층<br />
+통신판매업신고번호. 2013-서울성동-0169 I 개인정보 관리책임자. 경영본부장 김형이<br />
+COPYRIGHT ⓒ 2019 t&#39;way AIR ALL RIGHTS RESERVED.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tfoot>
+<!-- //안내성 수신동의 footer -->
+</table>
+<div style="display:none"><img src="http://ems2.twayair.com:80/Check.html?TV9JRD1xa3J3b3RqZHM=&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTI=&UE9TVF9JRD0yMDIyMTIyMTAwMDAx&VEM9MjAyMjEyMzA=&S0lORD1P" width=1 height=1></div></body>
+</html>
+
+

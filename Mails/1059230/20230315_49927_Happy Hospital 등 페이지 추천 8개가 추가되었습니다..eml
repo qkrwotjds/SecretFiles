@@ -1,0 +1,733 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1678829459;
+	cv=none; b=HRCcauKAizg/4rDdJgs8KMIGlXnpX4zVNlNLNMJ9o5iFCeW1CNiA4JFAVQaw
+	 hvDy5YMslwoQmFXd1ULcE7Do9Ep3o9rdP687PY/YsIw1FGSOL4YGzUG13jY1Lw1Zn/Otm1
+	 sUowYf16W6A9J/Yp5vHGqijpoP9D+QpRMuwA0kY7gipKxnAHUSiNtUgm3zXT4kY1U258+b
+	 rv87Q1YIplgvZXEI3Uz+i/7+3maQP0H9oEFI0exo7qqQ+rpQinFEk6GwiX5y1uUjhp50vC
+	 p6o2FnVuAfwDx3f1xXuvLen1S53kEvjv3nqhwwC+75ehGLfdKo9SS3p/ViNn9TmsOQwret
+	 Vg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1678829459; c=relaxed/relaxed;
+	bh=OszHpZP8CJfaTHLIdBgGLMMpcJtnjGKk7kpJNOxpkRE=;
+	h=dkim-signature:date:to:subject:from:message-id; b=J18ZgYp8p0TUFYGYlHS
+	 Ru8stII7xrN8mYitS66GkP982xwtiRT2dQngBc//J8InQUlb2iWoPrksfw0YOqeg8dpvn8
+	 LMy1Cpp0A1pcXVvQdUf9rbmL/LdxB14FOyBCJS/AQfYa7RBCklKRjCS96rrI8MaE6RIxox
+	 0Y9NRYzqZlgxJMFEgR1y6kGP/85nbQUYI2c2VMvKM1uW/r7Hz9vVCjI4INhtW9s0KBnkzq
+	 ODz8I433ORMe6V38r6SlsnHRhl4qT1knjKXCrUyk7nQibDgxxArehNhJ7Vwb/FcJH8TLzT
+	 GoaXZ0eKweFvHV2y8ILM8wz/AMzrViu6RqSImT5LAIA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of pageupdates@facebookmail.com designates 69.171.232.128 as permitted sender) smtp.mailfrom=pageupdates@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+Return-Path: <pageupdates@facebookmail.com>
+Received-SPF: pass (mx.naver.com: domain of pageupdates@facebookmail.com designates 69.171.232.128 as permitted sender)
+  client-ip=69.171.232.128; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of pageupdates@facebookmail.com designates 69.171.232.128 as permitted sender) smtp.mailfrom=pageupdates@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+X-Naver-ESV: +9RYpB3G1H+qbrJmjAKwjAUwKqg9aBwBjg==
+X-Session-IP: 69.171.232.128
+Received: from 69-171-232-128.mail-mail.facebook.com (69-171-232-128.mail-mail.facebook.com [69.171.232.128])
+  by crcvmail304.nm.naver.com with ESMTP id oPUZ8czaTvel8IcMPq0N7g
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256);
+  Tue, 14 Mar 2023 21:30:59 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1678829457;
+	bh=OszHpZP8CJfaTHLIdBgGLMMpcJtnjGKk7kpJNOxpkRE=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=u+o1f9U3Y5ctL7eIC+L7BtF25Vhl4T7kZLR93pQWiSoqwvg7b1OdurcckuhqMj3Xg
+	 ArMI0dKpffVwo6MRd/u9WhSebjRHXIUtOF2onAe6dAoN9kVJALK6ENZhV0FrJh557k
+	 Nb+DZJqQYGeWU4w2hKcqHxEEBuPsMzTAqMv3hK4c=
+X-Facebook: from 2401:db00:221c:5d00:face:0:357:0 ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTPS (ZuckMail);
+Date: Tue, 14 Mar 2023 14:30:57 -0700
+To: =?UTF-8?B?67CV7J6s7ISx?= <1059230@naver.com>
+Subject: =?UTF-8?B?SGFwcHkgSG9zcGl0YWwg?=
+ =?UTF-8?B?65OxIO2OmOydtOyngCDstpTsspwgOOqwnOqwgCDstpTqsIA=?=
+ =?UTF-8?B?65CY7JeI7Iq164uI64ukLg==?=
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Return-Path: pageupdates@facebookmail.com
+From: =?UTF-8?B?RmFjZWJvb2sg7Y6Y7J207KeA?= <pageupdates@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Errors-To: pageupdates@facebookmail.com
+X-Facebook-Notify: pages_you_may_like; mailid=U1U5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4
+List-Unsubscribe: <https://www.facebook.com/o.php?k=AS0wKbwdEiv6vY6nO70&u=100006079116292&mid=5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&ee=AY3hw-B5NtAIBKyrWafPgESkSIee31guF9yF3eJABK5tUe79tALCuDLmakjfIPLHh7MopDlxtdNxum8>
+Feedback-ID: 111:pages_you_may_like:Facebook
+X-FACEBOOK-PRIORITY: 1
+X-Auto-Response-Suppress: All
+Require-Recipient-Valid-Since: 1059230@naver.com; Monday,  5 Apr 2021 23:21:56 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_118879ace162c063ce5af76340663921"
+Message-ID: <81cee3a6-c2af-11ed-ab12-bb4f313a8c66@facebookmail.com>
+
+
+--b1_118879ace162c063ce5af76340663921
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94!
+
+
+
+=EA=B3=A0=EB=A7=99=EC=8A=B5=EB=8B=88=EB=8B=A4!
+Facebook =ED=8C=80
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+1059230@naver.com =EC=A3=BC=EC=86=8C=EB=A1=9C =EC=A0=84=EC=86=A1=EB=90=9C =
+=EB=A9=94=EC=8B=9C=EC=A7=80=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EC=95=9E=EC=9C=BC=EB=A1=9C Meta=EB=A1=9C=EB=B6=80=ED=84=B0 =
+=EC=9D=B4=EC=99=80 =EA=B0=99=EC=9D=80 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =
+=EB=B0=9B=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A0=A4=EB=A9=B4 =
+=EC=88=98=EC=8B=A0=EC=9D=84 =EA=B1=B0=EB=B6=80=ED=95=98=EB=A0=A4=EB=A9=B4 =
+=EC=95=84=EB=9E=98 =EB=A7=81=ED=81=AC=EB=A5=BC =
+=EB=94=B0=EB=9D=BC=EA=B0=80=EC=84=B8=EC=9A=94.
+https://www.facebook.com/o.php?k=3DAS0wKbwdEiv6vY6nO70&u=3D100006079116292=
+&mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&ee=3DAY3tIj2QgOVbvtO9n=
+kgiQGXHPPrXXm0FYEvUBfdBBVLx4_CsSKgLfhV20qqoyR-31HRVJJG8uyFHWMM
+Meta Platforms, Inc., Attention: Community Support, 1 Facebook Way, Menlo =
+Park, CA 94025
+=EA=B3=84=EC=A0=95=EC=9D=84 =EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =
+=EC=9C=A0=EC=A7=80=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4 =EC=9D=B4 =
+=EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =EC=A0=84=EB=8B=AC=ED=95=98=EC=A7=80 =
+=EB=A7=88=EC=84=B8=EC=9A=94. =EB=8D=94 =
+=EC=95=8C=EC=95=84=EB=B3=B4=EB=A0=A4=EB=A9=B4 =EC=95=84=EB=9E=98 =
+=EB=A7=81=ED=81=AC=EB=A1=9C =EC=9D=B4=EB=8F=99=ED=95=98=EC=84=B8=EC=9A=94.
+https://www.facebook.com/email_forward_notice/?mid=3D5f6e2a7d03234G5af47ad=
+23404G5f6e2f1663506G5a4
+
+
+--b1_118879ace162c063ce5af76340663921
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style nonce=3D"1ZWXzTee">@media =
+all and (max-width: 480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline =
+!important}*[class].d_mb_flex{display:block =
+!important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only =
+screen and (max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}.d_mb_flex{display:block =
+!important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text =
+h5,.mb_text h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr" bgcolor=3D"#ffffff"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+id=3D"email_table" style=3D"border-collapse:collapse;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"><span =
+style=3D"color:#FFFFFF;font-size:1px;opacity:0;">=ED=9A=8C=EC=9B=90=EB=8B=
+=98=EC=9D=98 =EA=B4=80=EC=8B=AC=EC=82=AC=EB=A5=BC =
+=EA=B8=B0=EB=B0=98=EC=9C=BC=EB=A1=9C =EC=A2=8B=EC=95=84=ED=95=A0 =
+=EB=A7=8C=ED=95=9C =ED=8E=98=EC=9D=B4=EC=A7=80=EB=A5=BC =
+=EC=B0=BE=EC=95=84=EB=B3=B4=EC=84=B8=EC=9A=94.</span></td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"15" style=3D"line-height:15px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td width=3D"32" align=3D"left" =
+valign=3D"middle" style=3D"height:32;line-height:0px;"><a =
+href=3D"https://www.facebook.com/n/?Happy-Hospital-107139252212529%2F&amp;=
+aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad=
+23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n=
+_m=3D1059230%40naver.com" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"32" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/I92GqZOkKcu.png" =
+height=3D"32" style=3D"border:0;" /></a></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+width=3D"100%" style=3D""><a href=3D"https://www.facebook.com/n/?Happy-Hos=
+pital-107139252212529%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&am=
+p;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829=
+456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com" =
+style=3D"color:#1b74e4;text-decoration:none;">Facebook</a></td></tr><tr =
+style=3D"border-bottom:solid 1px #e5e5e5;"><td height=3D"15" =
+style=3D"line-height:15px;" colspan=3D"3">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" height=3D"100%" align=3D"center" =
+style=3D"border-collapse:collapse;max-width:500px;"><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:18px;color:#1C1E21;word-break:break-word;">=ED=
+=94=BC=EB=93=9C=EC=97=90=EC=84=9C =EB=8D=94 =EB=A7=8E=EC=9D=80 =
+=EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=84 =EB=B3=B4=EB=A0=A4=EB=A9=B4 =
+=EA=B4=80=EC=8B=AC =EC=9E=88=EB=8A=94 =ED=8E=98=EC=9D=B4=EC=A7=80=EC=97=90 =
+=EC=A2=8B=EC=95=84=EC=9A=94=EB=A5=BC =
+=EC=84=A4=EC=A0=95=ED=95=98=EC=84=B8=EC=9A=94.<br /></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"center" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"padding-top:15px;"><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:12p=
+x;color:#8D949E;font-weight:500;">=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=84 =
+=EC=9C=84=ED=95=9C =EC=B6=94=EC=B2=9C<br /></div><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"padding-top:10px;padding-bottom:5px;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"height:100%;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;background:#FFFFFF;"><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;"><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?Happy=
+-Hospital-107139252212529%2F&amp;aref=3D1678829456602374&amp;medium=3Demai=
+l&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.167=
+8829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_=
+107139252212529&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-1/327782049_2044013256141=
+31_4391471802452471058_n.jpg?stp=3Ddst-jpg_p200x200&amp;_nc_cat=3D105&amp;=
+ccb=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3D7frwHmPIzb0AX8QbNm_&amp;_nc_a=
+d=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfDeJniEMTvvt=
+9zUqK2f5Zk1KZxJ05mzSWuxAjD0BkgsaQ&amp;oe=3D6416CBD7" =
+style=3D"border:0;background:#FFFFFF;" /></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?Crazy=
+-Hospital-107961755224601%2F&amp;aref=3D1678829456602374&amp;medium=3Demai=
+l&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.167=
+8829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_=
+107961755224601&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-1/331070871_9143239330815=
+63_7316454047730640308_n.jpg?stp=3Ddst-jpg_p200x200&amp;_nc_cat=3D110&amp;=
+ccb=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3Dc_ZpWHGbiH4AX9oxefD&amp;_nc_a=
+d=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfApMTFGP4PPK=
+J34g4t1UOHwh8LTu0oTNK1bZbfsRbLbnQ&amp;oe=3D6416238A" =
+style=3D"border:0;background:#FFFFFF;" /></a></td></tr><tr><td =
+valign=3D"top" style=3D"background:#FFFFFF;padding:6px 10px 6px =
+10px;border:solid 1px #E5E5E5;border-bottom:0;border-top:0;width:48%;"><a =
+href=3D"https://www.facebook.com/n/?Happy-Hospital-107139252212529%2F&amp;=
+aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad=
+23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n=
+_m=3D1059230%40naver.com&amp;lloc=3Dpyml_107139252212529&amp;rms=3Dv2&amp;=
+irms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">Happy Hospital</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EC=BB=
+=A4=EB=AE=A4=EB=8B=88=ED=8B=B0</div><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:13p=
+x;line-height:17px;color:#8D949E;">131K=EB=AA=85=EC=9D=B4 =
+=EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td><td width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;padding:6px 10px 6px 10px;border:solid 1px =
+#E5E5E5;border-bottom:0;border-top:0;width:48%;"><a href=3D"https://www.fa=
+cebook.com/n/?Crazy-Hospital-107961755224601%2F&amp;aref=3D167882945660237=
+4&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a=
+4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.c=
+om&amp;lloc=3Dpyml_107961755224601&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">Crazy Hospital</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EC=BB=
+=A4=EB=AE=A4=EB=8B=88=ED=8B=B0</div><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:13p=
+x;line-height:17px;color:#8D949E;">141K=EB=AA=85=EC=9D=B4 =
+=EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td></tr><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?Happy-Hospital-1071=
+39252212529%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f=
+6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklN=
+XQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_10713925221252=
+9&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =
+=EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?Crazy-Hospital-1079=
+61755224601%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f=
+6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklN=
+XQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_10796175522460=
+1&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"padding-top:10px;padding-bottom:5px;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"height:100%;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;background:#FFFFFF;"><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;"><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?JTBC.=
+ent%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03=
+234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNE=
+kUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_552160774843078&amp;rm=
+s=3Dv2&amp;irms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;"><img =
+width=3D"100%" src=3D"https://scontent.xx.fbcdn.net/v/t1.6435-1/91859711_3=
+092604004132063_9120591614035623936_n.png?stp=3Ddst-png_p200x200&amp;_nc_c=
+at=3D1&amp;ccb=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3DjTLu9bAXmrIAX-Ason=
+J&amp;_nc_ad=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_Af=
+BR_W04oIV0rhUbbkXqJ7Gqc2LvkgBvQI5PrZxaMBKmtQ&amp;oe=3D643849F6" =
+style=3D"border:0;background:#FFFFFF;" /></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?CAPCO=
+Masia%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d=
+03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98a=
+NEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_123767834308818&amp;=
+rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-1/317811727_6070596552959=
+220_2484129868976572688_n.jpg?stp=3Ddst-jpg_p200x200&amp;_nc_cat=3D1&amp;c=
+cb=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3Dmam_9s99650AX9K0v08&amp;_nc_ad=
+=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfDvKiLEviTW20=
+nAWeRR3sWaBa1uK8LUb5JbvYP6_4Svgw&amp;oe=3D64150C8B" =
+style=3D"border:0;background:#FFFFFF;" /></a></td></tr><tr><td =
+valign=3D"top" style=3D"background:#FFFFFF;padding:6px 10px 6px =
+10px;border:solid 1px #E5E5E5;border-bottom:0;border-top:0;width:48%;"><a =
+href=3D"https://www.facebook.com/n/?JTBC.ent%2F&amp;aref=3D167882945660237=
+4&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a=
+4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.c=
+om&amp;lloc=3Dpyml_552160774843078&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">JTBC =
+=EC=98=88=EB=8A=A5=ED=8E=98=EC=9D=B4=EC=A7=80</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">TV =
+=ED=94=84=EB=A1=9C=EA=B7=B8=EB=9E=A8</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">598K=EB=
+=AA=85=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td><td width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;padding:6px 10px 6px 10px;border:solid 1px =
+#E5E5E5;border-bottom:0;border-top:0;width:48%;"><a href=3D"https://www.fa=
+cebook.com/n/?CAPCOMasia%2F&amp;aref=3D1678829456602374&amp;medium=3Demail=
+&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678=
+829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_1=
+23767834308818&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">Capcom Asia</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EA=B2=
+=8C=EC=9E=84/=EC=9E=A5=EB=82=9C=EA=B0=90</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">276K=EB=
+=AA=85=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td></tr><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?JTBC.ent%2F&amp;are=
+f=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad234=
+04G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=
+=3D1059230%40naver.com&amp;lloc=3Dpyml_552160774843078&amp;rms=3Dv2&amp;ir=
+ms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =
+=EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?CAPCOMasia%2F&amp;a=
+ref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad2=
+3404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_=
+m=3D1059230%40naver.com&amp;lloc=3Dpyml_123767834308818&amp;rms=3Dv2&amp;i=
+rms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"padding-top:10px;padding-bottom:5px;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"height:100%;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;background:#FFFFFF;"><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;"><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?LiveM=
+akeus%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d=
+03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98a=
+NEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_174321039433041&amp;=
+rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t1.18169-1/944933_507419569456518_7=
+496653636338803284_n.png?stp=3Ddst-png_p200x200&amp;_nc_cat=3D101&amp;ccb=
+=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3DVkNEa59KufcAX9IUqkc&amp;_nc_ad=
+=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfCC5D6EAeKMh7=
+HyIFwF4lOCkx0UBTkw8SVcPSRoFO15Aw&amp;oe=3D643865D7" =
+style=3D"border:0;background:#FFFFFF;" /></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?About=
+Hyundai%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a=
+7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl9=
+8aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_129043883825037&am=
+p;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t1.18169-1/14725503_127205319619076=
+1_5471079723998981383_n.png?_nc_cat=3D101&amp;ccb=3D1-7&amp;_nc_sid=3Ddbb9=
+e7&amp;_nc_ohc=3Db67blyU-pwkAX9tMdPn&amp;_nc_oc=3DAQmimiuLbVztBYIxQWNvsgr8=
+yxTQo3bYbtd_eassuNr581pd7UgO-v49t5TBHkUZ6QK29yL1eRt1z-JgduXg0KkR&amp;_nc_a=
+d=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfA8dlylgzkpb=
+UV_mkE3qdI5nov3KNgn17bpGmIK_Qc3fg&amp;oe=3D643845C9" =
+style=3D"border:0;background:#FFFFFF;" /></a></td></tr><tr><td =
+valign=3D"top" style=3D"background:#FFFFFF;padding:6px 10px 6px =
+10px;border:solid 1px #E5E5E5;border-bottom:0;border-top:0;width:48%;"><a =
+href=3D"https://www.facebook.com/n/?LiveMakeus%2F&amp;aref=3D1678829456602=
+374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G=
+5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver=
+.com&amp;lloc=3Dpyml_174321039433041&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">=EC=9D=BC=EB=B0=98=EC=9D=B8=EB=93=A4=EC=9D=98 =
+=EC=86=8C=EB=A6=84=EB=8F=8B=EB=8A=94 =EB=9D=BC=EC=9D=B4=EB=B8=8C</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EB=AF=
+=B8=EB=94=94=EC=96=B4/=EB=89=B4=EC=8A=A4 =EA=B8=B0=EC=97=85</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">3M=EB=AA=
+=85=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td><td width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;padding:6px 10px 6px 10px;border:solid 1px =
+#E5E5E5;border-bottom:0;border-top:0;width:48%;"><a href=3D"https://www.fa=
+cebook.com/n/?AboutHyundai%2F&amp;aref=3D1678829456602374&amp;medium=3Dema=
+il&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.16=
+78829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml=
+_129043883825037&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px =
+0;">=ED=98=84=EB=8C=80=EC=9E=90=EB=8F=99=EC=B0=A8</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EC=9E=
+=90=EB=8F=99=EC=B0=A8 =ED=9A=8C=EC=82=AC</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">431K=EB=
+=AA=85=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td></tr><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?LiveMakeus%2F&amp;a=
+ref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad2=
+3404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_=
+m=3D1059230%40naver.com&amp;lloc=3Dpyml_174321039433041&amp;rms=3Dv2&amp;i=
+rms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =
+=EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?AboutHyundai%2F&amp=
+;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47a=
+d23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;=
+n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_129043883825037&amp;rms=3Dv2&amp=
+;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr><tr><td =
+style=3D"padding-top:10px;padding-bottom:5px;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"height:100%;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"font-size:11px;font-f=
+amily:LucidaGrande,tahoma,verdana,arial,sans-serif;background:#FFFFFF;"><t=
+able border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:separate;"><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?ipduk=
+halrae%2F&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7=
+d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98=
+aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_102724215179541&amp=
+;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t1.6435-1/146123931_105298368255459=
+_2454005499036970534_n.jpg?stp=3Ddst-jpg_p200x200&amp;_nc_cat=3D107&amp;cc=
+b=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3DlTNf8uu2PRgAX9wVLhU&amp;_nc_ad=
+=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfDAIU9bgyQNfn=
+vpCyEk2XhCKK8SJdPlGjCR9EoJoX0j6A&amp;oe=3D643846E2" =
+style=3D"border:0;background:#FFFFFF;" /></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-bottom:0;border-radius:4px 4px 0 =
+0;width:48%;overflow:hidden;"><a href=3D"https://www.facebook.com/n/?bangt=
+an.official&amp;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2=
+a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl=
+98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_561348433880423&a=
+mp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><img width=3D"100%" =
+src=3D"https://scontent.xx.fbcdn.net/v/t39.30808-1/334273143_1167810373773=
+410_3933770310641057328_n.jpg?stp=3Ddst-jpg_p200x200&amp;_nc_cat=3D1&amp;c=
+cb=3D1-7&amp;_nc_sid=3Ddbb9e7&amp;_nc_ohc=3D2hunBrNiKPcAX9M5-vS&amp;_nc_ad=
+=3Dz-m&amp;_nc_cid=3D0&amp;_nc_ht=3Dscontent.xx&amp;oh=3D00_AfAWIbn4q3bdLu=
+NkWf9DvR72Kz5xkP7nG5IFugzJLKllSg&amp;oe=3D64161FFC" =
+style=3D"border:0;background:#FFFFFF;" /></a></td></tr><tr><td =
+valign=3D"top" style=3D"background:#FFFFFF;padding:6px 10px 6px =
+10px;border:solid 1px #E5E5E5;border-bottom:0;border-top:0;width:48%;"><a =
+href=3D"https://www.facebook.com/n/?ipdukhalrae%2F&amp;aref=3D167882945660=
+2374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506=
+G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40nave=
+r.com&amp;lloc=3Dpyml_102724215179541&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">=EC=9E=85=EB=8D=95=ED=95=A0=EB=9E=98</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EB=AF=
+=B8=EB=94=94=EC=96=B4</div><div style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:13p=
+x;line-height:17px;color:#8D949E;">141K=EB=AA=85=EC=9D=B4 =
+=EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td><td width=3D"4%" style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;padding:6px 10px 6px 10px;border:solid 1px =
+#E5E5E5;border-bottom:0;border-top:0;width:48%;"><a href=3D"https://www.fa=
+cebook.com/n/?bangtan.official&amp;aref=3D1678829456602374&amp;medium=3Dem=
+ail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1=
+678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D1059230%40naver.com&amp;lloc=3Dpym=
+l_561348433880423&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:16px;line-height:20px;color:#1C1E21;font-weigh=
+t:500;padding:0 0 2px 0;">BTS =
+(=EB=B0=A9=ED=83=84=EC=86=8C=EB=85=84=EB=8B=A8)</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">=EC=9D=
+=8C=EC=95=85=EA=B0=80/=EB=B0=B4=EB=93=9C</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;">17M=EB=
+=AA=85=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A9=EB=8B=88=EB=8B=A4</div><div =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:13px;line-height:17px;color:#8D949E;;display: =
+flex"></div></a></td></tr><tr><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?ipdukhalrae%2F&amp;=
+aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad=
+23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n=
+_m=3D1059230%40naver.com&amp;lloc=3Dpyml_102724215179541&amp;rms=3Dv2&amp;=
+irms=3Dtrue" style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =
+=EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></td><td width=3D"4%" =
+style=3D""></td><td valign=3D"top" =
+style=3D"background:#FFFFFF;border:solid 1px =
+#E5E5E5;border-top:0;padding:0 10px 10px 10px;border-radius:0 0 4px =
+4px;width:48%;"><a href=3D"https://www.facebook.com/n/?bangtan.official&am=
+p;aref=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47=
+ad23404G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp=
+;n_m=3D1059230%40naver.com&amp;lloc=3Dpyml_561348433880423&amp;rms=3Dv2&am=
+p;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;width:100%;"><div =
+style=3D"border-radius:6px;padding:11px 0px 11px =
+0px;text-align:center;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;display:inline-block;color:#FFFFFF;=
+background-color:#3578E5;font-weight:500;width:100%;font-size:13px;">=ED=
+=8E=98=EC=9D=B4=EC=A7=80 =EB=B0=A9=EB=AC=B8=ED=95=98=EA=B8=B0</div></a></t=
+d></tr></table></td></tr></table></td></tr></table></td></tr></table></td>=
+</tr></table></td></tr><tr><td style=3D""><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"></table></td></tr><tr><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" height=3D"100%" =
+style=3D"border-collapse:collapse;"></table></td></tr><tr><td =
+style=3D"padding:10px 0 0 0;"><table border=3D"0" width=3D"100%" =
+cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"2" =
+style=3D"line-height:2px;">&nbsp;</td></tr><tr><td align=3D"middle" =
+style=3D""><a href=3D"https://www.facebook.com/n/?pages%2F&amp;aref=3D1678=
+829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2=
+f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=3D105923=
+0%40naver.com&amp;lloc=3Dpyml_more&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;"><table border=3D"0" =
+width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td style=3D"border-collapse:colla=
+pse;border-radius:4px;text-align:center;display:block;font-family:Helvetic=
+a Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#EBEDF0;padding:10px =
+20px 12px 20px;"><a href=3D"https://www.facebook.com/n/?pages%2F&amp;aref=
+=3D1678829456602374&amp;medium=3Demail&amp;mid=3D5f6e2a7d03234G5af47ad2340=
+4G5f6e2f1663506G5a4&amp;bcode=3D2.1678829456.AbyklNXQl98aNEkUO7U&amp;n_m=
+=3D1059230%40naver.com&amp;lloc=3Dpyml_more&amp;rms=3Dv2&amp;irms=3Dtrue" =
+style=3D"color:#1b74e4;text-decoration:none;display:block;"><center><font =
+size=3D"3"><span style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;white-space:nowrap;font-weight:bold=
+;vertical-align:middle;color:#333639;font-size:13px;line-height:13px;font-=
+weight:500;">=ED=8E=98=EC=9D=B4=EC=A7=80&nbsp;=EB=8D=94&nbsp;=EB=B3=B4=EA=
+=B8=B0...</span></font></center></a></td></tr></table></a></td></tr><tr =
+style=3D""><td height=3D"8" style=3D"line-height:8px;">&nbsp;</td></tr><tr =
+style=3D""><td height=3D"32" style=3D"line-height:32px;">&nbsp;</td></tr><=
+/table></td></tr></table></td></tr><tr style=3D""><td height=3D"28" =
+style=3D"line-height:28px;">&nbsp;</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left" =
+style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-size:14px;color:#65676B;"><span =
+style=3D"padding-right:12px;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;">=EC=9D=B4=EB=A9=94=EC=9D=BC=EC=97=
+=90 =EB=8C=80=ED=95=9C =ED=8F=89=EA=B0=80:</span><span =
+style=3D"color:#141823;font-size:14px;font-weight:normal;line-height:24px;=
+font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;"><a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook=
+.com/email_notification_feedback/?is_useful=3D1&amp;next_href=3Dhttps%3A%2=
+F%2Fwww.facebook.com%2Fn%2F%3FHappy-Hospital-107139252212529%252F%26aref%3=
+D1678829456602374%26medium%3Demail%26mid%3D5f6e2a7d03234G5af47ad23404G5f6e=
+2f1663506G5a4%26bcode%3D2.1678829456.AbyklNXQl98aNEkUO7U%26n_m%3D1059230%2=
+540naver.com&amp;ndid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4">=EC=
+=9C=A0=EC=9A=A9=ED=95=A8</a></span><span style=3D"padding:0 =
+12px;color:#C9CCD1;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;"> | </span><span =
+style=3D"color:#141823;font-size:14px;font-weight:normal;line-height:24px;=
+font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;"><a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook=
+.com/email_notification_feedback/?is_useful=3D0&amp;next_href=3Dhttps%3A%2=
+F%2Fwww.facebook.com%2Fn%2F%3Fhome.php%26aref%3D1678829456602374%26medium%=
+3Demail%26mid%3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4%26bcode%3D2.1=
+678829456.AbyklNXQl98aNEkUO7U%26n_m%3D1059230%2540naver.com%26lloc%3D2nd_c=
+ta%26rms%3Dv2%26irms%3Dtrue&amp;ndid=3D5f6e2a7d03234G5af47ad23404G5f6e2f16=
+63506G5a4">=EC=9C=A0=EC=9A=A9=ED=95=98=EC=A7=80 =
+=EC=95=8A=EC=9D=8C</a></span></td></tr><tr style=3D""><td height=3D"15" =
+style=3D"line-height:15px;">&nbsp;</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left" style=3D"border-collapse:collapse;"><tr =
+style=3D"border-top:solid 1px #e5e5e5;"><td height=3D"19" =
+style=3D"line-height:19px;">&nbsp;</td></tr><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px;"><a =
+href=3D"mailto:1059230&#064;naver.com" =
+style=3D"color:#3b5998;text-decoration:none;">1059230&#064;naver.com</a> =
+=EC=A3=BC=EC=86=8C=EB=A1=9C =EC=A0=84=EC=86=A1=EB=90=9C =
+=EB=A9=94=EC=8B=9C=EC=A7=80=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EC=95=9E=EC=9C=BC=EB=A1=9C Meta=EB=A1=9C=EB=B6=80=ED=84=B0 =
+=EC=9D=B4=EC=99=80 =EA=B0=99=EC=9D=80 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =
+=EB=B0=9B=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A0=A4=EB=A9=B4 <a =
+href=3D"https://www.facebook.com/o.php?k=3DAS0wKbwdEiv6vY6nO70&amp;u=3D100=
+006079116292&amp;mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G5a4&amp;ee=
+=3DAY3ge5ki9kG1r2nwYVfbpczejZB7A4EmL4IVA-qKnH3IehMEVH1H7fqrYEToyzFwV-F9b89=
+tsPflviw" style=3D"color:#3b5998;text-decoration:none;">=EA=B7=B8=EB=A7=8C =
+=EB=B0=9B=EA=B8=B0=EB=A5=BC =EB=88=84=EB=A5=B4=EC=84=B8=EC=9A=94.</a><br =
+/>Meta Platforms, Inc., Attention: Community Support, 1 Facebook Way, =
+Menlo Park, CA 94025</td></tr></table></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px;"><span =
+class=3D"mb_text" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;col=
+or:#141823;;font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:11px;color:#aaaaaa;line-h=
+eight:16px;">=EA=B3=84=EC=A0=95=EC=9D=84 =
+=EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =EC=9C=A0=EC=A7=80=ED=95=98=EA=B8=B0 =
+=EC=9C=84=ED=95=B4 =EC=9D=B4 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=84 =
+=EC=A0=84=EB=8B=AC=ED=95=98=EC=A7=80 =EB=A7=88=EC=84=B8=EC=9A=94. <a =
+style=3D"color:#3b5998;text-decoration:none;" href=3D"https://www.facebook=
+.com/email_forward_notice/?mid=3D5f6e2a7d03234G5af47ad23404G5f6e2f1663506G=
+5a4">=EB=8D=94 =
+=EC=95=8C=EC=95=84=EB=B3=B4=EA=B8=B0</a></span></td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td height=3D"20" style=3D"line-height:20px;" =
+colspan=3D"3">&nbsp;</td></tr></table><span style=3D""><img =
+src=3D"https://www.facebook.com/email_open_log_pic.php?mid=3D5f6e2a7d03234=
+G5af47ad23404G5f6e2f1663506G5a4" style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_118879ace162c063ce5af76340663921--
+

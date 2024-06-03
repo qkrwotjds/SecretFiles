@@ -1,0 +1,454 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1690182848;
+	cv=none; b=PJweJTXFKCyl2dH1Tv+gSxBIvE/ntdFc2T5CbKBMWiGBehp+yxIZPYnpEcKJ
+	 WOmRW+cU8BzfWUf/snN8h2MaJ4zrYUP6Ffad3aEonhJOmKaYyp/1+RyeYZ/+ddIyTXmhX8
+	 VTuE3r1lIjV5uM/AoJ/erYLkKP8wsW+ynR1KvtgwNFX3NF0kwDCotndnzQ4GSkXY+oGU7e
+	 1OKWrSDxAy/yqe+IKmyO82bbxqhnwTxHrWBZ3DzpFGzhCBIKYrVqefzveXcxsPbBwsHf0l
+	 d91wUpxXnvoXkAh3c3GBfTi0Kvf5eFy3PWtA4CBrLCmzJdpG7SFfQeaxBixNu60tJxxbJF
+	 3g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1690182848; c=relaxed/relaxed;
+	bh=GzHZkgqLIIlCFwBcts6kMET3SpjwF7oebLViPdI+J5U=;
+	h=dkim-signature:from:date:subject:message-id:to; b=T14SWv4wGRAHUNajhq0
+	 Iv7gtcxDuocrT0Z0ULCtbWGN65HRIar7zVs6fXBNESRol5LgezDVfBZJHfuj62TYW21Cdw
+	 FpLXKeAn3Go9DBtJT7oAFw9hvb9SrBUbYE2UQ2viO5vs6kMp7b0U0ctinh/xNeuM7icQ9n
+	 iYRKnF/wEZ8p1BmZ6kyQMMhKLj+K3bsOTsG1Ew3p/6qHX26T04jd4yyCvF0rpLrpqbVhUe
+	 E13yjp/YkG+9ysbyJtySsn+pIRd19DcgSFWrO4o8EAGcF73p1558Zjh7EWvs7OYKVGovN8
+	 7k8T8zIM9PtLFDmIr1VpwWxAAb+7ezjY5kTS78sOw1Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of AccountActivation-noreply@teamviewer.com designates 37.252.230.29 as permitted sender) smtp.mailfrom=AccountActivation-noreply@teamviewer.com;
+  dkim=pass header.i=@teamviewer.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=teamviewer.com
+Return-Path: <AccountActivation-noreply@teamviewer.com>
+Received-SPF: pass (mx.naver.com: domain of AccountActivation-noreply@teamviewer.com designates 37.252.230.29 as permitted sender)
+  client-ip=37.252.230.29; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of AccountActivation-noreply@teamviewer.com designates 37.252.230.29 as permitted sender) smtp.mailfrom=AccountActivation-noreply@teamviewer.com;
+  dkim=pass header.i=@teamviewer.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=teamviewer.com
+X-Naver-ESV: wZ+n+6J4p63CbHmrKBwdbXFYKAbwFAg/jJ+Y
+X-Session-IP: 37.252.230.29
+Received: from mail1301.teamviewer.com (mail1301.teamviewer.com [37.252.230.29])
+  by crcvmail301.nm.naver.com with ESMTP id D536kWyRT2eYO4Y30XiDGA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Mon, 24 Jul 2023 07:14:08 -0000
+Received: from dw0sdwk0007P1 (unknown [20.79.137.137])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail1301.teamviewer.com (Postfix) with ESMTPSA id A597940A4E
+	for <1059230@naver.com>; Mon, 24 Jul 2023 08:14:05 +0100 (BST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=teamviewer.com;
+	s=anexia2022; t=1690182845;
+	bh=O/+JPF1N9sGzCEaJ54knqChjl9cGAaPOiDqKNXom8qo=;
+	h=From:Date:Subject:To:From;
+	b=OhhWvWiWNKvJIwC4GiUEijQ8Q2vCn5fLY0FzSToSf+NL9nbIFcV/z7CA5elK/HmxX
+	 RaQdTjEfIb6Cz/kOYG/4xS8SX7scHmgCQssq9zUgqDWenFh2rJc8Y/k6WfI00ky3C5
+	 lUJd/rLKllR7ZKMhEQHwlqYdpCDRHsaKGnQUCtaaGygYkT0jTUwcHXvFGIp+GJmwY5
+	 x38/8KXKFCpxPZMn7efIwn4M+gQSav0bskpEG0CY/oky0GymJ9A0r8AmEdwFobIojs
+	 5ubnXNa6dCitMg/qcT0OPD2cvllzCFNbnE/IhXno+sSnWATRpCmJKMlCdbRK5Ty8kZ
+	 zDmkgX9Llx40g==
+From: TeamViewer Account Activation <AccountActivation-noreply@teamviewer.com>
+Date: Mon, 24 Jul 2023 07:14:05 +0000
+Subject: =?utf-8?b?W+2ZleyduO2VtCDso7zshLjsmpRdwqDCoFRlYW1WaWV3ZXIg7J2066mU7J28?=
+ =?utf-8?b?IOqzhOyglSDtmZXsnbgg7JqU7LKt?=
+Message-Id: <5581c0a3-78a9-4baa-af08-8cb54d492863@teamviewer.com>
+To: 1059230@naver.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=3D(0061)file:///C:/Users/INT003196/Desktop/HTML-Inxmail=
+-Template.html -->
+<html xmlns=3D"http://www.w3.org/1999/xhtml" dir=3D"">
+<head>
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8" /=
+>
+	<meta name=3D"robots" content=3D"noindex, nofollow" />
+	<meta http-equiv=3D"Content-Style-Type" content=3D"text/css;charset=3DUTF-=
+8" />
+</head>
+
+<body style=3D"background-color:#f5f5f5;color:#3B4855;font-family:'Noto San=
+s',Arial,Roboto,SegoeUI,Helvetica,sans-serif;font-size:14px;line-height:20p=
+x;" vlink=3D"#35729f" alink=3D"#35729f" link=3D"#35729f" text=3D"#3B4855" b=
+gcolor=3D"#f5f5f5" inx=3D"inx">
+	<a name=3D"top" id=3D"top"></a>
+	<table style=3D"text-align:center;" bgcolor=3D"#f5f5f5" align=3D"center" c=
+ellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"100%">
+		<tbody>
+			<tr>
+				<td style=3D"vertical-align:top;" valign=3D"top" align=3D"left">
+					<div align=3D"center">
+						<table style=3D"text-align:center;" bgcolor=3D"#f5f5f5" align=3D"cent=
+er" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"720">
+							<tbody>
+								<tr>
+									<td style=3D"vertical-align:top;" valign=3D"top" align=3D"left" wi=
+dth=3D"720">
+										<table width=3D"720" class=3D"d" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0">
+											<tbody>
+												<tr>
+													<td style=3D"vertical-align:top;line-height:0px;" width=3D"720=
+" valign=3D"top" align=3D"left"></td>
+												</tr>
+											</tbody>
+										</table>
+										<table width=3D"720" class=3D"w50" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" bgcolor=3D"#FFFFFF">
+											<tbody>
+												<tr>
+													<td height=3D"22" width=3D"70" valign=3D"top" align=3D"left" b=
+gcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+													<td height=3D"22" width=3D"580" valign=3D"top" align=3D"left" =
+bgcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+													<td height=3D"22" width=3D"70" valign=3D"top" align=3D"left" b=
+gcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+												</tr>
+											<tr>
+												<td height=3D"22" width=3D"70" valign=3D"top" align=3D"left" bg=
+color=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+												</td>
+												<td height=3D"22" width=3D"580" valign=3D"top" align=3D"left" b=
+gcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+												</td>
+												<td height=3D"22" width=3D"70" valign=3D"top" align=3D"left" bg=
+color=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+												</td>
+											</tr>
+												<tr>
+													<td width=3D"70" bgcolor=3D"#FFFFFF" style=3D"vertical-align:t=
+op;">
+													</td>
+													<td width=3D"580" valign=3D"top" align=3D"left" bgcolor=3D"#FF=
+FFFF" style=3D"vertical-align:top;line-height:0px;"><a href=3D"https://www.=
+teamviewer.com/" target=3D"_blank"><img src=3D"https://s7g10.scene7.com/is/=
+image/teamviewergmbh/logo-teamviewer-2?fmt=3Dpng-alpha&dpr=3Doff" alt=3D"" =
+name=3D"" file=3D"" width=3D"198" height=3D"27.5" class=3D"w100" border=3D"=
+0" hspace=3D"0" vspace=3D"0" align=3D"top" /></a></td>
+													<td width=3D"70" bgcolor=3D"#FFFFFF" style=3D"vertical-align:t=
+op;">
+													</td>
+												</tr>
+												<tr>
+													<td height=3D"20" width=3D"70" valign=3D"top" align=3D"left" b=
+gcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+													<td height=3D"20" width=3D"580" valign=3D"top" align=3D"left" =
+bgcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+													<td height=3D"20" width=3D"70" valign=3D"top" align=3D"left" b=
+gcolor=3D"#FFFFFF" style=3D"vertical-align:top;line-height:0px;">
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table width=3D"720" cellspacing=3D"0" cellpadding=3D"0" border=3D=
+"0" bgcolor=3D"#ffffff">
+											<tbody>
+												<tr>
+													<td width=3D"70" bgcolor=3D"#ffffff" style=3D"vertical-align:t=
+op;">
+													</td>
+													<td width=3D"580" valign=3D"top" align=3D"left" bgcolor=3D"#ff=
+ffff" style=3D"vertical-align:top;">
+														<table width=3D"580" cellspacing=3D"0" cellpadding=3D"0" bord=
+er=3D"0">
+															<tbody>
+																<tr>
+																	<td style=3D"vertical-align:top;" width=3D"580" height=3D"=
+50">
+																	</td>
+																</tr>
+																<tr>
+																	<td style=3D"vertical-align:top;" width=3D"580" valign=3D"=
+top" align=3D"left">
+																		<!--[if mso | ie]>
+									<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+									   <tr>
+										  <td valign=3D"top">
+											 <![endif]-->
+																		<table style=3D"text-align:left;" width=3D"580" align=3D"=
+left" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+																			<tbody>
+																				<tr>
+																					<td style=3D"vertical-align:top;" width=3D"580" valign=
+=3D"top" align=3D"left">
+																						<span style=3D"font-family:Roboto,SegoeUI,Helvetica,A=
+rial,sans-serif;line-height:20px;font-size:14px;color:#3B3855;">
+																							Hi,<br />
+																							<br />
+																							TeamViewer =EA=B3=84=EC=A0=95=EC=9D=84 =EB=A7=8C=EB=93=
+=A4=EC=96=B4 =EC=A3=BC=EC=85=94=EC=84=9C =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=
+=EB=8B=A4. =EA=B3=84=EC=A0=95=EC=9D=98 =EB=B3=B4=EC=95=88=EC=9D=84 =EC=9C=84=
+=ED=95=B4 =EC=95=84=EB=9E=98 =EB=B2=84=ED=8A=BC=EC=9D=84 =ED=81=B4=EB=A6=AD=
+=ED=95=98=EC=97=AC =EA=B3=84=EC=A0=95 =EC=83=9D=EC=84=B1 =EA=B3=BC=EC=A0=95=
+=EC=9D=84 =EC=99=84=EB=A3=8C=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94.
+																							<br />
+																							<br />
+																						</span>
+																					<br style=3D"font-size:20px;line-height:20px;">
+																				=09
+																						<table class=3D"button" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" bgcolor=3D"#3056ef">
+																							<tbody>
+																								<tr>
+																									<td style=3D"vertical-align:top;" width=3D"24">
+																									</td>
+																									<td style=3D"vertical-align:top;" valign=3D"top" a=
+lign=3D"left">
+																										<table cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0">
+																											<tbody>
+																												<tr>
+																													<td style=3D"vertical-align:top;" height=3D"12=
+">
+																													</td>
+																												</tr>
+																												<tr>
+																													<td style=3D"vertical-align:top;" valign=3D"to=
+p" align=3D"left" height=3D"14"><a href=3D"https://login.teamviewer.com/Cmd=
+/ActivateAccount?lng=3Dko&token=3D9b8b250c-bade-4006-bfd7-7998c198b212" sty=
+le=3D"font-weight:bold;text-decoration:none;line-height:14px;font-family:Ro=
+boto,SegoeUI,Helvetica,Arial,sans-serif;font-size:14px;color:#FFFFFF;" targ=
+et=3D"_blank"><span style=3D"font-weight:bold;text-decoration:none;line-hei=
+ght:14px;font-family:Roboto,SegoeUI,Helvetica,Arial,sans-serif;font-size:14=
+px;color:#FFFFFF;">=EB=82=98=EC=9D=98 TeamViewer=C2=A0=EC=9D=B4=EB=A9=94=EC=
+=9D=BC =EA=B3=84=EC=A0=95 =ED=99=95=EC=9D=B8</span></a></td>
+																												</tr>
+																												<tr>
+																													<td style=3D"vertical-align:top;" height=3D"12=
+">
+																													</td>
+																												</tr>
+																											</tbody>
+																										</table>
+																									</td>
+																								<td style=3D"vertical-align:top;" width=3D"24">
+																								</td>
+																							</tr>
+																							</tbody>
+																						</table>
+																						<table>
+																							<tr>
+																								<td style=3D"vertical-align:top;" width=3D"580" val=
+ign=3D"top" align=3D"left">
+																									<span style=3D"font-family: Roboto, SegoeUI, Helve=
+tica, Arial, sans-serif; line-height: 20px; font-size: 14px; color: #3B3855=
+;">
+																										<br/>
+																										=EC=B6=94=EA=B0=80=C2=A0=EB=AC=B8=EC=9D=98 =EC=82=
+=AC=ED=95=AD=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0=EA=B0=80=EC=9A=94?=C2=A0=EC=
+=A7=80=EC=9B=90=EC=9D=B4=C2=A0=ED=95=84=EC=9A=94=ED=95=98=EC=8B=A0=EA=B0=80=
+=EC=9A=94? <a href=3D"https://www.teamviewer.com/en/support/" style=3D"colo=
+r: #3056ef;text-decoration: none">TeamViewer =EC=A7=80=EC=9B=90=C2=A0=EC=82=
+=AC=EC=9D=B4=ED=8A=B8=EC=97=90=C2=A0=EB=B0=A9=EB=AC=B8=ED=95=B4 =EB=B3=B4=EC=
+=84=B8=EC=9A=94.</a>=20
+																										<br />
+																										<br/>
+																										=EC=95=88=EC=A0=84=ED=95=9C =EC=97=B0=EA=B2=B0 =EB=
+=90=98=EC=84=B8=EC=9A=94, <br/> TeamViewer
+																									</span></td>
+																							</tr>
+																						</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		<!--[if mso | ie]>
+										  </td>
+									   </tr>
+									</table>
+									<![endif]-->
+																	</td>
+																</tr>
+																<tr>
+																	<td style=3D"vertical-align:top;" width=3D"580" height=3D"=
+60">
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</td>
+													<td width=3D"70" bgcolor=3D"#ffffff" style=3D"vertical-align:t=
+op;">
+													</td>
+												</tr>
+											</tbody>
+										</table>
+										<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"=
+720">
+											<tbody>
+											<tr>
+												<td style=3D"vertical-align:top;line-height:0px;" valign=3D"top=
+" align=3D"left" height=3D"3" width=3D"720"></td>
+											</tr>
+											</tbody>
+										</table>
+									=09
+										<table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"=
+720">
+	<tbody>
+		<tr>
+			<td style=3D"vertical-align:top;line-height:0px;" valign=3D"top" align=3D=
+"left" height=3D"3" width=3D"720"></td>
+		</tr>
+	</tbody>
+</table>
+<table width=3D"720" bgcolor=3D"#050a52" cellspacing=3D"0" cellpadding=3D"0=
+" border=3D"0">
+	<tbody>
+		<tr>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"70" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"580" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"70" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+		</tr>
+		<tr>
+			<td style=3D"vertical-align:top;" width=3D"70" bgcolor=3D"#050a52">
+			</td>
+			<td style=3D"vertical-align:top;" width=3D"580" bgcolor=3D"#050a52" vali=
+gn=3D"top" align=3D"left">
+				<!--[if mso | ie]>
+				<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+				   <tr>
+					  <td valign=3D"top">
+						 <![endif]-->
+				<table style=3D"text-align:left;" width=3D"269" bgcolor=3D"#050a52" ali=
+gn=3D"left" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+					<tbody>
+						<tr>
+							<td style=3D"vertical-align:top;" width=3D"269" bgcolor=3D"#050a52" =
+valign=3D"top" align=3D"left">
+								<span style=3D"color:#FFFFFF;font-family:Roboto,SegoeUI,Helvetica,A=
+rial,sans-serif;font-size:14px;line-height:20px;">TeamViewer Germany GmbH</=
+span><br style=3D"font-size:14px;line-height:20px;"><span style=3D"color:#F=
+FFFFF;font-family:Roboto,SegoeUI,Helvetica,Arial,sans-serif;font-size:14px;=
+line-height:20px;">
+								Bahnhofsplatz 2<br/>73033 G=C3=B6ppingen<br/>Germany
+</span><br style=3D"font-size:14px;line-height:20px;"><span style=3D"font-s=
+ize:24px;line-height:24px;"> </span><br style=3D"font-size:24px;line-height=
+:24px;"><span style=3D"color:#FFFFFF;font-family:Roboto,SegoeUI,Helvetica,A=
+rial,sans-serif;font-size:14px;line-height:20px;">
+								Registration: Ulm HRB 534075<br>
+								VAT: DE245838579<br>
+								CEO: Oliver Steil<br />CFO: Michael Wilkens<br />CCO: Peter Turner
+								</span><br style=3D"font-size:14px;line-height:20px;">
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<!--[if mso | ie]>
+				</td>
+				<td valign=3D"top">
+				   <![endif]-->
+				<table style=3D"text-align:left;" width=3D"34" align=3D"left" cellspaci=
+ng=3D"0" cellpadding=3D"0" border=3D"0">
+					<tbody>
+						<tr>
+							<td style=3D"vertical-align:top;" width=3D"34" valign=3D"top" align=3D=
+"left"><span style=3D"color:#FFFFFF;font-family:Roboto,SegoeUI,Helvetica,Ar=
+ial,sans-serif;font-size:14px;line-height:20px;">&nbsp;</span></td>
+						</tr>
+					</tbody>
+				</table>
+				<!--[if mso | ie]>
+				</td>
+				<td valign=3D"top">
+				   <![endif]-->
+				<table style=3D"text-align:right;" width=3D"269" bgcolor=3D"#050a52" al=
+ign=3D"right" cellspacing=3D"0" cellpadding=3D"0" border=3D"0">
+					<tbody>
+						<tr>
+							<td style=3D"vertical-align:top;" width=3D"269" bgcolor=3D"#050a52" =
+valign=3D"top" align=3D"left"><span style=3D"color: #FFFFFF; font-family: R=
+oboto, SegoeUI, Helvetica, Arial, sans-serif; font-size: 14px; line-height:=
+ 20px;">
+								TeamViewer =ED=8C=80=EC=9D=80 30=EA=B0=9C =EC=9D=B4=EC=83=81=EC=9D=98=
+ =EC=96=B8=EC=96=B4=EB=A1=9C =EB=8C=80=ED=99=94=EA=B0=80 =EA=B0=80=EB=8A=A5=
+=ED=95=A9=EB=8B=88=EB=8B=A4.&nbsp;</span><br/>
+								<span style=3D"font-size:14px;line-height:20px;"> </span>
+								<br style=3D"font-size:14px;line-height:20px;"><a href=3D"https://w=
+ww.teamviewer.com/support" style=3D"color: #FFFFFF; font-family: Roboto, Se=
+goeUI, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; te=
+xt-decoration: none;" target=3D"_blank">
+									<span style=3D"color: #ffffff; font-family: Roboto, SegoeUI, Helve=
+tica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-decoratio=
+n: none;">&gt;&nbsp;=EC=97=B0=EB=9D=BD=EC=B2=98</span>
+								</a>
+								<br style=3D"font-size:24px;line-height:24px;"><a href=3D"https://w=
+ww.teamviewer.com/support#submitTicket" style=3D"color: #FFFFFF; font-famil=
+y: Roboto, SegoeUI, Helvetica, Arial, sans-serif; font-size: 14px; line-hei=
+ght: 20px; text-decoration: none;" target=3D"_blank">
+								<span style=3D"color: #ffffff; font-family: Roboto, SegoeUI, Helvet=
+ica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-decoration=
+: none;">&gt;&nbsp;=ED=8B=B0=EC=BC=93 =EB=B0=9C=ED=96=89</span>
+								</a>
+								<br style=3D"font-size:24px;line-height:24px;"><a href=3D"https://w=
+ww.teamviewer.com/" style=3D"color: #FFFFFF; font-family: Roboto, SegoeUI, =
+Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-deco=
+ration: none;" target=3D"_blank">
+								 <span style=3D"color: #ffffff; font-family: Roboto, SegoeUI, Helve=
+tica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-decoratio=
+n: none;">&gt;&nbsp;www.teamviewer.com</span>
+								</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<!--[if mso | ie]>
+					  </td>
+				   </tr>
+				</table>
+				<![endif]-->
+			</td>
+			<td style=3D"vertical-align:top;" width=3D"70" bgcolor=3D"#050a52">
+			</td>
+		</tr>
+		<tr>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"70" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"580" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"40" width=3D=
+"70" bgcolor=3D"#050a52" valign=3D"top" align=3D"left">
+			</td>
+		</tr>
+		<tr>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"3" width=3D"=
+70" bgcolor=3D"#f5f5f5" valign=3D"top" align=3D"left"></td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"3" width=3D"=
+580" bgcolor=3D"#f5f5f5" valign=3D"top" align=3D"left"></td>
+			<td style=3D"vertical-align:top;line-height:0px;" height=3D"3" width=3D"=
+70" bgcolor=3D"#f5f5f5" valign=3D"top" align=3D"left"></td>
+		</tr>
+	</tbody>
+</table>
+
+
+<br />
+
+
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+</html>=

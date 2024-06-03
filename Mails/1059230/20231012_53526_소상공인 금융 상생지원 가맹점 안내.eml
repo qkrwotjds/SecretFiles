@@ -1,0 +1,285 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1697076922;
+	cv=none; b=J3LaNvyhtUul7U0nxKeOtUEcX0bZ2qJrhpQzlw3+KdICNF3+Jwlj5utDlVFz
+	 wDWqaPd+Rp3IzLwNIqtgDLMK/s9rNFCk6ULxQitVFd+Dd8jCPGJigIvdlMYlaea6PFzMIs
+	 YcYZteFYF1eQSv2lEcZz7ljPkv/P4fLZZWKxvHGGptzKKr+l2DgeLJq/CN3xox1TvYG471
+	 ss1pIoxuGZZ9rIU3cecoyKvYsZZLPAQmLrywBm+B/pIXbZJZmAz4LTW8IWxHTItY/acYvJ
+	 y+SUiVGtMeOM1LEPDtooabFRhcK/uDvMvoQIlqc/o0HelfvpVUtz2KDNgjLQLJPfreCRW6
+	 Vw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1697076922; c=relaxed/relaxed;
+	bh=uo93KqFG7Dx2Th49A/53E/Jbrp13gD0Lgycl+HaBUAc=;
+	h=from:to:subject:date:message-id; b=EhNcCAQP0lD6icQmr1MhxGw0xlvBrOPKX5
+	 lY/4FUTWlkpe61p+fkZdx52iJtPPNRYb9ePMp72AH3CjvAEyiBjqLOmrM6Y0deBVNJjiB5
+	 +gZUy/DON7r7RhC2aOxR/0wDaUQ7nVPuLjWrN78SQdI5PHZ+k1cG732htaX6it0fXBL9tb
+	 Er2c6mlNInZWTEN566vYJ1v/bta6R41k9yh0za0vRaPpKGXVYfPRyNZidYWEtvlfdNeuxX
+	 XSADFiJHo+fcorSHVxF6x8vqmUCIzk2NtaCo1HVC5yEEAeIQ8BAKO+ytK1kSsPzVqeBzEC
+	 41ecQXusSVjDkCiqwAg5RHBG4p/w==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.72 as permitted sender) smtp.mailfrom=no-reply@hanacard.co.kr
+Return-Path: <no-reply@hanacard.co.kr>
+Received-SPF: pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.72 as permitted sender)
+  client-ip=211.51.103.72; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of no-reply@hanacard.co.kr designates 211.51.103.72 as permitted sender) smtp.mailfrom=no-reply@hanacard.co.kr
+X-Naver-ESV: wqRn+6J4p63qMBIYFHwdbXmmKou9KoiYkXm=
+X-Session-IP: 211.51.103.72
+Received: from hanacard.co.kr (hanacard.co.kr [211.51.103.72])
+  by crcvmail205.nm.naver.com with ESMTP id -cEkcxHhQTKSevA-a9RdHw
+  for <1059230@naver.com>;
+  Thu, 12 Oct 2023 02:15:22 -0000
+From: "=?euc-kr?B?x8+zqsSrteU=?=" <hanacard@hanacard.co.kr>
+To: "=?euc-kr?B?ucy09bnM?=" <1059230@naver.com>
+Reply-to: <hanacard@hanacard.co.kr>
+Subject: =?euc-kr?B?vNK787D4wM4gsd3AtiC787v9wfa/+CCwobjN?=
+ =?euc-kr?B?waEgvsizuw==?=
+Date: Thu, 12 Oct 2023 11:15:22 +0900
+X-WORKER_ID: <single.naver.com_Worker_1>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMTAxMTAwMDAx>
+X-MEMBER_ID: <TV9JRD0wMDk5MzM2NDQ0Nw==>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTA=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202310121115224975@hanacard.co.kr_Ems@hanacard.co.kr>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>하나카드</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta content="width=device-width" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<script language="javascript" type="text/javascript" src="http://www.hanacard.co.kr/js/cmn/wl6.js"></script>  </head>
+<body style="padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+<!-- mail_wrap -->    <table align="center" border="0" cellpadding="0" cellspacing="0" width="738">
+<!-- mail header -->      <tbody>
+<tr>
+<td style="background: #f0f0f0; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td height="177" valign="top" width="100%">
+<img alt="하나카드" border="0" height="177" src="https://em.hanacard.co.kr:1443/camp_img/e_header_lt.gif" style="vertical-align: top; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; padding-right: 0px" width="738" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="background: #f0f0f0; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 36px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; font-weight: bold; color: #000; padding-bottom: 43px; text-align: center; padding-top: 30px; padding-left: 0px; margin: 0px; letter-spacing: -2px; line-height: 45px; padding-right: 0px">
+하나카드 소상공인<br />
+금융 상생 지원을 위한 가맹점 안내</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //mail header --><!-- mail contents -->        <tr>
+<td style="background: #f0f0f0; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+<table border="0" cellpadding="0" cellspacing="0" width="678">
+<tbody>
+<tr>
+<td style="background: #fff; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+<!-- 본문 내용 -->                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+<div style="height: 50px; width: 300px; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px 0px -27px; display: inline-block; line-height: 0; padding-right: 0px">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #00907f; color: #fff; padding-bottom: 10px; text-align: center; padding-top: 10px; padding-left: 10px; margin: 0px; line-height: 22px; padding-right: 10px">
+대표자님, 안녕하세요.</td>
+</tr>
+<tr>
+<td style="height: 10px; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+<img border="0" height="10" src="https://em.hanacard.co.kr:1443/camp_img/e_name_bottom.gif" width="10" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr>
+<td style="font-size: 18px; border-top: #e1e1e1 1px solid; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; border-right: #e1e1e1 1px solid; border-bottom: 0px; color: #000; padding-bottom: 25px; text-align: center; padding-top: 40px; padding-left: 35px; border-left: #e1e1e1 1px solid; margin: 0px; letter-spacing: -1px; line-height: 34px; padding-right: 35px">
+하나카드 회원의 편리한 카드 이용을 위해<br />
+늘 힘써 주신 대표자님께 감사의 인사를 드립니다.<br />
+하나카드에서는 소상공인 금융 상생 지원을 위해<br />
+아래와 같이 서비스를 제공하고 있습니다.</td>
+</tr>
+<tr>
+<td style="font-size: 15px; border-top: #e1e1e1 1px solid; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; border-right: #e1e1e1 1px solid; background: #f4f4f4; border-bottom: #e1e1e1 1px solid; color: #000; padding-bottom: 15px; text-align: center; padding-top: 14px; padding-left: 35px; border-left: #e1e1e1 1px solid; margin: 0px; line-height: 21px; padding-right: 35px">
+고객 만족을 위해 최선을 다하는 하나카드가 되도록 노력하겠습니다.</td>
+</tr>
+</tbody>
+</table>
+<!-- //본문 내용 -->                  </td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<!-- 고객정보테이블 -->          <td style="background: #f0f0f0; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+<table border="0" cellpadding="0" cellspacing="0" width="678">
+<tbody>
+<tr>
+<td colspan="2" height="60" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+</td>
+</tr>
+<tr>
+<td colspan="2" height="26" style="font-size: 18px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #000; padding-bottom: 15px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 18px; padding-right: 0px">
+<img border="0" src="https://em.hanacard.co.kr:1443/camp_img/ico_bull01.gif" style="vertical-align: top" />대상</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #333; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 35px">
+영세 가맹점(연간 매출액 3억원 이하)</td>
+</tr>
+<tr>
+<td colspan="2" height="30" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+</td>
+</tr>
+<tr>
+<td colspan="2" height="26" style="font-size: 18px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #000; padding-bottom: 15px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 18px; padding-right: 0px">
+<img border="0" src="https://em.hanacard.co.kr:1443/camp_img/ico_bull01.gif" style="vertical-align: top" />시행기간</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #333; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 35px">
+2023.09.01 ~ 2023.12.31</td>
+</tr>
+<tr>
+<td colspan="2" height="30" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+</td>
+</tr>
+<tr>
+<td colspan="2" height="26" style="font-size: 18px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #000; padding-bottom: 15px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 18px; padding-right: 0px">
+<img border="0" src="https://em.hanacard.co.kr:1443/camp_img/ico_bull01.gif" style="vertical-align: top" />지급주기</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #333; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 35px">
+시행기간 중 &#39;매출전표 접수+1영업일&#39;에서 &#39;매출전표 접수+당일지급&#39;으로 변경 운영
+<p style="margin: 0px">
+※ 2024. 01. 02일 매출접수 전표까지 적용</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="30" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+</td>
+</tr>
+<tr>
+<td colspan="2" height="26" style="font-size: 18px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #000; padding-bottom: 15px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 18px; padding-right: 0px">
+<img border="0" src="https://em.hanacard.co.kr:1443/camp_img/ico_bull01.gif" style="vertical-align: top" />유의사항</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #333; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 35px">
+<p style="padding-left: 18px; margin: 0px; text-indent: -18px">
+<span style="padding-right: 6px">①</span>당일 지급으로 변경 됨에 따라 가맹점 매출 대금이 오후에 입금 될 수 있습니다.</p>
+<div style="padding-left: 18px; margin: 0px; text-indent: -18px">
+<span style="padding-right: 6px">②</span>시행기간 종료일: 2024년 01월 01일
+<p style="padding-left: 18px; margin: 0px; text-indent: -14px">
+<span style="padding-right: 6px">※</span>시행기간 종료 후 기존 지급주기로의 변경에 대해 별도 안내되지 않으니<br />
+이점 유의해 주시기 바랍니다.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="30" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; line-height: 0; padding-right: 0px">
+</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size: 14px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; vertical-align: top; background: #fff; color: #00907f; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; letter-spacing: -1px; line-height: 22px; padding-right: 35px">
+<div style="font-size: 14px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #f4f4f4; color: #000; padding-bottom: 18px; text-align: center; padding-top: 18px; padding-left: 20px; margin: 0px; letter-spacing: -1px; line-height: 24px; padding-right: 20px">
+<p style="padding-left: 10px; margin: 0px">
+앞으로도 더 나은 서비스 제공을 위하여 항상 노력하겠습니다. 감사합니다.</p>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" height="50" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+<!--푸터 띄어쓰기 : 고정-->                  </td>
+</tr>
+</tbody>
+</table>
+</td>
+<!-- //고객정보테이블 -->        </tr>
+<!-- //mail contents --><!-- mail footer -->        <tr>
+<td style="background: #f0f0f0; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+<table border="0" cellpadding="0" cellspacing="0" width="678">
+<tbody>
+<tr>
+<td colspan="2" style="background: #fff; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+<img alt="하나카드 고객센터 1800-1111, 상담시간(평일) 09:00`18:00" border="0" src="https://em.hanacard.co.kr:1443/camp_img/e_footer_cs01.gif" style="vertical-align: top" /></td>
+</tr>
+<tr>
+<td colspan="2" height="20" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+</td>
+</tr>
+<!-- 원큐페이 다운로드 -->                <tr>
+<td colspan="2" style="background: #fff; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+<img alt="하나원큐페이 다운로드" border="0" src="https://em.hanacard.co.kr:1443/camp_img/e_footer_1qpay.gif" style="vertical-align: top" /></td>
+</tr>
+<tr>
+<td colspan="2" height="20" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #333; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>
+<!-- 고객센터,동의 문구 -->                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; vertical-align: top; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 0px" width="10">
+-</td>
+<td style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 0px; margin: 0px; letter-spacing: 0px; line-height: 22px; padding-right: 35px">
+상품정보 및 각종 금융정보 이메일 수신을 원치 않으시면 <a href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD0wMDk5MzM2NDQ0Nw==&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTA=&UE9TVF9JRD0yMDIzMTAxMTAwMDAx&VEM9MjAyMzEwMTg=&S0lORD1D&Q0lEPTAwMQ==&URL=https://www.hanacard.co.kr/PY35800000M.web?_frame=no&amp;cno=00993364447&amp;email=1059230@naver.com&amp;em=oversea_170912&amp;cnt1=Here01" style="text-decoration: underline; color: #038d92" target="_blank">여기</a>를 click 하십시오.<br />
+(If you don&#39;t want to receive this type of e-mail, please <a href="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD0wMDk5MzM2NDQ0Nw==&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTA=&UE9TVF9JRD0yMDIzMTAxMTAwMDAx&VEM9MjAyMzEwMTg=&S0lORD1D&Q0lEPTAwMg==&URL=https://www.hanacard.co.kr/PY35800000M.web?_frame=no&amp;cno=00993364447&amp;email=1059230@naver.com&amp;em=oversea_170912&amp;cnt1=Here02" style="text-decoration: underline; color: #038d92" target="_blank">click here.</a>)</td>
+</tr>
+<tr>
+<td colspan="2" height="10" style="background: #fff; padding-bottom: 0px; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+</td>
+</tr>
+<tr>
+<td style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; vertical-align: top; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 22px; padding-right: 0px" width="10">
+-</td>
+<td style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 0px; margin: 0px; letter-spacing: 0px; line-height: 22px; padding-right: 35px">
+본 메일은 발신전용이므로 문의가 있으신 분은 고객센터로 문의해 주시기 바랍니다.<br />
+고객센터 <strong style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; font-weight: normal; color: #000; line-height: 22px">1800-1111</strong> / 해외에서 거실 때 <strong style="font-size: 13px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; font-weight: normal; color: #000; line-height: 22px">82-1800-1111</strong></td>
+</tr>
+<tr>
+<td colspan="2" height="20" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #fff; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //고객센터,동의 문구 -->                  </td>
+</tr>
+<tr>
+<td style="background: #fff; padding-bottom: 0px; text-align: center; padding-top: 0px; padding-left: 35px; margin: 0px; line-height: 0; padding-right: 35px">
+<img alt="하나카드 소개" border="0" src="https://em.hanacard.co.kr:1443/camp_img/e_footer.gif" style="vertical-align: top" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="50" style="font-size: 15px; font-family: &quot;맑은고딕&quot;, Malgun Gothic, Dotum, Arial; background: #f0f0f0; color: #666; padding-bottom: 0px; text-align: left; padding-top: 0px; padding-left: 30px; margin: 0px; line-height: 0; padding-right: 30px">
+</td>
+</tr>
+<!-- //mail footer -->      </tbody>
+</table>
+<!-- //mail_wrap -->  <div style="display:none"><img src="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD0wMDk5MzM2NDQ0Nw==&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTA=&UE9TVF9JRD0yMDIzMTAxMTAwMDAx&VEM9MjAyMzEwMTg=&S0lORD1P" width=1 height=1></div>
+<iframe src="http://em.hanacard.co.kr:8080/track/Check.jsp?TV9JRD0wMDk5MzM2NDQ0Nw==&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMTA=&UE9TVF9JRD0yMDIzMTAxMTAwMDAx&VEM9MjAyMzEwMTg=&S0lORD1E" frameborder="0" width="1" height="1"></iframe>
+</body>
+</html>
+
+
+

@@ -1,0 +1,104 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1713491907;
+	cv=none; b=S+EaWIZ1/opjMe6LNs64DA4B6vOS+BeeSQHopwCsi8xKwhL1PjRVe2Czrgxb
+	 7zT4TVHrxtAk8OPq+1rRdQ6JRTw6d7bOgqei1Y3c46ZeDXWBZnevKl7i4VgX31w1nXRowa
+	 ElniZElcWJS3gt0YosOOuwK9GWtl4shQpCMuM2SNS24R1IIwlOtXA4LsALVm9mn9LMYkCF
+	 9mkaRENg96QBD/ie2RexfisHLHQ3O1wAkNbwnm8/IqkJRKTKTwJh7sE57pXIIfB1QUYn4B
+	 KX32G5qrwYS+YfK3cmWItJK+MM4oN8PmRCxVTC7WTxFtHWvLTh26tFMh05co3mgcTH3T+y
+	 Pw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1713491907; c=relaxed/relaxed;
+	bh=sv3d6onWekfk6lIXkE5VX2OmigkEum4Ef7fh6MZTRDc=;
+	h=date:message-id:subject:from:to; b=jRP/tWlo+HVaACKjrcmycFTZZjP3cAHdAf
+	 0NK94M5gkuO2GM8FKbL2MdGlFa6zcTjlBfVomQVSm5OSsIp13l+QbItlkStBAcsqGx38XR
+	 Qxd5QtAQ2qsBXrehIsI10J3kok1f3JIhq868WprdWoBkgTUJPXKaDOFzbKwMzGnD98XvAT
+	 htjuePBBKfwYtf8xwcvWGxiQ7IMwOmSP6U7719qJXH0NIE+nvFA0cXRxcCJHM8D4QUnTow
+	 N8XBtD9L9Ro52xx5PhAj2K0pgt2g6PdIk4xdbu/w1qKFA3pqZECTFF2ayrrmvCWtQ43j1t
+	 +tFkhBD0eovzQg1MxlxN/Y+8e/Wg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0_1_1_qkrwotjdd_naver.com@signokay.co.kr designates 211.35.99.65 as permitted sender) smtp.mailfrom=0_1_1_qkrwotjdd_naver.com@signokay.co.kr
+Return-Path: <0_1_1_qkrwotjdd_naver.com@signokay.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 0_1_1_qkrwotjdd_naver.com@signokay.co.kr designates 211.35.99.65 as permitted sender)
+  client-ip=211.35.99.65; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_qkrwotjdd_naver.com@signokay.co.kr designates 211.35.99.65 as permitted sender) smtp.mailfrom=0_1_1_qkrwotjdd_naver.com@signokay.co.kr
+X-Naver-ESV: wr+n+6J4p63qMBIYFHwdbXmmKxE/Ko+YkXm=
+X-Session-IP: 211.35.99.65
+Received: from mailer.signokay.co.kr (mailer.signokay.co.kr [211.35.99.65])
+  by crcvmail304.nm.naver.com with ESMTP id V2ax7NpNS06Mjmxy1nwQLQ
+  for <qkrwotjdd@naver.com>;
+  Fri, 19 Apr 2024 01:58:27 -0000
+MIME-Version: 1.0
+Date: Fri, 19 Apr 2024 10:58:24 +0900
+Message-ID: <IWNID_0_1_1_2307988_0_20240419105824>
+Return-Path: <IWNID_0_1_1_2307988_0_20240419105824@signokay.co.kr>
+Content-Type: text/html; 
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?B?67Cp7J287JqwWyjso7wp67iM656c65Oc67Cc7KCE7IaMXeuLmOydtCBbKDI=?=
+	=?utf-8?B?MDI0MDQxOSnqtJHqs6Drp6TssrTtjJDrp6Tqs4Tslb3shJxf6rCV64Ko?=
+	=?utf-8?B?66eb7KeRXzLtmLjshKAg6rWs66Gc65SU7KeA7YS464uo7KeA7JetIOyhsOuqhSjrsKk=?=
+	=?utf-8?B?7J287JqwKV3sl5Ag7ISc66qF7J2EIOyalOyyre2VmOyYgOyKteuLiOuLpC4=?=
+From: =?utf-8?B?c2lnbk9L?=<noreply@signokay.co.kr>
+To: <qkrwotjdd@naver.com>
+Reply-To: =?utf-8?B?c2lnbk9L?=<noreply@signokay.co.kr>
+X-Mailer: IMailer V2
+X-Email: <qkrwotjdd@naver.com>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>signOK</title>
+</head>
+<body style="box-sizing: border-box; margin: 0; padding: 0; font-size: 14px; color: #5a5a5a; letter-spacing: -1px; line-height: 1.6; padding: 40px; word-break: break-all; background: #f7f7f7;">
+    <div style="max-width: 600px; padding: 32px; margin:0 auto;background: #fff; background: #ffffff">
+      <div style="margin-bottom: 30px;">
+      	<a href = "https://signok.com ">
+    		<img src="https://doc.signok.com/common/fileDownload.sg?BaD6ur1rwscCRu/ARXkVR+lHOIJzhQMk2NfT/5p6egQYuKeASQqbm4vX7p8QPVktguJU4pN3qFGza2EohQlhTX/kxKk+FEBIzdW1sdRHFcOO/iGE7oZ1BcMAWxtwsLV7&encrpt_" style="max-width:132px;max-height:80px;width:'auto';height:'auto'"/>  
+    	</a>
+   	</div>
+      <div style="color: #333; font-weight: 600; font-size: 20px; margin-bottom: 30px; word-break: break-all;">[서명 요청]</div>
+      <p>체험주식회사님, 서명 정보를 확인 후 아래 버튼을 눌러 서명해 주세요.</p>
+      <table style="border-top: 2px solid #999; border-bottom: 2px solid #999; border-collapse: collapse; width: 100%; margin-top: 30px;">
+          <colgroup>
+              <col style="width: 25%">
+              <col style="width: 75%">
+          </colgroup>
+          <tbody>
+              <tr style="border-bottom: 1px solid #dbdbdb;">
+                <th style="padding: 15px;">계약서 이름</th>
+                <td style="padding: 15px;">(20240419)광고매체판매계약서_강남맛집_2호선 구로디지털단지역 조명(방일우)</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #dbdbdb;">
+                <th style="padding: 15px;">서명 요청자</th>
+                <td style="padding: 15px;">방일우(choko5458@brandp.co.kr)</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #dbdbdb;">
+                <th style="padding: 15px;">서명 유효기간</th>
+                <td style="padding: 15px;">2024년 05월 09일</td>
+              </tr>
+              <tr style="border-bottom: 1px solid #dbdbdb;">
+                <th style="padding: 15px;">전달내용</th>
+                <td style="padding: 15px;">서명요청</td>
+              </tr>
+          </tbody>
+      </table>
+
+      <div style="margin-top: 30px; text-align: center">
+          <a href="https://doc.signok.com/linkUrl?2QQKALSB3IQ9" target="_blank" style="display: inline-block; text-decoration: none; border-radius: 8px; padding: 14px 20px; background-color: #ee3649; color: #fff; background: #737373; color: ${btnTextColor}; ">서명하기</a>
+      </div>
+
+      <div style="margin-top: 60px;">안전한 계약서 보관을 위해 다음의 사항을 지켜주세요.</div>
+      <ul style="margin-top: 30px; list-style: none; margin: 0; padding: 0; margin-top: 10px">
+        <li>1. 완료된 계약서는 반드시 다운로드하여 별도 보관합니다.</li>
+        <li>2. 이메일 계정 및 계약서 링크를 제3자에게 공유하지 않습니다.</li>
+      </ul>
+
+      <div style="border-top: 1px solid #999; margin-top: 60px; padding-top: 30px">
+      	본 메일은 발신전용입니다. 문의사항은 <a href="https://support.signok.com" target="_blank" style="font-weight:400;color: #000;text-decoration: none;border-bottom: 1px solid;">고객지원</a>을 이용해주시기 바랍니다.
+      </div>
+      <div>ⓒ KICA inc. All rights reserved.</div>
+    </div>
+</body>
+</html>
+

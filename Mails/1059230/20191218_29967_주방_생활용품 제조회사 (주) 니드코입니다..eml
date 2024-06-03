@@ -1,0 +1,51 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=naver.com; s=s20171208;
+	t=1576649178; bh=CiAVGodrFson3i4hkZTTZOeGkqEMi2fRvTF0k8POu5E=;
+	h=Message-ID:Date:From:To:Subject;
+	b=lmP1bfZO0B4wqkH8GEiQdxljr+J5hPqVdpiCEsEqaLeRtj7fYq73Xkal6FGClg4ZC
+	 9OxLOLlcOMKat/Ov9QYdKbw4v3ZFSBJQFtlHroTOLZ4HeyVsKDAqhpyNtto1DXUvGd
+	 raKGerQTKgzxX9PLvKiQxSpaUy+y3iYpscMUxJCS2aYud2LfH03Bn2//uy+Dzpp/k7
+	 latsIT86A2aPhKET8Vy/MUMEU8OVK6KmIU8GP7HUkVRbWJCao9kOUViGIKtJnOVCTL
+	 s75FX6gOW1xrrvXmGoMDXZXt7Fp6vnwG//n7Xds1yt/pM9ZmmRRCDy2SvCvtKfLMxz
+	 JjuqsaRC2tQVg==
+X-Session-ID: TrKZKxvwKAi57q2wBq2wp6kvMreRM6wn7quXKqMdaxumaxErat..
+MIME-Version: 1.0
+Message-ID: <613abe8ebcfb1ceb969b48dbd24c0d2@cweb008.nm.nfra.io>
+Date: Wed, 18 Dec 2019 15:06:18 +0900
+From: =?utf-8?B?64uI65Oc7L2UIE1E?=<needcomall@naver.com>
+Importance: normal
+To: <1059230@naver.com>
+Subject: =?utf-8?B?7KO867CpL+yDne2ZnOyaqe2SiCDsoJzsobDtmozsgqwgKOyjvCkg64uI65Oc7L2U7J6F64uI?=
+	=?utf-8?B?64ukLg==?=
+X-Originating-IP: 175.201.222.163
+Content-Type: multipart/alternative;
+	boundary="-----Boundary-WM=_7f2ef83f9700.1576649178488"
+
+-------Boundary-WM=_7f2ef83f9700.1576649178488
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+7Ims7KaI67iU66Gc6re4IOyytO2XmOuLqOq0keqzoCAx7ZqM66y066OMIOyLoOyyre2VqeuLiOuL
+pC4K7Jew652967aA7YOB65Oc66a964uI64ukLgogCuyYqOudvOyduO2MgCAwNzAtNDkxNC03NjI2
+CuyYqOudvOyduOuqsCBodHRwOi8vd3d3Lm5lZWRjb21hbGwuY29tCgoK7LC+7JWE7KO87IWU7ISc
+IOqwkOyCrO2VqeuLiOuLpC4K
+
+-------Boundary-WM=_7f2ef83f9700.1576649178488
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PHN0eWxlPnB7bWFyZ2luLXRvcDowcHg7bWFyZ2luLWJvdHRvbTowcHg7fTwv
+c3R5bGU+PC9oZWFkPjxib2R5PjxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxMHB0OyBmb250LWZhbWls
+eTpHdWxpbSwgc2Fucy1zZXJpZjsiPjxwPuyJrOymiOu4lOuhnOq3uCDssrTtl5jri6jqtJHqs6Ag
+Me2ajOustOujjCDsi6Dssq3tlanri4jri6QuPC9wPjxwPuyXsOudveu2gO2DgeuTnOumveuLiOuL
+pC48L3A+PHA+Jm5ic3A7PC9wPuyYqOudvOyduO2MgCAwNzAtNDkxNC03NjI2PGJyPuyYqOudvOyd
+uOuqsCA8YSBocmVmPSJodHRwOi8vd3d3Lm5lZWRjb21hbGwuY29tIj5odHRwOi8vd3d3Lm5lZWRj
+b21hbGwuY29tPC9hPjxicj48YnI+PGJyPuywvuyVhOyjvOyFlOyEnCDqsJDsgqztlanri4jri6Qu
+PC9kaXY+PC9ib2R5PjwvaHRtbD48dGFibGUgc3R5bGU9J2Rpc3BsYXk6bm9uZSc+PHRyPjx0ZD48
+aW1nIHNyYz0iaHR0cHM6Ly9tYWlsLm5hdmVyLmNvbS9yZWFkUmVjZWlwdC9ub3RpZnkvP2ltZz01
+OVJUTXIzMHA2JTJGcmhBUm5XekpSS3hGQ000RSUyRnA2aW9wNFV3TXJrU2F4TWxNb3QlMkZweml2
+S28zb0t6dFp0ekZYcDZVbUtBMjVXNGQ1VzRwWk1MbEdXcSUyRnNLeGc5YXhVcUt1STVNQnAwYlNs
+b1dyZCUzRC5naWYiIGJvcmRlcj0iMCIvPjwvdGQ+PC90cj48L3RhYmxlPg==
+
+-------Boundary-WM=_7f2ef83f9700.1576649178488--

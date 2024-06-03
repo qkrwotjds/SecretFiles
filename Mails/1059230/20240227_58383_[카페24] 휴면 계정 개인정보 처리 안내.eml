@@ -1,0 +1,329 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1709013737;
+	cv=none; b=kXVTHvMQPQ7/axbvP1k8dhvvqRD/YK4dIK590fDatHMsaL+KeEzkD7GxMpRW
+	 13KlP043qUVJHm4EM4hIOotL8aB9/PyqdCpURT4BdLTP39ZT0+9n40QxyqebAFnxx9QFVO
+	 xmtbKRqGGjx7jQb9pxT2jVk5BgYBxqTKmw5WmoG5Y2KKhNcmY1EgGWcbwkW5sWnMwkuK27
+	 sIT8kWIwcUHBy/iDKxGYlaijzS2IrEfuc2xNK3KqGqkZ3zJR9wpcyDW9oXBGPREYJjxdfc
+	 raitQdxmNL/7JbEGrb8fI1Z9h+5pe9QMK3vBt9WMIB/NJoGFiGO+f3dBEXS6CiD9eTbE39
+	 5A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1709013737; c=relaxed/relaxed;
+	bh=WHgceSd7ecUcCXeYdiHQKyNwqpYBWS52qL3IfWI9/eA=;
+	h=date:from:subject:to; b=Wg8DWab3en59sTKMnebxy4+dW57f7dKp54B0Ag6gt8N5L
+	 IhB5DliY/x8QOhFYX6gV30ib0BOUK2awgCL3JMvEi/bQOm5ZcgD6FCEHa/5wW5dggeQIGt
+	 Ozbtsxlytu6Ec7wrYB3NCiIij1iZDlmva82V6h9ShxyRxijDZ7wxBQf2JtGPI4nKhjKusD
+	 +HB0NTTlSaYDMYQGtlHDFA6d5Uic3/3rf4cp5toQkLKejxBvEUgZ+0zj2N0IRlS8QRTIiT
+	 NDfRrRRSbwo3pcjgynJ/JDHAbt4HaXRRjFwmk8m95N8O1FMI5L89eDQTcO3nVI5V/h1McI
+	 Kyy3/JDQdfAJSXTJg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender) smtp.mailfrom=returnmail@sender-004.cafe24.com
+Return-Path: <returnmail@sender-004.cafe24.com>
+Received-SPF: pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender)
+  client-ip=218.236.58.151; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender) smtp.mailfrom=returnmail@sender-004.cafe24.com
+X-Naver-ESV: wd+n+6J4p63qMBIYKXwdbXmmFogZKx+YkXm=
+X-Session-IP: 218.236.58.151
+Message-ID: <1709013737669.7f0e4.178161728@crcvmail102.nm>
+Received: from sender-004.cafe24.com (sender-004.cafe24.com [218.236.58.151])
+  by crcvmail102.nm.naver.com with ESMTP id 2fnfAP5vTKyhMfsv3hK8pg
+  for <1059230@naver.com>;
+  Tue, 27 Feb 2024 06:02:17 -0000
+Date: Tue, 27 Feb 2024 14:58:18 +0900
+From: "=?euc-kr?B?xKvG5DI0?="<noreply@cafe24.com>
+Subject: =?euc-kr?B?W8SrxuQyNF0gyN646SCw6MGkILCzwM7BpLq4IMOzuK4gvsizuw==?=
+To: "=?euc-kr?B?J3FrcndvdGpkczEnILTU?="<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: ThunderMail ver 4.5
+Content-Type: text/html;	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<table cellpadding="10" cellspacing="0">
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" bgcolor="#f2f2f2" style="width:100%; font-family:'Malgun Gothic','맑은 고딕','돋움', dotum, sans-serif; letter-spacing:-1px; word-break:break-all;">
+<tbody><tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" style="width:100%; max-width:640px; margin:0 auto;">
+<tbody><tr>
+<td height="24">
+</td>
+</tr>
+<tr>
+<td style="padding:0; font-size:0;">
+<A TARGET="_blank"HREF="https://hosting.cafe24.com"><IMG WIDTH="112" ALT="CAFE24"
+ SRC="https://m-img.cafe24.com/images/template/ec/logo_cafe24_global_new.png"></A></td>
+</tr>
+<tr>
+<td height="16">
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" style="padding:32px 24px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" style="text-align:center;">
+<tbody><tr>
+<td style="padding:0; font-size:0; line-height:0;">
+<IMG
+ WIDTH="96" ALT="" SRC="https://m-img.cafe24.com/images/template/common2//img_computer.png" HEIGHT="96"></td>
+</tr>
+<tr>
+<td height="24">
+</td>
+</tr>
+<tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:24px; line-height:32px; color:#1c1c1c; font-weight:bold;">
+               
+                             
+  카페24 휴면 계정 개인정보 처리 안내                                            
+</td>
+										</tr>
+										<tr>
+											<td height="12">
+</td>
+										</tr>
+										<tr>
+											<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+												안녕하세요 카페24입니다.<br />
+												2023년 9월 15일 개인정보보호법 개정에 따라, <span style="color:#0066CC"> '개인정보 유효기간제(개정 전 39조의 6)'</span>가 폐지되었습니다.<br />
+												이에 의거하여
+1년 이상 장기 미이용에 따라 분리보관되었던 휴면 계정의 개인정보 처리에 대해 
+<br />
+아래와 같이 안내드립니다.											</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="16">
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" style="padding:32px 24px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:18px; line-height:24px; font-weight:bold; color:#1c1c1c;">
+               
+                             
+  휴면 계정 개인정보 삭제 안내                                            
+</td>
+</tr>
+<tr>
+<td height="24">
+</td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>														<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#1c1c1c; vertical-align:top;">
+-</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+															2024년 3월 27일, <span style="color:#0066CC">4년 이상 활동하지 않은 휴면 계정</span>의 개인정보가 순차적으로 삭제됩니다.														</td>
+</tr>
+																															<tr>
+<td height="10">
+</td>
+														</tr>
+<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#1c1c1c; vertical-align:top;">
+-</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+															2024년
+3월 27일 이후에도, 휴면 처리된 지 4년이
+경과한 계정의 개인정보는 자동으로 삭제될 예정입니다.														
+</td>
+</tr>
+																															<tr>
+<td height="10">
+</td>
+														</tr>
+<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#DD3131; vertical-align:top;">
+※</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#DD3131;">
+															삭제된 개인정보는 복구되지 않습니다.														</td>
+</tr>
+															
+                             
+                             
+                                               
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+						<tr>
+<td height="16">
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" style="padding:32px 24px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:18px; line-height:24px; font-weight:bold; color:#1c1c1c;">
+               
+                             
+  휴면 상태 해제 안내                                            
+</td>
+</tr>
+					  					<tr>
+<td height="24">
+</td>
+</tr>
+<tr>
+<td bgcolor="#fafafa" style="padding:16px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>												<tr>
+<td height="10">
+</td>
+															</tr>
+														<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#1c1c1c; vertical-align:top;">
+-</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+															분리보관 기간 종료일 : 2024년 3월 27일</td>
+															</tr>
+												<tr>
+<td height="10">
+</td>
+														</tr>
+														<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#1c1c1c; vertical-align:top;">
+-</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+															<span style="color:#1c1c1c">4년 이상 활동하지 않은 휴면
+계정을 다시 사용하고자 하시는 경우, 2024년 3월
+27일 이전까지 로그인하여 계정의 휴면 상태를 해제할 수 있습니다. (분리보관 기간 종료 시 순차적 삭제)
+</span></td>
+														</tr>
+																															<tr>
+<td height="10">
+</td>
+															</tr>
+														<tr>
+															<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:18px; color:#1c1c1c; vertical-align:top;">
+-</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+															휴면
+처리된 날로부터 4년이 경과하지 않은 경우, 로그인을 통해 휴면 상태 해제가 가능합니다.
+</td>
+														</tr>
+																																															<tr>
+<td height="10">
+</td>
+															</tr>
+															<tr>
+<td width="11" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:12px; line-height:18px; color:#DD3131; vertical-align:top;">
+※</td>
+															<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:13px; line-height:20px; color:#DD3131;">
+															주의
+: 카페24 홈페이지 접속 후 로그인하지 않으면, 휴면 상태 해제가 되지 않습니다.
+</td>
+														</tr>
+																															<tr>
+<td height="10">
+</td>
+															</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="16">
+</td>
+</tr>
+<tr>
+<td bgcolor="#ffffff" style="padding:32px 24px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:18px; line-height:24px; font-weight:bold; color:#1c1c1c;">
+               
+                             
+  관련 문의                                            
+</td>
+</tr>
+<tr>
+<td height="24">
+</td>
+</tr>
+<tr>
+<td bgcolor="#fafafa" style="padding:16px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<th width="140" align="left" style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#8e8e8e; font-weight:normal; vertical-align:top;">               
+                             
+                  카페24 고객센터  
+                                                         
+</th><td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:14px; line-height:20px; color:#1c1c1c;">
+<A TARGET="_blank"HREF="https://help.cafe24.com">https://help.cafe24.com</A></td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="16">
+</td>
+</tr>
+<tr>
+<td style="padding:24px;">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody><tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:12px; line-height:18px; color:#8e8e8e;">
+               
+                             
+  본 메일은 2024/02/26 기준 상기의 대상고객에게 발송되며, 발신전용이므로 회신이 되지 않습니다.
+<br />
+               
+                             
+  궁금하신 점이나 불편한 사항은 고객센터에 문의해 주시기
+바랍니다.                                            
+</td>
+</tr>
+<tr>
+<td height="12">
+</td>
+</tr>
+<tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:12px; line-height:18px; color:#8e8e8e;">
+               
+                             
+  카페24(주) | 대표이사 이재석 | 사업자등록번호 118-81-20586 | 통신판매업신고 동작 제 02-680-078호
+<br />
+               
+                                서울 동작구 보라매로5길 15 전문건설회관
+<br />
+               
+                             
+  Tel 1588-3284 | Email                                                
+<A STYLE="color:#8e8e8e; text-decoration:none;"HREF="mailto:hosting@cafe24corp.com">hosting@cafe24corp.com</A></td>
+</tr>
+<tr>
+<td height="12">
+</td>
+</tr>
+<tr>
+<td style="font-family:'Malgun Gothic','맑은 고딕','돋움',dotum,sans-serif; font-size:12px; line-height:18px; color:#8e8e8e;">
+Copyright ⓒ Cafe24 Corp. All Rights Reserved.</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="24">
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</table>
+
+<img src='http://sender-004.cafe24.com:80/filter/checker.jsp?campaignID=53348&duplicationYN=Y&targetIndex=15642&email=1059230@naver.com&responseEnd=2024-03-05' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://sender-004.cafe24.com:80/filter/Tracker.jsp?campaignID=53348&duplicationYN=Y&targetIndex=15642&email=1059230@naver.com&responseEnd=2024-03-05'></iframe>

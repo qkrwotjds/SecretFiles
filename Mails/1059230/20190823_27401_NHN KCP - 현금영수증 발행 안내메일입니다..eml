@@ -1,0 +1,231 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1566488558;
+	cv=none; b=DO+F5mF81s5M63qdWYa7YsFvDMdB30aYFjSVM0UkDXTQbXCPnBZGSesGGNnR
+	 f4Y5ktqZY6wwZtfwgtb2yACf9ctrzVzDFi1lU4/GqY4T4kd2X42iomrQFJNg+ZFVW3kMMb
+	 1ZgF5LFkMBFtgzSIbT2nlYny+m2EnA+yrzjmJoTS8qLNYO1Vz4tBT6aRIvnPf0WaBxZKuy
+	 VHmwHAwDhKBpPdWcsRD1DpDAEijM1HzXQ03ekQP5DEqcfyznw06Net+ebZdCJzYEoW+WF/
+	 9nc6251PLi93dgR8t6syZDy9DBBlVDtWS4QsT94p4gHWGGzsuxJlFieWEC/7vV/zSAlx1t
+	 Pw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1566488558; c=relaxed/relaxed;
+	bh=h9xaal2k5vth7t5OcODLIX8gLYJHuHApez4PY6nH5F4=;
+	h=message-id:from:to:subject:date; b=fAzeNe+fFSOCMbhYcJW0jZxyU+KJPCXth8
+	 2oovXAlt3NPtiG3mAn0w8oVaP9mymy7/k5goHOVAHCZ3k8D48g1BhA6En3HXSY/r6pn+73
+	 KYb6VokFbHzzlhnz45y2GMhFF7WM1dm8n7hNNT8fjYy0kbD0efh0jew+3LVZWcbmnaXAnC
+	 bqdRo1ZQKz8520UdU5TisCfN9zc/e4hNspPFxpCxZRXf5AncJrrwtQwgQDMoidYZZdgI+1
+	 ha/zhFAjkg+K8nXZMG2gFHP28DSxI795Ih204hyh6UDPMfO2v/5hoIK+MlSs/RgP/PPnLX
+	 jnAuz2hu57BwqLRMFyvPfsr+POMQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of pgadmcust@kcp.co.kr designates 103.215.144.173 as permitted sender) smtp.mailfrom=pgadmcust@kcp.co.kr
+Return-Path: <pgadmcust@kcp.co.kr>
+Received-SPF: pass (mx.naver.com: domain of pgadmcust@kcp.co.kr designates 103.215.144.173 as permitted sender)
+  client-ip=103.215.144.173; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of pgadmcust@kcp.co.kr designates 103.215.144.173 as permitted sender) smtp.mailfrom=pgadmcust@kcp.co.kr
+X-Naver-ESV: +PRYpB3G1H+YbXFCbHm9KxEdKoK/jJ+Y
+X-Session-IP: 103.215.144.173
+Received: from nt3.kcp.co.kr (nt3.kcp.co.kr [103.215.144.173])
+  by crcvmail35.nm.naver.com with ESMTP id 2qlZT7ApR1GqBf9abd14fA
+  for <1059230@naver.com>;
+  Thu, 22 Aug 2019 15:42:38 -0000
+Message-ID: <20190823220295_017982_-15623899>
+From: "NHN KCP <=?euc-kr?B?ud+9xcD8v+s=?=>" <pgadmcust@kcp.co.kr>
+To: <1059230@naver.com>
+Subject: NHN =?euc-kr?B?S0NQIC0gx/ax3b+1vPbB9SC538fgIL7Is7u43sDPwNS0z7TZLg==?=
+Date: Fri, 23 Aug 2019 00:42:35 +0900
+MIME-Version: 1.0
+Content-Type: text/html; charset="ks_c_5601-1987"
+Content-Transfer-Encoding:8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+<title>kcp</title>
+</head>
+
+<body style="margin:0;">
+<table width="780" cellspacing="1" cellpadding="0" border="0" bgcolor="d9d9d9" align="center">
+  <tr>
+    <td align="center" bgcolor="#FFFFFF" style="padding:10px 0 10px;"><!--본문--> 
+      
+      <!--Top-->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="left" style="padding-bottom:10px;"><a href="http://www.kcp.co.kr/"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/logo.gif" border="0"></a></td>
+          <td width="275" align="right" style="padding-bottom:10px;"><a href="http://www.kcp.co.kr" target="_blank"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/bn_top.gif" width="152" height="34" border="0"></a></td>
+        </tr>
+      </table>
+      
+      <!--Title-->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="1" bgcolor="#d9d9d9"></td>
+        </tr>
+        <tr>
+          <td align="center" style="padding-top:30px;"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/title_deal_02.gif" alt="KCP에서 발행된 현금영수증 내역입니다." width="468" height="28"></td>
+        </tr>
+        <tr>
+          <td align="center" style="padding:10px 0 40px 0; color:#777; font-family:dotum, sans-serif; font-size:12px;">현금영수증 발행을 요청하신 고객에 한해 발송되는 안내메일입니다.</td>
+        </tr>
+      </table>
+      
+      <!--Content--> 
+      
+      <!--결제정보-->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <colgroup>
+        <col width="150px;">
+        <col width="415px;">
+        <col width="153px;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" style="padding:16px 0 6px;"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/title_s1.gif" alt="결제정보" width="57" height="20"></td>
+            <td  colspan="2"></td>
+          </tr>
+          <tr>
+            <td height="2" colspan="3" bgcolor="#0088b2"></td>
+          </tr>
+          <tr>
+            <td height="32" width="150" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">거래유형</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">현금결제(지출증빙)</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="40" align="left" bgcolor="#f1f1f1" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">결제금액</td>
+            <td align="left" bgcolor="#f1f1f1" style="color:#00a8bf; font-weight:bold; font-family:verdana, Dotum, AppleGothic, sans-serif; font-size:22px;">390,000<span style="color:#000; font-weight:bold; font-family:Dotum, sans-serif; font-size:16px;">원</span></td>
+            <td align="right" bgcolor="#f1f1f1" style="padding-right:8px"><a href="https://admin8.kcp.co.kr/assist/bill.BillAction.do?cmd=cash_bill&cash_no=20190823220295&order_id=20190718101745553085&trade_mony=390,000"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/btn_print_bill.gif" alt="현금영수증 출력" width="102" height="20" border="0"></a></td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">식별번호</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">119-20-*****</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left"  style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">승인번호</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">590084812</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">발행일시</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">2019-08-23 00:42:34</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!--//결제정보 끝--> 
+      <!---// 가맹점 정보 --->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <colgroup>
+        <col width="150px;">
+        <col width="415px;">
+        <col width="153px;">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" colspan="3" style="padding:16px 0 6px;"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/title_s7.gif" alt="현금영수증 가맹점 정보" width="145" height="15"></td>
+          </tr>
+          <tr>
+            <td height="2" colspan="3" bgcolor="#0088b2"></td>
+          </tr>
+          <tr>
+            <td height="32" width="150" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">현금영수증 가맹점명</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">헬스케어(주)</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">사업자번호</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">109-86-02430</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">고객안내 전화번호</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;">02-3663-0013</td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+          <tr>
+            <td height="32" align="left" style="font-weight:bold; color:#777; font-family:dotum, sans-serif; font-size:12px; padding-left:8px;">URL주소</td>
+            <td colspan="2" align="left" style="color:#777; font-family:dotum, sans-serif; font-size:12px;"><a href="http://healthcare.pe.kr" style="color:#000; font-family:dotum, sans-serif; font-size:12px; text-decoration:underline;">healthcare.pe.kr</a></td>
+          </tr>
+          <tr>
+            <td height="1" colspan="3" bgcolor="#d9d9d9"></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!---// 가맹점 정보 끝---> 
+      
+      <!--띠배너-->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+      
+      <!--띠배너 끝--> 
+      
+      <!--안내-->
+      
+      <table width="718" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td height="70 "align="center"  valign="bottom" ><a href="https://www.hometax.go.kr" target="_blank"><img src="http://cdn.kcp.co.kr/mail/cash/20140514/fotter_text_bill.gif" border="0" /></a></td>
+        </tr>
+         <tr>
+          <td height="80 "align="left"  valign="center" ><img src="http://cdn.kcp.co.kr/mail/cash/20140514/fotter_text_2.gif" width="542" height="54" border="0" /></td>
+        </tr>
+      </table>
+      
+      <!--//안내 끝--> 
+      
+      <!--본문 끝--></td>
+  </tr>
+  
+  <!--푸터-->
+  
+</table>
+<table width="780" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td><img src="http://cdn.kcp.co.kr/mail/cash/20140514/fotter.gif" border="0" /></td>
+  </tr>
+</table>
+
+<!--//푸터-->
+

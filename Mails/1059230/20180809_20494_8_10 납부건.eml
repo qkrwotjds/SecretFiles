@@ -1,0 +1,61 @@
+Received-SPF: pass (mx.naver.com: domain of lovemyt@hanmail.net designates 211.231.106.159 as permitted sender)
+  client-ip=211.231.106.159; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of lovemyt@hanmail.net designates 211.231.106.159 as permitted sender) smtp.mailfrom=lovemyt@hanmail.net
+X-Naver-ESV: +X+YpB3G1H+YbXFCbHmRKxtZFoudjJ+Y
+X-Session-IP: 211.231.106.159
+Received: from mail-smail-vm84.hanmail.net (mail-smail-vm84.daum.net [211.231.106.159])
+  by crcvmail26.nm.naver.com with ESMTP id 7OwvUqacTyqXDjAx+2WsTw
+  for <1059230@naver.com>;
+  Thu, 09 Aug 2018 14:26:14 -0000
+Received: from mail-hmail-was4.s2.krane.9rum.cc ([10.197.10.46])
+        by mail-smail-vm84.hanmail.net (8.13.8/8.9.1) with SMTP id w79EQEER031053
+        for <1059230@naver.com>; Thu, 9 Aug 2018 23:26:14 +0900
+X-Hermes-Message-Id: m79NQDEpe696074790
+Date: Thu, 9 Aug 2018 23:26:13 +0900 (KST)
+From: =?UTF-8?B?7ISc66+87JiB?= <lovemyt@hanmail.net>
+To: =?UTF-8?B?7J6E67OR656A?= <1059230@naver.com>
+Message-ID: <20180809232613.ascXcGdHS7aXnURbzt7rhw@lovemyt.hanmail.net>
+Subject: =?UTF-8?B?OC8xMCDrgqnrtoDqsbQ=?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-Mailer: Daum Mint Web 1.0
+X-Originating-IP: [211.204.2.232]
+X-HM-UT: rKDX2kT23nTZ6B8OysP1P7qqm8T19ML3
+Received: from mail-hammer-was4.s2.krane.9rum.cc ([10.197.10.37]) by hermes of mail-hmail-was4.s2.krane.9rum.cc (10.197.10.46) with ESMTP id m79NQDEpe696074790 for <1059230@naver.com>; Thu, 09 Aug 2018 23:26:13 +0900 (KST)
+
+PGh0bWw+CjxoZWFkPgogICAgPHN0eWxlPgogICAgICAgIHB7bWFyZ2luLXRvcDowO21hcmdpbi1i
+b3R0b206MH0KICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8dGFibGUgY2xhc3M9InR4
+Yy13cmFwcGVyIiBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgd2lk
+dGg9IjEwMCUiPjx0cj48dGQgY2xhc3M9InR4Yy13cmFwcGVyLXRkIj48ZGl2IGNsYXNzPSJ0eGMt
+Y29udGVudC13cmFwcGVyIiBzdHlsZT0iY29sb3I6IzExMTtmb250LWZhbWlseTpBcHBsZSBTRCBH
+b3RoaWMgTmVvLE1hbGd1biBHb3RoaWMsJ+unkeydgCDqs6DrlJUnLHNhbnMtc2VyaWY7Zm9udC1z
+aXplOjEwcHQ7bGluZS1oZWlnaHQ6MS41OyI+PHAgbW91c2V4PSIwIiBtb3VzZXk9IjkiPuyCrOye
+peuLmDwvcD4KPHAgbW91c2V4PSIwIiBtb3VzZXk9IjkiPjxicj48L3A+CjxwIG1vdXNleD0iMCIg
+bW91c2V5PSI5Ij7qt7zroZzshozrk53shLjsmYAg7IKs7JeF7IaM65Od7IS4IOyngOuwqeyGjOuT
+neyEuCDrqqjrkZAmbmJzcDvqsIDsg4Hqs4TsoozroZwg7J6F6riI7ZWY7IS47JqUfjwvcD4KPHA+
+Jm5ic3A7PC9wPgo8cD4mbmJzcDs8L3A+CjxwPjxzdHJvbmc+PGZvbnQgY29sb3I9IiMwNTAwOTki
+PjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7Ij7qsIDsg4Hqs4TsoowgOiAwMDEtMjkyNzxz
+dHJvbmc+PGZvbnQgY29sb3I9IiMwNTAwOTkiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7
+Ij4tMDU2Ni02NS03KOq1reuvvOydgO2WiSktJm5ic3A7Jm5ic3A7IFwyLDM5NSwyOTA8L3NwYW4+
+PC9mb250Pjwvc3Ryb25nPjwvc3Bhbj48L2ZvbnQ+PC9zdHJvbmc+PC9wPgo8cD48c3Ryb25nPjxm
+b250IGNvbG9yPSIjMDUwMDk5Ij48c3BhbiBzdHlsZT0iZm9udC1zaXplOiAxMnB0OyI+6rCA7IOB
+6rOE7KKMIDogMDAxLTI5MjctMDY0OS0wNi0wICjqta3rr7zsnYDtlokpLSZuYnNwOyBcMTUsMjQy
+LDc5MDwvc3Bhbj48L2ZvbnQ+PC9zdHJvbmc+PC9wPgo8cD48c3Ryb25nPjxmb250IGNvbG9yPSIj
+MDUwMDk5Ij48L2ZvbnQ+PC9zdHJvbmc+PHA+PHN0cm9uZz48Zm9udCBjb2xvcj0iIzA1MDA5OSI+
+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJwdDsiPjxzdHJvbmc+PGZvbnQgY29sb3I9IiMwNTAw
+OTkiPuqwgOyDgeqzhOyijCA6IDQwMi00OTIwNzYtMTA0MTggKOq1reuvvOydgO2WiSktJm5ic3A7
+Jm5ic3A7Jm5ic3A7IFwxLDc2NCwwMTA8L2ZvbnQ+PC9zdHJvbmc+PC9zcGFuPjwvZm9udD48L3N0
+cm9uZz48L3A+CjxwPjwvcD4KPHA+PHN0cm9uZz48L3N0cm9uZz4mbmJzcDs8L3A+CjxwPjxzdHJv
+bmc+PGZvbnQgY29sb3I9IiMwNTAwOTkiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHQ7Ij7s
+nIQz6rG0IOqzhOyijOuhnCDsnoXquIjtlZjshLjsmpR+PC9zcGFuPjwvZm9udD48L3N0cm9uZz48
+L3A+CjxwPjxicj48L3A+CjxwPjxicj48L3A+PGRpdiBpZD0idHhjLXNpZ25hdHVyZSI+PHA+7JWE
+7IS47JWE7IS466y067KV7J24KOuPmeyekeyngOyCrCk8L3A+CjxwPuyEnOuvvOyYgSDsi6TsnqU8
+L3A+CjxwPlRlbCA6IDAyLTg1NS0xMTU1LDwvcD4KPHA+RmF4IDogMDItMzI4OS0xMzE5PC9wPgo8
+cD5FLW1haWwgOiBsb3ZlbXl0QGhhbm1haWwubmV0PC9wPgo8cD48YnI+PC9wPjwvZGl2PjxwPjxi
+cj48L3A+PC9kaXY+PC90ZD48L3RyPjwvdGFibGU+CjwvYm9keT4KPC9odG1sPgo8aW1nIHNyYz0i
+aHR0cHM6Ly9jb25maXJtLm1haWwuZGF1bS5uZXQvY29uZmlybWFwaS92MS91c2Vycy9sb3ZlbXl0
+JTQwaGFubWFpbCUyRW5ldC9jbWFpbHMvMjAxODA4MDkyMzI2MTMlMkVhc2NYY0dkSFM3YVhuVVJi
+enQ3cmh3JTQwbG92ZW15dCUyRWhhbm1haWwlMkVuZXQvcmVjaXBpZW50cy8xMDU5MjMwJTQwbmF2
+ZXIlMkVjb20iPg==

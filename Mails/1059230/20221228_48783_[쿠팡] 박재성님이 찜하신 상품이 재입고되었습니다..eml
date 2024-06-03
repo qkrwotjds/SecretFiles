@@ -1,0 +1,225 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1672213775;
+	cv=none; b=CoTMs1kkUQXGzLAmrQ2PNuLsRA5NFxdS5Mqclq1WXqnMm7PNoe7yX1uBjKAQ
+	 7gYrIriKbdqljh0JpD0ejIXB5LMe5ODUiKGe9En1JTAIrZP7O2g8wH6e9zXRJF25gqJu/l
+	 CPs5CiQcXPGOQsJ9Ybh7ZslgC12bAI34I+6X86nIDFdiXmnZhXqpuORbsQOiBpcEcuh5ZY
+	 ffFjxz5Xh2QQpLmG91l9s0YmO/Geh3TGq2eTurVrjlHdUDaAHY9aF5kEu5i4S/ICONMNeu
+	 vrOJ6leNcyO9uRMgmXRi7gndKk3OdgLPc51EH2Ri09UUM/Jtlg5Ne2DZpJYrORO2xL1+b/
+	 Sw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1672213775; c=relaxed/relaxed;
+	bh=qdLO7FlZ0gJvU69qzMQIU1s0trN2cMOlNcrjM4/4iOg=;
+	h=date:from:to:message-id:subject; b=Wb6asRtyTmDxUqyUXym0SfUgkSS0TXRM2o
+	 nCwp5ws6RfpAJoC/zKtFAjGMUNxWqfDRvIseg+I+VNWxSPjzXIEwCVqWrXLuKDhSkKm3nf
+	 m22UwnXkyRFHKj4l9ayY4QjEQA05PzjupMdD3IO+ExDzugcd0unAS9E1dqdld924GV4n1y
+	 zaq1ZU8ACeDYEOefSxybZyf33VrFPBjy40LFQeuXJ87UE+JpM7wYISKUCaJZF4huQubyvd
+	 loBRHeXu8UHb8XrNpLhnuAmkCiWZC0SNKZagVEMo+lvHZT3Hq4Qzmjgm1BRUtLdKy8vBuP
+	 C0gi7qUKfmux9MslWaCHp3OAn5xA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@e.coupang.com designates 106.249.30.165 as permitted sender) smtp.mailfrom=noreply@e.coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=e.coupang.com
+Return-Path: <noreply@e.coupang.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@e.coupang.com designates 106.249.30.165 as permitted sender)
+  client-ip=106.249.30.165; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@e.coupang.com designates 106.249.30.165 as permitted sender) smtp.mailfrom=noreply@e.coupang.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=e.coupang.com
+X-Naver-ESV: wqFn+6J4p63CbHmwKBwdbXFYKAbdaxK9jJ+Y
+X-Session-IP: 106.249.30.165
+Received: from smtp502.toastcloud.com (smtp502.toastcloud.com [106.249.30.165])
+  by crcvmail105.nm.naver.com with ESMTP id b6apji3kT-uJCzTa9nYjOQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384);
+  Wed, 28 Dec 2022 07:49:35 -0000
+Received: from [10.161.51.22] (HELO mmsa-batchcou-p1902.svr.toastmaker.net)
+ ([10.161.51.22]) by smtp502.toastcloud.com with SMTP id a376602363abf50f;
+ Wed, 28 Dec 2022 16:49:35 +0900
+Date: Wed, 28 Dec 2022 16:49:35 +0900 (KST)
+From: =?UTF-8?B?7L+g7Yyh?= <noreply@e.coupang.com>
+To: 1059230@naver.com
+Message-ID: <20221228164931riGeUL20@mmsa-batchcou-p1902>
+Subject: =?UTF-8?B?W+y/oO2MoV0g67CV7J6s7ISx64uY7J20IOywnO2VmOyLoA==?=
+ =?UTF-8?B?IOyDge2SiOydtCDsnqzsnoXqs6DrkJjsl4jsirXri4jri6Qu?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Return-Allow: false
+X-Toast-Seq: 0
+
+<html>
+<head></head>
+<body>
+<div class=3D"container" style=3D"width:710px;">
+=09<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"710" al=
+ign=3D"center">
+=09=09<tbody>
+=09=09<tr>
+=09=09=09<td style=3D"line-height: 75%;" height=3D"40" width=3D"710">
+=09=09=09=09<table width=3D"710" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center">
+=09=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"line-height: 80%;" valign=3D"middle" align=
+=3D"left">
+=09=09=09=09=09=09=09<a href=3D"http://www.coupang.com" target=3D"_blank"><=
+img style=3D"vertical-align: middle;" border=3D"0" alt=3D"=EC=BF=A0=ED=8C=
+=A1" src=3D"http://img1a.coupangcdn.com/image/www/mail/join/logo_1022.jpg">=
+</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td style=3D"line-height: 80%; font-size: 13px; font-fami=
+ly: dotum;" valign=3D"middle" align=3D"right">
+=09=09=09=09=09=09=09<a style=3D"text-decoration: none;color: inherit;" hre=
+f=3D"https://mc.coupang.com" target=3D"_blank">=EB=A7=88=EC=9D=B4=EC=BF=A0=
+=ED=8C=A1</a> |
+=09=09=09=09=09=09=09<a style=3D"text-decoration: none;color: inherit;" hre=
+f=3D"https://mc.coupang.com/desktop/contact/inquiry" target=3D"_blank">=EA=
+=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0</a> |
+=09=09=09=09=09=09=09<a style=3D"text-decoration: none;color: inherit;" hre=
+f=3D"http://m.coupang.com" target=3D"_blank">=EB=AA=A8=EB=B0=94=EC=9D=BC=EC=
+=BF=A0=ED=8C=A1</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09</tbody>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09=09</tbody>
+=09</table>
+=09<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"710" al=
+ign=3D"center">
+=09=09<tr>
+=09=09=09<td style=3D"padding:15px 15px 0 15px;" bgColor=3D"f4f4f4">
+=09=09=09=09<table brder=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"680" style=3D"background:#fff;">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"font-size:0;"><img style=3D"vertical-align: =
+middle;" border=3D"0" alt=3D"" src=3D"http://img1a.coupangcdn.com/image/sta=
+tic/mail/restock/img_restock_topbar.png" width=3D"680" height=3D"6"></td>
+=09=09=09=09=09</tr>
+
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding-top: 68px;"><img style=3D"vertical-a=
+lign: middle;" border=3D"0" alt=3D"" src=3D"http://img1a.coupangcdn.com/ima=
+ge/static/mail/restock/img_restock_2016_title.png " width=3D"680"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td><img style=3D"vertical-align: middle; padding-top: 25=
+px;" border=3D"0" alt=3D"" src=3D"http://img1a.coupangcdn.com/image/static/=
+mail/restock/img_restock_2016_subtitle.png" width=3D"680"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding-left: 58px; font-family: dotum; font=
+-size:15px">
+=09=09=09=09=09=09=09(2022=EB=85=84 12=EC=9B=94 28=EC=9D=BC 16=EC=8B=9C 49=
+=EB=B6=84 =EA=B8=B0=EC=A4=80)
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding-top: 40px;"><img style=3D"vertical-a=
+lign: middle;" border=3D"0" alt=3D"" src=3D"http://img1a.coupangcdn.com/ima=
+ge/static/mail/restock/img_restock_2016_dotline.png" width=3D"680"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding:40px 0;">
+=09=09=09=09=09=09=09<table brder=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ align=3D"center">
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td>
+=09=09=09=09=09=09=09=09=09=09<div style=3D"display:inline-block;border:1px=
+ solid #ddd; width:300px; height:300px">
+=09=09=09=09=09=09=09=09=09=09=09<a href=3D"http://www.coupang.com/vp/produ=
+cts/6628677182?src=3D800&amp;spec=3D400&amp;utm_source=3DDM&amp;utm_medium=
+=3Dautomail&amp;utm_campaign=3Dproductnotice_logo" target=3D"_blank" >
+=09=09=09=09=09=09=09=09=09=09=09=09<img src=3D"https://thumbnail8.coupangc=
+dn.com/thumbnails/remote/292x292ex/image/vendor_inventory/c83b/ab38ffbe5cfb=
+3020703e24e3b717447a4b600c12afab15f9761061d61669.jpg" alt=3D"=ED=98=84=EB=
+=8C=80=EC=A7=80=EC=84=B1 =EC=96=B4=EB=A6=B0=EC=9D=B4 =EC=9E=90=EC=A1=B4=EA=
+=B0=90 : =ED=95=9C=EB=B2=88 =EB=B0=B0=EC=9A=B0=EB=A9=B4 =ED=8F=89=EC=83=9D =
+=EA=B0=80=EB=8A=94"/>
+=09=09=09=09=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09<td style=3D"font:bold 14px Dotum;color:#111;tex=
+t-align:center;padding-top:25px;">
+=09=09=09=09=09=09=09=09=09=09=ED=98=84=EB=8C=80=EC=A7=80=EC=84=B1 =EC=96=
+=B4=EB=A6=B0=EC=9D=B4 =EC=9E=90=EC=A1=B4=EA=B0=90 : =ED=95=9C=EB=B2=88 =EB=
+=B0=B0=EC=9A=B0=EB=A9=B4 =ED=8F=89=EC=83=9D =EA=B0=80=EB=8A=94
+=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"text-align:center;padding: 0 auto;">
+=09=09=09=09=09=09=09<a href=3D"http://www.coupang.com/vp/products/66286771=
+82?src=3D800&amp;spec=3D400&amp;utm_source=3DDM&amp;utm_medium=3Dautomail&a=
+mp;utm_campaign=3Dproductnotice_logo" target=3D"_blank"><img src=3D"http://=
+img1a.coupangcdn.com/image/static/mail/restock/img_restock_2016_btn2.png"  =
+alt=3D"=EC=83=81=ED=92=88 =EB=B3=B4=EB=9F=AC=EA=B0=80=EA=B8=B0"></a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td style=3D"padding: 40px 0;"><img style=3D"vertical-ali=
+gn: middle;" border=3D"0" alt=3D"" src=3D"http://img1a.coupangcdn.com/image=
+/static/mail/restock/img_restock_2016_line_text.png" width=3D"680"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</table>
+=09<table border=3D"0" cellSpacing=3D"0" cellPadding=3D"0" width=3D"710" al=
+ign=3D"center">
+=09=09<tr>
+=09=09=09<td bgColor=3D"f4f4f4" height=3D"132">
+=09=09=09=09<table height=3D"100">
+=09=09=09=09=09<tbody>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td vAlign=3D"top" width=3D"150" align=3D"center" style=
+=3D"padding-top:10px;padding-left:10px;">
+=09=09=09=09=09=09=09<a href=3D"http://www.coupang.com" target=3D"_blank">
+=09=09=09=09=09=09=09=09<img style=3D"vertical-align: middle;" border=3D"0"=
+ alt=3D"=EC=BF=A0=ED=8C=A1" src=3D"http://img1a.coupangcdn.com/image/static=
+/mail/new13/footer_logo.gif">
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td width=3D"560" style=3D"vertical-align:top;padding-top=
+:15px;">
+=09=09=09=09=09=09=09<div style=3D"color:#666; line-height: 16px;font-famil=
+y: dotum; font: 12px/16px Dotum;">
+=09=09=09=09=09=09=09=09=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =ED=9A=8C=EC=
+=9B=90=EB=8B=98=EC=9D=98 =EC=9E=AC=EC=9E=85=EA=B3=A0 =EC=95=8C=EB=A6=BC =EC=
+=8B=A0=EC=B2=AD=EC=97=90 =EC=9D=98=ED=95=B4 =EB=B0=9C=EC=86=A1=EB=90=98=EC=
+=97=88=EC=9C=BC=EB=A9=B0, =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9 =EB=A9=94=EC=
+=9D=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=
+=8B=88=EB=8B=A4.
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09<div style=3D"color:#888; line-height: 16px; padding-t=
+op: 10px; font-family: dotum; font-size: 12px;">
+=09=09=09=09=09=09=09=09=EC=BF=A0=ED=8C=A1(=EC=A3=BC) | =EB=8C=80=ED=91=9C=
+=EC=9D=B4=EC=82=AC : =EA=B0=95=ED=95=9C=EC=8A=B9,=EB=B0=95=EB=8C=80=EC=A4=
+=80 | =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 :120-=
+88-00767
+=09=09=09=09=09=09=09=09<br/> =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=
+=EC=8B=A0=EA=B3=A0: 2013-=EC=84=9C=EC=9A=B8=EA=B0=95=EB=82=A8-02121
+=09=09=09=09=09=09=09=09<br/> =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=86=A1=ED=8C=
+=8C=EA=B5=AC =EC=86=A1=ED=8C=8C=EB=8C=80=EB=A1=9C 570 | <a style=3D"color:#=
+888; text-decoration: none;" href=3D"https://my.coupang.com/customerCenter/=
+home" target=3D"_blank">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 : 1577-7011</a=
+> | FAX : 02-3441-7011
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09</tbody>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09</tr>
+=09</table>
+</div>
+</body>
+
+</html><img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' s=
+rc=3D'https://api-mail-ad.cloud.toast.com/email/v1.0/collectors/readCheck/8=
+ivGaZoxa7uBxmQzXSw1V2lGr0V2v6WvBwreZGS-Dm0?ext=3Dimg.gif' />
+

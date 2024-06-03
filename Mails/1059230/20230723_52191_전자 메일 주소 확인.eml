@@ -1,0 +1,143 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Received-SPF: pass (mx.naver.com: domain of account-security-noreply@accountprotection.microsoft.com designates 40.107.94.50 as permitted sender)
+  client-ip=40.107.94.50; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  arc=fail (i=1);
+  spf=pass (mx.naver.com: domain of account-security-noreply@accountprotection.microsoft.com designates 40.107.94.50 as permitted sender) smtp.mailfrom=account-security-noreply@accountprotection.microsoft.com;
+  dkim=pass header.i=@accountprotection.microsoft.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accountprotection.microsoft.com
+X-Naver-ESV: wm+n+6J4p63CbHmqKBwdbXFYKAMdKouZjJ+Y
+X-Session-IP: 40.107.94.50
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (mail-mw2nam10on2050.outbound.protection.outlook.com [40.107.94.50])
+  by crcvmail105.nm.naver.com with ESMTP id huho1RbnQpu9T9rXA7xfig
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Sun, 23 Jul 2023 06:42:12 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ICstp1TAa0WMZpgi2u1IM5soapIdX5emAGq1un4F8IE2GhLVNPz+lOT2O6ikttnJvctkGx9rE3hahLyZfPBOJEivuStuJWJNWx/RtVqndEg6tDzT6jP5q6Dm0xaxA7aFMPRkQ+0OMVEukYaVpStxaaz1CuV4VjLihYWFF5X4RPfDQtvaT21Q/tEL1NCcFhNYMy7CLAP86GguZRK0UPhrEUdcmKrILqffe/k09xaSdIzF3u4OVNl731y68hAfdkml5vrX5RRG2Q68Ux6rXkC1tOV9lnBqdhQNZF7b8Pu/4dQS2xUFv5pHs5CU9j5kpwnpC1Oy5nk1IZpR09Z3fXl2XQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Xr8igWMR8GG9pbsbR9lS1+0ZGsZjPiAiO+ZHNkOsqjI=;
+ b=En8KUT9KCXy/+BAmrGW4+VmAB1Gv7FHjTRR4Fcff4bY/s5Prgu6hEljj6BPmkeKfHdKI31ZN2NjZLuZQJXWb/Efj3T+ZJHgLFFVOcBdIX664kdTPfaOvV4PoTSS7rp+OWZ8Gj9nhSmp7i7CPQof2k6R9nVErLU4n8Ap6yEK3RQ6GrYkYF/5pcKSjYOcN2X9lXrcLU79iVtcVGlXtly6DQdg4PGyNn+M6A7HKkZ/0X/vecEslATq6/j3RHLPI9myxN2xVJndjrmszEG132aa4p+oQ0knymoKlbf00Z33yNu2VeTWjZ9gTAmYWrX8LkzyOqtNBnQdf7PVTIPpncv+PPQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none
+ action=none header.from=accountprotection.microsoft.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Xr8igWMR8GG9pbsbR9lS1+0ZGsZjPiAiO+ZHNkOsqjI=;
+ b=GDNtbYPHrChUpz7Hs21L05LaJQnz9YPyiTfBxwt62LSwlBVZ2RS/qzSNBTPLKJLOVzS+dRubwBjHkMXnwVB1+IV6k5Tb/q39GXB8k5feKHyW+Fxvec0/6pkCNzgB23ba4ZsfXYYFORSXVX4XxyyZ2mnpECrKJzfYNC+C6y19GZk=
+Received: from DM6PR06CA0080.namprd06.prod.outlook.com (2603:10b6:5:336::13)
+ by DM6PR16MB3782.namprd16.prod.outlook.com (2603:10b6:5:2b7::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6609.31; Sun, 23 Jul
+ 2023 06:42:10 +0000
+Received: from DM6NAM11FT052.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:5:336:cafe::dc) by DM6PR06CA0080.outlook.office365.com
+ (2603:10b6:5:336::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6609.31 via Frontend
+ Transport; Sun, 23 Jul 2023 06:42:10 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 52.188.222.33)
+ smtp.mailfrom=accountprotection.microsoft.com; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none
+ header.from=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (52.188.222.33) by
+ DM6NAM11FT052.mail.protection.outlook.com (10.13.172.111) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6631.22 via Frontend Transport; Sun, 23 Jul 2023 06:42:09 +0000
+From: Microsoft =?utf-8?b?6rOE7KCVIO2MgA==?=
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Sat, 22 Jul 2023 23:42:08 -0700
+Subject: =?utf-8?b?7KCE7J6QIOuplOydvCDso7zshowg7ZmV7J24?=
+To: 1059230@naver.com
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <1FYACDQ3JKU4.664GZ55P2J243@BL02EPF00001955>
+X-MSAMetaData:
+ =?us-ascii?q?DUMHpU8uXMACTnNIDiO3CrO*rfH7Xke8E16j5g2nUoVtFzEqmNU1Uzj30ePvS?=
+ =?us-ascii?q?woOwxScJsmGo23SfbxnweQuX9DpdPox0qGFwbnLuUcPFB9UUh*D6nmJUi6BS4?=
+ =?us-ascii?q?F2ZaAw0A$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-oRCZ/Vu2T4j0ycXxWheGPQ=="
+Return-Path: account-security-noreply@accountprotection.microsoft.com
+X-MS-TrafficTypeDiagnostic:
+	DM6NAM11FT052:EE_FirstParty-MicrosoftAccount-V3-System|DM6PR16MB3782:EE_FirstParty-MicrosoftAccount-V3-System
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: d778c267-0aeb-4ed2-d87e-08db8b47f02c
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	p5RP9Pe/bmu1xT5h4vXEsYYiuh9GcLmsKdbMfuVjMWNg/OKuGTMgBngMdCbN/zQqpHrNzvUIeGkleKkcDQyHaav0+sYOx6gF+S0nu+NljDJiueE2FKBvFVrciyqDYELOF9qcnezAgL6+jzlFd4t8sNn4m0dilxDvQnd6kkziWaPXqVb3nsEc/ssVzxVP+qX/u3yJoFkc4RZDIRR9EPIIb1ZkILYs8qlchU8UuxESzwwzz5WBl4bqmpjJGc0u69AqSroIWgVbrVrf7/OoWe9+sqK0A6a4ahpVFPxjumdvPbcqFsjk+3hXC75JeX6QA0oro8RTweKL/IDxyIr0FZXUCYxgLwzizq/rHMeDhZLjEOpDkqJuN7Rp2CqhF+mHPk7s/wAVcpAb+FxJXbaIruKwqtaUg7AZvczEugtMgf48R8hn1GJwr6GyK7aUESeNJ0DJjvpCeTUa6rZAVLjag/c2ucCdjdGG38i80aaH+ptyCZPEM7kFHxSzH11XZkXrHaJvdcCZfOHVCGW57r7P2X+7iTJt00svm7NrsI2a8y0pmrd4SG7FcwliTWxzarZZwlD+YquUCwlKS5QjfA3VsupiMBisGi3cXwW1wtR9TJ8MHZilG6UtDL5e/BCpiuXyc1VWf6AMTLYCchRaiAewnD17Z/tzBMmYw7DFB9zpDazIT80EbZEAtA8VzHn6WGKOsnQpP6LyqZSqG+s2WhOEFTB2lAq+NPtDQfr4HtnxrCgwUXY=
+X-Forefront-Antispam-Report:
+	CIP:52.188.222.33;CTRY:US;LANG:ko;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230028)(7916004)(396003)(376002)(346002)(136003)(39860400002)(42606007)(47530400004)(451199021)(9316004)(81166007)(356005)(166002)(66899021)(85182001)(121820200001)(956004)(224303003)(83380400001)(8936002)(5660300002)(478600001)(36736006)(6916009)(316002)(68406010)(41300700001)(10290500003)(118246002)(26005)(186003)(336012)(966005)(6486002)(6512007)(9686003)(33964004)(2906002)(33716001)(33656002)(86362001);DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	roShBf93+/KVE5RLslRwQBqnNJI1Xe91lv0qvzecCbyLEHPkbk+4Bd0XB4lkYKTK66I3TtQs7sE0nv+/MsTdUgy3DTME3resuaaNWHfEBVvXwLTVrbo/+y2sJ7Kf/LuvEzytvDx1H8omeTKxlx4lNIyond+AEIYBgtn7/Jq43qeRkSiPHowA/7KVQ9FJxsIKVbPTnhKineJF2fy4hBKfmGHvLO2k15PBv6z2fcjZCth6Xa49Mdh766f9Ybwiz2ActlF+s2kl25K9PK36Xyq4pBAouSBkFudgbGvi1GN4hN65swQOuOGHhFYBfOj5I8aE/WPR+J7LOeduEXjbppLJVwUqbTWX5/VIu/Iq5OVlUlDrk79IpbvLzHWlaeUeAikAl5UnXjy0bmc1c4i6SpOwd5IBH4ugv5Xl8THNliXAHngCoBBQ2eCT3ISPlTSHk07jJWjAd6SUdu4/UtSCO+/MXjc33VKiDOm/DWoe+zj4KxtbkkO3jfRllVGLYs782/Ne/wpLu9buLxsmvMESLRHNjQ==
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Jul 2023 06:42:09.0373
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: d778c267-0aeb-4ed2-d87e-08db8b47f02c
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[52.188.222.33];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TreatMessagesAsInternal-DM6NAM11FT052.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR16MB3782
+
+--=-oRCZ/Vu2T4j0ycXxWheGPQ==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+안녕하세요. 1059230@naver.com 님
+
+이 Microsoft 계정의 설정을 마치려면 이 메일 주소가 본인임을 확인해야 합니다.
+
+다음 링크를 클릭하여 계정을 검증하세요.
+https://account.live.com/Email/Verify?otc=*DbZep!xsAni2RsHBiz0K1JPQJoymqNX9sov4v3tlKFYCf4jIpP9JKc6K*SOCeKnMRkuHdP2qtcMZ*ws!OzwZ4wY%24&mn=1059230%40naver.com&cxt=Default
+
+또는 이 보안 코드를 입력하라는 메시지가 표시될 수 있습니다.
+269644
+
+이 요청을 하지 않은 경우 다음 링크를 사용하여 취소하세요.
+https://account.live.com/Email/Remove?otc=*DbZep!xsAni2RsHBiz0K1JPQJoymqNX9sov4v3tlKFYCf4jIpP9JKc6K*SOCeKnMRkuHdP2qtcMZ*ws!OzwZ4wY%24&mn=1059230%40naver.com&cxt=Default
+
+감사합니다.
+Microsoft 계정 팀 
+--=-oRCZ/Vu2T4j0ycXxWheGPQ==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:17px; color:#707070;">Microsoft 계정</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:41px; color:#2672ec;">전자 메일 주소 확인</td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">이 Microsoft 계정의 설정을 마치려면 이 메일 주소가 본인임을 확인해야 합니다.</td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">
+         <table border="0" cellspacing="0"><tr><td bgcolor="#2672ec" style="background-color:#2672ec; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; min-width:50px;"><a id="i5" style="font-family: 'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; text-align:center; text-decoration:none; font-weight:600; letter-spacing:0.02em; color:#fff;" href="https://account.live.com/Email/Verify?otc=*DbZep!xsAni2RsHBiz0K1JPQJoymqNX9sov4v3tlKFYCf4jIpP9JKc6K*SOCeKnMRkuHdP2qtcMZ*ws!OzwZ4wY%24&mn=1059230%40naver.com&cxt=Default"><span dir="ltr">1059230@naver.com</span> 검증</a></td></tr></table>
+      </td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">또는 이 보안 코드를 입력하라는 메시지가 표시될 수 있습니다: <span style="font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; font-weight:bold; color:#2a2a2a;">269644</span></td></tr>
+      <tr><td id="i6" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">이 요청을 하지 않은 경우 <a id="iCancel" class="link" style="color:#2672ec; text-decoration:none" href="https://account.live.com/Email/Remove?otc=*DbZep!xsAni2RsHBiz0K1JPQJoymqNX9sov4v3tlKFYCf4jIpP9JKc6K*SOCeKnMRkuHdP2qtcMZ*ws!OzwZ4wY%24&mn=1059230%40naver.com&cxt=Default">여기를 클릭</a>하여 취소하세요.</td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">감사합니다.</td></tr>
+      <tr><td id="i8" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">Microsoft 계정 팀</td></tr>
+</table>
+</body>
+</html>
+--=-oRCZ/Vu2T4j0ycXxWheGPQ==--

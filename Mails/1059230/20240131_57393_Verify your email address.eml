@@ -1,0 +1,193 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1706645757;
+	cv=none; b=p/B6RgEx7fkbt8zw19LTcwO0C5GBURTaLS0+z4/mE8yxuHQ+S0SP1zBHBhNR
+	 nm7t0NhF7AkTedZ4LpaLNnbhGSVzzqwAObTE1l/7nMIBqMVNVB35x14Zcr8ydLx2nEXYy5
+	 qM/0QQHT2cEMn7bIV/CLeU7qDBv4YyPQHOi73zbyzLfgdgrNaBpv/cVUFor5jmSlEPFAPY
+	 b7A/de7s/7JJuJNz9ioqZ3AOjhHdXs8RHAiKYU37xheTQclt7LHXpqi9c8O5UWOr4+x663
+	 nIu/zwThWCu4KdTGRg3+Fo0m19OgLLSifaFZbV+rwnIG4P7uANiU7saUOz4ehn9wJyW3Hx
+	 kw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1706645757; c=relaxed/relaxed;
+	bh=ZnZ40/ZqNyDH1e6cjclQV9cPvSqf1o+bBCQf4l7Mmu8=;
+	h=dkim-signature:message-id:date:subject:from:to; b=LvHcNKOKNiLVqeuZIl2
+	 frXhgGxaSFNmdCMqiLe5xUZ1X2KreW1vz7N0DMA4LSHAen7vaY+JDUzhxEmO+htyHn3iYn
+	 kxQM8VnB9EBeMdBq6oJo6zPwmbnmunrzqT+BVwn2eBGBtYirhkTsZYnR5CiCt/tjkTDxu2
+	 tPS6ZdGKGz4L3/O+tcXUOD7zRAEDH8fQ7yx9hYUTfoUtDNGJMhwN7xs5JgXoAyQhkunx+M
+	 wBgM+3yi/4cwMIndz1G13MmtArlqHufGeh4+fPfy0u4CQVrbsGxGJiIh1oj+WzPmn4nwXh
+	 ypDantF9ZV84gIrUTpS6oBGLWdL26XMx2m8PLoH5Pcg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com designates 209.85.215.202 as permitted sender) smtp.mailfrom=3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com;
+  dkim=pass header.i=@google.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+Return-Path: <3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com>
+Received-SPF: pass (mx.naver.com: domain of 3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com designates 209.85.215.202 as permitted sender)
+  client-ip=209.85.215.202; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com designates 209.85.215.202 as permitted sender) smtp.mailfrom=3_Fi5ZQcKB8c014r2yBt11tyr.p1zEDIMFGD0n8r4.p1z@idverification.bounces.google.com;
+  dkim=pass header.i=@google.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=google.com
+X-Naver-ESV: +r+YpB3G1H+qbrJmjAMwjAUmKxE9FXwBjg==
+X-Session-IP: 209.85.215.202
+Received: from mail-pg1-f202.google.com (mail-pg1-f202.google.com [209.85.215.202])
+  by crcvmail304.nm.naver.com with ESMTP id dUHprZVVTUC25cKI+VXaaA
+  for <1059230@naver.com>
+  (version=TLSv1.3 cipher=TLS_AES_128_GCM_SHA256);
+  Tue, 30 Jan 2024 20:15:57 -0000
+Received: by mail-pg1-f202.google.com with SMTP id 41be03b00d2f7-5d1bffa322eso4573330a12.1
+        for <1059230@naver.com>; Tue, 30 Jan 2024 12:15:56 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1706645756; x=1707250556; darn=naver.com;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=ZnZ40/ZqNyDH1e6cjclQV9cPvSqf1o+bBCQf4l7Mmu8=;
+        b=2TzazbCSZXo+w5QGqSNYLxuLsnSzTlyYAxuKj0O9D+zX+Jgh0EubbEYOI3qJ+2ka8S
+         FGljtOqPaQPU2ElP+gLl33F04SSsDwvCmr2uS+rgLnIY1Q2fB9Tp7bf2QGToTCWr1GFP
+         kL70WfBI/Y4vEjnxR+2/PiHnYIfKpb8pE1hy88bUzwKXrMYV9VZomZzvZpU/eNIfIPY0
+         IwjNIumOV+vbcAnlxy3yWUnPz+p7RHEV7yeIFMoi0CiHTZ/GkR1dbr+Z6YQU1YwyMi9T
+         Ycdx2u4H5fAgmqgmLowm8TOFECalWodpOjsce0RMO7thQ0y6uZzbEW9O1ye0GRIwSLbM
+         AVRg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1706645756; x=1707250556;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=ZnZ40/ZqNyDH1e6cjclQV9cPvSqf1o+bBCQf4l7Mmu8=;
+        b=n7YYq+fNjvqqHqVe0tJW/83fetPgb3836MnYAQnVTIcoYKi6LmIZiMmxR5sWgguqdd
+         AjgXQZNUcTSLghXWQ7oP7gclJ21T9naIKbUyi3wt0pQ3riTNPXnfa0Gy3ZQZTNLTllFP
+         rDOBQ2B6HlW/nHq6z8XeqE1jyBUFrI1g5TjtnTFQC1QLF5X4Vi8FWCuaSg9WlW3+aqt5
+         f6BANOiuyM0TSkdQ4o/NfVc5kfXt2uVw5EaTcEYS6pheX/l+G4f+XGoZ/niUfn1km+mv
+         jy1RmXGUE8ihtNKdDErX/mDgq9vOpaBMyMvoVkzN1ZLgzzEVT/92BkFuhN7N30jnl906
+         Fmxw==
+X-Gm-Message-State: AOJu0YyVhlBHH8KLJjA//QK/xadUScZyTVHAXpMu4SKy7rwzCaDvtARM
+	eWIc4WTMBD4mUYSgJ/FSEu4hGtk2PnDW2t+0omOIDmwjbii6unnKU+1yV9C9/3Dp22ykvQ==
+X-Google-Smtp-Source: AGHT+IGkifKFS0KuJemosC2N5445l0LiuDjXC02KFuOWdGvw2itFKNIp0+DhKzex5qDUlhpoGCqbTqtGa8TJ7Q==
+MIME-Version: 1.0
+X-Received: by 2002:a65:6648:0:b0:5d7:d631:202d with SMTP id
+ z8-20020a656648000000b005d7d631202dmr178540pgv.4.1706645756619; Tue, 30 Jan
+ 2024 12:15:56 -0800 (PST)
+Message-ID: <00000000000014abbf06102f6e74@google.com>
+Date: Tue, 30 Jan 2024 20:15:56 +0000
+Subject: Verify your email address
+From: Google <noreply@google.com>
+To: 1059230@naver.com
+Content-Type: multipart/alternative; boundary="00000000000014abae06102f6e71"
+
+--00000000000014abae06102f6e71
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+VmVyaWZ5IHRoaXMgZW1haWwgaXMgeW91cnMNCg0KMTA1OTIzMEBuYXZlci5jb20NCg0KDQpUaGlz
+IGVtYWlsIGFkZHJlc3Mgd2FzIHJlY2VudGx5IGVudGVyZWQgdG8gdmVyaWZ5IHlvdXIgZW1haWwg
+YWRkcmVzcy4NCllvdSBjYW4gdXNlIHRoaXMgY29kZSB0byB2ZXJpZnkgdGhhdCB0aGlzIGVtYWls
+IGJlbG9uZ3MgdG8geW91Lg0KDQo4NTI3MDgNCg0KSWYgdGhpcyB3YXNuJ3QgeW91LCBzb21lb25l
+IG1heSBoYXZlIG1pc3R5cGVkIHRoZWlyIGVtYWlsIGFkZHJlc3MuIEtlZXAgIA0KdGhpcyBjb2Rl
+IHRvIHlvdXJzZWxmLCBhbmQgbm8gb3RoZXIgYWN0aW9uIGlzIG5lZWRlZCBhdCB0aGlzIG1vbWVu
+dC4NCg0KVGhlIEdvb2dsZSBBY2NvdW50cyB0ZWFtDQoNCg0KWW91IHJlY2VpdmVkIHRoaXMgZW1h
+aWwgdG8gbGV0IHlvdSBrbm93IGFib3V0IGltcG9ydGFudCBjaGFuZ2VzIHRvIHlvdXIgIA0KR29v
+Z2xlIEFjY291bnQgYW5kIHNlcnZpY2VzLg0KDQrCqSAyMDI0IEdvb2dsZSBJbmMuLDE2MDAgQW1w
+aGl0aGVhdHJlIFBhcmt3YXksIE1vdW50YWluIFZpZXcsIENBIDk0MDQzLCBVU0ENCg0KDQoNCg==
+--00000000000014abae06102f6e71
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head><meta name=3D"format-detection" content=3D"date=
+=3Dno"/><meta name=3D"format-detection" content=3D"email=3Dno"/><style>.awl=
+ a {color: #FFFFFF; text-decoration: none;}.abml a {color: #000000; font-fa=
+mily: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-dec=
+oration: none;}.afal a {color: #b0b0b0; text-decoration: none;}@media scree=
+n and (min-width: 600px) {.v2sp {padding: 30px 0;} .v2rsp {padding: 0px 10p=
+x;}}</style></head><body style=3D"margin:0; padding:0;" bgcolor=3D"#ffffff"=
+><table width=3D"100%" height=3D"100%" style=3D"min-width:348px;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr height=3D"32px"></tr><tr align=
+=3D"center"><td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"padding-bottom: 20px; max-width: 600px; min-width: 220px;"><tr><td><t=
+able cellpadding=3D"0" cellspacing=3D"0"><tr><td></td><td><table width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"direction: l=
+tr; padding-bottom: 7px;"><tr><td align=3D"left"><img width=3D"92" height=
+=3D"32" src=3D"https://ssl.gstatic.com/images/branding/googlelogo/1x/google=
+logo_color_92x30dp.png" style=3D"width:92px;height:30px;"></td><td align=3D=
+"right" style=3D"font-family: Roboto-Light,Helvetica,Arial,sans-serif;"> </=
+td><td align=3D"right" width=3D"35"><img width=3D"92" height=3D"32" src=3D"=
+https://ssl.gstatic.com/images/branding/product/2x/avatar_circle_blue_32dp.=
+png" style=3D"width:32px;height:32px;"></td></tr></table></td><td></td></tr=
+><tr><td style=3D"background:url('https://www.gstatic.com/accountalerts/ema=
+il/hodor/4-corner-nw.png') top left no-repeat;" width=3D"6" height=3D"5"><!=
+--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"=
+true" stroke=3D"false" style=3D"width:6px; height: 5px;"><v:fill type=3D"ti=
+le" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-corner-nw.pn=
+g" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true" inse=
+t=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbox></v:rec=
+t><![endif]--></td><td style=3D"background:url('https://www.gstatic.com/acc=
+ountalerts/email/hodor/4-pixel-n.png') top center repeat-x;" height=3D"5"><=
+!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D=
+"true" stroke=3D"false" style=3D"height: 5px;"><v:fill type=3D"tile" src=3D=
+"https://www.gstatic.com/accountalerts/email/hodor/4-pixel-n.png" color=3D"=
+#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0=
+"><![endif]--><div></div><!--[if gte mso 9]></v:textbox></v:rect><![endif]-=
+-></td><td style=3D"background:url('https://www.gstatic.com/accountalerts/e=
+mail/hodor/4-corner-ne.png') top right no-repeat;" width=3D"6" height=3D"5"=
+><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=
+=3D"true" stroke=3D"false" style=3D"width: 6px; height: 39px;"><v:fill type=
+=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-corner=
+-ne.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true=
+" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbox><=
+/v:rect><![endif]--></td></tr><tr><td style=3D"background:url('https://www.=
+gstatic.com/accountalerts/email/hodor/4-pixel-w.png') center left repeat-y;=
+" width=3D"6"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-c=
+om:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;"><v:fill type=
+=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-pixel-=
+w.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true" =
+inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbox></v=
+:rect><![endif]--></td><td><div style=3D"font-family: Roboto-Regular,Helvet=
+ica,Arial,sans-serif;padding-left: 20px; padding-right: 20px;border-bottom:=
+ thin solid #f0f0f0; color: rgba(0,0,0,0.87); font-size: 24px; padding-top:=
+ 40px; text-align: center; word-break: break-word;"><div class=3D"v2sp"><h3=
+>Verify this email is yours</h3><p style=3D"font-family: Roboto-Regular,Hel=
+vetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 16px; line-heig=
+ht: 1.8;">1059230@naver.com</p></div></div><div style=3D"font-family: Robot=
+o-Regular,Helvetica,Arial,sans-serif; font-size: 13px; color: rgba(0,0,0,0.=
+87); line-height: 1.6;padding-left: 20px; padding-right: 20px;padding-botto=
+m: 32px; padding-top: 24px;"><p class=3D"v2sp">This email address was recen=
+tly entered to verify your email address.<p>You can use this code to verify=
+ that this email belongs to you.</p><div style=3D"font-size:24px;padding-to=
+p:20px;padding-bottom:20px;font-weight:bold;text-align:center;">852708</div=
+><p class=3D"v2sp">If this wasn=E2=80=99t you, someone may have mistyped th=
+eir email address. Keep this code to yourself, and no other action is neede=
+d at this moment.</p><p class=3D"v2sp">The Google Accounts team</p></div></=
+td><td style=3D"background:url('https://www.gstatic.com/accountalerts/email=
+/hodor/4-pixel-e.png') center left repeat-y;" width=3D"6"><!--[if gte mso 9=
+]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D=
+"false" style=3D"width: 6px;"><v:fill type=3D"tile" src=3D"https://www.gsta=
+tic.com/accountalerts/email/hodor/4-pixel-e.png" color=3D"#ffffff" /><v:tex=
+tbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]--><di=
+v></div><!--[if gte mso 9]></v:textbox></v:rect><![endif]--></td></tr><tr><=
+td style=3D"background:url('https://www.gstatic.com/accountalerts/email/hod=
+or/4-corner-sw.png') top left no-repeat;" width=3D"6" height=3D"5"><!--[if =
+gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" =
+stroke=3D"false" style=3D"width: 6px;"><v:fill type=3D"tile" src=3D"https:/=
+/www.gstatic.com/accountalerts/email/hodor/4-corner-sw.png" color=3D"#fffff=
+f" /><v:textbox style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![e=
+ndif]--><div></div><!--[if gte mso 9]></v:textbox></v:rect><![endif]--></td=
+><td style=3D"background:url('https://www.gstatic.com/accountalerts/email/h=
+odor/4-pixel-s.png') top center repeat-x" height=3D"5"><!--[if gte mso 9]><=
+v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"fa=
+lse" style=3D"width: 6px;"><v:fill type=3D"tile" src=3D"https://www.gstatic=
+.com/accountalerts/email/hodor/4-pixel-s.png" color=3D"#ffffff" /><v:textbo=
+x style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]--><div><=
+/div><!--[if gte mso 9]></v:textbox></v:rect><![endif]--></td><td style=3D"=
+background:url('https://www.gstatic.com/accountalerts/email/hodor/4-corner-=
+se.png') top left no-repeat;" width=3D"6" height=3D"5"><!--[if gte mso 9]><=
+v:rect xmlns:v=3D"urn:schemas-microsoft-com:vml" fill=3D"true" stroke=3D"fa=
+lse" style=3D"width: 6px;"><v:fill type=3D"tile" src=3D"https://www.gstatic=
+.com/accountalerts/email/hodor/4-corner-se.png" color=3D"#ffffff" /><v:text=
+box style=3D"mso-fit-shape-to-text:true" inset=3D"0,0,0,0"><![endif]--><div=
+></div><!--[if gte mso 9]></v:textbox></v:rect><![endif]--></td></tr><tr><t=
+d></td><td><div style=3D"text-align: left;"><div style=3D"font-family: Robo=
+to-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 1=
+2px; line-height: 20px; padding-top: 10px;"><div>You received this email to=
+ let you know about important changes to your Google Account and services.<=
+/div><div style=3D"direction: ltr;">&copy; 2024 Google Inc.,<a class=3D"afa=
+l" style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-serif;color: r=
+gba(0,0,0,0.54); font-size: 12px; line-height: 20px; padding-top: 10px;">16=
+00 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div></div></div>=
+</td><td></td></tr></table></td></tr></table></td></tr><tr height=3D"32px">=
+</tr></table></body></html>
+--00000000000014abae06102f6e71--

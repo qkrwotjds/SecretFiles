@@ -1,0 +1,260 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1691133820;
+	cv=none; b=fugsk5EtSkar9Hl1st52e7bUP2JhZPWaD5g88mky14DXbzUIFTXJVu8oqcM4
+	 W0iqNJORr+5Him+XkLJO+sEZd0zpwwy6T/sqkIImagDaq+GR51VsVnLuRUjwTEmgi6M0NY
+	 cIMWFSihXH4iawKZk0o9m8IByEOyJO7Mb8jJ7u+EL3ZO/BI+YQt5LI45JZJ8bAF2PR3ZnA
+	 kT+wfhn/Jdu2cHGtgLiGvkJX6uR5akKIyS9yj1oivFpSwHLqds7nu5bqCj3fFwjOh4u0lu
+	 3dwSrmlG5gJm9j8J+jsy6JjYDe+YMaJGtALM5f2+nVJCrFUxCA6gvmLkFx6PmUKyT3I2dn
+	 2w==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1691133820; c=relaxed/relaxed;
+	bh=p7BSus6bNQKU+2fdayGoM6KlvSo3BvdtP4EpEu4kkiY=;
+	h=date:from:to:message-id:subject; b=GsPWXQ9H/jZtVUcCGVJpCCrv26ZVw63QnW
+	 rZiIbw3BbGPk0XbRwbHVerLDvThmlzbrQjxL2fQh7K4RiMnzrRpoqNtBc0kWwNVWT5/XIS
+	 bED7vFDvzceZcYpYw5FDlA9RXuDpL4ZbRx2j8TyKRtRzuoMhNOvqJsm0PYzn1kzNI4u3TQ
+	 QEwgQIlD+PZ1jrCYrMEuUPoUvsGSCmOwe6x+SgWU2cVmLPXz/if+XxvGgSotUyopFzcAf+
+	 43/NZUC27HeJowcZcwHWHycGC/pIwxf2QkWt3mu+2Mwg1rWISDq7bASwaZY72Wa6BhvkWE
+	 R2JWF4PoJdVNl44Qa1lP+Bd++uXw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@woowahan.com designates 103.243.203.119 as permitted sender) smtp.mailfrom=noreply@woowahan.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=woowahan.com
+Return-Path: <noreply@woowahan.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@woowahan.com designates 103.243.203.119 as permitted sender)
+  client-ip=103.243.203.119; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@woowahan.com designates 103.243.203.119 as permitted sender) smtp.mailfrom=noreply@woowahan.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=woowahan.com
+X-Naver-ESV: wmFn+6J4p63CbHmwKBwdbXFYKAbZKqtmjJ+Y
+X-Session-IP: 103.243.203.119
+Received: from smtp003.toastcloud.com (smtp003.toastcloud.com [103.243.203.119])
+  by crcvmail305.nm.naver.com with ESMTP id Dc8ekxsbS5auKpoiu4vLwA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Fri, 04 Aug 2023 07:23:40 -0000
+Received: from [10.161.25.144] (HELO mmsa-newbat-t1901.svr.toastmaker.net)
+ ([10.161.25.144]) by smtp003.toastcloud.com with SMTP id 8e1cfaf664cca77c;
+ Fri, 04 Aug 2023 16:23:40 +0900
+Date: Fri, 4 Aug 2023 16:23:40 +0900 (KST)
+From: =?UTF-8?B?67Cw64us7J2Y66+87KGx?= <noreply@woowahan.com>
+To: =?UTF-8?B?66eb7J6I7Jy866m07Jqw64qU7IaM?= <1059230@naver.com>
+Message-ID: <20230804162339UivCu5x0@mmsa-newbat-t1901>
+Subject: =?UTF-8?B?W+uwsOuLrOydmOuvvOyhsV0g6rOg?=
+ =?UTF-8?B?6rCd64uY6ruY7IScIOyekeyEse2VmOyLoA==?=
+ =?UTF-8?B?IOqyjOyLnOusvOydtCDsnoTsi5zroZw=?=
+ =?UTF-8?B?IOywqOuLqOuQmOyXiOyKteuLiOuLpC4=?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Return-Allow: false
+X-Toast-Seq: 0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D"ko" xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8=
+"/>
+    <title>=EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=B1 =EB=A6=AC=EB=B7=B0=
+=EC=B0=A8=EB=8B=A8=EC=95=88=EB=82=B4</title>
+</head>
+<body style=3D"margin:0;padding:0;-webkit-text-size-adjust: 100%;">
+<div style=3D"max-width:100%;padding:15px;background-color:#f0f0f0;-webkit-=
+box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;"=
+>
+    <table cellspacing=3D"0" cellpadding=3D"0"
+           style=3D"margin:0 auto;padding:0;width:100%;max-width:630px;font=
+-family:'=EB=8F=8B=EC=9B=80',dotum;">
+        <tr>
+            <td style=3D"padding:50px 20px;background:#fff;">
+                <table cellspacing=3D"0" cellpadding=3D"0">
+                    <tr>
+                        <td><img src=3D"http://pop.baemin.com/webui/co_mail=
+ing/common/bm_logo.png" width=3D"70" alt=3D"=EB=B0=B0=EB=8B=AC=EC=9D=98=EB=
+=AF=BC=EC=A1=B1">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding:27px 0 17px;font-size: 30px;li=
+ne-height:34px;color:#333;"><strong
+                                    style=3D"color:#2ac1bc;font-weight:norm=
+al;">=EA=B2=8C=EC=8B=9C=EC=A4=91=EB=8B=A8 =EA=B2=8C=EC=8B=9C=EB=AC=BC</stro=
+ng><br>=EC=A0=91=EC=88=98 =EC=95=88=EB=82=B4
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding:10px 0 30px;font-size: 15px;li=
+ne-height:27px;color: #303030;">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=
+=94.
+                            =EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=B1=
+=EC=9E=85=EB=8B=88=EB=8B=A4.<br>=EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=
+=B1 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EA=B3=BC =EA=B4=80=EB=A0=
+=A8=ED=95=98=EC=97=AC, <span style=3D"color:#2ac1bc;">=EB=A7=9B=EC=9E=88=EC=
+=9C=BC=EB=A9=B4=EC=9A=B0=EB=8A=94=EC=86=8C</span>=EB=8B=98=EA=BB=98=EC=84=
+=9C =EC=9E=91=EC=84=B1=ED=95=9C =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=97=90
+                            =EB=8C=80=ED=95=B4<br>=EA=B2=8C=EC=8B=9C =EC=A4=
+=91=EB=8B=A8 =EC=8B=A0=EA=B3=A0=EA=B0=80 =EC=A0=91=EC=88=98=EB=90=98=EC=96=
+=B4 =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=95=88=EB=82=B4 =EB=
+=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding:30px 0 0;border-top:1px solid =
+#e0e0e0;">
+                            <table cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"margin:0;padding:0;width:100%;">
+                                <tr>
+                                    <td style=3D"width:90px;font-size: 16px=
+;font-weight: bold;line-height:28px;color: #000;vertical-align: top;">
+                                        =EA=B4=80=EB=A0=A8 =EA=B3=84=EC=A0=
+=95
+                                    </td>
+                                    <td style=3D"font-size: 16px;line-heigh=
+t:28px;color: #333;">1059230@naver.com</td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size: 16px;font-weigh=
+t: bold;line-height:28px;color: #000;vertical-align: top;">
+                                        =EA=B2=8C=EC=8B=9C=EB=AC=BC =EB=82=
+=B4=EC=9A=A9
+                                    </td>
+                                    <td style=3D"font-size: 16px;line-heigh=
+t:28px;color: #333;">2023=EB=85=84 8=EC=9B=94 4=EC=9D=BC</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding: 10px 0 30px 0;font-size: 16px=
+;line-height:28px;color: #000;border-bottom:1px solid #e0e0e0;"></td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding-top: 30px;">
+                            <table cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"margin:0;padding:0;width:100%;">
+                                <tr>
+                                    <td style=3D"width:90px;font-size: 16px=
+;font-weight: bold;line-height:28px;color: #888;vertical-align: top;">
+                                        =EC=8B=A0=EA=B3=A0 =EC=83=81=ED=98=
+=B8
+                                    </td>
+                                    <td style=3D"font-size: 16px;line-heigh=
+t:28px;color: #888;">=EB=A7=89=EB=8F=BC=EB=A8=B9=EC=9D=80=EB=8F=88=EA=B9=8C=
+=EC=8A=A4 =EC=8B=A0=EB=A6=BC=EC=A7=81=EC=98=81=EC=A0=90</td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size: 16px;font-weigh=
+t: bold;line-height:28px;color: #888;vertical-align: top;">
+                                        =EC=8B=A0=EA=B3=A0 =EB=82=B4=EC=9A=
+=A9
+                                    </td>
+                                    <td style=3D"font-size: 16px;line-heigh=
+t:28px;color: #888;">8/4 =EA=B2=8C=EC=8B=9C=EC=A4=91=EB=8B=A8=EC=9A=94=EC=
+=B2=AD</td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size: 16px;font-weigh=
+t: bold;line-height:28px;color: #888;vertical-align: top;">
+                                        =EC=A1=B0=EC=B9=98 =EB=82=B4=EC=9A=
+=A9
+                                    </td>
+                                    <td style=3D"font-size: 16px;line-heigh=
+t:28px;color: #888;text-decoration: underline;">=ED=95=B4=EB=8B=B9 =EA=B2=
+=8C=EC=8B=9C=EB=AC=BC =EC=9E=84=EC=8B=9C =EC=A1=B0=EC=B9=98</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style=3D"padding-top:30px;font-size: 15px;line-=
+height:27px;color: #888888;">
+                            =EC=82=AC=EC=83=9D=ED=99=9C =EC=B9=A8=ED=95=B4=
+=EB=82=98 =EB=AA=85=EC=98=88=ED=9B=BC=EC=86=90 =EB=93=B1 =EA=B2=8C=EC=8B=9C=
+=EB=AC=BC=EC=97=90 =EC=9D=98=ED=95=B4 =EA=B6=8C=EB=A6=AC=EA=B0=80 =EC=B9=A8=
+=ED=95=B4=EB=90=9C =EB=B6=84=EC=9D=80 =EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=
+=EC=A1=B1=EC=97=90 =EA=B6=8C=EB=A6=AC=EC=B9=A8=ED=95=B4 =EC=8B=A0=EA=B3=A0=
+=EB=A5=BC =ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4=
+.
+                            =EA=B7=B8=EB=9F=AC=EB=82=98 =EB=B0=B0=EB=8B=AC=
+=EC=9D=98=EB=AF=BC=EC=A1=B1=EC=9D=B4 =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=98 =
+=EA=B6=8C=EB=A6=AC=EC=B9=A8=ED=95=B4 =EC=97=AC=EB=B6=80=EB=A5=BC =ED=8C=90=
+=EB=8B=A8=ED=95=98=EA=B8=B0=EB=8A=94 =EC=96=B4=EB=A0=B5=EA=B8=B0 =EB=95=8C=
+=EB=AC=B8=EC=97=90, =EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=B1=EC=9D=80 =
+=EC=A0=95=EB=B3=B4=ED=86=B5=EC=8B=A0=EB=A7=9D =EC=9D=B4=EC=9A=A9=EC=B4=89=
+=EC=A7=84 =EB=B0=8F =EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8 =EB=93=B1=EC=97=90=
+ =EA=B4=80=ED=95=9C =EB=B2=95=EB=A5=A0 =EC=A0=9C44=EC=A1=B0=EC=9D=982(=EC=
+=A0=95=EB=B3=B4=EC=9D=98 =EC=82=AD=EC=A0=9C=EC=9A=94=EC=B2=AD =EB=93=B1)=EC=
+=97=90 =EA=B7=BC=EA=B1=B0=ED=95=98=EC=97=AC =EA=B6=8C=EB=A6=AC=EA=B0=80 =EC=
+=B9=A8=ED=95=B4=EB=90=98=EC=97=88=EB=8B=A4=EA=B3=A0 =EC=8B=A0=EA=B3=A0=EB=
+=90=9C =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=97=90 =EB=8C=80=ED=95=9C =EC=A0=91=EA=
+=B7=BC=EC=9D=84 =EC=9E=84=EC=8B=9C=EC=A0=81=EC=9C=BC=EB=A1=9C =EC=B0=A8=EB=
+=8B=A8=ED=95=98=EB=8A=94 =EC=A1=B0=EC=B9=98(=EC=9E=84=EC=8B=9C=EC=A1=B0=EC=
+=B9=98)=EB=A5=BC =EC=B7=A8=ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+                            =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=84 =EC=9E=91=
+=EC=84=B1=ED=95=98=EC=8B=A0 =EB=B6=84=EC=9D=B4 =EA=B6=8C=EB=A6=AC=EC=B9=A8=
+=ED=95=B4 =EC=8B=A0=EA=B3=A0 =EB=82=B4=EC=9A=A9=EC=97=90 =EB=8C=80=ED=95=B4=
+ =EB=8F=99=EC=9D=98=ED=95=98=EC=8B=9C=EC=A7=80 =EC=95=8A=EC=9C=BC=EB=A9=B4 =
+=EC=9E=84=EC=8B=9C=EC=A1=B0=EC=B9=98 =EA=B8=B0=EA=B0=84 30=EC=9D=BC=EC=9D=
+=B4 =EC=A7=80=EB=82=9C =ED=9B=84 =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=80 =EB=
+=B3=B5=EC=9B=90=EB=90=98=EB=A9=B0,
+                            =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=84 =EC=9E=91=
+=EC=84=B1=ED=95=98=EC=8B=A0 =EB=B6=84=EC=9D=B4 =EA=B6=8C=EB=A6=AC=EC=B9=A8=
+=ED=95=B4 =EC=8B=A0=EA=B3=A0 =EB=82=B4=EC=9A=A9=EC=97=90 =EB=8F=99=EC=9D=98=
+=ED=95=98=EC=8B=9C=EB=A9=B4 =EA=B2=8C=EC=8B=9C=EB=AC=BC=EC=9D=80 =EB=8F=99=
+=EC=9D=98 =EC=82=AC=EC=8B=A4 =EC=A0=91=EC=88=98 =ED=9B=84 =EC=A6=89=EC=8B=
+=9C =EC=82=AD=EC=A0=9C=EB=90=98=EA=B3=A0,
+                            =EC=9E=84=EC=8B=9C=EC=A1=B0=EC=B9=98 =EA=B8=B0=
+=EA=B0=84 30=EC=9D=BC =EB=8F=99=EC=95=88 =EC=9D=98=EC=82=AC=EB=A5=BC =EB=B0=
+=9D=ED=9E=88=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=9C=EB=A9=B4 =EA=B2=8C=EC=8B=
+=9C=EB=AC=BC=EC=9D=80 =EC=9E=84=EC=8B=9C=EC=A1=B0=EC=B9=98 =EA=B8=B0=EA=B0=
+=84 30=EC=9D=BC =EC=A2=85=EB=A3=8C =ED=9B=84 =EC=98=81=EA=B5=AC =EA=B2=8C=
+=EC=8B=9C=EC=A4=91=EB=8B=A8=EB=90=A9=EB=8B=88=EB=8B=A4.
+                            =EA=B6=8C=EB=A6=AC=EC=B9=A8=ED=95=B4 =EC=8B=A0=
+=EA=B3=A0=EC=99=80 =EA=B4=80=EB=A0=A8=ED=95=9C =EB=AC=B8=EC=9D=98=EC=82=AC=
+=ED=95=AD=EC=9D=80 =EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=B1 =EA=B3=A0=
+=EA=B0=9D=EC=84=BC=ED=84=B0(1600-0987)=EB=A1=9C =EC=97=B0=EB=9D=BD =EB=B6=
+=80=ED=83=81=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br>
+                            <a href=3D"https://www.baemin.com/review-compla=
+in-user/261773" style=3D"color:#2ac1bc;text-decoration: underline;">=EC=83=
+=81=EC=84=B8 =EB=82=B4=EC=9A=A9 =ED=99=95=EC=9D=B8</a><br><br><strong style=
+=3D"color:#333;">=EB=B0=B0=EB=8B=AC=EC=9D=98=EB=AF=BC=EC=A1=B1 =EB=93=9C=EB=
+=A6=BC</strong></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td style=3D"padding:25px 0;background:#f0f0f0;">
+                <table cellspacing=3D"0" cellpadding=3D"0" style=3D"margin:=
+0;padding:0;width:100%;">
+                    <tr>
+                        <td style=3D"font-size: 13px;line-height:20px;color=
+: #666;">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=
+=EC=9A=A9=EC=9E=85=EB=8B=88=EB=8B=A4.<br>(=EC=A3=BC)=EC=9A=B0=EC=95=84=ED=
+=95=9C=ED=98=95=EC=A0=9C=EB=93=A4 | =EB=8C=80=ED=91=9C :
+                            =EC=9D=B4=EA=B5=AD=ED=99=98 | =EC=A3=BC=EC=86=
+=8C : =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=86=A1=ED=8C=8C=EA=B5=AC =EC=9C=84=EB=
+=A1=80=EC=84=B1=EB=8C=80=EB=A1=9C 2 (=EC=9E=A5=EC=9D=80=EB=B9=8C=EB=94=A9) =
+2=EC=B8=B5<br>=EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=
+=B8 : 120-87-65763 | =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=
+=EA=B3=A0=EB=B2=88=ED=98=B8 :
+                            2012-=EC=84=9C=EC=9A=B8=EC=86=A1=ED=8C=8C-0515<=
+br>=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EC=B1=85=EC=9E=84=
+=EC=9E=90 : =EA=B9=80=EB=8F=99=ED=98=84 | =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=
+=B0 : 1600-0987 | =EC=9D=B4=EB=A9=94=EC=9D=BC : <a
+                                    href=3D"mailto:review_cs@woowahan.com" =
+style=3D"color: #666;text-decoration: none;">review_cs@woowahan.com</a><br>=
+=C2=A9Woowa
+                            Brothers Corp.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
+<img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' src=3D'h=
+ttps://email.api.nhncloudservice.com/email/v1.0/collectors/readCheck/5EZLZb=
+3M4dQjCduOqvd4iHfQplvyJP751c2vwf3MDZ0?ext=3Dimg.gif' loading=3D'eager'/>
+

@@ -1,0 +1,484 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1697980063;
+	cv=none; b=XgIIU8RMrK5aS2egTb+s8IGIbxn79GN5DdJg3C3VLq3loJBUHeLtfZ+Y33xP
+	 FP8vcvqoiVj+BW/ZqLArxbTvQkaHAk8egvfdw9RtNk/JjgfxQj8j3bKloyWGO0Xz7PyFzQ
+	 OXagnaKljY6q82IttqlgoH0djIRnuk4jeORJHrg0L9Vu4UNGn0j9RSwbCIpq8RtGGuV1sC
+	 Pd85Z2e+/9gKSWNjEuexHfbMzFXjDBrEnozoz8kLOYXTHbkhcHpMne/BqXTp8+OdWYdLcv
+	 w4iAYvpk9GqAKc9NbQck0q/2qKMVLZXrL5GT6KloNFE2ax9qPvU/ydKgf5kI+4Vin8ZSSA
+	 AQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1697980063; c=relaxed/relaxed;
+	bh=v6lAa/Q3spQ/Sy0ErbIapBtSfxNKAVrf8jOjnNXLNLo=;
+	h=from:to:subject:message-id:date; b=orbEOyWzOOeEnobgg5/MNJI/7oeOqJmAv2
+	 ynU/fGA4rfpx2GEyoNSHaFXFrTzmQ6FMwO2/xkvAluWvSEwIetix47aAUmL2Pudz3XqGYe
+	 1u4ZMeJliHa/jsdudaopzXjHD4UY7nYh4D2ID3nbHtlUqirkRKOomWLTasb4cE/brtsZPF
+	 aqS6sfLjGlluU6zA5gj88iKkBCpoieaBbdIgeLPBVG06z9hh5E00vqB8QUxp1wtFJxByJx
+	 FeiEt4MSj53Wt5E4Te1g+NyIdujDR2L+rjHHQQSjvwM2ze7VvwqUlX5CD1/IkK+4u295pL
+	 1dSnqXRQx7q7B7xBQbxYOn6SjaMg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender) smtp.mailfrom=me.noreply@me.co.kr
+Return-Path: <me.noreply@me.co.kr>
+Received-SPF: pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender)
+  client-ip=115.165.177.248; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender) smtp.mailfrom=me.noreply@me.co.kr
+X-Naver-ESV: w9Fn+6J4p63qMBIYFHwdbXmwKqgXFAFYkXm=
+X-Session-IP: 115.165.177.248
+Received: from smtps.hispon.com (mail2.me.co.kr [115.165.177.248])
+  by crcvmail102.nm.naver.com with ESMTP id YcHEwb-sTOugc355GmSvyw
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Sun, 22 Oct 2023 13:07:43 -0000
+Received: from 127.0.0.1 (mail2.me.co.kr [115.165.177.248])
+	by smtps.hispon.com (Postfix) with ESMTP id BE8C9D404E0
+	for <1059230@naver.com>; Sun, 22 Oct 2023 22:07:41 +0900 (KST)
+From: =?UTF-8?Q?ME_=EB=AF=B8=EC=86=8C=EC=84=A4_=EB=AF?=
+	=?UTF-8?Q?=B8=ED=88=B0?= <me.noreply@me.co.kr>
+To: 1059230@naver.com
+Subject: =?utf-8?Q?[=EB=AF=B8=ED=88=B0]_=ED=9A=8C=EC=9B?=
+	=?utf-8?Q?=90=EB=8B=98=EC=9D=98_=EC=B7=A8=ED=96?=
+	=?utf-8?Q?=A5=EC=97=90_=EB=A7=9E=EB=8A=94_=EC=9B?=
+	=?utf-8?Q?=B9=ED=88=B0_=EB=93=B1=EB=A1=9D_=EC=95?=
+	=?utf-8?Q?=8C=EB=A6=BC?=
+Message-ID: <5f682236e414f79ce882564991f9395d@xpertmailer.com>
+Date: Sun, 22 Oct 2023 22:07:41 +0900
+X-Mailer: XPM4 v.0.5 < www.xpertmailer.com >
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+MIME-Version: 1.0
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset=3D"UTF-8">
+=09<meta name=3D"viewport" content=3D"width=3D560">
+  <title>me =EC=8B=A0=EC=9E=91=EC=95=88=EB=82=B4</title>
+=09<style type=3D"text/css">
+=09=09html, body, div, span, object, iframe,
+=09=09h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+=09=09abbr, address, cite, code,
+=09=09del, dfn, em, img, ins, kbd, q, samp,
+=09=09small, strong, sub, sup, var,
+=09=09b, i, a,
+=09=09dl, dt, dd, ol, ul, li,
+=09=09fieldset, form, label, legend,
+=09=09table, caption, tbody, tfoot, thead, tr, th, td,
+=09=09article, aside, canvas, details, figcaption, figure,
+=09=09footer, header, hgroup, menu, nav, section, summary,
+=09=09time, mark, audio, video {margin:0; padding:0; border:0; outline:0;te=
+xt-decoration:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box=
+;box-sizing:border-box;}
+=09=09html, body{-webkit-user-select:none;-moz-user-select:none;-ms-user-se=
+lect:none;user-select:none;}
+=09=09body {min-width:320px;line-height:1.2;-webkit-overflow-scrolling:touc=
+h;-webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
+=09=09article,aside,details,figcaption,figure,
+=09=09footer,header,hgroup,menu,nav,section {display:block;}
+=09=09nav ul {list-style:none;}
+=09=09blockquote, q {quotes:none;}
+=09=09blockquote:before, blockquote:after,
+=09=09q:before, q:after {content:"";content:none;}
+=09=09table {border-collapse:collapse;border-spacing:0;}
+=09=09body, input, textarea, select, button, table {-webkit-text-size-adjus=
+t:none;}
+=09=09button{outline:none;cursor:pointer;background-color:transparent;backg=
+round-repeat:no-repeat;border:0 none;-webkit-tap-highlight-color:rgba(255,=20=
+255, 255, 0);}
+=09=09ul, ol, li {list-style-type:none;}
+=09=09input, select {vertical-align:middle;}
+=09=09a {text-decoration:none;color:#363636;}
+=09=09a:hover, a:active, a:focus { text-decoration:none; }
+=09=09em, i, address{font-style:normal;}
+=09=09img, fieldset { border:0 }
+=09=09input[type=3D"text"], input[type=3D"number"], input[type=3D"tel"], in=
+put[type=3D"password"]{-webkit-appearance:none;-webkit-border-radius:0;}
+=09=09input[type=3D"number"]::-webkit-outer-spin-button,input[type=3D"numbe=
+r"]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0;}
+=09=09body, textarea, input[type=3D"text"], input[type=3D"num"], input[type=
+=3D"date"], select, button{font-family:"Malgun Gothic", "=EB=A7=91=EC=9D=80=
+ =EA=B3=A0=EB=94=95", helvetica, "Apple SD Gothic Neo", sans-serif;font-siz=
+e:16px;font-weight:normal;color:#363636;}
+=09=09.clearfix:after{content:"";display:block;clear:both;}
+=09=09.text-hidden{position:absolute;top:0;left:0;width:0;height:0;overflow=
+:hidden;clip:rect(0, 0, 0, 0);clip:rect(0px, 0px, 0px, 0px);}
+=09</style>
+ </head>
+ <body>
+=09<div id=3D"container" style=3D"position:relative;">
+=09=09<div id=3D"main" style=3D"position:relative;width:560px;background:#f=
+ff;letter-spacing:-0.03em;padding-top:20px;margin:0 auto;-webkit-box-sizing=
+:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
+=09=09=09<div class=3D"doc_title" style=3D"padding:0 20px;-webkit-box-sizin=
+g:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
+=09=09=09=09<h1 style=3D"font-size:32px;line-height:62px;text-align:center;=
+padding:0 10px;border-bottom:1px solid #e0e0e0;white-space:nowrap;overflow:=
+hidden;text-overflow:ellipsis;-webkit-box-sizing:border-box;-moz-box-sizing=
+:border-box;box-sizing:border-box;">=EC=8B=A0=EC=9E=91 =EC=95=88=EB=82=B4</=
+h1>
+=09=09=09</div>
+
+=09=09=09<div class=3D"me_section" style=3D"margin-top:50px;">
+=09=09=09=09<h2 style=3D"font-size:26px;font-weight:500;padding:0 20px;marg=
+in-bottom:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-w=
+ebkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-bo=
+x;">=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EC=B7=A8=ED=96=A5=EC=97=90 =EB=A7=
+=9E=EB=8A=94 =EC=9E=91=ED=92=88</h2>
+
+=09=09=09=09<div class=3D"mecontents_list_hor">
+=09=09=09=09=09<ul style=3D"padding:0 13px;overflow:hidden;-webkit-box-sizi=
+ng:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0 aut=
+o;">
+=09=09=09=09=09=09
+=09=09=09=09=09=09<li style=3D"float:left;width:33.333%;padding:0 7px;list-=
+style:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-siz=
+ing:border-box;">
+=09=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D3=
+4759" style=3D"display:block;position:relative;border:1px solid #ddd;border=
+-radius:8px;overflow:hidden;text-decoration:none;">
+=09=09=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:rel=
+ative;background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:r=
+elative;height:161px;background-repeat:no-repeat;background-position:center=
+;background-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_n=
+ormal_pc/34759_bGjFAJjECG_7858.jpg/me/resize/161x" alt=3D"=EC=B2=9C=EC=9D=
+=BC=EC=9D=98 =EC=95=84=EB=82=B4 =EC=8B=9C=EC=A6=8C2" class=3D"thumbnail_ima=
+ge" style=3D"position:absolute;top:0;bottom:0;left:-50%;right:-50%;display:=
+block;max-width:100%;margin:0 auto;z-index:5;" />
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09<div class=3D"dsc" style=3D"min-height:68px;padding=
+:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:b=
+order-box;">
+=09=09=09=09=09=09=09=09=09<div style=3D"height:24px;line-height:24px;text-=
+overflow:ellipsis;overflow:hidden;white-space:nowrap;"><i class=3D"ic_up" s=
+tyle=3D"display:inline-block;height:16px;line-height:16px;padding:0 5px;bor=
+der-radius:8px;font-size:10px;font-style:normal;color:#fff;background:#ed1c=
+24;vertical-align:middle;margin-right:5px;-webkit-box-sizing:border-box;-mo=
+z-box-sizing:border-box;box-sizing:border-box;">UP</i><span style=3D"font-s=
+ize:18px;font-weight:500;color:#363636;vertical-align:middle;">=EC=B2=9C=EC=
+=9D=BC=EC=9D=98 =EC=95=84=EB=82=B4 =EC=8B=9C=EC=A6=8C2</span></div>
+=09=09=09=09=09=09=09=09=09<div class=3D"chapter" style=3D"font-size:14px;c=
+olor:#777;margin-top:5px;">=EC=B4=9D 76=ED=99=94</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</li>
+=09=09=09=09=09
+=09=09=09=09=09=09<li style=3D"float:left;width:33.333%;padding:0 7px;list-=
+style:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-siz=
+ing:border-box;">
+=09=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D3=
+3179" style=3D"display:block;position:relative;border:1px solid #ddd;border=
+-radius:8px;overflow:hidden;text-decoration:none;">
+=09=09=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:rel=
+ative;background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:r=
+elative;height:161px;background-repeat:no-repeat;background-position:center=
+;background-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_n=
+ormal_pc/33179_bgddAGJiBb_9891.jpg/me/resize/161x" alt=3D"=EB=8C=80=ED=91=
+=9C=EB=8B=98=EA=B3=BC =ED=95=98=EB=A3=BB=EB=B0=A4=EC=9D=84 =EB=B3=B4=EB=83=
+=88=EC=8A=B5=EB=8B=88=EB=8B=A4" class=3D"thumbnail_image" style=3D"position=
+:absolute;top:0;bottom:0;left:-50%;right:-50%;display:block;max-width:100%;=
+margin:0 auto;z-index:5;" />
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09<div class=3D"dsc" style=3D"min-height:68px;padding=
+:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:b=
+order-box;">
+=09=09=09=09=09=09=09=09=09<div style=3D"height:24px;line-height:24px;text-=
+overflow:ellipsis;overflow:hidden;white-space:nowrap;"><i class=3D"ic_up" s=
+tyle=3D"display:inline-block;height:16px;line-height:16px;padding:0 5px;bor=
+der-radius:8px;font-size:10px;font-style:normal;color:#fff;background:#ed1c=
+24;vertical-align:middle;margin-right:5px;-webkit-box-sizing:border-box;-mo=
+z-box-sizing:border-box;box-sizing:border-box;">UP</i><span style=3D"font-s=
+ize:18px;font-weight:500;color:#363636;vertical-align:middle;">=EB=8C=80=ED=
+=91=9C=EB=8B=98=EA=B3=BC =ED=95=98=EB=A3=BB=EB=B0=A4=EC=9D=84 =EB=B3=B4=EB=
+=83=88=EC=8A=B5=EB=8B=88=EB=8B=A4</span></div>
+=09=09=09=09=09=09=09=09=09<div class=3D"chapter" style=3D"font-size:14px;c=
+olor:#777;margin-top:5px;">=EC=B4=9D 256=ED=99=94</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</li>
+=09=09=09=09=09
+=09=09=09=09=09=09<li style=3D"float:left;width:33.333%;padding:0 7px;list-=
+style:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-siz=
+ing:border-box;">
+=09=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D4=
+5276" style=3D"display:block;position:relative;border:1px solid #ddd;border=
+-radius:8px;overflow:hidden;text-decoration:none;">
+=09=09=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:rel=
+ative;background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:r=
+elative;height:161px;background-repeat:no-repeat;background-position:center=
+;background-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_n=
+ormal_pc/45276_BggjHAgBee_8293.jpg/me/resize/161x" alt=3D"=EB=91=90 =EC=97=
+=AC=EC=9E=90 =EB=8B=A4=EB=A5=B8=EB=8A=90=EB=82=8C" class=3D"thumbnail_image=
+" style=3D"position:absolute;top:0;bottom:0;left:-50%;right:-50%;display:bl=
+ock;max-width:100%;margin:0 auto;z-index:5;" />
+=09=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09=09<div class=3D"dsc" style=3D"min-height:68px;padding=
+:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:b=
+order-box;">
+=09=09=09=09=09=09=09=09=09<div style=3D"height:24px;line-height:24px;text-=
+overflow:ellipsis;overflow:hidden;white-space:nowrap;"><i class=3D"ic_up" s=
+tyle=3D"display:inline-block;height:16px;line-height:16px;padding:0 5px;bor=
+der-radius:8px;font-size:10px;font-style:normal;color:#fff;background:#ed1c=
+24;vertical-align:middle;margin-right:5px;-webkit-box-sizing:border-box;-mo=
+z-box-sizing:border-box;box-sizing:border-box;">UP</i><span style=3D"font-s=
+ize:18px;font-weight:500;color:#363636;vertical-align:middle;">=EB=91=90=20=
+=EC=97=AC=EC=9E=90 =EB=8B=A4=EB=A5=B8=EB=8A=90=EB=82=8C</span></div>
+=09=09=09=09=09=09=09=09=09<div class=3D"chapter" style=3D"font-size:14px;c=
+olor:#777;margin-top:5px;">=EC=B4=9D 32=ED=99=94</div>
+=09=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09=09</a>
+=09=09=09=09=09=09</li>
+=09=09=09=09=09
+=09=09=09=09=09</ul>
+=09=09=09=09</div>
+=09=09=09</div>
+
+=09=09=09<div class=3D"me_section" style=3D"margin-top:50px;">
+=09=09=09=09<h2 style=3D"font-size:26px;font-weight:500;padding:0 20px;marg=
+in-bottom:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-w=
+ebkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-bo=
+x;">=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =EC=A2=8B=EC=95=84=ED=95=A0 =EC=8B=
+=A0=EC=9E=91</h2>
+
+=09=09=09=09<div class=3D"mecontents_list_ver" style=3D"padding:0 20px;-web=
+kit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;=
+">
+=09=09=09=09=09<ul style=3D"padding:0;overflow:hidden;-webkit-box-sizing:bo=
+rder-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0 auto;">
+=09=09=09=09=09=09
+=09=09=09=09=09<li style=3D"position:relative;border-radius:12px;border:1px=
+ solid #ddd;overflow:hidden;margin-bottom:30px;">
+=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:relative;=
+background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:relativ=
+e;height:244px;background-repeat:no-repeat;background-position:center;backg=
+round-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_detail_=
+m/52060_BgiHHeaJef_7402.jpg/me/resize/518x" alt=3D"=EB=94=B4=EC=A7=93" clas=
+s=3D"thumbnail_image" style=3D"position:absolute;top:0;bottom:0;left:-50%;r=
+ight:-50%;display:block;max-width:100%;margin:0 auto;z-index:5;" />
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<div class=3D"dsc" style=3D"padding:20px 20px 0;-webkit-b=
+ox-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
+=09=09=09=09=09=09=09<div style=3D"display:-webkit-box;display:-ms-flexbox;=
+display:-webkit-flex;display:flex;-webkit-box-align:end;-ms-flex-align:flex=
+-end;-webkit-align-items:flex-end;align-items:flex-end;-webkit-justify-cont=
+ent:space-between;justify-content:space-between;font-size:20px;"><span clas=
+s=3D"title" style=3D"-webkit-flex:1;flex:1;display:inline-block;font-weight=
+:700;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding-righ=
+t:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:=
+border-box;">=EB=94=B4=EC=A7=93</span><span style=3D"font-size:0.727em;colo=
+r:#777;">Lobeam / shimzo</span></div>
+=09=09=09=09=09=09=09<div class=3D"summary" style=3D"display:-webkit-box;di=
+splay:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:end;-=
+ms-flex-align:flex-end;-webkit-align-items:flex-end;align-items:flex-end;-w=
+ebkit-justify-content:space-between;justify-content:space-between;font-size=
+:20px;margin-top:12px;">
+=09=09=09=09=09=09=09=09<p style=3D"-webkit-flex:1;flex:1;font-size:16px;co=
+lor:#777;line-height:1.4;text-overflow:ellipsis;overflow:hidden;white-space=
+:normal;">=EC=82=AC=EB=82=B4=EC=97=B0=EC=95=A0=EB=8A=94 =ED=8C=8C=EB=A9=B8=
+=EB=BF=90. =EA=B7=B8=EB=9E=98=EC=84=9C =EC=84=B9=EC=8A=A4=ED=8C=8C=ED=8A=B8=
+=EB=84=88=EB=A7=8C =EA=B0=80=EC=A7=80=EB=A0=A4=ED=95=98=EB=8A=94=EB=8D=B0..=
+.=20
+=EC=9D=B4 =EC=83=88=ED=8C=8C=EB=9E=97=EA=B2=8C =EC=96=B4=EB=A6=B0 =EC=8B=A0=
+=EC=9E=85=EC=A7=81=EC=9B=90=EC=9D=80 =EC=B2=98=EC=9D=8C=EB=B6=80=ED=84=B0=20=
+=EC=99=9C =EC=9D=B4=EB=A0=87=EA=B2=8C =EC=A0=80=EB=8F=8C=EC=A0=81=EC=9D=B4=
+=EC=A7=80?=20
+=EC=82=AC=EB=AC=B4=EC=8B=A4=EC=97=90=EC=84=9C =EB=B2=8C=EC=96=B4=EC=A7=80=
+=EB=8A=94 ..</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D5206=
+0" target=3D"_blank" class=3D"freeview_btn" style=3D"text-decoration:none;"=
+>
+=09=09=09=09=09=09=09<div style=3D"display:block;width:478px;height:50px;li=
+ne-height:50px;font-size:18px;font-weight:700;color:#fff;text-align:center;=
+background-color:#d52b2c;border-radius:25px;margin:15px auto 24px;">=EB=AC=
+=B4=EB=A3=8C=EB=B3=B4=EA=B8=B0</div>
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</li>
+=09=09=09=09
+=09=09=09=09=09<li style=3D"position:relative;border-radius:12px;border:1px=
+ solid #ddd;overflow:hidden;margin-bottom:30px;">
+=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:relative;=
+background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:relativ=
+e;height:244px;background-repeat:no-repeat;background-position:center;backg=
+round-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_detail_=
+m/1629_bGgDhfBGEd_7829.jpg/me/resize/518x" alt=3D"=EC=B2=A9(=EC=97=B4=EC=9D=
+=BC=EA=B3=B1 =EC=B2=AB=EC=82=AC=EB=9E=91)" class=3D"thumbnail_image" style=
+=3D"position:absolute;top:0;bottom:0;left:-50%;right:-50%;display:block;max=
+-width:100%;margin:0 auto;z-index:5;" />
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<div class=3D"dsc" style=3D"padding:20px 20px 0;-webkit-b=
+ox-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
+=09=09=09=09=09=09=09<div style=3D"display:-webkit-box;display:-ms-flexbox;=
+display:-webkit-flex;display:flex;-webkit-box-align:end;-ms-flex-align:flex=
+-end;-webkit-align-items:flex-end;align-items:flex-end;-webkit-justify-cont=
+ent:space-between;justify-content:space-between;font-size:20px;"><span clas=
+s=3D"title" style=3D"-webkit-flex:1;flex:1;display:inline-block;font-weight=
+:700;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding-righ=
+t:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:=
+border-box;">=EC=B2=A9(=EC=97=B4=EC=9D=BC=EA=B3=B1 =EC=B2=AB=EC=82=AC=EB=9E=
+=91)</span><span style=3D"font-size:0.727em;color:#777;">=ED=8D=BC=ED=94=8C=
+=EB=A7=9D=EA=B3=A0 / =EC=95=BC=ED=95=9C=EC=83=9D=EA=B0=81</span></div>
+=09=09=09=09=09=09=09<div class=3D"summary" style=3D"display:-webkit-box;di=
+splay:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:end;-=
+ms-flex-align:flex-end;-webkit-align-items:flex-end;align-items:flex-end;-w=
+ebkit-justify-content:space-between;justify-content:space-between;font-size=
+:20px;margin-top:12px;">
+=09=09=09=09=09=09=09=09<p style=3D"-webkit-flex:1;flex:1;font-size:16px;co=
+lor:#777;line-height:1.4;text-overflow:ellipsis;overflow:hidden;white-space=
+:normal;">=EC=97=B4=EC=9D=BC=EA=B3=B1 =EC=97=B4=EA=B8=B0=EC=99=95=EC=84=B1=
+=ED=95=9C =EB=82=B4 =EC=95=9E=EC=97=90 =EB=82=98=ED=83=80=EB=82=9C =EA=B7=
+=B8 =EC=97=AC=EC=9E=90,
+=EB=86=8D=EC=97=BC=ED=95=9C =EB=AA=B8=EC=A7=93=EC=97=90 =EB=A7=A4=ED=98=B9=
+=EC=A0=81=EC=9D=B8 =ED=91=9C=EC=A0=95=E2=80=A6 =EC=95=84=EB=B2=84=EC=A7=80=
+=EC=9D=98 =EC=B2=A9=EC=9D=B4=EB=9D=BC=EA=B3=A0!?
+=EB=B0=A4=EB=A7=88=EB=8B=A4 =EC=95=84=EB=B2=84=EC=A7=80=EB=A5=BC =EC=95=A0=
+=ED=83=9C=EC=9A=B0=EB=8A=94 =EC=B2=A9=EC=9D=84 =EB=AA=B0=EB=9E=98 =ED=9B=94=
+=EC=B3=90=EB=B3=B4=EB=A9=B0 ..</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D1629=
+" target=3D"_blank" class=3D"freeview_btn" style=3D"text-decoration:none;">
+=09=09=09=09=09=09=09<div style=3D"display:block;width:478px;height:50px;li=
+ne-height:50px;font-size:18px;font-weight:700;color:#fff;text-align:center;=
+background-color:#d52b2c;border-radius:25px;margin:15px auto 24px;">=EB=AC=
+=B4=EB=A3=8C=EB=B3=B4=EA=B8=B0</div>
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</li>
+=09=09=09=09
+=09=09=09=09=09<li style=3D"position:relative;border-radius:12px;border:1px=
+ solid #ddd;overflow:hidden;margin-bottom:30px;">
+=09=09=09=09=09=09<div class=3D"thumbnail_area" style=3D"position:relative;=
+background:#fafafa;border-bottom:1px solid #ddd;">
+=09=09=09=09=09=09=09<div class=3D"thumbnail_img" style=3D"position:relativ=
+e;height:244px;background-repeat:no-repeat;background-position:center;backg=
+round-size:cover;z-index:10;">
+=09=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/me/img_detail_=
+m/11042_BGBHghHADf_9224.jpg/me/resize/518x" alt=3D"=EC=97=84=EB=A7=88=EC=8B=
+=A4=EA=B2=A9" class=3D"thumbnail_image" style=3D"position:absolute;top:0;bo=
+ttom:0;left:-50%;right:-50%;display:block;max-width:100%;margin:0 auto;z-in=
+dex:5;" />
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<div class=3D"dsc" style=3D"padding:20px 20px 0;-webkit-b=
+ox-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;">
+=09=09=09=09=09=09=09<div style=3D"display:-webkit-box;display:-ms-flexbox;=
+display:-webkit-flex;display:flex;-webkit-box-align:end;-ms-flex-align:flex=
+-end;-webkit-align-items:flex-end;align-items:flex-end;-webkit-justify-cont=
+ent:space-between;justify-content:space-between;font-size:20px;"><span clas=
+s=3D"title" style=3D"-webkit-flex:1;flex:1;display:inline-block;font-weight=
+:700;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;padding-righ=
+t:10px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:=
+border-box;">=EC=97=84=EB=A7=88=EC=8B=A4=EA=B2=A9</span><span style=3D"font=
+-size:0.727em;color:#777;">=EB=B9=84=EC=95=84=EA=B7=B8=EB=9D=BC / injak</sp=
+an></div>
+=09=09=09=09=09=09=09<div class=3D"summary" style=3D"display:-webkit-box;di=
+splay:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:end;-=
+ms-flex-align:flex-end;-webkit-align-items:flex-end;align-items:flex-end;-w=
+ebkit-justify-content:space-between;justify-content:space-between;font-size=
+:20px;margin-top:12px;">
+=09=09=09=09=09=09=09=09<p style=3D"-webkit-flex:1;flex:1;font-size:16px;co=
+lor:#777;line-height:1.4;text-overflow:ellipsis;overflow:hidden;white-space=
+:normal;">=EB=82=B4=EA=B0=80 =EC=84=B1=EC=9A=95=EC=9D=84 =EB=8A=90=EB=81=BC=
+=EA=B3=A0 =EC=9E=88=EB=8A=94 =EB=82=A8=EC=9E=90=EB=8A=94 =EB=B0=94=EB=A1=9C=
+... =EC=95=84=EB=93=A4 =EC=B9=9C=EA=B5=AC?!
+=EC=A7=80=EA=B8=88 =EC=9D=B4 =EC=88=9C=EA=B0=84=EB=A7=8C=ED=81=BC=EC=9D=80=20=
+=EC=97=84=EB=A7=88=EA=B0=80 =EC=95=84=EB=8B=8C =EC=97=AC=EC=9E=90=EC=9D=B4=
+=EA=B3=A0 =EC=8B=B6=EC=96=B4
+=EB=82=9C =EC=98=A4=EB=8A=98=EB=B6=80=ED=84=B0 =EC=97=84. =EB=A7=88. =EC=8B=
+=A4. =EA=B2=A9. =EC=9D=B4=EC=95=BC!!</p>
+=09=09=09=09=09=09=09</div>
+=09=09=09=09=09=09</div>
+
+=09=09=09=09=09=09<a href=3D"https://me.co.kr/?opid=3Dnewupdate&cidx=3D1104=
+2" target=3D"_blank" class=3D"freeview_btn" style=3D"text-decoration:none;"=
+>
+=09=09=09=09=09=09=09<div style=3D"display:block;width:478px;height:50px;li=
+ne-height:50px;font-size:18px;font-weight:700;color:#fff;text-align:center;=
+background-color:#d52b2c;border-radius:25px;margin:15px auto 24px;">=EB=AC=
+=B4=EB=A3=8C=EB=B3=B4=EA=B8=B0</div>
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</li>
+=09=09=09=09
+=09=09=09=09=09</ul>
+=09=09=09=09</div>
+=09=09=09</div>
+
+=09=09=09<div class=3D"me_section" style=3D"margin-top:50px;">
+=09=09=09=09<h2 style=3D"font-size:26px;font-weight:500;padding:0 20px;marg=
+in-bottom:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-w=
+ebkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-bo=
+x;">=EB=86=93=EC=B9=98=EB=A9=B4 =ED=9B=84=ED=9A=8C! =EC=BD=98=ED=85=90=EC=
+=B8=A0 =EB=AC=B4=EB=A3=8C =EC=9D=B4=EB=B2=A4=ED=8A=B8 =EB=8B=AC=EB=A0=A4=EA=
+=B0=80=EA=B8=B0</h2>
+
+=09=09=09=09<div class=3D"mecontents_event_area">
+=09=09=09=09=09<div class=3D"mecon_evt" style=3D"position:relative;display:=
+block;max-width:570px;width:100%;border-radius:12px;overflow:hidden;margin:=
+0 auto;padding:0 20px;-webkit-box-sizing:border-box;-moz-box-sizing:border-=
+box;box-sizing:border-box;">
+=09=09=09=09=09=09<a href=3D"https://me.co.kr/api/mail_landing_form_api.php=
+?opid=3Dnewupdate&event=3Devent&mem_email=3D1059230@naver.com" target=3D"_b=
+lank">
+=09=09=09=09=09=09=09<img src=3D"https://cdn.metoon.co.kr/img/mail_event_bn=
+r.png" alt=3D"=EA=B8=B0=EA=B0=84=ED=95=9C=EC=A0=95 =EC=9D=B4=EB=B2=A4=ED=8A=
+=B8" />
+=09=09=09=09=09=09</a>
+=09=09=09=09=09</div>
+=09=09=09=09</div>
+=09=09=09</div>
+
+=09=09=09<div class=3D"me_logo" style=3D"position:relative;padding:50px 20p=
+x;text-align:center;-webkit-box-sizing:border-box;-moz-box-sizing:border-bo=
+x;box-sizing:border-box;">
+=09=09=09=09<a href=3D"https://me.co.kr?opid=3Dnewupdate" target=3D"_blank"=
+><img src=3D"https://cdn.metoon.co.kr/mimg/smenu/sb_logo.png" alt=3D"me" st=
+yle=3D"display:inline-block;width:50px;opacity:.3;vertical-align:top;" /></=
+a>
+=09=09=09=09<p style=3D"font-size:13px;color:#9f9f9f;line-height:20px;lette=
+r-spacing:-1px;margin-top:18px;">
+=09=09=09=09=09=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 ME =ED=9A=8C=EC=9B=90=
+=EC=97=90=EA=B2=8C =EB=B3=B4=EB=82=B4=EB=8A=94 =EC=9D=B4=EB=A9=94=EC=9D=BC=
+=EC=9D=B4=EB=A9=B0, =EC=88=98=EC=8B=A0=EC=9D=84 =EC=9B=90=ED=95=98=EC=8B=9C=
+=EC=A7=80 =EC=95=8A=EC=9D=84 =EA=B2=BD=EC=9A=B0 <a href=3D"https://me.co.kr=
+/service/mailingdisagree.php?v=3D1059230@naver.com" target=3D"_blank" style=
+=3D"color:#9f9f9f;"><b>[=EC=88=98=EC=8B=A0=EA=B1=B0=EB=B6=80]</b></a>=EB=A5=
+=BC =EB=88=8C=EB=9F=AC=EC=A3=BC=EC=84=B8=EC=9A=94.<br/>
+=09=09=09=09=09=EB=B3=B8 =EC=9D=B4=EB=A9=94=EC=9D=BC =EC=A3=BC=EC=86=8C=EB=
+=8A=94 =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9D=B4=EB=AF=80=EB=A1=9C =EB=
+=B3=B8 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=97=90 =EB=8B=B5=EC=9E=A5=ED=95=98=EC=
+=85=94=EB=8F=84 =ED=9A=8C=EC=8B=A0=EC=9D=84 =EB=B0=9B=EC=9C=BC=EC=8B=A4 =EC=
+=88=98 =EC=97=86=EC=8A=B5=EB=8B=88=EB=8B=A4.<br/>
+=09=09=09=09=09=EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=A0=90=EC=9D=B4=EB=
+=82=98 =EB=8F=84=EC=9B=80=EC=9D=B4 =ED=95=84=EC=9A=94=ED=95=98=EC=8B=A0 =EA=
+=B2=BD=EC=9A=B0 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0(<a href=3D"tel:1644-92=
+59" style=3D"color:#9f9f9f;">1644-9259</a>)=EB=A1=9C =EB=AC=B8=EC=9D=98 =EC=
+=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+=09=09=09=09</p>
+=09=09=09</div>
+=09=09</div>
+=09</div>
+ </body>
+</html>
+

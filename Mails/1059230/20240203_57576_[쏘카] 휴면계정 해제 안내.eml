@@ -1,0 +1,456 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1706925252;
+	cv=none; b=c5nKzWsNlzL0AMwcZK4JH+ZLItoLQGiyRCFV7tqaEitcQv/pSvgfwnJs3hjR
+	 xgkzKgojreE2zn0ua0s4mbRY/YIC48ecOMk9Bg1ANfHWFUDGs/fDQcRkhP5SAl+aFHoeBL
+	 LLWg7kritBlzssY41MN+ulUuNbaDYX4TW/rzSYB/W1IGmsuoqtElg6jp74uYLMBc9rRpeS
+	 DBJ0+kQhMdOHBYsAmag0xnmnSzADA191mTQ/R2oNfpBT5GJr3ApNydAoXR+I2CgFSXtEoz
+	 gJgnM2R9hU4uX1e/d2qAPhLVGOIt/Ckw4bbewOprS4YIXMMjeQyweGg9cmeFYsrawhuXwk
+	 +A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1706925252; c=relaxed/relaxed;
+	bh=sICUS+cIcic8sYnlKAUZYZdbJSG1BsWeLCEPc9AVG04=;
+	h=dkim-signature:date:from:message-id:subject:to; b=nB76Q15xjPq/JOq2snq
+	 816sBrowFINu8Vn+54Td6j8+y2pibf9MveEWKFECXYSiIiwa5q+0vU8PBIZ5AxuUoL7q2q
+	 M4of70Ge4QG/3gk8WF1U6aeFaueYq1l5k1I4hviIRFnzn+YQBBseDTCtlvr6rxDJzH+rKU
+	 5+8N0S+4FbpblmntCxOkGaFGnCYSeYXIevFOYae4oTbDMnJA0Dh3z+a9x/dsnjoZm+Gn4L
+	 b2ndQVSx5oJqe86nVD4Ya3Ty4X0sNxKfGspxAgpRaKYyio67u/vURpcvL7zZj0YLfvp4NJ
+	 TCYrnclv7UbqNmFjZoy2C0OwN0ZvgH7uTnG4qHQBJdw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr designates 167.89.73.23 as permitted sender) smtp.mailfrom=bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr;
+  dkim=pass header.i=@newsletter.socar.kr
+Return-Path: <bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr>
+Received-SPF: pass (mx.naver.com: domain of bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr designates 167.89.73.23 as permitted sender)
+  client-ip=167.89.73.23; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr designates 167.89.73.23 as permitted sender) smtp.mailfrom=bounces+4099381-ab02-1059230=naver.com@abmail.newsletter.socar.kr;
+  dkim=pass header.i=@newsletter.socar.kr
+X-Naver-ESV: wd+n+6J4p63qMBIYFNwdbXmmKxEdKxiYkXm=
+X-Session-IP: 167.89.73.23
+Received: from o309.abmail.newsletter.socar.kr (o309.abmail.newsletter.socar.kr [167.89.73.23])
+  by crcvmail103.nm.naver.com with ESMTP id 8qLjkYKYSMiU8ShYiWQONw
+  for <1059230@naver.com>
+  (version=TLSv1.3 cipher=TLS_AES_128_GCM_SHA256);
+  Sat, 03 Feb 2024 01:54:12 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=newsletter.socar.kr;
+	h=content-type:from:mime-version:subject:reply-to:to:cc:content-type:
+	from:subject:to;
+	s=s1; bh=sICUS+cIcic8sYnlKAUZYZdbJSG1BsWeLCEPc9AVG04=;
+	b=eKrIXPZwU1jHVX/TBqbpuJHW0T7F72ynyXmsDoNvxi4Oy6ewc+Kmq9haT7K2RYVJHtVK
+	dRLLMQdW+D+wOZe0Fzbkxesx+xZhYtF9nqEkxfJSA6IdFOtNE8sIDMD9+6g/HzYtGu9jmN
+	CyrPCW5RYbA2qRJd0KUJs9D5EXEW6YcgxVyqmq/8DTLhaXiM4h/gloUZ5txhVJDRqheinb
+	EE8gC5Bp3g5xOO4kl4ov2uR4jrgzSph/doVoe4/Dwzfh3YFslpYUv1CPkDyfUWl4aD7znU
+	KGEMZuT/9QcIPj6oayLp2Eywx5wzEF+nNgZ/matYT/bG7fLwX3hzhNU58VoHGiKA==
+Received: by filterdrecv-b7c5b88-592xd with SMTP id filterdrecv-b7c5b88-592xd-1-65BD9C49-F
+        2024-02-03 01:52:09.175011762 +0000 UTC m=+9357020.201817620
+Received: from NDA5OTM4MQ (unknown)
+	by geopod-ismtpd-19 (SG) with HTTP
+	id AyhHvIMWRoiFbaMqpLHDgw
+	Sat, 03 Feb 2024 01:52:09.167 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=e53ef4568778d38335052e879095dee5f85c5bdf5418d0766ba96ba3758d
+Date: Sat, 03 Feb 2024 01:52:10 +0000 (UTC)
+From: SOCAR <no-reply@newsletter.socar.kr>
+Mime-Version: 1.0
+Message-ID: <AyhHvIMWRoiFbaMqpLHDgw@geopod-ismtpd-19>
+Subject: =?UTF-8?B?W+yPmOy5tF0g7Zy066m06rOE7KCVIO2VtOygnCDslYjrgrQ=?=
+Reply-To: no-reply@socar.kr
+X-SG-EID: 
+ =?us-ascii?Q?0akVjXB8sbtxQwJDjOkCx3scuMELasVM89GrieGOi+ApGQWE+d21veApfODAtv?=
+ =?us-ascii?Q?tvHEgePPnFvDv2vmKSw5aBx+KuKttz9PUSxakBd?=
+ =?us-ascii?Q?51EontWOH172VJSaEU2ORlMpb3W1Nx0=2FOYKsBum?=
+ =?us-ascii?Q?pm4y0YFrWuxWu0y4vt1GSGOIu90wN=2F4Ahu+y1Zb?=
+ =?us-ascii?Q?hEVnclYaG=2F5o5fyP69MzGp5fBsBWX7Hyrc76AHx?=
+ =?us-ascii?Q?oJo+T8=2F9OCUBNIymtttMUyzA7VF2ZM7WeBabOf?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKvUYPFb2vwyNNeBc9bJi?=
+ =?us-ascii?Q?Ch0PTt5NrhVh6mZHfeqWIW2wdAy7IPdNFa7DVqP?=
+ =?us-ascii?Q?qGOaM+vmnGwwf2v2rXhmli7lY3ycieAiVRBU7JF?=
+ =?us-ascii?Q?xMB5O=2FCG4Nj55S0b97=2FWoK7QJEvc=2FsGMKgW0zIz?=
+ =?us-ascii?Q?is7=2FG6qOBTtFbe5499OzPWUk+QeDLfjd5sG=2F0DB?=
+ =?us-ascii?Q?AmhNkOj+yLVdymm=2F9lAnoIQjelfbe55tl3zFT9n?=
+ =?us-ascii?Q?CPXsIPn+OCAZrMDsE0dAEyKGf0UvaBxW0uWhsAH?=
+ =?us-ascii?Q?ZYepvReRBjYY+v3yqGpl3rjV+Y73XgfgBTxOboe?=
+ =?us-ascii?Q?Jx5AVOpHtDnBnjxFwIjTH31MkafjHqSHmSrhlk6?=
+ =?us-ascii?Q?u+PMnjCRFdzsjbYfQDhBS8AqJR1PNBIpyq0v1cH?=
+ =?us-ascii?Q?v0YIzbaqTyH4j9tbaEKIsFQzItt7moWtlx09pdt?=
+ =?us-ascii?Q?WojtlX7c70muKBNKT3Al1t=2Fc8rYVu+NXFWYycYR?=
+ =?us-ascii?Q?fUA7pDFdVDJtJ=2FCpyMOh1BhgbgNL6FzZp5FAQ+g?=
+ =?us-ascii?Q?vIrnYpGIvJrOPYoJ=2FToYAXEA9AOosM5DITCQLUS?=
+ =?us-ascii?Q?tEtAfzD?=
+To: 1059230@naver.com
+X-Entity-ID: KKzau5vAU3nutTIrq5VKYA==
+
+--e53ef4568778d38335052e879095dee5f85c5bdf5418d0766ba96ba3758d
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+[=EC=8F=98=EC=B9=B4 =ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =ED=95=B4=EC=A0=9C=
+ =EC=95=88=EB=82=B4] =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94 =EC=8F=
+=98=EC=B9=B4=EC=9E=85=EB=8B=88=EB=8B=A4. 2023=EB=85=84 9=EC=9B=94 15=EC=9D=
+=BC=EB=B6=80=ED=84=B0 =EA=B0=9C=EC=A0=95=EB=90=9C =EA=B0=9C=EC=9D=B8=EC=A0=
+=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=EC=9D=B4 =EC=8B=9C=ED=96=89=EB=90=
+=A8=EC=97=90
+=EB=94=B0=EB=9D=BC, =EC=8F=98=EC=B9=B4=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4=
+ =EC=9A=B4=EC=98=81 =EC=A0=95=EC=B1=85=EC=9D=B4 =EB=B3=80=EA=B2=BD=EB=90=98=
+=EC=96=B4 =EC=95=88=EB=82=B4=ED=95=B4 =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.=
+ =E2=80=98=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=
+=E2=80=99 =EC=A0=9C39=EC=A1=B0=EC=9D=986 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=
+=B4=EC=9D=98 =ED=8C=8C=EA=B8=B0=EC=97=90 =EB=8C=80=ED=95=9C
+=ED=8A=B9=EB=A1=80 =EC=A1=B0=ED=95=AD =EC=82=AD=EC=A0=9C=EC=97=90 =EB=94=B0=
+=EB=9D=BC =EA=B8=B0=EC=A1=B4=EC=97=90 =ED=9C=B4=EB=A9=B4 =EA=B3=84=EC=A0=95=
+=EC=9D=98 =ED=9C=B4=EB=A9=B4 =EC=83=81=ED=83=9C=EA=B0=80 =ED=95=B4=EC=A0=9C=
+=EB=90=98=EC=96=B4 =ED=99=9C=EC=84=B1 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =
+=EC=A0=84=ED=99=98=EB=90=A9=EB=8B=88=EB=8B=A4.    =EC=8F=98=EC=B9=B4 =ED=9C=
+=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =ED=95=B4=EC=A0=9C
+=EC=95=88=EB=82=B4 =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94, =EC=8F=98=
+=EC=B9=B4=EC=9E=85=EB=8B=88=EB=8B=A4.
+
+2023=EB=85=84 9=EC=9B=94 15=EC=9D=BC=EB=B6=80=ED=84=B0 =EA=B0=9C=EC=A0=95=
+=EB=90=9C =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=
+=EC=9D=B4 =EC=8B=9C=ED=96=89=EB=90=A8=EC=97=90 =EB=94=B0=EB=9D=BC, =EC=8F=
+=98=EC=B9=B4=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9A=B4=EC=98=81 =EC=A0=
+=95=EC=B1=85=EC=9D=B4 =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=EC=9D=B4 =EB=B3=
+=80=EA=B2=BD=EB=90=A9=EB=8B=88=EB=8B=A4.
+
+=E2=97=BC =EB=B3=80=EA=B2=BD =EB=82=B4=EC=9A=A9
+- =E2=80=98=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=
+=E2=80=99 =EC=A0=9C39=EC=A1=B0=EC=9D=986 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=
+=B4=EC=9D=98 =ED=8C=8C=EA=B8=B0=EC=97=90 =EB=8C=80=ED=95=9C =ED=8A=B9=EB=A1=
+=80 =EC=A1=B0=ED=95=AD =EC=82=AD=EC=A0=9C=EC=97=90 =EB=94=B0=EB=9D=BC =EA=
+=B8=B0=EC=A1=B4=EC=97=90 =ED=9C=B4=EB=A9=B4 =EA=B3=84=EC=A0=95=EC=9D=98 =ED=
+=9C=B4=EB=A9=B4 =EC=83=81=ED=83=9C=EA=B0=80
+=ED=95=B4=EC=A0=9C=EB=90=98=EC=96=B4 =ED=99=9C=EC=84=B1 =EA=B3=84=EC=A0=95=
+=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98=EB=90=A9=EB=8B=88=EB=8B=A4.
+- =EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9 : =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=
+=B4 =ED=8C=8C=EA=B8=B0 =ED=8A=B9=EB=A1=80(=EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=
+=84=EC=A0=9C) =EC=82=AD=EC=A0=9C
+=C2=B7 1=EB=85=84 =EB=8F=99=EC=95=88 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=
+=EC=9A=A9=EC=9D=B4 =EC=97=86=EB=8A=94 =EA=B2=BD=EC=9A=B0 =ED=8C=8C=EA=B8=B0=
+ =EB=98=90=EB=8A=94 =EB=B3=84=EB=8F=84 =EB=B6=84=EB=A6=AC =EB=B3=B4=EA=B4=
+=80 =EB=93=B1 =EC=A1=B0=EC=B9=98=EB=A5=BC =EA=B0=95=EC=A0=9C=ED=96=88=EB=8D=
+=98 =EA=B7=9C=EC=A0=95 =EC=82=AD=EC=A0=9C(=EC=A0=9C39=EC=A1=B06
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =ED=8C=8C=EA=B8=B0=EC=97=90 =
+=EB=8C=80=ED=95=9C =ED=8A=B9=EB=A1=80 =EC=82=AD=EC=A0=9C)
+- =EC=8B=9C=ED=96=89=EC=9D=BC=EC=9E=90 : 2023. 09. 15
+- =ED=9C=B4=EB=A9=B4 =ED=95=B4=EC=A0=9C =EC=9D=BC=EC=9E=90 : 2024. 02. 13 =
+=EB=B6=80=ED=84=B0 =EC=88=9C=EC=B0=A8=EC=A0=81=EC=9C=BC=EB=A1=9C =ED=99=9C=
+=EC=84=B1 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98
+
+=ED=9C=B4=EB=A9=B4 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98=
+=EB=90=98=EA=B8=B0 =EC=A0=84 =EA=B4=91=EA=B3=A0=EC=84=B1 =EC=A0=95=EB=B3=B4=
+ =EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EB=82=B4=EC=97=AD=EC=9D=80 =EC=9C=A0=
+=EC=A7=80=EB=90=A9=EB=8B=88=EB=8B=A4. =EA=B4=91=EA=B3=A0=EC=84=B1 =EC=A0=95=
+=EB=B3=B4 =EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EB=82=B4=EC=97=AD=EC=9D=84 =
+=EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EB=A0=A4=EB=A9=B4 [=EC=8F=98=EC=B9=B4
+=EC=95=B1 > =EB=A9=94=EB=89=B4 > =EC=84=A4=EC=A0=95 > =ED=98=9C=ED=83=9D =
+=EC=95=8C=EB=A6=BC =EC=84=A4=EC=A0=95]=EC=97=90=EC=84=9C =EB=B3=80=EA=B2=BD=
+=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+
+=EB=8D=94 =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=82=AC=ED=95=AD=EC=9D=80 =
+=EC=8F=98=EC=B9=B4 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0=EB=A5=BC =EC=9D=B4=
+=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.    =E2=80=BB =EA=B0=9C=EC=A0=
+=95=EB=90=9C =EC=A0=95=EC=B1=85 =EB=82=B4=EC=9A=A9=EC=97=90 =EB=8F=99=EC=9D=
+=98=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=A4 =EA=B2=BD=EC=9A=B0 =ED=9A=
+=8C=EC=9B=90 =ED=83=88=ED=87=B4=EB=A5=BC
+=EC=A7=84=ED=96=89=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=A9=B0,=
+ [=EC=8F=98=EC=B9=B4 =EC=95=B1 > =EB=A9=94=EB=89=B4 > =EC=84=A4=EC=A0=95 > =
+=ED=9A=8C=EC=9B=90 =ED=83=88=ED=87=B4=ED=95=98=EA=B8=B0]=EC=97=90=EC=84=9C =
+=EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4.
+
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8 =
+=ED=99=95=EC=9D=B8=ED=95=98=EA=B8=B0=20
+( http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2FsESDMEDQaCyqjbmGO8=
+JJHyZJlBQjEP05L5hrUnpIZDvDcJ-2Fis54iuy9TiFlrq0xPGUw-2FCATh31ORTghu5OL6Fkizt=
+6xC70DAWTZPg7rs-3DUL1L_X1I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2Ng1=
+ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7lwuyMQl19bCNx9LXIKfojeYBXnSaVjHTY=
+6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zceaxY3Rd7jLd5Sz3wBl1T5lJzTGEGnOtk=
+xHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArfVTHrk4xHrVeDGXi1LuywPTonvBHs4iOw=
+IK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0IJsWcVcEOLDK1Nj5IaXEtoomBuZTyiXD=
+zijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeITtM1RYmN2hyYIcB99CVX4SgIHyL8x-2Bj=
+1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9HeVfcAUWY-2FfTpjt-2BduDAhLRi6QGvx=
+I1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcHb7yHQE-2Fk3mx-2Ffi8PBc-2B4wsizf3=
+9dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5EaR-2Fyo7rUOEppX0TOjkgwqgEk2aYv6gz=
+95PfltiaxJHIBWFz0VZOKNzvwIfZ1-2Fug7jEatniPWrkr6-2B8lG5r4bujx1bRcTp9QQGfGt3J=
+Uxzczf-2BOfJQcZ4UWO1zorznJNNzH-2FT9UBwXCJhjsd8U01aIlkOqEWnrXQL6lyk-3D )
+( http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2FsESDMEDQaCyqjbmGO8=
+MOSY855ev7AqbPfAjt0aKk-3Dc70a_X1I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2Fqp=
+DDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7lwuyMQl19bCNx9LXIKfojeYBXn=
+SaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zceaxY3Rd7jLd5Sz3wBl1T5lJzT=
+GEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArfVTHrk4xHrVeDGXi1LuywPTonv=
+BHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0IJsWcVcEOLDK1Nj5IaXEtoomB=
+uZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeITtM1RYmN2hyYIcB99CVX4SgIHy=
+L8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9HeVfcAUWY-2FfTpjt-2BduDAhL=
+Ri6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcHb7yHQE-2Fk3mx-2Ffi8PBc-2B=
+4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5EaR-2Fyo7rUOEppX0agI08iyyXL=
+3XFOJkfA2o6V2KIg34aGLEDzppf0zRWNUHWC8j-2BcGgcO7RM4sUCrWeaZNV-2FYknUZ49Z0GF9=
+N6fLSUNEMWANBwKnrOsecEyRJYPc6UyGQhe3ql8l2TUbm4Bz2-2FveObb9atDa-2FJXdiScak-3=
+D )  ( http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2FsESDMEDQaCyqj=
+bmGO8EtE2BkAbck-2FOIfUkl2dQWfkGeVnBHNeQ7IVrYGBHxprcIyk_X1I3n-2Bp8rinzplOQ-2=
+FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7l=
+wuyMQl19bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zc=
+eaxY3Rd7jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArf=
+VTHrk4xHrVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0=
+IJsWcVcEOLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeIT=
+tM1RYmN2hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9H=
+eVfcAUWY-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcH=
+b7yHQE-2Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5Ea=
+R-2Fyo7rUOEppX0VZs3IDBPTC-2FHPLTpsoIREyyYD9oKwQi2uQv-2BzHqUnnvto-2B0ga6pH1z=
+J1FHNjP2u-2FAMLMvxr09Pg-2Fzhi-2FUBC1XdIHtKG0TV5-2BPBw90t9-2FshDXEy3gEPW20sy=
+LrUmDoTWA3fynIafAhNVN0x8S8uK76s-3D )
+( http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2FsESDMEDQaCyqjbmGO8=
+IXLZb1X0U8yPhiUB8J060k0DWGrH1KuU4CU6w34Y9Kgq-yX_X1I3n-2Bp8rinzplOQ-2FgM-2Bp=
+qh77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7lwuyMQl1=
+9bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zceaxY3Rd=
+7jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArfVTHrk4x=
+HrVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0IJsWcVc=
+EOLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeITtM1RYmN=
+2hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9HeVfcAUW=
+Y-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcHb7yHQE-=
+2Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5EaR-2Fyo7=
+rUOEppX0exqCfwcrD2Ryltfn2ejvpNr7kfeZTLU0KaqNAYc3Qh2W9DZ5-2BoSpEFZPscBPUCKHO=
+hrtEdyl-2FHY1k3CabJZsSlWQmp4w74tQO1SbLiTvtekoXkeBwRGpyYPRqsoCn1AcIyZcuHfCRT=
+dDY4WiAp0yG4-3D )   =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=
+=A0 =EC=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EC=9D=B4 =EB=90=
+=98=EC=A7=80
+=EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.
+=ED=95=B4=EB=8B=B9 =EB=A9=94=EC=9D=BC =EA=B4=80=EB=A0=A8 =EB=AC=B8=EC=9D=98=
+=EB=8A=94 =EC=8F=98=EC=B9=B4 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0=EB=A5=BC =
+=EC=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=
+=EB=8B=88=EB=8B=A4.
+
+=EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=8F=98=EC=B9=B4
+=EC=A0=9C=EC=A3=BC=ED=8A=B9=EB=B3=84=EC=9E=90=EC=B9=98=EB=8F=84 =EC=A0=9C=
+=EC=A3=BC=EC=8B=9C =EC=97=B0=EB=AF=B8=EA=B8=B842(=EC=98=A4=EB=9D=BC=EC=82=
+=BC=EB=8F=99)
+Tel: 1661-3315 / Fax: 02-6969-9333 / Email: info@socar.kr
+--e53ef4568778d38335052e879095dee5f85c5bdf5418d0766ba96ba3758d
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+</head>
+<body><img src=3D"http://ablinks.newsletter.socar.kr/wf/open?upn=3DcbqRXkMX=
+ysg8cGhEiCacW4fU37Jc-2BF-2BsfI-2F8U6BbLp7TaUnEQTdUkiVpR9ZBygJX97Yk8SjkNmCSd=
+8XTsBJmUKns91K4iNhZPEO5LdOwRYpQpk-2F0qNi3J68mFWOaYXHBmbZxO3TSSh9zvdLY39NrJe=
+uiGsZePku91Jjsy-2Fw5THYtomJ-2FiHrI8rqF8ALg-2FVcfxfnNPZTsUcpEzrHOds0GGgeqjGT=
+e-2BVp5umbdAFpSbavE3UiUUNaUGBkHtH1BcjyP1dsGh2pn40RMWGuv15X61D5xtt8Oe2je4WuY=
+y0VKBiZrm9spMQFJIhO7IXmLG96vvcBYCRHwnsNNi1nrPuUAs4P-2F18Kv9ExN7xk1BnQAQSrca=
+mQ88vjh0EDs6dVaGX7YwhmKaSjVU1i73ql-2FQ9g-2FtQXmCPb1k1-2ByjdAdYqyFfjQmycLwGj=
+m1UMHthJqI7QR1-2F8-2Fb4qlb2RX8fCLUOm2L9OV9-2FPZ6Q2rWHq8UdEhbixDQu2I9IuOrTYj=
+A2DyALMu7AvIhjDy7rmeGOLTLsDH41yGnpLQYoO8DpdGWJNnjUEdGifozXnAw4ncU5uJY00WTIz=
+SwvIwu4DGKp728-2BfrAdQX0N2m8mL11pp0Dg03mOtth1sn2-2FEv3U2uGClbAGhARuqE-2FVRT=
+Io2fAbFcsD9IYEpUxvh92fSB2zJOs3ZPa3s7anr-2Bl9lUoGxFqpFx6t0uMBC2E0RghoBFBKDmO=
+jT0au-2FRoRgNMX1JA1DGndV6lfndQ1-2BP2Z-2FhweX9LUfQMiwms" alt=3D"" width=3D"1=
+" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !impor=
+tant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !imp=
+ortant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !im=
+portant;padding-bottom:0 !important;padding-right:0 !important;padding-left=
+:0 !important;"/>
+<div style=3D"display:none !important;visibility:hidden;mso-hide:all;font-s=
+ize:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:=
+0;overflow:hidden;">[=EC=8F=98=EC=B9=B4 =ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=
+=95 =ED=95=B4=EC=A0=9C =EC=95=88=EB=82=B4] =EC=95=88=EB=85=95=ED=95=98=EC=
+=84=B8=EC=9A=94 =EC=8F=98=EC=B9=B4=EC=9E=85=EB=8B=88=EB=8B=A4. 2023=EB=85=
+=84 9=EC=9B=94 15=EC=9D=BC=EB=B6=80=ED=84=B0 =EA=B0=9C=EC=A0=95=EB=90=9C =
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=EC=9D=B4 =
+=EC=8B=9C=ED=96=89=EB=90=A8=EC=97=90 =EB=94=B0=EB=9D=BC, =EC=8F=98=EC=B9=B4=
+=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9A=B4=EC=98=81 =EC=A0=95=EC=B1=85=
+=EC=9D=B4 =EB=B3=80=EA=B2=BD=EB=90=98=EC=96=B4 =EC=95=88=EB=82=B4=ED=95=B4 =
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =E2=80=98=EA=B0=9C=EC=9D=B8=EC=A0=95=
+=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=E2=80=99 =EC=A0=9C39=EC=A1=B0=EC=9D=98=
+6 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =ED=8C=8C=EA=B8=B0=EC=97=90=
+ =EB=8C=80=ED=95=9C =ED=8A=B9=EB=A1=80 =EC=A1=B0=ED=95=AD =EC=82=AD=EC=A0=
+=9C=EC=97=90 =EB=94=B0=EB=9D=BC =EA=B8=B0=EC=A1=B4=EC=97=90 =ED=9C=B4=EB=A9=
+=B4 =EA=B3=84=EC=A0=95=EC=9D=98 =ED=9C=B4=EB=A9=B4 =EC=83=81=ED=83=9C=EA=B0=
+=80 =ED=95=B4=EC=A0=9C=EB=90=98=EC=96=B4 =ED=99=9C=EC=84=B1 =EA=B3=84=EC=A0=
+=95=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98=EB=90=A9=EB=8B=88=EB=8B=A4.</div>
+<div id=3D"container" style=3D"width: 520px; background-color: #f7f8f9; wor=
+d-break: keep-all; margin: 0 auto; padding: 48px;">
+    <div id=3D"content" style=3D"background-color: #ffffff; padding-bottom:=
+ 56px;">
+        <img src=3D"https://d353obgi8xzt9w.cloudfront.net/notice/20191212/a=
+fefc17ffd9cc020d6a0fad254ada083.png" style=3D"width: 100%;">
+        <div class=3D"main-title" style=3D"margin-top: 70px; margin-left: 4=
+1px; margin-right: 41px; font-size: 24px; font-family: 'Spoqa Han Sans', 'S=
+poqa Han Sans JP', 'Sans-serif'; font-weight: bold; line-height: 1.60; lett=
+er-spacing: -0.5px; color: #28323c;" align=3D"left">=EC=8F=98=EC=B9=B4 =ED=
+=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =ED=95=B4=EC=A0=9C =EC=95=88=EB=82=B4</di=
+v>
+        <div class=3D"main-txt" style=3D"margin-top: 10px; margin-left: 41p=
+x; margin-right: 41px; font-size: 14px; font-family: 'Spoqa Han Sans', 'Spo=
+qa Han Sans JP', 'Sans-serif'; line-height: 1.60; letter-spacing: -0.5px; c=
+olor: #28323c;" align=3D"left">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=
+=94, =EC=8F=98=EC=B9=B4=EC=9E=85=EB=8B=88=EB=8B=A4.<br>
+		<br>2023=EB=85=84 9=EC=9B=94 15=EC=9D=BC=EB=B6=80=ED=84=B0 =EA=B0=9C=EC=
+=A0=95=EB=90=9C =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=
+=B2=95=EC=9D=B4 =EC=8B=9C=ED=96=89=EB=90=A8=EC=97=90 =EB=94=B0=EB=9D=BC, =
+=EC=8F=98=EC=B9=B4=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9A=B4=EC=98=81 =
+=EC=A0=95=EC=B1=85=EC=9D=B4 =EC=95=84=EB=9E=98=EC=99=80 =EA=B0=99=EC=9D=B4 =
+=EB=B3=80=EA=B2=BD=EB=90=A9=EB=8B=88=EB=8B=A4.<br>
+        <br>=E2=97=BC =EB=B3=80=EA=B2=BD =EB=82=B4=EC=9A=A9
+        <br>- =E2=80=98=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=
+=B8=EB=B2=95=E2=80=99 =EC=A0=9C39=EC=A1=B0=EC=9D=986 =EA=B0=9C=EC=9D=B8=EC=
+=A0=95=EB=B3=B4=EC=9D=98 =ED=8C=8C=EA=B8=B0=EC=97=90 =EB=8C=80=ED=95=9C =ED=
+=8A=B9=EB=A1=80 =EC=A1=B0=ED=95=AD =EC=82=AD=EC=A0=9C=EC=97=90 =EB=94=B0=EB=
+=9D=BC =EA=B8=B0=EC=A1=B4=EC=97=90 =ED=9C=B4=EB=A9=B4 =EA=B3=84=EC=A0=95=EC=
+=9D=98 =ED=9C=B4=EB=A9=B4 =EC=83=81=ED=83=9C=EA=B0=80 =ED=95=B4=EC=A0=9C=EB=
+=90=98=EC=96=B4 =ED=99=9C=EC=84=B1 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=
+=A0=84=ED=99=98=EB=90=A9=EB=8B=88=EB=8B=A4.
+        <br>- =EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9 : =EA=B0=9C=EC=9D=B8=EC=
+=A0=95=EB=B3=B4 =ED=8C=8C=EA=B8=B0 =ED=8A=B9=EB=A1=80(=EC=9C=A0=ED=9A=A8=EA=
+=B8=B0=EA=B0=84=EC=A0=9C) =EC=82=AD=EC=A0=9C
+        <br>=E3=80=80=C2=B7 1=EB=85=84 =EB=8F=99=EC=95=88 =EC=84=9C=EB=B9=
+=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=9D=B4 =EC=97=86=EB=8A=94 =EA=B2=BD=EC=9A=
+=B0 =ED=8C=8C=EA=B8=B0 =EB=98=90=EB=8A=94 =EB=B3=84=EB=8F=84 =EB=B6=84=EB=
+=A6=AC =EB=B3=B4=EA=B4=80 =EB=93=B1 =EC=A1=B0=EC=B9=98=EB=A5=BC =EA=B0=95=
+=EC=A0=9C=ED=96=88=EB=8D=98 =EA=B7=9C=EC=A0=95 =EC=82=AD=EC=A0=9C(=EC=A0=9C=
+39=EC=A1=B06 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =ED=8C=8C=EA=B8=
+=B0=EC=97=90 =EB=8C=80=ED=95=9C =ED=8A=B9=EB=A1=80 =EC=82=AD=EC=A0=9C)
+        <br>- =EC=8B=9C=ED=96=89=EC=9D=BC=EC=9E=90 : 2023. 09. 15
+        <br>- =ED=9C=B4=EB=A9=B4 =ED=95=B4=EC=A0=9C =EC=9D=BC=EC=9E=90 : 20=
+24. 02. 13 =EB=B6=80=ED=84=B0 =EC=88=9C=EC=B0=A8=EC=A0=81=EC=9C=BC=EB=A1=9C=
+ =ED=99=9C=EC=84=B1 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98=
+<br>
+        <br>=ED=9C=B4=EB=A9=B4 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=
+=84=ED=99=98=EB=90=98=EA=B8=B0 =EC=A0=84 =EA=B4=91=EA=B3=A0=EC=84=B1 =EC=A0=
+=95=EB=B3=B4 =EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EB=82=B4=EC=97=AD=EC=9D=
+=80 =EC=9C=A0=EC=A7=80=EB=90=A9=EB=8B=88=EB=8B=A4. =EA=B4=91=EA=B3=A0=EC=84=
+=B1 =EC=A0=95=EB=B3=B4 =EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EB=82=B4=EC=97=
+=AD=EC=9D=84 =EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EB=A0=A4=EB=A9=B4 [=EC=8F=
+=98=EC=B9=B4 =EC=95=B1 &gt; =EB=A9=94=EB=89=B4 &gt; =EC=84=A4=EC=A0=95 &gt;=
+ =ED=98=9C=ED=83=9D =EC=95=8C=EB=A6=BC =EC=84=A4=EC=A0=95]=EC=97=90=EC=84=
+=9C =EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.<br>
+        </div>
+
+<!-- =EB=A7=88=EB=AC=B4=EB=A6=AC =EB=A9=98=ED=8A=B8 -->
+
+        &nbsp;<br><hr color=3D"#E9EBEE" size=3D"1px" width=3D"85%">&nbsp;<b=
+r>
+
+        <div class=3D"sub-txt" style=3D"font-size: 14px; font-family: 'Spoq=
+a Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; line-height: 1.60; letter-s=
+pacing: -0.5px; color: #28323c; margin: 10px 41px;" align=3D"left">=EB=8D=
+=94 =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=82=AC=ED=95=AD=EC=9D=80 =EC=8F=
+=98=EC=B9=B4 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0=EB=A5=BC =EC=9D=B4=EC=9A=
+=A9=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.
+        </div>
+
+        <div class=3D"sub-txt" style=3D"font-size: 14px; font-family: 'Spoq=
+a Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; line-height: 1.60; letter-s=
+pacing: -0.5px; color: #28323c; margin: 10px 41px;" align=3D"left">
+            <span style=3D"text-indent: -8px; font-size: 12px; line-height:=
+ 1.8; color: #646f7c;">
+              =E2=80=BB =EA=B0=9C=EC=A0=95=EB=90=9C =EC=A0=95=EC=B1=85 =EB=
+=82=B4=EC=9A=A9=EC=97=90 =EB=8F=99=EC=9D=98=ED=95=98=EC=A7=80 =EC=95=8A=EC=
+=9C=BC=EC=8B=A4 =EA=B2=BD=EC=9A=B0 =ED=9A=8C=EC=9B=90 =ED=83=88=ED=87=B4=EB=
+=A5=BC =EC=A7=84=ED=96=89=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=
+=A9=B0, [=EC=8F=98=EC=B9=B4 =EC=95=B1 &gt; =EB=A9=94=EB=89=B4 &gt; =EC=84=
+=A4=EC=A0=95 &gt; =ED=9A=8C=EC=9B=90 =ED=83=88=ED=87=B4=ED=95=98=EA=B8=B0]=
+=EC=97=90=EC=84=9C =EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+            </span>
+        </div>
+      &nbsp;<br>
+              <div class=3D"conv_btn" style=3D"font-size: 16px; font-family=
+: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; line-height: 1.60; l=
+etter-spacing: -0.5px; color: #28323c; margin: 10px 41px;" align=3D"center"=
+>
+                <a href=3D"http://ablinks.newsletter.socar.kr/ls/click?upn=
+=3DKL-2FsESDMEDQaCyqjbmGO8JJHyZJlBQjEP05L5hrUnpIZDvDcJ-2Fis54iuy9TiFlrq0xPG=
+Uw-2FCATh31ORTghu5OL6Fkizt6xC70DAWTZPg7rs-3DYeC4_X1I3n-2Bp8rinzplOQ-2FgM-2B=
+pqh77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7lwuyMQl=
+19bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zceaxY3R=
+d7jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArfVTHrk4=
+xHrVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0IJsWcV=
+cEOLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeITtM1RYm=
+N2hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9HeVfcAU=
+WY-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcHb7yHQE=
+-2Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5EaR-2Fyo=
+7rUOEppX0VuTrYlWXrHbZmeG4UdmlnVIq4T122g058dnCu-2FERLySXXtEuP5aqfHq8ppL-2FpU=
+7DtW6oKNWnRn-2BGGG70OTjRuCiic6BNJrhqyS7ZpN2mwaRfb5T85G0UckUPXdlR1v47gdu9ZLB=
+Fwo8HU52hT0DpyA-3D" target=3D"_blank" class=3D"btn_s" style=3D"color: #FFFF=
+FF; text-decoration: none; -webkit-border-radius: 0px; -moz-border-radius: =
+0px; border-radius: 0px; background-color: #00B8FF; display: inline-block; =
+cursor: pointer; padding: 20px;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=
+=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8 =ED=99=95=EC=9D=B8=ED=95=98=EA=B8=B0</a>
+              </div>
+
+    </div>
+
+
+
+    <div id=3D"icon" style=3D"margin-top: 32px;" align=3D"center">
+        <a href=3D"http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2Fs=
+ESDMEDQaCyqjbmGO8MOSY855ev7AqbPfAjt0aKk-3DYI4L_X1I3n-2Bp8rinzplOQ-2FgM-2Bpq=
+h77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb-2BlvO2h7lwuyMQl19=
+bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5JkoLUHRl47zceaxY3Rd7=
+jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDXwL5s9yFArfVTHrk4xH=
+rVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHuk8DOQZqvy0IJsWcVcE=
+OLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKSboOqtcPeITtM1RYmN2=
+hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOMkXr4vGLK9HeVfcAUWY=
+-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9xl013wAXKcHb7yHQE-2=
+Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7ieO0STkI5EaR-2Fyo7r=
+UOEppX0T0wwG5kNMddOxFB04kF5kIv5f-2BKz4EQyE2RMgbthe9AdY8nRcW27dM3NK6DOb2vYjg=
+6E8W9Y4J295nj9Z4C0dOkXR9PwJRiYM3MOyYX1nM7S02249TzbYAhQ6vc0537jxUwY5N32B1Pez=
+G38dKE0tU-3D" target=3D"_blank" style=3D"color: #00B8FF; text-decoration: u=
+nderline;"><img src=3D"https://d353obgi8xzt9w.cloudfront.net/notice/2019042=
+4/bdfc25f5e49511e7edfc6b5bee098e09.png"></a>
+        <a href=3D"http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2Fs=
+ESDMEDQaCyqjbmGO8EtE2BkAbck-2FOIfUkl2dQWfkGeVnBHNeQ7IVrYGBHxprA81u_X1I3n-2B=
+p8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXx=
+Ab-2BlvO2h7lwuyMQl19bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5=
+JkoLUHRl47zceaxY3Rd7jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizI=
+DXwL5s9yFArfVTHrk4xHrVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxk=
+Huk8DOQZqvy0IJsWcVcEOLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1k=
+KSboOqtcPeITtM1RYmN2hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8M=
+OMkXr4vGLK9HeVfcAUWY-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy=
+9xl013wAXKcHb7yHQE-2Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo=
+7ieO0STkI5EaR-2Fyo7rUOEppX0Qkupxm33tyGKa7CQgPUbvZfjluZwdxk-2F46k6xmncHvKctx=
+GkgYXGMgOiuBuoUOPIbwteqxW8c7gMYfc3Du37rbaBDw8Bqwjks604jwjrJv-2B79yzLzLieySJ=
+0O19hvtbapqwZTuE-2BIm0yhCwqZQqi30-3D" id=3D"icon-center" target=3D"_blank" =
+style=3D"color: #00B8FF; text-decoration: underline; margin-left: 33px; mar=
+gin-right: 33px;"><img src=3D"https://d353obgi8xzt9w.cloudfront.net/notice/=
+20190424/7ee0a9fd475318a1e78100cdf4407cb2.png"></a>
+        <a href=3D"http://ablinks.newsletter.socar.kr/ls/click?upn=3DKL-2Fs=
+ESDMEDQaCyqjbmGO8IXLZb1X0U8yPhiUB8J060k0DWGrH1KuU4CU6w34Y9KgOz2E_X1I3n-2Bp8=
+rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2Ng1ZWuKpFwiYnqVwPjHi7dttpGpCLpdOXxAb=
+-2BlvO2h7lwuyMQl19bCNx9LXIKfojeYBXnSaVjHTY6-2Fd1f-2FUI7zS4lUl8TPAS-2FTcO5Jk=
+oLUHRl47zceaxY3Rd7jLd5Sz3wBl1T5lJzTGEGnOtkxHVib1qwtYAnWIWNghTfsYpXvMKKizIDX=
+wL5s9yFArfVTHrk4xHrVeDGXi1LuywPTonvBHs4iOwIK6xK4X7fYpQlLDTtJpgL4s3LAJoFxkHu=
+k8DOQZqvy0IJsWcVcEOLDK1Nj5IaXEtoomBuZTyiXDzijPwnK0S8tS-2FAGeh7b2gzHb0lU1kKS=
+boOqtcPeITtM1RYmN2hyYIcB99CVX4SgIHyL8x-2Bj1u6TdSm2XAN7b35iHLtmnjW2F9Kso8MOM=
+kXr4vGLK9HeVfcAUWY-2FfTpjt-2BduDAhLRi6QGvxI1W1mma-2F6TkHoyvENrLBLfY5D1pOy9x=
+l013wAXKcHb7yHQE-2Fk3mx-2Ffi8PBc-2B4wsizf39dR9-2B2B0X5-2FtKxyV2Y9OUrpP1Eo7i=
+eO0STkI5EaR-2Fyo7rUOEppX0b1yBmoOpQGmFsNylNPHRU7o5Y-2BxkQ5UtpKj5a-2Bz7irfQlN=
+y9vPQbYVlq6GQYV3nOJ38pznvkVX1azwg7ikDnJTTSLXf0lqaAhyY7eV5lZJteSU-2BA-2BJ5E2=
+B9V-2FYoVMyfGuwsmy0YHiES-2Fykja7XjUss-3D" target=3D"_blank" style=3D"color:=
+ #00B8FF; text-decoration: underline;"><img src=3D"https://d353obgi8xzt9w.c=
+loudfront.net/notice/20190424/c5b51abf2bde3d86e23e8866d4886a76.png"></a>
+    </div>
+    <div id=3D"footer" style=3D"margin-top: 36px; font-size: 12px; line-hei=
+ght: 1.58; letter-spacing: -0.2px; color: #646f7c; font-family: 'Spoqa Han =
+Sans', 'Spoqa Han Sans JP', 'Sans-serif';" align=3D"center">
+        =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=
+=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EC=9D=B4 =EB=90=98=EC=A7=80 =
+=EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.<br>
+        =ED=95=B4=EB=8B=B9 =EB=A9=94=EC=9D=BC =EA=B4=80=EB=A0=A8 =EB=AC=B8=
+=EC=9D=98=EB=8A=94 =EC=8F=98=EC=B9=B4 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0=
+=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=
+=EB=9E=8D=EB=8B=88=EB=8B=A4.<br>
+        <br>
+        =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=8F=98=EC=B9=B4<br>
+        =EC=A0=9C=EC=A3=BC=ED=8A=B9=EB=B3=84=EC=9E=90=EC=B9=98=EB=8F=84 =EC=
+=A0=9C=EC=A3=BC=EC=8B=9C =EC=97=B0=EB=AF=B8=EA=B8=B842(=EC=98=A4=EB=9D=BC=
+=EC=82=BC=EB=8F=99)<br>
+        Tel: 1661-3315 / Fax: 02-6969-9333 / Email: info@socar.kr
+
+    </div>
+</div>
+</body>
+</html>
+
+--e53ef4568778d38335052e879095dee5f85c5bdf5418d0766ba96ba3758d--

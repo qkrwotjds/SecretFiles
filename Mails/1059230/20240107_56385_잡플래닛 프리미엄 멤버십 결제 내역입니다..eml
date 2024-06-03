@@ -1,0 +1,583 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1704560768;
+	cv=none; b=fiBUt3LIg2saDHQVy/evy/CqFQn79M3lQWHjhr8eWi9uEBm9yL2g7dv7K8Cs
+	 ZOcZu/qsxZAGNPyGa9O/N62V9TWF5MYek1Ju/WLtCoWV1EKFONo8WHyscdydOOkI9jal4U
+	 eEsEa8s/m26/cUXJ24MKIw6G56FWTwLyC7R1yg3PH1hTAes8LM/l2xVWyTOjY0j24nnAVl
+	 Szh9YUXnrvSmBWgYGwFQyDX3CjNF5gIzhSpQemX9pEwf8RUJYImrnKsCBYRWMh1ZJr4XTs
+	 pnzWXMKwtiIFJ7zwxMzkD2h9kAnMVh+OY5EcUenEblf4X1p1A7QrsnWrLoKBetk4hbxhFB
+	 xg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1704560768; c=relaxed/relaxed;
+	bh=YzpekbX0pCaDCijTVozvZpH//ze8uOD7rWTWUifbth0=;
+	h=dkim-signature:date:from:message-id:subject:to; b=FSKHdic5mbIXGq4OLRx
+	 BLsvREvXg2yEPVa+YSXcIPObi2AVdSV9BdPwMiEKNhppLN2ssI4qFSgyRv6b+gBPoU7HbI
+	 RGiokWiwuJGYQCxl/Jt5gqZS0XiTQ5VXbgY0sbhmoZT3Z7FMXUS2P/gjXAm4T5N6l0MYjm
+	 exLJPBnC2i81yYL0bYUFDFwdMxk/rAzyiXgVuZhjdCfEdGk3ssBgrIt49eYxV6re+AoDm3
+	 wJuz2l0PViteS5vlLYxN3Dg7FGvfsGeh/+AuwPFz9lQPuvqLEHX6L291NBVXPx5WqYrtWz
+	 2DV9hkY+nZvf8IikFnHgwM/sFR44nEjj7agWNMfHWwQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr designates 167.89.44.94 as permitted sender) smtp.mailfrom=bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr;
+  dkim=pass header.i=@jobplanet.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jobplanet.co.kr
+Return-Path: <bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr>
+Received-SPF: pass (mx.naver.com: domain of bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr designates 167.89.44.94 as permitted sender)
+  client-ip=167.89.44.94; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr designates 167.89.44.94 as permitted sender) smtp.mailfrom=bounces+1163596-4ab3-1059230=naver.com@krannounce.jobplanet.co.kr;
+  dkim=pass header.i=@jobplanet.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jobplanet.co.kr
+X-Naver-ESV: wZRn+6J4p63CbHmrKBwdbXFYKxbmFogXjJ+Y
+X-Session-IP: 167.89.44.94
+Received: from o1.emailgrid.jobplanet.co.kr (o1.emailgrid.jobplanet.co.kr [167.89.44.94])
+  by crcvmail303.nm.naver.com with ESMTP id CUjlH+ZgRS2X13JPgGW-ag
+  for <1059230@naver.com>
+  (version=TLSv1.3 cipher=TLS_AES_128_GCM_SHA256);
+  Sat, 06 Jan 2024 17:06:07 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=jobplanet.co.kr;
+	h=from:subject:mime-version:content-type:content-transfer-encoding:
+	reply-to:to:cc:content-type:from:subject:to;
+	s=s1; bh=YzpekbX0pCaDCijTVozvZpH//ze8uOD7rWTWUifbth0=;
+	b=RPo98wOGgGF6TLjGfVYdXbOvNW89PPQlcZLusRJoD6CnvuH2p8d4WLfTdSsg9EUWnWhP
+	uZlZNqodtuTSmQrKvbJMUDW21N9Kl7Lzbre2Or6mA1fC6L1+sVMtA2GtTq8UzW+UEHpe1s
+	cE9k+30wESF0cK4Wllh/V09OzWV5y9ynHiZ12CHfnRw2KQ3mP9f7cTmsMVb9fIpCHA6QFe
+	O/nPz4sS6RWq79xfxvnsuM26YieXIKWcNxhGQwus90BVbza7RKrEa4rpIw2BHT9ndD33Gl
+	g2XDczuGxvK+wSsjgfF5hcMJUNXIo78IWsTdwYoqTFnXqA083di+i5lQiDQvhrtQ==
+Received: by filterdrecv-5bbdbb56cd-l5dl4 with SMTP id filterdrecv-5bbdbb56cd-l5dl4-1-6599887C-3
+        2024-01-06 17:06:04.269285021 +0000 UTC m=+2250171.239564865
+Received: from jobplanet.co.kr (unknown)
+	by geopod-ismtpd-11 (SG) with ESMTP
+	id 6RB2ojU-Rb-Z7J7-aPeMtQ
+	for <1059230@naver.com>;
+	Sat, 06 Jan 2024 17:06:03.775 +0000 (UTC)
+Return-Path: <mailer_errors@jobplanet.co.kr>
+Date: Sat, 06 Jan 2024 17:06:04 +0000 (UTC)
+From: =?utf-8?q?=EC=9E=A1=ED=94=8C=EB=9E=98=EB=8B=9B?=
+	<do_not_reply@jobplanet.co.kr>
+Message-ID: <6599887a8c3c2_fd92afce60ff3d0195946@ip-172-31-14-162.mail>
+Subject: =?UTF-8?B?7J6h7ZSM656Y64ubIO2UhOumrOuvuOyXhCDrqaTrsoTsi60=?=
+ =?UTF-8?B?IOqysOygnCDrgrTsl63snoXri4jri6Qu?=
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+raise-delivery-errors: true
+is-official-message: true
+email: 1059230@naver.com
+Reply-To: customer_service@jobplanet.co.kr
+X-SG-EID: 
+ =?us-ascii?Q?sWU5OesUySyDtR3dgqVwMVdTIHsNAPbjgeZEBv8L5NWnzQ5+cCYO10U6v569cl?=
+ =?us-ascii?Q?lV40dKcT87=2FyuWRgSrYlDUnRiDLC3g2Y08dqCsu?=
+ =?us-ascii?Q?TaCBbHceP=2F3g0NqPuvpVPWAZFNDQ=2FIOseHe4dMq?=
+ =?us-ascii?Q?KiNCKruLqJwMYtKN1vE1u4Qh2e6prdT8uV2YTEM?=
+ =?us-ascii?Q?ia5lI2+VS42C8nAG4Ds4udKvi5RsmG+mCvxnWP4?=
+ =?us-ascii?Q?aM65MlYuNf3+MvtFBzUOokZi5Lwzvl7lRVx7DI?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb4qZPVSruDRoidvl+zUaS04HVmWO8BZn7JAFjZy1IS?=
+ =?us-ascii?Q?4rT+jaAXft2t39FbBsfPAANrFp421GFhKW5lX2W?=
+ =?us-ascii?Q?JcS+gafeZcYDlkWX5XDwXO=2FiHBdudMYE7HNckre?=
+ =?us-ascii?Q?JQmMgZTlBA=3D=3D?=
+To: 1059230@naver.com
+X-Entity-ID: elkudrCdfEHchTT75ihwMQ==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100=
+%; min-width: 244px; padding: 0; margin: 0; border: 0; border-spacing: 0; b=
+ackground: #ffffff; text-align: center; border-collapse: separate; table-la=
+yout : fixed;">
+    <tbody>
+    <tr align=3D"center">
+      <td style=3D"padding: 0; background: #fff; padding: 0 0 30px">
+        <div style=3D"margin: 0 auto; padding: 0; border: 0; max-width:624p=
+x; min-width: 244px; background: #ffffff;">
+          <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"max-width: 624px; min-width: 224px; border: 0; border-coll=
+apse: separate; table-layout: fixed; border-spacing: 0; background: #ffffff=
+; ">
+            <tbody>
+            <tr>
+              <td width=3D"12" style=3D"width: 12px; background: #ffffff;">=
+</td>
+              <td style=3D"padding: 0;">
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: 0; border: 0; =
+border-collapse: separate; table-layout : fixed; border-spacing: 0;">
+                  <tbody>
+                  <tr>
+                    <!-- logo -->
+                    <td style=3D"margin: 0; padding: 24px 0 0; border: 0; w=
+idth: 100%; text-align: center;">
+                      <img src=3D"https://jpassets.jobplanet.co.kr/producti=
+on/uploads/material/media/6356/jobplanet_BI.png" alt=3D"=EC=9E=A1=ED=94=8C=
+=EB=9E=98=EB=8B=9B =EB=A1=9C=EA=B3=A0" style=3D"font-family:'Apple SD Gothi=
+c Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-s=
+erif';width:90px;display:inline-block;border:none; vertical-align:bottom;">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style=3D"padding: 0;">
+                      <!-- =ED=94=84=EB=A6=AC=EB=AF=B8=EC=97=84 =EA=B2=B0=
+=EC=A0=9C =EC=99=84=EB=A3=8C =EC=9D=B4=EB=A9=94=EC=9D=BC -->
+                      <table align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: 0; borde=
+r: 0; border-collapse: separate; table-layout : fixed; border-spacing: 0; b=
+ackground: #fff;">
+                        <tbody>
+                        <tr>
+                          <td style=3D"margin: 0; padding: 48px 0 60px; bor=
+der: 0; text-align: left;">
+                            <!-- =ED=94=84=EB=A6=AC=EB=AF=B8=EC=97=84 =EA=
+=B2=B0=EC=A0=9C =EC=99=84=EB=A3=8C =EC=9D=B4=EB=AF=B8=EC=A7=80 -->
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;margin:0;background:#58bf25;width:100%;padding:0;">
+                              <img src=3D"https://jpassets.jobplanet.co.kr/=
+production/uploads/material/media/6297/head_img_8_.png" alt=3D"=ED=94=84=EB=
+=A6=AC=EB=AF=B8=EC=97=84 =EB=A9=A4=EB=B2=84=EC=8B=AD =EA=B2=B0=EC=A0=9C =EC=
+=99=84=EB=A3=8C" style=3D"font-family:'Apple SD Gothic Neo', 'Nanum Barun G=
+othic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';width:100%;displ=
+ay:inline-block;border:none; vertical-align:bottom;">
+                            </div>
+                            <!-- =EC=A0=9C=EB=AA=A9 -->
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;margin:0;background:#fff;padding:36px 0 0 0;">
+                              <div style=3D"font-family:'Apple SD Gothic Ne=
+o', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif=
+';border:none;margin:0;padding:0;border:none;font-size: 32px;font-weight: b=
+old;font-stretch: normal;font-style: normal;line-height: 1.4;color:#434447;=
+letter-spacing:0;">
+<span style=3D"font-family:'Apple SD Gothic Neo', 'Nanum Barun Gothic', 'Ma=
+lgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';color:#00c362;">=ED=94=84=
+=EB=A6=AC=EB=AF=B8=EC=97=84 =EB=A9=A4=EB=B2=84=EC=8B=AD =EA=B2=B0=EC=A0=9C=
+=EA=B0=80 =EC=99=84=EB=A3=8C</span>=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=
+=8B=A4.</div>
+                            </div>
+                            <!-- =EB=82=B4=EC=9A=A9 -->
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;background:#fff;margin:24px 0;font-size: 16px;font-weight: norm=
+al;font-stretch: normal;font-style: normal;line-height: 1.75;letter-spacing=
+: normal;color:#4b4c50;">
+                              =EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =ED=94=
+=84=EB=A6=AC=EB=AF=B8=EC=97=84 =EB=A9=A4=EB=B2=84=EC=8B=AD =ED=9A=8C=EC=9B=
+=90=EC=9D=B4 =EB=90=98=EC=96=B4=EC=A3=BC=EC=85=94=EC=84=9C =EA=B0=90=EC=82=
+=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+                            </div>
+                            <!-- =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=A0=95=EB=
+=B3=B4 =EC=A0=9C=EB=AA=A9 -->
+                            <div style=3D"width: 264px; font-family:'Apple =
+SD Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum',=
+ 'sans-serif';border:none;margin: 0 36px 12px 0;padding:0;border:none;font-=
+size: 26px;font-weight: bold;font-stretch: normal;font-style: normal;color:=
+#434447;letter-spacing:normal;">
+                              =EB=A9=A4=EB=B2=84=EC=8B=AD =EC=A0=95=EB=B3=
+=B4
+                            </div>
+                            <!--=EB=A9=A4=EB=B2=84=EC=8B=AD =EC=A0=95=EB=B3=
+=B4 =EC=9D=B8=ED=8F=AC-->
+                            <div>
+                              <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: =
+0; border: 0; border-collapse: separate; table-layout : fixed; border-spaci=
+ng: 0; background: #fff;">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; border-right: 1px solid #e5e6e9; text-al=
+ign: center; background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EC=
+=9D=B4=EC=9A=A9=EC=83=81=ED=92=88</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=ED=
+=94=84=EB=A6=AC=EB=AF=B8=EC=97=84 - 1=EA=B0=9C=EC=9B=94</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; text-ali=
+gn: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EA=
+=B2=B0=EC=A0=9C=EC=9D=BC=EC=8B=9C</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">202=
+4-01-07</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; border-b=
+ottom: 1px solid #e5e6e9; text-align: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EB=
+=A7=8C=EB=A3=8C=EC=9D=BC</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; border-bottom: 1px solid #e5e6e9; text-a=
+lign: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">202=
+4-02-08</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <!-- =EA=B2=B0=EC=A0=9C =EB=82=B4=EC=97=AD =EC=
+=A0=9C=EB=AA=A9 -->
+                            <div style=3D"width: 264px; font-family:'Apple =
+SD Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum',=
+ 'sans-serif'; border:none; margin: 24px 36px 12px 0;padding:0;border:none;=
+font-size: 26px;font-weight: bold;font-stretch: normal;font-style: normal;c=
+olor:#434447;letter-spacing:normal;">
+                              =EA=B2=B0=EC=A0=9C =EB=82=B4=EC=97=AD
+                            </div>
+                            <!--=EA=B2=B0=EC=A0=9C =EB=82=B4=EC=97=AD =EC=
+=9D=B8=ED=8F=AC-->
+                            <div>
+                              <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: =
+0; border: 0; border-collapse: separate; table-layout : fixed; border-spaci=
+ng: 0; background: #fff;">
+                                <tbody>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; border-right: 1px solid #e5e6e9; text-al=
+ign: center; background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EC=
+=83=81=ED=92=88 =EA=B0=80=EA=B2=A9</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">17,=
+900=EC=9B=90</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; text-ali=
+gn: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">
+                                        =ED=95=A0=EC=9D=B8=EA=B0=80 <span s=
+tyle=3D"color:#ff9800; font-weight: bold;">(0%)=ED=95=A0=EC=9D=B8</span>
+                                      </span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">0=
+=EC=9B=90</span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; text-ali=
+gn: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EA=
+=B5=AC=EB=A7=A4 =EA=B0=80=EA=B2=A9</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: bold;font-stret=
+ch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">
+                                        17,900=EC=9B=90 <span style=3D"line=
+-height: 1.6; font-weight: normal; font-size: 11px;">(=EC=9B=94 17,900=EC=
+=9B=90)</span>
+                                      </span>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; text-ali=
+gn: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EB=
+=B6=80=EA=B0=80=EC=84=B8(10%)</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; text-align: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #323438; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">1,7=
+90=EC=9B=90</span>
+                                    </td>
+                                  </tr>
+                                  <tr style=3D"height: 72px;">
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; border-b=
+ottom: 1px solid #e5e6e9; text-align: center;background: #f8f9fa;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color: #57595b; font-size: 16px;font-weight: normal;font-str=
+etch: normal;font-style: normal;line-height: 1;letter-spacing: normal;">=EC=
+=B4=9D =EA=B2=B0=EC=A0=9C=EA=B8=88=EC=95=A1</span>
+                                    </td>
+                                    <td style=3D"margin: 0; padding:15px 18=
+px; border-top: 1px solid #e5e6e9; border-bottom: 1px solid #e5e6e9; text-a=
+lign: center;">
+                                      <span style=3D"font-family:'Apple SD =
+Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; ma=
+rgin: 0 0 1px; color:#00c362; font-size: 20px; font-weight: bold; line-heig=
+ht: 0.8; font-stretch: normal;font-style: normal; letter-spacing: normal;">=
+19,690=EC=9B=90</span>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                            <div style=3D"width: 183px; padding: 60px 0 0; =
+margin: 0 auto; font-size: 0;">
+                              <!-- =EC=82=AC=EC=9A=A9=EC=A4=91=EC=9D=B8 =EC=
+=9D=B4=EC=9A=A9=EA=B6=8C =ED=99=95=EC=9D=B8=ED=95=98=EA=B8=B0 =EC=95=84=EC=
+=9B=83=EB=A7=81=ED=81=AC -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3SuP9EY8U4-2F76t9AOvKO4YSabq9HKvzediKiD=
+rIUsXb-2BfM1KDPn2JP-2BnFLPnR1ChDilgTQtQq-2F-2B2-2F-2FkCfZ9KV75a-2Bj81Q6Jfrh=
+MWd-2BNnUtP50Spm_X1I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2B=
+cD-2BiTh4m7-2Bx35ZfK7cLBLNr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYVi=
+B-2Ff656Gd957-2Fwq-2F16DyZXc5JKy-2FAH3-2BXcyRJ2-2FWM7BFUdOa0g969L0F0bQzMI6-=
+2BP9vqujY-2B3dMRMcul6AKlGo42TS7n1rei7qPNkyi8tXoFrRxwkKGNjm4tByPHwdzeIk241Pc=
+bYYI4tokzpaies-2BR4ezrzA-2BQzO7qErLRiYasQtRcxm9mNp6uiB5nynJa2X0EFdbTF2bYhdT=
+GuzD2IMd6zLBRl-2BiZAv7acug-3D-3D" target=3D"_blank" style=3D"margin:0; bord=
+er:0; text-decoration:none; vertical-align: top; text-decoration: none;">
+                                <div style=3D"margin:0; padding:24px 24px 2=
+0px; border-radius:6px; border:0; text-decoration:none; background: #00c362=
+; box-shadow: 0 4px 6px 0 rgba(0, 195, 98, 0.3); text-align: center; font-s=
+ize: 20px; font-weight: bold; line-height: 20px; color: #fff; font-family:'=
+Apple SD Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'D=
+otum', 'sans-serif'; -webkit-font-smoothing:antialiased; word-break: keep-a=
+ll;">
+                                  =EB=A9=A4=EB=B2=84=EC=8B=AD =ED=99=95=EC=
+=9D=B8=ED=95=98=EA=B8=B0
+                                </div>
+                              </a>
+                            </div>
+                          </td>
+                        </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style=3D"margin: 0; padding:0 0 24px; border: 0; wi=
+dth: 100%; text-align: left;">
+                      <div style=3D"margin: 0; padding:0; border: 0; width:=
+ 100%; height: 1px; background: #e5e6e9;"></div>
+                      <div style=3D"margin: 0; padding:24px 0 0; border: 0;=
+ width: 100%; font-size: 11px; line-height: 24px;  font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'san=
+s-serif'; color: #85878c; webkit-font-smoothing:antialiased;">=EB=B3=B8 =EB=
+=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9E=85=EB=
+=8B=88=EB=8B=A4. =EA=B4=80=EB=A0=A8 =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=EC=
+=9D=80 customer_service@jobplanet.co.kr=EC=9C=BC=EB=A1=9C =EB=B3=B4=EB=82=
+=B4=EC=A3=BC=EC=84=B8=EC=9A=94.<br>Copyright =C2=A9JOBPLANET. All rights re=
+served.</div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style=3D"background-color: #f9f9fb; margin: 0; padd=
+ing: 24px 0 24px; border: 0; vertical-align: top;">
+                      <!--=ED=95=98=EB=8B=A8 =EB=A7=81=ED=81=AC-->
+                      <div style=3D"width: 100%; margin: 0; padding: 0; bor=
+der: 0;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 296px; height: 22px; padding: 0; margin: 0 auto; bor=
+der: 0;">
+                          <tbody>
+<tr style=3D"margin: 0; padding: 0; border: 0;">
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- instagram -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3TYoN-2BvJG-2FnkDeQqC-2BNquP4-3D3HBL_X1=
+I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35Zf=
+K7cLBLNr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-=
+2F3fsOdaWIqRll85q0-2FsTm-2F66Frawh2LHXT00j-2Fb1auM5Vl9IDzEdvsyu28HI7ebXtYjv=
+fXh5MSHklrRxXzPX4tPA2Kym5RVj-2FrNvnwiOCet7UMarmAL532Gj-2FnPLUF0AS7Pv-2BZyfh=
+27hT3A-2BQ65EWwv-2Bj-2FeFt-2BbfaO8wZp2gULgtPXAoniixZS46mWWr9Q1VEs7SylCQF-2F=
+x-2FKfW7O9-2Blbyg-3D-3D" target=3D"_blank" style=3D"margin: 0; vertical-ali=
+gn: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6344/icon_ig.png" alt=3D"instagram" sty=
+le=3D"width: 22px; height: 22px; vertical-align: top;">
+                              </a>
+                            </td>
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- brunch -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3SlV5Sstz4w5YGSi-2Bz2QapI-3Dajvm_X1I3n-=
+2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cL=
+BLNr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2Fps=
+dfm2WC4Zx2TL0F-2FK2aVM2-2BLqnqWBL2n-2F5OaE-2FFxhyrBXxQLvn3vK8reUkYFXqzTkLSH=
+6J6o7EsMMRuykCnJxhcrUysYnOB0vo2PIKV0UlPCmA9en5tl6c340y2SdQotDpjTotGjSL7HEaI=
+4GOJIKdbQ3X7WloKLPx5x5KYNIKadK-2FQkRcE1dzf5pQ-2BGlIfvmqK0dUmP6CmNMSx-2FwaRK=
+Q-3D-3D" target=3D"_blank" style=3D"margin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6345/icon_brunch.png" alt=3D"brunch" st=
+yle=3D"width: 22px; height: 22px; vertical-align: top;">
+                              </a>
+                            </td>
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- facebook -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3ceaiHlJLSJOibZ9EVFCG3Y-3D-FcX_X1I3n-2B=
+p8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBL=
+Nr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2Fo-2F=
+OZXX2kTS-2FyensKxOh-2Bb1sVZv5P1-2BNbsfpaaKZ11Ym88ZRYMz5NyfGd8RkEuURqj4x2fa5=
+G3q-2BfeWmUR8QqZXvgSfeXwliOiC2Zl1ml9EQGiXRYLE6M10SXGuoU9mgX4YEdTUOVzmsEv6Mj=
+CQg7GgaliFEywSqYTHc570-2FgKis-2FSMgIgpdz1pz7G0JGXbPszVEcZP7smSCD3Jc2UpxuqQ-=
+3D-3D" target=3D"_blank" style=3D"margin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/facebook.png" alt=3D"facebook" styl=
+e=3D"width: 22px; height: 22px; vertical-align: top;">
+                              </a>
+                            </td>
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- naver -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3SpTudbVgkdnTOCt40rIL5o-3DVQlT_X1I3n-2B=
+p8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBL=
+Nr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2Fs5kW=
+1BpEfzN8ZW3eW3x5UmnvS-2FVyB38A5GFYhJ2TIOAi3Yd-2FbyRfCMvKNGuMpAbBK0kbJlAUb8g=
+coUu-2F3QkiHF0kP33DrVzhx5SDJVmJH0cPwX4kUGo4fMR7tbQX9-2FB4RgD8-2F5pBk-2BSu73=
+yA2-2BR5O5Ed4tmK4UBqXCsEnCsZlwhqZoA8JnEoWCgycUbSw-2FQcQOQ4zw7xGWHVJg1tsyvGx=
+g-3D-3D" target=3D"_blank" style=3D"margin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/naver.png" alt=3D"naver" style=3D"w=
+idth: 22px; height: 22px; vertical-align: top;">
+                              </a>
+                            </td>
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- youtube -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3bjFMRPCdRnEFtIj0eGSX3M-3D1tL6_X1I3n-2B=
+p8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBL=
+Nr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2FRyF6=
+ZWJPX4xOK8QXCkoxngBIfxgSJ29yQglUSqxRkF-2F3cExtQZCEJ48Gxa6Qf0Ua4cxwhS3iHJDc1=
+vUKaZYIjLN94b-2B94JKXr9ELQkIYMq8nU0BLLTbWxjK7sqJmtK6tiXhmuX4OfQgMxu0Gc7Gi2y=
+cJ4NPyTFyp7P4e3zr-2BRq2Hx9zau-2FAZPtMPRDw2Cv3b3nAuwXpgY-2Bw-2Bx4pOngMeIw-3D=
+-3D" target=3D"_blank" style=3D"margin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/youtube.png" alt=3D"youtube" style=
+=3D"width: 22px; height: 22px; vertical-align: top;">
+                              </a>
+                            </td>
+                          </tr>
+                          </tbody>
+</table>
+                      </div>
+                      <div style=3D"width: 100%; margin: 0; padding: 33px 0=
+ 0; border: 0;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 296px; height: 33px; padding: 0; margin: 0 auto; bor=
+der: 0;">
+                          <tbody>
+<tr style=3D"margin: 0; padding: 0; border: 0;">
+                            <td style=3D"width: 130px; height: 33px; margin=
+: 0; padding: 0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- android -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3fAtTx4cFDoYu-2BPclddgseoW47uRLu02SPaPC=
+eRongffSwaKhDQ-2Bx75ZGRJWDuwVvmx-2F8zGoAkZjm77cYxhPk7c-3DulFf_X1I3n-2Bp8rin=
+zplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr9-2=
+Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2FP9jXUW0t3=
+inXaoz0H5dsQrjPDhjJv7QJRLsPzntgSeX57BrjNFwRwGBkzjfGAwEY30PWXec-2Bo9Jo10I14p=
+BiCVkSNO8qAE0-2FNPfUiK853gd9tMIRCPnBZLLs-2FBtUA6cPMoCHMIYNg54ALerdxeqCm35Kk=
+MeggUkOxKY145qx5OQYtcsiBvpVY-2BqPAWIurEyZO6SZz26pXNerTRORGnGwRQ-3D-3D" targ=
+et=3D"_blank" style=3D"margin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6349/btn_android.png" alt=3D"android" s=
+tyle=3D"width: 130px; height: 33px; vertical-align: top;">
+                              </a>
+                            </td>
+                            <td style=3D"width: 36px; height: 33px; margin:=
+ 0; padding: 0; text-align: center; font-size: 0;"></td>
+                            <td style=3D"width: 130px; height: 33px; margin=
+: 0; padding: 0; text-align: center; font-size: 0; vertical-align: top;">
+                              <!-- ios -->
+                              <a href=3D"http://krannouncec.jobplanet.co.kr=
+/ls/click?upn=3DKaLHcDAu8jZ3pczeRVrb3cCTKYxY2PXqUaQVIOMPsF4O5-2F-2BgBO96D-2=
+F4t1gYmO9EbS9Gr2CyensTHeeYU9c-2BagsBp60cDcA2ZnagWglzeivkTIFSzZOs0rY3WCLehPO=
+IRVNeD-2F4AELysaLoBgx4hq7w-3D-3Dx1UM_X1I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A=
+8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr9-2Bc-2FFSqtRXqVEEG-2FOJnJZB=
+ZIthSYw4VXWbJwFbMYViB-2Ff656Gd957-2Fwq-2Fu6jEMr8xCKDvZpzEy2RNNw3tABzHWW1HkB=
+ZurkZ1Sp2DrmOWqTeUI-2BaZktigZljA6x4wEGIc1YRPsX3uLEQ0bopoWZnKBqP-2FL5xoVZh1W=
+axmkh4NBTcC8xzvHLM5YD9WF5lBq-2BqwRcphAHUizCCV25xDW5JjIIU7cUWnNv1GAMjD-2Fihj=
+OrAI6VNiIs2zm4bwPRh8tyM9xxgZSfEvGVnzYw-3D-3D" target=3D"_blank" style=3D"ma=
+rgin: 0; vertical-align: top;">
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6350/btn_ios.png" alt=3D"ios" style=3D"=
+width: 130px; height: 33px; vertical-align: top;">
+                              </a>
+                            </td>
+                          </tr>
+                          </tbody>
+</table>
+                      </div>
+                    </td>
+                  </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td width=3D"12" style=3D"width: 12px; background: #ffffff;">=
+</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>  <img src=3D"http://krannouncec.jobplanet.co.kr/wf/open?upn=3Dcb=
+qRXkMXysg8cGhEiCacW4fU37Jc-2BF-2BsfI-2F8U6BbLp4aYAo9bn-2BOzCe-2Bb9iANtijW3L=
+F515EUt4KXFf-2B-2FE60VxoQ1V8fTvGhdarOwhQ5nB1yL5Z-2FVYy8lfUoNTA20t-2F0iyk7qJ=
+cj6FoVswEgKAAPnthtxBw3CkrqnoBAKPDM0eYvQar7N3TracEPpPApYOZCJMptfvoD-2BIIKxzw=
+uD1pZeKzqRN3bvgaVrnVJa6Px5k9M9IzLEmTymOnsB9sunN4D1vOXN7g0DvMVW7oybmL0cFyRz4=
+E9dahIcr-2Br0zwVVbKTvltoJt9ruRpMWVDmYoF5-2BxK0QC2ttW1bY3JsEmFKYA-3D-3D" alt=
+=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;=
+width:1px !important;border-width:0 !important;margin-top:0 !important;marg=
+in-bottom:0 !important;margin-right:0 !important;margin-left:0 !important;p=
+adding-top:0 !important;padding-bottom:0 !important;padding-right:0 !import=
+ant;padding-left:0 !important;"/></body></html>

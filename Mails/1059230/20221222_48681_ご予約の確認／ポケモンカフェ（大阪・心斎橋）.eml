@@ -1,0 +1,116 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1671678031;
+	cv=none; b=ctjKpIgaX6f9otwv/HDxNEfMXniNSm054QnQKkeCOPmPqPv5KRY8BXT2FXAr
+	 1Ss8wZzA3+/YBW7RZeEbxpZ2aPyrvqz7OS0oEpWiNngtKg9csC3ORjjPP1wI9+v6ltB0cx
+	 RE7y4eyurgKn+f68K6EazUE2fHOBtEtj2nyHUevfpw/8KN+f0u54rDCxakwFbyz0hesoQE
+	 6p0UEb8+fz411Nflkbjn7QHuMdVh/4ZcVdp20vMr1Ag0w/WGGzrpceqdVcJahg1yTpsKl2
+	 8ROo49otAiUxMet8DOJAWn/DBaIUDu5+Td0DM+FBB/a4e09xI/WbCifXC22ueWlGK8JOpq
+	 6A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1671678031; c=relaxed/relaxed;
+	bh=SW12kQ8EbEBIn5ZiuZ7AmavuuuVsDe+tXpg+iMdDaxE=;
+	h=dkim-signature:dkim-signature:date:from:to:message-id:subject; b=ISq1
+	 +B193Iz35+8bvLVox0Ykxp9wW5Plrg0ryNhhsMYQAQCX3RZW6JVXNJAwiGKri/H89S9xye
+	 NpRTa8tKyqpRF+CkXrDzwhNRvQ6cWKNMVCFSi4Bqh1sbOSLMRbWhOoN3FifvqqMTIhzsmu
+	 WKaoMkWEbwXSFVE+e4v3a2OVasEuYZqTtd06YuD1oYKehr/B5UMKUzaOyy4W+RnWRlibvY
+	 ut1vCfj/SLvYpeBrJvLS4vfQrvmoHeIMM4E9Sy96r1Saqx7cQQ/6Px8GkZq8PaoeclPXxX
+	 uzMw0mbUEO8knw+QLfjqd+cc0OA/SOJEdFZ2wulOh1vc0QF2cFeDtQnCqw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com designates 54.240.27.34 as permitted sender) smtp.mailfrom=0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com;
+  dkim=pass header.i=@mail-pokemon-cafe.jp;
+  dkim=pass header.i=@amazonses.com
+Return-Path: <0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com>
+Received-SPF: pass (mx.naver.com: domain of 0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com designates 54.240.27.34 as permitted sender)
+  client-ip=54.240.27.34; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com designates 54.240.27.34 as permitted sender) smtp.mailfrom=0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com;
+  dkim=pass header.i=@mail-pokemon-cafe.jp;
+  dkim=pass header.i=@amazonses.com
+X-Naver-ESV: wZFn+6J4p63qMBIYKXwdbXmmKqgmKqJYkXm=
+X-Session-IP: 54.240.27.34
+Received: from a27-34.smtp-out.us-west-2.amazonses.com (a27-34.smtp-out.us-west-2.amazonses.com [54.240.27.34])
+  by crcvmail104.nm.naver.com with ESMTP id bSBTMupySA6lgFZOurx5QA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA256);
+  Thu, 22 Dec 2022 03:00:31 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=6si5j73sfuyzo6enlbqmewrod75vhklx; d=mail-pokemon-cafe.jp;
+	t=1671678029;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding;
+	bh=SW12kQ8EbEBIn5ZiuZ7AmavuuuVsDe+tXpg+iMdDaxE=;
+	b=DrD6CUeIOz/+ZxOoJ3N/LFwHyIahYd5FIgJnpQyD0iyMGEdIOfdvoPB/6lMHVVCv
+	QCkD2ou4pTpqGnGiOuvHb+60eQ/daNoO1nLan4jS+AzXbkbbGQmxE8lNTMuJ47vuAD/
+	PcbIJkgKq2nT1FlbUZz3swVSM0iCPQ1UsJUiCB68=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=gdwg2y3kokkkj5a55z2ilkup5wp5hhxx; d=amazonses.com; t=1671678029;
+	h=Date:From:To:Message-ID:Subject:Mime-Version:Content-Type:Content-Transfer-Encoding:Feedback-ID;
+	bh=SW12kQ8EbEBIn5ZiuZ7AmavuuuVsDe+tXpg+iMdDaxE=;
+	b=hrscArlKgbIsEwoo17scxWyulXo3Wz3Xdoz2ZlTQordkSZ83NQoh9uCsfWHx2oih
+	Wj/8t0kUmJuqbo2pxmllfKkAh9nT8g5jtFLJARqGSoqdSFy/cPsBsT5UvtEIGcIwZlZ
+	dKXZdiG8dEFcPlt6uWli+V3x8BWZTrXQPhFJGYus=
+Date: Thu, 22 Dec 2022 03:00:29 +0000
+From: =?UTF-8?B?44Od44Kx44Oi44Oz44Kr44OV44Kn5LqI57SE44K144O844OT44K5?= <info@mail-pokemon-cafe.jp>
+To: 1059230@naver.com
+Message-ID: <0101018537c66ef7-ef472819-eaab-4869-ae74-f37c241cb4d4-000000@us-west-2.amazonses.com>
+Subject: =?UTF-8?Q?=E3=81=94=E4=BA=88=E7=B4=84=E3=81=AE=E7=A2=BA=E8=AA=8D=EF=BC=8F=E3=83=9D=E3=82=B1=E3=83=A2=E3=83=B3=E3=82=AB=E3=83=95=E3=82=A7=EF=BC=88=E5=A4=A7=E9=98=AA=E3=83=BB=E5=BF=83=E6=96=8E=E6=A9=8B=EF=BC=89?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: base64
+Feedback-ID: 1.us-west-2.vNMSEZUfDAtZ+/uWt7uN/bRNxwg1zYb9kBYtkrv/RIE=:AmazonSES
+X-SES-Outgoing: 2022.12.22-54.240.27.34
+
+44Od44Kx44Oi44Oz44Kr44OV44Kn77yI5aSn6Ziq44O75b+D5paO5qmL77yJ
+44Gu44GU5LqI57SE44GC44KK44GM44Go44GG44GU44GW44GE44G+44GZ44CC
+CuOBlOS6iOe0hOOBruOAkDLml6XliY3jgJHjgajjgarjgorjgb7jgZfjgZ/j
+ga7jgafjgIHjgYLjgonjgZ/jgoHjgabjgYrnn6XjgonjgZvnlLPjgZfkuIrj
+gZLjgb7jgZnjgIIK77yd77yd77yd77yd77yd77yd44GU5LqI57SE5YaF5a65
+77yd77yd77yd77yd77yd77yd77ydCuOBlOS6iOe0hOeVquWPt++8mnBHT2Fu
+NHBSazhRN0tRd0wK44GU5LqI57SE5pel5pmC77yaMjAyMi8xMi8yNCjlnJ8p
+MTQ6MjAgfiAxNTo1MArjgZTkuojntITkurrmlbDvvJox5ZCN5qeYCu+8ne+8
+ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8ne+8
+ne+8nQrilqDms6jmhI/kuovpoIUK4oC7IOOBlOmAo+e1oeOBquOBj+OBlOS6
+iOe0hOaZgumWk+OBi+OCiTE15YiG57WM44Gh44G+44GZ44Go44CB6Ieq5YuV
+44Kt44Oj44Oz44K744Or44Go44Gq44KK44G+44GZ44Gu44Gn44CB44GU5rOo
+5oSP44GP44Gg44GV44GE44CCCuKAuyDjgZTkuojntITjga4xMOWIhuWJjeOB
+vuOBp+OBq+OAgeOBiuW6l+OBruWJjeOBq+OBiui2iuOBl+OBj+OBoOOBleOB
+hOOAggrigLsg5LqI57SE6ZmQ5a6a44Kw44OD44K644KS6LO85YWl44GV44KM
+44Gf5aC05ZCI44Gv44CB5b2T5pel44Gr5bqX6IiX44Gn44GK5Y+X44GR5Y+W
+44KK44GP44Gg44GV44GE44CCCuKAuyDjgZTkuojntITjga7pmpvjgavjgYTj
+gZ/jgaDjgYTjgZ/mg4XloLHjgavkuI3lgpnjgYzjgYLjgovloLTlkIjjga/j
+gIHjgZTkuojntITjgpLjgq3jg6Pjg7Pjgrvjg6vmibHjgYTjgajjgZXjgZvj
+gabjgYTjgZ/jgaDjgY/loLTlkIjjgYzjgZTjgZbjgYTjgb7jgZnjgIIK4oC7
+IOOBiuW4reOBrzkw5YiG5Yi244Gn44GZ44CC44Op44K544OI44Kq44O844OA
+44O844Gv44CB5LqI57SE57WC5LqG5pmC6ZaT44GuMzDliIbliY3jgajjgarj
+gorjgb7jgZnjgIIK4oC7IOacgOe1guWbnuOBruOBlOS6iOe0hOOBq+OBpOOB
+jeOBvuOBl+OBpuOBr+OAgeODqeOCueODiOOCquODvOODgOODvOOBjOOAgTIw
+OjUw44Go44Gq44KK44G+44GZ44CCCgotLS0tLS0tLS0tLS0tLS0tLS0tLS0t
+LS0tLS0tLS0tLS0tLS0tLS0tCuKWoOS9j+aJgArlpKfpmKrluILkuK3lpK7l
+jLrlv4Pmlo7mqYvnrYsxLTctMeOAgOWkp+S4uOW/g+aWjuapi+W6lyDmnKzp
+pKg56ZqOCuKWoOOCouOCr+OCu+OCuQpodHRwczovL3d3dy5wb2tlbW9uY2Vu
+dGVyLW9ubGluZS5jb20vY2FmZS8/aWQ9YWNjZXNzCuKWoOmbu+ipseeVquWP
+twowNi00MjU2LTExNjAK4pag5ZWP44GE5ZCI44KP44Gb5YWICnBva2Vtb24t
+Y2FmZS1vc2FrYS1jc0BzbGQtaW5jLmNvbQoKPT09PT09PT09PT09PT09PT09
+PT09PT09PQrilqDjgZTkuojntITlhoXlrrnjga7norroqo0v44Kt44Oj44Oz
+44K744Or44Gv44CB5LiL6KiY44Gu44Oa44O844K444KI44KK6KGM44GG44GT
+44Go44GM44Gn44GN44G+44GZ44CCCmh0dHBzOi8vb3Nha2EucG9rZW1vbi1j
+YWZlLmpwL3Jlc2VydmF0aW9ucy9wR09hbjRwUms4UTdLUXdMCuKAuyDjgZTk
+uojntITlvozjga7kurrmlbDlpInmm7Tjga/mib/jgaPjgabjgYrjgorjgb7j
+gZvjgpPjgILjgYLjgonjgYvjgZjjgoHjgZTkuobmib/jgY/jgaDjgZXjgYTj
+gIIK4oC7IOOBlOS6iOe0hOOCreODo+ODs+OCu+ODq+OBr+OAgeWJjeaXpTIy
+5pmC44G+44GnV2Vi44K144Kk44OI44Gn6KGM44GG44GT44Go44GM5Y+v6IO9
+44Gn44GZ44CCCuKAuyDlvZPml6Xjga7jgZTkuojntITjgq3jg6Pjg7Pjgrvj
+g6vjga7loLTlkIjjga/jgIHlupfoiJfjgb7jgafjgYrpm7voqbHjgY/jgaDj
+gZXjgYTjgIIK4oC7IOS6iOe0hOmZkOWumuOCsOODg+OCuuOCkuizvOWFpeOB
+leOCjOOBn+OBlOS6iOe0hOOCkuOCreODo+ODs+OCu+ODq+OBleOCjOOBn+Wg
+tOWQiOOBr+OAgeS6iOe0hOmZkOWumuOCsOODg+OCuuOCguOCreODo+ODs+OC
+u+ODq+OBqOOBquOCiuOBvuOBmeOAguOBiuiyt+OBhOS4iuOBkumHkemhjeWI
+huOBr+W+jOaXpei/lOmHkeOBqOOBquOCiuOBvuOBmeOBruOBp+OAgeOBguOC
+ieOBi+OBmOOCgeOBlOS6huaJv+OBj+OBoOOBleOBhOOAggo9PT09PT09PT09
+PT09PT09PT09PT09PT09CuOBk+OBruOBn+OBs+OBr+OAgeOBlOWIqeeUqOOB
+hOOBn+OBoOOBjeOBguOCiuOBjOOBqOOBhuOBlOOBluOBhOOBvuOBmeOAggrl
+vZPml6Xjga7jgZTmnaXlupfjgpLjgIHlv4PjgojjgorjgYrlvoXjgaHjgZfj
+gabjgYrjgorjgb7jgZnjgIIK4oC744GT44Gu44Oh44O844Or44Gv44CB44K3
+44K544OG44Og44Gr44KI44Gj44Gm6Ieq5YuV55qE44Gr6YCB5L+h44GV44KM
+44Gm44GE44G+44GZ4oC7CuKAu+OBlOi/lOS/oeOBhOOBn+OBoOOBhOOBpuOC
+guOBiuetlOOBiOOBp+OBjeOBvuOBm+OCk+OBruOBp+OAgeOBlOS6huaJv+OB
+j+OBoOOBleOBhOKAuw==

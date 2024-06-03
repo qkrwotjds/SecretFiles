@@ -1,0 +1,73 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1690269779;
+	cv=none; b=Uuxm5BBH2QYEEgksodKvblVryH2UmsddZG+6fskuh7Nq12qa/3Rn5tAgSti3
+	 CNGToPZbaa1JJRGoImSjW4xrzbA+qZn0G2hEhUcNoA+MwyLoJAmGtEcI1JS6w7ym68mOQH
+	 PBvBRtWKIOMZ734F1jMWuzqmA1tQ3At6cyUiQU7br6Y/7NaT55rNPZLMvPN6HvDI3+rCMg
+	 Bc0WMcqfrXBpF3/S3JawWrIdBl8IZGLmTpRyVDYas/fRamHA8uAtB6Ary7D65Hjbcyq8FC
+	 KsBCNkJ/MQyRNWy0pgO9ytHA/T7QmtVQjiQZ/PyG+7xh4xNlnLxceCm7w6ydf8m7/WhfGq
+	 8A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1690269779; c=relaxed/relaxed;
+	bh=s/6vOymQzNi/CiU9jzrgK5KTRas8a54LN2k3lWxmN1E=;
+	h=from:to:subject:date; b=dtjw+9VibtvcMOaBB2JYdgy+8lokt1YNeVN0X3iQOFPIH
+	 nUEaPzNvrHA+LRSdEeZJ6J9oEbsFWvC4MK8ZPZ3HHd/8Ue34A+vNfoQapRLyeWMFFTlNi5
+	 k586+WHpaGDVKl0ObBtpvig9T45q24lDW86+1+gCv7N2v79WHnTRjea1O05uY1UWAGEUfC
+	 WYu7l15pTdA/iFHUKF0ymvDd8pwYVAlPPwKYhM/4UqwDddjKLkPZMED4L9zFlBWp5OTkA6
+	 Ap2nyJhQH16r1upOY1c2LQ/cXdybwydZV8sJdxYjvo69xcjIx0Q6rTMazpaJD3TOkVdC8y
+	 9jW5c7w6DJx5Nr8wA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=softfail (mx.naver.com: domain of transitioning smartwin@smartwinsolution.com does not designate 14.38.231.140 as permitted sender) smtp.mailfrom=smartwin@smartwinsolution.com
+Return-Path: <smartwin@smartwinsolution.com>
+X-Suspicious-Sender: yes
+X-WM-Dns-Ptr: none
+Received-SPF: softfail (mx.naver.com: domain of transitioning smartwin@smartwinsolution.com does not designate 14.38.231.140 as permitted sender)
+  client-ip=14.38.231.140; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=softfail (mx.naver.com: domain of transitioning smartwin@smartwinsolution.com does not designate 14.38.231.140 as permitted sender) smtp.mailfrom=smartwin@smartwinsolution.com
+X-Naver-ESV: wPen+6J4p63TbXmr7BwdpN34M60njAgXKoU9aBwBjg==
+X-Session-IP: 14.38.231.140
+Message-ID: <1690269779434.7f6a1.36864771@crcvmail305.nm>
+Received: from smartwinsolution.com ([14.38.231.140])
+  by crcvmail305.nm.naver.com with ESMTP id X8AZQzHeR8SNLg7PPV9LoQ
+  for <1059230@naver.com>;
+  Tue, 25 Jul 2023 07:22:59 -0000
+From: Smartwin<smartwin@smartwinsolution.com>
+To: 1059230@naver.com
+Subject: (광고) 하루 1잔 커피값으로 제품을 상단으로 올려드립니다. 
+Reply-To: smartwin@smartwinsolution.com
+Date: Tue, 25 Jul 2023 16:22:59 +0900
+Mime-Version: 1.0
+Content-Type:text/html; charset=ks_c_5601-1987
+
+<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="2"><a href="https://smartwin.clickn.co.kr/" target="_blank"><img src="http://www.smartwinsolution.com/0720커피.png" width="1080"height="1080"/></td>
+  </tr>
+
+</table>
+<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="2"><img src="http://www.2nt.co.kr/mail/middle_down.png" width="768" height="15" /></td>
+  </tr>
+</table>
+<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+<tr> 
+<td colspan="2"><a href="http://www.스마트윈.info" target="_blank"><img src="http://www.smartwinsolution.com/mail/footer.jpg" width="860" height="245"></a></td>
+</tr>
+</table> 
+<img src="http://adnamepr.com/Interface/backproxy.aspx?MT=InsertReceiptMail&PV=smatwin_23051501|`|1059230@naver.com" width="0" height="0" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

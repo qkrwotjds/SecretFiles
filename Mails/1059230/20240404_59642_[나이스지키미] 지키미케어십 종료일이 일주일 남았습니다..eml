@@ -1,0 +1,223 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1712204151;
+	cv=none; b=hPSTE1mEb9yMV1x63FMkti4owHU2heL8tGp2keKT2ovDYd3zgRRCg4DTvh/O
+	 1EZG5QrupPv0uRe6ThTu4NGkjXit5+P3DWbwtk4+hCe5BzhnLm0bOV5SiehleaEKsdHjA0
+	 eTtN3x+fz8drPCWRJ/bLchAt47+lPf2xosrxVGQAHRKWsdlvKyp7EuJlDKZ4MV7ZsnVVHE
+	 JCKK3Lqr/bvLP5sdYUBNOfQcA64qGP2BK1B3mC88vwNYtuYY5a4Yq5JFEOeJQlhrecxmzJ
+	 YdG4UjruA66KhXXku0cDW4ABGahRYgGZRxIzGxhRP8Kfy716Sfff8Qmo2OFrFU517R+KIw
+	 UQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1712204151; c=relaxed/relaxed;
+	bh=LmLyGBX32HcPHRPqgsJmO61C0TAmfopFV4zjKnqtwz4=;
+	h=from:to:subject:date:message-id; b=k8ISZdPit5p3agH6qzZe4YlIS+LasTRpaO
+	 niUZ8ij+3s+gcT81IIjycXRMfAZn2Ohqe+tcCq+NdaLJ7XgLmYvC4TOnHidMqytnK7AuTo
+	 kRFQtBYoFd8+1rlsVB3cCF+oa53ur3d8d7vrtemUrBVALV/9jI/weSh77Iqy26ml6V1Uct
+	 cuK9piwm+MAmT7mtM21pWGmenGL+XMhmzA6O/4H69ObIgtFyAJULzm5t3PkNOgd6b3Icex
+	 8NDDPBChOpQ/yH/weT6vTp+fgwZFvN4EMvEEZ1CYXSOsq7WP5KN15RTqORIiBy8+DU7B2R
+	 djW/l/veh95VTeTHwVzHiboipuTg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.37 as permitted sender) smtp.mailfrom=sendmail@credit.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=credit.co.kr
+Return-Path: <sendmail@credit.co.kr>
+Received-SPF: pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.37 as permitted sender)
+  client-ip=211.218.41.37; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of sendmail@credit.co.kr designates 211.218.41.37 as permitted sender) smtp.mailfrom=sendmail@credit.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=credit.co.kr
+X-Naver-ESV: wmRn+6J4p63CbHmdKBwdbXFYKAtwFxEmjJ+Y
+X-Session-IP: 211.218.41.37
+Received: from [credit.co.kr] (credit.co.kr [211.218.41.37])
+  by crcvmail105.nm.naver.com with ESMTP id +ciSkPE8TfeTMa3a+r5fhQ
+  for <1059230@naver.com>;
+  Thu, 04 Apr 2024 04:15:50 -0000
+From: "=?UTF-8?B?TklDRe2PieqwgOygleuztA==?=" <sendmail@credit.co.kr>
+To: "=?UTF-8?B?67CVKuyEsQ==?=" <1059230@naver.com>
+Reply-to: <sendmail@credit.co.kr>
+Subject: =?UTF-8?B?W+uCmOydtOyKpOyngO2CpOuvuF0g7KeA7YKk66+47LyA7Ja07IutIOyiheujjOydvOydtCDsnbzso7zsnbwg64Ko7JWY7Iq164uI64ukLg==?=
+Date: Thu, 04 Apr 2024 13:15:50 +0900
+X-WORKER_ID: <single.naver.com_Worker_17>
+X-MAIL_ID: <UE9TVF9JRD0yMDI0MDQwNF8yNjA=>
+X-MEMBER_ID: <TV9JRD0xMDAwMDAwMDAwMDA2MjE2NDU4MDY1XzE1MzM2OTk0>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver5.0( PLUTO-build 0411 )
+MIME-Version: 1.0
+Message-ID: <1712204150903_sendmail@credit.co.kr>
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"ko">
+
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.0">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+<title>NICE=EC=A7=80=ED=82=A4=EB=AF=B8</title>
+</head>
+
+<body style=3D"margin:0;">
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+style=3D"width:100%; max-width:800px; padding:0; text-align:left; background-color:#fff; margin:0 auto; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', malgun, dotum,'=EB=8F=8B=EC=9B=80'; color:#454545; letter-spacing:-1px !important; word-break:keep-all; line-height:1.3 !important;">
+<!-- top logo -->
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%;">
+<tr>
+<td style=3D"padding:4.63% 7.5%; background-color:#0669fa;">
+<h1 style=3D"margin:0; font-size:0;"><a href=3D"http://ems.credit.co.kr:80/Check.html?TV9JRD0xMDAwMDAwMDAwMDA2MjE2NDU4MDY1XzE1MzM2OTk0&U1RZUEU9QVVUTw=3D=3D&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=3D&UE9TVF9JRD0yMDI0MDQwNF8yNjA=3D&VEM9MjAyNDA0MTE=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttps://www.credit.co.kr" target=3D"_blank"><img
+src=3D"https://img.credit.co.kr/resource/img/zkm/rzm/em/email_logo1.png" alt=3D"NICE=EC=A7=80=ED=82=A4=EB=AF=B8" border=3D"0"
+style=3D"width:23.68%; height:auto; vertical-align:top;"></a></h1>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- // top logo -->
+<!-- container -->
+<tr>
+<td style=3D"padding:0 7.5%;">
+<h2 style=3D"font-size:36px; margin:43px 0 0; line-height:46px;">
+<strong style=3D"color:#0669fa; font-weight:bold;">=EB=B0=95*=EC=84=B1</strong>=ED=9A=8C=EC=9B=90=EB=8B=98, <strong
+style=3D"color:#0669fa; font-weight:bold;">=EC=A7=80=ED=82=A4=EB=AF=B8=EC=BC=80=EC=96=B4=EC=8B=AD</strong> =EC=84=9C=EB=B9=84=EC=8A=A4=EA=B0=80 <strong
+style=3D"color:#0669fa; font-weight:bold;">=EC=A2=85=EB=A3=8C</strong>=EB=90=A0 =EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=A4.
+</h2>
+<p style=3D"margin:39px 0 0; font-size:16px; line-height:26px; color:#0669fa;">=ED=98=B9=EC=8B=9C =EA=B9=9C=EB=B9=A1 =EC=9E=8A=EA=B3=A0 =EA=B3=84=EC=85=A8=EB=82=98=EC=9A=94? =ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98=EC=84=9C =ED=98=84=EC=9E=AC
+=EC=9D=B4=EC=9A=A9=ED=95=98=EC=8B=9C=EB=8A=94 =EC=A7=80=ED=82=A4=EB=AF=B8=EC=BC=80=EC=96=B4=EC=8B=AD=EC=9D=B4 =EA=B3=A7 =EC=A2=85=EB=A3=8C=EB=90=A0 =EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=A4.</p>
+<p style=3D"margin:15px 0 0; font-size:16px; line-height:26px;">=EC=A2=85=EB=A3=8C =EC=A0=84=EC=97=90 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=97=B0=EC=9E=A5=EC=9D=84 =EC=8B=A0=EC=B2=AD=ED=95=98=EC=8B=9C=EA=B3=A0 =EB=82=98=EC=9D=B4=EC=8A=A4=EC=A7=80=ED=82=A4=EB=AF=B8=EA=B0=80 =EB=93=9C=EB=A6=AC=EB=8A=94 =ED=98=9C=ED=83=9D=EC=9D=84 =EB=86=93=EC=B9=98=EC=A7=80
+=EB=A7=88=EC=84=B8=EC=9A=94!</p>
+<h3 style=3D"font-size:24px; margin:68px 0 0; font-weight:bold; line-height:36px;">=ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98=EC=84=9C =EC=9D=B4=EC=9A=A9 =EC=A4=91=EC=9D=B8 =EC=83=81=ED=92=88</h3>
+<div
+style=3D"margin-top:25px; padding:3.38% 4.41% 3.82%; background-color:#f9f9f9; border:1px solid #eee; border-radius:18px; text-align: center;">
+<div style=3D"color:#222; font-size:18px; font-weight:bold; line-height:30px; text-align: center;"><strong
+style=3D"color:#0669fa; font-weight:bold;">=EC=A7=80=ED=82=A4=EB=AF=B8=EC=BC=80=EC=96=B4=EC=8B=AD</strong>=EC=9D=98 =EC=9D=B4=EC=9A=A9=EA=B8=B0=EA=B0=84=EC=9D=B4 =EA=B3=A7 =EC=A2=85=EB=A3=8C=EB=90=A0 =EC=98=88=EC=A0=95=EC=9E=85=EB=8B=88=EB=8B=A4.</div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+style=3D"width:100%; margin:3.38% 0 0; padding-top:5px; border-top:1px solid #eee;">
+<tbody>
+<tr>
+<th style=3D"width:50%; padding-top:3.38%; color:#444; font-size:16px; font-weight:bold; text-align: center; word-break:break-all;">=EC=84=9C=EB=B9=84=EC=8A=A4=EB=AA=85</th>
+<th style=3D"width:50%; padding-top:3.38%; color:#444; font-size:16px; font-weight:bold; text-align: center; word-break:break-all;">=EA=B8=B0=EA=B0=84</th>
+</tr>
+<tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EC=8B=A0=EC=9A=A9=EA=B4=80=EB=A6=AC</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EA=B8=88=EC=9C=B5=EC=82=AC=EA=B8=B0=EB=B0=A9=EC=A7=80</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EB=AA=85=EC=9D=98=EB=B3=B4=ED=98=B8</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=
+=EC=A3=BC=EC=B0=A8=EC=95=88=EC=8B=AC</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EA=B0=80=EC=A1=B1=EC=8B=A0=EC=9A=A9=EA=B4=80=EB=A6=AC</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EA=B0=80=EC=A1=B1=EB=AA=85=EC=9D=98=EB=B3=B4=ED=98=B8</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=ED=95=9C=EA=B8=80 =EC=8B=A0=EC=9A=A9=EB=B3=B4=EA=B3=A0=EC=84=9C</td><td style=3D"width:50%; paddin=
+g-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EC=9D=B8=ED=84=B0=EB=84=B7=ED=99=9C=EB=8F=99=EB=B6=84=EC=84=9D</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr><tr><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">=EC=82=AC=EC=97=85=EC=9E=90 =EC=8B=A0=EC=9A=A9=EB=B3=B4=EA=B3=A0=EC=84=9C</td><td style=3D"width:50%; padding-top:3.38%; color:#222; font-size:16px; font-weight:normal; text-align: center;">23.04.11~24.04.11</td></tr>
+</tbody>
+</table>
+</div>
+
+<div style=3D"text-align:center;">
+<a href=3D"http://ems.credit.co.kr:80/Check.html?TV9JRD0xMDAwMDAwMDAwMDA2MjE2NDU4MDY1XzE1MzM2OTk0&U1RZUEU9QVVUTw=3D=3D&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=3D&UE9TVF9JRD0yMDI0MDQwNF8yNjA=3D&VEM9MjAyNDA0MTE=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttps://www.credit.co.kr/ib20/mnu/BZWSETMFM10?uaCheck=3DY" target=3D"_blank"
+style=3D"display:inline-block; margin-top:30px; padding:18px 29px 16px; color:#222; font-size:16px; font-weight:bold; text-decoration:none; border:1px solid #444; border-radius:9px;">=EC=84=9C=EB=B9=84=EC=8A=A4
+=EC=97=B0=EC=9E=A5 =EC=8B=A0=EC=B2=AD</a>
+</div>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"margin-top:41px;">
+<tbody>
+<tr>
+<td style=3D"width:15px; padding-top:6px; vertical-align:top;"><span
+style=3D"display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#444; border-radius:50%; vertical-align:middle;"></span>
+</td>
+<td style=3D"color:#222; font-size:14px; line-height:28px;">[=EC=84=9C=EB=B9=84=EC=8A=A4 =EC=97=B0=EC=9E=A5 =EC=8B=A0=EC=B2=AD]=EC=9D=84 =EB=88=8C=EB=9F=AC =EC=84=9C=EB=B9=84=EC=8A=A4 =EA=B8=B0=EA=B0=84=EC=9D=84 =EC=97=B0=EC=9E=A5=ED=95=B4 =EB=B3=B4=EC=84=B8=EC=9A=94.
+</td>
+</tr>
+<tr>
+<td style=3D"width:15px; padding-top:6px; vertical-align:top;"><span
+style=3D"display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#444; border-radius:50%; vertical-align:middle;"></span>
+</td>
+<td style=3D"color:#222; font-size:14px; line-height:28px;">=EC=9E=90=EC=84=B8=ED=95=9C =EC=82=AC=ED=95=AD=EC=9D=80 <span
+style=3D"color:#0669fa;">=EA=B4=80=EB=A6=AC/=EC=84=A4=EC=A0=95 &gt; <a
+href=3D"https://www.credit.co.kr/ib20/mnu/BZWSETMPL10?uaCheck=3DY" target=3D"_blank"
+style=3D"color:#0669fa;">=EA=B2=B0=EC=A0=9C/=EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EB=82=B4=EC=97=AD</a></span> =EB=A9=94=EB=89=B4=EC=97=90=EC=84=9C=EB=8F=84 =ED=99=95=EC=9D=B8 =EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%;padding:0;margin:0 auto;margin-top:80px;font-size:0;table-layout:fixed;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95', '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95' , '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', malgun, dotum,'=EB=8F=8B=EC=9B=80'; color:#454545;letter-spacing:-0.5px;word-break:keep-all;background:#0066ff;text-align:left;font-weight:400;">
+<tbody>
+<tr>
+<td>
+<img src=3D"https://img.credit.co.kr/resource/img/zkm/rzm/em/img_e9000066.png" alt=3D"NICE=EC=A7=80=ED=82=A4=EB=AF=B8" border=3D"0" style=3D"width:100%;">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<tr>
+<td>
+<div
+style=3D"margin-top:47px; padding:4% 7.5%; color:#767676; font-size:12px; border-top:1px solid #bababa;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+<tr>
+<td style=3D"width:12px; padding-top:6px; vertical-align:top;"><span
+style=3D"display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span>
+</td>
+<td style=3D"padding:2px 0 2px; line-height:22px;">2024=EB=85=84 04=EC=9B=94 04=EC=9D=BC =EB=B0=9C=EC=86=A1
+=EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.</td>
+</tr>
+<tr>
+<td style=3D"width:12px; padding-top:6px; vertical-align:top;"><span
+style=3D"display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span>
+</td>
+<td style=3D"padding:2px 0 2px; line-height:22px;">=EB=B3=B8 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9 =EC=9D=B4=EB=A9=94=EC=9D=BC=EB=A1=9C =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =ED=8E=B8=EB=A6=AC=ED=95=9C =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=9D=84 =EC=9C=84=ED=95=9C =EC=95=88=EB=82=B4
+=EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.</td>
+</tr>
+<tr>
+<td style=3D"width:12px; padding-top:6px; vertical-align:top;"><span
+style=3D"display:inline-block; width:5px; height:5px; margin-bottom:2px; background-color:#bababa; border-radius:50%;"></span>
+</td>
+<td style=3D"padding:2px 0 2px; line-height:22px;">=EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EB=82=B4=EC=9A=A9=EC=9D=80 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 (1588-2486)=EB=A1=9C =EB=AC=B8=EC=9D=98=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94.</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<!-- // container -->
+<!-- footer -->
+<tr>
+<td style=3D"padding:4.365% 7.5% 6.25%; background-color:#f5f5f5;">
+<div style=3D"color:#767676; font-size:12px; line-height:20px;">
+<span
+style=3D"display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=EC=A3=BC=EC=86=8C</strong>=EC=84=9C=EC=9A=B8 =EC=98=81=EB=93=B1=ED=8F=AC=EA=B5=AC
+=EC=9D=80=ED=96=89=EB=A1=9C 17(=EC=97=AC=EC=9D=98=EB=8F=84=EB=8F=99 14-33)
+</span><span
+style=3D"display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC</strong>=EC=8B=A0=ED=9D=AC=EB=B6=80
+</span><span style=3D"display:inline-block;">
+<strong
+style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8</strong>116-81-15020
+</span>
+</div>
+<div style=3D"margin-top:1px; color:#767676; font-size:12px; line-height:20px;">
+<span
+style=3D"display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=EC=A0=84=ED=99=94</strong>1588-2486
+</span><span
+style=3D"display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong
+style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=ED=8C=A9=EC=8A=A4</strong>(02)2122-8050
+</span><span
+style=3D"display:inline-block; margin-right:10px; padding-right:10px; background:url('https://img.credit.co.kr/resource/img/zkm/rzm/em/footer_line.png') no-repeat right 5px;">
+<strong
+style=3D"display:inline-block; margin-right:10px; font-weight:bold;">=ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0=EB=B2=88=ED=98=B8</strong>=EC=A0=9C2007-05725=ED=98=B8
+</span><span style=3D"display:inline-block;">
+webmaster@credit.co.kr
+</span>
+</div>
+
+<p style=3D"margin:14px 0 0; color:#444; font-size:12px; letter-spacing:-0.5px;">COPYRIGHT NICE
+INFORMATION SERVICE. ALL RIGHTS RESERVED.</p>
+<p style=3D"margin:16px 0 0;"><img src=3D"https://img.credit.co.kr/resource/img/zkm/rzm/em/email_logo2.png" alt=3D"NICE=ED=8F=89=EA=B0=80=EC=A0=95=EB=B3=B4" border=3D"0"
+style=3D"vertical-align:top;"></h1>
+</td>
+</tr>
+<!-- // footer -->
+</table>
+
+<div style=3D"display:none"><IMG width=3D0 height=3D0 src=3D"http://ems.credit.co.kr:80/Check.html?TV9JRD0xMDAwMDAwMDAwMDA2MjE2NDU4MDY1XzE1MzM2OTk0&U1RZUEU9QVVUTw=3D=3D&TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=3D&UE9TVF9JRD0yMDI0MDQwNF8yNjA=3D&VEM9MjAyNDA0MTE=3D&S0lORD1P"></div></body>
+</html>
+
+
+

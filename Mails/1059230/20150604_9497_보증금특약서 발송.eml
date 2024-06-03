@@ -1,0 +1,240 @@
+Received: (qmail 27271 invoked from network); 4 Jun 2015 01:52:31 -0000
+Received: from 10.114.49.220 (HELO crcvmail42-2.nm.naver.com) (10.114.49.220)
+  by cmda01-2.nm.naver.com with SMTP; 4 Jun 2015 01:52:31 -0000
+Received: from mail.shinhan.com ([14.36.212.1])
+  by crcvmail42-2.nm.naver.com with ESMTP id mmpjmoGjSAqq77RDfBXfnA
+  for <1059230@naver.com>;
+  Thu, 04 Jun 2015 10:52:31 +0000 (KST)
+Received: from [127.0.0.1] ([127.0.0.1]) 
+          by mail.shinhan.com ([127.0.0.1]) 
+          with ESMTP id 2015060410:52:31:239117.2782.579103
+          for <1059230@naver.com>; 
+          Thu, 04 Jun 2015 10:52:31 +0900 (KST) 
+X-Priority: 3
+X-TERRACE-SECUREMAIL: company=shinhan; path=
+	5737200146A6176612E73656375726974792E4B6579526570BDF94FB3889AA5430200044C000
+	9616C676F726974686D7400124C6A6176612F6C616E672F537472696E673B5B0007656E636F6
+	465647400025B424C0006666F726D617471007E00014C00047479706574001B4C6A6176612F7
+	3656375726974792F4B657952657024547970653B7870740006444553656465757200025B42A
+	CF317F8060854E0020000787000000018C2F792F73DE5E06B311C4A08CE573D43F14626DCC12
+	5760D7400035241577E7200196A6176612E73656375726974792E4B657952657024547970650
+	0000000000000001200007872000E6A6176612E6C616E672E456E756D0000000000000000120
+	0007870740006534543524554ACED00076E53A9A6E1E4EE644857EC86DE1164FAA3967CEF859
+	264156A3F520CB697BB4CAA5923559B54EC2B06B17529EAB6182F4C6C8703B4889D410F9460B
+	7E253D48A730AAB8C2A177B520EF761620614F07AE502DD594CBC7752B4B2FFFB8B40A5C6E64
+	026CD2DFF9C11819129BF4B68A46E2AA6E5D21EB32C15E7BC3D4245A16F679005FA501400383
+	2F7B81F606FE6BA34BCF6482BE29FE52AE502DD594CBC775FB2B96ADA56E47C89709E2CCF48B
+	7D27AA357E962AEEE795A348F551F7C9B83504CC299FF41A1B56D4EC5CD5E4C98F0A2D178422
+	8C85B6C2564
+X-TERRACE-CONFIRMER: na1010@shinhan.com
+X-TERRACE-CONFIRMMAIL: company=shinhan; confirmerdepart="=?EUC-KR?B?v6nAx7W1wfbBoQ==?="; confirmertitle="=?EUC-KR?B?wvfA5Q==?="; confirmeremail="na1010@shinhan.com"; confirmername="=?EUC-KR?B?x9G5zrDm?="
+Message-ID: <5012762.1433382675064.JavaMail.root@mailwb1p>
+Date: Thu, 4 Jun 2015 10:51:14 +0900 (KST)
+From: =?UTF-8?B?7Iah7Jqw7LKg?= <marblue@shinhan.com>
+Reply-To: =?UTF-8?B?7Iah7Jqw7LKg?= <marblue@shinhan.com>
+To: 1059230@naver.com
+Subject: =?UTF-8?B?67O07Kad6riI7Yq57JW97IScIOuwnOyGoQ==?=
+X-TERRACE-DUMMYSUBJECT: Terrace Mail System                   
+Mime-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_1619637_22233829.1433382773363"
+X-Naver-ESV: +9eYpB3G1H+YbXFCbHmRKAu9KoKwjJ+Y
+
+------=_Part_1619637_22233829.1433382773363
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1619636_2225374.1433382773363"
+
+------=_Part_1619636_2225374.1433382773363
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+dGhpcyBtZXNzYWdlIGlzIHNlY3VyZW1haWwuCnBsZWFzZSBvcGVuIGF0dGFjaGVtZW50IGh0bWwg
+ZmlsZQ==
+------=_Part_1619636_2225374.1433382773363
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+PHRhYmxlIHdpZHRoPSI2ODAiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3BhY2luZz0iMCI+DQoJPHRy
+Pjx0ZD48aW1nIHNyYz0iaHR0cDovL21haWwuc2hpbmhhbi5jb206ODAva28vaW1ncy9iYXJfc2Vj
+X21haWwuZ2lmIiBhbGlnbj0iYWJzbWlkZGxlIj48L3RkPjwvdHI+DQoJPHRyIGhlaWdodD0iMjAi
+Pjx0ZD48IS0tIGJsYW5rIC0tPjwvdGQ+PC90cj4NCgk8dHI+DQoJCTx0ZCBhbGlnbj0iY2VudGVy
+Ij4NCgkJCTx0YWJsZSB3aWR0aD0iNjQ1IiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjAi
+Pg0KCQkJCTx0cj4NCgkJCQkJPHRkIHdpZHRoPSI4MSI+PGltZyBzcmM9Imh0dHA6Ly9tYWlsLnNo
+aW5oYW4uY29tOjgwL2tvL2ltZ3MvaW1nX3NlY3VyaXR5LmdpZiIgYWxpZ249ImFic21pZGRsZSI+
+PC90ZD4NCgkJCQkJPHRkIHdpZHRoPSI1NjQiPg0KCQkJCQkJPHRhYmxlIGNlbGxwYWRkaW5nPSIw
+IiBjZWxsc3BhY2luZz0iMCIgc3R5bGU9Im1hcmdpbjo1IDAgMCAxMDsiPg0KCQkJCQkJCTx0cj48
+dGQ+PGltZyBzcmM9Imh0dHA6Ly9tYWlsLnNoaW5oYW4uY29tOjgwL2tvL2ltZ3MvdGV4dF9zZWN1
+cml0eS5naWYiIGFsaWduPSJhYnNtaWRkbGUiPjwvdGQ+PC90cj4NCgkJCQkJCQk8dHIgaGVpZ2h0
+PSIxMCI+PHRkPjwhLS0gYmxhbmsgLS0+PC90ZD48L3RyPg0KCQkJCQkJCTx0cj4NCgkJCQkJCQkJ
+PCEtLSB0ZCBzdHlsZT0ibGluZS1oZWlnaHQ6MjAwJTsiIC0tPg0KCQkJCQkJCQk8dGQ+DQoJCQkJ
+CQkJCQnrqZTsnbzsnYQg7J296riwIOychO2VtOyEnOuKlCA8Yj48c3BhbiBjbGFzcz0iMTJfZGMi
+PlvssqjrtoDtjIzsnbzsnYQg7YG066atXTwvc3Bhbj7tlZjsl6wg67Cc7Iah7J6Q6rCAIOyeheug
+pe2VnCDruYTrsIDrsojtmLjrpbwg7J6F66ClPC9iPu2VmOyLnOuptDxicj7rqZTsnbzsnYQg7J29
+7J2EIOyImCDsnojsirXri4jri6QuDQoJCQkJCQkJCTwvdGQ+DQoJCQkJCQkJPC90cj4NCg0KCQkJ
+CQkJCTx0cj4NCgkJCQkJCQk8dGQgc3R5bGU9InBhZGRpbmctdG9wOjEwcHgiPg0KCQkJCQkJCUlu
+IG9yZGVyIHRvIHJlYWQgZW5jcnlwdGVkIGVtYWlsIG1lc3NhZ2UsIHBsZWFzZSBjbGljayBhdHRh
+Y2hlZCBmaWxlcyBhbmQgaW5wdXQgdGhlIHBhc3N3b3JkIHdoaWNoIHdhcyBjcmVhdGVkIGJ5IHNl
+bmRlci4NCgkJCQkJCQk8L3RkPg0KCQkJCQkJCTwvdHI+DQoJCQkJCQk8L3RhYmxlPg0KCQkJCQk8
+L3RkPg0KCQkJCTwvdHI+DQoJCQk8L3RhYmxlPg0KCQk8L3RkPg0KCTwvdHI+DQoJPHRyIGhlaWdo
+dD0iMjAiPjx0ZD48IS0tIGJsYW5rIC0tPjwvdGQ+PC90cj4NCgk8dHI+DQoJCTx0ZCBzdHlsZT0i
+YmFja2dyb3VuZC1jb2xvcjpGOUZBRkI7IGJvcmRlcjoxcHggc29saWQgI0Q5RTNFQjsiIGFsaWdu
+PSJjZW50ZXIiPg0KCQkJPHRhYmxlIHdpZHRoPSI2NjAiIGNlbGxwYWRkaW5nPSIwIiBjZWxsc3Bh
+Y2luZz0iMCIgc3R5bGU9Im1hcmdpbjoxMCAwOyI+DQoJCQkJPHRyPg0KCQkJCQk8dGQgd2lkdGg9
+IjQ0Ij48aW1nIHNyYz0iaHR0cDovL21haWwuc2hpbmhhbi5jb206ODAva28vaW1ncy9pbWdfYWxl
+cnQuZ2lmIiBhbGlnbj0iYWJzbWlkZGxlIj48L3RkPg0KCQkJCQk8dGQgc3R5bGU9ImxpbmUtaGVp
+Z2h0OjE1MCU7Ij4NCgkJCQkJCeydtCDrqZTsnbzsnYQg7KCV7IOB7KCB7Jy866GcIOyXtOyWtOuz
+tOq4sCDtnpjrk5zsi6Qg6rK97Jqw66W8IOychO2VmOyXrDxicj7rsJzshqHsnpAgPGIgc3R5bGU9
+ImNvbG9yOjAwNkE5NjsiPuyGoeyasOyyoDwvYj4g64uY6ruY7IScIOuCqOq4tCDsl7Drnb3sspjr
+ipQgPGIgc3R5bGU9ImNvbG9yOjAwNkE5NjsiPjAyLTY5MDYtNDU1MjwvYj4g7J6F64uI64ukDQoJ
+CQkJCQk8YnI+DQoJCQkJCQlJZiB5b3UgaGF2ZSB0cm91YmxlcyB0byByZWFkIHRoZSBtZXNzYWdl
+LCBwbGVhc2UgY29udGFjdDxicj5zZW5kZXIgPHNwYW4gc3R5bGU9ImNvbG9yOiMwMDZhOTY7Zm9u
+dC13ZWlnaHQ6Ym9sZDsiPijshqHsmrDssqApPC9zcGFuPiB3aXRoIGNvbnRhY3QgaW5mb3JtYXRp
+b24gPHNwYW4gc3R5bGU9ImNvbG9yOiMwMDZhOTY7Zm9udC13ZWlnaHQ6Ym9sZDsiPigwMi02OTA2
+LTQ1NTIpPC9zcGFuPi4NCgkJCQkJPC90ZD4NCgkJCQk8L3RyPg0KCQkJPC90YWJsZT4NCgkJPC90
+ZD4NCgk8L3RyPg0KPC90YWJsZT4NCg==
+------=_Part_1619636_2225374.1433382773363--
+
+------=_Part_1619637_22233829.1433382773363
+Content-Disposition: attachment; filename=secure.html
+Content-Type: text/html; name=secure.html
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+=09<head>
+=09=09<!-- head -->
+=09=09<title>::: SECURE MAIL :::</title>
+=09=09<meta http-equiv=3D"content-type" content=3D"text/html; charset=3Deuc=
+-kr">=20
+=09=09<meta http-equiv=3D"imagetoolbar" content=3D"no">
+=09=09<link rel=3D"stylesheet" href=3D"http://mail.shinhan.com:80/ko/css/co=
+mmon.css">
+=09=09<link rel=3D"stylesheet" href=3D"http://mail.shinhan.com:80/ko/css/co=
+mmon_custom.css">
+=09=09<!--// head -->
+
+=09=09<script language=3D"javascript">
+=09=09    <!--
+=09=09=09function submitForm() {
+=09=09=09=09var f =3D document.secureForm;
+=09=09=09=09f.method =3D "post";
+=09=09=09=09try {
+=09=09=09=09    f.submit();
+=09=09=09=09}
+=09=09=09=09catch (e) {}
+=09=09=09}
+=09=09=09// -->
+=09=09</script>
+
+=09</head>
+=09<body class=3Dt_popup_body scroll=3Dyes>
+
+=09=09<table width=3D"100%" height=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0">
+
+=09=09=09<form name=3D"secureForm" action=3D"https://mail.shinhan.com/readS=
+ecureMessage.do">
+=09=09=09<input type=3Dhidden name=3D"param" value=3D"kOjUwMTI3NjIuMTQzMzM4=
+MjY3NTA2NC5KYXZhTWFpbC5yb290QG1haWx3YjFwO2VtYWlsOm1hDoYoUnGcmJsdWVAc2hpbmhh=
+bi5jb207aG9zdDptYWlsLnNoaW5oYW4uY29tO3N0b3JlOi9tYWlsNC9taW5kDoYoUnGZXgvc2hp=
+bmhhbi5jb20vMjE2L21hcmJsdWU7Zm9sZGVyOlNlbnQ7dWlkOjI1Nzt0bzoxMDU5MjMwDoYoUnG=
+QG5hdmVyLmNvbTsAbWl">
+
+=09=09=09<tr height=3D"31">
+=09=09=09=09<td width=3D"10" nowrap><img src=3D"http://mail.shinhan.com:80/=
+ko/imgs/pop_top_left.gif"></td>
+=09=09=09=09<td width=3D"100%" class=3Dt_popup_bg>
+=09=09=09=09=09<table width=3D"100%" height=3D"100%" cellpadding=3D"0" cell=
+spacing=3D"0">
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td width=3D"100%" class=3Dt_popup_title>
+=09=09=09=09=09=09=09=09<img src=3D"http://mail.shinhan.com:80/ko/imgs/ico_=
+co_title.gif" align=3D"absmiddle">&nbsp;=BD=C5=C7=D1=B1=DD=C0=B6=B1=D7=B7=
+=EC =BA=B8=BE=C8 =B8=DE=C0=CF =C0=D4=B4=CF=B4=D9. (The Shinhan financial gr=
+oup secured mail.)
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09<td nowrap><a href=3D"javascript:window.close()"><img =
+src=3D"http://mail.shinhan.com:80/en/imgs/bt_close.gif" align=3D"absmiddle"=
+></a></td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09</table>
+=09=09=09=09</td>
+=09=09=09=09<td width=3D"10" nowrap><img src=3D"http://mail.shinhan.com:80/=
+ko/imgs/pop_top_right.gif"></td>
+=09=09=09</tr>
+=09=09=09<tr height=3D"100%">
+=09=09=09=09<td style=3D"background:url(http://mail.shinhan.com:80/ko/imgs/=
+pop_side_left.gif) repeat-y;"></td>
+=09=09=09=09<td style=3D"text-align:center;background: #ffffff;" valign=3D"=
+middle">
+=09=09=09=09=09<table width=3D"472" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09=09=09<tr height=3D"10"><td></td></tr>
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td height=3D"304" style=3D"background:url(http://mail=
+.shinhan.com:80/ko/imgs/bg_safe_login.gif) no-repeat;padding:160px 0px 0px =
+0px;" align=3D"right" valign=3D"top">
+=09=09=09=09=09=09=09=09<table width=3D"422" cellpadding=3D"0" cellspacing=
+=3D"0">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td><input type=3D"password" name=3D"password=
+" size=3D"48"></td>
+=09=09=09=09=09=09=09=09=09=09<td width=3D"115"><a href=3D"javascript:submi=
+tForm()"><img src=3D"http://mail.shinhan.com:80/en/imgs/b_ok3.gif" align=3D=
+"absmiddle"></a></td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09<tr height=3D"38"><td colspan=3D"2"></td></tr>
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2" style=3D"padding:0px 0px 0p=
+x 10px;line-height:140%;">
+
+=C0=CC =B8=DE=C0=CF=C0=BB =C1=A4=BB=F3=C0=FB=C0=B8=B7=CE =BF=AD=BE=EE=BA=B8=
+=B1=E2 =C8=FB=B5=E5=BD=C7 =B0=E6=BF=EC=B8=A6 =C0=A7=C7=CF=BF=A9<br>
+=B9=DF=BC=DB=C0=DA <span style=3D"color:#006a96;font-weight:bold;">
+=BC=DB=BF=EC=C3=B6</span> =B4=D4=B2=B2=BC=AD =B3=B2=B1=E4 =BF=AC=B6=F4=C3=
+=B3=B4=C2
+<span style=3D"color:#006a96;font-weight:bold;">02-6906-4552</span> =C0=D4=
+=B4=CF=B4=D9.
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td colspan=3D"2" style=3D"padding:0px 0px 0p=
+x 10px;line-height:140%;">
+If you have troubles to read the message, please contact<br>
+sender <span style=3D"color:#006a96;font-weight:bold;">=BC=DB=BF=EC=C3=B6</=
+span> with contact information <span style=3D"color:#006a96;font-weight:bol=
+d;">02-6906-4552</span>.
+=09=09=09=09=09=09=09=09=09=09</td>
+
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09<tr height=3D"10"><td></td></tr>
+=09=09=09=09=09</table>
+
+
+=09=09=09=09</td>
+=09=09=09=09<td style=3D"background:url(http://mail.shinhan.com:80/ko/imgs/=
+pop_side_right.gif) repeat-y;"></td>
+=09=09=09</tr>
+=09=09=09<tr height=3D"5">
+=09=09=09=09<td><img src=3D"http://mail.shinhan.com:80/ko/imgs/pop_bottom_l=
+eft.gif"></td>
+=09=09=09=09<td style=3D"background:url(http://mail.shinhan.com:80/ko/imgs/=
+pop_side_bottom.gif);"></td>
+=09=09=09=09<td><img src=3D"http://mail.shinhan.com:80/ko/imgs/pop_bottom_r=
+ight.gif"></td>
+=09=09=09</tr>
+
+=09=09=09</form>
+
+=09=09</table>
+=09</body>
+</html>
+
+
+------=_Part_1619637_22233829.1433382773363--
+
+
+
+

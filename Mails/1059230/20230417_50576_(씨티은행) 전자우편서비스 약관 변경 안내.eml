@@ -1,0 +1,430 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1681710323;
+	cv=none; b=i9vsy6kk5SC1+9YwQC00oVKf3GWxWIrbSBNLtVqhBrHBuiWqDfvjldwFbS5s
+	 nnM+Bf1wC0WDI/ypBN9abVVXkViDblU+DtI3Y3IelECzIU1F8a3PEog4HwgvepviRSbehG
+	 DHryS25O2nMQ7mnjak7eS0IqnCh8gfDBXZLvAmvrhxZ61esmIxAycn7A1dUmw5b4Ty9gY9
+	 vKGSEkq4lDHgCM/0TIly8QE+JAWXxJuKoqR0+xN8s6aOLYSh0Qe48APzTHIlEFe4BO8hKl
+	 iEbTMDcGbqDLxPCWmAhxU4vXerWkPW1dz/GCTmTe7kPwYx6VO7gLPlexasRV0g9XgaCFQb
+	 Iw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1681710323; c=relaxed/relaxed;
+	bh=UdzXuidhMTZi0KxS7lvoRFqFqtBuZZJ+kbZ9/pRB/TQ=;
+	h=message-id:from:to:subject:date; b=T8LVgYoWrwIbktn+9lrJrYOaVAjYyxR6o/
+	 qmtew0Q5m4J6G8vIxhZQbCRullOaaQdmwisf0D8wBxIXGQSJyWQ+AT25aZYr5fzog4NEru
+	 InQyxfVC8DsK0wEzPgjH6I0jhZeOGHAwv/TF+T1jsxBOEny32Vpze/Tz7xx45+/NucWYXP
+	 +n1dAH9fr7VwPFiT6pz8lSeFeMGNJNfOusOXj3ETkZXAjXSDuTJtY8rgPLUU97gEAutVht
+	 lHBWM9HKfF1Ap5IbfE7/RbO+BzqjxwCRvNNsBTgkwIV+uBH0+4aqFXo7LUXqQEcjvrot2d
+	 S4AJ5hAgHtHpmgUd7TGHUHS+6JjQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=return@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+Return-Path: <return@email2.citibank.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender)
+  client-ip=192.193.83.185; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=return@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+X-Naver-ESV: ww+n+6J4p63CbHmqKBwdbXFYKAEdFxUqjJ+Y
+X-Session-IP: 192.193.83.185
+Received: from citibank.co.kr (email2.citibank.co.kr [192.193.83.185])
+  by crcvmail105.nm.naver.com with ESMTP id ljAHRR8kRLG+LOLa-DSWnw
+  for <1059230@naver.com>;
+  Mon, 17 Apr 2023 05:45:23 -0000
+Message-ID: <1681703790527.5114294@kryiap2126.apac.nsroot.net>
+From: "=?EUC-KR?B?x9Gxub6+xrzAusfg?=" <citicenter@email2.citibank.co.kr>
+To: "=?EUC-KR?B?udoqvLo=?=" <1059230@naver.com>
+Subject: =?EUC-KR?B?KL6+xrzAusfgKSDA/MDav+zG7bytuvG9uiC+4LD8ILqvsOYgvsizuw==?=
+Date: Mon, 17 Apr 2023 12:56:30 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000009949
+X-MNWISE-RESULT_SEQ: 1681696820919447
+X-MNWISE-USER_ID: des64oSReypgH84CUURTsK72dsw==
+X-MNWISE-LIST_SEQ: 0000429704
+X-MNWISE-RECORD_SEQ: 0
+X-MNWISE-CLIENT_TYPE: em
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<center> 
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="602" align="center">
+<tbody>
+<tr>
+<td style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px;  max-width:0px; opacity:0; overflow:hidden;"></td>
+</tr>
+<tr>
+<td>
+<table class="container" style="max-width:602px; border: 1px solid #cccccc;" border="0" cellspacing="0" cellpadding="0" width="602" align="center">
+<tbody>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td>
+<table style="background-color: #ffffff; width: 100%;" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<!--// 헤드 --> 
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" width="10" style="display:block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img alt="Citi" title="Citi" border="0" src="https://www.citibank.co.kr/download/cms/email/edm_logo_citi.png" width="35" height="20" style="width: 35px; height: 20px; display: block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 헤드 //--> <!--// 타이틀 --> 
+<tr>
+<td align="center" style="font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; font-size: 36px; color: #ffffff; background: #002d71; height: 240px; padding: 0 40px; word-break: keep-all;">전자우편서비스 약관 개정 안내</td>
+</tr>
+<!-- 타이틀 //--> 
+<tr valign="top">
+<td height="40" style="line-height:40px;"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="40" border="0" /></td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 30px; display: block;" width="30" /></td>
+<td align="left" valign="top" class="column-stack"><!--// 내용 시작 --> 
+<table style="font-size:15px; font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color: #333; line-height: normal; letter-spacing:-0.03em; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size:15px; font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color: #333; line-height: 26px; letter-spacing:0em; word-break:keep-all;">한국씨티은행을 이용해주시는 고객님께 감사드립니다.<br />전자우편서비스 약관을 아래와 같이 개정 시행하오니 참고하시기 바랍니다.</td>
+</tr>
+<tr>
+<td height="5"></td>
+</tr>
+<tr>
+<td style="font-size:15px; font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color: #333; line-height: 26px; letter-spacing:0em; word-break:keep-all;">(본 약관 개정 안내일로부터 1개월 이내에 변경에 동의하지 않는 경우 계약을 해지할 수 있으며, 별도의 해지의사가 없는 경우 변경된 약관에 동의한 것으로 간주합니다.)</td>
+</tr>
+<tr>
+<td height="30"></td>
+</tr>
+<tr valign="top">
+<td align="left">
+<table style="font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr valign="top">
+<td style="color:#002A54; font-size:20px; font-weight:bold; letter-spacing:-0.06em;">적용 대상</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr valign="top">
+<td>
+<table style="font-size:15px; font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color: #333; line-height: normal; letter-spacing:-0.03em; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr valign="top">
+<td width="12">-</td>
+<td align="left">신규/기존 고객 모두</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30"></td>
+</tr>
+<tr valign="top">
+<td align="left">
+<table style="font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr valign="top">
+<td style="color:#002A54; font-size:20px; font-weight:bold; letter-spacing:-0.06em;">시행일</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr valign="top">
+<td>
+<table style="font-size:15px; font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color: #333; line-height: normal; letter-spacing:-0.03em; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr valign="top">
+<td width="12">-</td>
+<td align="left">2023년 06월 01일 부터</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30"></td>
+</tr>
+<tr valign="top">
+<td align="left">
+<table style="font-family: 'Malgun Gothic', 맑은 고딕, Arial, sans-serif;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr valign="top">
+<td style="color:#002A54; font-size:20px; font-weight:bold; letter-spacing:-0.06em;">개정내용</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 80%;"></col> <col style="*"></col> </colgroup> 
+<tbody>
+<tr>
+<td colspan="8" height="1" style="background:#999;"></td>
+</tr>
+<tr>
+<th style="border-bottom:#e4e4e4 1px solid; border-right:#dfdfdf 1px solid; color:#333; padding: 10px 10px 12px 10px; background:#fff; font-family:맑은 고딕, 돋움; font-size: 13px; letter-spacing:0; word-wrap: break-word; word-break: keep-all;" align="left" scope="col">① 신구조문 대비표</th>
+<td align="center" style="border-bottom:#e4e4e4 1px solid; padding: 10px 10px 12px 10px; background:#f4f4f4;"><a href="https://www.citibank.co.kr/download/cms/email/202304/edm_mail_compare_230601.pdf" title="Download" target="_blank" style="color:#056dae; font-size:13px;">보기</a></td>
+</tr>
+<tr>
+<th style="border-bottom:#e4e4e4 1px solid; border-right:#dfdfdf 1px solid; color:#333; padding: 10px 10px 12px 10px; background:#fff; font-family:맑은 고딕, 돋움; font-size: 13px; letter-spacing:0; word-wrap: break-word; word-break: keep-all;" align="left" scope="col">② 전자우편서비스 약관_개정 후</th>
+<td align="center" style="border-bottom:#e4e4e4 1px solid; padding: 10px 10px 12px 10px; background:#f4f4f4;"><a href="https://www.citibank.co.kr/download/cms/email/202304/edm_mail_service_230601.pdf" title="Download" target="_blank" style="color:#056dae; font-size:13px;">보기</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="60"></td>
+</tr>
+<tr>
+<td align="right" style="font-size:13px; color:#666; letter-spacing:0px;">* 준법감시인 심의필 2303-01-032 (2023.03.20)</td>
+</tr>
+</tbody>
+</table>
+<!-- 내용 끝 //--></td>
+<td align="left" width="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 30px; display: block;" width="30" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr valign="top">
+<td height="30"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" border="0" /></td>
+</tr>
+<!--// 뉴풋터 배너 --> 
+<tr>
+<td align="right">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="right" valign="top" id="mob-image-footer"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_bluebox_web_2x_new.png" width="373" style="width: 373px; display: block;" /></td>
+</tr>
+<tr>
+<td align="right" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" width="10" height="10" style="display:block; border-style: none;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 뉴풋터 배너 //--> <!--// 은행 이용자 보호 계획 추가 600px --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202207/edm_220726_banking_600_con01.jpg" border="0" style="display:block;" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a href="https://www.citibank.co.kr/d.act?ID=3603" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202207/edm_220726_banking_600_btn01.jpg" alt="은행 이용자 보호 계획 지금 바로 확인하기 >" border="0" style="display: block;" /></a></td>
+<td><a href="https://www.citibank.co.kr/CusConsCnts0300.act" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202207/edm_220726_banking_600_btn02.jpg" alt="챗봇 상담 바로가기 >" border="0" style="display: block;" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202207/edm_220726_banking_600_con01.jpg" border="0" style="display:block;" /></td>
+</tr>
+<!-- 은행 이용자 보호 계획 추가 600px 끝 //--> <!--// Security 배너 --> 
+<tr>
+<td>
+<table style="background-color:#f1f1f1;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 104px;"></col> <col style="width: 1px;"></col> <col style="width: 20px;"></col> <col style="width: *;"></col> <col style="width: 25px;"></col> </colgroup> 
+<tbody>
+<tr>
+<td colspan="5" height="40"></td>
+</tr>
+<tr>
+<td align="center"><img src="https://www.citibank.co.kr/download/cms/email/edm_security.png" border="0" width="34" height="37" style="width: 34px; height: 37px; display: block;" /></td>
+<td style="background-color:#979797;"></td>
+<td></td>
+<td>
+<table style="font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; font-family:font-size:15px; text-align:left; line-height:22px; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 20px;"></col> <col style="width: *;"></col> </colgroup> 
+<tbody>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">한국씨티은행은 전화나 이메일을 통해 고객님의 개인 또는 계좌 정보를 묻지 않습니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">계좌/카드 비밀번호, 로그인 패스워드, PIN 번호 등 금융정보는 스마트폰이나 인터넷(E-Mail함, 웹하드 등)에 저장하지 마시고 절대 다른 사람과 공유하지 마시기 바랍니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">고객님의 거래관련 발송해드린 문자(SMS)와 알림은 항상 확인 부탁드리며, 의심스러운 거래는 당행으로 바로 알려주시기 바랍니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td></td>
+</tr>
+<tr>
+<td colspan="5" height="35"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Security 배너 //--> 
+<tr>
+<td align="left" valign="top" bgcolor="#f2f2f2">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<!-- Section 1 --> <!-- Template Body --> <!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td height="1" style="background:#ccc;"></td>
+</tr>
+<!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">본 메일은 발신 전용 메일입니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">한국씨티은행은 고객 여러분의 개인정보 보호를 위해, 이메일을 통하여 계좌번호, 비밀번호, 보유잔액, 카드번호, 신용카드 CVC번호 등의 개인정보를 확인하지 않습니다. 의심스러운 이메일을 받으신 경우 응답하지 마시고, 고객센터(<a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a>)로 연락주시기 바랍니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">추가되는 질문은 한국씨티은행 홈페이지의 고객센터를 통하여 남겨주시기 바라며, 회신을 통한 문의는 받지 않고 있습니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; letter-spacing:-0.05em;">(주)한국씨티은행<span style="color:#aaa;">&nbsp;|&nbsp;</span>대표자: 유명순<span style="color:#aaa;">&nbsp;|&nbsp;</span>주소: 서울특별시 종로구 새문안로 50(신문로2가)<span style="color:#aaa;">&nbsp;|&nbsp;</span><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">고객센터</span>: <a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a></span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">&copy;2023 Citigroup Inc<span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/CusIvinCnts0100.act" style="text-decoration:none; color:#007ad0;" target="_blank">Privacy</a><span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/ComStplCnts0100p.act" style="text-decoration:none; color:#007ad0;" target="_blank">Terms & Conditions</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<!-- Section 1 -->
+</tbody>
+</table>
+</td>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br><IMG width=0 height=0 src='http://email.goodbank.com:9000/servlet/ReceiveConfirmEM?SEND_MODE=R&RESULT_SEQ=1681696820919447&CAMPAIGN_NO=000000000009949&START_DATE=20230417000000&END_DATE=20230424235900&LIST_SEQ=0000429704&RECORD_SEQ=0&CUSTOMER_ID=des64oSReypgH84CUURTsK72dsw=='>
+</body>
+</html>

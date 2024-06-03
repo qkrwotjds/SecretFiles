@@ -1,0 +1,303 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1703626345;
+	cv=none; b=DHbZiJsT3jUS6lsc57EM9ga+xdJup/8HznptEsyrjjqgsm2HRp5TTdcKAcYN
+	 lNeo8Go+kSt4HKi+AgitQZrP6pZFRBbTXwJFQT0X86sC7lWaRMwMFxOOsyfBV0VGDq3uCf
+	 Np/7EJJ1EcK3LbngJ4ZqPU9RMNX79bbgKc+gDoNszYxNLr3KiA9XJzbB5AjrI9Ek3k36Xi
+	 UYGsCRp7BiOds9AXZVfEx4wdXRjGIWl5/n2sc2Rc+Lhc5TMpgggKlrkGsZZmfY9dEwAQm1
+	 5nvizrZQH9Z1or7uLfACAH8W82y2/Gs57K2tuTiKao78tNfrXhUKKDAET0UB1BZhft8t3S
+	 vg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1703626345; c=relaxed/relaxed;
+	bh=hpss7ptdrcLYkuZC07hieCZvlu4wPYCXE2clP4qOOho=;
+	h=date:from:to:message-id:subject; b=Xbo8i+BPiQHUAyByU+/biDKeygqI+Xm5KO
+	 LnotvcAqIhCDUeA5dNFPXexZG9xTnKzcd5S59ZAp/+y/0SWiRzCdoYT0RzBTkQk77lmo52
+	 QyU+59EID1OEsjHeIHnn0g4roHnWfxp3yyEkDd47R+jssUgYak/gT493EHqMsv3P2jG7mY
+	 vV/oNTtJ8Z0REG2Yk5EOtmY4E//utvw1xbCFqL4hlEjsM3OmZCI860s0V+lVugfXA+k6DL
+	 HxSz+8EOJ/DCw8S5JJfXDoxRRGt4cu0O9G66vF4petrw9iAxq4duEvYbufvcHF7IhiwaLQ
+	 //eI16PyBCQ6r9vYIvNRy+RW7A2A==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of naverpayadmin_noreply@navercorp.com designates 111.91.135.16 as permitted sender) smtp.mailfrom=naverpayadmin_noreply@navercorp.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=navercorp.com
+Return-Path: <naverpayadmin_noreply@navercorp.com>
+Received-SPF: pass (mx.naver.com: domain of naverpayadmin_noreply@navercorp.com designates 111.91.135.16 as permitted sender)
+  client-ip=111.91.135.16; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of naverpayadmin_noreply@navercorp.com designates 111.91.135.16 as permitted sender) smtp.mailfrom=naverpayadmin_noreply@navercorp.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=navercorp.com
+X-Naver-ESV: +dRYpB3G1H+qbrJmjAtwjAUwKqUZFBwBjg==
+X-Session-IP: 111.91.135.16
+Received: from mailsend1.cos.navercorp.com (mailsend1.cos.navercorp.com [111.91.135.16])
+  by crcvmail202.nm.naver.com with ESMTP id e05JyMsxQOq+VYIgpyDgwA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384);
+  Tue, 26 Dec 2023 21:32:25 -0000
+Date: Wed, 27 Dec 2023 06:32:25 +0900 (KST)
+From: =?UTF-8?B?64Sk7J2067KE7Y6Y7J20?= <naverpayadmin_noreply@navercorp.com>
+To: 1059230@naver.com
+Message-ID: <282742354.19342763.1703626345706@mailsend1.cos.navercorp.com>
+Subject: =?UTF-8?B?64Sk7J2067KE7YyM7J2064K47IWcIOuniOy8gO2MhSDsoJXrs7Qg7IiY?=
+ =?UTF-8?B?7IugIOuPmeydmCDtmITtmansnYQg7JWI64K065Oc66a964uI64ukLg==?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_19342762_941795901.1703626345706"
+
+------=_Part_19342762_941795901.1703626345706
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%=
+;background-color:#f6f6f8;" align=3D"center">
+    <tbody><tr>
+        <td align=3D"center">
+           =20
+           =20
+            <div style=3D"max-width:600px; margin:0 auto">
+                <table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:1=
+00%;margin:0 auto;background-color:#fff;-webkit-text-size-adjust:100%;text-=
+align:left;letter-spacing: -1px">
+                    <tbody><tr>
+                        <td colspan=3D"3" height=3D"60"></td>
+                    </tr>
+                    <tr>
+                        <td width=3D"30"></td>
+                        <td>
+                            <table cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"width:100%;margin:0;padding:0">
+                                <tbody><tr>
+                                    <td style=3D"margin:0;padding:0">
+                                        <a href=3D"https://new-m.pay.naver.=
+com/pcpay?page=3D1" style=3D"display:inline-block"><img src=3D"https://fs.p=
+static.net/contents/resource/pay-member/newlogo_email/ems/0/1699321246699/l=
+ogo_npay.png" width=3D"78" height=3D"26" style=3D"border:0;vertical-align:t=
+op"></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"40"></td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                        <td width=3D"30"></td>
+                    </tr>
+                    <tr>
+                        <td width=3D"30"></td>
+                        <td>
+                            <table cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"width:100%;margin:0;padding:0">
+                                <tbody><tr>
+                                    <td style=3D"font-size:28px;font-weight=
+:bold;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=
+=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum=
+,Helvetica,'Apple SD Gothic Neo',sans-serif;color:#1e1e23;line-height:38px;=
+vertical-align:top">
+                                        <span style=3D"color:#09aa5c">=EB=
+=84=A4=EC=9D=B4=EB=B2=84=ED=8E=98=EC=9D=B4</span><br>=EB=A7=88=EC=BC=80=ED=
+=8C=85 =EC=A0=95=EB=B3=B4 =EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98 =ED=98=84=
+=ED=99=A9 =EC=95=88=EB=82=B4=1C
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"30"></td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size:14px;font-family=
+:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=
+=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple =
+SD Gothic Neo',sans-serif;color:#222;line-height:22px;vertical-align:top">
+                                        =EC=95=88=EB=85=95=ED=95=98=EC=84=
+=B8=EC=9A=94. =EB=84=A4=EC=9D=B4=EB=B2=84=ED=8E=98=EC=9D=B4=EC=9E=85=EB=8B=
+=88=EB=8B=A4.
+                                        <br>=EC=A0=95=EB=B3=B4=ED=86=B5=EC=
+=8B=A0=EB=A7=9D=EB=B2=95=EC=97=90 =EB=94=B0=EB=9D=BC =EB=84=A4=EC=9D=B4=EB=
+=B2=84=ED=8E=98=EC=9D=B4 =EB=A7=88=EC=BC=80=ED=8C=85(=ED=98=9C=ED=83=9D/=EC=
+=9D=B4=EB=B2=A4=ED=8A=B8) =EC=A0=95=EB=B3=B4 =EC=88=98=EC=8B=A0=EC=97=90 =
+=EB=8F=99=EC=9D=98=ED=95=98=EC=8B=A0 =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =
+=EC=A0=95=EA=B8=B0=EC=A0=81=EC=9C=BC=EB=A1=9C =EB=8F=99=EC=9D=98 =ED=98=84=
+=ED=99=A9=EC=9D=84 =EC=95=88=EB=82=B4=ED=95=B4=EB=93=9C=EB=A6=AC=EA=B3=A0 =
+=EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+                                        <br>=ED=95=AD=EC=83=81 =EB=84=A4=EC=
+=9D=B4=EB=B2=84=ED=8E=98=EC=9D=B4 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=
+=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=85=94=EC=84=9C =EA=B0=90=EC=82=AC=ED=
+=95=A9=EB=8B=88=EB=8B=A4,
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"30"></td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size:14px;font-weight=
+:bold;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=
+=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum=
+,Helvetica,'Apple SD Gothic Neo',sans-serif;color:#1e1e23;line-height:20px;=
+letter-spacing:-0.5px;vertical-align:top">
+                                        =EB=A7=88=EC=BC=80=ED=8C=85 =EC=A0=
+=95=EB=B3=B4 =EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98 =ED=98=84=ED=99=A9
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"8"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"width:100%;margin:0;padding:0;">
+                                            <tbody><tr>
+                                                <td colspan=3D"3" height=3D=
+"1" style=3D"background-color:#1e1e23;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan=3D"3" height=3D=
+"20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style=3D"width:113px;fo=
+nt-size:14px;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic=
+,'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',=
+Dotum,Helvetica,'Apple SD Gothic Neo',sans-serif;color:#767678;line-height:=
+20px;letter-spacing:-0.5px;vertical-align:top;">
+                                                    =EB=AC=B8=EC=9E=90 =EB=
+=A9=94=EC=8B=9C=EC=A7=80/=EC=95=B1 =EC=95=8C=EB=A6=BC
+                                                </td>
+                                                <td width=3D"40"></td>
+                                                <td style=3D"font-size:14px=
+;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=
+=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helve=
+tica,'Apple SD Gothic Neo',sans-serif;color:#1e1e23;line-height:20px;letter=
+-spacing:-0.5px;vertical-align:top">
+                                                    2020=EB=85=84 01=EC=9B=
+=94 28=EC=9D=BC
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan=3D"3" height=3D=
+"20"></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan=3D"3" height=3D=
+"1" style=3D"background-color:#1e1e23;"></td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"30"></td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size:12px;font-family=
+:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=
+=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple =
+SD Gothic Neo',sans-serif;color:#767678;line-height:20px;letter-spacing:-0.=
+5px;vertical-align:top">
+                                        <strong>=EC=88=98=EC=8B=A0 =EB=8F=
+=99=EC=9D=98 =EB=B3=80=EA=B2=BD =EB=B0=A9=EB=B2=95</strong>
+                                        <br>=EB=AA=A8=EB=B0=94=EC=9D=BC : =
+=EB=84=A4=EC=9D=B4=EB=B2=84=ED=8E=98=EC=9D=B4 =ED=99=88 &gt; =ED=99=94=EB=
+=A9=B4 =EC=9A=B0=EC=B8=A1 =EC=83=81=EB=8B=A8 =EB=8D=94=EB=B3=B4=EA=B8=B0 <i=
+mg src=3D"../img/more_icon.png" width=3D"11" height=3D"8"> &gt; =ED=8E=98=
+=EC=9D=B4 =EC=84=A4=EC=A0=95 &gt; =ED=9A=8C=EC=9B=90 =EC=A0=95=EB=B3=B4
+                                        <br>PC : =EB=84=A4=EC=9D=B4=EB=B2=
+=84=ED=8E=98=EC=9D=B4 =ED=99=88 &gt; =EA=B8=B0=EB=B3=B8=EC=84=A4=EC=A0=95 &=
+gt; =EB=84=A4=EC=9D=B4=EB=B2=84=ED=8E=98=EC=9D=B4 =EC=84=A4=EC=A0=95
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height=3D"40"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       =20
+                                        <div style=3D"margin:0 auto;max-wid=
+th:315px;">
+                                            <table style=3D"table-layout:fi=
+xed;width:100%;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                                <tbody><tr>
+                                                    <td height=3D"56" style=
+=3D"line-height:56px;text-align:center;background:#09aa5c">
+                                                        <a href=3D"https://=
+new-m.pay.naver.com/" style=3D"display:block;font-size:17px;font-weight:bol=
+d;line-height:20px;letter-spacing:-0.5px;color:#fff;text-decoration:none;fo=
+nt-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=
+=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetic=
+a,'Apple SD Gothic Neo',sans-serif;">
+                                                            =EB=84=A4=EC=9D=
+=B4=EB=B2=84=ED=8E=98=EC=9D=B4 =ED=99=88
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </div>
+                                       =20
+                                    </td>
+                                </tr>
+                            </tbody></table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09<td width=3D"30"></td>
+                    </tr>
+                    <tr>
+                        <td colspan=3D"3" height=3D"50"></td>
+                    </tr>
+                </tbody></table>
+               =20
+                <table cellpadding=3D"0" cellspacing=3D"0" style=3D"width:1=
+00%;margin:0 auto;background-color:#efeff1;-webkit-text-size-adjust:100%;te=
+xt-align:left;letter-spacing:-0.5px">
+                    <tbody><tr>
+                        <td width=3D"35"></td>
+                        <td>
+                            <table cellpadding=3D"0" cellspacing=3D"0" styl=
+e=3D"width:100%;margin:0;padding:0;background-color:#eee;">
+                                <tbody><tr>
+                                    <td colspan=3D"2" height=3D"23"></td>
+                                </tr>
+                                <tr>
+                                    <td style=3D"font-size:12px;font-family=
+:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=
+=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple =
+SD Gothic Neo',sans-serif;color:#666;line-height:17px">
+                                        =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=
+=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9E=85=EB=8B=88=EB=8B=A4. =EB=84=
+=A4=EC=9D=B4=EB=B2=84=ED=8C=8C=EC=9D=B4=EB=82=B8=EC=85=9C =EC=84=9C=EB=B9=
+=84=EC=8A=A4 =EA=B4=80=EB=A0=A8 =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EC=82=
+=AC=ED=95=AD=EC=9D=80 <a href=3D"http://help.pay.naver.com" style=3D"color:=
+#666;text-decoration:underline">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0</a>=EC=
+=97=90=EC=84=9C =ED=99=95=EC=9D=B8=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.
+                                    </td>
+                                    <td width=3D"35"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2" height=3D"10"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2" style=3D"font-size:12=
+px;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=
+=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,He=
+lvetica,'Apple SD Gothic Neo',sans-serif;color:#666;line-height:17px">
+                                        Copyright =E2=93=92 <strong>NAVER F=
+INANCIAL Corp.</strong> All Rights Reserved.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan=3D"2" height=3D"31"></td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+               =20
+            </div>
+           =20
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+<div contenteditable=3D"false"><div style=3D"position: absolute; display: n=
+one; z-index: 9999;"></div></div><div contenteditable=3D"false"><div style=
+=3D"position: absolute; display: none; z-index: 9999;"></div></div><div con=
+tenteditable=3D"false"><div style=3D"position: absolute; display: none; z-i=
+ndex: 9999;"></div></div><table style=3D'display:none'><tr><td><img src=3D'=
+https://cos2.navercorp.com/received/MjAyMzEyMjcwNjMyMjQ5NDA2MDI7MTA1OTIzMEB=
+uYXZlci5jb20=3D.gif' width=3D'0' height=3D'0' border=3D'0'/></td></tr></tab=
+le>
+------=_Part_19342762_941795901.1703626345706--

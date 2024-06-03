@@ -1,0 +1,219 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1697744399;
+	cv=none; b=WUVsArECoQG5v95j7+z95SBK2SDsJb8oil7OWndpyPq6tMBOhO+ugDVXETI2
+	 kV+cB1umJ5UBnKox9xzhU5zuAKpm7lNYK67DYrXjDfwKk2SVcWoD3IVUZVJw9o1lsIsaJw
+	 mJiEFeqwcNC8V4j2VJjHwPVtfB3kA5YAYCRij5yE1yuyjiz24cNNeAo/MmaWOzAEucfUYt
+	 BL2XZiRyo+h6G/8kQFLNeQnKvCmqLM0XNxvI/j6tabG1iXuexAc2KeqGuVjzj69Q+OWgLI
+	 sYGIvWUvZo+3nYMqkBvS4+agUtT8ymRB5sz5dfrieptghl2IyEFRU2Foj5JX5uqVP360HT
+	 VQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1697744399; c=relaxed/relaxed;
+	bh=jRye7C33V4Mdj7NqPGsTNWA97MIncAm+encKb5Hp0Ug=;
+	h=dkim-signature:from:to:subject:message-id:date; b=NKsOYai3ihIsl1/LmRi
+	 KcbouWh9sx+gcOCF3+OpscWKfYr9KsMW2IbNTIR6YW1Kk1zZYB2aW70YxSGwPMm/SxoEF5
+	 fQZ7dfb7YV2oC6gtBWMUMTX3oHdltFizHvnK/2K9XDKd7D8JaAeJlzecKCNhNhowK6XXrb
+	 s9yeOj5UODzCilDpSvZ79kSZORnF6nGhn4i9m/pqldyFInCtMCiaet5whSvXoQOFAA2V7D
+	 DOgZeoy5gfqQ/qNcOFqgG+n+0bVxBo3tID5MmxG7dz6gru2p9e6oSl3lio165h6FTklMEt
+	 BR1KwjMiYwhpH/0SctlnhMCrTyLOYn8F6Icjv5FVAeA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of mailing@mustit.co.kr designates 3.34.19.250 as permitted sender) smtp.mailfrom=mailing@mustit.co.kr
+Return-Path: <mailing@mustit.co.kr>
+Received-SPF: pass (mx.naver.com: domain of mailing@mustit.co.kr designates 3.34.19.250 as permitted sender)
+  client-ip=3.34.19.250; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mailing@mustit.co.kr designates 3.34.19.250 as permitted sender) smtp.mailfrom=mailing@mustit.co.kr
+X-Naver-ESV: w/en+6J4p63qMBIYKBwdbXmwaxKlFx0YkXm=
+X-Session-IP: 3.34.19.250
+Received: from mail2.mustit.co.kr (ec2-3-34-19-250.ap-northeast-2.compute.amazonaws.com [3.34.19.250])
+  by crcvmail106.nm.naver.com with ESMTP id 9X-gupmFTFyupzpJP22z5g
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Thu, 19 Oct 2023 19:39:59 -0000
+Received: from ip-10-100-45-226.ap-northeast-2.compute.internal (ip-172-19-0-1.ap-northeast-2.compute.internal [172.19.0.1])
+	by mail2.mustit.co.kr (Postfix) with ESMTPS id 1A1A2375488
+	for <1059230@naver.com>; Fri, 20 Oct 2023 04:36:44 +0900 (KST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mustit.co.kr; s=mail;
+	t=1697744204; bh=hYh9RA4m1p7sbeK1+UWo4ZecAOh9og7xpak/hgfrjQc=;
+	h=From:To:Subject;
+	b=E4fFQaXZBXN4OjdR+xlXkIwE5HdW3HbNnAX+k+Q/26PYyyLW21XFed7OG2RVyPjCc
+	 QQZ0DVN+SdbdY19zPRDsrbccG18nRsoah5q3ubTFXyzZeOPaQ5UwvFUM/wKPaRdauW
+	 aYcqmF68kr1LPcVLQTzL2zRHr6Ul3645MSu25I17RNcK4ElON1TUGX8L0IuKOD9ZGW
+	 LtMY+UUlpt+9r/SWPGw0ntCxqBaAYBZaVaDJlF/lgbRzjiqCgRf9dzjLeef6XC6ju8
+	 DEa3oC+VctTGCd/hCyBYxmmbTu60oRshUOfmCPQz2hSxsapEnySDblF5X2AQnirkXf
+	 FY0Ap5MgIfVEQ==
+Content-Type: text/html; charset=utf-8
+From: =?UTF-8?B?66i47Iqk7Yq47J6H?= <mailing@mustit.co.kr>
+To: 1059230@naver.com
+Subject: =?UTF-8?B?W+uouOyKpO2KuOyeh10g6rCc7J247KCV67O0IA==?=
+ =?UTF-8?B?7J207JqpIOuCtOyXrSDthrXsp4Ag7JWI64K0?=
+Message-ID: <fc2d2f23-2404-c8a9-a941-aa2f2754edd2@mustit.co.kr>
+Content-Transfer-Encoding: quoted-printable
+Date: Thu, 19 Oct 2023 19:36:44 +0000
+MIME-Version: 1.0
+
+<div
+  style=3D"width:100%; background-color:#f5f5f5; padding: 16px; =
+box-sizing:border-box; font-family:'Apple SD Gotdic Neo, Nanum Gotdic, =
+Malgun Gotdic, Dotum, sans-serif;'">
+  <div style=3D"max-width:580px;backgr=
+ound-color:#fff;margin:0 auto;">
+    <div style=3D"padding:30px 0 40px;">
+      <div style=3D"margin-bottom:40px;padding:0 20px;border-bottom:1px =
+solid #eee;">
+        <p style=3D"margin-bottom: 30px;">
+          <img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/bi=
+/bi_mustit_header.png" alt=3D"=EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87" =
+width=3D"107" />
+        </p>
+        <p style=3D"margin-bottom: =
+16px;font-size:24px;color:#f52644; font-weight: bold;">=EA=B0=9C=EC=9D=B8=
+=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =EB=82=B4=EC=97=AD =ED=86=B5=EC=A7=80=
+ =EC=95=88=EB=82=B4</p>
+        <p style=3D"margin-bottom: =
+20px;font-size:16px;color:#888;">
+          =EC=95=88=EB=85=95=ED=95=98=
+=EC=84=B8=EC=9A=94. =EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87=EC=9E=85=
+=EB=8B=88=EB=8B=A4.<br />
+          =EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87=
+=EC=9D=84 =EB=AF=BF=EA=B3=A0 =EC=9D=B4=EC=9A=A9=ED=95=B4 =
+=EC=A3=BC=EC=8B=9C=EB=8A=94 =ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98 =
+=EA=B0=90=EC=82=AC=EC=9D=98 =EB=A7=90=EC=94=80=EB=93=9C=EB=A6=BD=EB=8B=88=
+=EB=8B=A4.
+        </p>
+        <p style=3D"margin-bottom: =
+20px;font-size:16px;color:#888;">
+          =EB=B3=B8 =
+=EB=A9=94=EC=9D=BC=EC=9D=80 <span style=3D"font:inherit;color:#222;font-wei=
+ght: bold;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95=
+ =EC=A0=9C39=EC=A1=B0=EC=9D=988(=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =
+=EC=9D=B4=EC=9A=A9=EB=82=B4=EC=97=AD=EC=9D=98 =ED=86=B5=EC=A7=80)</span>=
+=EC=97=90 =EB=94=B0=EB=9D=BC =EC=97=B0 1=ED=9A=8C
+          =
+=EB=AA=A8=EB=93=A0 =ED=9A=8C=EC=9B=90=EB=8B=98=EB=93=A4=EA=BB=98 =
+=EC=A0=95=EA=B8=B0=EC=A0=81=EC=9C=BC=EB=A1=9C =EB=B0=9C=EC=86=A1=ED=95=98=
+=EB=8A=94 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =
+=EB=82=B4=EC=97=AD =EC=95=88=EB=82=B4 =EB=A9=94=EC=9D=BC=EC=9E=85=
+=EB=8B=88=EB=8B=A4.
+        </p>
+      </div>
+     =20
+      <div style=3D"padding:0 20px;">
+          <div =
+style=3D"margin-bottom:32px;">
+            <h2 style=3D"margin-bottom:6px;f=
+ont-size:20px;color:#333;font-weight:bold;">=EC=A3=BC=EC=9A=94 =
+=EC=95=88=EB=82=B4 =ED=95=AD=EB=AA=A9</h2>
+            <table =
+cellpadding=3D"0" cellspacing=3D"0"
+              style=3D"width:100%;table=
+-layout:fixed;border:solid #333;border-width:1px 0 0;">
+              <tr>
+                <td style=3D"padding:18px 0 8px;font-size:16px;color:#888;"=
+>=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =EC=88=98=EC=A7=91 =EB=B0=8F=
+ =EC=9D=B4=EC=9A=A9 =EB=AA=A9=EC=A0=81</td>
+              </tr>
+              <tr>
+                <td style=3D"padding:8px =
+0;font-size:16px;color:#888;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98=
+ =EC=88=98=EC=A7=91 =ED=95=AD=EB=AA=A9</td>
+              </tr>
+              <tr>
+                <td style=3D"padding:8px =
+0;font-size:16px;color:#888;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98=
+ =EC=A0=9C3=EC=9E=90 =EC=A0=9C=EA=B3=B5</td>
+              </tr>
+              <tr>
+                <td style=3D"padding:8px =
+0;font-size:16px;color:#888;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=
+=EC=B2=98=EB=A6=AC=EC=9D=98 =EC=9C=84=ED=83=81</td>
+              </tr>
+            </table>
+          </div>
+   =20
+          <table =
+cellpadding=3D"0" cellspacing=3D"0" style=3D"margin:0 auto =
+20px;max-width:340px;width:100%;table-layout:fixed;">
+            <tbody>
+              <tr>
+                <td>
+                  <a =
+href=3D"https://mustit.co.kr/etc/user_defend"
+                    =
+style=3D"display:block;padding:18px 0;font-size:20px;font-weight:bold;color=
+:#fff;background-color:#f52644;text-align:center;text-decoration:none;"
+                    rel=3D"noreferrer noopener" target=3D"_blank">=
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=B2=98=EB=A6=AC=EB=B0=A9=EC=B9=A8 =
+=EB=B3=B4=EA=B8=B0</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+   =20
+          <p =
+style=3D"border:solid #eee;border-width:1px 0 0;"></p>
+   =20
+          <p style=3D"font-size:16px;color:#222;margin-top:16px;">
+            =EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87=EC=9D=80 =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EC=86=8C=EC=A4=91=ED=95=9C =
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=A5=BC =EC=95=88=EC=A0=84=ED=95=98=
+=EA=B2=8C =EA=B4=80=EB=A6=AC=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4 =
+=EC=B5=9C=EC=84=A0=EC=9D=84 =EB=8B=A4=ED=95=98=EA=B2=A0=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.
+          </p>
+      </div>
+    </div>
+    <div =
+style=3D"padding:40px 15px;background-color:#f5f5f5;text-align:center;">
+      <p style=3D"font-size:16px;color:#333;margin-bottom:8px;font-weight:b=
+old;">=EC=89=BD=EA=B3=A0 =ED=8E=B8=ED=95=98=EA=B2=8C =
+=EC=87=BC=ED=95=91=ED=95=98=EB=8A=94 =EB=B2=95! <span
+          style=3D"font:inherit;color:#f52644;">=EB=A8=B8=EC=8A=A4=
+=ED=8A=B8=EC=9E=87 =EC=95=B1</span>=EC=9D=84 =EB=A7=8C=EB=82=98=EB=B3=B4=
+=EC=84=B8=EC=9A=94!</p>
+      <p style=3D"margin-bottom:16px;text-align:cen=
+ter">
+        <a href=3D"https://play.google.com/store/apps/details?id=3Dkr=
+.co.mustit"
+          style=3D"display:inline-block;width:44.=
+4%;max-width:160px;text-align:center;" target=3D"_blank">
+          <img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/ic=
+on/icon_btn_googleplay.png" alt=3D"=EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87" =
+width=3D"160" />
+        </a>
+        <a href=3D"https://itunes.apple.=
+com/kr/app/mustit/id876202899?mt=3D8"
+          style=3D"display:inline-blo=
+ck;width:44.4%;max-width:160px;text-align:center;" target=3D"_blank">
+          <img src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/ic=
+on/icon_btn_applestore.png" alt=3D"=EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87" =
+width=3D"160" />
+        </a>
+      </p>
+      <p style=3D"font-size:14px;c=
+olor:#333;font-weight:bold;margin-bottom:4px;">=EB=A8=B8=EC=8A=A4=
+=ED=8A=B8=EC=9E=87=EC=9D=80 =EB=8C=80=ED=95=9C=EB=AF=BC=EA=B5=AD =
+=EB=8C=80=ED=91=9C =EC=98=A8=EB=9D=BC=EC=9D=B8 =EB=AA=85=ED=92=88 =
+=EC=BB=A4=EB=A8=B8=EC=8A=A4=EC=9E=85=EB=8B=88=EB=8B=A4.</p>
+      <p style=3D"font-size:12px;color:#888;margin-bottom:4px;">
+        =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EC=9D=B4=EB=A9=94=EC=9D=BC =
+=EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98 =EC=97=AC=EB=B6=80=EC=99=80 =
+=EA=B4=80=EA=B3=84=EC=97=86=EC=9D=B4 =EB=B2=95=EB=A5=A0=EC=83=81 =
+=EB=B0=9C=EC=86=A1=EB=90=98=EB=8A=94 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=
+=EB=8B=A4.<br />
+        =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9 =
+=EB=A9=94=EC=9D=BC=EC=9D=B4=EB=AF=80=EB=A1=9C =EC=9E=90=EC=84=B8=ED=95=9C =
+=EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=EC=9D=80 <a href=3D"https://mustit.co.=
+kr/board/qna_customer" style=3D"font:inherit;color:#007aff;"
+          target=3D"_blank">1:1=EB=AC=B8=EC=9D=98=ED=95=98=EA=B8=B0</a>=
+=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94.
+      </p>
+      <p style=3D"font-size:12px;color:#888;">COPYRIGHTS =
+(C)MUST=E2=80=99 IT. ALL RIGHTS RESERVED.</p>
+      <p =
+style=3D"margin-top:24px;text-align:center;">
+        <img =
+src=3D"https://static-ux.mustit.co.kr/img/front/etc/email/bi/bi_mustit_foot=
+er.png" alt=3D"=EB=A8=B8=EC=8A=A4=ED=8A=B8=EC=9E=87" width=3D"80" />
+      </p>
+    </div>
+  </div>
+</div>

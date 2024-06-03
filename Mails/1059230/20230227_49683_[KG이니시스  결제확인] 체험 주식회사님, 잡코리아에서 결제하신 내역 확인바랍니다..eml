@@ -1,0 +1,158 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1677477670;
+	cv=none; b=CWMw3AfRctaWVimjQl12iUeAwC4ioncZ7Dx4JAmgdnPKrplS/B/ytfLQzuD2
+	 S7VQnpO3+W8Rptth52tKFgjVEPaVrKwHts7h8fwrk+vwVtbSo7WJJ87Zx1CRkZGFBJJWDY
+	 G1pm0vuMDGbhMW1ZQzuGkMMR45y2jINyNbEsJizdlaS23X5xUMkFmaJjeigrC3PSi7JuVw
+	 pvy2zdJvQNGNAAmj29/4+YoI3J+dHl0xq9sKSTa+knYt+YpYlKGLqmQ0xw4EEDNs7rdZKN
+	 BU8WnltCQDGi5pFjYP2RsnDVorH0jBbFCSfuD6SPNK+7CXXb8yd9OpRun3K11rwrGbjWoJ
+	 gw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1677477670; c=relaxed/relaxed;
+	bh=PmeG8C0sFqdAtrmjU7eabJ/4rAibIXdJ/Fc0XdDDMWQ=;
+	h=message-id:from:to:subject:date; b=iTypuD80peyLHcAuxAKhEmUcya9UVUI5Ni
+	 oSpynKMaWaeLTekL8exMioMqox5WwhEehD5/3Vx7Rl2Qxnaxe5ada0r9OYgwrtawq5KRzQ
+	 Y8xYpDzpNLo5NuoQTNd+Zbr+kTgvibG/MFshN7OZp9y2ypunUaz929pU820/mjXDFWUyKK
+	 BUTbA3LFp3L4TiMqpUXVZ88yONl4UqnBzGB0zGBSaccLTF0NXRGeIvhoAho75+zYS2sA98
+	 cgDSfojPbjVHxTd6OE0p5ShJ3urmHUUIa5QDVSTo7EbIpnZhpPrwiDsd8NhHxHDlKyuvqK
+	 rNiCoy5URFQ3mT2Jb7/IF7oe+JWw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender) smtp.mailfrom=mail@imas.inicis.com
+Return-Path: <mail@imas.inicis.com>
+Received-SPF: pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender)
+  client-ip=203.238.37.180; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender) smtp.mailfrom=mail@imas.inicis.com
+X-Naver-ESV: wZ+n+6J4p63qMBIYKXwdbXmmFogwKxIYkXm=
+X-Session-IP: 203.238.37.180
+Received: from inicis.com (imas.inicis.com [203.238.37.180])
+  by crcvmail304.nm.naver.com with ESMTP id 7UhFJNMcTDquvdSJ9EFOwQ
+  for <1059230@naver.com>;
+  Mon, 27 Feb 2023 06:01:10 -0000
+Message-ID: <1677477651211.8395574@imas>
+From: "=?euc-kr?B?S0fAzLTPvcO9ug==?=" <mail@imas.inicis.com>
+To: "=?euc-kr?B?w7zH6CDB1r3EyLi75w==?=" <1059230@naver.com>
+Subject: =?euc-kr?B?W0tHwMy0z73DvbogILDhwabIrsDOXSDDvMfoIMHWvcTIuLvntNQsIMDi?=
+	=?euc-kr?B?xNq4rr7Gv6G8rSCw4cGmx8+9xSCzu7+qIMiuwM652bb4tM+02S4=?=
+Date: Mon, 27 Feb 2023 15:00:51 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000000063
+X-MNWISE-RESULT_SEQ: 1677477647777117
+X-MNWISE-USER_ID: des64egj85fwb3V0KKVdxprobeQ==
+X-MNWISE-LIST_SEQ: des6486vu7GqIHKn6uYJIDhSoAg==
+X-MNWISE-RECORD_SEQ: des649AseupUOO8s=
+X-MNWISE-CLIENT_TYPE: ec
+Content-Type: text/html; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KG Inicis</title>
+</head>
+<body>
+<div align="left" width="780px" style="font-family:'KG_inicis','나눔고딕','돋움'; font-size:14px;">
+<div name="view_kor">
+<table width="780" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td colspan="3"><div align="center"><img src="http://www.inicis.com/2016/sobomail/head_logo.jpg" width="780" height="114" border="0" usemap="#Map" /></div></td>
+  </tr>
+  <tr>
+      <td width="10" rowspan="8" bgcolor="#f2f2f2">&nbsp;</td>
+    <td><img src="http://www.inicis.com/2016/sobomail/table_top.jpg" width="760" height="62" /></td>
+    <td width="10" rowspan="8" bgcolor="#f2f2f2">&nbsp; </td>
+    </tr>
+  <tr>
+    <td>
+<img src="http://www.inicis.com/2016/sobomail/head_line_1.jpg" width="760" height="100" />
+</td>
+  </tr>
+  <tr>
+    <td style="padding:20px 30px;font-size:13px;"><b>체험 주식회사</b>고객님이 <b>잡코리아</b>에서 KG이니시스 결제시스템을 통해 결제하신 내역입니다.<br>
+                  KG이니시스는 온라인 결제를 대행하는 업체로 구매하신 상품의 취소 및 배송 문의는 실제 구입하신 상점에 문의해 주십시오.<br>
+				                     </td>
+  </tr>
+  <tr>
+    <td><img src="http://www.inicis.com/2016/sobomail/dot_line.jpg" width="760" height="24"  border="0" /></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="700px" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="4" height="15px"></td>
+      </tr>
+	        <tr>
+        <td colspan="2" style="border-bottom:solid 3px #b2b2b2;color:#90278c; font-size:22px;font-weight: bolder;text-align:left;padding:5px 10px;">결제금액</td>
+        <td colspan="2" style="border-bottom:solid 3px #b2b2b2;color:#4d1f79; font-size:42px;font-weight: bolder;text-align:right;padding:5px 10px">
+			  		     		 3,000,000원
+      		 		</td>
+    </tr>
+	      <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">결제 수단</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 신용카드   4021-75XX-XXXX-3951 </td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">구매자명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">체험 주식회사</td>
+      </tr>
+      <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">결제 일시</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">
+                2023년 02월 27일&nbsp;14시57분<br />
+                 </td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">주문 상품명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">[유료]알바몬 유료 상품</td>
+      </tr>
+      <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">할부 기간</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 3개월 <br /></td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">구매 상점명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">
+                	잡코리아                </td>
+      </tr>
+	   		<tr>
+        <td width="111" style="border-bottom:solid 3px #b2b2b2;padding:15px 10px;">승인 번호</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 24496090 </td>
+        <td width="120" style="border-bottom:solid 3px #b2b2b2;padding:15px 10px;">연락처</td>
+        <td width="242" style="border-bottom:solid 3px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">1588-9351</td>
+        </tr>
+		    </table></td>
+  </tr>
+  <tr>
+        <td align="center">
+    <table width="700" border="0" cellpadding="0" cellspacing="0" style="text-align:center;">
+      <tr>
+        <td colspan="2" height="10px"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">
+        <a href="https://iniweb.inicis.com/mall/cr/cm/mCmReceipt_head.jsp?noTid=StdpayCARDjobkorea2820230227145754390197&noMethod=1" target="_blank" >
+        <img src="http://www.inicis.com/2016/sobomail/btn_1.jpg" width="344" height="60" border="0" /></a></td>
+        <td style="text-align:right;">
+				<a href="http://www.jobkorea.co.kr" target="_blank" >
+				<img src="http://www.inicis.com/2016/sobomail/btn_2.jpg" width="344" height="60" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="10px"></td>
+      </tr>
+    </table></td>
+      </tr>
+        <tr>
+    <td><img src="http://www.inicis.com/2016/sobomail/table_bottom.jpg" width="760" height="62" /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f2f2f2" style="padding:10px 10px;font-size:13px;">ㆍ본 메일은 발신전용 메일 이므로 회신을 통한 문의는 처리되지 않습니다. <br><br>
+            ㆍ본 메일은 전자상거래 결제 대행 업체인 ㈜KG이니시스에서 자동 발송되는 것으로 '전자상거래 등 에서의 소비자 보호법에<br>
+            &nbsp;&nbsp;관한 법률 제 8조 3항'에 의거, 결제 시 메일 발송에 대한 고객의 동의를 얻은 것으로, 해당 쇼핑몰과는 별도로 발송됩니다. <br><br>
+            ㆍ본 메일을 임의로 위, 변조하여 사용할 경우 형사 처벌의 대상이 될 수 있습니다. </p>
+            <p>ㆍ고객님은 2023년 02월 27일&nbsp;14시57분
+				 기준으로 이니시스 결제 진행 시 광고 수신에 동의하였습니다.<br>
+         &nbsp;&nbsp;만약 더 이상 광고 수신을 원치 않으시면, 여기  <a href="https://iniweb-api.inicis.com/WiseU/userUnsubscribe.jsp?iUserId=6509081245&transactionInfo=StdpayCARDjobkorea2820230227145754390197&iEmail=1059230@naver.com&emailType=00" target="_blank">[수신거부/동의철회]</a> 를 눌러 수신거부 처리하시기 바랍니다.<br/>
+&nbsp;&nbsp;(If you don't want to receive this ads e-mail anymore, <a href="https://iniweb-api.inicis.com/WiseU/userUnsubscribe.jsp?iUserId=6509081245&transactionInfo=StdpayCARDjobkorea2820230227145754390197&iEmail=1059230@naver.com&emailType=00" target="_blank">click here</a>)</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="http://www.inicis.com/2016/sobomail/info.jpg" width="780" height="92" border="0" usemap="#Map2" /></td>
+  </tr>
+</table>
+</div>
+<br><IMG width=0 height=0 src='http://203.238.37.180:9000/servlet/ReceiveConfirmEC?SEND_MODE=R&RESULT_SEQ=1677477647777117&CAMPAIGN_NO=000000000000063&START_DATE=20230227150049&END_DATE=20230306150049&LIST_SEQ=0000000001&RECORD_SEQ=0&CUSTOMER_ID=des64egj85fwb3V0KKVdxprobeQ=='>
+</body>
+</html>
+

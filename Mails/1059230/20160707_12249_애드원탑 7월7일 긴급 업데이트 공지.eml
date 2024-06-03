@@ -1,0 +1,59 @@
+Received: (qmail 18488 invoked from network); 7 Jul 2016 12:18:08 -0000
+Received: from 10.114.49.205 (HELO crcvmail15-1.nm.naver.com) (10.114.49.205)
+  by cmda37-2.nm.naver.com with SMTP; 7 Jul 2016 12:18:08 -0000
+X-Suspicious-Sender: yes
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of djlkek@maillink.co.kr designates 61.100.12.229 as permitted sender) smtp.mailfrom=djlkek@maillink.co.kr;
+  dkim=fail (no key for signature) header.i=@maillink.co.kr;
+  dmarc=fail (p=NONE) header.from=gmail.com
+Received: from  (maillink.co.kr [61.100.12.229])
+  by crcvmail15-1.nm.naver.com with ESMTP id PmZ8-15tS0CdNIveQonZIg
+  for <1059230@naver.com>;
+  Thu, 07 Jul 2016 12:18:08 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; t=1467893887; s=s1;
+	d=maillink.co.kr;
+	h=Date:Subject:From:Reply-To:To:MIME-Version:Content-type:Content-transfer-encoding:List-Unsubscribe:Message-ID:X-Mailer:X-NetpionMsgID;
+	bh=l2th/ZCh3gVMLWB4Xzsxdce9uTobFrQ3mnmIOR7aOCc=;
+	b=2xzSCnQ23N1LK+Vlp1VEv9BBWF/N+448n8ix0bFOpRTVEEEPAlDu2wrFKVmGE2dq
+	QdZjkxy3CAW6EMHQzDtL2MGfM9E43JT9Ke88YDzQ2uLj1Ugjl+z2OSH6Nm5OhRPbJl/
+	MQWyYjG08IW0w8Nt8QvxuaCix1EZKDi3Rx4CTTvA=
+Date: Thu, 7 Jul 2016 21:18:07 +0900
+Subject: =?utf-8?B?7JWg65Oc7JuQ7YORIDfsm5Q37J28IOq4tOq4iSDsl4XrjbDsnbTtirgg6rO17KeA?=
+From: "=?utf-8?B?YWRvbmV0b3A=?=" <adonetopceo@gmail.com>
+Reply-To: <adonetopceo@gmail.com>
+To: <1059230@naver.com>
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+Content-transfer-encoding: 8bit
+List-Unsubscribe: <http://track.maillink.co.kr/procresponse?a=2I-13021201I-4166I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4I-3>
+Message-ID: 1467893887804.3021201.1.166
+X-Mailer: Maillink Scheduler v3.1
+X-NetpionMsgID: 1467893887804.3021201.1.166
+X-Naver-ESV: +XeYpB3G1H+YbXFCbHmRKxUwaAg/jJ+Y
+
+
+<p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">안녕하세요 애드원탑입니다.</span><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">​</span></p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">2016년 7월 초를 시점으로 네이버의 모바일 상위노출 ( <a href="http://track.maillink.co.kr/procresponse?a=6I-13021201I-4166I-4goaSoZE-8zPqrCF-122533924I-4ehhgE-8D-7D-7bD-6HBcPuD-6oCbI-3" name="ANCHOR23049788">http://m.naver.com</a> ) 에서&nbsp;</span></font></p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">갑작스럽게 통합검색에 대한 변경과 검색광고 개편을 통한 이슈가 발생하였습니다.&nbsp;</span><br></font></p><p>&nbsp;</p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">현재까지 발생한 여러가지 상황에서 아주 간략한 현재 상황은 아래와 같습니다.</span></font></p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">(1) 통합검색에서 5개 ~ 10개의 컨텐츠가 나오던 카테고리 (블로그,카페,지식인,웹문서) 가 키워드마다 다르지만, 3개~5개로 축소되었습니다.</span></font></p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">(2) 키워드가 "맛집" 등.. 일 경우, 통합검색이 사라지고 리뷰 카테고리가 신규로 생성되어, '지식인,카페,웹문서' 카테고리가 노출 되지 않습니다, 그 대신 블로그, 포스트 카테고리만 노출이 됩니다. ('리뷰더보기' 클릭시, 약 100개의 컨텐츠가 나옵니다.)</span></font></p><p>&nbsp;</p><p><font face="나눔고딕, NanumGothic, sans-serif"><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">이에 애드원탑에서 제공하는 오토슬롯 ( </span></font><span style="font-family: 나눔고딕, NanumGothic, sans-serif; line-height: 1.5;"><a href="http://track.maillink.co.kr/procresponse?a=5I-13021201I-4166I-4goaSoZE-8zPqrCF-122533925I-4ehhgE-8D-7D-7BJCHPhCgD-6oCbD-7zaChD-7aCESHD-6gegI-3" name="ANCHOR23049789">http://adonetop.com/slot/login.php</a></span><span style="font-family: 나눔고딕, NanumGothic, sans-serif; line-height: 1.5;">​ )</span><span style="font-family: 나눔고딕, NanumGothic, sans-serif; line-height: 1.5;">&nbsp;에서는</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">리뷰 카테고리를 추가하였으며, 그 사용방법을 동영상으로 촬영하여 공지드립니다.</span></p><p>&nbsp;</p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">*리뷰 카테고리 Url 설정 :&nbsp;</span><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">https://vimeo.com/173748021</span></p><p>&nbsp;</p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">모바일 통합검색에 노출을 도모하셨던 많은 고객사분들이 계신데요.</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">"통합검색 &gt; 리뷰" 에서는 카페,지식인,웹문서 카테고리가 제외되었다는점&nbsp;</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">참고하시어 블로그,포스트 마케팅에 주력하시길 추천드립니다.</span><span style="line-height: 1.5; font-family: 나눔고딕, NanumGothic, sans-serif;">&nbsp;</span></p><p>&nbsp;</p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">마케팅 친구, 애드원탑의 긴급공지 사항이였습니다.</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">감사합니다.</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif; line-height: 1.5;">​</span></p><p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">&nbsp;</span></p>
+
+
+
+
+
+<table class="signature" style="border: 2px solid rgb(238, 238, 238); border-image: none; line-height: 1.5; background-color: rgb(255, 255, 255);" cellpadding="0" cellspacing="0" width="530"><tbody><tr><td style="padding: 0px; font-size: 0px;" width="15"></td><td style="padding: 0px; font-size: 0px;">
+
+<table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding: 0px; font-size: 0px;" colspan="2" height="15"></td></tr><tr><td style="padding: 0px;"><p style="line-height: 1;"><strong style="font-family: Arial, sans-serif; font-size: 17px;"><span style="color: rgb(63, 63, 63);">애드원탑<br></span></strong></p><p style="line-height: 1;"><span style="font-family: Arial, sans-serif; font-size: 14px;"><span style="color: rgb(172, 172, 172); font-size: 8pt;">ADONETOP</span><span style="color: rgb(172, 172, 172);"> &nbsp; </span><font style="font-weight: bold;" color="#f75e5e"><span style="font-size: 12pt;">고객센터<br></span></font></span></p></td><td align="right"><br></td></tr><tr><td style="padding: 0px; font-size: 0px;" colspan="2" height="6"></td></tr></tbody></table>
+
+<table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding: 0px; line-height: 1px; font-size: 0px; background-color: rgb(38, 151, 247);" height="1"></td></tr><tr><td style="padding: 0px; font-size: 0px;" height="8"></td></tr><tr><td style="padding: 0px; font-family: Arial, sans-serif; font-size: 12px;"><strong><span style="color: rgb(63, 63, 63);">ADONETOP</span></strong><span style="color: rgb(63, 63, 63);"> I&nbsp;</span><span style="font-family: 나눔고딕, NanumGothic, sans-serif; font-size: 13px; color: rgb(63, 63, 63);">Strategy Making Team</span><span style="color: rgb(63, 63, 63);">&nbsp;</span><!--span>I</span--><!--직급--></td></tr></tbody></table>
+
+<table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding: 0px; font-size: 0px;" height="10"></td></tr><tr><td style="padding: 0px; font-family: Arial, sans-serif; font-size: 12px;" height="16"><strong><span style="color: rgb(63, 63, 63);">Mobile</span></strong><span style="color: rgb(63, 63, 63);"> +82-10-8933-9294 I </span><strong><span style="color: rgb(63, 63, 63);">Kakao</span></strong><span style="color: rgb(63, 63, 63);"> adonetop<br></span></td></tr><tr><td style="padding: 0px; font-family: Arial, sans-serif; font-size: 12px;" height="16"><strong><span style="color: rgb(63, 63, 63);">E-mail</span></strong><span style="color: rgb(63, 63, 63);"> adonetopceo@gmail.com&nbsp;I </span><strong><span style="color: rgb(63, 63, 63);">Nate-On</span></strong><span style="color: rgb(63, 63, 63);"> adonetop@nate.com</span></td></tr><tr><td style="padding: 0px; font-family: Arial, sans-serif; font-size: 12px;" height="16"><p><strong><span style="color: rgb(63, 63, 63);">Site</span></strong><span style="color: rgb(63, 63, 63);">&nbsp;</span><a href="http://track.maillink.co.kr/procresponse?a=7I-13021201I-4166I-4goaSoZE-8zPqrCF-122533926I-4ehhgE-8D-7D-7DDDD-6BJCHPhCgD-6oCbI-3" name="ANCHOR23049790" class="con_link" target="_blank"><span style="color: rgb(63, 63, 63);">http://www.adonetop.com</span></a><span style="color: rgb(63, 63, 63);"> I&nbsp;</span><strong><span style="color: rgb(63, 63, 63);">Intro&nbsp;</span></strong><a href="http://track.maillink.co.kr/procresponse?a=6I-13021201I-4166I-4goaSoZE-8zPqrCF-122533927I-4ehhgE-8D-7D-7DDDD-6BJCHPhCgD-6oCbD-7SHhuCD-72016I-5BJCHPhCgI-5SHhuCI-5ZuI-5c2D-6gJmI-3" name="ANCHOR23049791" class="con_link" target="_blank"><span style="color: rgb(63, 63, 63);">Click</span></a></p></td></tr></tbody></table>
+
+<table cellpadding="0" cellspacing="0" width="100%"><tbody><tr><td style="padding: 0px; font-size: 0px;" height="15"></td></tr><tr><td style="padding: 0px;"><strong style="color: rgb(145, 107, 74); font-family: Arial, sans-serif; font-size: 10px;"><span style="color: rgb(63, 63, 63);">홈페이지 | 어플리케이션 | 솔루션 | 광고대행 | 마케팅프로그램 | 소프트웨어개발 | 온라인컨설팅</span></strong></td><td align="right"><strong style="color: rgb(145, 107, 74); font-family: Arial, sans-serif; font-size: 12px;"></strong></td></tr></tbody></table></td><td style="padding: 0px; font-size: 0px;" width="15"></td></tr><tr><td style="padding: 0px; font-size: 0px;" colspan="3" height="12"></td></tr></tbody></table><div id=maillinkAutoCreatedFooter>
+<table width=550 style='border:1px solid #bebebe;'>	
+<tr><td width=550 bgcolor=#ffffff style='PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-TOP: 10px; PADDING-BOTTOM: 10px; LINE-HEIGHT: 16px; font-family:dotum; font-size:12px; color:#787878;'>
+ 본 이메일은 애드원탑의 오토슬롯 사이트의 회원분들에게 발송드리는 이메일 서비스 입니다.
+ 메일 수신을 원치 않으시면 <a href="http://track.maillink.co.kr/procresponse?a=8I-13021201I-4166I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4I-3" style="color:#505050;" target="_blank">[수신거부]</A>를 클릭하십시오. If you don't want this type of information or e-mail, please click the <a href="http://track.maillink.co.kr/procresponse?a=8I-13021201I-4166I-4CUhhCzzI-41059230F-4HBcPuD-6oCbI-4I-3" style="color:#505050;" target="_blank">[unsubscription]</A>
+</td></tr></table></div><div id=maillinkFileAttachment>
+<table style='margin-top:2px;width:550px;' border=0 cellspacing=1 bgcolor=#bebebe>
+</table></div><img height="1" width="1" border="0" src="http://track.maillink.co.kr/procresponse?a=5I-13021201I-4166I-4SbBEPI-4I-3" />
+
+
+

@@ -1,0 +1,60 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1638432900;
+	cv=none; b=lt0VbT3dSruUAoEClPbq9wrPXLvAbML9Lx/8XSi3+Ks4RM1YkbIi63pjnBlX
+	 Bnyt6luic2J+IPKXSirMJdqcZavBAMX6QPUgMktAOb2LT5zm1k6W3tZjpSEEe4d4l42MKv
+	 xmqA7LgotfQyfJaeKduGUctGdwhj5zfeBMYJHwlaoopcDbJ0V+rSwHX39l85LjInV4LHiJ
+	 4n2P+DVAbw/A1Sdwo8je1BwfnIRA/ynj4WLSsMZbEUw0kUaGbClC7AzEKO68FYmsbHQ1JV
+	 yd0B6NUByuCBmmOZFXVrDHdUfcYwlsvzOCW5kJ+2v1E/H3bTaf6MpbcRGkccSbTtIQSzuL
+	 pQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1638432900; c=relaxed/relaxed;
+	bh=QW90arfaZgFLbYoHVNPL6jBw1e3ZRusPftvdE/bejDk=;
+	h=from:to:subject:date; b=dXaaiiom/W+mBQDkMmc5nCDVNOp+BMsw//u5U59tb0m5b
+	 t3y7QeRF/VN4DOJz3E9DLIj8/kOrMxQibaMw2I9V3+Q3PrULHPgUbF7nczRc5nB0BBqsJs
+	 9+p792iyRGvB4y2C313MkkBsj/yOAPTgdTmghARRVWDPS0hTNZWA3OgDcegZrbPIbNAoMF
+	 eB1caXYmGNy0d2RiIIPt8sTldK4g2/TgDVU23GYltaQQUPuH2e0HIYZ2+C65WScVvJ74ID
+	 UX6vVeu4Lf0kUPED5TlG3a5/q60fcJwOWYnIYZV3MWfLGyNlfNwVYr4HbfUAPvCD4Y9MnE
+	 /hN1dOYkslforz2bA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of namepr@namepr.co.kr designates 202.68.224.65 as permitted sender) smtp.mailfrom=namepr@namepr.co.kr
+Return-Path: <namepr@namepr.co.kr>
+Received-SPF: pass (mx.naver.com: domain of namepr@namepr.co.kr designates 202.68.224.65 as permitted sender)
+  client-ip=202.68.224.65; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of namepr@namepr.co.kr designates 202.68.224.65 as permitted sender) smtp.mailfrom=namepr@namepr.co.kr
+X-Naver-ESV: wdFn+6J4p63qMBIYFHwdbXmmaAu9KAIYkXm=
+X-Session-IP: 202.68.224.65
+Message-ID: <1638432900280.7f0a4.10816609@crcvmail202.nm>
+Received: from namepr.co.kr (mail.namepr.co.kr [202.68.224.65])
+  by crcvmail202.nm.naver.com with ESMTP id tnXysDRbQgmVI015Zm5Zyw
+  for <1059230@naver.com>;
+  Thu, 02 Dec 2021 08:15:00 -0000
+From: Namepr<namepr@namepr.co.kr>
+To: 1059230@naver.com
+Subject: (광고) 좋은 설계사 만나는 꿀팁~ 내아이의 생애 첫 보험 태아보험 준비하기!!
+Reply-To: namepr@namepr.biz
+Date: Thu, 2 Dec 2021 17:14:57 +0900
+Mime-Version: 1.0
+Content-Type:text/html; charset=ks_c_5601-1987
+
+<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="2"><a href="http://hilife.insparty.com/?mid=mlv_5" target="_blank"><img src="http://www.soorisoori.com/mail/xod_dka_qhg_gonq_young.png" width="768"height="2300" /></td>
+  </tr>
+</table>
+<table width="768" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td colspan="2"><img src="http://www.soorisoori.com/mail/middle_down.png" width="768" height="4" /></td>
+  </tr>
+</table>
+ <table width="768" border="0" cellspacing="0" cellpadding="0" align="center"> 
+<tr> 
+<td colspan="2"><a href="http://adnamepr.com/Back/MailMgmt/Mail_Cancel.html?cancelemail=1059230@naver.com&adcode=jyoung_bh_21120201" target="_blank"><img src="http://www.soorisoori.com/mail/npr_2t_hw_down.png" width="768" height="170" /></td> 
+</tr>
+</table> 
+<img src="http://adnamepr.com/Interface/backproxy.aspx?MT=InsertReceiptMail&PV=jyoung_bh_21120201|`|1059230@naver.com" width="0" height="0" />
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=naver.com; s=s20171208;
+	t=1700734558; bh=cycKmK2c2qmf0RillcwrC0C8sy1MR2vHR+IlI7w3y/Q=;
+	h=Message-ID:Date:From:To:Subject:From:Subject:Feedback-ID:
+	 X-Works-Security;
+	b=i+pADS6fgHx6KV6eRLe85YnBsSlF8N8pLPOoD3SaVDJv999idNEIGpwpJr7wBDU40
+	 x1xxswp49OQV4SvXg4Z6fushiR3VWfYToF08aCaqS+gEVp9+6UUzm6Ke6MWAqdOJaG
+	 O3JEUzh2wEt0xm1wnhf6X9RoLliFIDw3NxYuH2TeTeN5MQijTF7Xmgjiafd1+SLxyL
+	 +12zvkusRJ1bNBBwXgmGjch5JqJaIuhiPvP7n5JmxfmhyP1JnzQmmaw7Fk8mInGi0k
+	 ZIzDdl3cZ1SR5AQkJ5ML7qX6fc4mVcBgDo7VMlpEttmRQM/lw1cMVxSsHsGwYkPoys
+	 tI4qeWyqGVVbQ==
+X-Session-ID: GYYwKxKZKAUmFq2wBqKZ7qglKo_81BF9WSYwaxbXKqt9FAgZFoE
+MIME-Version: 1.0
+Message-ID: <ad1469d10a1fbcc69c0635dfd59cf80@cweb013.nm.nfra.io>
+Date: Thu, 23 Nov 2023 19:15:58 +0900
+From: =?utf-8?B?7J6l7KeA7ISg?= <0927jisun@naver.com>
+Importance: normal
+To: =?utf-8?B?67CV7J6s7ISx?= <qkrwotjdd@naver.com>
+Subject: =?utf-8?B?7IOIIO2FjeyKpO2KuCDrrLjshJwudHh0?=
+X-Originating-IP: 210.105.42.120
+X-Works-Send-Opt: 3/YmjAJYjHm9axKqKxJYFAUmKNwYKt==
+Content-Type: multipart/mixed;
+	boundary="-----Boundary-WM=_7fa2da9fb700.1700734558692"
+
+-------Boundary-WM=_7fa2da9fb700.1700734558692
+Content-Type: multipart/alternative;
+	boundary="-----Boundary-WM=_7fa2da9fb700.1700734558693"
+
+-------Boundary-WM=_7fa2da9fb700.1700734558693
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+
+
+-------Boundary-WM=_7fa2da9fb700.1700734558693
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PHN0eWxlPnB7bWFyZ2luLXRvcDowcHg7bWFyZ2luLWJvdHRvbTowcHg7fTwv
+c3R5bGU+PC9oZWFkPjxib2R5PjxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxNHB4OyBmb250LWZhbWls
+eTpHdWxpbSzqtbTrprwsc2Fucy1zZXJpZjsiPjwvZGl2PjwvYm9keT48L2h0bWw+PHRhYmxlIHN0
+eWxlPSdkaXNwbGF5Om5vbmUnPjx0cj48dGQ+PGltZyBzcmM9Imh0dHBzOi8vbWFpbC5uYXZlci5j
+b20vcmVhZFJlY2VpcHQvbm90aWZ5Lz9pbWc9MHMlMkJHMW9iWmF4SXZNeG1zV05rcUt4dHJhNnR3
+S3p1d3A0aW9NcU1sTXFncktxa3ZwNHQ5YTZGNGFBSWdNWCUyQjBNb2d3S1psNVdMbDVwTmlDNzQw
+VGhvUncxWGlYV1gzOHB6M2dXNEpycEJVNU1yZVIuZ2lmIiBib3JkZXI9IjAiLz48L3RkPjwvdHI+
+PC90YWJsZT4=
+
+-------Boundary-WM=_7fa2da9fb700.1700734558693--
+
+-------Boundary-WM=_7fa2da9fb700.1700734558692
+Content-Type: text/plain;
+	name="=?utf-8?B?7IOIIO2FjeyKpO2KuCDrrLjshJwudHh0?="
+Content-Disposition: attachment;
+	filename="=?utf-8?B?7IOIIO2FjeyKpO2KuCDrrLjshJwudHh0?="
+Content-Transfer-Encoding: base64
+
+I+q4sOuzuOq4iSAzMDDrp4wgIyDqtIDrpqztjIAg7Iug7J6FL+qyveugpSDssYTsmqkgI+yLoOum
+vOyXrSDrj4Trs7Qz67aEDQoNCuyVjOuwlOuqrOydgCDslrTssKjtlLwgM+ywqOunjCDqtaztlZjr
+ipTqsbDrnbwg7J2066CH6rKMIOygnOuqqSDsp5Pqs6Ag7Jik66m0IOyEpOuqhe2VmOuptCDrkKDr
+k68NCg0KDQoNCuq0keqzoOyjvCDqtJHqs6Ag6rSA66asDQrsmIHsl4UgeCANCirsgqzrnozsnbgg
+7IiY7KCVDQoNCuyCrOuejOyduOygnOuqqQ0KKOyXsOu0iTM2MDAr7ISx6rO86riJKeq0gOumrO2M
+gCDsi6DsnoUv6rK966ClIOyxhOyaqS0tLT4g7J20IOygnOuqqeydgCDquLDsobQg67mE7IScIOq1
+rO2VmOuKlOqxsCDrtJDshJwg6rKw7KCVDQoNCuuwkeyXkCDsvZwg65Ox65OxIOuLpCDrubzquLA=
+
+-------Boundary-WM=_7fa2da9fb700.1700734558692--

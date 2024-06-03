@@ -1,0 +1,249 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1689227056;
+	cv=none; b=f7sVJXWpDF+WeiBDAPIotMoDHmeireSYy9Ybgn1L4MAjCDyDmWnzZPHD8Id9
+	 rnuJBikGTg6KEWUfb+nSsdfvb5VIddAwgZWcvcjrX6ns/GiCLnJh6P3h65Ngf3t6ACbY/b
+	 PkIs3ROIjsLuxH7ZEuF76uArBav3kFrtnm66dDw0sBGX4mTORj51D4EWJ3ea8nwhul761M
+	 RAwBVgOfYjC3PbpskSUXxsKwfCtvZT+7Z1tTQB50ohjKTHkcln02x/y7i/Bqrbj6ehYWFD
+	 +JXuA6sUsMnJqgLTWslQecVhJalxdxH0asnYo+KbhI+g2rOG/uFslqKhh51vFhox+ddjoP
+	 aQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1689227056; c=relaxed/relaxed;
+	bh=8zmjCorM+5TGpRG/+wHtOPi/zEioaw6aAgJXo8qXHXs=;
+	h=message-id:from:to:subject:date; b=AoweiKr2nw/77KCpb144cNK11S0dZxW5Ft
+	 tuFCqwbjJRXZBLqX4T8fXtEeaFXV8hRtN539zluwjCbd5JPG91PGTfjC3IIdNnfzfD/SjV
+	 sLAjQFySg6x1PGA2SI1fCLqO+x3MiyEA5TPGCINsuXVhfciHapJ/TRKMs0FjBh4n/NAjtH
+	 f2oV81z0GxeU29d6IH+9FDmP55wNNYkBJnTHnfSuocqFl5EnSNQhbUUprMifhNtWqHtBOM
+	 MPiv6aJiSnr3JBHQTcM1RqK7g99GbVSn9dnC4IBD/l9XzETL7RC1JSO+UxGs8g6hCf9xSK
+	 t9gZw9nN6e+Aq5mMaO/Nn+JVrE2g==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=return@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+Return-Path: <return@email2.citibank.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender)
+  client-ip=192.193.83.185; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=return@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+X-Naver-ESV: wwRn+6J4p63CbHmqKBwdbXFYKAEdFAurjJ+Y
+X-Session-IP: 192.193.83.185
+Received: from citibank.co.kr (email2.citibank.co.kr [192.193.83.185])
+  by crcvmail304.nm.naver.com with ESMTP id FSzwiKKrT76JXnOPdNY-6A
+  for <1059230@naver.com>;
+  Thu, 13 Jul 2023 05:44:16 -0000
+Message-ID: <1689224522429.2782852@krigcgemlla26pv.apac.nsroot.net>
+From: "=?EUC-KR?B?x9Gxub6+xrzAusfg?=" <citicenter@email2.citibank.co.kr>
+To: "=?EUC-KR?B?sO2wtLTU?=" <1059230@naver.com>
+Subject: =?EUC-KR?B?x9Gxub6+xrzAusfgsPogS0KxubnOwLrH4CC+97mrwabI3sf5vuC+yLO7?=
+Date: Thu, 13 Jul 2023 14:02:02 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000010088
+X-MNWISE-RESULT_SEQ: 1689224420630228
+X-MNWISE-USER_ID: des64oSReypgH84CUURTsK72dsw==
+X-MNWISE-LIST_SEQ: 0000431620
+X-MNWISE-RECORD_SEQ: 0
+X-MNWISE-CLIENT_TYPE: em
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">한국씨티은행과 KB국민은행 업무제휴협약 안내</div>
+<center> 
+<table class="container" style=" border: 1px solid #cccccc;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px;  max-width:0px; opacity:0; overflow:hidden;"></td>
+</tr>
+<tr>
+<td>
+<table class="container" style="max-width:642px;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td>
+<table style="background-color: #ffffff; width: 100%;" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<!--// 헤드 --> 
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" width="10" style="display:block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img alt="Citi" title="Citi" border="0" src="https://www.citibank.co.kr/download/cms/email/edm_logo_citi.png" width="35" height="20" style="width: 35px; height: 20px; display: block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 헤드 //--> <!--// 타이틀 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_top.jpg" alt="한국씨티은행과 KB국민은행 업무제휴협약 안내" style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<!-- 타이틀 //--> <!--// 내용 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_01.jpg" alt="한국씨티은행을 이용해주셔서 감사합니다.&#10;&#9;&#9;&#9;한국씨티은행은 소비자금융업무에 대해 단계적 폐지를 진행하고 있습니다.&#10;&#9;&#9;&#9;이로 인한 고객님의 불편을 최소화하기 위해 KB국민은행과 업무제휴협약을 진행하게 되었습니다.&#10;&#9;&#9;&#9;업무제휴협약에 대한 내용을 안내 드립니다.&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;&middot; 한국씨티은행 고객 대상 KB국민은행에서 환율우대, 금리우대, 수수료 면제, 대여금고 서비스 등 제공&#10;&#9;&#9;&#9;&middot; 고객 편의를 위해 한국씨티은행 영업점내 KB데스크 운영 (대전중앙지점, 청주지점제외)&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;업무제휴에 관한 자세한 내용은 아래의 링크를 통해 확인하시기 바랍니다." style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<tr>
+<td><a href="https://obank.kbstar.com/quics?page=C110274" target="_blank"> <img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_btn01.jpg" alt="업무 제휴 자세히 보기 >>" border="0" style="display: block;" /> </a></td>
+</tr>
+<!-- 내용 //--> <!--// 뉴풋터 배너 --> 
+<tr>
+<td align="right">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="right" valign="top" id="mob-image-footer"><img width="373" src="https://www.citibank.co.kr/download/cms/email/edm_bluebox_web_2x_new.png" border="0" style="width: 373px; display: block;" /></td>
+</tr>
+<tr>
+<td align="right" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img height="10" width="10" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" border="0" style="display:block; border-style: none;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 뉴풋터 배너 //--> <!-- 뉴풋터 배너 //--> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_02.jpg" alt="준법감시인 심의필 2307-06-107(2023.07.05)&#10;&#9;&#9;&#9;[참고사항]&#10;&#9;&#9;&#9;- 업무제휴협약에 관한 자세한 사항은 KB국민은행(1600-0922) 또는 한국씨티은행 영업점/센터 내 KB데스크를 통해서도 확인하실 수 있습니다.&#10;&#9;&#9;&#9;- KB국민은행이 한국씨티은행 고객님을 위해 준비한 혜택은 한국씨티은행 고객확인 후 상담결과에 따라 제공됩니다.&#10;&#9;&#9;&#9;- 한국씨티은행은 상품해지, 거래은행 변경 등 단계적 폐지로 인해 진행하시는 업무에 불편함이 없도록 최선을 다하겠습니다." style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<tr>
+<td><a href="https://www.citibank.co.kr/d.act?ID=3603" target="_blank"> <img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_btn02.jpg" alt="소비자금융 업부 단계적 폐지에 따른 은행 이용자 보호 계획 바로보기 >" border="0" style="display: block;" /> </a></td>
+</tr>
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230705_KB_notice_03.jpg" alt="- 한국씨티은행은 &ldquo;KB국민은행&rdquo;에 공식적으로 제공하지 않은 서비스 및 상품, 웹사이트 상의 각종 정보 등에 대해서는 어떠한 책임도 지지 않습니다. 또한, &ldquo;KB국민은행&rdquo; 웹사이트에서는 당행의 프라이버시(Privacy) 및 개인정보보호정책이 적용되지 않으며, 고객님과 당행 사이의 제반 약정이 적용되지 않으니 웹사이트 이용 시 유의하시기 바랍니다." style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<tr>
+<td align="left" valign="top" bgcolor="#f2f2f2">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<!-- Section 1 --> <!-- Template Body --> <!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td height="1" style="background:#ccc;"></td>
+</tr>
+<!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">본 메일은 발신 전용 메일입니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">한국씨티은행은 고객 여러분의 개인정보 보호를 위해, 이메일을 통하여 계좌번호, 비밀번호, 보유잔액, 카드번호, 신용카드 CVC번호 등의 개인정보를 확인하지 않습니다. 의심스러운 이메일을 받으신 경우 응답하지 마시고, 고객센터(<a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a>)로 연락주시기 바랍니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">추가되는 질문은 한국씨티은행 홈페이지의 고객센터를 통하여 남겨주시기 바라며, 회신을 통한 문의는 받지 않고 있습니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; letter-spacing:-0.05em;">(주)한국씨티은행<span style="color:#aaa;">&nbsp;|&nbsp;</span>대표자: 유명순<span style="color:#aaa;">&nbsp;|&nbsp;</span>주소: 서울특별시 종로구 새문안로 50(신문로2가)<span style="color:#aaa;">&nbsp;|&nbsp;</span><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">고객센터</span>: <a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a></span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">&copy;2023 Citigroup Inc<span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/CusIvinCnts0100.act" style="text-decoration:none; color:#007ad0;" target="_blank">Privacy</a><span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/ComStplCnts0100p.act" style="text-decoration:none; color:#007ad0;" target="_blank">Terms & Conditions</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<!-- Section 1 -->
+</tbody>
+</table>
+</td>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br><IMG width=0 height=0 src='http://email.goodbank.com:9000/servlet/ReceiveConfirmEM?SEND_MODE=R&RESULT_SEQ=1689224420630228&CAMPAIGN_NO=000000000010088&START_DATE=20230713000000&END_DATE=20230720235900&LIST_SEQ=0000431620&RECORD_SEQ=0&CUSTOMER_ID=des64oSReypgH84CUURTsK72dsw=='>
+</body>
+</html>

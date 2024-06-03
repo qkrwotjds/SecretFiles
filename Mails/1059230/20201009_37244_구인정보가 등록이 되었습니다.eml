@@ -1,0 +1,198 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1602192977;
+	cv=none; b=idNEc4ArJYVZY6fWQo/uSJzA5ov/Inh2rkMcbwZm3+HvpO/uaeGpXgn5+dnQ
+	 DZsABfn1kE12VmMpSKXBFNmjX9I5BuMx5uHnm2LoXVc8wAm7Y+NNnFXlJUNri9VA8eSF6/
+	 13cXZJ8YG0HV6P2jImL1b9f5/V9HEgmqIdsNZE5NHs8eQ59l3AjebHmrMlO92bOh8460+k
+	 xR2T91j661kbDKkYWH1Sa3ToFHzRKpuVt2BgtahkGYc03xxLLfpHd3xs6FXfe0o7fN6wdQ
+	 Mm0WUelZLZRkQ1LgneGFeWDLdMn7fCGHly6ddSRShYU4gi8jYwLzyeT4MKQBVtePGpMbOk
+	 NQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1602192977; c=relaxed/relaxed;
+	bh=bEmPRVXli5atsAKNQAy6JlZzShg4BF7vbwhfKRlyo14=;
+	h=to:subject:from:message-id:date; b=Mt5h1edGjYJ3vrtyaQgJFWkedRZfMMH/dN
+	 yvgG1d0WuY3W6hVk63y+vOYpwicuhz8pSAHf+8xEVWKq92duvn/JwvZlcHaSVxai/GoLzW
+	 9oipNVetwczyWOtcxqTGafwxT1LhElFLVBYYtxMmzBK8vJK3oaQ0BkoBg9YQOXEhC5owOF
+	 ZQ6swMdzWJVZuex7zZmO90IG/08ZyrJ+EnFz/bnk6Tdn22HSALXhdV1VeAwFIw5hJCbvWv
+	 LzPe6rkyg1zEnMvNk2mklCORHVKbhJWNeAAZKwj0RSZl/nHgRaN0l8JMsNM1HdkB2B1H7/
+	 XaUyu5leUf8Xji1+/B0D4NjhRJnQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=none (mx.naver.com: domain of nginx@ladyalba.co.kr does not designate permitted sender hosts) smtp.mailfrom=nginx@ladyalba.co.kr
+Return-Path: <nginx@ladyalba.co.kr>
+X-WM-Dns-Ptr: none
+Received-SPF: none (mx.naver.com: domain of nginx@ladyalba.co.kr does not designate permitted sender hosts)
+  client-ip=49.247.13.21; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=none (mx.naver.com: domain of nginx@ladyalba.co.kr does not designate permitted sender hosts) smtp.mailfrom=nginx@ladyalba.co.kr
+X-Naver-ESV: wfRn+6J4p63TWNmr7BwdW4kYKouqFouXjJ+Y
+X-Session-IP: 49.247.13.21
+Received: from ladyalba.co.kr ([49.247.13.21])
+  by crcvmail12.nm.naver.com with ESMTP id TwuEYwhAR26Qicr40sT-Eg
+  for <1059230@naver.com>;
+  Thu, 08 Oct 2020 21:36:17 -0000
+Received: by ladyalba.co.kr (Postfix, from userid 997)
+	id 84E5AE0FF3; Fri,  9 Oct 2020 06:35:25 +0900 (KST)
+To: 1059230@naver.com
+Subject: =?UTF-8?B?6rWs7J247KCV67O06rCAIOuTseuhneydtCDrkJjsl4jsirXri4jri6Q=?=
+X-PHP-Originating-Script: 1000:lib.php
+From: =?UTF-8?B?66CI7J2065SU7JWM67CU?= <noreply@ladyalba.co.kr>
+Reply-to: noreply@ladyalba.co.kr
+Content-Type: text/html; charset=UTF-8
+Message-Id: <20201008213525.84E5AE0FF3@ladyalba.co.kr>
+Date: Fri,  9 Oct 2020 06:35:25 +0900 (KST)
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+	<td>
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="14" height="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01a.gif"></td>
+			<td background="http://ladyalba.co.kr/img/mail/bg_mailbox01b.gif"><img src="blank.gif" width=0 height=0 border=0></td>
+			<td width="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01c.gif"></td>
+		</tr>
+		</table>
+
+
+		<!-- 타이틀 -->
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td bgcolor="#274C7F" style="padding:15 25 12 25; color:#DDD; font-size:17px; font-weight:bold;">
+
+
+				<img src="http://ladyalba.co.kr/img/mail/txt_notify_guin.gif" border=0 style="margin-bottom:6px;"><BR>
+
+				<FONT COLOR="white">스웬</FONT>님 레이디알바에 채용정보를 등록하셨습니다.
+
+
+			</td>
+		</tr>
+		</table>
+		<!-- 타이틀 -->
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01d.gif"></td>
+			<td bgcolor="#F3F3F3" style="padding:25 0 10 0; font-size:13px; font-weight:bold;">
+
+
+				레이디알바에 스웬님이 등록하신 채용정보는 아래와 같습니다.
+
+			</td>
+			<td width="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01e.gif"></td>
+		</tr>
+		</table>
+
+
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td width="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01d.gif"></td>
+			<td bgcolor="#FFFFFF" style="padding:25px; border-width:1px; border-style:solid; border-color:#CCC;">
+
+
+				<table width="100%" border="0" cellspacing="1" cellpadding="0" bgcolor="#CCCCCC">
+				<tr bgcolor="#FFFFFF">
+					<td width="160" style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#C5ECB5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 채용정보 제목</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >쉽게일하실분</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 등록시간</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >2020-10-09 06:35:25</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 담당업무</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 1차업직종 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >기타</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 2차업직종 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 3차업직종 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 학력 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 경력</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 고용형태</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" > </td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 1차희망지역 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >서울도봉구</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 2차희망지역 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 3차희망지역 </td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 접수방법</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" ></td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#FDF5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 마감일</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >충원시</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#C5F5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 담당자 이름</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >박재성</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#C5F5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 담당자 이메일</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >1059230@naver.com</td>
+				</tr>
+
+				<tr bgcolor="#FFFFFF">
+					<td style="padding:8px; font-weight:bold; font-size:13px;" bgcolor="#C5F5B5"><img src="http://ladyalba.co.kr/img/mail/arrow_rect.gif" border=0> 담당자 연락처</td>
+					<td style="padding:8px; font-weight:bold; font-size:13px;" >01094133741</td>
+				</tr>
+				</table>
+
+
+			</td>
+			<td background="http://ladyalba.co.kr/img/mail/bg_mailbox01e.gif"></td>
+		</tr>
+
+		<tr>
+			<td height="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01f.gif"></td>
+			<td background="http://ladyalba.co.kr/img/mail/bg_mailbox01g.gif"></td>
+			<td width="14" background="http://ladyalba.co.kr/img/mail/bg_mailbox01h.gif"></td>
+		</tr>
+		</table>
+
+
+	</td>
+</tr>
+</table>
+

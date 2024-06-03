@@ -1,0 +1,112 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1669283641;
+	cv=none; b=iiuMvH0RpsG1dyfkqt9S6xmyGlUe0lKvHedI8R5hcxAyUXzWaKhnX1w8cqmy
+	 C5NBOMd8d+sgx7rXPkrexoUHLiM2L/mTI5PmhbBfSgdzZcGK29wqgwPhqV0tyNYT/sA+9w
+	 TK2doGekk7wsC9d795z1Dru/dpuQZp2EJW1IfOucrXigNCibgU16hmAoeswXNv8oJwoBTk
+	 JdHnjfOmbVeKC3rjVav5ggTc4QeG6npAB6/IlOvfgbvtRlwfhnBAIGsqClWpJkbsO1UTKV
+	 sXXbOkW+viIgdHx/nNM6jDIai3b3C+fPdAs8z2ayrbfFdRY4zyiVMHLG231cRDzmO77gGM
+	 /g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1669283641; c=relaxed/relaxed;
+	bh=oAdbpwxxesUpKJjahIjOqGYFwRrXE6C2mdpN4MPNXgA=;
+	h=from:to:message-id:subject; b=hwsq1j22wJfPT25TE8PXK15vcd1oBZ7WmFTQZvC
+	 Spsd3qrBdAD9ebayxuKx6gijekku/8RIwPFla8kvg/aLphdxvExn6+Z5lBCFnt7cCga/aa
+	 FGklCAm8aaypQlibBTwfqGWCtmFI7fOS2ASdWYWOUwFN3ipsOcUgsA6hU/slktdNPyST7a
+	 ocMMot5Vxdi88iS5a33FFjM643l8/5n3s2UIATXVxlLLdJ4NJtfFP62m+j708hG25kx8vI
+	 M8+vkOxQhgx+x6RJrH4IttWvoY/8BgVfaCTVzOqf2mgSMR7k4edovs5gTfZVFOF924JdZQ
+	 VS1E6BKBnw4lmwtc2/GtiOQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+Return-Path: <noreply@kt.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender)
+  client-ip=14.63.245.52; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+X-Naver-ESV: w9+n+6J4p63qMBIYFHwdbXmmaxEdKAJYkXm=
+X-Session-IP: 14.63.245.52
+Date: Thu, 24 Nov 2022 18:54:01 +0900
+Received: from relayfilter1.kt.com (relayfilter1.kt.com [14.63.245.52])
+  by crcvmail204.nm.naver.com with ESMTP id 9G0YmtqSQkyTr+jWYPMBBA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Thu, 24 Nov 2022 09:54:01 -0000
+Received: from external ([172.31.41.112])
+	by relayfilter1.kt.com (1.0) id 2AO9roC002FF;
+	Thu, 24 Nov 2022 18:53:50 +0900
+From: KT <noreply@kt.com>
+To: "1059230@naver.com" <1059230@naver.com>
+Message-ID: <1951431820.6259.1669283630252.JavaMail.sbadmin@BD-L2-SHSB10>
+Subject: =?UTF-8?Q?[kt.com]_=EC=9D=B8=EC=A6=9D?=
+ =?UTF-8?Q?=EB=B2=88=ED=98=B8=EB=A5=BC_=EC=95=8C=EB=A0=A4?=
+ =?UTF-8?Q?_=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type"><t=
+able width=3D"820" cellspacing=3D"0" align=3D"center"><thead><tr><th width=
+=3D"820" height=3D"112" style=3D"border:1px solid #ccc;border-top:3px solid=
+ #d92330;text-align:left;"><div style=3D"margin:0 50px;"><span style=3D"pad=
+ding:42px 0 30px 0;"><img src=3D"http://login.kt.com/wamui/new_resources/p/=
+cl/src/images/mail/email-logo.jpg" alt=3D"kt" width=3D"49" height=3D"40"/><=
+/span></div></th></tr></thead><tfoot><tr><td width=3D"820" height=3D"54" st=
+yle=3D"border:1px solid #ccc;border-bottom:none;"></td></tr><tr><td style=
+=3D"border:1px solid #ccc;border-bottom:none;border-top:none;"><p style=3D"=
+font-family:=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95,Malgun Gothic,dotum,=EB=8F=
+=8B=EC=9B=80,gulim,=EA=B5=B4=EB=A6=BC,sans-serif;font-size:16px;color:#4545=
+45;font-weight:normal;margin:0 50px;text-align:left;letter-spacing:-1px;lin=
+e-height:24px;">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B3=B4=EC=95=88=EC=
+=9D=84 =EC=9C=84=ED=95=B4 =ED=99=95=EC=9D=B8 =ED=9B=84 =EC=82=AD=EC=A0=9C =
+=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.</p></td><=
+/tr><tr><td height=3D"13" style=3D"border:1px solid #ccc;border-bottom:none=
+;border-top:none;"></td></tr><tr><td style=3D"border:1px solid #ccc;border-=
+bottom:none;border-top:none;"><p style=3D"font-family:=EB=A7=91=EC=9D=80=EA=
+=B3=A0=EB=94=95,Malgun Gothic,dotum,=EB=8F=8B=EC=9B=80,gulim,=EA=B5=B4=EB=
+=A6=BC,sans-serif;font-size:16px;color:#454545;font-weight:normal;margin:0 =
+50px;text-align:left;letter-spacing:-1px;line-height:24px;">=E3=86=8D=EB=B3=
+=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9C=
+=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.</p></td></tr><tr><td height=3D"30" style=3D"border:1px solid =
+#ccc;border-bottom:none;border-top:none;"></td></tr><tr><td style=3D"border=
+:1px solid #ccc;border-bottom:none;border-top:none;align:center"><table wid=
+th=3D"720" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center=
+" style=3D"table-layout:fixed;margin:0 auto;padding:30px 0 55px;border-top:=
+1px solid #ccc;"><tr><td style=3D"padding-top:16px;"><table cellpadding=3D"=
+0" cellspacing=3D"0" style=3D"table-layout:fixed;"><tr style=3D"font-size:1=
+3px;line-height24px;color:#777;"><td style=3D"width:184px;">(=EC=A3=BC)=EC=
+=BC=80=EC=9D=B4=ED=8B=B0 =EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC =EA=B5=AC=ED=
+=98=84=EB=AA=A8</td><td style=3D"width:216px;">=EC=82=AC=EC=97=85=EC=9E=90=
+=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 : 102-81-42945</td><td style=3D"width:=
+230px;">=ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0 : 2=
+002-=EA=B2=BD=EA=B8=B0=EC=84=B1=EB=82=A8-0048</td></tr></table></td></tr><t=
+r><td><table cellpadding=3D"0" cellspacing=3D"0" style=3D"table-layout:fixe=
+d;padding-top:3px;"><tr style=3D"font-size:13px;line-height24px;color:#777;=
+"><td style=3D"width:400px;">=EC=A3=BC=EC=86=8C : 463-711 =EA=B2=BD=EA=B8=
+=B0=EB=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=EA=B5=AC =EB=B6=
+=88=EC=A0=95=EB=A1=9C 90 (=EC=A0=95=EC=9E=90=EB=8F=99 206=EB=B2=88=EC=A7=80=
+)</td><td style=3D"width:120px;">TEL : =EA=B5=AD=EB=B2=88=EC=97=86=EC=9D=B4=
+ 100</td></tr></table></td></tr><tr><td><table cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0" style=3D"table-layout:fixed;padding-top:5px"><tr><td w=
+idth=3D"300" style=3D"font-size:13px;line-height22px;color:#777;">Copyright=
+ =E2=93=92 2017 kt corp. All rights reserved.</td></tr></table></td></tr></=
+table></td></tr><tr><td height=3D"3" style=3D"border:1px solid #ccc;border-=
+top:none;"></td></tr></tfoot><tbody><tr><td width=3D"820" height=3D"60" sty=
+le=3D"border:1px solid #ccc;border-bottom:none;border-top:none;"></td></tr>=
+<tr><td style=3D"border:1px solid #ccc;border-bottom:none;border-top:none;"=
+><p style=3D"font-family:=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95,Malgun Gothic=
+,dotum,=EB=8F=8B=EC=9B=80,gulim,=EA=B5=B4=EB=A6=BC,sans-serif;font-size:40p=
+x;color:#222;font-weight:bold;text-align:center;">=EC=95=88=EB=85=95=ED=95=
+=98=EC=84=B8=EC=9A=94. kt.com=EC=9E=85=EB=8B=88=EB=8B=A4.<br><span style=3D=
+"color:#d71826;">=EC=9D=B8=EC=A6=9D =EB=B2=88=ED=98=B8=EB=A5=BC</span><br>=
+=EC=95=8C=EB=A0=A4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.</p></td></tr><tr><t=
+d height=3D"55" style=3D"border:1px solid #ccc;border-bottom:none;border-to=
+p:none;"></td></tr><tr><td height=3D"55" style=3D"background:#f5f5f5;"></td=
+></tr><tr><td height=3D"163" style=3D"background:#f5f5f5;vertical-align:mid=
+dle"><table Cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cente=
+r"><tbody><tr><td width=3D"159" height=3D"163"></td><td width=3D"504"style=
+=3D"background:#fff;border:3px solid #d71826;text-align:center;"><p style=
+=3D"font-family:=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95,Malgun Gothic,dotum,=
+=EB=8F=8B=EC=9B=80,gulim,=EA=B5=B4=EB=A6=BC,sans-serif;font-size:16px;color=
+:#222;">=EC=9D=B8=EC=A6=9D=EB=B2=88=ED=98=B8 : <strong style=3D"font-size:2=
+2px;color:#d71826;font-weight:bold;">447923</strong></p></td><td width=3D"1=
+59" height=3D"163"></td></tr></tbody></table></td></tr><tr><td height=3D"60=
+" style=3D"background:#f5f5f5;"></td></tr></tbody></table>

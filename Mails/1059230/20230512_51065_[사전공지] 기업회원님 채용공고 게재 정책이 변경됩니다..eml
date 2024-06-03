@@ -1,0 +1,484 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1683875057;
+	cv=none; b=FH4lABdjGIRrKI65erH3ZetP6wgLSU9avktnIrCsmfbPYtN1Fy1JqqFDIYOD
+	 0zlYRSCIh+5b1yM0D/tD/42yIbr81+eOMAHED+4TdGcLD555polVM9KgNb44bGLIQkBK9J
+	 9WDdbtxLhd/6cgUHTDpgMado4c6Uo8cwpuoOH7rSyIH6ePoSLsAbUJ/34Qgn3ZrxXpsEma
+	 bHfYLNtgg6M1NrrtFnCdsvqsprnAAcYT4bxGQVsRS18fxJu4hrfiF91o3BMxaDAEgUG28r
+	 IiwgKRXjrgTyYeX9mY7Fs4bjY1HIXTzN8sLnbWERlSw9sZAQP076OJTMPbsxUxwYRcOB2W
+	 jA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1683875057; c=relaxed/relaxed;
+	bh=DdUmpaZrs1atgAWzXURhpx6oS/5qJru4JjqOeZ2Ls4E=;
+	h=date:message-id:subject:from:to; b=M5MvRCuczIm2o/XL8XJrvm6ryyHtRE3PLy
+	 uQd4lNUwtTw+c1dR7MWlqTJihjxLH2RAIbTy0L1Ckkm7zQb0mf+IJCI+XMDQxf5Jxm7/lI
+	 ESL6Q50FMBcp3XyaGFtiTyuEHlqXuU28KIb8KL9Xb0cZQ+5K/35ZddywboD5rxzDzjAuNA
+	 qZ2VPVBzSHriKTyjsJV5mGy6Ix80Y95WImoY2BZJQEMuI3yqjqgh5FIaar/TJjBbxJuRec
+	 Zc7gwO5uhCxVsUxrnXfufPCpVAqPxKOAxBWelZneqvf6LxWisuMrSiVNqAB7FoZ93/z/Ng
+	 dhwXVGm12jsdfIGf3EHqgdcFxWTQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.41 as permitted sender) smtp.mailfrom=12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr
+Return-Path: <12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.41 as permitted sender)
+  client-ip=119.207.70.41; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr designates 119.207.70.41 as permitted sender) smtp.mailfrom=12698_1_2192_1059230_naver.com@imail3.jobkorea.co.kr
+X-Naver-ESV: w9Fn+6J4p63qMBIYKXwdbXmmFqgdKx+YkXm=
+X-Session-IP: 119.207.70.41
+Received: from jobkorea.co.kr (imail3.jobkorea.co.kr [119.207.70.41])
+  by crcvmail106.nm.naver.com with ESMTP id OxUdA+2SR3aDZR8C7615qg
+  for <1059230@naver.com>;
+  Fri, 12 May 2023 07:04:17 -0000
+MIME-Version: 1.0
+Date: Fri, 12 May 2023 16:04:12 +0900
+Message-ID: <IWNID_12698_2192_0_0_0_20230512160412_119.207.70.41>
+Return-Path: <IWNID_12698_2192_0_0_0_20230512160412_119.207.70.41@imail3.jobkorea.co.kr>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?B?W+yCrOyghOqzteyngF0g6riw7JeF7ZqM7JuQ64uYIOyxhOyaqeqzteqzoCDqsozsnqwg7KCV7LGF7J20IOuzgOqyveuQqeuLiOuLpC4=?=
+From: =?utf-8?B?7J6h7L2U66as7JWE?= <helpdesk@jobkorea.co.kr>
+To: =?utf-8?B?MTA1OTIzMEBuYXZlci5jb20=?=<1059230@naver.com>
+Reply-To: =?utf-8?B?7J6h7L2U66as7JWE?= <helpdesk@jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <!--[if !mso]> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if gte mso 7
+      ]><xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG />
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml><!
+    [endif]-->
+    <title>기업인증 실패</title>
+  </head>
+  <body style="margin: 0; padding: 0; width: 100%; background-color: #ededed" border="0" cellspacing="0" cellpadding="0" align="center">
+    <!--[if mso]><table border="0" cellspacing="0" cellpadding="0" width="100%"><tr><td align="center"><table border="0" cellpadding="0" cellspacing="0"><tr><td width="595" align="center"><![endif]-->
+    <div style="min-width: 320px; max-width: 595px; margin: 0 auto; text-align: center">
+      <table border="0" cellspacing="0" cellpadding="0" style="
+          width: 100%;
+          table-layout: fixed;
+          margin: 0 auto;
+          background-color: #fff;
+          -webkit-text-size-adjust: 100%;
+          text-align: left;
+        ">
+        <tbody>
+          <!-- 헤더 -->
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td colspan="3" height="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td width="auto" height="38" align="left" valign="middle" style="overflow: hidden">
+                      <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12698&linkno=1&seqidx=2192&service=0&dmidx=0&emidx=0&uidx=22&gidx=9&site=1&linkurl=https://www.jobkorea.co.kr/" target="_blank" title="새창" style="display: inline-block; border: none">
+                        <img src="http://file1.jobkorea.co.kr/mailing/2018/sample/logo_new.png" width="120" height="30" border="0" alt="JOBKOREA">
+                      </a>
+                    </td>
+                    <td width="0" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td colspan="3" height="53" style="font-size: 0; line-height: 1">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td width="auto" align="center" valign="middle" style="
+                        font: normal 24px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                        color: #000000;
+                        letter-spacing: -1.45px;
+                        word-break: keep-all;
+                        line-height: 32px;
+                      ">
+                    잡코리아 기업회원님 <br> 
+                    <span style="color: #111AFF">채용공고 게재 정책이 변경</span>되어 안내드립니다.
+                    </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" height="35" style="font-size: 0; line-height: 1">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="30" height="1" style="background-color: #ffffff; border: 0;"></td>
+                    <td height="1" bgcolor="#e8eaeb"></td>
+                    <td width="30" height="1" style="background-color: #ffffff; border: 0;"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" height="35" style="font-size: 0; line-height: 1">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td width="auto" height="27px" style="
+                        color: #333;
+                        font: 13px/20px Malgun Gothic, 맑은 고딕,
+                          '돋움', Dotum, 'Apple SD Gothic Neo',
+                          Sans-serif;
+                        letter-spacing: -1px;
+                      " align="left">
+                    <span style="vertical-align: text-bottom;">•</span> 변경일: 2023년 5월 23일(화) 부터
+                    </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td height="27px" style="
+                              color: #333333;
+                              font: 13px/20px Malgun Gothic, 맑은 고딕,
+                                '돋움', Dotum, 'Apple SD Gothic Neo',
+                                Sans-serif;
+                              letter-spacing: -1px;
+                              vertical-align: top;
+                            " align="left">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td width="63" style="vertical-align: top; color: #333333;
+                                font: 13px/20px Malgun Gothic, 맑은 고딕,
+                                  '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                letter-spacing: -1px;"><span style="vertical-align: text-bottom; ">•</span> 적용기준:</td>
+                                <td style="vertical-align: top; padding-top: 2px; word-break: keep-all; color: #333333;
+                                font: 13px/20px Malgun Gothic, 맑은 고딕,
+                                  '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                letter-spacing: -1px;
+                                ">
+                                공고 등록일 기준으로 신규 정책을 적용 받으며, 임시저장 공고의 경우 공고등록 완료일을 기준으로 적용됩니다.</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td width="auto" height="27px" style="
+                        color: #333;
+                        font: 13px/20px Malgun Gothic, 맑은 고딕,
+                          '돋움', Dotum, 'Apple SD Gothic Neo',
+                          Sans-serif;
+                        letter-spacing: -1px;
+                      " align="left">
+                    <span style="vertical-align: text-bottom;">•</span> 변경내용
+                    </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td>
+                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <thead>
+                          <tr>
+                            <th width="27%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 25px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                background: #d8d8d8;
+                                padding: 9px 0;
+                                font-weight: 400;
+                            ">
+                              변경항목
+                            </th>
+                            <th width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 25px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                background: #d8d8d8;
+                                border-left: 1px solid #e8e8e8;
+                                padding: 9px 0;
+                                font-weight: 400;
+                            ">
+                              변경 전
+                            </th>
+                            <th width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 25px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                background: #d8d8d8;
+                                border-left: 1px solid #e8e8e8;
+                                padding: 9px 0;
+                                font-weight: 400;
+                            ">
+                              변경 후
+                            </th>
+                            <th width="auto" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 25px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                background: #d8d8d8;
+                                border-left: 1px solid #e8e8e8;
+                                padding: 9px 0;
+                                font-weight: 400;
+                            ">
+                              비고
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td width="27%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                padding: 10px;
+                                word-break: keep-all;
+                                border-bottom: 1px solid #e8e8e8;
+                            ">
+                              무료 공고 게재건수
+                            </td>
+                            <td width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #999999;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px;
+                                word-break: keep-all;
+                            ">
+                              <strike>10건</strike>
+                            </td>
+                            <td width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px;
+                                word-break: keep-all;
+                            ">
+                              5건
+                            </td>
+                            <td width="auto" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px 15px;
+                                word-break: keep-all;
+                            ">
+                              무료 공고가 5건을 초과하더라도<br>기존 진행중인 공고는 마감되지 않음
+                            </td>
+                          </tr>
+                          <tr>
+                            <td width="27%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                padding: 10px;
+                                word-break: keep-all;
+                                border-bottom: 1px solid #e8e8e8;
+                            ">
+                              최대 게재일
+                            </td>
+                            <td width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #999999;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px;
+                                word-break: keep-all;
+                            ">
+                              <strike>90일</strike>
+                            </td>
+                            <td width="13%" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px;
+                                word-break: keep-all;
+                            ">
+                              60일
+                            </td>
+                            <td width="auto" align="center" valign="middle" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                                line-height: 18px;
+                                color: #333333;
+                                letter-spacing: -0.65px;
+                                border-left: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                padding: 10px 15px;
+                                word-break: keep-all;
+                            ">
+                              유료/무료 공고 구분없이<br>최대 60일 게재가능
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td height="20" style="font-size: 0; line-height: 1">&nbsp;</td>
+          </tr>
+          <tr>
+            <td>
+              <table>
+                <tbody>
+                  <tr>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                    <td style="
+                        text-align: left;
+                        font: normal 13px/20px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo', Sans-serif;
+                        letter-spacing: -1px;
+                        color: #333333;
+                        word-break: keep-all;
+                      ">
+                    변경되는 정책에 관한 문의는 귀사의 전담 채용매니저 또는 고객센터에 연락주시면 친절히 안내해 드리겠습니다.
+                    </td>
+                    <td width="30" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td height="40" style="font-size: 0; line-height: 1">&nbsp;</td>
+          </tr>
+          <!--푸터-->
+          <tr>
+            <td>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td align="center" bgcolor="#e1e1e1" width="20" style="font-size: 0">&nbsp;</td>
+                    <td align="center" bgcolor="#e1e1e1">
+                      <table cellpadding="0" cellspacing="0" style="width: 100%; margin: 0; padding: 0">
+                        <tbody>
+                          <tr>
+                            <td height="32" style="font-size: 0; line-height: 1; padding: 0"></td>
+                          </tr>
+                          <tr>
+                            <td height="45" align="center" style="
+                                font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                line-height: 28px;
+                                color: #333;
+                                letter-spacing: -1px;
+                              ">
+                              본 메일은 발신전용이며 궁금하신 사항은
+                              <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12698&linkno=2&seqidx=2192&service=0&dmidx=0&emidx=0&uidx=22&gidx=9&site=1&linkurl=http://www.jobkorea.co.kr/Customer_C/CC_Main.asp" target="_blank" title="새창" style="
+                                  font: normal 13px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                    Sans-serif;
+                                  color: #333333;
+                                  text-decoration: underline;
+                                ">고객센터</a>를 이용해주세요.<br>공정거래 위원회 고시 제 2000-1호에 따른안내
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="15" style="font-size: 0; line-height: 1; padding: 0"></td>
+                          </tr>
+                          <tr>
+                            <td height="1" style="font-size: 0; padding: 0; height: 1px; border-top: 1px solid #d6d6d6">
+                              &nbsp;
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="15" style="font-size: 0; line-height: 1; padding: 0"></td>
+                          </tr>
+                          <tr>
+                            <td align="center" style="
+                                font: normal 12px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                color: #666666;
+                                letter-spacing: -1px;
+                                line-height: 22px;
+                                word-break: keep-all;
+                              ">
+                              잡코리아(유) &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 사업자등록번호 :
+                              110-81-34859 &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표자 : 윤현준
+                              &nbsp;&nbsp;<font color="#cccccc">|</font>&nbsp;&nbsp; 대표전화 : 1588-9350<br>주소 :
+                              서울특별시 서초구 서초대로 301 동익성봉빌딩 16~18층
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="15" style="font-size: 0; line-height: 1"></td>
+                          </tr>
+                          <tr>
+                            <td height="50" align="center" valign="top" style="
+                                font: normal 11px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                  Sans-serif;
+                                color: #666666;
+                              ">
+                              ⓒ
+                              <a href="http://imail3.jobkorea.co.kr:8888/trace/checker.jsp?mailidx=12698&linkno=3&seqidx=2192&service=0&dmidx=0&emidx=0&uidx=22&gidx=9&site=1&linkurl=http://jobkorea.co.kr" target="_blank" title="새창" style="
+                                  font: normal 11px Malgun Gothic, 맑은 고딕, '돋움', Dotum, 'Apple SD Gothic Neo',
+                                    Sans-serif;
+                                  color: #333333;
+                                  text-decoration: none;
+                                  font-weight: bold;
+                                ">JOBKOREA</a>
+                              Corp
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td align="center" bgcolor="#e1e1e1" width="20" style="font-size: 0">&nbsp;</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso]></td></tr></table></td></tr></table><![endif]-->
+  
+
+
+<div style="display:none;"><img src="http://imail3.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=12698&seqidx=2192&service=0&dmidx=0&emidx=0&duration=0&site=1" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail3.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=12698&seqidx=2192&service=0&dmidx=0&emidx=0&duration=1&dtime=1"></iframe>
+
+</body></html>
+

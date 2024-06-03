@@ -1,0 +1,283 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1677477158;
+	cv=none; b=DMqzLk7S5Z0SONsI9L7XodSZ3qt2FSALDclv/NkujoGwMzTfWyRBGS+UENdh
+	 AsyztWZm1R/yZyP7F12VH1QZc6bwlhXedF1S34EgKB3Mgu7Q2I4tQiMms4DkDKS2cAFGkV
+	 n8IVQT4rmHhMqR6hfLBTmiSUvIw3ihepHV6CYlr+EwhosDrBCP6feqlpEOQd0MNZOi0hnP
+	 BEymtlFFhRL6sBVme68KIVX10FB7zVpTiUcx9jXTBeTzfhOgHSYcL5MvvQTk0RCW8ZGOB2
+	 lGBKAzqp3duQqzKcj7BJMRsc5UkwRzlL/M+8w3D2rpe0wz9IrC78wI6Wlkmn+qYfXrbEFj
+	 4g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1677477158; c=relaxed/relaxed;
+	bh=0dpp1FVMSGnOh0UHjj/z9uerpHT3yv1FyAL7cRwhv2M=;
+	h=date:message-id:subject:from:to; b=Jt7vLpDA42X43bzVFwb3HV/6Mg6QN9Izp8
+	 axV9DpOlUyd/9osjNM+SEYv+EUgHuQhIr9hIdr/QRpvR5mBTgXvxQ97+o/Ap8MYT1dRZUf
+	 CGWZsI4t0eDNQH79AZOI8LBqaO9AtQGnWBcaowYn/nPUZuscopcp4pQwz0vPaXPCEbY8Tf
+	 8jdXE/0FvZVtGBG6CZ8H9jKGrf5lhaX4j9M+QPRbqWsMbM8C6h2jMwg+JSjk/KOruz5LCw
+	 td6kTTRFuWsMAZxl3eKlozCjNtmpTJUEXtdUwyANm0o1aUNmE7E2xTTm0KUa80WmKS3pM8
+	 CTf7pnnzb05sCCstp3OkOhpEql0g==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail2.jobkorea.co.kr
+Return-Path: <0_1_1_1059230_naver.com@imail2.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender)
+  client-ip=119.207.70.25; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail2.jobkorea.co.kr
+X-Naver-ESV: w9+n+6J4p63qMBIYKHwdbXmmFxEZKqCYkXm=
+X-Session-IP: 119.207.70.25
+Received: from jobkorea.co.kr (imail2.jobkorea.co.kr [119.207.70.25])
+  by crcvmail105.nm.naver.com with ESMTP id vXnlqjWGSMSW+3N2aYtioA
+  for <1059230@naver.com>;
+  Mon, 27 Feb 2023 05:52:38 -0000
+MIME-Version: 1.0
+Date: Mon, 27 Feb 2023 14:52:32 +0900
+Message-ID: <IWNID_0_1_22_21528511_0_20230227145232>
+Return-Path: <IWNID_0_1_22_21528511_0_20230227145232@imail2.jobkorea.co.kr>
+Content-Type: text/html; 
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+Subject: =?euc-kr?B?W77Ludm4810gsOi+4LjFw+IgsOHBprO7v6ogvsizuw==?=
+From: =?euc-kr?B?vsu52bjz?=<mailmaster@albamon.com>
+To: 1059230@naver.com
+Reply-To: =?euc-kr?B?vsu52bjz?=<return@infoweb.jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+    <title>알바몬 | 잡코리아가 만든 아르바이트 No.1</title>
+    <style type="text/css">
+        body, td {
+            font-family: "Gulim","Verdana", "Arial";
+            font-size: 12px;
+            line-height: 1.3;
+            color: #494949;
+        }
+
+        A:link {
+            font-family: "Gulim","Verdana", "Arial";
+            text-decoration: none;
+            color: #494949;
+        }
+
+        A:active {
+            font-family: "Gulim","Verdana", "Arial";
+            text-decoration: none;
+            color: #494949;
+        }
+
+        A:visited {
+            font-family: "Gulim","Verdana", "Arial";
+            text-decoration: none;
+            color: #494949;
+        }
+
+        A:hover {
+            font-family: "Gulim","Verdana", "Arial";
+            text-decoration: underline;
+            color: #0066CC;
+        }
+    </style>
+</head>
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+    <table width="720" border="0" align="center" cellpadding="0" cellspacing="0">
+        <!--// header -->
+        <tr><td height="20"></td></tr>
+        <tr>
+            <td>
+                <!--// 로고, SNS 영역 -->
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="535" height="30px" valign="bottom" style="font-size:0px;"><a href="http://www.albamon.com/" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/logo.gif" alt="알바몬" border="0" /></a></td>
+                        <td width="185" align="right" valign="bottom">
+                            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="middle" style="font-size: 0px;"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/sns_txt_1.gif" alt="알바몬 소식을 가장 빠르게!" border="0" /></td>
+                                    <td width="30" style="font-size:0px; padding-left:10px;"><a href="https://www.facebook.com/No.1.Albamon" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/btn_sns_2.gif" alt="페이스북" border="0" /></a></td>
+                                    <td width="30" style="font-size:0px; padding-left:4px;"><a href="https://www.youtube.com/user/albamonTV" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/btn_sns_youtube.gif" alt="유튜브" border="0" /></a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+            <!--// content -->
+    <tr><td height="10"></td></tr>
+    <tr>
+	    <td>
+		    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+
+			    <tr>
+				    <td width="1" height="0" style="font-size:0;">&nbsp;</td>
+				    <td width="718" style="font-size:0;">&nbsp;</td>
+				    <td width="1" style="font-size:0;">&nbsp;</td>
+			    </tr>
+			    <tr><td colspan="3" style="font-size:0px;"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/bg_top.gif" border="0" alt="" /></td></tr>
+
+			    <tr>
+				    <td bgcolor="e3e3e3"></td>
+				    <td>
+					    <!--// 컨텐츠 영역 입니다 -->
+					    <table width="718" border="0" align="center" cellpadding="0" cellspacing="0">
+						    <tr>
+							    <td>
+								    <!--// 메인컨텐츠 -->
+								    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+									    <tr>
+										    <td width="30" height="195"></td>
+										    <td valign="top">
+											    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                                                    <tr><td height="40"></td></tr>
+                                                    <tr>
+                                                        <td style="font-size:0px;">
+                                                            <img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/ttl/title_pay_8.gif" alt="계약매출 결제내역 안내" border="0"/>
+                                                        </td>
+                                                    </tr>
+												    <tr><td height="40"></td></tr>
+												    <tr>
+													    <td style="font:normal 12px gulim, '굴림', sans-serif; line-height:130%; color:#262834;">
+														    <strong style="font-weight:normal;color:#0fa1f7;">체험 주식회사(adnworld)</strong>님,<br/>
+                                                            <strong>2023년 02월 27일 14시 42분</strong>에 계약매출 신청해주셨습니다.
+                                                            <br />상세내역 확인은 로그인 후 <a href="http://www.albamon.com/corp/fee/mon_cont_history.asp" target="_blank" style="text-decoration:underline;">기업서비스&gt;유료내역관리&gt;유료결제내역</a>에서 가능합니다.
+													    </td>
+												    </tr>
+												    <tr><td height="30"></td></tr>
+											    </table>
+										    </td>
+										    <td width="207" valign="top" style="font-size:0px;"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/bg.gif" alt=" border="0"/></td>
+									    </tr>
+								    </table>
+							    </td>
+						    </tr>
+						    <tr>
+							    <td>
+								    <!--// 서브컨텐츠 -->
+								    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+									    <tr>
+										    <td width="30"></td>
+										    <td>
+											    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+												    <tr>
+													    <td>
+														    <!--// 알바몬 공고정보 -->
+
+														    <!-- 알바몬 공고정보 //-->
+													    </td>
+												    </tr>
+												    <tr>
+													    <td>
+														    <!--// 유료서비스 결제내역 -->
+														    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+															    <tr><td><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/ttl/title_pay_1_2.gif" alt="유료서비스 결제내역" border="0"/></td></tr>
+															    <tr><td height="10"></td></tr>
+															    <tr>
+																    <td>
+																	    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+																		    <tr>
+																			    <td align="center" bgcolor="f7f7f7" style="border-top:2px solid #353535;border-bottom:1px solid #dddce1; padding:10px 0 8px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;">신청 서비스</td>
+                                                                                    <td align="center" bgcolor="f7f7f7" style="border-top:2px solid #353535;border-bottom:1px solid #dddce1; padding:10px 0 8px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;">신청 건수</td>
+																			    <td align="center" bgcolor="f7f7f7" style="border-top:2px solid #353535;border-bottom:1px solid #dddce1; padding:10px 0 8px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;">신청 금액</td>
+																		    </tr>
+																		    <tr><td height="10" colspan="3"></td></tr>
+                                                                                            <tr>
+				                                                                                <td style="padding:3px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;">
+                                                                                                        알바몬 기업회원 계약매출 
+
+                                                                                                </td>
+				                                                                                <td align="center" style="padding:3px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;">
+                                                                                                        1
+
+                                                                                                </td>
+				                                                                                <td align="right" style="padding:3px 0; font:normal 12px verdana, gulim, '굴림', sans-serif;color:#494949;">3,600,000원</td>
+				                                                                            </tr>
+
+																			    <!--// 총신청금액 -->
+																			    <tr><td colspan="5" height="5"></td></tr>
+																			    <tr>
+																				    <td style="padding:3px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;"><strong>총신청금액</strong></td>
+																				    <td></td>
+																				    <td align="right" style="padding:3px 0; font:bold 12px verdana, gulim, '굴림', sans-serif;color:#494949;">3,600,000원</td>
+																			    </tr>
+																			    <!--// 할인금액 -->
+
+																			    <tr>
+																				    <td bgcolor="ecf4f7" style="border-top:1px solid #dddce1;border-bottom:1px solid #dddce1; padding:10px 0 8px 0; font:normal 12px gulim, '굴림', sans-serif;color:#494949;"><strong>최종결제금액</strong></td>
+																				    <td colspan="2" align="right" bgcolor="ecf4f7" style="border-top:1px solid #dddce1;border-bottom:1px solid #dddce1; padding:10px 0 8px 0; font:normal 12px verdana, gulim, '굴림', sans-serif;color:#494949;"><strong><span style="color:#6239f5;">신용카드</span> | <span style="color:#fe0000;">3,000,000원</span></strong></td>
+																			    </tr>
+																	    </table>
+																    </td>
+															    </tr>
+														    </table>
+														    <!-- 유료서비스 결제내역 //-->
+													    </td>
+												    </tr>
+												    <tr><td height="40"></td></tr>
+
+
+                                                        <!--// 버튼영역 -->
+													    <tr>
+                                                            <td align="center">
+                                                                    <a href="http://www.albamon.com/corp/mon_em_mng.asp" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/btn/btn_join_1.gif" align="absmiddle" alt="알바공고관리" border="0" /></a>
+                                                                    <a href="http://www.albamon.com/corp/fee/mon_opt_pay_history.asp" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/btn/btn_join_2.gif" align="absmiddle" alt="유료결제내역 확인" border="0" /></a>
+
+														    </td>
+													    </tr>
+													    <tr><td height="40"></td></tr>
+														
+                                                    
+											        </table>
+										        </td>
+										        <td width="30"></td>
+									        </tr>
+								        </table>
+							        </td>
+						        </tr>
+					        </table>
+				        </td>
+				        <td bgcolor="e3e3e3"></td>
+			        </tr>
+		        </table>
+	        </td>
+        </tr>
+
+          
+    
+        <!--// footer -->
+        <tr>
+            <td>
+                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border:1px solid #e3e3e3;">
+                    <tr>
+                        <td height="20"></td>
+                        <td width="217"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center" style="height: 76px; font-size:0px;"><a href="http://www.albamon.com/" target="_blank"><img src="https://contents.albamon.kr/monimg/albamon_mail_v02/common/footer_logo.gif" alt="알바몬" border="0" /></a></td>
+                        <td colspan="2" style="font:11px dotum, '돋움', sans-serif; line-height:160%; letter-spacing:0px; color:#686868;">
+                            서울시 서초구 서초대로 301 동익성봉빌딩 16~18층 잡코리아 | 대표 : 윤현준<br />
+                            사업자 등록번호 : 110-81-34859 | 통신판매업 신고번호 : 2016-서울서초-0287호 <br />
+                            직업정보제공사업 신고번호 : 서울청 제2016-11호<br />
+
+                            Tel : 1588-9351 | Fax : 02-565-9493 | e-메일 : <a href="mailto:helpdesk@albamon.com" style="text-decoration:underline; color:#6f87d1;">helpdesk@albamon.com</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+<div style="display:none;"><img src="http://imail2.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=22&dmidx=21528511&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail2.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=22&dmidx=21528511&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+</html>
+

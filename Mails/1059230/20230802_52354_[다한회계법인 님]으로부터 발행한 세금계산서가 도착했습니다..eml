@@ -1,0 +1,522 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1690965990;
+	cv=none; b=nv7O/r4THeai4Z4bWFFcSPm666d3B0CAtaGw60Ofs/sdjBMQoE/x4hVYcvId
+	 z7ei3I4fGA1UBLvPHpc1iuXvhmCBvEHLYPXcrEXZaKa7xHjzC4vxIvq5uLHW2DRbCsK8bn
+	 r6M7wW544OH0t+SeD1CB9SbkvpmqO0WsuOo0Y4Lzcw0ILD1dSDkhDWIyjX4K2+3oL3sawx
+	 RVeqq0O6yv1qJBXyzzE4BPSZDAFK63BT/r4rA+8H8zkbqzBf9EE7CN62FedziMcjHDoFjI
+	 ct/Mk83ySiZtJQpyZRl+3TEt8IDGNbDFGzFwgH8HDSMIPkvBLUQXfdHCscv+Fzf/c9x/fU
+	 jA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1690965990; c=relaxed/relaxed;
+	bh=9lEHAlGXfClqupf1Da35ZqBNrt1R3QpLtCJQsQSzA5g=;
+	h=from:to:subject:date:message-id; b=Zk6vOH9tdHrjz2eNpuPqIDZLLUvp7TM4Dr
+	 FKHL3ChDqlwRFjwnbODl8I6klUxWTswQebn02qoNwQAsaT2ME4URtTbttm5rqZ2030kWBC
+	 Xy7eo6dvmpDXGe+1DdPnc6c2eE1KaHG3tbA3cuT8hKooGfPqzTJ3E8LRDColAr9ehsJrE+
+	 JWPgX0xjvxYjE750wC5YatEzFmgxVQXmZPwJ3wM+II/yiEdGa1c5ZXIxdMnGbgK+Y0iyts
+	 H4Ct4CzsaPDwnRpF8/YnDMg0tUo+0+n0+UXRoRgQtt57scyluJgtQmjapvegDwNGWGZoEO
+	 OzodjiqT2CNtls1dHu4wMLNitP+w==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of webmaster@bill36524.com designates 1.244.115.204 as permitted sender) smtp.mailfrom=webmaster@bill36524.com
+Return-Path: <webmaster@bill36524.com>
+Received-SPF: pass (mx.naver.com: domain of webmaster@bill36524.com designates 1.244.115.204 as permitted sender)
+  client-ip=1.244.115.204; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of webmaster@bill36524.com designates 1.244.115.204 as permitted sender) smtp.mailfrom=webmaster@bill36524.com
+X-Naver-ESV: w9en+6J4p63qMBIYFHwdbXmmaAtrKqIYkXm=
+X-Session-IP: 1.244.115.204
+Received: from mail.bill36524.com (mail.bill36524.com [1.244.115.204])
+  by crcvmail103.nm.naver.com with ESMTP id SbFXI4ywQNyhk4DDju91jw
+  for <1059230@naver.com>;
+  Wed, 02 Aug 2023 08:46:30 -0000
+From: "=?EUC-KR?B?tNnH0ci4sOi5/cDOW7nfvcXA/L/rXQ==?=" <webmaster@bill36524.com>
+To: "=?EUC-KR?B?tOO058DavvjAvQ==?=" <1059230@naver.com>
+Reply-to: <webmaster@bill36524.com>
+Subject: =?EUC-KR?B?W7TZx9HIuLDouf3AziC01F3AuLfOus7FzSA=?=
+ =?EUC-KR?B?ud/H4MfRILy8sd2w6LvqvK2woSC1tcL4x9+9wA==?=
+ =?EUC-KR?B?tM+02S4=?=
+Date: Wed, 02 Aug 2023 17:46:30 +0900
+X-WORKER_ID: <single.naver.com_Worker_1>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDgwMl8y>
+X-MEMBER_ID: <TV9JRD0xODQ5NjEzMzlfMzYwMDg5MDg=>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDU=>
+X-Mailer: eMsSMTP Ver5.0( PLUTO-build 0411 )
+MIME-Version: 1.0
+Message-ID: <202308021746307259@mail.bill36524.com_Ems@mail.bill36524.com>
+Content-Type: text/html;
+	charset="EUC-KR"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>전자세금계산서 - 도착알림 DM</title>
+
+</head>
+<body style="margin:0;padding:0">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%;background-color:#f8f8f9;letter-spacing:-1px">
+<tbody>
+<tr>
+<td align="center">
+<!-- 아웃룩용 max-width 핵 -->
+<!--[if (gte mso 9)|(IE)]>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="600">
+<![endif]-->
+<div style="max-width:600px; margin:0 auto">
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0 auto;background-color:#fff;;-webkit-text-size-adjust:100%;text-align:left">
+<tbody>
+<tr>
+<td colspan="3" height="20"></td>
+</tr>
+<tr>
+<td width="20"></td>
+<td>
+<table cellpadding="0" cellspacing="0" style="margin:0;padding:0">
+<tbody>
+<tr>
+<td style="margin:0;padding-right:7px">
+<a href="#" target="_blank">
+<img src="http://www.bill36524.com/mail_template/wehago/31/20170717/images/wehago_logo.png" width="107" alt="WEHAGO" style="border:0;vertical-align:top">
+</a>
+</td>
+<td style="margin:0;padding:0;width:1px;background-color:#d8d8d8">
+</td>
+<td style="margin:0;padding-left:9px">
+<a href="#" target="_blank" style="font-size:18px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#1e62a8;text-decoration:none;font-weight:bold">
+전자세금계산서
+</a>
+</td>
+</tr>
+<tr>
+<td height="20"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td width="20"></td>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0;border-top:1px solid #e6e6e6;text-align:center">
+<tbody>
+<tr>
+<td height="22"></td>
+</tr>
+<tr>
+<td style="font-size:16px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#696969;line-height:24px;vertical-align:top">
+<span style="color:#1c90fb">다한회계법인</span>님이 발행한 세금계산서가 도착했습니다.
+<br>전자세금계산서 보기 버튼을 클릭하여 확인하시기 바랍니다.
+</td>
+</tr>
+<tr>
+<td height="10"></td>
+</tr>
+<tr>
+<td style="border-top:1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;background-color: #f7f8fa;padding:10px 15px;font-size:16px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#696969;line-height:24px;vertical-align:top">
+<span style="padding-right:12px"><span style="color:#1c90fb">세금계산서 상태</span> 확인요청</span><span><span style="color:#1c90fb">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;문서종류</span> 전자 세금계산서</span></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr>
+<td rowspan="7" width="20"></td>
+<td height="20"></td>
+<td rowspan="7" width="20"></td>
+</tr>
+
+<!-- 테이블 정보 -->
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0;border-bottom:1px solid #e1e1e1">
+<tbody>
+<tr>
+<td style="padding-bottom:7px;font-size:18px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-weight:bold;color:#000;vertical-align:top">
+수신자 정보
+</td>
+</tr>
+<tr>
+<td height="2" style="background:#646464"></td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+상호
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+(주)블로그체험단</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+담당자
+</td>
+<td style="padding-top:10px;padding-bottom:10px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+담당자없음</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0;border-bottom:1px solid #e1e1e1">
+<tbody>
+<tr>
+<td height="25"></td>
+</tr>
+<tr>
+<td style="padding-bottom:7px;font-size:18px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-weight:bold;color:#000;vertical-align:top">
+발신자 정보
+</td>
+</tr>
+<tr>
+<td height="2" style="background:#646464"></td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+상호
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+다한회계법인</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+담당자
+</td>
+<td style="padding-top:10px;padding-bottom:10px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+연락처
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+02-863-7693</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+이메일
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+kbsmy615@gmail.com</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+휴대전화번호
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0;border-bottom:1px solid #e1e1e1">
+<tbody>
+<tr>
+<td height="25"></td>
+</tr>
+<tr>
+<td style="padding-bottom:7px;font-size:18px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-weight:bold;color:#000;vertical-align:top">
+전자(세금)계산서 정보
+</td>
+</tr>
+<tr>
+<td height="2" style="background:#646464"></td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+관리번호
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+TX2023086439927</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+품목
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+기장료</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+공급가액
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+150,000 원
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+부가세액
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+15,000 원
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+작성일자
+</td>
+<td style="padding-top:10px;padding-bottom:10px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+2023-07-31</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+처리일자
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+2023-08-02 17:45:13</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0">
+<tbody>
+<tr>
+<td width="120" style="padding-top:15px;padding-bottom:15px;padding-left:15px;background:#f7f7f7;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top;font-weight:bold">
+메세지
+</td>
+<td style="padding-top:15px;padding-bottom:15px;padding-left:15px;border-top:1px solid #f0f0f0;font-size:15px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:23px;vertical-align:top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<!--// 테이블 정보 -->
+
+<!-- 버튼 -->
+<tr><td height="24"></td></tr>
+<tr>
+<td align="center" style="font-size:10px">
+<div style="display:inline-block;width:170px;max-width:100%;padding:0 1px;vertical-align:top">
+<table style="table-layout:fixed;width:100%;" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="padding-top:6px;padding-bottom:6px">
+<table style="table-layout:fixed;width:100%;background:#1c90fb" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td height="38" style="text-align:center;line-height:35px">
+<a href="https://www.wehago.com/invoice/#/eTaxMail/VFgyMDIzMDg2NDM5OTI3JjE5OTg2MDE0MzQ=" target="_blank" style="display:block;height:36px;font-size:16px;color:#fff;border:1px solid #1c90fb;text-decoration:none;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-weight:bold">전자세금계산서 보기</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+<tr><td height="24"></td></tr>
+<tr>
+<td width="20"></td>
+<td>
+<table cellpadding="0" cellspacing="0" style="width:100%;margin:0;padding:0;text-align:center">
+<tbody>
+<tr>
+<td style="font-size:16px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#696969;line-height:24px;vertical-align:top">
+<span style="color:#1c90fb">역발행</span> 세금계산서를 수신받은 경우 아래 가이드를 확인해주세요.<br>
+<a href="https://wehagohelp.zendesk.com/hc/ko/articles/900006232146" target="_blank" style="font-weight:bold;color:#008aff;text-decoration:underline;vertical-align:top;font-size:14px">가이드 바로가기 &gt;</a>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr><td height="54"></td></tr>
+<tr>
+<td width="20"></td>
+<td>
+<table style="table-layout:fixed;width:100%" border="0" cellpadding="0" cellspacing="0">
+<colgroup>
+<col style="width:390px">
+<col style="width:10px">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td colspan="3">
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=WTAX01" target="_blank"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=WTAX01" alt="강아지숲 홍보배너"></a>
+</td>
+</tr>
+<tr><td height="10"></td></tr>
+<tr>
+<td colspan="3">
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=WTAX02" target="_blank"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=WTAX02" alt="더존몰 홍보배너"></a>
+</td>
+</tr>
+<tr><td height="10"></td></tr>
+<tr>
+<td colspan="3">
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=WTAX03" target="_blank"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=WTAX03" alt="매출채권팩토링 홍보배너"></a>
+</td>
+<!-- <td width="10"></td>
+<td>
+<a href="https://intranet.bill36524.com/adclick2.do?FG_AD=WTAX04" target="_blank"><img src="https://intranet.bill36524.com/adimage2.do?FG_AD=WTAX04" alt="홈피스 올인원팩"></a>
+</td> -->
+</tr>
+</tbody>
+</table>
+</td>
+<td width="20"></td>
+</tr>
+<tr><td height="54"></td></tr>
+<!--// 버튼 -->
+
+<!-- footer-->
+<tr>
+<td colspan="3" style="padding-top:12px;padding-left:20px;padding-right:20px;padding-bottom:10px;background-color:#f8f8f9;font-size:12px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:17px;text-align:left">
+귀하의 이메일정보는 WEHAGO 전자세금계산서 서비스 이용정보에서 취득하였습니다.<br>본 메일은 발신전용 메일이므로 회신이 되지 않습니다.
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding-top:10px;padding-left:20px;padding-right:20px;padding-bottom:5px;background-color:#f8f8f9;font-size:12px;font-family:'나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:17px;text-align:center">
+<a href="https://www.wehago.com/#/common/policy" style="padding-right:10px;text-decoration:none;color:#000" target="_blank">WEHAGO 서비스 이용약관</a>  l  <a href="https://www.wehago.com/#/common/policy?code=002" style="padding:0 10px;color:#000;text-decoration:none" target="_blank"><strong>개인정보취급방침</strong></a> l  <a href="https://www.wehago.com/landing/ko/home/" style="padding-left:10px;color:#000;text-decoration:none" target="_blank">WEHAGO 바로가기</a>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding-left:20px;padding-right:20px;padding-bottom:20px;background-color:#f8f8f9;font-size:11px;font-family:'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;color:#000;line-height:17px;text-align:center;letter-spacing:0">
+Copyright ⓒ <a href="http://www.douzone.com/" style="color:#000;text-decoration:none" target="_blank">DOUZONE BIZON.</a> All rights reserved.
+</td>
+</tr>
+<!--// footer-->
+</tbody>
+</table>
+</div>
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</td>
+</tr>
+</tbody>
+</table>
+
+</body>
+</html>
+
+
+

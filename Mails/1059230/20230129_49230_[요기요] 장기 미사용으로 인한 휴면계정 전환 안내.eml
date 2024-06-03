@@ -1,0 +1,329 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1674947332;
+	cv=none; b=PZUxLk7CWINTtgRFFr1hfTdZFMfQukN1cp40W/SG9rMiNtrULsxTS2WJLHY8
+	 +8VoNeOe5u87WRLSrXshwff4jn235rl3zVeET8dTYuWRIgJqF7f4NBITs9ahwPez9n5Gml
+	 WEcBKzCgMsjWvZk29WheBIGs+9yTX+kC5Q/fKueEZHlEVO6z3NRiu17FRxTj4Iklc6C8Ql
+	 +/T5me4WGozNK7HjkhYUGbHGvp08tmekau+kVz1Jf+wF9X+q8BoFQZX0YYvxf4ypbLJNhM
+	 Jap+w5SkVApteiPv1YPERWs3Aj7ZMdokm76C9s/Fbhk7TD3usQv5ld+K8rqZiFIffnoqyI
+	 1A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1674947332; c=relaxed/relaxed;
+	bh=J3bfDaRqT4O51hAQfB46Qi8ptPPOdQSkyLyyl2im/WA=;
+	h=dkim-signature:date:from:message-id:subject:to; b=p48kVcCg2PC7i2lwiSf
+	 TLob7OU6KAqNoZBhwrZv9U1GfRrcDrGcmADidJNPB9PHzd3cUvzjOcqFsve9twkgGAEazs
+	 IRTztGD160gPbmejPM24keES/jyn25uQ03CzISeTbUgCoCTZXc9hKLfF6iKu2WBTZU+pv8
+	 n/WiiiFtU7C8yeWOE3MtnjRgAQKkpB1Ijf2kfoJnlhndc2eIyJ7BRPWHFU2r5lFcMItxKm
+	 RPiz2ZsuOedX3N449KxbRMUj3Wg1Ad7tQululDimpLt/tmCv/+c0sVsndPu0m6HBrRqT6S
+	 TYw3gNS5f8Xb+gdfQyNNLhUgNHNSOVYga9SKBaZJOLQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of bounces+547294-6aab-1059230=naver.com@sendgrid.net designates 198.37.153.251 as permitted sender) smtp.mailfrom=bounces+547294-6aab-1059230=naver.com@sendgrid.net;
+  dkim=pass header.i=@sendgrid.me
+Return-Path: <bounces+547294-6aab-1059230=naver.com@sendgrid.net>
+Received-SPF: pass (mx.naver.com: domain of bounces+547294-6aab-1059230=naver.com@sendgrid.net designates 198.37.153.251 as permitted sender)
+  client-ip=198.37.153.251; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bounces+547294-6aab-1059230=naver.com@sendgrid.net designates 198.37.153.251 as permitted sender) smtp.mailfrom=bounces+547294-6aab-1059230=naver.com@sendgrid.net;
+  dkim=pass header.i=@sendgrid.me
+X-Naver-ESV: w9Fn+6J4p63qMBIYKNwdbXmZKqg/FxiYkXm=
+X-Session-IP: 198.37.153.251
+Received: from o19837153251.outbound-mail.sendgrid.net (o19837153251.outbound-mail.sendgrid.net [198.37.153.251])
+  by crcvmail202.nm.naver.com with ESMTP id J-8r8wD8QP6SB3FDtHG1uA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256);
+  Sat, 28 Jan 2023 23:08:52 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sendgrid.me;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=smtpapi; bh=J3bfDaRqT4O51hAQfB46Qi8ptPPOdQSkyLyyl2im/WA=;
+	b=nKkZ368/n8sIo44+nyZ5z4pNoeUY1uyRPKi+FOJOS13BFCiZYdWWsO/2eC3MyyLUrRfc
+	xjEX590+m4QpdUfckKT6/flmPYs/7BUAx7/15aVkdRxufLb35/6thzK9CIBFq+wK1vGTTc
+	hTp7uQc5tOy2J3WtqQIA/41rzRchdgOdE=
+Received: by filterdrecv-5956c95c85-ppk2q with SMTP id filterdrecv-5956c95c85-ppk2q-1-63D5AA26-52
+        2023-01-28 23:05:11.018090526 +0000 UTC m=+6220779.689830023
+Received: from NTQ3Mjk0 (unknown)
+	by geopod-ismtpd-5-1 (SG) with HTTP
+	id 1BbHmIE4RcmM56A9l8lAhw
+	Sat, 28 Jan 2023 23:05:10.707 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=3bbbb9b750cf5590c15690e33f0a63c094fdb460577899cb1d755ada15a4
+Date: Sat, 28 Jan 2023 23:05:11 +0000 (UTC)
+From: =?utf-8?q?=EC=9A=94=EA=B8=B0=EC=9A=94_=EA=B3=A0=EA=B0=9D=EC=84=BC?=
+	=?utf-8?q?=ED=84=B0?= <support@yogiyo.co.kr>
+Mime-Version: 1.0
+Message-ID: <1BbHmIE4RcmM56A9l8lAhw@geopod-ismtpd-5-1>
+Subject: =?UTF-8?B?W+yalOq4sOyalF0g7J6l6riwIOuvuOyCrOyaqeycvOuhnA==?=
+ =?UTF-8?B?IOyduO2VnCDtnLTrqbTqs4TsoJUg7KCE7ZmYIOyViOuCtA==?=
+X-SG-EID: 
+ =?us-ascii?Q?4VYN+kIr9Ln3pWe6Vga41DAE4w=2FdEC5tZN=2FRmlvuQ78AeamLX5+saOZRc+E1AU?=
+ =?us-ascii?Q?VTWwyfcIRS2NJNEHfK9FNIQKxC2oBKLdoOazqL9?=
+ =?us-ascii?Q?W+AnHvL7WjaI=2FHqXKzCqC3WujoIfMrcAzvLxja1?=
+ =?us-ascii?Q?UBhIvrn=2FmTZw5bZkBCcE3w+4ORxJwhrR0mKiVbN?=
+ =?us-ascii?Q?iyxjcBxxlUklvlqHPpWgpROjXBdGNj=2Fmfz0+O87?=
+ =?us-ascii?Q?nFcPHA059urU9gwlcAFbzp5qqie2bQavZcwXoQ?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb0UrAXyjzDXahHENNP7D1h00qwISE=2Fc+nvBBQmWEXP?=
+ =?us-ascii?Q?VBy5rOXCuWo11yJ936+Hez3Q=3D=3D?=
+To: 1059230@naver.com
+X-Entity-ID: LeZh/SD8y8b4ep02a6MzeQ==
+
+--3bbbb9b750cf5590c15690e33f0a63c094fdb460577899cb1d755ada15a4
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+[=EC=9A=94=EA=B8=B0=EC=9A=94]=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=
+=ED=99=98 =EC=95=88=EB=82=B4
+
+=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=ED=99=98 =EC=95=88=EB=82=B4
+
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. =EC=9A=94=EA=B8=B0=EC=9A=94=
+=EC=9E=85=EB=8B=88=EB=8B=A4.
+=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=80 1=EB=85=84 =EC=9D=B4=EC=83=81 =EC=9A=
+=94=EA=B8=B0=EC=9A=94=EB=A5=BC =EC=82=AC=EC=9A=A9=ED=95=98=EC=A7=80 =EC=95=
+=8A=EC=9C=BC=EC=85=A8=EC=8A=B5=EB=8B=88=EB=8B=A4.
+
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EB=B3=B4=ED=98=B8=EB=A5=BC =EC=9C=84=
+=ED=95=B4 =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9D=80 =
+=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=84=ED=99=98=
+=EB=90=A0 =EC=98=88=EC=A0=95=EC=9E=84=EC=9D=84 =EC=95=88=EB=82=B4=EB=93=9C=
+=EB=A6=BD=EB=8B=88=EB=8B=A4. =EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9=EC=97=90=
+ =EB=94=B0=EB=9D=BC =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B0=9C=EC=9D=B8=
+=EC=A0=95=EB=B3=B4=EB=8A=94 =EB=8B=A4=EB=A5=B8 =EC=9D=B4=EC=9A=A9=EC=9E=90=
+=EC=9D=98 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=99=80 =EB=B6=84=EB=A6=AC=
+=ED=95=98=EC=97=AC 5=EB=85=84=EA=B0=84 =EB=B3=84=EB=8F=84 =EC=A0=80=EC=9E=
+=A5, =EA=B4=80=EB=A6=AC =EB=90=A9=EB=8B=88=EB=8B=A4.
+
+=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=ED=99=98=EC=9D=BC
+
+2023=EB=85=84 02=EC=9B=94 28=EC=9D=BC
+
+=EB=B6=84=EB=A6=AC=EC=A0=80=EC=9E=A5, =EA=B4=80=EB=A6=AC=EB=90=98=EB=8A=94 =
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4
+
+=ED=9A=8C=EC=9B=90=EA=B0=80=EC=9E=85 =EC=8B=9C =EC=9E=85=EB=A0=A5=ED=95=9C =
+=EB=AA=A8=EB=93=A0 =EC=A0=95=EB=B3=B4
+
+=EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9
+
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EB=B3=B4=ED=98=B8=EB=B2=95 =EC=A0=9C =
+39 =EC=A1=B0=EC=9D=98 6 =EB=B0=8F =EB=8F=99=EB=B2=95 =EC=8B=9C=ED=96=89=EB=
+=A0=B9 =EC=A0=9C 48 =EC=A1=B0=EC=9D=98 5
+
+=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=ED=99=98=EC=9D=84 =EC=9B=90=
+=EC=B9=98 =EC=95=8A=EC=9C=BC=EC=8B=A4 =EA=B2=BD=EC=9A=B0 2023=EB=85=84 02=
+=EC=9B=94 27=EC=9D=BC =EC=9D=B4=EC=A0=84=EA=B9=8C=EC=A7=80 =EB=A1=9C=EA=B7=
+=B8=EC=9D=B8=EC=9D=84 =ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.
+
+http://www.yogiyo.co.kr/media/event/bridge.html
+
+=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=
+=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80
+ =EC=95=8A=EC=9C=BC=EB=AF=80=EB=A1=9C =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=
+=EC=9D=80 [=EA=B3=A0=EA=B0=9D=EB=A7=8C=EC=A1=B1=EC=84=BC=ED=84=B0]=EB=A5=BC=
+ =EC=9D=B4=EC=9A=A9=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=
+=EB=9E=8D=EB=8B=88=EB=8B=A4.
+
+=EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=9C=84=EB=8C=80=ED=95=9C=EC=83=81=
+=EC=83=81 | =EB=8C=80=ED=91=9C: =EC=84=9C=EC=84=B1=EC=9B=90 | =EC=A3=BC=EC=
+=86=8C : =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=AC =EC=84=9C=
+=EC=B4=88=EB=8C=80=EB=A1=9C38=EA=B8=B8 12 =EB=A7=88=EC=A0=9C=EC=8A=A4=ED=83=
+=80=EC=8B=9C=ED=8B=B0 =ED=83=80=EC=9B=8C2 17=EC=B8=B5 =EA=B3=A0=EA=B0=9D=EB=
+=A7=8C=EC=A1=B1=EC=84=BC=ED=84=B0 : 02-3447-3612 | =EC=9D=B4=EB=A9=94=EC=9D=
+=BC : support@yogiyo.co.kr
+
+=C2=A9 Copyright YOGIYO. All Rights Reserved.
+
+http://blog.yogiyo.co.kr/ https://www.instagram.com/yogiyo_official/ http:/=
+/www.facebook.com/Yogiyokorea https://www.youtube.com/user/YogiyoKr
+--3bbbb9b750cf5590c15690e33f0a63c094fdb460577899cb1d755ada15a4
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html>
+<html lang=3D"en" style=3D"margin:0;padding:0;">
+
+<head>
+  <meta charset=3D"UTF-8">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"ie=3Dedge">
+  <title>[=EC=9A=94=EA=B8=B0=EC=9A=94]=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =
+=EC=A0=84=ED=99=98 =EC=95=88=EB=82=B4</title>
+</head>
+
+<body style=3D"margin:0;padding:0;">
+  <div style=3D"margin:0 auto;padding:0;max-width:640px;">
+    <div style=3D"margin:0;padding:57px 0 11px 15px;border-bottom:1px solid=
+ #eeeeee"><img
+        src=3D"https://www.yogiyo.co.kr/media/static/img/mail/header-logo.p=
+ng" alt=3D"=EC=9A=94=EA=B8=B0=EC=9A=94" style=3D"display:block;" />
+    </div>
+    <div style=3D"margin:0;padding:40px 15px 10px 15px;font-size:28px;line-=
+height:1.3;color:#000000;font-weight:bold;">
+      <strong style=3D"color:#fa0748">=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =
+=EC=A0=84=ED=99=98</strong> =EC=95=88=EB=82=B4
+    </div>
+
+    <div style=3D"margin:0;padding:5px 15px;">
+      <div style=3D"margin:0;padding:0;color:#333333;font-size:15px;line-he=
+ight:1.3">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. =EC=9A=94=EA=B8=B0=
+=EC=9A=94=EC=9E=85=EB=8B=88=EB=8B=A4.<br />=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=
+=9D=80 1=EB=85=84 =EC=9D=B4=EC=83=81 =EC=9A=94=EA=B8=B0=EC=9A=94=EB=A5=BC =
+=EC=82=AC=EC=9A=A9=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=85=A8=EC=8A=B5=
+=EB=8B=88=EB=8B=A4.</div>
+      <div style=3D"margin:0;padding:10px 0;color:#333333;font-size:15px;li=
+ne-height:1.3">
+        =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EB=B3=B4=ED=98=B8=EB=A5=BC =
+=EC=9C=84=ED=95=B4 =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=
+=EC=9D=80 =ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=84=
+=ED=99=98=EB=90=A0 =EC=98=88=EC=A0=95=EC=9E=84=EC=9D=84 =EC=95=88=EB=82=B4=
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9=
+=EC=97=90 =EB=94=B0=EB=9D=BC =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B0=9C=
+=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=8A=94 =EB=8B=A4=EB=A5=B8 =EC=9D=B4=EC=9A=A9=
+=EC=9E=90=EC=9D=98 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=99=80 =EB=B6=84=
+=EB=A6=AC=ED=95=98=EC=97=AC 5=EB=85=84=EA=B0=84 =EB=B3=84=EB=8F=84 =EC=A0=
+=80=EC=9E=A5, =EA=B4=80=EB=A6=AC =EB=90=A9=EB=8B=88=EB=8B=A4.
+      </div>
+    </div>
+
+    <div style=3D"margin:20px 15px;padding:30px 15px 15px 15px;border-radiu=
+s:2px;background-color:#f5f5f5;">
+      <div style=3D"margin:0;padding:0;font-size:15px;color:#333333;line-he=
+ight:1.3;">
+        <strong>=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=ED=99=98=EC=
+=9D=BC</strong>
+        <p style=3D"margin:0;padding:5px 0 15px 0">2023=EB=85=84 02=EC=9B=
+=94 28=EC=9D=BC
+      </div>
+      <div style=3D"margin:0;padding:0;font-size:15px;color:#333333;line-he=
+ight:1.3;">
+        <strong>=EB=B6=84=EB=A6=AC=EC=A0=80=EC=9E=A5, =EA=B4=80=EB=A6=AC=EB=
+=90=98=EB=8A=94 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4</strong>
+        <p style=3D"margin:0;padding:5px 0 15px 0">=ED=9A=8C=EC=9B=90=EA=B0=
+=80=EC=9E=85 =EC=8B=9C =EC=9E=85=EB=A0=A5=ED=95=9C =EB=AA=A8=EB=93=A0 =EC=
+=A0=95=EB=B3=B4
+      </div>
+      <div style=3D"margin:0;padding:0;font-size:15px;color:#333333;line-he=
+ight:1.3;">
+        <strong>=EA=B4=80=EB=A0=A8 =EB=B2=95=EB=A0=B9</strong>
+        <p style=3D"margin:0;padding:5px 0 15px 0">=EA=B0=9C=EC=9D=B8=EC=A0=
+=95=EB=B3=B4 =EB=B3=B4=ED=98=B8=EB=B2=95 =EC=A0=9C 39 =EC=A1=B0=EC=9D=98 6 =
+=EB=B0=8F =EB=8F=99=EB=B2=95 =EC=8B=9C=ED=96=89=EB=A0=B9 =EC=A0=9C 48 =EC=
+=A1=B0=EC=9D=98 5</p>
+      </div>
+    </div>
+
+    <div style=3D"margin:0;padding:5px 15px;">
+      <div style=3D"margin:0;padding:10px 0;color:#333333;font-size:15px;li=
+ne-height:1.3">
+        =ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95 =EC=A0=84=ED=99=98=EC=9D=84 =
+=EC=9B=90=EC=B9=98 =EC=95=8A=EC=9C=BC=EC=8B=A4 =EA=B2=BD=EC=9A=B0 <strong s=
+tyle=3D"color:#fa0748">2023=EB=85=84 02=EC=9B=94 27=EC=9D=BC =EC=9D=B4=EC=
+=A0=84=EA=B9=8C=EC=A7=80</strong> =EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =ED=
+=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.
+      </div>
+    </div>
+
+    <div style=3D"margin:0;padding:0 15px;">
+      <a href=3D"https://u547294.ct.sendgrid.net/ls/click?upn=3DtEZ-2BNgzlv=
+RTOA4vXky-2BfZsE6V78g-2BOndzlBITGETSTp6EHn6us1iQ11-2FPJrD39p-2FuONM7264jVpQ=
+7jxm-2BAWRYg-3D-3Dp1ET_X1I3n-2Bp8rinzplOQ-2FgM-2BpvYrjNCJ1zZFD8IGWdwAgpAfeC=
+5obCklMnIKDJ3XbBwmz6ce9L2ySTShuBEVA869K-2B3j0Ji0sapRUOAHyD2Z-2FDkyzPeJBryij=
+g7lug2ALYglbc4WYfFEwVSOgKvEqj3kfVcFCgHtx9MAqG8d5-2FyGfYSB5jGnCSNzWpR1kcLz3H=
+-2F-2FxK8XDvjyJHTGOYDt-2BCBiIGUQ4JqrR8hAHDSixsnmr8s6y9qNXVo4eo9vmGtTeq3d" t=
+arget=3D"_blank"><img src=3D"https://www.yogiyo.co.kr/media/static/img/mail=
+/btn-login.png" style=3D"width:100%;max-width:430px;margin:0 auto 4px auto;=
+display:block;border:none;" alt=3D"=EB=A1=9C=EA=B7=B8=EC=9D=B8" /></a>
+    </div>
+
+    <div style=3D"margin:30px 0 0 0;padding:43px 20px;background-color:#f5f=
+5f5;">
+      <table style=3D"margin:0;padding:0;" cellpadding=3D"0" cellspacing=3D=
+"0">
+        <tr>
+          <td style=3D"margin:0;padding:0 0 10px 0;width:8px;vertical-align=
+:top;">
+            <img src=3D"https://www.yogiyo.co.kr/media/static/img/mail/bul-=
+sm.png" alt=3D"" style=3D"margin:5px 0 0 0;display:block;" />
+          </td>
+          <td style=3D"margin:0;padding:0 10px 10px 0;font-size:13px;color:=
+#bbbbbb;line-height:1.3;">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=
+=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=
+=EC=A7=80
+            =EC=95=8A=EC=9C=BC=EB=AF=80=EB=A1=9C =EB=AC=B8=EC=9D=98=EC=82=
+=AC=ED=95=AD=EC=9D=80 [=EA=B3=A0=EA=B0=9D=EB=A7=8C=EC=A1=B1=EC=84=BC=ED=84=
+=B0]=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=9C=EA=B8=
+=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+          </td>
+        </tr>
+        <tr>
+          <td style=3D"margin:0;padding:0 0 10px 0;width:8px;vertical-align=
+:top;"><img src=3D"https://www.yogiyo.co.kr/media/static/img/mail/bul-sm.pn=
+g" alt=3D"" style=3D"margin:5px 0 0 0;display:block;" />
+          </td>
+          <td style=3D"margin:0;padding:0 10px 10px 0;font-size:13px;color:=
+#bbbbbb;line-height:1.3;">
+            =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EC=9C=84=EB=8C=80=ED=95=
+=9C=EC=83=81=EC=83=81 | =EB=8C=80=ED=91=9C: =EC=84=9C=EC=84=B1=EC=9B=90 | =
+=EC=A3=BC=EC=86=8C : =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=84=9C=EC=B4=88=EA=B5=
+=AC =EC=84=9C=EC=B4=88=EB=8C=80=EB=A1=9C38=EA=B8=B8 12 =EB=A7=88=EC=A0=9C=
+=EC=8A=A4=ED=83=80=EC=8B=9C=ED=8B=B0 =ED=83=80=EC=9B=8C2 17=EC=B8=B5 =EA=B3=
+=A0=EA=B0=9D=EB=A7=8C=EC=A1=B1=EC=84=BC=ED=84=B0 : 02-3447-3612 | =EC=9D=B4=
+=EB=A9=94=EC=9D=BC : support@yogiyo.co.kr</td>
+        </tr>
+        <tr>
+          <td style=3D"margin:0;padding:0;width:8px;vertical-align:top;">
+            <img src=3D"https://www.yogiyo.co.kr/media/static/img/mail/bul-=
+sm.png" alt=3D"" style=3D"margin:5px 0 0 0;display:block;" />
+          </td>
+          <td style=3D"margin:0;padding:0 10px 0 0;font-size:13px;color:#bb=
+bbbb;line-height:1.3;"">
+            &copy; Copyright YOGIYO. All Rights Reserved.
+          </td>
+        </tr>
+      </table>
+      <div style=3D" margin:20px 0 0 0;padding:0;">
+        <a href=3D"https://u547294.ct.sendgrid.net/ls/click?upn=3DrdlNMnDh-=
+2BkJYvhiVbFFS4HeaU-2F65bKZ9iQKTSOKWZBt6HUbZLjmXH6Ap-2BAKzW9U-2BUjBI_X1I3n-2=
+Bp8rinzplOQ-2FgM-2BpvYrjNCJ1zZFD8IGWdwAgpAfeC5obCklMnIKDJ3XbBwmKL4ocLo6xruL=
+JS1b1GRt2LGmMIDkO-2Bj0n1IcH9NAoYPPsKrlj64Rpl9zK8Z-2BDkss9uebriuGWtqvRCeoAVY=
+z76aR1F72mP-2FBXbhhDhicIyIr17GVq7LIu-2FDXI1ZClqx3coEYdnWo9xABldalo4DXdJQBpw=
+Tlr2CYEebTLUNFy1Ixysoh9yUFl-2FNezDLqLeUH" target=3D"_blank"><img src=3D"htt=
+ps://www.yogiyo.co.kr/media/static/img/mail/btn-blog.png" style=3D"border:n=
+one;margin-right:8px;" alt=3D"=EB=B8=94=EB=A1=9C=EA=B7=B8" /></a><a href=3D=
+"https://u547294.ct.sendgrid.net/ls/click?upn=3DVbf5diffzmXRvK9FQ61lchNVKRj=
+O2i9PNxOq-2Bz1qcz7d93UpablQikYm0MyqxC381La1buAvmg7YNQ-2Fe0Pq0vQ-3D-3DRCog_X=
+1I3n-2Bp8rinzplOQ-2FgM-2BpvYrjNCJ1zZFD8IGWdwAgpAfeC5obCklMnIKDJ3XbBwmSETL2D=
+n-2BulKfmoXfLH7IazSxFar9nNpaX2NrAwU6efeZ7cfbHEkh4Ro-2BxsjA2M1S5ar5dO0PbJgdp=
+jqBSmvBDfDrCgO8wFUaSijVtLRqFYsAKCkyvhcYunZ-2BKmlm3Mi32u5P1b8-2BFQvKmWskjDdQ=
+XZPQLCbeQ88Q-2B3eyGtzgaQSM6lYH2cutbwzpQvga5hWr" target=3D"_blank"><img src=
+=3D"https://www.yogiyo.co.kr/media/static/img/mail/btn-instagram.png" style=
+=3D"border:none;margin-right:8px;" alt=3D"=EC=9D=B8=EC=8A=A4=ED=83=80=EA=B7=
+=B8=EB=9E=A8" /></a><a href=3D"https://u547294.ct.sendgrid.net/ls/click?upn=
+=3DtEZ-2BNgzlvRTOA4vXky-2BfZuSmrwb56DsEQkLmKr5xa3h74KhoYe97rlLVPy-2FA6MJssa=
+tz_X1I3n-2Bp8rinzplOQ-2FgM-2BpvYrjNCJ1zZFD8IGWdwAgpAfeC5obCklMnIKDJ3XbBwm8D=
+BJ0iVmUom9uWFLtulA0CTqWZfHvvt-2BUdMKakbyHCsrMVS-2Fxx3wJ8Nk9jXxwbRW1onOxoUUj=
+KImgld7uvSKL0e2HRhbicts0mOT-2FKFNn-2BTBj8eauea7q9r1RsmjfC-2F8ovbDzwAOkB-2Ba=
+NdhMnM-2BUExBzbigV7bL0TsxQL6vs4Po9xBw1PGNWcaMUEzIOH3l8" target=3D"_blank"><=
+img src=3D"https://www.yogiyo.co.kr/media/static/img/mail/btn-facebook.png"=
+ style=3D"border:none;margin-right:8px;" alt=3D"=ED=8E=98=EC=9D=B4=EC=8A=A4=
+=EB=B6=81" /></a><a href=3D"https://u547294.ct.sendgrid.net/ls/click?upn=3D=
+Vbf5diffzmXRvK9FQ61lcha0YrwbOeTJnh6HiUHgh43D5xwue34cgJPwq6H-2BbkqOAUis_X1I3=
+n-2Bp8rinzplOQ-2FgM-2BpvYrjNCJ1zZFD8IGWdwAgpAfeC5obCklMnIKDJ3XbBwmvyNCvEM4Z=
+y9wze3uXOJIR2kT8ZwspgJe1kydrRWzt0Bw9OPwE4rGgg6MKVcvMLAaYS8HEVuLWydI-2FVyMRh=
+hFsFs0WkdM7I2s71pp8DoOjxXwV8IUgqTUWhJpFrC1KBIRhMwIFsxRltMMB9m86rm38NP-2Bq1P=
+WovGPIFpFY5PUTJVmaq3WGtF4nxe6mR6IE90Y" target=3D"_blank"><img src=3D"https:=
+//www.yogiyo.co.kr/media/static/img/mail/btn-youtube.png" style=3D"border:n=
+one;margin-right:8px;" alt=3D"=EC=9C=A0=ED=8A=9C=EB=B8=8C" /></a>
+      </div>
+    </div>
+  </div>
+<img src=3D"https://u547294.ct.sendgrid.net/wf/open?upn=3DcbqRXkMXysg8cGhEi=
+CacW1APh1vTbxAtctZLVuMQ4EGX47IKlGjxki5BU6yuzTAw9L5Z3A6QA4rze1Pt4xQMkOuO84ZY=
+CmPEegg9JpDRT4E98PPPIm8-2Brcfn8HaH45UG8jTEAYYejU-2Bd6mFxA7493q58RrM55kY-2Fr=
+IR2dBrdDFVCehdUBA7RtocUhxtsFDSES8JNpkOBB2lS83l4nNPHZP-2B-2FEqMPC5pZ-2BsShcW=
+5Uim5fWPB86LlOCA5TBg1AlLNR" alt=3D"" width=3D"1" height=3D"1" border=3D"0" =
+style=3D"height:1px !important;width:1px !important;border-width:0 !importa=
+nt;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !impor=
+tant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !im=
+portant;padding-right:0 !important;padding-left:0 !important;"/></body>
+
+</html>
+--3bbbb9b750cf5590c15690e33f0a63c094fdb460577899cb1d755ada15a4--

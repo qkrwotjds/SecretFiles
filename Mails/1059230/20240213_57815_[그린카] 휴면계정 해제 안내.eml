@@ -1,0 +1,210 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1707784627;
+	cv=none; b=ncmG5stBnKSweSflT5WtvkvsVUWOhpJWwwaOXGr6XKo2N4yOJFNcAWTz/Um5
+	 RtD0wAJSnabaP2lq46nV5R+vVlKlcH0FWTMmDeQC5lu6zUbC3PVMbAA4e3NUknyo/YP/2X
+	 XUARLYqzN//e5kBnv9A8nD5zpmBKW/l+AWvw78zwqFgXs5QbflPzRe1twjZ44WYaE+64lX
+	 O9nn4XikEJ73Miv858uy7oQexzQcydUWpbB/97F8XnYONWLty76aHhms3dCJIJMh7R6sma
+	 gMegcF/ZnpRfhg1uyL1mL2OYc2BvSTMZZWl6rro4loZljcnG1Bb1UmqK34LspStK6G0eSB
+	 Gw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1707784627; c=relaxed/relaxed;
+	bh=s2N8Nxag3ZfGLDVbvv+uCKarzb0pMOWXpKp88j66DoE=;
+	h=dkim-signature:from:to:subject:date:message-id; b=j5dEZJXT1qEiL+GsjrR
+	 +SnHSeemjkjqNLBkalTwgzglv8bM58fp7T9nPwqAR5LXp7k+yRr2bt6SAN9g3PFbXuWsvQ
+	 HDr0IVWIz7MoqAcqsy6kl7bv2wYpaDgrGoadJFars4InuLL0/kS0CJRbtFGjrIp/Oi/Mdt
+	 ABZumXw+wWX1rlXSININ8ehmEaf25+6FEXdO1M39VY0j23ieYF/6aO8IASa/36y2axCSvh
+	 DnijGl191fy3Ablmumd7rTm7+vCoFINEFfYe/D6eO2Q/lbw4Ey9j4yOiiMOET2vJnJussm
+	 ADCoRfxlPUlclOOvPMDM+GcIMg6oHxdg8L6oTvsV+7Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return_postman0213090251@return.postman.co.kr designates 119.207.76.47 as permitted sender) smtp.mailfrom=return_postman0213090251@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+Return-Path: <return_postman0213090251@return.postman.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return_postman0213090251@return.postman.co.kr designates 119.207.76.47 as permitted sender)
+  client-ip=119.207.76.47; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return_postman0213090251@return.postman.co.kr designates 119.207.76.47 as permitted sender) smtp.mailfrom=return_postman0213090251@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+X-Naver-ESV: wdFn+6J4p63qMBIYKBwdbXmmKAKXKA+YkXm=
+X-Session-IP: 119.207.76.47
+Received: from send47.postman.co.kr (send47.postman.co.kr [119.207.76.47])
+  by crcvmail203.nm.naver.com with ESMTP id DgxWroZ1RQ+lLr89rotaDw
+  for <1059230@naver.com>;
+  Tue, 13 Feb 2024 00:37:07 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1707784627;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:Feedback-Id:Precedence:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=s2N8Nxag3ZfGLDVbvv+uCKarzb0pMOWXpKp88j66DoE=;
+	b=n0+8AKk5p8+BafudiPoRVPRCTbUvn0vNoHJ5GQclRNWY9TCEl+wiDuMlk8oxtegX
+	4i5p4zmceNQVhVLeO0GWa63y/yAi4zRVdv++EjCJfIpT7cd7Q/XDSt1u9zh3W3i33VB
+	aVCCaki5KKK9mmA5zeOq7TNWXFt3M1ZrTcmjFgjw=
+From: "=?euc-kr?B?Z3JlZW5jYXI=?=" <greencar@greencar.co.kr>
+To: "=?euc-kr?B?sO2wtLTU?=" <1059230@naver.com>
+Reply-to: <greencar@greencar.co.kr>
+Subject: =?euc-kr?B?W7HXuLDEq10gyN646bDowaQgx9jBpiC+yA==?= =?euc-kr?B?s7s=?=
+Date: Tue, 13 Feb 2024 09:37:07 +0900
+X-WORKER_ID: <single.naver.com_Worker_5>
+X-MAIL_ID: <UE9TVF9JRD0yMDI0MDIxMzEwMDAxNTk5ODYzNA==>
+X-MEMBER_ID: <TV9JRD0xNTA2OTc3MDIxMw==>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDI2MA==>
+List-Unsubscribe: <mailto:postman@fbl.humuson.com?subject=greencar^^20240213100015998634^^15069770213>, <https://mkt.tason.com/open/postman_unsubscription.jsp?user_id=greencar&customer_id=15069770213&post_id=20240213100015998634>
+Feedback-Id: greencar:20240213100015998634:15069770213:postman
+Precedence: bulk
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202402130937078282@send47.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<meta content=3D"text/html; charset=3DUTF-8" http-equiv=3D"Content-Type" />
+<title>=C8=DE=B8=E9=B0=E8=C1=A4 =C7=D8=C1=A6 =BE=C8=B3=BB</title>
+<meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"viewport" />
+</head>
+<body style=3D"margin:0;padding:0;"><!-- =B9=D9=B1=F9 =BF=B5=BF=AA(=B9=E8=B0=E6) -->
+<table bgcolor=3D"#ffffff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"font-family:'Malgun Gothic', '=B8=BC=C0=BA =B0=ED=B5=F1', dotum, '=B5=B8=BF=F2', sans-serif;" width=3D"100%">
+<tbody>
+<tr>
+<td><!-- =BA=BB=B9=AE -->
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-width:1px;border-style:solid;border-color:#dddddd;" width=3D"680"><!-- =BA=BB=B9=AE =C4=C1=C5=D9=C3=F7 -->
+<tbody>
+<tr>
+<td width=3D"30">&nbsp;</td>
+<td width=3D"620">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td height=3D"30">&nbsp;</td>
+</tr>
+<tr>
+<td><img alt=3D"" src=3D"https://gma-ui.greencar.co.kr/static/images/common/logo_greencar.svg" style=3D"display:block;" width=3D"160" /></td>
+</tr>
+<tr>
+<td height=3D"10">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"letter-spacing:-2px;font-size:20px;font-weight:bold;color:#2E2E2E;">=C8=DE=B8=E9=B0=E8=C1=A4 =C7=D8=C1=A6 =BE=C8=B3=BB</td>
+</tr>
+<tr>
+<td height=3D"20">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:21px;font-size:14px;color:#666666;">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4. <span style=3D"font-size:15px;color:#00C88C;font-weight:bold;">=B4=EB=C7=D1=B9=CE=B1=B9 No.1 =C4=AB=BC=CE=BE=EE=B8=B5, =B1=D7=B8=B0=C4=AB</span>=C0=D4=B4=CF=B4=D9.<br />
+=C7=D7=BB=F3 =B1=D7=B8=B0=C4=AB=B8=A6 =C0=CC=BF=EB=C7=D8 =C1=D6=BD=C3=B4=C2 =C8=B8=BF=F8=B4=D4=B2=B2 =B0=A8=BB=E7=B5=E5=B8=B3=B4=CF=B4=D9.</td>
+</tr>
+<tr>
+<td height=3D"20">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:21px;font-size:14px;color:#666666;">=B0=B3=C1=A4=B5=C8 =C1=A4=BA=B8=BA=B8=C8=A3 =BA=B8=C8=A3=B9=FD=C0=CC 2023=B3=E2 9=BF=F9 15=C0=CF=C0=DA=B7=CE =BD=C3=C7=E0=B5=CA=BF=A1 =B5=FB=B6=F3 &lsquo;=B0=B3=C0=CE=C1=A4=BA=B8 =C0=AF=C8=BF=B1=E2=B0=A3=C1=A6(=B0=B3=C1=A4 =C0=FC =C1=A639=C1=B6=C0=C76)=B0=A1 =C6=F3=C1=F6=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.</td>
+</tr>
+<tr>
+<td height=3D"20">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"line-height:21px;font-size:14px;color:#666666;">=C0=CC=BF=A1 =B5=FB=B6=F3 =B1=D7=B8=B0=C4=AB =C8=DE=B8=E9 =C1=A4=C3=A5=C0=CC =C6=F3=C1=F6=B5=C7=BE=EE =B0=FA=B0=C5 =C8=DE=B8=E9 =C0=FC=C8=AF =B5=C7=BE=FA=B4=F8 =B0=ED=B0=B4=B4=D4=C0=C7 =BE=C6=C0=CC=B5=F0=B0=A1 =BE=C6=B7=A1=BF=CD =B0=B0=C0=CC =C8=DE=B8=E9 =C7=D8=C1=A6=B5=CA=C0=BB =BE=C8=B3=BB =B5=E5=B8=B3=B4=CF=B4=D9.</td>
+</tr>
+<tr>
+<td height=3D"15">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<th style=3D"line-height:30px;font-size:14px;font-weight:bold;color:#5c5c5c;background:#f2f4f5;border-bottom:1px solid #e2e2e5;border-right:1px solid #e2e2e5;text-align:center;" width=3D"210">=C7=D7=B8=F1</th>
+<th style=3D"line-height:30px;font-size:14px;font-weight:bold;color:#5c5c5c;background:#f2f4f5;border-bottom:1px solid #e2e2e5;text-align:center;">=B3=BB=BF=EB</th>
+</tr>
+<tr>
+<td style=3D"padding:5px 10px;line-height:20px;font-size:14px;color:#5c5c5c;border-bottom:1px solid #e2e2e5;border-right:1px solid #e2e2e5;">=C8=DE=B8=E9 =C7=D8=C1=A6=C0=CF</td>
+<td style=3D"padding:5px 10px;line-height:20px;font-size:14px;color:#5c5c5c;border-bottom:1px solid #e2e2e5;">2024=B3=E2 1=BF=F9 26=C0=CF=BA=CE=C5=CD =BC=F8=C2=F7=C0=FB=C0=B8=B7=CE =C1=F8=C7=E0</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"15">&nbsp;</td>
+</tr>
+<tr>
+<td>
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"middle" style=3D"text-align:left;font-size:18px;color:#2E2E2E;" valign=3D"middle" width=3D"18">=A4=FD</td>
+<td style=3D"line-height:20px;font-size:14px;color:#5c5c5c;">=C8=DE=B8=E9 =C0=FC=C8=AF =C0=CC=C0=FC =B1=A4=B0=ED=BC=BA =C1=A4=BA=B8 =BC=F6=BD=C5 =B5=BF=C0=C7 =BF=A9=BA=CE =BB=F3=C5=C2=B0=A1 =B1=D7=B4=EB=B7=CE =C0=AF=C1=F6=B5=CB=B4=CF=B4=D9.</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"5">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"middle" style=3D"text-align:left;font-size:18px;color:#2E2E2E;" valign=3D"middle" width=3D"18">=A4=FD</td>
+<td style=3D"line-height:20px;font-size:14px;color:#5c5c5c;">=B1=A4=B0=ED=BC=BA =C1=A4=BA=B8 =BC=F6=BD=C5 =B5=BF=C0=C7 =BF=A9=BA=CE=B8=A6 =BA=AF=B0=E6=C7=CF=BD=C3=B7=C1=B4=C2 =B0=E6=BF=EC &lsquo;=B1=D7=B8=B0=C4=AB =BE=DB &gt; =B3=BB=C1=A4=BA=B8 &gt; =BC=B3=C1=A4&rsquo;=BF=A1=BC=AD =BA=AF=B0=E6 =B0=A1=B4=C9=C7=D5=B4=CF=B4=D9.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"15">&nbsp;</td>
+</tr>
+<tr>
+<td style=3D"padding-top:15px;padding-bottom:15px;border-top-width:1px;border-bottom-width:1px;border-top-style:solid;border-bottom-style:solid;border-top-color:#9a9a9a;border-bottom-color:#9a9a9a;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td align=3D"middle" style=3D"text-align:left;font-size:13px;color:#2E2E2E;" valign=3D"middle" width=3D"15">-</td>
+<td style=3D"line-height:20px;font-size:13px;color:#2E2E2E;font-weight:bold;">=BA=BB =B8=DE=C0=CF=C0=BA =B9=FD=C0=FB =C0=C7=B9=AB =C1=D8=BC=F6=B8=A6 =C0=A7=C7=CF=BF=A9 =BC=F6=BD=C5 =B5=BF=C0=C7 =BF=A9=BA=CE=BF=CD =B0=FC=B0=E8=BE=F8=C0=CC =B1=D7=B8=B0=C4=AB =B4=EB=BB=F3 =C8=B8=BF=F8=B4=D4=B2=B2 =B9=DF=BC=DB=C7=CF=B4=C2 =B8=DE=C0=CF=C0=CE =C1=A1 =C2=FC=B0=ED=C7=CF=BF=A9=C1=D6=BD=C3=B1=E2 =B9=D9=B6=F8=B4=CF=B4=D9.</td>
+</tr>
+<tr>
+<td colspan=3D"2" height=3D"5">&nbsp;</td>
+</tr>
+<tr>
+<td align=3D"middle" style=3D"text-align:left;font-size:13px;color:#2E2E2E;" valign=3D"middle" width=3D"15">-</td>
+<td style=3D"line-height:20px;font-size:13px;color:#2E2E2E;font-weight:bold;">=BA=BB =B8=DE=C0=CF=C0=BA =B9=DF=BD=C5 =C0=FC=BF=EB=C0=CC=B9=C7=B7=CE =C8=B8=BD=C5=C7=D2 =B0=E6=BF=EC =B4=E4=BA=AF=C0=BB =B9=DE=C0=BB =BC=F6 =BE=F8=BD=C0=B4=CF=B4=D9.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height=3D"15">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width=3D"30">&nbsp;</td>
+</tr>
+<!-- =C7=AA=C5=CD -->
+<tr>
+<td bgcolor=3D"#f1f1f1" width=3D"30">&nbsp;</td>
+<td bgcolor=3D"#f1f1f1" style=3D"padding-top:20px;padding-bottom:20px;" width=3D"620">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+<tbody>
+<tr>
+<td style=3D"line-height:20px;font-size:12px;color:#666666;font-weight:bold;">=BB=E7=BE=F7=C0=DA=B5=EE=B7=CF=B9=F8=C8=A3: 220-87-91595</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:12px;color:#666666;font-weight:bold;">=C5=EB=BD=C5=C6=C7=B8=C5=BE=F7=BD=C5=B0=ED=B9=F8=C8=A3: =C1=A6 2011-=BC=AD=BF=EF=B0=AD=B3=B2-01456=C8=A3</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:12px;color:#666666;font-weight:bold;">=B4=EB=C7=A5=C0=CC=BB=E7: =C3=D6=C1=F8=C8=AF</td>
+</tr>
+<tr>
+<td style=3D"line-height:20px;font-size:12px;color:#666666;font-weight:bold;">=C1=D6=BC=D2: =BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =B0=AD=B3=B2=B1=B8 =C5=D7=C7=FD=B6=F5=B7=CE 70=B1=E6 16(=B4=EB=C4=A1=B5=BF) TEL: 1899-1313 FAX: 02-6499-2833</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td bgcolor=3D"#f1f1f1" width=3D"30">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<img src=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xNTA2OTc3MDIxMw=3D=3D&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDI2MA=3D=3D&UE9TVF9JRD0yMDI0MDIxMzEwMDAxNTk5ODYzNA=3D=3D&VEM9MjAyNDAyMjc=3D&S0lORD1P" width=3D1 height=3D0></body>
+</html>
+

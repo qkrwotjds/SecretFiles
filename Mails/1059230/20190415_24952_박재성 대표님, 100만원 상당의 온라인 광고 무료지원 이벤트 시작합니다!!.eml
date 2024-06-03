@@ -1,0 +1,103 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1555288309;
+	cv=none; b=bwXVVAGueNwGJuFlunKWCfcIEbEtVpfnNsGtr2yLnAWZZ9U1f2e6MiOnOQWm
+	 qX0CVMLjLmmDPGBvEqZkA/pJNHwigj8/GBH3+SxkvumL+woHH4bocows6xR9dhNNu4yEMi
+	 EiVPVXLEQVH55BsLQ+KTjDpJWulgIMYoUboOXvP1dfP6uMKUDVMJyu8osZpDECbBMfbZaj
+	 OMunSJOGnw/sJ5gteU+syTD1JbRj2jbcjuHGiskagoMCbtYcw70n8gGtwYdI7uFc9R+YuK
+	 Pq7Dsh2f/gVQO6rDdgqhZ30SoRuhrEDHkGLC0oIzKkLb9RWYtZrcaKB6XNJCtVqkhfpJQw
+	 6g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1555288309; c=relaxed/relaxed;
+	bh=mF7yFfSwWjBjMsn6fkfx2Z1jlUSnLeAwBgylZdHIifg=;
+	h=dkim-signature:from:to:subject:date:message-id; b=Cx4Khh0AfvAVZnmVh5g
+	 ZFnfbGV4TH+LEyBb+FCdlFn+lJEfj58RaByQybFPMNPNXJX30iyTHz3En9x1uNxfSuYgZR
+	 Hol1O7VQzyprweWpeXTEf9NKVhtreydNGtoVrCit3hMyBVKHlF+J9dWLBwHmvECJ2Fa7n+
+	 Xz8yf4/pZjJprA4QRWZqb59enpr0kZJRb1JQBibGPM2y+i6N5DZ/n2imbwTSgm512E8u4v
+	 kExAJGQoriaLPgwf57cOpY/KxnYtvHM/QGWRNTilpLvqln3ZXRzkCerXDIhR5GrcHC3lE/
+	 Pkq/aDd9eZ1m4HjaSXGwtiIhmp1naxkFrCRA0HSSaFQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return_postman0415085627@return.postman.co.kr designates 119.207.76.64 as permitted sender) smtp.mailfrom=return_postman0415085627@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+Received-SPF: pass (mx.naver.com: domain of return_postman0415085627@return.postman.co.kr designates 119.207.76.64 as permitted sender)
+  client-ip=119.207.76.64; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return_postman0415085627@return.postman.co.kr designates 119.207.76.64 as permitted sender) smtp.mailfrom=return_postman0415085627@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+X-Naver-ESV: +XFYpB3G1H+YbXFCbHmRKAgqKxtljJ+Y
+X-Session-IP: 119.207.76.64
+Received: from send64.postman.co.kr (send64.postman.co.kr [119.207.76.64])
+  by crcvmail15.nm.naver.com with ESMTP id R+CQy6YmTdOlzgAWeqt8Tg
+  for <1059230@naver.com>;
+  Mon, 15 Apr 2019 00:31:49 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1555288309;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:Feedback-Id:Precedence:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=mF7yFfSwWjBjMsn6fkfx2Z1jlUSnLeAwBgylZdHIifg=;
+	b=kX9befobjN3SWVIM5ie71KDmuvIOAz2Qs3sUidgNTEyaV9CR0nm+N/4USyPjQMlT
+	MUta/ft1nqNj+Xp34cNFiqk6wA/7//FV0k8iFxO8sDIO9/miQbccYV/EWlZ/YhFNAkS
+	ce+AroOATAeF3bChHi8msIL9PTCuu1NK8G1o5OYs=
+From: "=?euc-kr?B?vNvA573C?=" <jsocean@openpress.co.kr>
+To: "=?euc-kr?B?udrA57y6ILTrx6U=?=" <1059230@naver.com>
+Reply-to: <jsocean@openpress.co.kr>
+Subject: =?euc-kr?B?udrA57y6ILTrx6W01CwgMTAwuLi/+CA=?= =?euc-kr?B?u/O058DHIL/CtvPAziCxpLDtILmrt+HB9r/4?= =?euc-kr?B?IMDMuqXGriC9w8Dbx9W0z7TZISE=?=
+Date: Mon, 15 Apr 2019 09:31:49 +0900
+X-WORKER_ID: <single.naver.com_Worker_2>
+X-MAIL_ID: <UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ==>
+X-MEMBER_ID: <TV9JRD05NzQ3MzY0NzM5>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDQ2MA==>
+List-Unsubscribe: <mailto:postman@fbl.humuson.com?subject=dyco7^^20190415100011925851^^9747364739>, <https://mkt.tason.com/open/postman_unsubscription.jsp?user_id=dyco7&customer_id=9747364739&post_id=20190415100011925851>
+Feedback-Id: dyco7:20190415100011925851:9747364739:postman
+Precedence: bulk
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201904150931496754@send64.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div style=3D"margin: 0px auto; width: 740px !important;">
+<div style=3D"width: 740px !important; height: 80px; margin-bottom: 20px;"><img alt=3D"" border=3D"0" height=3D"80" src=3D"http://www.newscast.co.kr/img/email/20180830_top.png" usemap=3D"#top" width=3D"740" /> <map name=3D"top">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://newscast.co.kr/main/index.php" shape=3D"rect" coords=3D"19,18,133,63" target=3D"_blank" alt=3D"=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://newscast.co.kr/service/naver.php" shape=3D"rect" coords=3D"253,27,335,48" target=3D"_blank" alt=3D"=B1=B9=B3=BB=BE=F0=B7=D0=C8=AB=BA=B8">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://newscast.co.kr/service/world.php" shape=3D"rect" coords=3D"354,27,432,47" target=3D"_blank" alt=3D"=C7=D8=BF=DC=BE=F0=B7=D0=C8=AB=BA=B8">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://newscast.co.kr/service/online_fullpackage.php" shape=3D"rect" coords=3D"453,28,521,47" target=3D"_blank" alt=3D"=BF=C2=B6=F3=C0=CE=B1=A4=B0=ED">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://newscast.co.kr/service/ad_signboard3.php" shape=3D"rect" coords=3D"539,28,623,49" target=3D"_blank" alt=3D"=BF=C0=C7=C1=B6=F3=C0=CE=B1=A4=B0=ED">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://newscast.co.kr/viral/blog.php" shape=3D"rect" coords=3D"643,28,724,49" target=3D"_blank" alt=3D"=B9=D9=C0=CC=B7=B2=B8=B6=C4=C9=C6=C3">
+</map></div>
+</div>
+
+<div style=3D"margin: 0px auto; width: 740px !important;">
+<div style=3D"width: 740px !important;"><img alt=3D"" src=3D"http://www.newscast.co.kr/img/email/20190327_1.jpg" style=3D"margin: 0px; padding: 0px;" width=3D"740" /></div>
+
+<div style=3D"width: 740px !important;"><img alt=3D"" src=3D"http://www.newscast.co.kr/img/email/20190327_2.jpg" usemap=3D"#body_01" width=3D"740" /> <map name=3D"body_01">
+<area href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://newscast.co.kr/customer/apply1.php" shape=3D"rect" coords=3D"261,926,471,983" target=3D"_blank" alt=3D"=BC=AD=BA=F1=BD=BA =BB=F3=B4=E3=BD=C5=C3=BB">
+</map></div>
+<img height=3D"1" src=3D"http://mail.openpress.co.kr/mail/mail_confirm.php?host=3Dopenpress.co.kr&amp;id=3Djhheo&amp;sid=3D14478338640636867009&amp;rcptto=3Dyskim%40openpress.co.kr" width=3D"1" /></div>
+<a href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://www.openpress.co.kr/" target=3D"_blank"><img border=3D"0" src=3D"http://www.openpress.co.kr/signature/jsocean.png" /></a><br />
+&nbsp;
+<div class=3D"erase_tag_element" align=3D"center">
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc;">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=BA=BB =B8=DE=C0=CF=C0=BA =C8=B8=BF=F8=B4=D4=C0=C7 =BC=F6=BD=C5=B5=BF=C0=C7 =BF=A9=BA=CE=B8=A6 =C8=AE=C0=CE=C7=D1 =B0=E1=B0=FA =C8=B8=BF=F8=B4=D4=B2=B2=BC=AD =BC=F6=BD=C5=B5=BF=C0=C7=C7=CF=BC=CC=B1=E2=BF=A1 =B9=DF=BC=DB=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=B8=DE=C0=CF =BC=F6=BD=C5=C0=BB =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9, =BF=A9=B1=E2 [<a href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D9747364739&amp;reject_script=3DK&amp;post_id=3D20190415100011925851" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =B4=AD=B7=AF =C1=D6=BD=CA=BD=C3=BF=C0.<br />To unsubscribe <a href=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1D&Q0lEPTAxMA=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddyco=
+7&amp;customer_id=3D9747364739&amp;reject_script=3DE&amp;post_id=3D20190415100011925851" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BC=BA=B5=BF=B1=B8 =BB=F3=BF=F81=B1=E6 26, =BC=AD=BF=EF=BD=A3A=C5=B8=BF=F6 405~7=C8=A3 / 02-922-9591
+</td>
+</tr>
+</table>
+</div><div style=3D"display:none"><img src=3D"http://trk-mkt.tason.com/CheckNew.html?TV9JRD05NzQ3MzY0NzM5&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDE5MDQxNTEwMDAxMTkyNTg1MQ=3D=3D&VEM9MjAxOTA0Mjk=3D&S0lORD1P" width=3D1 height=3D1></div></body>
+</html>
+

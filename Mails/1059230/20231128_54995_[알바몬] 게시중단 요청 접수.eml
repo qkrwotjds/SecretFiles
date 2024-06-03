@@ -1,0 +1,236 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1701160777;
+	cv=none; b=iN0zGifn0TArCqrdygdF2qR1Pt1XU1bjLx/Llte9lIu78RelIO4t1gmBq4Rs
+	 UF1Vs8CNRujI8tqgmhAdrrLZJIshnV5Fd3oD25UDCqQzv+aTYZZM9IbWp1crmBJxKkIuFo
+	 GzkyfwDTgjjBweyOeINNNf0yvpOi4b1mEL572Sc/A/HetTNlgEFeUw91Y9TJAQkZE/Mhoo
+	 mRVgMR36K4neMrSy0eKRu1ZH6vhXojt3gI7xYU3J9cIPGKerBo5ucCyAhPa0V07x7iyj0w
+	 x+xgYvOuNyfT8oqap1gnI6UY0c2PgodVsEbPr3ggXqnNkIQT/zoJJ0ZpREeOsQsGNTMl4t
+	 xw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1701160777; c=relaxed/relaxed;
+	bh=pdleXvy2mH0dYwhaNHScDag4893RpqsSO5XZmbOL30w=;
+	h=date:message-id:subject:from:to; b=gbDD55oaTict8RjoU7Wcvsal+FDOnbgE+7
+	 5OEoeL/aa6XkkSI1pppLZ9pKSLDo71u2OMplEKaX7Z02ZIqnqZb6efkwRbcmao/ZNveSjm
+	 ZrcF2vC5UOiUejBzk+bwNdznGGo7qQZk83mI1QRrPXCRfbFYuilWtBZHKRXFQL7813jh0h
+	 uSl85PXA9egXAPUui6Ge4zJVlrjmAKmHR2dUwBRqpJIDEQy9I+2m4WIhZdXai0ukgxw2kb
+	 o41SyKWkG06W26wZovZJj+r2lG8oyDEP6ZPLLZgLGE1P7ZKAuAl6laQwNAktFgsuHgA/5b
+	 3L5J9uCILfz/draKCoVb5HFSQ2Gw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail2.jobkorea.co.kr
+Return-Path: <0_1_1_1059230_naver.com@imail2.jobkorea.co.kr>
+Received-SPF: pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender)
+  client-ip=119.207.70.25; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@imail2.jobkorea.co.kr designates 119.207.70.25 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@imail2.jobkorea.co.kr
+X-Naver-ESV: wXFn+6J4p63qMBIYKHwdbXmmaAKlKq+YkXm=
+X-Session-IP: 119.207.70.25
+Received: from jobkorea.co.kr (imail2.jobkorea.co.kr [119.207.70.25])
+  by crcvmail101.nm.naver.com with ESMTP id as7WTSyaRESGZy-zVKPtBQ
+  for <1059230@naver.com>;
+  Tue, 28 Nov 2023 08:39:37 -0000
+MIME-Version: 1.0
+Date: Tue, 28 Nov 2023 17:39:35 +0900
+Message-ID: <IWNID_0_1_27_5266744_0_20231128173935>
+Return-Path: <IWNID_0_1_27_5266744_0_20231128173935@imail2.jobkorea.co.kr>
+Content-Type: text/html; 
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+Subject: =?euc-kr?B?W77Ludm4810gsNS9w8HftNwgv+TDuyDBorz2?=
+From: =?euc-kr?B?vsu52bjz?=<mailmaster@albamon.com>
+To: 1059230@naver.com
+Reply-To: =?euc-kr?B?vsu52bjz?=<return@infoweb.jobkorea.co.kr>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        .amwidth {
+            min-width: 360px;
+            max-width: 100%;
+            margin: 0 auto;
+            width: calc((480px + 100%) * 480);
+            /* width: calc(480px * 480 + 100% * 480); */
+            /* min-width:-webkit-calc(50%);
+            min-width:calc(50%);
+            width:-webkit-calc(230400px ? 48000%);
+            width:calc(230400px ? 48000%); */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body topmargin="0" leftmargin="0" marginwidth="0" marginheight="0" style="margin: 0 auto">
+<table border="0" align="center" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; margin: 0 auto">
+    <tr>
+        <td>
+            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin: 0 auto;">
+                <tr>
+                    <td height="60" style="padding: 0;"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#FFFFFF" style="padding: 0 20px;">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                            <tr>
+                                <td height="23">
+                                    <a href="http://www.albamon.com/" target="_blank" style="display: block">
+                                        <img src="http://contents.albamon.kr/monimg/albamon_mail_v03/msa/logo.png" height="20" border="0" alt="알바몬" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="34" style="padding: 0;"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 0 20px;">
+                        
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;letter-spacing:-0.5px;color:#494949;">
+	<tr>
+		<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif, sans-serif;font-size:14px;letter-spacing:-0.5px;color:#494949;">
+				<tr>
+					<td>
+						<strong style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; font-size:30px;line-height:50px;letter-spacing:-1px;color:#222; word-break: keep-all;line-height: 140%;">
+							접수하신 <em style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; color: #ff6633; font-style: normal;">게시중단</em>
+							<em style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; color: #ff6633; font-style: normal;"><br>요청이 정상적으로 <br>접수</em>되었습니다.
+						</strong>
+					</td>
+				</tr>
+				<tr>
+					<td height="14"></td>
+				</tr>
+				<tr>
+					<td style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; word-break: keep-all; font-size: 15px; color: #666666;line-height: 16pt;">
+						<b style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; color: #171717;">체험 주식회사(adnworld)</b>님,
+						<br>회원님의 게시중단 요청이 정상적으로 접수되었습니다.
+						<br>신속하게 검토하여 필요한 조치를 취하겠습니다.
+					</td>
+				</tr>
+				<tr>
+					<td height="30"></td>
+				</tr>
+				<tr>
+					<td height="46" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; font-size: 18px; color: #171717; font-weight: bold;">관계법령 안내</td>
+				</tr>
+				<tr>
+					<td style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; font-size:15px; color:#666666; line-height:1.6;">
+						게시중단 요청 서비스는 정보통신망 이용촉진 및 정보보호 등에 관한 법률 제 44조의 2(정보의 삭제요청 등)에 의거하여 운영되는 서비스입니다.
+					</td>
+				</tr>
+				<tr>
+					<td height="30"></td>
+				</tr>
+				<tr>
+					<td height="46" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; font-size: 18px; color: #171717; font-weight: bold;">사전 안내</td>
+				</tr>
+				<tr>
+					<td style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif; font-size:15px; color:#666666; line-height:1.6;">
+						접수내용 및 회원님의 권리사항 등을 검토하는 과정에서 필수요건이 갖춰지지 않은 경우, 추가 서류를 요청 드릴 수 있습니다.
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td height="60" style="padding: 0;"></td>
+                </tr>
+                <tr>
+                    <td style="padding: 0">
+                        <!--//하단 알바몬 주소 -->
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-family:'맑은고딕',Malgun Gothic,'굴림',Gulim,Apple SD Gothic Neo,sans-serif;padding-left: 20px; padding-right: 20px; background-color:#F5F5F5;letter-spacing: -0.5px;">
+                            <tr>
+                                <td height="30"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <table cellspacing="0" cellpadding="0" style="font-family: '맑은고딕', Malgun Gothic, '굴림', Gulim, Apple SD Gothic Neo, sans-serif">
+                                        <tbody>
+                                        <tr>
+                                            <td valign="'middle"><img src="http://contents.albamon.kr/monimg/albamon_mail_v03/msa/footer_logo.png" alt="albamon" width="100" /></td>
+                                            <td>
+                                                <table cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td width="21" height="16">
+                                                            <div style="background-color: #e8e8e8; width: 1px; height: 100%; margin: 0 auto"></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                            <td valign="middle"><img src="http://contents.albamon.kr/monimg/albamon_mail_v03/msa/footer_first.png" alt="2023 한국산업의 브랜드파워 1위" width="20" /></td>
+                                            <td style="font-size: 13px; color: #6a6a6a; padding-left: 5px">2023 한국산업의 <strong style="font-weight: 700">브랜드파워 1위</strong></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="16"></td>
+                            </tr>
+                            <tr>
+                                <td height="16" style="border-top: 1px solid #e8e8e8"></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">본 메일은 발신 전용입니다.</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">잡코리아/알바몬 계정 관련하여 궁금한 점이 있으시면 <a href="https://www.albamon.com/service-center/qna/register" style="font-size: 12px; color: #171717; text-decoration: underline;">고객센터</a>로 문의해주세요.</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;"></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">서울시 서초구 서초대로 301 동익성봉빌딩 16~18층 잡코리아</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">대표 : 윤현준 | 사업자등록번호 : 110-81-34859</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">통신판매업 신고번호 : 서울청 제2016-11호</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999; text-decoration: none">직업정보제공사업 신고번호 : 서울청 제2016-11호</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999; text-decoration: none">유료직업소개업 등록번호 : 제2022-3210195-14-5-00035호</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">Tel : 1588-9351 | e-mail : helpdesk@albamon.com</td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size: 12px; color: #999999;">Fax : 02-565-9493</td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="font-size: 12px; color: #BBBBBB;">ⓒ JOBKOREA LLC. All Rights Reserved.</td>
+                            </tr>
+                            <tr>
+                                <td height="30"></td>
+                            </tr>
+                        </table>
+                        <!--//하단 알바몬 주소 -->
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<div style="display:none;"><img src="http://imail2.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=27&dmidx=5266744&emidx=0&duration=0&site=0" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://imail2.jobkorea.co.kr:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=27&dmidx=5266744&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+</html>
+

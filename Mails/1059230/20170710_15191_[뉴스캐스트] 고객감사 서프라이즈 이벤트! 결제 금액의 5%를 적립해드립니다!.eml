@@ -1,0 +1,94 @@
+Received-SPF: pass (mx.naver.com: domain of return_postman0710094927@return.postman.co.kr designates 119.207.76.65 as permitted sender)
+  client-ip=119.207.76.65; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return_postman0710094927@return.postman.co.kr designates 119.207.76.65 as permitted sender) smtp.mailfrom=return_postman0710094927@return.postman.co.kr
+X-Naver-ESV: +d+YpB3G1H+YbXFCbHmRKAg9KAumjJ+Y
+X-Session-IP: 119.207.76.65
+Received: from send65.postman.co.kr (send65.postman.co.kr [119.207.76.65])
+  by crcvmail13.nm.naver.com with ESMTP id B2SkGhzZQU+pRAl2emic3w
+  for <1059230@naver.com>;
+  Mon, 10 Jul 2017 00:50:10 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1499647807;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:Feedback-Id:Precedence:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=Cccfve49h7I5gt0Gv5wLMyhyt9WrQ5or9yPoh9D8hCs=;
+	b=bCLXuyHMwCmfqaf2uejfvYmoQK5wTr4HvF02SChzMbCqbPhxbe1ltBavwwUrIpse
+	IJ0axb/LIp6If+kuVnVowfTZk/vzQAGTAQKYj8+Z/ZGqg4ysTm9vaT8Z+ieSkdQ34V2
+	PEQRPCjj2aB519+3NAnZC+P3w7DouvxRE9+IuKKw=
+From: "=?euc-kr?B?vNvA573C?=" <jsocean@openpress.co.kr>
+To: "=?euc-kr?B?udrA57y6ILTrx6U=?=" <1059230@naver.com>
+Reply-to: <jsocean@openpress.co.kr>
+Subject: =?euc-kr?B?W7S6vbrEs726xq5dILDtsLSwqLvnILytx8E=?= =?euc-kr?B?tvPAzMHuIMDMuqXGriEgsOHBpiCx3b7XwMc=?= =?euc-kr?B?IDUluKYgwPu4s8fYteW4s7TPtNkh?=
+Date: Mon, 10 Jul 2017 09:50:07 +0900
+X-WORKER_ID: <single.naver.com_Worker_2>
+X-MAIL_ID: <UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg==>
+X-MEMBER_ID: <TV9JRD03OTAwNDU3MTQ4>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDc2MA==>
+List-Unsubscribe: <mailto:postman@fbl.humuson.com?subject=dyco7^^20170710100010308222^^7900457148>, <https://mkt.tason.com/open/postman_unsubscription.jsp?user_id=dyco7&customer_id=7900457148&post_id=20170710100010308222>
+Feedback-Id: dyco7:20170710100010308222:7900457148:postman
+Precedence: bulk
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <201707100950077696@send65.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p align=3D"left" style=3D"margin: 0cm 0cm 0pt; text-align: left; -ms-word-break: keep-all;"><span style=3D"font-family: arial,helvetica,sans-serif;"><span style=3D"font-size: 12px;"><span style=3D"color: black;">=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4. </span>=B9=DA=C0=E7=BC=BA =B4=EB=C7=A5<span style=3D"color: black;">=B4=D4.<br />
+=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE =BC=DB=C0=E7=BD=C2=C0=D4=B4=CF=B4=D9.<br />
+<br />
+=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE=BF=A1=BC=AD =B0=ED=B0=B4=B0=A8=BB=E7 =BC=AD=C7=C1=B6=F3=C0=CC=C1=EE =C0=CC=BA=A5=C6=AE=B8=A6 =C1=D8=BA=F1=C7=DF=BD=C0=B4=CF=B4=D9.<br />
+=C7=CF=B9=DD=B1=E2 =C8=AB=BA=B8 =B0=E8=C8=B9 =BC=BC=BF=EC=BD=C7 =B6=A7 =C0=FB=B1=D8 =B9=DD=BF=B5 =BA=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9. </span></span></span><br />
+<br />
+<span style=3D"font-size: 12px;"><span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 112, 192);"><span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;">[EVENT]</span></span></strong></span></span><br />
+<img border=3D"0" height=3D"877" src=3D"https://userimg-mkt.tason.com/20170707/dyco7_81292ca7f84644ae95635497fdb70c1d.png" style=3D"width: 641px; height: 804px;" width=3D"699" /><br />
+<span style=3D"font-size: 12px;"><span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;"><strong>- =B0=E1=C1=A6 =B1=DD=BE=D7=C0=C7 =C3=D6=B4=EB 5%=B8=A6 =C0=FB=B8=B3=C7=D8=B5=E5=B8=B3=B4=CF=B4=D9. =C0=FB=B8=B3=B1=DD=C0=BA 1=B3=E2 =C0=CC=B3=BB =BC=AD=BA=F1=BD=BA =BF=AC=C0=E5 =BD=C3 =C7=F6=B1=DD=C3=B3=B7=B3&nbsp;=BB=E7=BF=EB =B0=A1=B4=C9=C7=D5=B4=CF=B4=D9.</strong></span><br />
+<span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;">- =C0=CC=BA=A5=C6=AE =C6=E4=C0=CC=C1=F6 =B9=D9=B7=CE=B0=A1=B1=E2 : </span></span><a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://newscast.co.kr/service/event.php">http://newscast.co.kr/service/event.php</a><br />
+<span style=3D"font-size: 12px;">&nbsp;<br />
+&nbsp;</span><br />
+<span style=3D"font-size: 16px;"><strong><span style=3D"color: rgb(0, 112, 192);"><span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;">[=C3=DF=C3=B5 =BC=AD=BA=F1=BD=BA]</span></span></strong></span><br />
+<span style=3D"font-size: 12px;"><span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;"><strong>* </strong></span><strong>=C3=CA=C6=AF=B0=A1 =BE=F0=B7=D0=C8=AB=BA=B8</strong></span><br />
+<img border=3D"0" height=3D"191" src=3D"http://userimg.postman.co.kr/20170531/dyco7_f433d42d7e2ec3763cb239693e70a8ba.jpg" style=3D"width: 641px; height: 185px;" width=3D"703" /><br />
+<span style=3D"font-size: 12px;"><span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;">- =BC=AD=BA=F1=BD=BA =C6=E4=C0=CC=C1=F6 =B9=D9=B7=CE=B0=A1=B1=E2 : <a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://www.newscast.co.kr/service/cost.php"><span style=3D"color: rgb(0, 0, 255);">http://www.newscast.co.kr/service/cost.php</span></a></span><br />
+&nbsp;<br />
+<span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;"><strong>=BE=F7=B0=E8 =C3=D6=C0=FA=B0=A1=C0=C7 =BA=F1=BF=EB=C0=B8=B7=CE =BE=F0=B7=D0=C8=AB=BA=B8 =BC=AD=BA=F1=BD=BA=B8=A6 =B1=B8=BC=BA=C7=DF=BD=C0=B4=CF=B4=D9.</strong><br />
+=C8=AB=BA=B8 =BF=B9=BB=EA=C0=CC =BA=CE=C1=B7=C7=CF=BC=C5=BC=AD =BE=F0=B7=D0=C8=AB=BA=B8&nbsp;=BC=AD=BA=F1=BD=BA&nbsp;=C1=F8=C7=E0=C0=CC =BE=EE=B7=C1=BF=EC=BC=CC=B4=F8 =B0=ED=B0=B4=BB=E7 =BA=D0=B5=E9=C0=BA =B9=D9=B7=CE =BF=AC=B6=F4=C1=D6=BC=BC=BF=E4.</span><br />
+&nbsp;<br />
+<span style=3D"font-family: =B8=BC=C0=BA =B0=ED=B5=F1;">=BE=D5=C0=B8=B7=CE=B5=B5 =B1=CD=BB=E7=C0=C7 =B9=AB=B1=C3=C7=D1 =B9=DF=C0=FC=C0=BB =B1=E2=BF=F8=C7=D5=B4=CF=B4=D9.<br />
+=B0=A8=BB=E7=C7=D5=B4=CF=B4=D9.</span></span><br />
+<br />
+<br />
+<br />
+<br />
+&nbsp;</p>
+<a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://www.openpress.co.kr" target=3D"_blank"><img border=3D"0" src=3D"http://www.openpress.co.kr/signature/jsocean.png" /></a>
+<div class=3D"erase_tag_element">
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc; margin:0 auto">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=BA=BB =B8=DE=C0=CF=C0=BA =C8=B8=BF=F8=B4=D4=C0=C7 =BC=F6=BD=C5=B5=BF=C0=C7 =BF=A9=BA=CE=B8=A6 =C8=AE=C0=CE=C7=D1 =B0=E1=B0=FA =C8=B8=BF=F8=B4=D4=B2=B2=BC=AD =BC=F6=BD=C5=B5=BF=C0=C7=C7=CF=BC=CC=B1=E2=BF=A1 =B9=DF=BC=DB=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=B8=DE=C0=CF =BC=F6=BD=C5=C0=BB =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9, =BF=A9=B1=E2 [<a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D7900457148&amp;reject_script=3DK&amp;post_id=3D20170710100010308222" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =B4=AD=B7=AF =C1=D6=BD=CA=BD=C3=BF=C0.<br />To unsubscribe <a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddy=
+co7&amp;customer_id=3D7900457148&amp;reject_script=3DE&amp;post_id=3D20170710100010308222" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BC=BA=B5=BF=B1=B8 =BC=BA=BC=F6=B5=BF2=B0=A1 289-319 =BE=C6=C0=CC=BF=A1=BD=BA=BA=F1=C1=EE=C5=B8=BF=F6 408=C8=A3 / 02-922-9591
+</td>
+</tr>
+</table>
+</div><div style=3D"display:none"><img src=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1P" width=3D1 height=3D1></div>
+<iframe src=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD03OTAwNDU3MTQ4&U1RZUEU9TUFTUw=3D=3D&RU1BSUxfSUQ9MTA1OTIzMEBuYXZlci5jb20=3D&TElTVF9UQUJMRT1FQkFEMDc2MA=3D=3D&UE9TVF9JRD0yMDE3MDcxMDEwMDAxMDMwODIyMg=3D=3D&VEM9MjAxNzA3MTc=3D&S0lORD1E" frameborder=3D"0" width=3D"1" height=3D"1"></iframe>
+</body>
+</html>
+

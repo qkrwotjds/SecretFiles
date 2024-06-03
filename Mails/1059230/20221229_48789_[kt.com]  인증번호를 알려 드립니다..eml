@@ -1,0 +1,168 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1672293692;
+	cv=none; b=fX+fh6Y7TWrqarbt5xLlxMmacMS+NWTMnB0ZBRFB8yzIdJN5moD9CoYJpfja
+	 UdXz1N1GJPQ/0vGdJvqEAHDUUy397G5duANvaob+YxbVZhNnnqeGXHH6aIhIm1WhTxHdx5
+	 A2I5dZvdf8/NUrFOasRwkJt2ur3WZIum7ZzE2vnRY8oLkimsT3kbESlcpVedKtigRrCf69
+	 JqOvQljOZ7cWw4IkdsCHpuuMMcz8R4V0R0xa78CdxsqmJYuDb2vqCfNDRKtNZaSKtRU09i
+	 TBNb3AsaMJ89i1V4bNulmLndAdvhh3MA592tQZpkt6RM0+U7hi60mYMosf4007CBXSYIO4
+	 WA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1672293692; c=relaxed/relaxed;
+	bh=qMhVyi0crtmIayTZbedJhDdUCeMloNWA2Y3fl9oBJDM=;
+	h=from:to:message-id:subject; b=J0gyQDwzCHO28ajSDYEtD358NaPNvwSYQ0ZlwBR
+	 9OLYqyQuNJfaVlV5ERHnAUtfM2p7GQOWiDg3lyfg9uoDADoYFrmzosebqYIYpfocjgim33
+	 MjbP6Ip/B7DgWcuq3kNUxsILGjhzk0MUuTidwIJF1gev1jhx4DAzl8Gymj+MXWxLRH+OjI
+	 rUS3X0xMJdiiOoxPa2GroGB3mAa/aM6ajUQrksBwiiQm3oK2mrhNZG5Ot1EXGk68xqnCKf
+	 UthmzQPZ6u6AjX+keq8aWNGYYJUSdOVIMdB0Gqmqz2gWAIjuQp92gf4EZ3vRshHQDjPcx1
+	 /ztEn9veRrwUEpVdRmybGKQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+Return-Path: <noreply@kt.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender)
+  client-ip=14.63.245.52; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+X-Naver-ESV: wqRn+6J4p63qMBIYFHwdbXmmFogwKqiYkXm=
+X-Session-IP: 14.63.245.52
+Date: Thu, 29 Dec 2022 15:01:32 +0900
+Received: from relayfilter1.kt.com (kt.com [14.63.245.52])
+  by crcvmail106.nm.naver.com with ESMTP id GOlGY4LHSyuWC2onK0CPSA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Thu, 29 Dec 2022 06:01:32 -0000
+Received: from external ([172.31.38.223])
+	by relayfilter1.kt.com (1.0) id 2BT61Tn000BE;
+	Thu, 29 Dec 2022 15:01:29 +0900
+From: noreply@kt.com
+To: 1059230@naver.com
+Message-ID: <252651644.803.1672293689026@BD-L2-IAMUIWAS02>
+Subject: =?UTF-8?Q?[kt.com]__=EC=9D=B8=EC=A6=9D?=
+ =?UTF-8?Q?=EB=B2=88=ED=98=B8=EB=A5=BC_=EC=95=8C=EB=A0=A4?=
+ =?UTF-8?Q?_=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.?=
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_802_133779173.1672293689016"
+
+------=_Part_802_133779173.1672293689016
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xml:lang=3D"ko"><head>=09<meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3DUTF-8">=09<meta http-equiv=3D"Imagetoolbar"=
+ content=3D"no">=09<style type=3D"text/css">=09=09body {font-family:=EB=A7=
+=91=EC=9D=80=EA=B3=A0=EB=94=95,'Malgun Gothic',=EB=8F=8B=EC=9B=80,=EA=B5=B4=
+=EB=A6=BC,Verdana; font-size:12px; color:#3d3d3d; text-align:left; margin:0=
+px; padding:0px;}=09=09</style>=09<title>=EC=BC=80=EC=9D=B4=ED=8B=B0=EB=8B=
+=B7=EC=BB=B4 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.</title></head><=
+body><!-- wrap --><table width=3D"820" cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" align=3D"center">=09<!-- header -->=09<thead>=09<tr>=09=09<th =
+width=3D"820" height=3D"112" style=3D"background:#fff;border:1px solid #ccc=
+;border-top:3px solid #d92330; margin:0; padding:0; line-height:0; font-siz=
+e:0;text-align:left;">=09=09=09<div style=3D"margin:0 50px;padding:0 0 0 0"=
+>=09=09=09=09<span style=3D"padding:42px 0 30px 0;"><img src=3D"http://logi=
+n.kt.com/wamui/new_resources/p/cl/src/images/mail/email-logo.jpg" alt=3D"kt=
+" border=3D"0" width=3D"49" height=3D"40"/></span>=09=09=09=09</div>=09=09<=
+/th>=09</tr>=09</thead>=09<!-- //header -->=09<!-- footer -->=09<tfoot>=09=
+=09<tr>=09=09=09<td width=3D"820" height=3D"54" style=3D"margin:0;padding:0=
+;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:none;"=
+></td>=09=09</tr>=09=09<tr>=09=09=09<td width=3D"720" style=3D"margin:0;pad=
+ding:0;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:=
+none;">=09=09=09=09<p style=3D"font-family:'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=
+=94=95','Malgun Gothic',dotum,'=EB=8F=8B=EC=9B=80',gulim,'=EA=B5=B4=EB=A6=
+=BC',sans-serif;font-size:16px;color:#454545;font-weight:normal;margin:0 50=
+px;padding:0;text-align:left;letter-spacing:-1px;line-height:24px;">=EB=B3=
+=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B3=B4=EC=95=88=EC=9D=84 =EC=9C=84=ED=95=
+=B4 =ED=99=95=EC=9D=B8 =ED=9B=84 =EC=82=AD=EC=A0=9C =ED=95=98=EC=8B=9C=EA=
+=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.</p>=09=09=09</td>=09=09</tr>=
+=09=09<tr>=09=09=09<td width=3D"820" height=3D"13" style=3D"margin:0;paddin=
+g:0;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:non=
+e;"></td>=09=09</tr>=09=09<tr>=09=09=09<td width=3D"720" style=3D"margin:0;=
+padding:0;background:#fff;border:1px solid #ccc;border-bottom:none;border-t=
+op:none;">=09=09=09=09<div style=3D"margin:0 50px;padding:0;">=09=09=09=09=
+=09<p style=3D"background:url(http://login.kt.com/wamui/new_resources/p/cl/=
+src/images/mail/email-ico-bullet.gif) no-repeat 1px center;font-family:'=EB=
+=A7=91=EC=9D=80=EA=B3=A0=EB=94=95','Malgun Gothic',dotum,'=EB=8F=8B=EC=9B=
+=80',gulim,'=EA=B5=B4=EB=A6=BC',sans-serif;font-size:16px;color:#777;font-w=
+eight:normal;margin:0 0 0 0;padding:0 0 0 10px;text-align:left;letter-spaci=
+ng:-1px;line-height:24px;">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=
+=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=
+=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.</p>=09=09=09=09</div>=09=09=
+=09</td>=09=09</tr>=09=09<tr>=09=09=09<td width=3D"720" height=3D"28" style=
+=3D"margin:0;padding:0;background:#fff;border:1px solid #ccc;border-bottom:=
+none;border-top:none;"></td>=09=09</tr>=09=09<tr>=09=09=09<td width=3D"820"=
+ height=3D"1" style=3D"margin:0;padding:0;background:#fff;border:1px solid =
+#ccc;border-bottom:none;border-top:none;">=09=09=09=09<table width=3D"820" =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center">=09=09=09=
+=09=09<tbody>=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09<td width=3D"50" he=
+ight=3D"1" style=3D"margin:0;padding:0;border:none;"></td>=09=09=09=09=09=
+=09=09<td width=3D"720" height=3D"1" style=3D"margin:0;padding:0;border-bot=
+tom:1px solid #ccc"></td>=09=09=09=09=09=09=09<td width=3D"50" height=3D"1"=
+ style=3D"margin:0;padding:0;border:none;"></td>=09=09=09=09=09=09</tr>=09=
+=09=09=09=09</tbody>=09=09=09=09</table>=09=09=09</td>=09=09</tr>=09=09<tr>=
+=09      <td style=3D"border:1px solid #ccc;border-bottom:none;border-top:n=
+one;align:center">=09        <table width=3D"720" cellpadding=3D"0" cellspa=
+cing=3D"0" border=3D"0" align=3D"center" style=3D"table-layout:fixed;margin=
+:0 auto;padding:30px 0 55px;border-top:1px solid #ccc;">=09          <tr>=
+=09            <td style=3D"padding-top:16px;">=09              <table cell=
+padding=3D"0" cellspacing=3D"0" style=3D"table-layout:fixed;">=09          =
+      <tr style=3D"font-size:11px;line-height:24px;color:#777;">=09        =
+          <td width=3D"100%">(=EC=A3=BC)=EC=BC=80=EC=9D=B4=ED=8B=B0 =EB=8C=
+=80=ED=91=9C=EC=9D=B4=EC=82=AC =EA=B5=AC=ED=98=84=EB=AA=A8 =EA=B2=BD=EA=B8=
+=B0=EB=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=EA=B5=AC =EB=B6=
+=88=EC=A0=95=EB=A1=9C 90(=EC=A0=95=EC=9E=90=EB=8F=99) =EC=82=AC=EC=97=85=EC=
+=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 : 102-81-42945 =ED=86=B5=EC=8B=
+=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0 : 2002-=EA=B2=BD=EA=B8=B0=
+=EC=84=B1=EB=82=A8-0048</td>=09                </tr>=09                <tr =
+style=3D"font-size:11px;line-height:24px;color:#777;">=09                  =
+<td width=3D"100%">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 : [=EB=AA=A8=EB=B0=
+=94=EC=9D=BC] =ED=9C=B4=EB=8C=80=ED=8F=B0+114(=EB=AC=B4=EB=A3=8C), 1588-001=
+0(=EC=9C=A0=EB=A3=8C) [=EC=9D=B8=ED=84=B0=EB=84=B7/TV/=EC=A0=84=ED=99=94] =
+=EC=9C=A0=EC=84=A0=EC=A0=84=ED=99=94(=EA=B5=AD=EB=B2=88=EC=97=86=EC=9D=B4) =
+100, =ED=9C=B4=EB=8C=80=ED=8F=B0(=EC=A7=80=EC=97=AD=EB=B2=88=ED=98=B8)+100 =
+</td>=09                </tr>=09              </table>=09            </td>=
+=09          </tr>=09          <tr>=09            <td>=09              <tab=
+le cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"table-layout:f=
+ixed;padding-top:5px">=09                <tr>=09                  <td width=
+=3D"300" style=3D"font-size:11px;line-height22px;color:#777;">Copyright=C2=
+=A9 2022 KT Corp. All rights reserved.</td>=09                </tr>=09     =
+         </table>=09            </td>=09          </tr>=09        </table>=
+=09      </td>=09    </tr>=09=09<tr>=09=09=09<td width=3D"820" height=3D"75=
+" style=3D"margin:0;padding:0;background:#fff;border:1px solid #ccc;border-=
+top:none;"></td>=09=09</tr>=09</tfoot>=09<!-- //footer -->=09<tbody>=09=09<=
+tr>=09=09=09<td width=3D"820" height=3D"60" style=3D"margin:0;padding:0 0 0=
+ 0;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:none=
+;"></td>=09=09</tr>=09=09<!-- =EB=B3=B8=EB=AC=B8 =ED=85=8D=EC=8A=A4=ED=8A=
+=B8 -->=09=09<tr>=09=09=09<td width=3D"820" style=3D"margin:0;padding:0 0 0=
+ 0;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:none=
+;">            =09=09<p style=3D"font-family:'=EB=A7=91=EC=9D=80=EA=B3=A0=
+=EB=94=95','Malgun Gothic',dotum,'=EB=8F=8B=EC=9B=80',gulim,'=EA=B5=B4=EB=
+=A6=BC',sans-serif;font-size:40px;color:#222;font-weight:bold;margin:0 0 0 =
+0;padding:0;text-align:center;">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=
+=94. kt.com=EC=9E=85=EB=8B=88=EB=8B=A4.<br><span style=3D"color:#d71826;">=
+=EC=9D=B8=EC=A6=9D =EB=B2=88=ED=98=B8=EB=A5=BC</span><br>=EC=95=8C=EB=A0=A4=
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.</p>=09=09=09</td>=09=09</tr>=09=09<tr=
+>=09=09=09<td width=3D"820" height=3D"55" style=3D"margin:0;padding:0 0 0 0=
+;background:#fff;border:1px solid #ccc;border-bottom:none;border-top:none;"=
+></td>=09=09</tr>=09=09<!-- =ED=9A=8C=EC=83=89=EB=B0=95=EC=8A=A4 =EC=8B=9C=
+=EC=9E=91 -->=09=09<tr>=09=09=09<td width=3D"820" height=3D"55" style=3D"ma=
+rgin:0;padding:0 0 0 0;background:#f5f5f5;"></td>=09=09</tr>=09=09<tr>=09=
+=09=09<td width=3D"822" height=3D"163" style=3D"margin:0;padding:0 0 0 0;ba=
+ckground:#f5f5f5;vertical-align:middle">=09=09=09=09<table width=3D"822" ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center">=09=09=09=
+=09=09<tbody>=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09<td width=3D"159" h=
+eight=3D"163" style=3D"margin:0;padding:0;"></td>=09=09=09=09=09=09=09<td w=
+idth=3D"504" height=3D"163" style=3D"margin:0;padding:0;background:#fff;bor=
+der:3px solid #d71826;text-align:center;">=09=09=09=09=09=09=09=09<p style=
+=3D"font-family:'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95','Malgun Gothic',dotu=
+m,'=EB=8F=8B=EC=9B=80',gulim,'=EA=B5=B4=EB=A6=BC',sans-serif;font-size:16px=
+;color:#222;margin:0;padding:0;">=09=09=09=09=09=09=09=09=09=EC=9D=B8=EC=A6=
+=9D=EB=B2=88=ED=98=B8 : <strong style=3D"font-size:22px;color:#d71826;font-=
+weight:bold;">108666</strong>=09=09=09=09=09=09=09=09</p>=09=09=09=09=09=09=
+=09</td>=09=09=09=09=09=09=09<td width=3D"159" height=3D"163" style=3D"marg=
+in:0;padding:0;"></td>=09=09=09=09=09=09</tr>=09=09=09=09=09</tbody>=09=09=
+=09=09</table>=09=09=09</td>=09=09</tr>=09=09<tr>=09=09=09<td width=3D"822"=
+ height=3D"60" style=3D"margin:0;padding:0;background:#f5f5f5;"></td>=09=09=
+</tr>=09=09<!-- //=EB=B3=B8=EB=AC=B8 =ED=85=8D=EC=8A=A4=ED=8A=B8 -->=09</tb=
+ody></table><!-- //wrap --></body></html>
+------=_Part_802_133779173.1672293689016--

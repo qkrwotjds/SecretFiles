@@ -1,0 +1,53 @@
+X-Suspicious-Sender: yes
+Received-SPF: pass (mx.naver.com: domain of returnmail@lmm004.lemonasp.co.kr designates 1.234.75.201 as permitted sender)
+  client-ip=1.234.75.201; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of returnmail@lmm004.lemonasp.co.kr designates 1.234.75.201 as permitted sender) smtp.mailfrom=returnmail@lmm004.lemonasp.co.kr;
+  dmarc=fail (p=NONE) header.from=gmail.com
+X-Naver-ESV: +9FYpB3G1H+YbXFCbHmRKxgmKAEqjJ+Y
+X-Session-IP: 1.234.75.201
+Received: from lmm004.lemonasp.co.kr ([1.234.75.201])
+  by crcvmail15.nm.naver.com with ESMTP id yb1+2A-6Qre7J07eCDLwPg
+  for <1059230@naver.com>;
+  Mon, 27 Nov 2017 10:00:53 -0000
+Date: Mon, 27 Nov 2017 18:58:16 +0900
+From: "=?UTF-8?B?7Lm067mE7KC866e17Iuc?="<wedmailmast@gmail.com>
+Subject: =?UTF-8?B?KOq0keqzoCnsp4Drp4wg6r+A7YyBIQ==?=
+ =?UTF-8?B?IOuFuOuVhSDsnKDrpqzrp4nsvZTtjIXsi5zrjIA=?=
+ =?UTF-8?B?64qUIOuBneuCrOuLpC4g7J207KCcIA==?=
+ =?UTF-8?B?7YGs66as7Ja07L2U7YyFIOyghOyEseyLnOuMgCE=?=
+To: "1059230@naver.com"<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: ThunderMail ver 4.5
+Content-Type: text/html;	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<p style="text-align: center;">
+<A TARGET="_blank" HREF="http://lmm004.lemonasp.co.kr:80/filter/clickDetecter.jsp?campaignID=12002&duplicationYN=N&targetIndex=[$targetIndex]&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fblog.naver.com%2Fcar9961%2F221017588879&linkID=71805&type=click"CLASS="tx-link"></A></p>
+<p style="text-align: center;">
+<A TARGET="_blank" HREF="http://lmm004.lemonasp.co.kr:80/filter/clickDetecter.jsp?campaignID=12002&duplicationYN=N&targetIndex=[$targetIndex]&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fblog.naver.com%2Fcar9961%2F221017588879&linkID=71806&type=click"CLASS="tx-link"><IMG
+ STYLE="clear: none; float: none;" SRC="http://www.lemonasp.co.kr/attachedFiles/e%20mail%20clear%20coating[1].jpg" CLASS="txc-image"></A></p>
+<p style="text-align: center;"><br>
+</p>
+<p style="text-align: center;">
+<strong><font color="#ffffff" style="background-color: rgb(70, 115, 255);"><br>
+</font></strong></p>
+<strong><p style="text-align: center;">
+<strong><span style="color: rgb(255, 255, 255); background-color: rgb(70, 115, 255);">카비젼맵시만의 특허받은 기술로</span></strong></p>
+<p style="text-align: center;">
+<strong><span style="color: rgb(255, 255, 255); background-color: rgb(70, 115, 255);">내차를 오랫동안 보호하세요!!</span></strong></p>
+<span style="color: rgb(255, 255, 255); background-color: rgb(70, 115, 255);"><p><br>
+</p>
+<p style="text-align: center;"><br>
+</p>
+</span></strong><p><br>
+</p>
+<div style='margin:5px 0px 10px 0px; width:100%; height:2px; background-color:#cbcbcb'></div><div style='width:100%;'>본 메일은 확인해본 결과 메일수신동의를 하셨기에 발송되었습니다.</div><div style='width:100%;'>메일 수신을 원치 않으시면 <A TOOLBAT="no," , ="" ONCLICK="w=window.open(this.href, " 수신거부="" TARGET="_blank" HEIGHT="100" SCROLLBARS="no," WIDTH="100," RESIZEABLE="no," ); W.FOCUS() RETURN FALSE;=""HREF="http://lmm004.lemonasp.co.kr:80/filter/clickDetecter.jsp?campaignID=12002&duplicationYN=N&targetIndex=[$targetIndex]&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fwww.lemonasp.co.kr%2Faddress%2Freject.jsp%24q%24gidxs%24e%24ytRhZmgWEE0yVqTEpbns8g%24e%24%24e%24%24a%24email%24e%241059230%40naver.com&linkID=71807&type=click">[수신거부]</A> 를 클릭하십시오. If you
+don't want to receive this mail anymore, click here 
+<A TOOLBAT="no," , ="" ONCLICK="w=window.open(this.href, " 수신거부="" TARGET="_blank" HEIGHT="100" SCROLLBARS="no," WIDTH="100," RESIZEABLE="no," ); W.FOCUS() RETURN FALSE;=""HREF="http://lmm004.lemonasp.co.kr:80/filter/clickDetecter.jsp?campaignID=12002&duplicationYN=N&targetIndex=[$targetIndex]&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fwww.lemonasp.co.kr%2Faddress%2Freject.jsp%24q%24gidxs%24e%24ytRhZmgWEE0yVqTEpbns8g%24e%24%24e%24%24a%24email%24e%241059230%40naver.com&linkID=71808&type=click">[unsubscription]</A></div><div style='width:100%;'>경북 경산시 진량읍 일연로 696
+대표전화: 1577-9854 이메일: wedmailmast@gmail.com
+</div>
+<br>
+
+<img src='http://lmm004.lemonasp.co.kr:80/filter/checker.jsp?campaignID=12002&email=1059230@naver.com&responseEnd=2017-12-04' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://lmm004.lemonasp.co.kr:80/filter/Tracker.jsp?campaignID=12002&email=1059230@naver.com&responseEnd=2017-12-04'></iframe>

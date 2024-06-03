@@ -1,0 +1,280 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1705957283;
+	cv=none; b=exE4G+tf41n7scm3KalwngC+PqBzVW3rZWA8g+/+T7izX9GS669r+a1RxnfU
+	 lCDKiNnfx+cCa3jHbOpJLjAwlLiLjUenm71dg3yH8ycyeEXt012AZIXDLIYVRPjDlo1OH0
+	 TnuB3UNieZEPLlLDgGsJuuCIfcfONWcpx27V+vp+YmENB5xk6yovyv0l1o1/a/gLoHkjw/
+	 0AwDl+8UcoB2/tIHsIqN7ueQC8etusUDu6MH56FMY6XnUWsMLRQvGOHDuGiymA9DNR15Ki
+	 hZ+JRkteM7JIbidwDzJoaTMt6rHv89cDSFRO9d79kBAq2AUG4euEOxbQr4On9MSrVoX1dH
+	 aA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1705957283; c=relaxed/relaxed;
+	bh=zmwWBVnXXrUUsl34fgQCDY1OFc4/1EMhl+k3kUqkjpw=;
+	h=dkim-signature:date:to:subject:from:message-id; b=bh915RMmeyYPS/CJDd0
+	 AFQum6R2GL4HGAXfyToIRwqhrSlujbs2solTy/NX8iNnFv/oAv0YoMLrBSJBJT28CDfPx7
+	 dIonTFNdlPMroZeEhSUt48n3mPE5MLW7Uk5x9z7DM7ysu7IzlwdyZ+38r4s6B5OhFTcW8X
+	 Zb5SqIIfkfzUys4mhIaAluEQNZH+OWqyQwZJkvJ+5/RwBSdI8CnVK2WSedBoJ+aQja6qeJ
+	 ejPaKTFwWCCSUhQLl6hapm56CzUfik+Blk6+7q3vRGT0ICZ6weujkDkyaySXl05QO7CdGp
+	 METwavoge8d50LvWVz6i+VRzqOT7XwoKHYNnXq4UoaA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of security@facebookmail.com designates 69.171.232.137 as permitted sender) smtp.mailfrom=security@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+Return-Path: <security@facebookmail.com>
+Received-SPF: pass (mx.naver.com: domain of security@facebookmail.com designates 69.171.232.137 as permitted sender)
+  client-ip=69.171.232.137; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of security@facebookmail.com designates 69.171.232.137 as permitted sender) smtp.mailfrom=security@facebookmail.com;
+  dkim=pass header.i=@facebookmail.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=facebookmail.com
+X-Naver-ESV: +ZeYpB3G1H+qbrJmjAKwjAUwKAuZKXwBjg==
+X-Session-IP: 69.171.232.137
+Received: from 69-171-232-137.mail-mail.facebook.com (69-171-232-137.mail-mail.facebook.com [69.171.232.137])
+  by crcvmail204.nm.naver.com with ESMTP id ho+lo4mxT2Seg9BHpY2YCg
+  for <1059230@naver.com>
+  (version=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384);
+  Mon, 22 Jan 2024 21:01:23 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=facebookmail.com;
+	s=s1024-2013-q3; t=1705957278;
+	bh=zmwWBVnXXrUUsl34fgQCDY1OFc4/1EMhl+k3kUqkjpw=;
+	h=Date:To:Subject:From:MIME-Version:Content-Type;
+	b=WYQ0JMlBboB+NVT9cvxfDB4/GY4GcZdiuSclgVbNSmHbZNGxaDsLbvXxgkbVLXW3J
+	 rR0BDXvbzw3cA5dYZOyMBvF7xoN9mA+SH8K92KzAaGbYtQ50J8dpoQN+uH8nSfgndX
+	 6o/jcnKT2xnXPxVqSEUHIbKyorVsIlOUtYo0bCYA=
+X-Facebook: from 2401:db00:273c:4b11:face:0:395:0 ([MTI3LjAuMC4x]) 
+	by www.facebook.com with HTTPS (ZuckMail);
+Date: Mon, 22 Jan 2024 13:01:17 -0800
+To: =?UTF-8?B?67CV7J6s7ISx?= <1059230@naver.com>
+Subject: =?UTF-8?B?7Y+J7IaM7JmAIOuLpOuluCDqs7Psl5DshJwgRmFjZQ==?=
+ =?UTF-8?B?Ym9va+yXkCDroZzqt7jsnbjtlZjshajrgpjsmpQ/?=
+X-Priority: 3
+X-Mailer: ZuckMail [version 1.00]
+Return-Path: security@facebookmail.com
+From: "Facebook" <security@facebookmail.com>
+Reply-to: noreply <noreply@facebookmail.com>
+Errors-To: security@facebookmail.com
+X-Facebook-Notify: delta_checkpoint; mailid=U1U60f8ed7f2684aG5af47ad23404G60f8f21886b1cG7b
+X-FACEBOOK-PRIORITY: 0
+X-Auto-Response-Suppress: All
+Require-Recipient-Valid-Since: 1059230@naver.com; Monday,  5 Apr 2021 23:21:56 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_9b9449391ec6b005a66dea74a2b4c07e"
+Message-ID: <63514728-b969-11ee-a802-b527c77c9808@facebookmail.com>
+
+
+--b1_9b9449391ec6b005a66dea74a2b4c07e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+=EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94.
+
+=EB=88=84=EA=B5=B0=EA=B0=80 Windows 10=EC=9A=A9 =
+Firefox=EC=9D=84(=EB=A5=BC) =EC=82=AC=EC=9A=A9=ED=95=98=EC=97=AC =
+1=EC=9B=94 23=EC=9D=BC =EC=98=A4=EC=A0=84 5:56=EC=97=90 =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =EC=8B=9C=EB=8F=84=ED=95=9C =
+=EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B3=B4=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =
+=EC=B0=A8=EB=8B=A8=ED=96=88=EC=9C=BC=EB=A9=B0, =EC=83=88=EB=A1=9C=EC=9A=B4 =
+=EC=9E=A5=EC=86=8C=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=9C =
+=EC=82=AC=EB=9E=8C=EC=9D=B4 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =
+=EB=A7=9E=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=98=EA=B3=A0=EC=9E=90 =
+=ED=95=A9=EB=8B=88=EB=8B=A4.
+
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =
+=EA=B2=BD=EC=9A=B0 Facebook=EC=97=90 =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=98=EC=97=AC =EA=B3=84=EC=A0=95=EC=9D=84 =
+=EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =EB=B3=B4=ED=98=B8=ED=95=98=EA=B8=B0 =
+=EC=9C=84=ED=95=9C =EB=AA=87 =EA=B0=80=EC=A7=80 =
+=EB=8B=A8=EA=B3=84=EB=A5=BC =
+=EC=A7=84=ED=96=89=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.
+
+=EA=B3=A0=EB=A7=99=EC=8A=B5=EB=8B=88=EB=8B=A4! Facebook =ED=8C=80
+
+
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+=EC=9D=B4 =EB=A9=94=EC=8B=9C=EC=A7=80=EA=B0=80 =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EC=9A=94=EC=B2=AD=EC=97=90 =
+=EB=94=B0=EB=9D=BC 1059230@naver.com=EC=97=90 =
+=EC=A0=84=EC=86=A1=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+Meta Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo =
+Park, CA 94025
+
+
+--b1_9b9449391ec6b005a66dea74a2b4c07e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional =
+//EN"><html><head><title>Facebook</title><meta http-equiv=3D"Content-Type" =
+content=3D"text/html; charset=3Dutf-8" /><style nonce=3D"1a6ngzxI">@media =
+all and (max-width: 480px){*[class].ib_t{min-width:100% =
+!important}*[class].ib_row{display:block =
+!important}*[class].ib_ext{display:block !important;padding:10px 0 5px =
+0;vertical-align:top !important;width:100% =
+!important}*[class].ib_img,*[class].ib_mid{vertical-align:top =
+!important}*[class].mb_blk{display:block =
+!important;padding-bottom:10px;width:100% =
+!important}*[class].mb_hide{display:none =
+!important}*[class].mb_inl{display:inline =
+!important}*[class].d_mb_flex{display:block =
+!important}}.d_mb_show{display:none}.d_mb_flex{display:flex}@media only =
+screen and (max-device-width: 480px){.d_mb_hide{display:none =
+!important}.d_mb_show{display:block !important}.d_mb_flex{display:block =
+!important}}.mb_text h1,.mb_text h2,.mb_text h3,.mb_text h4,.mb_text =
+h5,.mb_text h6{line-height:normal}.mb_work_text =
+h1{font-size:18px;line-height:normal;margin-top:4px}.mb_work_text =
+h2,.mb_work_text =
+h3{font-size:16px;line-height:normal;margin-top:4px}.mb_work_text =
+h4,.mb_work_text h5,.mb_work_text =
+h6{font-size:14px;line-height:normal}.mb_work_text =
+a{color:#1270e9}.mb_work_text p{margin-top:4px}</style></head><body =
+style=3D"margin:0;padding:0;" dir=3D"ltr" bgcolor=3D"#ffffff"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" =
+id=3D"email_table" style=3D"border-collapse:collapse;"><tr><td =
+id=3D"email_content" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;background:#ffffff;"><table =
+border=3D"0" width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr style=3D""><td height=3D"20" =
+style=3D"line-height:20px;" colspan=3D"3">&nbsp;</td></tr><tr><td =
+height=3D"1" colspan=3D"3" style=3D"line-height:1px;"><span =
+style=3D"color:#FFFFFF;font-size:1px;opacity:0;">=C2=A0 =
+=EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. =C2=A0 =
+=EB=88=84=EA=B5=B0=EA=B0=80 Windows 10=EC=9A=A9 Firefox =
+=EC=9D=84(=EB=A5=BC) =EC=82=AC=EC=9A=A9=ED=95=98=EC=97=AC 1=EC=9B=94 =
+23=EC=9D=BC =EC=98=A4=EC=A0=84 5:56 =EC=97=90 =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =EC=8B=9C=EB=8F=84=ED=95=9C =
+=EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B3=B4=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =
+=EC=B0=A8=EB=8B=A8=ED=96=88=EC=9C=BC=EB=A9=B0, =EC=83=88=EB=A1=9C=EC=9A=B4 =
+=EC=9E=A5=EC=86=8C=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=9C =
+=EC=82=AC=EB=9E=8C=EC=9D=B4 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =
+=EB=A7=9E=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=98=EA=B3=A0=EC=9E=90 =
+=ED=95=A9=EB=8B=88=EB=8B=A4. =C2=A0 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =
+=EA=B2=BD=EC=9A=B0 Facebook=EC=97=90 =EB=A1=9C=EA=B7=B8=EC=9D=B8 =
+=ED=95=98=EC=97=AC =EA=B3=84=EC=A0=95=EC=9D=84 =
+=EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =EB=B3=B4=ED=98=B8=ED=95=98=EA=B8=B0 =
+=EC=9C=84=ED=95=9C =EB=AA=87 =EA=B0=80=EC=A7=80 =
+=EB=8B=A8=EA=B3=84=EB=A5=BC =
+=EC=A7=84=ED=96=89=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94. =C2=A0 =
+=EA=B3=A0=EB=A7=99=EC=8A=B5=EB=8B=88=EB=8B=A4! Facebook =ED=8C=80 =
+=C2=A0</span></td></tr><tr><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"15" style=3D"line-height:15px;" =
+colspan=3D"3">&nbsp;</td></tr><tr><td width=3D"32" align=3D"left" =
+valign=3D"middle" style=3D"height:32;line-height:0px;"><img width=3D"32" =
+src=3D"https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/ZirYDPWh0YD.png" =
+height=3D"32" style=3D"border:0;" /></td><td width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+width=3D"100%" style=3D""><span style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:19p=
+x;line-height:32px;color:#1877f2;">=ED=8F=89=EC=86=8C=EC=99=80 =
+=EB=8B=A4=EB=A5=B8 =EA=B3=B3=EC=97=90=EC=84=9C Facebook=EC=97=90 =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=98=EC=85=A8=EB=82=98=EC=9A=94?</span></t=
+d></tr><tr style=3D"border-bottom:solid 1px #e5e5e5;"><td height=3D"15" =
+style=3D"line-height:15px;" colspan=3D"3">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse:collapse;"><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td =
+style=3D""><span class=3D"mb_text" style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16p=
+x;line-height:21px;color:#141823;">=EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=98, =
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94.</span></td></tr><tr =
+style=3D""><td height=3D"28" =
+style=3D"line-height:28px;">&nbsp;</td></tr><tr><td style=3D""><span =
+class=3D"mb_text" style=3D"font-family:Helvetica Neue,Helvetica,Lucida =
+Grande,tahoma,verdana,arial,sans-serif;font-size:16px;line-height:21px;col=
+or:#141823;">=EB=88=84=EA=B5=B0=EA=B0=80 <strong>Windows 10=EC=9A=A9 =
+Firefox</strong>=EC=9D=84(=EB=A5=BC) =EC=82=AC=EC=9A=A9=ED=95=98=EC=97=AC =
+<strong>1=EC=9B=94 23=EC=9D=BC =EC=98=A4=EC=A0=84 5:56</strong>=EC=97=90 =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =EC=8B=9C=EB=8F=84=ED=95=9C =
+=EA=B2=83=EC=9C=BC=EB=A1=9C =EB=B3=B4=EC=9E=85=EB=8B=88=EB=8B=A4. =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =
+=EC=B0=A8=EB=8B=A8=ED=96=88=EC=9C=BC=EB=A9=B0, =EC=83=88=EB=A1=9C=EC=9A=B4 =
+=EC=9E=A5=EC=86=8C=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=9C =
+=EC=82=AC=EB=9E=8C=EC=9D=B4 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=B4 =
+=EB=A7=9E=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=98=EA=B3=A0=EC=9E=90 =
+=ED=95=A9=EB=8B=88=EB=8B=A4.</span></td></tr><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td =
+style=3D""><span class=3D"mb_text" style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16p=
+x;line-height:21px;color:#141823;"><strong>=ED=9A=8C=EC=9B=90=EB=8B=98=EC=
+=9D=B4 =EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =
+=EA=B2=BD=EC=9A=B0</strong> <a href=3D"https://www.facebook.com/n/?login%2=
+F&amp;aref=3D1705956977164728&amp;medium=3Demail&amp;mid=3D60f8ed7f2684aG5=
+af47ad23404G60f8f0fa041b8G7b&amp;bcode=3D2.1705957277.AbxMVtP5Nerp9xoSkRs&=
+amp;n_m=3D1059230%40naver.com&amp;lloc=3Dlogin&amp;rms=3Dv2&amp;irms=3Dtru=
+e" style=3D"color:#1b74e4;text-decoration:none;">Facebook=EC=97=90 =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8</a>=ED=95=98=EC=97=AC =
+=EA=B3=84=EC=A0=95=EC=9D=84 =EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =
+=EB=B3=B4=ED=98=B8=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=9C =EB=AA=87 =
+=EA=B0=80=EC=A7=80 =EB=8B=A8=EA=B3=84=EB=A5=BC =EC=A7=84=ED=96=89=ED=95=B4=
+=EC=A3=BC=EC=84=B8=EC=9A=94.</span></td></tr><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr><tr><td =
+style=3D""><span class=3D"mb_text" style=3D"font-family:Helvetica =
+Neue,Helvetica,Lucida Grande,tahoma,verdana,arial,sans-serif;font-size:16p=
+x;line-height:21px;color:#141823;">=EA=B3=A0=EB=A7=99=EC=8A=B5=EB=8B=88=EB=
+=8B=A4!<br />Facebook =ED=8C=80</span></td></tr><tr style=3D""><td =
+height=3D"28" style=3D"line-height:28px;">&nbsp;</td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td><td =
+style=3D""><table border=3D"0" width=3D"100%" cellspacing=3D"0" =
+cellpadding=3D"0" align=3D"left" style=3D"border-collapse:collapse;"><tr =
+style=3D"border-top:solid 1px #e5e5e5;"><td height=3D"19" =
+style=3D"line-height:19px;">&nbsp;</td></tr><tr><td =
+style=3D"font-family:Helvetica Neue,Helvetica,Lucida Grande,tahoma,verdana=
+,arial,sans-serif;font-size:11px;color:#aaaaaa;line-height:16px;"><table =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"border-collapse:collapse;"><tr><td align=3D"center" =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-bottom:6px;">from</td></tr><tr><td align=3D"center" =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:6px;padding-bottom:6px;"><img width=3D"74" alt=3D"Meta" =
+height=3D"22" src=3D"https://facebook.com/images/email/meta_logo.png" =
+style=3D"border:0;" /></td></tr><tr><td align=3D"center" =
+style=3D"font-size:11px;font-family:LucidaGrande,tahoma,verdana,arial,sans=
+-serif;padding-top:6px;padding-bottom:6px;">=C2=A9 Facebook. Meta =
+Platforms, Inc., Attention: Community Support, 1 Meta Way, Menlo Park, CA =
+94025</td></tr><tr><td align=3D"center" style=3D"font-size:11px;font-famil=
+y:LucidaGrande,tahoma,verdana,arial,sans-serif;padding-top:6px;">=EC=9D=B4 =
+=EB=A9=94=EC=8B=9C=EC=A7=80=EB=8A=94 <a =
+style=3D"color:#1b74e4;text-decoration:none;" =
+href=3D"mailto:1059230&#064;naver.com">1059230&#064;naver.com</a> =
+=EC=A3=BC=EC=86=8C=EB=A1=9C =
+=EC=A0=84=EC=86=A1=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4. <br =
+/>=EA=B3=84=EC=A0=95 =EB=B3=B4=EC=95=88=EC=9D=84 =EC=9C=84=ED=95=B4 =
+=EC=9D=B4 =EC=9D=B4=EB=A9=94=EC=9D=BC=EC=9D=80 =
+=EC=A0=84=EB=8B=AC=ED=95=98=EC=A7=80 =EB=A7=88=EC=84=B8=EC=9A=94. <a =
+style=3D"color:#1b74e4;text-decoration:none;" =
+href=3D"https://www.facebook.com/help/213481848684090/">=EB=8D=94 =
+=EC=95=8C=EC=95=84=EB=B3=B4=EA=B8=B0</a></td></tr></table><tr =
+style=3D""><td height=3D"10" =
+style=3D"line-height:10px;">&nbsp;</td></tr></td></tr></table></td><td =
+width=3D"15" =
+style=3D"display:block;width:15px;">&nbsp;&nbsp;&nbsp;</td></tr><tr =
+style=3D""><td height=3D"20" style=3D"line-height:20px;" =
+colspan=3D"3">&nbsp;</td></tr></table><span style=3D""><img =
+src=3D"https://www.facebook.com/email_open_log_pic.php?mid=3D60f8ed7f2684a=
+G5af47ad23404G60f8f0fa041b8G7b" style=3D"border:0;width:1px;height:1px;" =
+/></span></td></tr></table></body></html>
+
+
+
+--b1_9b9449391ec6b005a66dea74a2b4c07e--
+

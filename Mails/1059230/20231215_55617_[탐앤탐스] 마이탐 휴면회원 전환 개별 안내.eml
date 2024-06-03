@@ -1,0 +1,77 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1702616534;
+	cv=none; b=HMGBhf2skpZfYzoAO02mezHzy1VcdyU95ax/KG3NSz9uYwFQW2uqbxdBmUfc
+	 3LqBbNbIKWPZ5qjWmGlI7eQnD2qWD3xgXBzF4SpRq3euRsAbhOIb6fEzDmS3CkXw1S8LU0
+	 6o/7McecPcawZGo6zdjAXfStHk1pP0A1WwfcqQPgFqx6hSIaT2b2spAgsQKQCjy6Bsm4/S
+	 TBV/eJpGAaRtKom1wDV0xsWOGg630u8IjFynoWsTcAC/R/PIlBqWPwOoPNsSbh5QXt/evz
+	 SPt8ZembvYJpRtQtB6NvnYOfSR/ECeh2dAWCSG7RB8oDGLCMWOnCjonONp7Xo+87e7AHq+
+	 9w==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1702616534; c=relaxed/relaxed;
+	bh=f5E58Ksj5V/3PewKtpQgYWV6lO6euHuI1/k8TLdTXE8=;
+	h=date:from:subject:to; b=hLWzHMTv/tn+7XVGC1a/KRdvme1H8JtFI/Hckn4alBg1Z
+	 wVbNhp6RsRT5GVMQ7u3/BL0nZA2CihetWiiZzY17YLrNo/FlXpOcGjLh4K9R1KGCl+LTp8
+	 1VYhWyjVpwvZj4TN6X/szJ0PZralTKmwjs3pHhG9ChzMXeYqU4RUwnVAKi8Sd8+zEKPmK1
+	 zUJaLEh1ziOUOpcVmHMrya4FIRWN0E1Z/204THsnKqCpKth4JNFW2hkhuLtEOw8hZv2Oxy
+	 S/Vd+wUSfWce/VPbpBtJ7+OfnSR772U2OTHTksAIJYelR/7jnyWj3h8UXlRpPsqcrmD+tf
+	 oQjO/OVydbAQsFM4Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of returnmail@sender-006.cafe24.com designates 218.236.58.153 as permitted sender) smtp.mailfrom=returnmail@sender-006.cafe24.com
+Return-Path: <returnmail@sender-006.cafe24.com>
+Received-SPF: pass (mx.naver.com: domain of returnmail@sender-006.cafe24.com designates 218.236.58.153 as permitted sender)
+  client-ip=218.236.58.153; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of returnmail@sender-006.cafe24.com designates 218.236.58.153 as permitted sender) smtp.mailfrom=returnmail@sender-006.cafe24.com
+X-Naver-ESV: wZRn+6J4p63qMBIYKHwdbXmmFxgZKx3YkXm=
+X-Session-IP: 218.236.58.153
+Message-ID: <1702616534504.7f52d.137380506@crcvmail302.nm>
+Received: from sender-006.cafe24.com (sender-006.cafe24.com [218.236.58.153])
+  by crcvmail302.nm.naver.com with ESMTP id pmGrpi9KQrOi+sRMN8ZjCg
+  for <1059230@naver.com>;
+  Fri, 15 Dec 2023 05:02:14 -0000
+Date: Fri, 15 Dec 2023 13:50:24 +0900
+From: "=?euc-kr?B?xb2+2MW9vbo=?="<ebiz_tax@tomntoms.com>
+Subject: =?euc-kr?B?W8W9vtjFvb26XSC4tsDMxb0gyN646ci4v/ggwPzIryCws7qwIL7Is7s=?=
+To: "=?euc-kr?B?J7nawOe8uicgtNQ=?="<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: ThunderMail ver 4.5
+Content-Type: text/html;	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<table cellpadding="10" cellspacing="0">
+<tr>
+<td>
+<p>
+</p>
+<p style="text-align: center;">
+<IMG
+ VSPACE="0" HSPACE="5" STYLE="width: 1080px; height: 1559px;" SRC="https://tomnmall4.sendmail.cafe24.com/filemanager2/data/20231215/copy(1)-ED9CB4EBA9B420ECA084ED999820EBB0B0EB8488_1080.png"></p>
+<p><br>
+</p>
+</td>
+</tr>
+<tr>
+<td style="font:11px">
+<P align=center>
+<font size=2>본 메일은 발신전용 메일이며 문의사항은 탐앤탐스 홈페이지 고객센터를 이용해주십시오.<br /><br>
+<br />
+메일 수신을 원치 않으시면 <A HREF="http://sender-006.cafe24.com:80/filter/clickDetecter.jsp?campaignID=94301&duplicationYN=Y&targetIndex=25859&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fadmin.sendmail.cafe24.com%2Flink.php&linkID=4186842&type=reject">수신거부</A> 를 클릭하십시오.<br /><br>
+If you don't want to receive this mail anymore, click here <A HREF="http://sender-006.cafe24.com:80/filter/clickDetecter.jsp?campaignID=94301&duplicationYN=Y&targetIndex=25859&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fadmin.sendmail.cafe24.com%2Flink.php&linkID=4186843&type=reject">unsubscription</A></font></p>
+</td>
+</tr>
+<tr>
+<td style="font:11px">
+<P align=center>
+<font size=2>서울특별시 광진구 아차산로 426
+(구의동, 재성빌딩) | 대표 : 명선철 | 사업자등록번호 :  215-86-65050
+<br /><br>
+<br />
+TEL : 02-3412-0781
+| FAX : 02-3412-1907 | Copyright
+⒞ 2023 TOM N TOMS Coffee. All Rights Reserved.
+</font></p>
+</td>
+</tr>
+</table>
+
+<img src='http://sender-006.cafe24.com:80/filter/checker.jsp?campaignID=94301&duplicationYN=Y&targetIndex=25859&email=1059230@naver.com&responseEnd=2023-12-22' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://sender-006.cafe24.com:80/filter/Tracker.jsp?campaignID=94301&duplicationYN=Y&targetIndex=25859&email=1059230@naver.com&responseEnd=2023-12-22'></iframe>

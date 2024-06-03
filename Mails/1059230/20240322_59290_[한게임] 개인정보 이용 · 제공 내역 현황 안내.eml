@@ -1,0 +1,463 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1711077546;
+	cv=none; b=a6PzJKFOR7CyjvCqdy8WRTF3W7raEupJ0tv+Nyc2lYrEqOdoJNiB7DxujMUa
+	 XFXR/1W3aP+Mbk88JWnoSMY7Db/D+hdY5e6ywwDD61Uh72ng5uwkPBrSs5bpYC67UcIB6x
+	 QCWQv2mxW2HD2P4UqL8OpdlrH+KQqN2dbuAqfgATNqJCpB857QJZvrvZfdkIbj8Dn1Lfgo
+	 E0jvSf0+mtcFY/TFODh6qHi7HIeMMLGbPXKn6jFT+xq4BO5fhDIyzRmHZ70/d+vvN86v8l
+	 PKd8wqPAOLsOvYh1ptGBMAad+XoJa4FlmRmlGSt/Ev1bdxxr46nbsc4LS0afDuxnv1DmsX
+	 Sw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1711077546; c=relaxed/relaxed;
+	bh=O5J7AIXXu+OFk/w9bKVlPtHifWdGpyEJUYKqYANbVpg=;
+	h=date:from:to:message-id:subject:dkim-signature; b=H9ASYfkNWFLyJpD6U2u
+	 V9DFtShSP01BGoX4ukx7PGFoMsCq5zvdXp6iv4eer18MJF2uAUnz5lcWav+PdBnTMaTKhJ
+	 MBwqt52isLBXjQvk2R4raw8h7TVLCoObnd2jSDHNQPpAMdiDzmYFX3ZpwsO9l6Bd//O7O7
+	 AKLBw4lfQMJJ6NIBzF1T9Uttf4rj5TNGAgsXaqUSfGNVdsO2v5Huv0OVz4KaWBe9cGZnPK
+	 kDfAEda9AJPq2qgTV77ek0UU8B6jjjtrg1u2B99ubPoO2t+0pqgz0uREP7/S/EQG/x0R8/
+	 sLnNcuG1P4P+hv96IkoYSMWTeefiEjk/LwDLHTNmB2g==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of hangame@hangame.com designates 103.132.33.228 as permitted sender) smtp.mailfrom=hangame@hangame.com;
+  dkim=pass header.i=@hangame.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hangame.com
+Return-Path: <hangame@hangame.com>
+Received-SPF: pass (mx.naver.com: domain of hangame@hangame.com designates 103.132.33.228 as permitted sender)
+  client-ip=103.132.33.228; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of hangame@hangame.com designates 103.132.33.228 as permitted sender) smtp.mailfrom=hangame@hangame.com;
+  dkim=pass header.i=@hangame.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=hangame.com
+X-Naver-ESV: ww+n+6J4p63CbHmqKBwdbXFYKAKwaxgrjJ+Y
+X-Session-IP: 103.132.33.228
+Received: from smtp403.toastcloud.com (smtp403.toastcloud.com [103.132.33.228])
+  by crcvmail105.nm.naver.com with ESMTP id GqFBvL9kTh6jxTZ+Gj7WUg
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Fri, 22 Mar 2024 03:19:06 -0000
+Received: from [10.162.161.157] (HELO
+ mmsa-newbatch-wb901.svr.toastmaker.net) ([10.162.161.157]) by
+ smtp403.toastcloud.com with SMTP id de35bbfd65fcf8aa; Fri, 22 Mar 2024
+ 12:19:06 +0900
+Date: Fri, 22 Mar 2024 12:19:06 +0900 (KST)
+From: =?UTF-8?B?7ZWc6rKM7J6E?= <hangame@hangame.com>
+To: 1059230@naver.com
+Message-ID: <20240322121852Smwuu2y0@mmsa-newbatch-wb901>
+Subject: =?UTF-8?B?W+2VnOqyjOyehF0g6rCc7J247KCV67O0IOydtOyaqQ==?=
+ =?UTF-8?B?IMK3IOygnOqztSDrgrTsl60g7ZiE7ZmpIOyViOuCtA==?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Seq: 0
+X-Toast-Return-Allow: true
+List-Unsubscribe: <https://email.api.nhncloudservice.com/email/v1.0/block-receivers/Nwbj58rAQUVaWwFXk3BgM4Kqc2feAvXPpjGc7Y6k3nOL-7RmfKfvDhQi_NXmqTnX>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+DKIM-Signature: a=rsa-sha256; q=dns/txt; b=GVDU6wYZrwBPQvzq2zY/nyoniF0t1bNP5rxRx6aGT4PE7bL5D3FJaFxZoujMExv2LKBRcJPvERPHaWhlkZe6FJm4B2vvxQvVfywtSA0epHAICFpYlfJ/3yigG1PlBoqHxFxB/gMxkorGIqdEw6Fo1Vjb5dbuWbAn/UCWyo6jNUc=; s=toast; c=relaxed/relaxed; d=hangame.com; v=1; bh=O5J7AIXXu+OFk/w9bKVlPtHifWdGpyEJUYKqYANbVpg=; h=Date:From:To:Subject:Precedence:X-Toast-Return-Allow:X-Toast-Seq:List-Unsubscribe-Post:List-Unsubscribe;
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8">
+</head>
+<body style=3D"margin:0">
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:100%;background-color:#e6e6e6">
+=09<tr>
+=09=09<td align=3D"center">
+=09=09=09<!-- outlook : max-width-->
+=09=09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+=09=09=09=09<tr>
+=09=09=09=09=09<td width=3D"650">
+=09=09=09<![endif]-->
+=09=09=09<div style=3D"max-width:650px;margin:0 auto">
+=09=09=09=09<!-- header -->
+=09=09=09=09<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"margin:0 auto;background:#ffffff">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"29" colspan=3D"3"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td width=3D"30"></td>
+=09=09=09=09=09=09<td valign=3D"top" align=3D"left" height=3D"14" colspan=
+=3D"2"><a href=3D"https://www.hangame.com"><img src=3D"https://static-hid.c=
+dn.toastoven.net/img/ems/logo_ems.png" width=3D"100" height=3D"14" alt=3D"H=
+ANGAME" style=3D"border:0;vertical-align:top"></a></td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td height=3D"17" colspan=3D"3"></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<!-- //header -->
+    <!-- content -->
+    <table width=3D"100%" style=3D"background: rgb(255, 255, 255); margin: =
+0px auto;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+    <tbody><tr>
+        <td>
+            <table style=3D"background: rgb(255, 255, 255); margin: 0px; pa=
+dding: 0px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+            <tbody><tr>
+                <td width=3D"30"></td>
+                <td height=3D"30" align=3D"left" style=3D"color: rgb(54, 54=
+, 54); letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=
+=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&q=
+uot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;App=
+le SD Gothic Neo&quot;,Sans-serif; font-size: 30px;"><span style=3D"color: =
+rgb(250, 110, 0); line-height: 30px; font-family: &quot;=EB=82=98=EB=88=94=
+=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=
+=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&=
+quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 30px;">=EA=B0=9C=EC=
+=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =C2=B7 =EC=A0=9C=EA=B3=B5 =EB=
+=82=B4=EC=97=AD =ED=98=84=ED=99=A9</span> =EC=95=88=EB=82=B4</td>
+                <td width=3D"30"></td>
+            </tr>
+            <tr><td height=3D"29" colspan=3D"3"></td></tr>
+            <tr>
+                <td width=3D"30"></td>
+                <td align=3D"left" style=3D"font-family:'=EB=82=98=EB=88=94=
+=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malg=
+un Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-s=
+erif;font-size:14px;color:#363636;line-height:22px;letter-spacing:-0.09em">=
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. <span style=3D"font-family:'=
+=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=
+=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD =
+Gothic Neo',Sans-serif;font-size:14px !important;color:#fa6e00 !important;l=
+ine-height:22px;text-decoration:none !important;word-break:break-all;font-w=
+eight:bold">=EC=9E=84=EB=B3=91=EB=9E=80(player60709274)</span> =ED=9A=8C=EC=
+=9B=90=EB=8B=98,</td>
+                <td width=3D"30"></td>
+            </tr>
+            <tr><td height=3D"22" colspan=3D"3"></td></tr>
+            <tr>
+                <td width=3D"30"></td>
+                <td align=3D"left" style=3D"color: rgb(54, 54, 54); line-he=
+ight: 22px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=
+=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=
+=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&=
+quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 14px;">=EA=B0=9C=EC=
+=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8=EB=B2=95 =EC=A0=9C20=EC=A1=B0=EC=
+=9D=98 2(=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =C2=B7 =EC=
+=A0=9C=EA=B3=B5 =EB=82=B4=EC=97=AD=EC=9D=98 =ED=86=B5=EC=A7=80)=EC=97=90 =
+=EB=94=B0=EB=9D=BC, =ED=95=9C=EA=B2=8C=EC=9E=84=EC=9D=98 =EA=B0=9C=EC=9D=B8=
+=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9=C2=B7=EC=A0=9C=EA=B3=B5 =EB=82=B4=EC=
+=97=AD =ED=98=84=ED=99=A9=EC=9D=84 =EC=95=88=EB=82=B4=ED=95=98=EA=B3=A0 =EC=
+=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</td>
+                <td width=3D"30"></td>
+            </tr>
+            <tr><td height=3D"22" colspan=3D"3"></td></tr>
+            <tr>
+                <td width=3D"30"></td>
+                <td align=3D"left" style=3D"color: rgb(54, 54, 54); line-he=
+ight: 22px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=
+=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=
+=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&=
+quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 14px;">=EA=B0=9C=EC=
+=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =C2=B7 =EC=A0=9C=EA=B3=B5 =EB=
+=82=B4=EC=97=AD =ED=98=84=ED=99=A9 =EC=95=88=EB=82=B4 =EB=A9=94=EC=9D=BC=EC=
+=9D=80 =EC=97=B0 1=ED=9A=8C =ED=95=9C=EA=B2=8C=EC=9E=84=EC=97=90 =EC=A0=9C=
+=EA=B3=B5=ED=95=98=EC=8B=A0 =EC=9D=B4=EB=A9=94=EC=9D=BC =EC=A3=BC=EC=86=8C=
+=EB=A1=9C =EC=95=8C=EB=A0=A4=EB=93=9C=EB=A6=AC=EB=A9=B0, =EC=9E=90=EC=84=B8=
+=ED=95=9C =EB=82=B4=EC=97=AD =ED=98=84=ED=99=A9=EC=9D=80 =EC=95=84=EB=9E=98=
+ =EB=A7=81=ED=81=AC=EB=A5=BC =ED=81=B4=EB=A6=AD=ED=95=98=EB=A9=B4 =ED=99=95=
+=EC=9D=B8=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.=
+</td>
+                <td width=3D"30"></td>
+            </tr>
+            <tr><td height=3D"22" colspan=3D"3"></td></tr>
+            <tr>
+                <td width=3D"30"></td>
+                <td align=3D"left" style=3D"color: rgb(54, 54, 54); line-he=
+ight: 22px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=
+=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=
+=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&=
+quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 14px;">=ED=95=9C=EA=
+=B2=8C=EC=9E=84=EC=9D=80 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EC=86=8C=EC=
+=A4=91=ED=95=9C =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=A5=BC =EC=95=88=EC=
+=A0=84=ED=95=98=EA=B2=8C =EA=B4=80=EB=A6=AC=ED=95=98=EA=B8=B0 =EC=9C=84=ED=
+=95=98=EC=97=AC =EC=B5=9C=EC=84=A0=EC=9D=84 =EB=8B=A4=ED=95=98=EA=B2=A0=EC=
+=8A=B5=EB=8B=88=EB=8B=A4.</td>
+                <td width=3D"30"></td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+        <td height=3D"36"></td>
+    </tr>
+    <tr>
+        <td>
+            <table style=3D"background: rgb(255, 255, 255); margin: 0px; pa=
+dding: 0px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+            <tbody><tr>
+                <td width=3D"30"></td>
+                <td>
+                    <table style=3D"background: rgb(250, 250, 250); margin:=
+ 0px; padding: 0px; border: 1px solid rgb(233, 233, 233); border-image: non=
+e; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                    <tbody><tr><td height=3D"23" colspan=3D"4"></td></tr>
+                    <tr>
+                        <td width=3D"30"></td>
+                        <td align=3D"center" style=3D"color: rgb(54, 54, 54=
+); line-height: 19px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=
+=EB=88=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=
+=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,He=
+lvetica,&quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 13px;">
+                            <table style=3D"margin: 0px; padding: 0px; widt=
+h: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                            <tbody><tr>
+                                <td width=3D"70%" align=3D"left" valign=3D"=
+top">
+                                    <table style=3D"margin: 0px; padding: 0=
+px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                                    <tbody><tr>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"width: 14px; color: rgb(54, 54, 54); line-height: 19px; letter-spac=
+ing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;=
+,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic=
+,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&q=
+uot;,Sans-serif; font-size: 13px;">1.</td>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -0.09em;=
+ font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,=
+&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=
+=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&quot;,Sans-ser=
+if; font-size: 13px;">=EC=88=98=EC=A7=91=ED=95=9C =EA=B0=9C=EC=9D=B8=EC=A0=
+=95=EB=B3=B4=EC=9D=98 =ED=95=AD=EB=AA=A9</td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                                <td width=3D"30%" align=3D"right" valign=3D=
+"top" style=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -=
+0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;,Nanum=
+Gothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot=
+;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&quot;,S=
+ans-serif; font-size: 13px;">
+                                    <a style=3D"color: rgb(54, 54, 54); lin=
+e-height: 19px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=
+=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=
+=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetic=
+a,&quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 13px; text-decorat=
+ion: underline; display: inline-block;" href=3D"https://www.hangame.com/agr=
+eement.nhn?code=3Dprivacy&amp;tab=3D0&amp;menuIdx=3D2#g1" target=3D"_blank"=
+>=EB=B3=B4=EA=B8=B0</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width=3D"70%" align=3D"left" valign=3D"=
+top" style=3D"padding-top: 15px;">
+                                    <table style=3D"margin: 0px; padding: 0=
+px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                                    <tbody><tr>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"width: 14px; color: rgb(54, 54, 54); line-height: 19px; letter-spac=
+ing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;=
+,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic=
+,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&q=
+uot;,Sans-serif; font-size: 13px;">2.</td>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -0.09em;=
+ font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,=
+&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=
+=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&quot;,Sans-ser=
+if; font-size: 13px;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =EC=88=
+=98=EC=A7=91 =EB=B0=8F =EB=AA=A9=EC=A0=81</td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                                <td width=3D"30%" align=3D"right" valign=3D=
+"top" style=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -=
+0.09em; padding-top: 15px; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=
+=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot=
+;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple =
+SD Gothic Neo&quot;,Sans-serif; font-size: 13px;">
+                                    <a style=3D"color: rgb(54, 54, 54); lin=
+e-height: 19px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=
+=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=
+=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetic=
+a,&quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 13px; text-decorat=
+ion: underline; display: inline-block;" href=3D"https://www.hangame.com/agr=
+eement.nhn?code=3Dprivacy&amp;tab=3D0&amp;menuIdx=3D2#g2" target=3D"_blank"=
+>=EB=B3=B4=EA=B8=B0</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width=3D"70%" align=3D"left" valign=3D"=
+top" style=3D"padding-top: 15px;">
+                                    <table style=3D"margin: 0px; padding: 0=
+px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                                    <tbody><tr>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"width: 14px; color: rgb(54, 54, 54); line-height: 19px; letter-spac=
+ing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;=
+,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic=
+,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&q=
+uot;,Sans-serif; font-size: 13px;">3.</td>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -0.09em;=
+ font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,=
+&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=
+=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&quot;,Sans-ser=
+if; font-size: 13px;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=B2=98=EB=A6=
+=AC=EC=9C=84=ED=83=81 =ED=98=84=ED=99=A9</td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                                <td width=3D"30%" align=3D"right" valign=3D=
+"top" style=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -=
+0.09em; padding-top: 15px; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=
+=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot=
+;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple =
+SD Gothic Neo&quot;,Sans-serif; font-size: 13px;">
+                                    <a style=3D"color: rgb(54, 54, 54); lin=
+e-height: 19px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=
+=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=
+=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetic=
+a,&quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 13px; text-decorat=
+ion: underline; display: inline-block;" href=3D"https://www.hangame.com/agr=
+eement.nhn?code=3Dprivacy&amp;tab=3D0&amp;menuIdx=3D2#g4" target=3D"_blank"=
+>=EB=B3=B4=EA=B8=B0</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width=3D"70%" align=3D"left" valign=3D"=
+top" style=3D"padding-top: 15px;">
+                                    <table style=3D"margin: 0px; padding: 0=
+px; width: 100%;" cellspacing=3D"0" cellpadding=3D"0">
+                                    <tbody><tr>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"width: 14px; color: rgb(54, 54, 54); line-height: 19px; letter-spac=
+ing: -0.09em; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;=
+,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic=
+,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&q=
+uot;,Sans-serif; font-size: 13px;">4.</td>
+                                        <td align=3D"left" valign=3D"top" s=
+tyle=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -0.09em;=
+ font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,=
+&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=
+=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple SD Gothic Neo&quot;,Sans-ser=
+if; font-size: 13px;">=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=A0=9C3=EC=9E=
+=90 =EC=A0=9C=EA=B3=B5 =ED=98=84=ED=99=A9</td>
+                                    </tr>
+                                    </tbody></table>
+                                </td>
+                                <td width=3D"30%" align=3D"right" valign=3D=
+"top" style=3D"color: rgb(54, 54, 54); line-height: 19px; letter-spacing: -=
+0.09em; padding-top: 15px; font-family: &quot;=EB=82=98=EB=88=94=EA=B3=A0=
+=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95&quot=
+;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetica,&quot;Apple =
+SD Gothic Neo&quot;,Sans-serif; font-size: 13px;">
+                                    <a style=3D"color: rgb(54, 54, 54); lin=
+e-height: 19px; letter-spacing: -0.09em; font-family: &quot;=EB=82=98=EB=88=
+=94=EA=B3=A0=EB=94=95&quot;,NanumGothic,&quot;=EB=A7=91=EC=9D=80=EA=B3=A0=
+=EB=94=95&quot;,Malgun Gothic,&quot;=EB=8F=8B=EC=9B=80&quot;,Dotum,Helvetic=
+a,&quot;Apple SD Gothic Neo&quot;,Sans-serif; font-size: 13px; text-decorat=
+ion: underline; display: inline-block;" href=3D"https://accounts.hangame.co=
+m/myinfo/usage-agree-history?menuId=3Dmanage_personalInfo" target=3D"_blank=
+">=EB=B3=B4=EA=B8=B0</a>
+                                </td>
+                            </tr>
+                            </tbody></table>
+                        </td>
+                        <td width=3D"30"></td>
+                    </tr>
+                    <tr><td height=3D"25" colspan=3D"4"></td></tr>
+                    </tbody></table>
+                </td>
+                <td width=3D"30"></td>
+            </tr>
+            </tbody></table>
+        </td>
+    </tr>
+    <tr>
+    <td>
+        <table width=3D"100%" style=3D"background: rgb(255, 255, 255); marg=
+in: 0px; padding: 0px;" cellspacing=3D"0" cellpadding=3D"0">
+        <tbody><tr><td height=3D"36" colspan=3D"3"></td></tr>
+        <tr>
+            <td width=3D"30"></td>
+            <td colspan=3D"2" style=3D"padding:0 15px 19px 15px;border:1px =
+solid #eaeaea;vertical-align:top;">
+                <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" sty=
+le=3D"margin-top:16px">
+                    <tr>
+                        <td style=3D"vertical-align:top;"><img src=3D"https=
+://static-hid.cdn.toastoven.net/img/ems/ico_mark.png" width=3D"14" height=
+=3D"14" style=3D"vertical-align:middle; margin-top:3px;" alt=3D""></td>
+                        <td align=3D"left" valign=3D"top" style=3D"padding-=
+left:8px;font-family:'=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=
+=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Do=
+tum,Helvetica,'Apple SD Gothic Neo',Sans-serif;font-size:12px;color:#363636=
+;line-height:18px;letter-spacing:-0.09em;">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=
+=9D=80 =EC=9E=84=EB=B3=91=EB=9E=80(player60709274)=EB=8B=98=EC=9D=98 =EB=82=
+=B4=EC=A0=95=EB=B3=B4=EC=97=90 =EB=93=B1=EB=A1=9D=EB=90=9C =EC=9D=B4=EB=A9=
+=94=EC=9D=BC =EC=A3=BC=EC=86=8C=EB=A1=9C =EB=B0=9C=EC=86=A1=EB=90=98=EC=97=
+=88=EC=8A=B5=EB=8B=88=EB=8B=A4. <br>=EB=A9=94=EC=9D=BC =EC=A3=BC=EC=86=8C=
+=EA=B0=80 =EC=9E=98 =EB=AA=BB =EC=9E=85=EB=A0=A5=EB=90=98=EC=97=88=EC=9D=84=
+ =EA=B2=BD=EC=9A=B0 =EB=8B=A4=EB=A5=B8 =EC=82=AC=EB=9E=8C=EC=9D=98 =EB=A9=
+=94=EC=9D=BC=EC=9D=84 =EC=88=98=EC=8B=A0=ED=95=A0 =EC=88=98 =EC=9E=88=EC=9C=
+=BC=EB=A9=B0,<br>=EB=B3=B8=EC=9D=B8 =EC=A0=95=EB=B3=B4=EA=B0=80 =EC=95=84=
+=EB=8B=90 =EA=B2=BD=EC=9A=B0 <a href=3D"https://members.hangame.com/identit=
+y/emailowner.nhn?key=3De84b76190583d79553dcb19f1e30e981275cf18c76b70202773c=
+971bfa353dc4" target=3D"_blank" style=3D"font-family:'=EB=82=98=EB=88=94=EA=
+=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=95',Malgun =
+Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-seri=
+f;font-size:12px;color:#fa6e00;text-decoration:underline;font-weight:bold">=
+=EC=97=AC=EA=B8=B0</a> =EB=A5=BC =EB=88=8C=EB=9F=AC =EC=9D=B4=EB=A9=94=EC=
+=9D=BC =EC=A3=BC=EC=86=8C=EB=A5=BC =EC=82=AD=EC=A0=9C=ED=95=A0 =EC=88=98 =
+=EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</td>
+                    </tr>
+                </table>
+            </td>
+            <td width=3D"30"></td>
+        </tr>
+        </tbody></table>
+    </td>
+    </tr>
+    </tbody></table>
+    <!-- //content -->
+=09=09=09=09<!-- footer -->
+=09=09=09=09<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" borde=
+r=3D"0" style=3D"margin:0 auto;background:#ffffff">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"left"
+=09=09=09=09=09=09=09style=3D"padding:25px 30px 22px;font-family:'=EB=82=98=
+=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=
+=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD Gothic Ne=
+o',Sans-serif;font-size:12px;color:#8e8e8e;line-height:18px">
+=09=09=09=09=09=09=09=EC=9D=B4 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=
+=A0=EC=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EC=9D=B4 =EB=90=
+=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.<br>=EB=8D=94 =EA=B6=81=
+=EA=B8=88=ED=95=98=EC=8B=A0 =EC=82=AC=ED=95=AD=EC=9D=80 <a href=3D"https://=
+cs.hangame.com/content/index.do" target=3D"_blank" style=3D"font-family:'=
+=EB=82=98=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=
+=A0=EB=94=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD =
+Gothic Neo',Sans-serif;font-size:12px;color:#666666;line-height:18px;text-d=
+ecoration:underline">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0</a>=EB=A1=9C =EB=
+=AC=B8=EC=9D=98=ED=95=B4 =EC=A3=BC=EC=84=B8=EC=9A=94.
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"left"
+=09=09=09=09=09=09=09style=3D"padding:0 0 48px 30px;font-family:'=EB=82=98=
+=EB=88=94=EA=B3=A0=EB=94=95',NanumGothic,'=EB=A7=91=EC=9D=80=EA=B3=A0=EB=94=
+=95',Malgun Gothic,'=EB=8F=8B=EC=9B=80',Dotum,Helvetica,'Apple SD Gothic Ne=
+o',Sans-serif;font-size:12px;color:#8e8e8e">
+=09=09=09=09=09=09=09&copy; NHN Corp.
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<!-- //footer -->
+=09=09=09</div>
+=09=09=09<!--[if mso]>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<![endif]-->
+=09=09</td>
+=09</tr>
+</table>
+</body>
+</html>
+<img style=3D'display:none;' height=3D'1' width=3D'1' border=3D'0' src=3D'h=
+ttps://email.api.nhncloudservice.com/email/v1.0/collectors/readCheck/vCv_VU=
+XeAkOwp2h8qBG0SDA00Qqx9gmxXryBnAffh4I?ext=3Dimg.gif' loading=3D'eager'/>
+

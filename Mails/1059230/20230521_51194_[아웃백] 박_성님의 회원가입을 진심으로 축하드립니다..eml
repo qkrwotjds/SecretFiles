@@ -1,0 +1,99 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1684661761;
+	cv=none; b=M8w4BUXl4NwqFAIV1xaEOFxI3IpUDmPVHFBd5wrRWOxirVrjkniN9K9+IulV
+	 K12qHPZPZbhElD13KuNNxbMa9jivqJOgMThdWGYh5ImJnl76wMZY1eWVybHENX8scT2naF
+	 wKfnYMS927W5jgLrZHyiVVOfOsfXnIFsCtg+8AfoAwJ5w9oti0lX9OWKz7cQKYgTM4qI42
+	 qcFGqJxC4AvMJ7ddTTHX46q51991kem2rimxqPPkPcyABj+bVa2MU7ssZ4a3ku4zRv+gn5
+	 SjzD2b/Z5JISQIiKYc3v9L2EwtHlImVgPSbXYX6CcXbM7fEOXtWxeUXWd0BFZOcX/HResn
+	 4A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1684661761; c=relaxed/relaxed;
+	bh=+eIIVIriUBpVQ/xB6hknPonQRlnPd2Crikx0qX5DE2Q=;
+	h=from:to:subject:date:message-id; b=Cp7US1qCixDTTLlT8YO21KZnwYbPC8Mb9a
+	 jaG+sXXeQIFbSzfd1O7YnKoxA+0/RpJK3QjC2kVFi1Q0mmG1jaYYLtnb2AucOYT7lPw5Z0
+	 EUNTzXeVrWPPr9Z7oLQBElpUWT5K+m+nyC6Vq6Ljo9XMbcjA7Ey3iedDNQQhQubcV0SJdY
+	 3MijYraM0JPFzU5K2n6Chr26LO4f6xOyvagu2Rbf12QRO3FInUV7CmtdpDjUndzDicaDyo
+	 gk9hV6vu6HWh38RKC7riiSnJ3tpvquWsaKIDf2n5pfyg/Ka9MjaD2KV8cri4zOxv0JhT/9
+	 ZQo3jQXcCiwv9bEp1VgrdIq0QBTA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender) smtp.mailfrom=return@outback.co.kr
+Return-Path: <return@outback.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender)
+  client-ip=52.79.255.78; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@outback.co.kr designates 52.79.255.78 as permitted sender) smtp.mailfrom=return@outback.co.kr
+X-Naver-ESV: wdRn+6J4p63qMBIYKBwdbXmmaxKrKAJYkXm=
+X-Session-IP: 52.79.255.78
+Received: from ems.outback.co.kr (ec2-52-79-255-78.ap-northeast-2.compute.amazonaws.com [52.79.255.78])
+  by crcvmail205.nm.naver.com with ESMTP id FyCZlmsmRl280LrXBRja0A
+  for <1059230@naver.com>;
+  Sun, 21 May 2023 09:36:01 -0000
+From: "=?utf-8?B?7JWE7JuD67Cx?=" <outback@outback.co.kr>
+To: "=?utf-8?B??=" <1059230@naver.com>
+Reply-to: <outback@outback.co.kr>
+Subject: =?utf-8?B?W+yVhOybg+uwsV0g67CVKuyEseuLmOydmCDtmozsm5DqsIA=?=
+ =?utf-8?B?7J6F7J2EIOynhOyLrOycvOuhnCDstpXtlZjrk5zrpr3ri4jri6Qu?=
+Date: Sun, 21 May 2023 18:35:59 +0900
+X-WORKER_ID: <single.default_Worker_17>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDUyMV8x>
+X-MEMBER_ID: <TV9JRD01MDU3NTUwXzM0NTU3MDY3>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202305211835591234@ems.outback.co.kr_Ems@ems.outback.co.kr>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3recipe//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>아웃백 | 회원가입</title>
+</head>
+
+<body style="margin:0; padding:0;">
+<table cellpadding="0" cellspacing="0" border="0" width="620" style="margin:0 auto; padding:0;  color:#666; font-size:0; font-family:'돋움', 'Dotum', 'Arial'; border:1px solid #ededed; border-spacing:0; border-collapse:collapse;">
+<!-- 상단 헤더 -->
+<tr>
+<td style="padding:0 39px 0 39px;">
+<div style="position:relative; width:540px; margin:0; padding:0;">
+<img src="https://www.outback.co.kr/asset/email_tpl/images/logo.gif" alt="" style="border:none; vertical-align:top;" />
+<p style="position:absolute; bottom:22px; right:0; padding:0; margin:0; color:#646464; font-size:12px; line-height:1; font-weight:bold;">2023-05-21 18:35:24.603</p>
+</div>
+</td>
+</tr>
+<!-- //상단 헤더 -->
+
+<!-- 컨텐츠 영역 -->
+<tr>
+<td style="padding:60px 39px 60px 39px; text-align:center;">
+<p style="margin:0; padding:0;">
+<img src="https://www.outback.co.kr/asset/email_tpl/images/email_title_01.gif" alt="안녕하세요. 아웃백 스테이크 하우스 입니다." style="border:none; vertical-align:top;" />
+</p>
+<p style="margin:56px 0 0 0; padding:0; color:#222; font-size:14px; line-height:22px;"><strong>박*성</strong>님이 회원가입 시 등록하신 아이디를 안내해 드립니다.</p>
+<div style="margin:35px 0 0 0; padding:39px 0; color:#222; font-size:14px; line-height:20px; border:1px solid #ededed;">아이디 : <strong>qkrwo***s</strong></div>
+<p style="margin:40px 0 0 0; padding:0;">
+<a href="https://www.outback.co.kr" target="_blank" style="display:inline-block; margin:0; padding:0 40px; color:#fff; font-size:12px; font-weight:bold; line-height:40px; text-decoration:none; background:#cb0000;">홈페이지 바로가기</a>
+</p>
+<p style="margin:35px 0 0 0; padding:0; color:#646464; font-size:12px; line-height:20px;">아웃백 스테이크하우스는 정통의 맛과 조리법, 신선한 재료로 정성껏 준비한 메뉴를<br>가족, 친구와 함께 나누는 공간입니다.<br>눈에 보이는 것을 쫓지 않고 투박하게 쉬운 길로 가지 않고 정직하게<br>TRUE TASTE를 찾겠습니다.</p>
+</td>
+</tr>
+<!-- //컨텐츠 영역 -->
+
+<!-- 하단 푸터 -->
+<tr>
+<td style="padding:25px 39px 59px 39px; border-top:1px solid #ededed; background-color:#fafafa; text-align:center;">
+<p style="margin:0; color:#888; font-size:11px; line-height:20px; letter-spacing:-0.22px;">본 메일은 서비스 이용 및 법적 의무 고지사항 안내메일로 수신동의 여부와 상관없이 발송되었습니다.<br>본 메일은 발신전용이므로 회신되지 않으며, 문의사항은 <a href="https://www.outback.co.kr/customer/inquiryLogin.do?menuIdx=37" target="_blank" style="color:#888; font-size:11px; font-weight:bold;">고객센터</a>로 연락 주시기 바랍니다.</p>
+<p style="margin:15px 0 0 0; padding-top:15px; color:#888; font-size:11px; line-height:20px; border-top:1px solid #e6e6e6;">아웃백스테이크하우스&nbsp;|&nbsp;대표이사 : 박현종&nbsp;|&nbsp;사업자등록번호 : 211-86-42619<br>서울특별시 송파구 올림픽로 300(롯데월드타워) 19층 아웃백 스테이크하우스&nbsp;|&nbsp;대표번호 : 1577-0500</p>
+<p style="margin:10px 0 0 0; padding:0; color:#888; font-size:11px; line-height:1; font-weight:bold;">© 2018 OUTBACK STEAKHOUSE. All Rights Reserved.</p>
+</td>
+</tr>
+<!-- //하단 푸터 -->
+</table>
+</body>
+</html>
+
+
+
+

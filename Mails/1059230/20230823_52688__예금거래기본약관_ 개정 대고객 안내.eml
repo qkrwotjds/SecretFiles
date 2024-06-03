@@ -1,0 +1,303 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1692774431;
+	cv=none; b=HTxWzLOoO5voh444UkUCaMSairkTBquI1yjr6vkNJFDKFJkDJTuoZopOjqIM
+	 DqDlGTXPkpFA+dPxDayCqKTeubGzUAK0SzdEZwo68oQubuJEp41wDW1kEWniubI7CTKqU2
+	 uCVjIgaetAQEh25Y+SRTOn91a+qOxLcV1zz0EORdbwke1ZA3Lht6+LyiQWqiMrPjYNJtdt
+	 owcuhoIyhHV8lFdC+4sxFoY65oa3eoyh41sDeybcy3ofGTRmza4Yml8/bcTeLwXIu+vby1
+	 lUmdsfrIduDuShcT5zkX1AqPB5WHiViUlDTxhRStj4vumsf3Ye+B4BILAlfU4FyBts914A
+	 ng==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1692774431; c=relaxed/relaxed;
+	bh=0Hiynugg25Y1+bKf8kk3xWcUwHOBtrzmqOK/5gA7CBo=;
+	h=message-id:from:to:subject:date; b=ZFoFAOfIDWM2bGI0aQpX1agX66oJU6pceF
+	 acN4o6/lQjJ3JZOl88YA/qR2ZtHUtoVEfstv7ENtTSXz9tGmZ6k2RJ+0hb/RsAHf2+kaBE
+	 hJDI3HfXm22MM9zJtfSd0ZFFA4Blba4bCaohKcsFyUBMjRyA2zbYJM4LEuUzKVKpInttH4
+	 VHbsXOvzvEZhTZk88vW316Bk520EweElKq0JvLeJw+HLczwD/TMI+VpLh8P8pciOkf1sx+
+	 +W0V8KtynbMggdSkH8HiYFeskWShdmLEPNNE2t+AVT4Qo0g9hdt8sJo0CKcQioynjsFoQM
+	 EY1wBVgkN0znN/nU3GqRuBt6LyJg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=retrun@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+Return-Path: <retrun@email2.citibank.co.kr>
+Received-SPF: pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender)
+  client-ip=192.193.83.185; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of retrun@email2.citibank.co.kr designates 192.193.83.185 as permitted sender) smtp.mailfrom=retrun@email2.citibank.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=citibank.co.kr
+X-Naver-ESV: wmRn+6J4p63CbHmqKBwdbXFYKAbmFquwjJ+Y
+X-Session-IP: 192.193.83.185
+Received: from citibank.co.kr (email2.citibank.co.kr [192.193.83.185])
+  by crcvmail206.nm.naver.com with ESMTP id m2J-lPT-RE2eEz1ec-ZZQA
+  for <1059230@naver.com>;
+  Wed, 23 Aug 2023 07:07:11 -0000
+Message-ID: <1692766890567.611888@krygcgemlla26pv.apac.nsroot.net>
+From: "=?EUC-KR?B?x9Gxub6+xrzAusfg?=" <citicenter@email2.citibank.co.kr>
+To: "=?EUC-KR?B?sO2wtLjt?=" <1059230@naver.com>
+Subject: =?EUC-KR?B?J7+5sd2wxbehseK6u77gsPwnILCzwaQgtOuw7bC0IL7Is7s=?=
+Date: Wed, 23 Aug 2023 14:01:30 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000010153
+X-MNWISE-RESULT_SEQ: 1692766820942130
+X-MNWISE-USER_ID: des64oSReypgH84CUURTsK72dsw==
+X-MNWISE-LIST_SEQ: 0000103014
+X-MNWISE-RECORD_SEQ: 0
+X-MNWISE-CLIENT_TYPE: em
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: 8bit
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0;max-width:0;opacity:0;overflow:hidden;">예금거래기본약관 변경 안내문</div>
+<center> 
+<table class="container" style=" border: 1px solid #cccccc;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#ffffff; line-height:1px; max-height:0px;  max-width:0px; opacity:0; overflow:hidden;"></td>
+</tr>
+<tr>
+<td>
+<table class="container" style="max-width:642px;" border="0" cellspacing="0" cellpadding="0" width="642" align="center">
+<tbody>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td>
+<table style="background-color: #ffffff; width: 100%;" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tbody>
+<tr>
+<td align="center" bgcolor="#ffffff">
+<table class="container" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td bgcolor="#ffffff">
+<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<!--// 헤드 --> 
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img border="0" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" width="10" style="display:block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img alt="Citi" title="Citi" border="0" src="https://www.citibank.co.kr/download/cms/email/edm_logo_citi.png" width="35" height="20" style="width: 35px; height: 20px; display: block; border-style: none;" /></td>
+</tr>
+<tr>
+<td align="left" valign="top"><img height="15" src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="display: block; width: 1px; height: 15px;" width="1" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="left" width="15" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="width: 15px; display: block;" width="15" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 헤드 //--> <!--// 타이틀 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230728_deposit_change_top.jpg" alt="예금거래기본약관 변경 안내문" style="display:block;" border="0" aria-hidden="true" /></td>
+</tr>
+<!-- 타이틀 //--> <!--// 내용 --> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202307/edm_230728_deposit_change_con_01.jpg" alt="항상 한국씨티은행을 이용해 주셔서 감사합니다.&#10;&#9;&#9;&#9;예금거래기본약관이 아래와 같이 변경 됩니다.&#10;&#9;&#9;&#9;약관 변경에 동의하지 아니한 경우 통지를 받은 날로부터 1개월 이내에 계약을 해지할 수 있으며,&#10;&#9;&#9;&#9;계약 해지의 의사표시를 하지 아니한 경우에는 변경에 동의한 것으로 봅니다.&#10;&#9;&#10;&#9;&#9;&#9;1.&#9;약관명 : 예금거래기본약관&#10;&#9;&#9;&#9;2.&#9;시행일 : 2023년 09월 25일 (월) &#10;&#9;&#9;&#9;3.&#9;변경사항 기존 고객 적용 여부 : 적용&#10;&#9;&#9;&#9;4.&#9;신&middot;구 조문 대비표&#10;&#9;&#9;&#9;&#9;&#9;&#9;&#10;&#9;&#9;&#9;변경 전&#9;&#10;&#9;&#9;&#9;제18조 수수료 &#10;&#9;&#9;&#9;1. 거래처가 개설점이 아닌 다른 영업점이나 다른 금융기관 또는 전산통신기기 등을 통해 거래할 때 은행은 온라인수수료나 추심수수료 등을 받을 수 있다. &#10;&#9;&#9;&#9;2. 은행은 제1항의 경우 외에도 거래처가 자기앞수표 발행 등을 원하거나 거래처 잘못으로 통장재발행 등을 요청하는 경우 그 사무처리와 관련하여 수수료를 받을 수 있다.&#10;&#9;&#9;&#9;3. 은행은 제1항, 제2항 이외에도 은행에 예치한 총수신금액이 일정한 규모 이하인 거래처에 대하여 계좌유지수수료를 받을 수 있으며, 구체적인 부과기준은 은행이 별도로 정한다. 이 경우 은행은 예금주의 인출 지시 없이 매월 5일에 계좌유지수수료를 직접 출금할 수 있으며, 5일이 영업일이 아닌 경우에는 익영업일에 출금할 수 있다. 해당 예금의 잔액이 인출 예정 계좌유지수수료에 미달할 경우 은행은 잔액 범위 내에서 우선 인출할 수 있으며, 미달된 부분은 거래처에 직접 청구할 수 있다.&#10;&#9;&#9;&#9;4. 제1항, 제2항, 제3항과 관련한 수수료표는 영업점과 인터넷 홈페이지에 게시하여 거래처에 알린다. 수수료표를 변경하고자 할 때는 변경된 수수료표 시행일 1개월 전에 한 달간 영업점과 인터넷 홈페이지에 게시하여 거래처에 알린다. 다만, 법령의 개정이나 제도의 개선 등으로 긴급히 수수료표를 개정할 때는 즉시 이를 게시 또는 공고하여야 한다.&#10;&#9;&#9;&#9;5. 거래처는 제4항의 고지 후 변경된 수수료표 시행일 전영업일까지 서면에 의한 통지로 계약을 해지할 수 있으며, 이 기간 내에 거래처의 서면에 의한 이의가 은행에 도달하지 않으면 이를 승인한 것으로 본다.&#9;제18조 수수료 &#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;변경 후&#10;&#9;&#9;&#9;제18조 수수료&#10;&#9;&#9;&#9;1. 거래처가 개설점이 아닌 다른 영업점이나 다른 금융기관 또는 전산통신기기 등을 통해 거래할 때 은행은 온라인수수료나 추심수수료 등을 받을 수 있다. &#10;&#9;&#9;&#9;2. 은행은 제1항의 경우 외에도 거래처가 자기앞수표 발행 등을 원하거나 거래처 잘못으로 통장재발행 등을 요청하는 경우 그 사무처리와 관련하여 수수료를 받을 수 있다. &#10;&#9;&#9;&#9;3. 은행은 제1항, 제2항 이외에도 은행에 예치한 총수신금액이 일정한 규모 이하인 거래처에 대하여 계좌유지수수료를 받을 수 있으며, 구체적인 부과기준은 은행이 별도로 정한다. 이 경우 은행은 예금주의 인출 지시 없이 매월 5일에 계좌유지수수료를 직접 출금할 수 있으며, 5일이 영업일이 아닌 경우에는 익영업일에 출금할 수 있다. 해당 예금의 잔액이 인출 예정 계좌유지수수료에 미달할 경우 은행은 잔액 범위 내에서 우선 인출할 수 있으며, 미달된 부분은 거래처에 직접 청구할 수 있다.&#10;&#9;&#9;&#9;4. 제1항, 제2항, 제3항과 관련한 수수료표는 영업점과 인터넷 홈페이지에 게시하여 거래처에 알린다. 수수료표를 변경하고자 할 때는 변경된 수수료표 시행일 1개월 전에 한 달간 영업점과 인터넷 홈페이지에 게시하여 거래처에 알린다. 다만, 법령의 개정이나 제도의 개선 등으로 긴급히 수수료표를 개정할 때는 즉시 이를 게시 또는 공고하여야 한다.&#10;&#9;&#9;&#9;5. (삭제)&#9;&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;비고&#10;&#9;&#9;&#9;공정거래 위원회 표준약관 반영&#10;&#9;&#9;&#9;&#10;&#9;&#9;&#9;준법감시인 심의필 2307-01-093 (2023.07.21)" border="0" aria-hidden="true" /></td>
+</tr>
+<!-- 내용 //--> <!--// 뉴풋터 배너 --> 
+<tr>
+<td align="right">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td height="20"></td>
+</tr>
+<tr>
+<td align="right" valign="top" id="mob-image-footer"><img width="373" src="https://www.citibank.co.kr/download/cms/email/edm_bluebox_web_2x_new.png" border="0" style="width: 373px; display: block;" /></td>
+</tr>
+<tr>
+<td align="right" valign="top" bgcolor="#47b7e5" style="line-height:10px;"><img height="10" width="10" src="https://www.citibank.co.kr/download/cms/email/edm_top_dark_blue.png" border="0" style="display:block; border-style: none;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- 뉴풋터 배너 //--> 
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202206/edm_220620_check_notice_con01.jpg" border="0" style="display:block;" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td><a href="https://www.citibank.co.kr/d.act?ID=3603" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202206/edm_220620_check_notice_btn01.jpg" alt="은행 이용자 보호 계획 지금 바로 확인하기 >" border="0" style="display: block;" /></a></td>
+<td><a href="https://www.citibank.co.kr/CusConsCnts0300.act" target="_blank"><img src="https://www.citibank.co.kr/download/cms/email/202206/edm_220620_check_notice_btn02.jpg" alt="챗봇 상담 바로가기 >" border="0" style="display: block;" /></a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td><img src="https://www.citibank.co.kr/download/cms/email/202206/edm_220620_check_notice_con01.jpg" border="0" style="display:block;" /></td>
+</tr>
+<!--// Security 배너 --> 
+<tr>
+<td>
+<table style="background-color:#f1f1f1;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 104px;"></col> <col style="width: 1px;"></col> <col style="width: 20px;"></col> <col style="width: *;"></col> <col style="width: 25px;"></col> </colgroup> 
+<tbody>
+<tr>
+<td colspan="5" height="40"></td>
+</tr>
+<tr>
+<td align="center"><img src="https://www.citibank.co.kr/download/cms/email/edm_security.png" border="0" width="34" height="37" style="width: 34px; height: 37px; display: block;" /></td>
+<td style="background-color:#979797;"></td>
+<td></td>
+<td>
+<table style="font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; font-family:font-size:15px; text-align:left; line-height:22px; word-break:keep-all;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<colgroup> <col style="width: 20px;"></col> <col style="width: *;"></col> </colgroup> 
+<tbody>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">한국씨티은행은 전화나 이메일을 통해 고객님의 개인 또는 계좌 정보를 묻지 않습니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">계좌/카드 비밀번호, 로그인 패스워드, PIN 번호 등 금융정보는 스마트폰이나 인터넷(E-Mail함, 웹하드 등)에 저장하지 마시고 절대 다른 사람과 공유하지 마시기 바랍니다.</td>
+</tr>
+<tr>
+<td colspan="2" height="10"></td>
+</tr>
+<tr>
+<td valign="top">ㆍ</td>
+<td valign="top">고객님의 거래관련 발송해드린 문자(SMS)와 알림은 항상 확인 부탁드리며, 의심스러운 거래는 당행으로 바로 알려주시기 바랍니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td></td>
+</tr>
+<tr>
+<td colspan="5" height="35"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- Security 배너 //--> 
+<tr>
+<td align="left" valign="top" bgcolor="#f2f2f2">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+<td align="left" valign="top">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<!-- Section 1 --> <!-- Template Body --> <!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td height="1" style="background:#ccc;"></td>
+</tr>
+<!--// SNS가 없는 경우 Security 배너 라인을 추가 요망 --> 
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<tr>
+<td>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">본 메일은 발신 전용 메일입니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">한국씨티은행은 고객 여러분의 개인정보 보호를 위해, 이메일을 통하여 계좌번호, 비밀번호, 보유잔액, 카드번호, 신용카드 CVC번호 등의 개인정보를 확인하지 않습니다. 의심스러운 이메일을 받으신 경우 응답하지 마시고, 고객센터(<a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a>)로 연락주시기 바랍니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">추가되는 질문은 한국씨티은행 홈페이지의 고객센터를 통하여 남겨주시기 바라며, 회신을 통한 문의는 받지 않고 있습니다.</span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px; word-break:keep-all;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; letter-spacing:-0.05em;">(주)한국씨티은행<span style="color:#aaa;">&nbsp;|&nbsp;</span>대표자: 유명순<span style="color:#aaa;">&nbsp;|&nbsp;</span>주소: 서울특별시 종로구 새문안로 50(신문로2가)<span style="color:#aaa;">&nbsp;|&nbsp;</span><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333; word-break:keep-all;">고객센터</span>: <a href="tel:1588-7000" style="color: #007ad0; text-decoration: none; font-size: 12px; font-family: arial;">1588-7000</a></span></td>
+</tr>
+<tr>
+<td height="10"><img style="display:block;" src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="1" height="10" /></td>
+</tr>
+<tr>
+<td style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;line-height:18px;"><span style="font-size:12px; font-family:'Malgun Gothic', 맑은 고딕, Arial, sans-serif; color:#333333;">&copy;2023 Citigroup Inc<span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/CusIvinCnts0100.act" style="text-decoration:none; color:#007ad0;" target="_blank">Privacy</a><span style="color:#aaa;">&nbsp;|&nbsp;</span><a href="https://www.citibank.co.kr/ComStplCnts0100p.act" style="text-decoration:none; color:#007ad0;" target="_blank">Terms & Conditions</a></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="left" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" style="height: 30px; display: block;" height="30" /></td>
+</tr>
+<!-- Section 1 -->
+</tbody>
+</table>
+</td>
+<td width="30" height="30" valign="top"><img src="https://www.citibank.co.kr/download/cms/email/spacer.png" width="30" height="30" style="width: 30px; height: 30px; display: block;" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</center>
+<br><IMG width=0 height=0 src='http://email.goodbank.com:9000/servlet/ReceiveConfirmEM?SEND_MODE=R&RESULT_SEQ=1692766820942130&CAMPAIGN_NO=000000000010153&START_DATE=20230823000000&END_DATE=20230830235900&LIST_SEQ=0000103014&RECORD_SEQ=0&CUSTOMER_ID=des64oSReypgH84CUURTsK72dsw=='>
+</body>
+</html>

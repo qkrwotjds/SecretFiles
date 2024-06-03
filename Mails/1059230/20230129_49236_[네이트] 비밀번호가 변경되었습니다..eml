@@ -1,0 +1,245 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1675002806;
+	cv=none; b=kcfl/s8ufpvhX2rWRxJZrmgEjiNhFb2gu8FTsqMUXPnVfH4Y3BoXg6yTIA9Q
+	 RNDIRZKBW36RJ4hwX1w7SpNalVWX7Ybj5gbLPHQxZChPW9fgCFIbZ+DnH0sWAoAM5bGWxo
+	 b1E2xG61C85iUy1UN4tXntMCmf0VqDGdNqThdgQ9KyITrEeEU/66cVevQ2vBxtRVQZwTd+
+	 N5ZsdwJ1Q8gLsDuc6E1Z90Tekbd5CPY5+PpCC8poAc95aoHIVwco0QMoZ+FS4w1jxliS9F
+	 6VCRY4Z35cE5adLRshAFtQtRAg56jpN3/EJdVBWDA5AzcFV3pFX/7Ild3YT+eQZqjJZQyN
+	 +A==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1675002806; c=relaxed/relaxed;
+	bh=KmT4n3mYt+A3VpDkXZBUEWOws2LuTx2D/WXFSzUtvYA=;
+	h=message-id:from:to:subject; b=TZufULYjWF5XZJoqU4+iZZ0t3bBBTMuKjygYicj
+	 AycNKDplbgk2/h4M5isVlRqXoREJdcUCMctlejuxyjFI+T/OZ2gCiAYjdB42seqvsS3B7u
+	 TcKcAqHQgNrn53xzmAWkkItCblrg6zftxLif2ymUbrzUJKmp2dwTRCXZlm1hWlrYQT/+r+
+	 mph/uyZ9x3+tZXn4lai+NqXb0b+Fb7X2Gr+TWYX0C/miV0nNqecIuhwWf3us7szhVO8Fi7
+	 RTJDkQs81La8m++DJXT+iiLehhWfzhCAYhPEtFBsC6NC8EL5lqPg/giGfhIQwZpDbLj9ZM
+	 7MtqHGHKTMXrbM7qTL8lG5Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of webmaster@nate.com designates 117.53.114.218 as permitted sender) smtp.mailfrom=webmaster@nate.com
+Return-Path: <webmaster@nate.com>
+Received-SPF: pass (mx.naver.com: domain of webmaster@nate.com designates 117.53.114.218 as permitted sender)
+  client-ip=117.53.114.218; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of webmaster@nate.com designates 117.53.114.218 as permitted sender) smtp.mailfrom=webmaster@nate.com
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmdKxtqKqUrjJ+Y
+X-Session-IP: 117.53.114.218
+Date: Sun, 29 Jan 2023 23:33:26 +0900
+Received: from mailingvip1.nate.com (mailingvip1.nate.com [117.53.114.218])
+  by crcvmail301.nm.naver.com with ESMTP id VMCcipPSSQSHE30R89P-LQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Sun, 29 Jan 2023 14:33:26 -0000
+Received: from [192.168.192.222] ([192.168.192.222]) 
+          by mailingvip1.nate.com ([10.234.214.26]) 
+          with ESMTP id 1675002806.684609.4125617008.mailingvip1
+          for <1059230@naver.com>; 
+          Sun, 29 Jan 2023 23:33:26 +0900 (KST) 
+Message-ID: <878648322.1675002806669.JavaMail.root@10.234.214.26>
+From: =?EUC-KR?B?s9fAzMau?= <webmaster@nate.com>
+To: qkr******* <1059230@naver.com>
+Subject: =?utf-8?B?W+uEpOydtO2KuF0g67mE67CA67KI7Zi4?=
+ =?utf-8?B?6rCAIOuzgOqyveuQmOyXiOyKteuLiOuLpC4=?=
+X-TERRACE-DUMMYSUBJECT: Terrace Spam system                                  *
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-TERRACE-SPAMMARK: NOT spam-marked.                              
+  (by Terrace)                                            
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+style=3D"width:650px; text-align:center;" align=3D"center"><tr>
+<td align=3D"center" style=3D"text-align:left;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+width=3D"650">
+<tr>
+<td style=3D"width:82px; height:38px;">
+<a href=3D"http://www.nate.com/" target=3D"_blank">
+<img src=3D"http://member.nate.com/common/img/em/
+pwchange/nate_logo.gif" alt=3D"NATE" border=3D"0"></a>
+</td><td style=3D"width:510px; height:38px;"></td>
+<td style=3D"width:72px;padding-top:15px;text-align
+:right;font-family:Tahoma;font-size:8pt;color:#3d3b3b;
+font-weight:bold;">2023-01-29</td>
+</tr>
+<tr><td colspan=3D"3" style=3D"height:4px;
+background-color:#ED2000;" bgcolor=3D"#ED2000"></td>
+</tr>
+<tr><td colspan=3D"3"style=3D"height:10px;"></td></tr>
+</table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+style=3D"width:650px;">
+<tr>
+<td style=3D"border:1px solid #ececec; padding:49px
+39px 0 39px;">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+style=3D"width:100%;">
+<tr>
+<td colspan=3D"2"><img src=3D"http://member.nate.com/
+common/img/em/pwchange/tit_padChange.gif"
+alt=3D"=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EA=B0=80 =EB=B3=80=EA=B2=BD=EB=
+=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4!" /></td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"height:39px;"></td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"border:1px solid #EAEAEA;
+background-color:#FAFAFA; " bgcolor=3D"#FAFAFA">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"
+style=3D"width:100%;">
+<tr>
+<td colspan=3D"3" style=3D"height:24px;"></td>
+</tr>
+<tr>
+<td style=3D"width:27px; "></td>
+<td style=3D"width:541px; font-family:=EB=8F=8B=EC=9B=80, Dotum;
+font-size:12px; color:#505050; font-weight:bold;
+line-height:18px; ">
+=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94? <span style=3D"font-family:=
+=EB=8F=8B=EC=9B=80, Dotum;
+font-size:12px; color:#0080CC; font-weight:bold;">
+qkr*******</span>=EB=8B=98,<br /> =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EB=
+=84=A4=EC=9D=B4=ED=8A=B8
+=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EA=B0=80 =EC=95=84=EB=9E=98=EC=99=80 =
+=EA=B0=99=EC=9D=B4 =EB=B3=80=EA=B2=BD=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.
+</td>
+<td style=3D"width:28px; "></td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"height:17px;"></td>
+</tr>
+<tr>
+<td style=3D"width:27px; "></td>
+<td colspan=3D"2" style=3D"height:2px;
+background-color:#F0F0EF;"></td>
+<td style=3D"width:28px; "></td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"height:22px;"></td>
+</tr>
+<tr>
+<td style=3D"width:27px; "></td>
+<td style=3D"width:541px; font-family:=EB=8F=8B=EC=9B=80, Dotum;
+font-size:12px; color:#505050; line-height:18px; ">
+=EB=B3=80=EA=B2=BD =EC=9D=BC=EC=8B=9C : 2023-01-29 23:33:26<br />
+=EB=B3=80=EA=B2=BD =EB=B0=A9=EB=B2=95 : =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=
+=B8 =EC=B0=BE=EA=B8=B0 - =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=
+=B2=BD
+</td>
+<td style=3D"width:28px; "></td>
+</tr>
+<tr>
+<td colspan=3D"3" style=3D"height:22px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan=3D"2" style=3D"height:32px;"></td>
+</tr>
+<tr>
+<td style=3D"width:27px;"></td>
+<td style=3D"width:541px; font-family:=EB=8F=8B=EC=9B=80, Dotum;
+font-size:12px; color:#505050; line-height:18px; ">
+=EC=95=88=EC=A0=84=ED=95=9C =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EA=B4=80=
+=EB=A6=AC=EB=A5=BC =EC=9C=84=ED=95=B4=EC=84=9C  =EB=B9=84=EB=B0=80=EB=B2=88=
+=ED=98=B8=EB=8A=94 =EB=B0=98=EB=93=9C=EC=8B=9C
+=EC=A0=95=EA=B8=B0=EC=A0=81=EC=9C=BC=EB=A1=9C =EB=B3=80=EA=B2=BD=EC=9D=84 =
+=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B3=A0<br />
+=EC=A0=88=EB=8C=80 =EB=8B=A4=EB=A5=B8 =EC=82=AC=EB=9E=8C=EC=9D=B4 =EB=B9=84=
+=EB=B0=80=EB=B2=88=ED=98=B8=EB=A5=BC =EC=95=8C =EC=88=98 =EC=97=86=EB=8F=84=
+=EB=A1=9D =EC=B2=A0=EC=A0=80=ED=9E=88
+=EA=B4=80=EB=A6=AC=ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.<br /><br />
+=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=A5=BC =EB=8B=A4=EC=8B=9C =EB=B3=80=
+=EA=B2=BD=ED=95=98=EA=B3=A0=EC=9E=90 =ED=95=98=EC=8B=9C=EB=A9=B4 =EB=A1=9C=
+=EA=B7=B8=EC=9D=B8 =ED=9B=84
+<a href=3D"http://helpdesk.nate.com/userinfo/
+exMemberInfo.asp?pgcode=3Dchange_pw"
+style=3D"font-family:=EB=8F=8B=EC=9B=80, Dotum; font-size:12px;
+color:#0080CC;">=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD</a>=
+ =EB=A9=94=EB=89=B4=EB=A5=BC =ED=86=B5=ED=95=98=EC=97=AC<br />
+=EB=B3=80=EA=B2=BD=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=
+=EB=8B=88=EB=8B=A4.<br /><br />
+=EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.
+</td>
+</tr>
+<tr>
+<td style=3D"height:100px;"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td height=3D"3" style=3D"background-color:#666666;"
+bgcolor=3D"#666666"></td></tr>
+</table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=20
+style=3D"width:650px;">
+<tr>
+<td style=3D"padding:26px 39px 26px 39px;=20
+border:1px solid #e6e6e6; font-size:11px; font-family:Dotum;=20
+color:#555555; line-height:18px;">
+<p style=3D"padding:0 0 3px 0; margin:0;">
+=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98=
+=EC=84=9C =EC=88=98=EC=8B=A0 =EA=B0=80=EB=8A=A5 =EB=A9=94=EC=9D=BC =EC=A3=
+=BC=EC=86=8C=EB=A1=9C =EC=84=A4=EC=A0=95=ED=95=9C e-mail=20
+=EC=A3=BC=EC=86=8C=EB=A1=9C =EB=B0=9C=EC=86=A1=EB=90=9C =EA=B2=83=EC=9C=BC=
+=EB=A1=9C =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9D=B4=EB=A9=B0 =EA=B4=80=
+=EB=A0=A8 =EB=AC=B8=EC=9D=98=EB=8A=94 <br />
+<a href=3D"http://helpdesk.nate.com/"=20
+style=3D"color:#555555;font-family:=EB=8F=8B=EC=9B=80,=20
+Dotum;font-weight:bold;font-size:8pt;text-decoration:none;"=20
+target=3D"_nate">=EB=84=A4=EC=9D=B4=ED=8A=B8 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=
+=84=B0</a>=EB=A5=BC=20
+=EC=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=
+=EB=8B=88=EB=8B=A4.
+</p>
+<hr size=3D"1" style=3D"color:#ececec">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=20
+style=3D"width:100%">
+<tr>
+<td style=3D"padding-top:3px;font-size:11px;=20
+font-family:Dotum; color:#555555; line-height:18px;">
+<img src=3D"http://member.nate.com/common/img/em/pwchange
+/logo_sk.gif" alt=3D"SK Communication"><br />
+<p style=3D"padding:10px 0 0 0; margin:0;">
+=EC=83=81=ED=98=B8=EB=AA=85 : SK Communications(=EC=A3=BC)=20
+<span style=3D"color:#CCCCCC">|</span>=20
+=EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 : 220-81-37=
+906 <span=20
+style=3D"color:#CCCCCC">|</span> =EB=8C=80=ED=91=9C=EC=9E=90 : =EC=9E=A5=EC=
+=9A=B0=ED=99=8D<br />
+=EC=86=8C=EC=9E=AC=EC=A7=80 : =EC=84=9C=EC=9A=B8=EC=8B=9C =EC=A4=91=EA=B5=
+=AC =EC=86=8C=EC=9B=94=EB=A1=9C2=EA=B8=B8 30, T=ED=83=80=EC=9B=8C=20
+=EC=8B=A0=EA=B4=80 <span style=3D"color:#CCCCCC">|</span>=20
+<a href=3D"http://helpdesk.nate.com/"=20
+style=3D"font-family:=EB=8F=8B=EC=9B=80, Dotum;font-size:8pt;
+color:#555555;text-decoration:none;"=20
+target=3D"_nate">=EB=84=A4=EC=9D=B4=ED=8A=B8 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=
+=84=B0</a>
+<span style=3D'color:#CCCCCC'>|</span> Fax : 02-869-4227<br />
+<span style=3D"font-size:9px; font-family:Verdana;">
+Copyright &copy; <a style=3D"font-family:Verdana;
+font-size:9px;color:#ff8501; text-decoration:none;"=20
+href=3D"http://www.skcomms.co.kr/"=20
+target=3D"_blank">SK Communications</a>=20
+All rights reserved.</span>
+</p>
+</td>
+<td style=3D"text-align:right;" align=3D"right">
+<img src=3D"http://member.nate.com/common/img/em
+/pwchange/logo_comms.gif" alt=3D"=EC=82=AC=EB=9E=8C=EA=B3=BC =EC=82=AC=EB=
+=9E=8C=EC=82=AC=EC=9D=B4,=20
+=EB=94=B0=EB=9C=BB=ED=95=9C =EC=86=8C=ED=86=B5=EC=9D=B4 =EC=9E=88=EB=8A=94 =
+=EC=84=B8=EC=83=81"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+

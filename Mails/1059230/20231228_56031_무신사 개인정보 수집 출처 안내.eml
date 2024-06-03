@@ -1,0 +1,360 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1703742823;
+	cv=none; b=UJHctKDxQQcoghGzENJVzL/o+sVmKX2zqF1xJkOF32MFR1v2DYsJxbezKWqM
+	 ZYsNC7QJS5fPkCPwu0qjIFiX2wetr1jmUZfXFNk/Icu7c2sz8CgkEFGpCuEzT4hTCivcEz
+	 Ms7mzcnS6JYH85jcHhQvQbSFmUPWdfHTpYNm8G/a1rVZ5kENQuqr2coO+upBTK39s74azN
+	 raqP6UobeIvwkaKnEXmCwxArJX9jh4V5q79xNz0DmUALU/QznLSQ93tyJI9K09PvNN0TNp
+	 B5EnFx0zg90d2kPDC9FiFJZhnLRBZp/8qOqawiHqwVI+RJd6VnZPrxEhpsEG1eQiRhbjuG
+	 4w==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1703742823; c=relaxed/relaxed;
+	bh=n7vu8oSwgcgRoq3+tc9Q6Epo2bpaqSxCLaOZtt0BiE0=;
+	h=date:from:subject:to; b=BsxU75zU12/mcY4ZjlIdZ4Foxr22wtIjAlm0PCs2Yvhvs
+	 hfteSNAmexMOeSBFNRLgxcXHam+ExdtqHkHuxFbf3kg4PQDW5MZ+d9ZM8qvr4TdlDwSsri
+	 G9PL6r4NPfzRFr12Mb/9cL2LsGgNAqusGl7jS7CHY/w1ONhGSbfrr1BVl5LyQz6Y7q46dV
+	 ho4Weg9E57T8Tk3Z9o9uu9m5q/g2OVARxTAtOcxN+V+Ypks54Jcj9dQTabGF8HJ7fhao8W
+	 bvrOn4rm/FPVGHiGOVDU0S3ncstHN2ZqG0zae8ERM253nfAzmrMRPOfVqjK+uDjhfP24ta
+	 8PRIrql7ck6uZTPmg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of mail2@musinsa.com designates 13.209.123.153 as permitted sender) smtp.mailfrom=mail2@musinsa.com
+Return-Path: <mail2@musinsa.com>
+Received-SPF: pass (mx.naver.com: domain of mail2@musinsa.com designates 13.209.123.153 as permitted sender)
+  client-ip=13.209.123.153; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mail2@musinsa.com designates 13.209.123.153 as permitted sender) smtp.mailfrom=mail2@musinsa.com
+X-Naver-ESV: w9Rn+6J4p63qMBIYFHwdbXmmFxEqFAFYkXm=
+X-Session-IP: 13.209.123.153
+Message-ID: <1703742823042.7f8bc.194012947@crcvmail202.nm>
+Received: from mailer.corp.musinsa.com (mailer.corp.musinsa.com [13.209.123.153])
+  by crcvmail202.nm.naver.com with ESMTP id cXY6aDQEQZ2k3hGXyrvgow
+  for <1059230@naver.com>;
+  Thu, 28 Dec 2023 05:53:43 -0000
+Date: Thu, 28 Dec 2023 14:18:22 +0900
+From: "=?UTF-8?B?66y07Iug7IKs?="<mail@musinsa.com>
+Subject: =?UTF-8?B?66y07Iug7IKsIOqwnOyduOygleuztCDsiJjsp5Eg7Lac7LKYIOyViOuCtA==?=
+To: ""<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: CosseMail ver 1.2
+Content-Type: text/html;	charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+	<p>
+  
+    <meta charset="utf-8">  
+  
+    <table border="0" cellpadding="0" cellspacing="0" style="
+        border-collapse: collapse;
+        min-width: 290px;
+        max-width: 600px;
+        margin: 0 auto;
+      " width="100%">
+<tbody><tr>
+<td style="padding: 14px 0 50px; font-size: 0">
+<A STYLE="
+                display: inline-block;
+                padding: 10px 3px 10px 10px;
+                text-decoration: none;
+                background-color: #ffffff;
+              " TARGET="_blank" HREF="http://mailer.musinsa.com:80/filter/clickDetecter.jsp?campaignID=1856&duplicationYN=N&targetIndex=294188&encoding=yes&maillink=false&email=1059230%40naver.com&url=https%3A%2F%2Fmusinsaapp.page.link%2FjRf2&linkID=303363&type=click"TITLE="새
+ 창"><IMG VALIGN="middle" WIDTH="78" ALT="MUSINSA" SRC="https://image.msscdn.net/ui/musinsa/mailform/logo_musinsa.png?20200414"></A></td>
+</tr>
+<tr>
+<td style="padding: 0 10px">
+<table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" width="100%">
+<tbody><tr>
+<td style="
+                      padding: 0 0 8px;
+                      color: #000000;
+                      line-height: 42px;
+                      font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                        'Apple SD 산돌고딕 Neo', sans-serif;
+                      font-size: 32px;
+                      font-weight: bold;
+                      border-bottom-color: #000000;
+                      border-bottom-width: 2px;
+                      border-bottom-style: solid;
+                    ">
+                    개인정보 수집 출처 안내
+                  </td>
+</tr>
+<tr>
+<td style="
+                      padding: 32px 0 8px;
+                      color: #000000;
+                      line-height: 24px;
+                      font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                        'Apple SD 산돌고딕 Neo', sans-serif;
+                      font-size: 16px;
+                      font-weight: bold;
+                      word-break: keep-all;
+                    ">
+                    안녕하세요. ㈜무신사입니다. <br>
+               
+    항상 무신사를 이용해 주시는 회원님께 진심으로
+
+                   감사드립니다.
+                  
+</td>
+</tr>
+<tr>
+<td style="
+                      color: #000000;
+                      line-height: 24px;
+                      font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                        'Apple SD 산돌고딕 Neo', sans-serif;
+                      font-size: 16px;
+                      word-break: keep-all;
+                    ">
+               
+    “개인정보보호법 제20조(정보주체 이외로부터 수집한
+개인정보의
+                    수집
+출처 등 통지)”에 의거하여 고객님 이외로부터 수집한
+
+                   개인정보의 수집 출처를 안내해 드립니다.
+                  
+</td>
+</tr>
+<tr>
+<td style="padding: 40px 0">
+<table border="0" cellpadding="0" cellspacing="0" style="
+                        border: 1px solid #eeeeee;
+                        border-image: none;
+                        border-collapse: collapse;
+                      " width="100%">
+<colgroup><col width="149"><col width="auto"></colgroup><tbody><tr>
+<td colspan="2" style="
+                              padding: 20px;
+                              background: #eeeeee;
+                              color: #000000;
+                              line-height: 24px;
+                              font-family: 'AppleSDGothicNeo',
+                                'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo',
+                                sans-serif;
+                              font-size: 16px;
+                              font-weight: bold;
+                            ">
+               
+            개인정보 수집 출처 안내
+                          
+</td>
+</tr>
+<tr>
+<td style="
+                              padding: 20px 0px 20px 20px;
+                              color: #000000;
+                              line-height: 24px;
+                              font-family: 'AppleSDGothicNeo',
+                                'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo',
+                                sans-serif;
+                              font-size: 16px;
+                              font-weight: bold;
+                              border-bottom-color: #eeeeee;
+                              border-bottom-width: 1px;
+                              border-bottom-style: solid;
+                              vertical-align: middle;
+                            ">
+                            개인정보의<br>
+수집출처
+                          </td>
+<td style="
+                              padding: 20px 20px 20px 20px;
+                              color: #777777;
+                              line-height: 24px;
+                              font-family: 'AppleSDGothicNeo',
+                                'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo',
+                                sans-serif;
+                              font-size: 16px;
+                              border-bottom-color: #eeeeee;
+                              border-bottom-width: 1px;
+                              border-bottom-style: solid;
+                              word-break: keep-all;
+                            ">
+               
+            (간편 로그인 연동)카카오, 애플
+                          
+</td>
+</tr>
+<tr>
+<td style="
+                              padding: 20px 0px 20px 20px;
+                              color: #000000;
+                              line-height: 24px;
+                              font-family: 'AppleSDGothicNeo',
+                                'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo',
+                                sans-serif;
+                              font-size: 16px;
+                              font-weight: bold;
+                              border-bottom-color: #eeeeee;
+                              border-bottom-width: 1px;
+                              border-bottom-style: solid;
+                              vertical-align: middle;
+                            ">
+                            개인정보의<br>
+처리 목적
+                          </td>
+<td style="
+                              padding: 20px 20px 20px 20px;
+                              color: #777777;
+                              line-height: 24px;
+                              font-family: 'AppleSDGothicNeo',
+                                'Apple SD Gothic Neo', 'Apple SD 산돌고딕 Neo',
+                                sans-serif;
+                              font-size: 16px;
+                              border-bottom-color: #eeeeee;
+                              border-bottom-width: 1px;
+                              border-bottom-style: solid;
+                              word-break: keep-all;
+                            ">
+               
+            SNS 간편 로그인 연동 및 회원 관리
+                          
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td style="
+                      color: #000000;
+                      line-height: 24px;
+                      font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                        'Apple SD 산돌고딕 Neo', sans-serif;
+                      font-size: 16px;
+                      word-break: keep-all;
+                      padding-bottom: 72px;
+                    ">
+<p>
+               
+      고객님께서는 "개인정보 보호법 제37조(개인정보의
+처리정지
+                    
+ 등)"에 따라 개인정보 처리의 정지를 요구하거나 동의를
+
+                     철회할 권리가
+있습니다. 다만, 처리정지 및 동의를 철회할
+  
+                   경우 SNS 간편 로그인 이용이 제한됩니다.
+                    
+</p>
+<p>
+               
+      아래의 경우 고객님의 처리정지 요구를 거절할 수 있습니다.
+                    
+</p>
+<p>
+               
+      1. 법률에 특별한 규정이 있거나 법령상 의무를 준수하기
+                      위하여 불가피한 경우<br>
+               
+      2. 다른 사람의 생명ㆍ신체를 해할 우려가
+있거나 다른 사람의
+                      재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우<br>
+               
+      3. 개인정보를 처리하지 아니하면 정보주체와
+약정한 서비스를
+                   
+  제공하지 못하는 등 계약의 이행이 곤란한 경우로서
+
+                     정보주체가 그
+계약의 해지 의사를 명확하게 밝히지 아니한
+                      경우<br>
+</p>
+</td>
+</tr>
+<tr>
+<td style="
+                      margin-top: 72px;
+                      padding: 16px 0 56px;
+                      color: #777777;
+                      line-height: 21px;
+                      font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                        'Apple SD 산돌고딕 Neo', sans-serif;
+                      font-size: 14px;
+                      border-top-color: #eeeeee;
+                      border-top-width: 1px;
+                      border-top-style: solid;
+                      word-break: keep-all;
+                    ">
+<p>
+               
+      본 메일은 2023년 12월 28일을 기준으로
+무신사
+                      서비스를 이용중인 회원을 대상으로 발송됩니다.<br>
+이후
+            
+         무신사에서 탈퇴하셨더라도 본 메일을 수신할
+수
+                      있습니다.
+                    
+</p>
+<p>
+               
+      만약 본 메일과 관련하여 회원이 아니거나 이메일
+도용이
+                      의심된다면 신고를 할 수 있습니다.<br>
+이메일 도용 신고
+     
+                접수처 :
+                      
+<A STYLE="
+                          color: #777777;
+                          line-height: 21px;
+                          font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                      
+      'Apple SD 산돌고딕 Neo', sans-serif;
+                          font-size: 14px;
+                        " TARGET="_blank" HREF="mailto:privacy@musinsa.com"TITLE="이메일 도용 신고 접수처">privacy@musinsa.com</A></p>
+<p>
+               
+      본 메일은 발신 전용 메일이며, 회신되지 않으므로 문의사항은
+                      
+<A STYLE="
+                          color: #777777;
+                          line-height: 21px;
+                          font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+                            'Apple SD 산돌고딕 Neo', sans-serif;
+                          font-size: 14px;
+          
+              " TARGET="_blank" HREF="http://mailer.musinsa.com:80/filter/clickDetecter.jsp?campaignID=1856&duplicationYN=N&targetIndex=294188&encoding=yes&maillink=false&email=1059230%40naver.com&url=https%3A%2F%2Fwww.musinsa.com%2Fapp%2Fcs&linkID=303364&type=click"TITLE="고객센터">고객센터</A>를 이용해주세요.
+                    </p><br>
+<p>
+                      주식회사 무신사(MUSINSA Co.,Ltd)<br>
+               
+      서울특별시 성동구 아차산로 13길 11, 1층 (성수동
+                      2가,무신사캠퍼스 N1)<br>
+                      대표이사 : 한문일<br>
+                      사업자등록번호 : 211-88-79575<br>
+               
+      고객센터 TEL: 1544-7199 E-MAIL:
+                      
+<A STYLE="
+                          color: #777777;
+                          line-height: 21px;
+                          font-family: 'AppleSDGothicNeo', 'Apple SD Gothic Neo',
+              
+              'Apple SD 산돌고딕 Neo', sans-serif;
+                          font-size: 14px;
+                        " TARGET="_blank" HREF="mailto:cs@musinsa.com"TITLE="고객센터 이메일">cs@musinsa.com</A><br>
+               
+      통신판매업신고 : 2022-서울성동-01952 사업자정보확인
+                    
+</p>
+<p>
+COPYRIGHTS (C)MUSINSA ALL RIGHTS RESERVED.</p>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+  
+</p>
+<p><br>
+</p>
+	
+	
+	
+</table>
+
+<img src='http://mailer.musinsa.com:80/filter/checker.jsp?campaignID=1856&email=1059230@naver.com&responseEnd=2024-01-04' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://mailer.musinsa.com:80/filter/Tracker.jsp?campaignID=1856&email=1059230@naver.com&responseEnd=2024-01-04'></iframe>

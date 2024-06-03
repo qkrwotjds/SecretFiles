@@ -1,0 +1,314 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1591686999;
+	cv=none; b=ha6772dXlZiiR1agSlFoDBBJUsxyCgpsct6kO6KkCZQIpPIyxmzgsJPkCvKJ
+	 ePz8CQ7zobmkAYhScV6uHFj9FMDNpQUz5sWosNZQYyYZkZ9tgWCx0dNZlZP/vQTMiMYOEz
+	 izJi6Q2m8Y3ZvGeL9WQ4DG6gAR1a51/uB1pvINgLevzvPSDC5PQurUqGEgtYnAUSeaF9ZM
+	 4Tz8urEwelzvvqqH1hhSsiCF70c0WvADw0U6rJXH7fEPSSH2ceHMHnFDuPLmoHLwQiVPTL
+	 QQiBvYRzJXU/uQpZox6DcXe2vMEJPqC0CX+bW/bB9yR4l65I/MQZ4modfjejOKIEXMYW7u
+	 ZA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1591686999; c=relaxed/relaxed;
+	bh=sgANqIkKFy+57qC8Fh7ghS80cBHhao9QMd5gIAO3MXA=;
+	h=from:to:subject:date:message-id; b=fz8BsMDovkEdPw2KUf8Eh+AElDEXlgzSST
+	 kRwPIYqFl5XxECcylj7J4XPRFT2GU6ndTfgYyKbI5y7cyaRjFzz7DNN2URIcPh4tt3ejpJ
+	 nOC0mpwjkUz5PSKn+KFkM2VB2PqT4VKmPLotPcD13rkcFZV3jvVQ9DPNmAVViu6NIdV04G
+	 649ZnFAjTZMiy81/ain2N6r5PcQAvWr5miJIiBxUUKY4AWg2EdPE9prLrV0jybZP4v1D2c
+	 mQBxJsKAOu5c63v0yNbBKqL4wjgVdpJlZ0cM/Wt5MlaUrmN8WA/tkHwIlNyAKjGkB3bszu
+	 vOYmKdnEKRnXnXlouLFOyifVjsQg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of admin@samsungfire.com designates 211.45.30.164 as permitted sender) smtp.mailfrom=admin@samsungfire.com
+Return-Path: <admin@samsungfire.com>
+Received-SPF: pass (mx.naver.com: domain of admin@samsungfire.com designates 211.45.30.164 as permitted sender)
+  client-ip=211.45.30.164; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of admin@samsungfire.com designates 211.45.30.164 as permitted sender) smtp.mailfrom=admin@samsungfire.com
+X-Naver-ESV: +sFYpB3G1H+YbXFCbHmdKAbwFoKljJ+Y
+X-Session-IP: 211.45.30.164
+Received: from samsungfire.com (mailsmtp2.samsungfire.com [211.45.30.164])
+  by crcvmail33.nm.naver.com with ESMTP id o4gk5+fPTnuGH35nWXXFCw
+  for <1059230@naver.com>;
+  Tue, 09 Jun 2020 07:16:39 -0000
+From: "=?utf-8?B?7IK87ISx7ZmU7J6sIA==?=" <mailmaster@samsungfire.com>
+To: "=?utf-8?B?KOyjvCnslaDrk5zslaTsm5Trk5w=?=" <1059230@naver.com>
+Reply-to: <mailmaster@samsungfire.com>
+Subject: =?utf-8?B?W+uztO2XmOqwgOyeheyZhOujjOyViOuCtF0gKOyjvCnslaA=?=
+ =?utf-8?B?65Oc7JWk7JuU65Oc64uY7J2YIOuLpOydtOugie2KuCDsnpDrj5nssKg=?=
+ =?utf-8?B?67O07ZeYIOqwgOyeheyZhOujjCDslYjrgrQo7Kad6raMLCA=?=
+ =?utf-8?B?7JW96rSAIOyyqOu2gCktIOyCvOyEse2ZlOyerCDri6TsnbQ=?=
+ =?utf-8?B?66CJ7Yq4?=
+Date: Tue, 09 Jun 2020 16:16:39 +0900
+X-WORKER_ID: <single.default_Worker_1>
+X-MAIL_ID: <UE9TVF9JRD0yMDIwMDYwOV8yMQ==>
+X-MEMBER_ID: <TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1BVVRPX0hPTUU=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202006091616396998@samsungfire.com_Ems@samsungfire.com>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>삼성화재 다이렉트</title>
+</head>
+<body style="margin:0; padding:0; border:0; text-align:center;">
+<!--
+
+
+-->
+
+<div style="margin:5px !important">
+<!-- top notice -->
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center">
+<tbody>
+<tr>
+<td width="640" align="left" style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:16px !important;color:#677792;line-height:20px !important;letter-spacing:-1px;padding:10px 0">이 메일은 삼성화재 다이렉트 에서 보내드리는 보험가입 안내 메일입니다.</td>
+</tr>
+</tbody>
+</table>
+<!-- //top notice -->
+
+<!-- CBI -->
+<table width="640" height="58" border="0" cellpadding="0" cellspacing="0" align="center">
+<tbody>
+<tr><td height="20"></td></tr>
+<tr><td width="640" align="right"><a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwMQ==&URL=https://direct.samsungfire.com" target="_blank" title="당신에게 좋은보험 삼성화재"><img src="https://direct.samsungfire.com/images/mail/layout/edm_CBI.png" border="0" /></a></td>
+</tr>
+<tr><td height="12"></td></tr>
+</tbody>
+</table>
+<!-- //CBI -->
+
+<!-- Blue_box -->
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center">
+<tbody>
+<tr>
+<td align="left">
+<!-- content top -->
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center" style="margin:0 auto;">
+<tbody>
+<tr><td height="80" bgcolor="#4ec6df" style="line-height:0 !important;font-size:0 !important;padding:0 !important;">
+<table align="left">
+<tbody>
+<tr><td height="8"></td></tr>
+<tr>
+<td width="620" height="18" style="padding:20px 0 24px 20px;line-height:0;font-size:0;">
+<a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwMg==&URL=https://direct.samsungfire.com" target="_blank"><img src="https://direct.samsungfire.com/images/mail/layout/direct_logo.png" border="0"></a>
+</td>
+</tr>
+<tr><td height="10"></td></tr>
+<tr>
+<td align="left"><span style="text-align:left !important;font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:36px;color:#ffffff;line-height:38px !important;letter-spacing:-3px;padding:0 0 0 20px;font-weight:600;word-break:break-all !important;">자동차보험 가입 완료 안내</span></td>
+</tr>
+<tr><td height="40"></td></tr>
+</tbody>
+</table>
+
+</td></tr>
+<tr>
+<td width="133" height="63" bgcolor="#ffffff" style="text-align:right;line-height:0;font-size:0;margin:0 !important;" valign="top" align="right"><img src="https://direct.samsungfire.com/images/mail/layout/bg_vi_green.png" border="0" width="133" height="63"></td>
+</tr>
+</tbody>
+</table>
+<!-- //content top -->
+
+<!-- content vmid -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="width:600px !important; margin:0 auto;">
+<tbody>
+<tr>
+<td style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:22px;color:#333333;line-height:34px !important;letter-spacing:-1px;word-break:break-all !important;"><strong>안녕하세요? (주)애드앤월드 고객님</strong></td>
+</tr>
+<tr><td height="10"></td></tr>
+<tr>
+<td style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:22px;color:#333333;line-height:34px !important;letter-spacing:-1px;word-break:break-all !important;">삼성화재 애니카 다이렉트 자동차보험 가입에 감사드립니다.<br>고객님께서 가입하신 자동차보험의 보험증권, 청약서류,<br>약관을 확인하세요.<br>아래 이미지를 클릭 후 사업자번호(뒤 5자리)를<br>입력하시면 확인 및 출력이 가능합니다.</td>
+</tr>
+<tr><td height="30"></td></tr>
+<tr>
+<td>
+<a href="https://direct.samsungfire.com/CR_MyAnycarWeb/page/VD.EVDB0014.do?returnUrl=/CR_MyAnycarWeb/page/VD.MADD0485.do?productCode=M20073000&loginID=70495287&contractNo=1D20060000681257&contractJumin2=lis0erl9M1HdXvXHgRRs0g%3D%3D&policyNo=000120L2942230000" target="_blank" style="margin-right:10px"><img src="https://direct.samsungfire.com/images/mail/btn/btn_cert.gif" alt="보험증권"></a>
+<a href="https://direct.samsungfire.com/CR_MyAnycarWeb/page/VD.EVDB0014.do?returnUrl=/CR_MyAnycarWeb/page/VD.MADD0486.do?productCode=M20073000&loginID=70495287&contractNo=1D20060000681257&contractJumin2=lis0erl9M1HdXvXHgRRs0g%3D%3D&policyNo=000120L2942230000" target="_blank" style="margin-right:10px"><img src="https://direct.samsungfire.com/images/mail/btn/btn_doc.gif" alt="청약서류" border="0"></a>
+<a href="https://direct.samsungfire.com/CR_MyAnycarWeb/page/VD.EVDB0014.do?returnUrl=/CR_MyAnycarWeb/page/VD.MADD0484.do?productCode=M20073000&loginID=70495287&contractNo=1D20060000681257&contractJumin2=lis0erl9M1HdXvXHgRRs0g%3D%3D&policyNo=000120L2942230000" target="_blank" style="margin-right:10px"><img src="https://direct.samsungfire.com/images/mail/btn/btn_join.gif" alt="가입증명서" border="0"></a>
+<a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwNg==&URL=https://direct.samsungfire.com/CR_MyAnycarWeb/mall/pdf/myanycar_business.pdf" target="_blank"><img src="https://direct.samsungfire.com/images/mail/btn/btn_pdf.gif" alt="보험약관" border="0"></a>
+</td>
+</tr>
+<tr><td height="60"></td></tr>
+<tr><td height="1" bgcolor="#cccccc"></td></tr>
+<tr><td height="40"></td></tr>
+</tbody>
+</table>
+<!-- //content vmid -->
+
+<!-- content vmid -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="width:600px !important; margin:0 auto;">
+<tbody>
+<tr>
+<td style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:22px;color:#00c8e4;line-height:34px !important;letter-spacing:-1px;word-break:break-all !important;"><strong>보안메일 이용 안내</strong></td>
+</tr>
+<tr><td height="15"></td></tr>
+<tr><td><img src="https://direct.samsungfire.com/images/mail/banner/img_use_info_corp.gif" alt="보안메일 이용 안내"></td></tr>
+<tr><td height="20"></td></tr>
+<tr>
+<td align="left" style="text-align:left">
+<a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwNw==&URL=https://direct.samsungfire.com/CR_MyAnycarWeb/download/RD/rdocx50_cert.exe" target="_blank" style="margin-right:15px;"><img src="https://direct.samsungfire.com/images/mail/btn/btn_reinstall.gif" alt="프로그램 재설치"></a><a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwOA==&URL=https://direct.samsungfire.com/helpdesk/PP060301_001.html?acc=1" target="_blank"><img src="https://direct.samsungfire.com/images/mail/btn/btn_notinstall.gif" alt="설치가 안되는 경우"></a>
+</td>
+</tr>
+<tr><td height="50"></td></tr>
+</tbody>
+</table>
+<!-- //content vmid -->
+<!-- content vmid -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="width:600px !important; margin:0 auto;">
+<tbody>
+<tr>
+<td style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:22px;color:#00c8e4;line-height:34px !important;letter-spacing:-1px;word-break:break-all !important;"><strong>보험계약내용 확인 안내</strong></td>
+</tr>
+<tr><td height="15"></td></tr>
+<tr>
+<td>
+<table width="600" align="center" bgcolor="#eaf9fe" style="width:600px !important; margin:0 auto;">
+<colgroup>
+<col style="width:100px"></col>
+<col style="width:*"></col>
+</colgroup>
+<tbody>
+<tr><td colspan="2" height="30"></td></tr>
+<tr>
+<td style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info03.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">보험계약 내용 확인</strong><br>삼성화재 다이렉트 PC홈페이지에서<br>언제든지 확인이 가능합니다.</p>
+</td>
+</tr>
+<tr><td colspan="2" height="25"></td></tr>
+<tr>
+<td width="100" style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info_cardprint.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">카드 전표 출력 안내</strong><br>삼성화재 다이렉트 홈페이지 <strong style="color:#00c8e4;">[법인용 자동차보험 &gt; <br>보험계약 관리 &gt; 보험계약 확인 &gt; 계약상세 확인]</strong> 에서 <br>출력이 가능합니다.</p>
+</td>
+</tr>
+<tr><td colspan="2" height="25"></td></tr>
+<tr>
+<td width="100" style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info_change.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">업무 담당자가 변경되는 경우</strong><br>삼성화재 다이렉트 홈페이지 <strong style="color:#00c8e4;">[법인용 자동차보험 &gt; <br>법인/업무 담당자 정보 &gt; 업무 담당자 변경]</strong> 에서 바로 <br>변경이 가능합니다.</p>
+</td>
+</tr>
+<tr><td colspan="2" height="25"></td></tr>
+<tr>
+<td width="100" style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info01.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">보험증권 우편 수령 안내</strong><br>보험증권을 우편실물 받기로 신청하신 경우 보험 가입 후<br>7~10일 사이에 보험계약자의 주소지에서 증권을<br>받아보실 수 있습니다.</p>
+</td>
+</tr>
+<tr><td colspan="2" height="30"></td></tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td height="50"></td></tr>
+</tbody>
+</table>
+<!-- //content vmid -->
+<!-- content vmid -->
+<table width="600" border="0" cellpadding="0" cellspacing="0" align="center" style="width:600px !important; margin:0 auto;">
+<tbody>
+<tr>
+<td style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:22px;color:#00c8e4;line-height:34px !important;letter-spacing:-1px;word-break:break-all !important;"><strong>보상서비스 이용 안내</strong></td>
+</tr>
+<tr><td height="15"></td></tr>
+<tr>
+<td>
+<table width="600" align="center" bgcolor="#eaf9fe" style="width:600px !important; margin:0 auto;">
+<tbody>
+<tr><td colspan="2" height="30"></td></tr>
+<tr>
+<td width="100" style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info04.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">사고접수 및 긴급출동 서비스</strong><br>365일 24시간 언제든지 삼성화재 고객콜센터<br>(1588-5114)로 연락주세요.</p>
+</td>
+</tr>
+<tr><td colspan="2" height="25"></td></tr>
+<tr>
+<td style="width:100px !important;padding:2px 0 10px 30px !important;line-height:0;font-size:0;vertical-align:top;">
+<img src="https://direct.samsungfire.com/images/mail/banner/img_info06.gif" border="0">
+</td>
+<td style="padding-right:30px;vertical-align:top;">
+<p style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:18px;color:#333333;line-height:22px !important;letter-spacing:-1px;word-break:break-all !important;"><strong style="display:inline-block;padding-bottom:8px">차량 무상정검 및 정비 서비스</strong><br>전국 550여개 애니카랜드에서 무상점검 및 정비 서비스를 이용하실 수 있습니다.<br><span style="display:inline-block;margin-top:10px;"><a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAwOQ==&URL=https://direct.samsungfire.com/CR_MyAnycarWeb/overture_index.jsp?OTK=E1704IB0002" target="_blank"><img src="https://direct.samsungfire.com/images/mail/btn/btn_go_info.gif" alt="바로가기" border="0"></a></span></p>
+</td>
+</tr>
+<tr><td colspan="2" height="30"></td></tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //content vmid -->
+
+
+<!-- margin -->
+<table>
+<tbody>
+<tr>
+<td height="40"></td>
+</tr>
+</tbody>
+</table>
+<!-- //margin -->
+
+<!-- content btm -->
+<table width="640" border="0" cellpadding="0" cellspacing="0" bgcolor="#f5f5f5" align="center">
+<tbody>
+<tr><td height="15" colspan="3"></td></tr>
+<tr>
+<td width="20"></td>
+<td align="left" style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:15px !important;color:#666666;line-height:22px !important;letter-spacing:-1px;">메일 수신을 원하지 않으시면 [<a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAxMA==&URL=https://www.samsungfire.com/mail/2012/link/email_footer_redirect.html?method=getEmailId&key_val=3bba9602c2b02d1f31f9a21ce362671e2d6718a625603e2b0f3631e163467cb1&gubun=2#mail_reject" target="blank" style="text-decoration:none;font-size:15px !important;color:blue">수신거부</a>]를 클릭해 주세요.<br>
+If you don't want to receive this e-mail anymore, [<a href="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1D&Q0lEPTAxMQ==&URL=https://www.samsungfire.com/mail/2012/link/email_footer_redirect.html?method=getEmailId&key_val=3bba9602c2b02d1f31f9a21ce362671e2d6718a625603e2b0f3631e163467cb1&gubun=2#mail_reject" target="blank" style="text-decoration:none;font-size:15px !important;color:blue">Click here</a>].
+</td>
+<td width="20"></td>
+</tr>
+<tr><td height="12" colspan="3"></td></tr>
+<tr>
+<td width="20"></td>
+<td align="left" style="font-family:AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;font-size:15px !important;color:#666666;line-height:22px !important;letter-spacing:-1px;">
+삼성화재해상보험주식회사(<a href="mailto:directcenter@samsungfiresvc.com" target="blank" style="text-decoration:none;font-size:15px !important;color:#666666">directcenter@samsungfiresvc.com</a>)<br>서울시 서초구 서초대로 74길 14 | 다이렉트고객센터 <a href="tel:1577-3339" style="text-decoration:none;color:#666">1577-3339</a></td>
+<td width="20"></td>
+</tr>
+<tr><td height="20" colspan="3"></td></tr>
+</table>
+<table width="640" border="0" cellpadding="0" cellspacing="0" align="center">
+<tbody>
+<tr><td height="20" colspan="3"></td></tr>
+<tr>
+<td align="right" colspan="3"><img src="https://direct.samsungfire.com/images/mail/layout/edm_CBI.png" border="0" /></td>
+</tr>
+<tr><td height="15" colspan="3"></td></tr>
+</tbody>
+</table>
+<!-- //content btm -->
+
+
+</td>
+</tr>
+</tbody>
+</table>
+<!-- //Blue_box -->
+</div>
+
+<div style="display:none"><IMG width=0 height=0 src="http://ems.samsungfire.com:80/ems65/Check.jsp?TV9JRD1MNTI5NDkwMDAwXzI2MTk3Mjky&U1RZUEU9QVVUTw==&TElTVF9UQUJMRT1BVVRPX0hPTUU=&UE9TVF9JRD0yMDIwMDYwOV8yMQ==&VEM9MjAyMDA2MTY=&S0lORD1P"></div></body>
+</html>
+
+

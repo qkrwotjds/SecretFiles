@@ -1,0 +1,557 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1679278167;
+	cv=none; b=gMX5t4FwVIbcAPTVBa52jl1ExeaLQ6LHI/E3vyfC4QM7+dHZYHggzaQiqMQi
+	 JmY0UtaTvYkYdZvhyb40qp0nZ5sgDURLQhn27xx9OTT8MxF6CA9C9beYKRXkrD1Ny1jCTe
+	 ziTQr87Uw6j8E/fSo3D7IZhwxkHZqoSIbHaqYRkolBt+UPimmNeuoFmdrXbEJY4ep3pvby
+	 mL5tuQjbzP3gKKZuT0Bh+NffklK83KzXnFpyl5cgorjwWhV8JB8MxgnOnhL2yB5E0jepQg
+	 LNlJeC+V/Hp7mt5hmnsUkFysUnFxcY+CvUeBxQZ9zXYYUd3DU12VNvLMPa7St3OgTtL7JR
+	 vQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1679278167; c=relaxed/relaxed;
+	bh=x26NOMy/TAai3R3KsuKxHQzjThRIsKhe6NToVkdy3rQ=;
+	h=message-id:date:from:to:subject; b=Yf2iCkC+y6kkjsmgRPdKdhKtxwDVrK8Ovy
+	 ysbnMtybAykfm/Sye/uaGPNJryjj43nsR37NBbrc+opZa3Gzmr0agcesHKtwypPdfNPxFD
+	 g2ntVxa+kYk6IdYqwZB7fHM8yE6eulmSGBlKh56S8HzHB331e3flk49Yx+hweOygv6iDVC
+	 jwbcAMTeMigLrmkFaL+rsKBSxG2213p67qZdZS8XzRzyqb5aSZ+UGdDMn4CthWHSUJK25z
+	 k4D3oIRXF/HpwKQ5LBcT/ltHWcnhuxAv22cop6apO6xi+0HpJrhMxOhYcC8zvTWJ2p2FFt
+	 azFsaBfYdc3nDOVfrUZKZuoOxoug==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of notice@danal.co.kr designates 103.11.131.56 as permitted sender) smtp.mailfrom=notice@danal.co.kr
+Return-Path: <notice@danal.co.kr>
+Received-SPF: pass (mx.naver.com: domain of notice@danal.co.kr designates 103.11.131.56 as permitted sender)
+  client-ip=103.11.131.56; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of notice@danal.co.kr designates 103.11.131.56 as permitted sender) smtp.mailfrom=notice@danal.co.kr
+X-Naver-ESV: w9Rn+6J4p63qMBIYFHwdbXmmKoglKo+YkXm=
+X-Session-IP: 103.11.131.56
+Received: from mailer.danal.co.kr (danal.co.kr [103.11.131.56])
+  by crcvmail205.nm.naver.com with ESMTP id 2fuwCVd9T3CM37716sRcKQ
+  for <1059230@naver.com>;
+  Mon, 20 Mar 2023 02:09:27 -0000
+Received: from bmw (unknown [172.16.5.8])
+	by mailer.danal.co.kr (Postfix) with ESMTP id 1A9D56322810
+	for <1059230@naver.com>; Mon, 20 Mar 2023 11:09:27 +0900 (KST)
+Message-ID: <1608315569.1679278167097.JavaMail.wasd@172.16.5.57>
+Date: Mon, 20 Mar 2023 11:09:27 +0900 (KST)
+From: =?utf-8?B?64uk64Kg?= <notice@danal.co.kr>
+To: "1059230@naver.com" <1059230@naver.com>
+Subject: =?utf-8?B?W+uLpOuCoF0g6rCc7J247KCV67O0IOydtOyaqeuCtOyXrSDslYjrgrQ=?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1485645_1964001666.1679278167060"
+
+------=_Part_1485645_1964001666.1679278167060
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Your email client does not support HTML messages
+------=_Part_1485645_1964001666.1679278167060
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<!DOCTYPE html>
+<html>
+<head>
+    <title>Danal Payment</title>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1" />
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D=E2=80=9Cformat-detection=E2=80=9D content=3D=E2=80=9Ctele=
+phone =3Dno=E2=80=9D>
+    <style>
+        body, table, div, p, span {
+                font-family: '=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeo=
+Gothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif
+            }
+        @media only screen and (max-width: 380px) {
+            .txt_partner { font-size: 20px !important;line-height:24px !imp=
+ortant }
+        }
+    </style>
+</head>
+
+
+<body>
+    <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" width=3D"100%" style=3D"background-color:#eeeeeee; font-family:'=EB=A7=91=
+=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=
+=80', sans-serif; margin:0;padding:0">
+
+        <tbody>
+            <tr>
+                <td bgcolor=3D"#eeeeee" align=3D"center">
+
+                    <!-- =EC=95=84=EC=9B=83=EB=A3=A9=EC=9A=A9 max-width =ED=
+=95=B5 -->
+                    <!--[if (gte mso 9)|(IE)]>
+                      <table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0">
+                        <tr><td width=3D"500">
+                            <![endif]-->
+
+                    <div style=3D"max-width:700px; margin:0 auto">
+
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" bgcolor=3D"#ffffff" style=3D" *width:700px; max-width:700px; min-wid=
+th:288px; letter-spacing:-0.5px; border-collapse:collapse; table-layout:fix=
+ed;word-break:break-all; word-wrap:break-word; margin:0 auto; padding:0; ba=
+ckground-color:#fff; -webkit-text-size-adjust:100%; border-collapse:collaps=
+e">
+                            <tr>
+                                <td bgcolor=3D"#ffffff">
+                                    <!-- =ED=83=80=EC=9D=B4=ED=8B=801 -->
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"600" height=3D"35" style=3D"w=
+idth:100%; margin:0; padding:0; letter-spacing:-0.5px; font-size:20px; colo=
+r:#4c4c4c; border-collapse:collapse">
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"5">=
+</td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td align=3D"left" height=3D"40=
+">
+                                                <a href=3D"https://www.dana=
+l.co.kr" target=3D"_blank">
+                                                    <img align=3D'absmiddle=
+' border=3D"0" alt=3D"=EB=8B=A4=EB=82=A0=EB=A1=9C=EA=B3=A0" src=3D"https://=
+paymail.teledit.com/dmmail/billmail/teledit/danal_logo.png" width=3D"65">  =
+ =20
+                                                </a>
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"5">=
+</td>
+                                        </tr>
+                                    </table>
+
+
+                                    <!-- =ED=83=80=EC=9D=B4=ED=8B=802 -->
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#1b6fce" width=3D"600" height=3D"130" style=3D"=
+width:100%;margin:0;padding:0; color:#ffffff; line-height:24px; font-size:1=
+8px; border-collapse:collapse">
+                                        <tr height=3D"20"><td colspan=3D"4"=
+ height=3D"20"></td></tr>
+
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size:24px;tex=
+t-align:left; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGot=
+hic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;line-height:30px;  color=
+:#ffffff; line-height: 32px; letter-spacing: -2px;padding-right:20px;" alig=
+n=3D"left" class=3D"txt_partner">
+                                                =EB=8B=A4=EB=82=A0 =ED=9C=
+=B4=EB=8C=80=ED=8F=B0 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C =EA=B0=9C=EC=9D=
+=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =EB=82=B4=EC=97=AD =EC=95=88=EB=82=
+=B4
+                                            </td>
+                                            <td align=3D"right" height=3D"8=
+0">
+                                                <img align=3D'absmiddle' bo=
+rder=3D"0" alt=3D"=ED=8C=8C=ED=8A=B8=EB=84=88=EC=95=84=EC=9D=B4=EC=BD=98" s=
+rc=3D"https://paymail.teledit.com/dmmail/billmail/teledit/ico_partner.png" =
+width=3D"80" class=3D"ico_partner">
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr height=3D"20"><td colspan=3D"4"=
+ height=3D"20"></td></tr>
+                                    </table>
+
+
+                                    <!-- MAIL -->
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"100%" style=3D"border-collaps=
+e: collapse;">
+                                        <tr>
+                                            <td height=3D"30" colspan=3D"3"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size:16px;fon=
+t-weight:bold; color:#4c4c4c; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=
+=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif; line-h=
+eight: 23px; letter-spacing: -1.5px;">
+                                            =EB=8B=A4=EB=82=A0 =ED=9C=B4=EB=
+=8C=80=ED=8F=B0 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C =EC=84=9C=EB=B9=84=EC=
+=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=85=94=EC=84=9C =EA=
+=B0=90=EC=82=AC =EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height=3D"10" colspan=3D"3"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size:13px; co=
+lor:#4c4c4c; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGoth=
+ic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif; line-height: 23px; lette=
+r-spacing: -1.5px;">
+                                            =EB=8B=A4=EB=82=A0=EC=9D=80 '=
+=EC=A0=95=EB=B3=B4=ED=86=B5=EC=8B=A0=EB=A7=9D =EC=9D=B4=EC=9A=A9=EC=B4=89=
+=EC=A7=84 =EB=B0=8F =EC=A0=95=EB=B3=B4=EB=B3=B4=ED=98=B8 =EB=93=B1=EC=97=90=
+ =EA=B4=80=ED=95=9C =EB=B2=95=EB=A5=A0 =EC=A0=9C 30=EC=A1=B0=EC=9D=982(=EA=
+=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9 =EB=82=B4=EC=97=AD=EC=
+=9D=98 =ED=86=B5=EC=A7=80)'=EC=97=90 =EB=94=B0=EB=9D=BC =EC=97=B01=ED=9A=8C=
+ =EC=9D=B4=EC=83=81 =EB=AA=A8=EB=93=A0 =ED=9A=8C=EC=9B=90=EB=8B=98=EB=93=A4=
+=EA=BB=98 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=9D=B4=EC=9A=A9=EB=82=B4=
+=EC=97=AD=EC=9D=84 =EC=9D=B4=EB=A9=94=EC=9D=BC=EB=A1=9C =EC=95=88=EB=82=B4=
+=ED=95=B4 =EB=93=9C=EB=A6=AC=EA=B3=A0 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.=
+<br>
+                                            =EB=8B=A4=EB=82=A0=EC=9D=80 =EC=
+=95=9E=EC=9C=BC=EB=A1=9C=EB=8F=84 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =EA=
+=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=A5=BC =EC=95=88=EC=A0=84=ED=95=98=EA=
+=B2=8C =EB=B3=B4=ED=98=B8=ED=95=A0 =EA=B2=83=EC=9D=84 =EC=95=BD=EC=86=8D =
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height=3D"30" colspan=3D"3"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size: 15px; c=
+olor: #1b6fce; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGo=
+thic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;">
+                                            <B>=EC=95=88=EB=82=B4 =EB=82=B4=
+=EC=97=AD</B>
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height=3D"5" colspan=3D"3">=
+</td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td>
+                                            <table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"100%" style=3D"border=
+-collapse: collapse;">
+                                            <tr><td align=3D"left" style=3D=
+"font-size: 14px; color: #000000; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=
+=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;">
+                                            <b>1. =EA=B0=9C=EC=9D=B8=EC=A0=
+=95=EB=B3=B4 =EC=88=98=EC=A7=91 =EB=B0=8F =EC=9D=B4=EC=9A=A9 =EB=AA=A9=EC=
+=A0=81</b></td></tr>
+                                            <tr>
+                                            <td height=3D"10" colspan=3D"3"=
+></td>
+                                            </tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A0 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C=EC=84=9C=EB=B9=84=EC=
+=8A=A4 =ED=9A=8C=EC=9B=90=EA=B0=80=EC=9E=85 =EB=B0=8F =EA=B2=B0=EC=A0=9C=EC=
+=A0=95=EB=B3=B4=EC=9D=98 =EC=A0=80=EC=9E=A5</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A1 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C=EC=84=9C=EB=B9=84=EC=
+=8A=A4=EB=A5=BC =ED=86=B5=ED=95=9C =EA=B2=B0=EC=A0=9C=EC=B2=98=EB=A6=AC</td=
+></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A2 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C=EC=84=9C=EB=B9=84=EC=
+=8A=A4 =EC=9D=B4=EC=9A=A9=EC=97=90 =EB=8C=80=ED=95=9C =EB=AF=BC=EC=9B=90=EC=
+=9D=98 =EC=9D=91=EB=8C=80 =EB=B0=8F =EC=B2=98=EB=A6=AC</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A3 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B0=84=ED=8E=B8=EA=B2=B0=EC=A0=9C=EC=84=9C=EB=B9=84=EC=
+=8A=A4 =EC=9D=B4=EC=9A=A9 =EB=B6=88=EA=B0=80=EB=8A=A5 =EB=B0=8F =EB=B6=80=
+=EC=A0=95=EC=82=AC=EC=9A=A9=EC=97=90 =EB=94=B0=EB=A5=B8 =EC=B2=98=EB=A6=AC,=
+ =EB=B6=88=EB=B2=95=EC=9D=B4=EC=9A=A9=EC=9E=90 =EB=93=B1=EC=9D=98 =EB=B6=80=
+=EC=A0=95=EC=82=AC=EC=9A=A9=EB=B0=A9=EC=A7=80</td></tr>
+                                            </td>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A4 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B2=B0=EC=A0=9C =EB=8C=80=EA=B8=88 =EB=AF=B8=EB=82=A9 =
+=EC=8B=9C =EC=B1=84=EA=B6=8C=EC=9D=98 =ED=9A=8C=EC=88=98</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A5 =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EC=9D=98 =EA=B2=B0=EC=A0=9C =EB=8C=80=EA=B8=88 =EB=AF=B8=EB=82=A9 =
+=EC=8B=9C =EC=B1=84=EA=B6=8C=EB=B3=B4=EC=A0=84=EC=9D=84 =EC=9C=84=ED=95=9C =
+=EC=8B=A0=EC=9A=A9=EB=B3=B4=ED=97=98=EC=9D=98 =EA=B0=80=EC=9E=85</td></tr>
+                                            <tr>
+                                            <td height=3D"20" colspan=3D"3"=
+></td>
+                                            </tr>
+                                            <tr><td align=3D"left" style=3D=
+"font-size: 14px; color: #000000; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=
+=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;">
+                                            <b>2. =EC=88=98=EC=A7=91=ED=95=
+=98=EB=8A=94 =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =ED=95=AD=EB=AA=
+=A9</b></td></tr>
+                                            <tr>
+                                            <td height=3D"10" colspan=3D"3"=
+></td>
+                                            </tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A0 =ED=9C=B4=EB=8C=80=EC=
+=A0=84=ED=99=94=EB=B2=88=ED=98=B8</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A1 =EA=B0=80=EC=9E=85=ED=
+=86=B5=EC=8B=A0=EC=82=AC</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A2 =EC=A3=BC=EB=AF=BC=EB=
+=B2=88=ED=98=B8 =EC=95=9E7=EC=9E=90=EB=A6=AC =EB=98=90=EB=8A=94 =EC=99=B8=
+=EA=B5=AD=EC=9D=B8=EB=93=B1=EB=B3=B8=EB=B2=88=ED=98=B8 =EC=95=9E7=EC=9E=90=
+=EB=A6=AC (=EC=83=9D=EB=85=84=EC=9B=94=EC=9D=BC,=EC=84=B1=EB=B3=84,=EB=82=
+=B4=EC=99=B8=EA=B5=AD=EC=9D=B8)</td></tr>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A3 =EC=A0=84=EC=9E=90=EB=
+=A9=94=EC=9D=BC=EC=A3=BC=EC=86=8C</td></tr>
+                                            </td>
+                                            <tr><td  align=3D"left"  style=
+=3D"font-size: 12px; color: #777777; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=
+=A0=EB=94=95', SDNeoGothic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"=
+>
+                                            =E2=91=A4 =EA=B0=84=ED=8E=B8=EA=
+=B2=B0=EC=A0=9C =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8</td></tr>
+                                            </table>
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height=3D"20" colspan=3D"3"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size: 14px; c=
+olor: #000000; font-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGo=
+thic, SDGothicNeo, '=EB=8F=8B=EC=9B=80', sans-serif;"> <b>3. =EA=B0=9C=EC=
+=9D=B8=EC=A0=95=EB=B3=B4=EC=9D=98 =EC=B2=98=EB=A6=AC =EC=9C=84=ED=83=81</b>=
+</td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height=3D"15" colspan=3D"3"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td>
+                                            <table align=3D"left" border=3D=
+"1" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-coll=
+apse: collapse;">
+                                                <tr>
+                                                   <th width=3D"25%" height=
+=3D"25" bgcolor=3D"#f8f8f8" style=3D"font-size:12px; text-align:center;bord=
+er:1px solid #ccc;border-right:0;border-bottom:0">=EC=97=85=EC=B2=B4=EB=AA=
+=85</th>
+                                                   <th width=3D"" height=3D=
+"25" bgcolor=3D"#f8f8f8" style=3D"font-size:12px; text-align:center;border:=
+1px solid #ccc;border-bottom:0">=EC=9C=84=ED=83=81=EC=97=85=EB=AC=B4</th>
+                                                </tr>
+                                                <tr>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:center;border:1px solid #ccc;color:#888;bord=
+er-right:0;padding:8px">(=EC=A3=BC)=EB=A9=94=ED=83=80=EB=84=B7=EC=97=A0=ED=
+=94=8C=EB=9E=AB=ED=8F=BC</td>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:left;border:1px solid #ccc;color:#888; paddi=
+ng:8px">
+                                                    -=EA=B1=B0=EB=9E=98=EB=
+=82=B4=EC=97=AD =ED=99=95=EC=9D=B8, =EC=B7=A8=EC=86=8C, =ED=99=98=EB=B6=88 =
+=EB=B0=8F =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=83=81=EB=8B=B4</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:center;border:1px solid #ccc;color:#888;bord=
+er-right:0;padding:8px">=EB=AF=B8=EB=9E=98=EC=8B=A0=EC=9A=A9=EC=A0=95=EB=B3=
+=B4 =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC</td>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:left;border:1px solid #ccc;color:#888; paddi=
+ng:8px">
+                                                    -=EC=9E=A5=EA=B8=B0=EB=
+=AF=B8=EB=82=A9=EC=B1=84=EA=B6=8C =EC=B6=94=EC=8B=AC</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:center;border:1px solid #ccc;color:#888;bord=
+er-right:0;padding:8px">(=EC=A3=BC)=EB=8B=A4=EC=9A=B0=EA=B8=B0=EC=88=A0<br>=
+CJ=EC=98=AC=EB=A6=AC=EB=B8=8C=EB=84=A4=ED=8A=B8=EC=9B=8D=EC=8A=A4</td>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:left;border:1px solid #ccc;color:#888; paddi=
+ng:8px">
+                                                   -=EB=AC=B8=EC=9E=90=EB=
+=A9=94=EC=8B=9C=EC=A7=80(SMS,MMS)=EB=8C=80=EB=9F=89=EB=B0=9C=EC=86=A1 =EC=
+=84=9C=EB=B9=84=EC=8A=A4 =EC=A0=9C=EA=B3=B5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:center;border:1px solid #ccc;color:#888;bord=
+er-right:0;padding:8px">(=EC=A3=BC)=EC=95=84=EC=9D=B4=ED=95=98=ED=8A=B8</td=
+>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:left;border:1px solid #ccc;color:#888; paddi=
+ng:8px">
+                                                   -=EB=AF=B8=EB=82=A9=EC=
+=B1=84=EA=B6=8C =EC=B6=94=EC=8B=AC =EB=AC=B8=EC=9E=90=EB=A9=94=EC=8B=9C=EC=
+=A7=80(SMS,MMS)=EB=8C=80=EB=9F=89=EB=B0=9C=EC=86=A1 =EC=84=9C=EB=B9=84=EC=
+=8A=A4 =EC=A0=9C=EA=B3=B5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:center;border:1px solid #ccc;color:#888;bord=
+er-right:0;padding:8px">(=EC=A3=BC)=EC=97=90=EC=8A=A4=EC=95=A4=ED=8B=B0=EB=
+=AF=B8=EB=94=94=EC=96=B4<br>(=EC=A3=BC)=ED=8B=B0=EC=9C=A0=EC=BB=A8=ED=85=8D=
+=EC=84=BC=ED=84=B0<br>(=EC=A3=BC)=EB=8B=A4=EC=9D=B4=EB=A0=89=ED=8A=B8=ED=97=
+=88=EB=B8=8C</td>
+                                                    <td height=3D"25" style=
+=3D"font-size:12px; text-align:left;border:1px solid #ccc;color:#888; paddi=
+ng:8px">
+                                                   -TM =EC=97=85=EB=AC=B4=
+=EC=A7=80=EC=9B=90, =EC=A6=89=EC=8B=9C=ED=95=A0=EC=9D=B8 =EC=97=85=EB=AC=B4=
+=EB=A5=BC =EC=9C=84=ED=95=9C =EB=8C=80=EC=83=81=EC=9E=90 =EC=A0=95=EB=B3=B4=
+ =EC=B2=98=EB=A6=AC, =EC=A0=95=EC=82=B0=EB=8C=80=ED=96=89<br>-=EC=98=81=EB=
+=A6=AC=EB=AA=A9=EC=A0=81=EC=9D=98 =EB=B3=B4=ED=97=98=EC=83=81=ED=92=88 =EB=
+=93=B1=EC=9D=98 =EB=A7=88=EC=BC=80=ED=8C=85 =EA=B4=91=EA=B3=A0, =ED=8D=BC=
+=EB=AF=B8=EC=85=98 =EA=B2=BD=ED=92=88 =EB=B0=9C=EC=86=A1 =EB=B0=8F =EC=95=
+=88=EB=82=B4 =EA=B3=A0=EA=B0=9D=EC=83=81=EB=8B=B4 =EB=93=B1</td>
+                                                </tr>
+                                            </table>
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td height=3D"20" colspan=3D"3"=
+></td>
+                                        </tr>
+                                       =20
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"text-align:center"=
+><a href=3D"http://www.danal.co.kr/Util/Privacy.do" style=3D"background-col=
+or:#1b6fce; color:#ffffff;border:0;padding:10px 20px;text-decoration:none" =
+> =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EC=B2=98=EB=A6=AC =EB=B0=A9=EC=B9=
+=A8 =ED=99=95=EC=9D=B8</a> </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+
+                                        <tr>
+                                            <td height=3D"60" colspan=3D"3"=
+></td>
+                                        </tr>
+                                    </table>
+
+
+                                    <!-- FOOTER -->
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#f7f7f7" width=3D"500" height=3D"60" style=3D"w=
+idth:100%; margin:0; padding:0; font-size:11px; color:#424240; text-align:c=
+enter; vertical-align:top; line-height:16px; border-collapse:collapse">
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"20"=
+></td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size:12px; fo=
+nt-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGothic, SDGothicNeo=
+, '=EB=8F=8B=EC=9B=80', sans-serif;; color:#888888; text-align: left; verti=
+cal-align: top; line-height:16px; letter-spacing: -1px; text-decoration: no=
+ne !important;">
+                                                =EB=B3=B8 =EB=A9=94=EC=9D=
+=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=EB=A9=94=EC=9D=BC=EC=9D=
+=B4=EB=AF=80=EB=A1=9C =ED=9A=8C=EC=8B=A0=EC=9D=B4 =EB=90=98=EC=A7=80 =EC=95=
+=8A=EC=8A=B5=EB=8B=88=EB=8B=A4. =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD <a hre=
+f=3D"https://www.danalpay.com/Customer_Support/online_inquiry.aspx" style=
+=3D"color:#1b6fce">=ED=99=88=ED=8E=98=EC=9D=B4=EC=A7=80 =EA=B3=A0=EA=B0=9D=
+=EC=84=BC=ED=84=B0</a>=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=84=
+=B8=EC=9A=94<br /><br />
+                                                13591 =EA=B2=BD=EA=B8=B0=EB=
+=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=EA=B5=AC =EB=B6=84=EB=
+=8B=B9=EB=A1=9C 55 =ED=8D=BC=EC=8A=A4=ED=8A=B8=ED=83=80=EC=9B=8C 9=EC=B8=B5=
+ =E3=88=9C=EB=8B=A4=EB=82=A0 | =EB=8C=80=ED=91=9C=EC=9E=90: =EB=B0=95=EC=83=
+=81=EB=A7=8C<br />
+                                                Tel: 1566-3355 | Fax: 031-6=
+97-1461 | =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8: =
+113-81-44055 | =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=8B=A0=EA=B3=A0=EB=B2=
+=88=ED=98=B8: =EA=B2=BD=EA=B8=B0=EC=84=B1=EB=82=A82007-541
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"20"=
+></td>
+                                        </tr>
+                                    </table>
+
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" bgcolor=3D"#ffffff" width=3D"500" height=3D"40" style=3D"w=
+idth:100%; margin:0; padding:0; font-size:11px; color:#adadad; text-align:c=
+enter; vertical-align:middle; line-height:16px; border-collapse:collapse">
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"5">=
+</td>
+                                        </tr>
+                                        <tr>
+                                            <td width=3D"5%"></td>
+                                            <td style=3D"font-size:11px; fo=
+nt-family:'=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95', SDNeoGothic, SDGothicNeo=
+, '=EB=8F=8B=EC=9B=80', sans-serif;; color:#adadad; text-align: center; ver=
+tical-align: middle; line-height:11px; letter-spacing: -0.5px; text-decorat=
+ion: none !important;">
+                                                Copyright =E2=93=92 Danal. =
+All rights reserved.
+                                            </td>
+                                            <td width=3D"5%"></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan=3D"3" height=3D"5">=
+</td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+    </td></tr></tbody></table>
+
+</body>
+</html>
+
+------=_Part_1485645_1964001666.1679278167060--
+

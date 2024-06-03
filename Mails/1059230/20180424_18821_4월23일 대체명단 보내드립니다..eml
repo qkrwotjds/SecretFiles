@@ -1,0 +1,65 @@
+Received-SPF: pass (mx.naver.com: domain of kebcardsaleteam@daum.net designates 203.133.181.23 as permitted sender)
+  client-ip=203.133.181.23; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of kebcardsaleteam@daum.net designates 203.133.181.23 as permitted sender) smtp.mailfrom=kebcardsaleteam@daum.net
+X-Naver-ESV: +/+YpB3G1H+YbXFCbHmRKAv9FxuZjJ+Y
+X-Session-IP: 203.133.181.23
+Received: from mail-smail-vm64.hanmail.net (mail-smail-vm64.daum.net [203.133.181.23])
+  by crcvmail12.nm.naver.com with ESMTP id sVmvd867SbOKBr9NZ1pqoQ
+  for <1059230@naver.com>;
+  Tue, 24 Apr 2018 09:55:12 -0000
+Received: from mail-qpsmtp-vm15.hanmail.net ([10.61.241.162])
+        by mail-smail-vm64.hanmail.net (8.13.8/8.9.1) with ESMTP id w3O9tBI9023718;
+        Tue, 24 Apr 2018 18:55:11 +0900
+Received: from mail-qpsmtp-vm15 (localhost.localdomain [127.0.0.1])
+        by mail-qpsmtp-vm15.hanmail.net (8.13.8/8.9.1) with ESMTP id w3O9t4OK027335
+        for <1059230@naver.com>; Tue, 24 Apr 2018 18:55:05 +0900
+X-HM-UT: mIhOKmCQsww+UjT2KYp6ZsTDnVLMI86zVyw/SxAdnn4=
+Received: from [223.38.23.175] (HELO [IPv6:2001:2d8:e35d:b91::1e48:ff01]) (223.38.23.175)
+ by  (8.12.9/8.9.1) with ESMTPA; Tue, 24 Apr 2018 18:55:04 +0900
+Authentication-Results: mail-qpsmtp-vm15; auth=pass (plain) smtp.auth=kebcardsaleteam
+Errors-To: <kebcardsaleteam@daum.net>
+X-Originating-IP: 127.0.0.1
+X-Originating-IP: 223.38.23.175
+Date: Tue, 24 Apr 2018 18:55:03 +0900
+Subject: =?UTF-8?B?NOyblDIz7J28IOuMgOyytA==?=
+ =?UTF-8?B?66qF64uoIOuztOuCtOuTnOumveuLiOuLpC4=?=
+Message-ID: <a2ac3ds6mu3lis3i69v0t5jt.1524563703226@email.android.com>
+Importance: normal
+From: kebcardsaleteam <kebcardsaleteam@daum.net>
+To: =?UTF-8?B?7J6E67OR656A?= <1059230@naver.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="--_com.android.email_3139558944647310"
+X-HM-FIGURE: GE99pxCp7GBGOUx8A5qPDnRo2NFktTV4
+
+----_com.android.email_3139558944647310
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+CiAgICAKCjEu6riI7Zi464+Z67CU64uk7J6l7Ja07LSI7J20NDA4Mi7smKTsuZjsg53ssLjsuZgz
+Lu2VmOyYpOuwjTQuMzRUSOyYpOuKmOuPhCDsiJjqs6DtlZjshajsirXri4jri6R+CgrrgrQg7IK8
+7ISxIOuUlOuwlOydtOyKpOyXkOyEnCDrs7Trg4jsirXri4jri6QKCi0tLS0tLS0tIOybkOuzuCDr
+qZTsi5zsp4AgLS0tLS0tLS0K67Cc7IugOiDsnoTrs5HrnoAgPDEwNTkyMzBAbmF2ZXIuY29tPiAK
+64Kg7KecOiAyMDE4LzQvMjQgIOyYpOyghCAxMDoyNCAgKEdNVCswOTowMCkgCuuwm+ydgCDsgqzr
+now6IGtlYmNhcmRzYWxldGVhbUBoYW5tYWlsLm5ldCAK7KCc66qpOiA07JuUMjPsnbwg7J6Q66OM
+IOuztOuCtOuTnOumveuLiOuLpC4gCgoK
+
+----_com.android.email_3139558944647310
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+PGh0bWw+PGhlYWQ+PG1ldGEgaHR0cC1lcXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0
+L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPjwvaGVhZD48Ym9keT4KICAgIAo8ZGl2Pjxicj48L2Rpdj48
+ZGl2PjEu6riI7Zi464+Z67CU64uk7J6l7Ja07LSI7J20NDA4PC9kaXY+PGRpdj4yLuyYpOy5mOyD
+neywuOy5mDwvZGl2PjxkaXY+My7tlZjsmKTrsI08L2Rpdj48ZGl2PjQuMzRUSDwvZGl2PjxkaXY+
+7Jik64qY64+EIOyImOqzoO2VmOyFqOyKteuLiOuLpH48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2
+Pjxicj48L2Rpdj48ZGl2IGlkPSJjb21wb3Nlcl9zaWduYXR1cmUiPjxkaXYgc3R5bGU9ImZvbnQt
+c2l6ZTo4NSU7Y29sb3I6IzU3NTc1NyI+64K0IOyCvOyEsSDrlJTrsJTsnbTsiqTsl5DshJwg67O0
+64OI7Iq164uI64ukPC9kaXY+PC9kaXY+PGJyPjxicj4tLS0tLS0tLSDsm5Drs7gg66mU7Iuc7KeA
+IC0tLS0tLS0tPGJyPuuwnOyLoDog7J6E67OR656AICZsdDsxMDU5MjMwQG5hdmVyLmNvbSZndDsg
+PGJyPuuCoOynnDogMjAxOC80LzI0ICDsmKTsoIQgMTA6MjQgIChHTVQrMDk6MDApIDxicj7rsJvs
+nYAg7IKs656MOiBrZWJjYXJkc2FsZXRlYW1AaGFubWFpbC5uZXQgPGJyPuygnOuqqTogNOyblDIz
+7J28IOyekOujjCDrs7TrgrTrk5zrpr3ri4jri6QuIDxicj48YnI+PGJyPjwvYm9keT48L2h0bWw+
+
+----_com.android.email_3139558944647310--
+

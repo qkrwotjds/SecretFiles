@@ -1,0 +1,217 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1551154240;
+	cv=none; b=mbfU0XJTTVupmgmaO1nqkOcG1lMSMW4T0r9bLd7IFGCD0njqfPfZpJjj5139
+	 /T5UrHqeSxkU6MHOIzX1wfpp6TR1Bso+V8KulB2CXdoIY6xJrTkR7TUVkmST3OD2wPdf6i
+	 q1N73p7IPptr43wIyef8T6KfGZjdZHPEuTarfoG3YRTcOwyMT6c1yPr7kburRmc8SCrCgy
+	 uIDjzoups5LaeLEIkAI9NUM6HWqyCP2H4mNbuVC23kHZwo/ciAAj7C6sEPj6D/oo9bs39q
+	 FZCDVDrWuIQFxkWnvKbU2Zvg4hKh3j7q89yOyEiL6bdTG6azb0zDguLFRa+MLefnEcFPNp
+	 SQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1551154240; c=relaxed/relaxed;
+	bh=3ZJ/eCx+F6o5ntV1mH9jz0hFDNHc1BxvPX9t0I7fu0c=;
+	h=date:to:from:subject:message-id; b=OdBNzhf2ROKUFiKDUfPmSZNOjCioYfhaqZ
+	 9KDBkV1FIrOAtaunmPZkzYV5ppc+yb5R+ZA+C4j2VH9zOZJ3mpGGG5iZc+sz0E3zTHw78M
+	 w/v2YrvgYmtwF/6mfL2L0Bt59c3OqTquOnIa/f065qOxCGdcc/PMdHpk3sMpcy+QiMSyLK
+	 R//v/R3qri7clTl8sdA91zwZv0nlXxLFzU0UNZOR41WpvYnYncV1QmWKbGmgEpUfOTrFRW
+	 WFWafaDHsb6/gXrvVi2IkM3nqi6iCGU15mbHeP0k3MR3RMoDCZoyDQEtnv60zM20Xc4hOs
+	 wq1rNTjLfzoBl7vNyA0SFToldr5w==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=none (mx.naver.com: domain of help@egreef.com does not designate permitted sender hosts) smtp.mailfrom=help@egreef.com
+X-WM-Dns-Ptr: none
+Received-SPF: none (mx.naver.com: domain of help@egreef.com does not designate permitted sender hosts)
+  client-ip=14.63.173.127; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=none (mx.naver.com: domain of help@egreef.com does not designate permitted sender hosts) smtp.mailfrom=help@egreef.com
+X-Naver-ESV: wf+n+6J4p635WrlY7BwdpBmmFAumFAIYkXm=
+X-Session-IP: 14.63.173.127
+Received: from egreef.localdomain ([14.63.173.127])
+  by crcvmail32.nm.naver.com with ESMTP id TxusaxoRRPWX+Rgv7g-QzA
+  for <1059230@naver.com>;
+  Tue, 26 Feb 2019 04:10:40 -0000
+Received: from www.egreef.com (egreef.localdomain [127.0.0.1])
+	by egreef.localdomain (8.14.4/8.14.4) with ESMTP id x1Q4AeYU003148
+	for <1059230@naver.com>; Tue, 26 Feb 2019 13:10:40 +0900
+Date: Tue, 26 Feb 2019 13:10:40 +0900
+To: 1059230@naver.com
+From: =?UTF-8?B?KOyjvCnsnbTqt7jrpqztlIQ=?= <help@egreef.com>
+Subject: =?UTF-8?B?KOyjvCnsnbTqt7jrpqztlIQg7Zi47Iqk7YyFIOunjOujjOydvOydtCAxMA==?=
+ =?UTF-8?B?7J28IOuCqOyVmOyKteuLiOuLpC4g7Jew7J6l7ZWY7KeAIOyViuycvOyLnA==?=
+ =?UTF-8?B?66m0IO2ZiO2OmOydtOyngOqwgCDri6vtnpnri4jri6Qu?=
+Message-ID: <563c4280a14d9c61f9f233fc5e8a8509@www.egreef.com>
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_563c4280a14d9c61f9f233fc5e8a8509"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--b1_563c4280a14d9c61f9f233fc5e8a8509
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+웹호스팅 & 도메인 연장안내
+			
+			
+				We can do it!  Website, Mobileweb&app, Shoppingmall, Groupwere, Etc Programs.
+			
+			
+				
+			
+			
+				안녕하세요. (주)이그리프입니다.
+				요청하신 웹호스팅 만료일이 다가옴에 따라 연장 안내를 드립니다.
+				검토 후 궁금한 점이 있으시면 아래 담당자 전화로 연락 부탁드립니다.
+				감사합니다.
+			
+			■ 상세내역
+			
+				
+				
+				
+				
+				
+					상품명
+					사용기간
+					남은일자
+					비용
+				
+				
+					
+						웹호스팅 					
+					
+						2014-03-07 ~ 2019-03-08					
+					10일
+					198,000원
+				
+											
+					
+						도메인 adnco.kr					
+					
+						2014-03-14 ~ 2019-03-17					
+					19일
+					22,000원
+				
+																			
+					합계
+					
+					
+					220,000원
+				
+				
+					안내
+					
+						※ 입금하실 계좌는 국민은행 821301-00-077893 (주)이그리프 입니다.
+						※ 도메인, 웹호스팅 연장은 최소 1년 단위 입니다.
+											
+				
+			
+		
+		
+			
+				이태경 02-867-0508 / 사원  Egreef Engineer
+			
+			TEL . 1544-6826 / 기획팀    Fax . 070-4170-4490    Mail . help@egreef.comWebsite URL. http://www.egreef.com		
+		
+			
+				(주)이그리프  Egreef Co.,Ltd
+			
+			서울시 금천구 가산디지털1로 168 우림라이온스밸리 A동 13층 1311호  대표 : 유양희   사업자번호 : 122-86-07461
+			Tel. 1544-6826      Fax. 070-4170-4490    Mail. help@egreef.com
+
+
+--b1_563c4280a14d9c61f9f233fc5e8a8509
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>(주)이그리프 호스팅 만료일이 10일 남았습니다. 연장하지 않으시면 홈페이지가 닫힙니다. 메일</title>
+</head>
+<body>
+<div style="background:#f6f6f6;padding:40px;">
+	<div style="max-width:800px;margin:0 auto;">
+		<div style="background-color: rgb(32, 32, 35);height:50px;padding:40px 40px 32px 40px;">
+			<li style="float:left;width:50%;list-style:none;"><img src="http://www.egreef.com/import/image/logo.png" style="padding-top:10px;"></li> 
+			<li style="float:left;width:50%;list-style:none;text-align:right;"></li>
+		</div>
+		<div style="background:#ffffff;padding:40px">
+			<div style="color: rgb(35, 35, 35); letter-spacing: -1pt; font-size:40px;font-family:맑은 고딕;text-align:center;">
+				<span style="color: rgb(203, 23, 46);font-family:맑은 고딕;font-weight: bold;">웹호스팅 & 도메인 연장안내</span>
+			</div>
+			<div style="color: rgb(187, 187, 187);font-size:11px;font-family:맑은 고딕;margin-top:15px;text-align:center;">
+				We can do it!  Website, Mobileweb&app, Shoppingmall, Groupwere, Etc Programs.
+			</div>
+			<div style="text-align:center;padding:30px;">
+				<img src="http://www.egreef.com/import/image/webmail/mail_img.png">
+			</div>
+			<div style="color:#5a5a5a;font-size:14px;font-family:맑은 고딕;line-height:200%;">
+				안녕하세요. (주)이그리프입니다.<br />
+				요청하신 웹호스팅 만료일이 다가옴에 따라 연장 안내를 드립니다.<br />
+				검토 후 궁금한 점이 있으시면 아래 담당자 전화로 연락 부탁드립니다.<br />
+				감사합니다.<br /><br />
+			</div>
+			<div style="color:#313131; letter-spacing: -1pt; font-size:16px;font-family:맑은 고딕;padding-bottom:8px;">■ 상세내역</div>
+			<table style="width:100%;border-top:1px solid #2a2a2a;border-collapse:collapse;">
+				<col width="200px">
+				<col width="">
+				<col width="100px">
+				<col width="140px">
+				<tr>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">상품명</th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">사용기간</th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">남은일자</th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">비용</th>
+				</tr>
+				<tr>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">
+						웹호스팅 					</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">
+						2014-03-07 ~ 2019-03-08					</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">10일</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:right;border:1px solid #eaeaea;padding:10px;">198,000원</td>
+				</tr>
+											<tr>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">
+						도메인 adnco.kr					</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">
+						2014-03-14 ~ 2019-03-17					</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:center;border:1px solid #eaeaea;padding:10px;">19일</td>
+					<td style="font-size:12px;font-family:맑은 고딕;text-align:right;border:1px solid #eaeaea;padding:10px;">22,000원</td>
+				</tr>
+																			<tr>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">합계</th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;"></th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;"></th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:right;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">220,000원</th>
+				</tr>
+				<tr>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:center;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;">안내</th>
+					<th style="font-size:12px;font-family:맑은 고딕;font-weight:normal;text-align:left;border:1px solid #eaeaea;background:#f9f9f9;padding:10px;" colspan="3">
+						※ 입금하실 계좌는 <strong>국민은행 821301-00-077893 (주)이그리프</strong> 입니다.<br>
+						※ 도메인, 웹호스팅 연장은 최소 1년 단위 입니다.<br>
+											</th>
+				</tr>
+			</table>
+		</div>
+		<div style="padding:40px; color:rgb(255, 255, 255); line-height:20px; font-size:12px;font-family:맑은 고딕;background-color: rgb(203, 23, 46);">
+			<div style="padding-bottom:7px">
+				<span style="color:#fff;font-size:14px;">이태경 02-867-0508 / 사원</span>&nbsp;&nbsp;<span style="color:#daa1a8;font-size:11px;">Egreef Engineer</span>
+			</div>
+			TEL . 1544-6826 / 기획팀 &nbsp;&nbsp; Fax . 070-4170-4490  &nbsp;&nbsp;Mail . help@egreef.com<br />Website URL. http://www.egreef.com		</div>
+		<div style="padding:40px;color:rgb(119, 119, 119); line-height:18px; font-size:11px;font-family:맑은 고딕;background-color: rgb(39, 39, 41);">
+			<div style="padding-bottom:7px">
+				<span style="color:#fff;font-size:14px;">(주)이그리프</span>&nbsp;&nbsp;<span style="color:#999999;font-size:11px;">Egreef Co.,Ltd</span>
+			</div>
+			서울시 금천구 가산디지털1로 168 우림라이온스밸리 A동 13층 1311호 &nbsp;대표 : 유양희 &nbsp;&nbsp;사업자번호 : 122-86-07461<br />
+			Tel. 1544-6826 &nbsp;&nbsp;   Fax. 070-4170-4490 &nbsp;&nbsp; Mail. help@egreef.com		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+--b1_563c4280a14d9c61f9f233fc5e8a8509--
+

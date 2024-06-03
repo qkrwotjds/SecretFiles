@@ -1,0 +1,336 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1709619777;
+	cv=none; b=gAJYopAkPhezc8klS3lIfrIb0Htl0KmONtQcnATA4HbQNj2b3YzpVKM6GIzp
+	 GA31zpUUY/sl8LyUo99W6TIFEqiHV8S46AhQK0wG6zj+Y+e+40V+fmpY7aSeRNPqCK+WaD
+	 s2xKa8uVF7lhhEbup2ZI8lo/8yPSNhD9YsgfOn2ZwtvS1Aad4Vw3Pnb56EuTUXlGyhXGMH
+	 oyFDQMxCTfBnTSs2kdG1PvdKsyTcF8WUtDVO4T9ne7Krq7J/XJXOuCR6hFHanrHbe+tF6v
+	 hWbqgM1R6in1SDDhlX4DQZl4X1PUxdeJqRdmlF26F7UU1fiGDXxRPvRZS8YVNb408sn6uy
+	 Fg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1709619777; c=relaxed/relaxed;
+	bh=A2Rwx9L+1plPg1WyhUX1RsMrLTMxFA8S9WBPjxSYZ/0=;
+	h=from:to:message-id:subject; b=Kj/lnsXhRyB/ww5EuEgiLxTPLPDuOqfYdthGNxg
+	 xj1EZoGtgxWO3GxhF8be1l2yHNHZ5MpEJuKe95lZJLTxAsyX3KEvq0SBIz648ws+hefe4v
+	 9EkrR0C6IrKTe5yxAoaIeMs3ktYG7EHkD/M/+exX4IeOUsISmO1s2JIXnLfI+7WLEBTGcj
+	 46+ABl9ckOyk0rGbs74OchdwjCTx4BQjqNvawp/VvOWNS9GM4hh4PsJKhV0cm6eihifITJ
+	 93AWXD2GI01so8U6yrGNuMCmCLzG2TYaIPHT5kItpIc6ofYX0rDr42OjOrk/IbBmkqG118
+	 nKnSgbYTbIIZauDxq1d70CA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kt.com
+Return-Path: <noreply@kt.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender)
+  client-ip=14.63.245.52; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kt.com
+X-Naver-ESV: wZ+n+6J4p63CbHmdKBwdbXFYKAMZKoEXjJ+Y
+X-Session-IP: 14.63.245.52
+Date: Tue, 05 Mar 2024 15:22:57 +0900
+Received: from relayfilter1.kt.com (kt.com [14.63.245.52])
+  by crcvmail301.nm.naver.com with ESMTP id M-qYV+75QbmpSQ05SO6trQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Tue, 05 Mar 2024 06:22:57 -0000
+Received: from external ([172.23.128.208])
+	by relayfilter1.kt.com (1.0) id 4256Msa001EC;
+	Tue, 05 Mar 2024 15:22:54 +0900
+From: noreply@kt.com
+To: 1059230@naver.com
+Message-ID: <561361443.5533.1709619774222.JavaMail.root@ns-iamui-login-d96d56c8b-g7crv>
+Subject: =?UTF-8?B?S1Tri7fsu7Qg7IOIIOq4sOq4sCjruIzrnbzsmrDsoIA=?=
+ =?UTF-8?B?KeygkeyGjSDslYjrgrQg66mU7J28IOyeheuLiOuLpC4=?=
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_5532_2075356595.1709619774202"
+
+------=_Part_5532_2075356595.1709619774202
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml" xml:lang=3D"ko">=09<head>=09=09<title>[kt] =EB=A9=94=EC=9D=
+=B8 - =EA=B5=AD=EB=AF=BC=EC=9D=98 =ED=8E=B8=EC=9D=B5=EC=9D=84 =EB=8F=84=EB=
+=AA=A8=ED=95=98=EB=8A=94 =EC=B5=9C=EA=B3=A0=EC=9D=98 =EA=B5=AD=EB=AF=BC=EA=
+=B8=B0=EC=97=85 - =EA=B8=80=EB=A1=9C=EB=B2=8C 1=EB=93=B1 KT</title>=09=09<m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8">=09=
+=09<style>=09=09=09* {margin:0;padding:0;}=09=09</style>=09</head>=09<body =
+bgcolor=3D"#FFFFFF" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" styl=
+e=3D"text-align:center;">=09=09<table width=3D"822" align=3D"center" cellpa=
+dding=3D"0" cellspacing=3D"0" bgcolor=3D"#FFFFFF" border=3D"0" style=3D"bor=
+der:1px solid #ccc;border-top:3px solid #d92330;table-layout:fixed;margin:0=
+ auto;font-family:Arial,Helvetica,sans-serif,Dotum,Dotumche;">=09=09=09<tbo=
+dy>=09=09=09=09<tr>=09=09=09=09=09<td style=3D"height:40px;padding:42px 0 3=
+0px 51px;border-bottom:1px solid #cecece;">=09=09=09=09=09=09<img src=3D"ht=
+tp://login.kt.com/wamui/new_resources/p/cl/src/images/mail/email-logo.jpg" =
+alt=3D"Header Main image"/>=09=09=09=09=09</td>=09=09=09=09</tr>=09=09=09=
+=09<tr>=09=09=09=09=09<td style=3D"padding:60px 0 30px;align:cener">=09=09=
+=09=09=09=09<table width=3D"822" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"center" style=3D"table-layout:fixed;margin:0 auto;">=09=09=
+=09=09=09=09=09<tr align=3D"center">=09=09=09=09=09=09=09=09<td style=3D"wi=
+dth:100%;font-size:38px;color:#222;font-weight:700;text-algin:center;">=09=
+=09=09=09=09=09=09=09=09<span style=3D"color:#d71826;">=09=09=09=09=09=09=
+=09=09=09=09=EC=83=88 =EA=B8=B0=EA=B8=B0=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=
+=B8=EC=9D=B8=EC=9D=B4=09=09=09=09=09=09=09=09=09</span>=09=09=09=09=09=09=
+=09=09=09=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4.=09=09=09=09=09=09=
+=09=09</td>=09=09=09=09=09=09=09</tr><!-- =09=09=09=09=09=09=09<tr align=3D=
+"center">=09=09=09=09=09=09=09=09<td style=3D"width:100%;padding:86px 0 26p=
+x;font-size:18px;line-height:26px;color:#222;font-weight:700;text-algin:cen=
+ter;">=09=09=09=09=09=09=09=09=09=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EC=
+=95=84=EC=9D=B4=EB=94=94 <span style=3D"color:#d71826;">qkrwot***</span> =
+=EC=9D=B4(=EA=B0=80) =EC=8B=A0=EA=B7=9C =EA=B8=B0=EA=B8=B0(=EB=B8=8C=EB=9D=
+=BC=EC=9A=B0=EC=A0=80)=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8 =EB=90=
+=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br/>=09=09=09=09=09=09=09=09=09=EC=
+=9E=90=EC=A3=BC =EC=82=AC=EC=9A=A9=ED=95=98=EB=8A=94 =EA=B8=B0=EA=B8=B0=EB=
+=A1=9C =EB=93=B1=EB=A1=9D=ED=95=98=EB=A9=B4, =EB=8B=A4=EC=9D=8C =EB=A1=9C=
+=EA=B7=B8=EC=9D=B8=EB=B6=80=ED=84=B0 =EC=95=8C=EB=A6=BC=EC=9D=B4 =EB=B0=9C=
+=EC=86=A1=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.=09=09=09=
+=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr> -->=09=09=09=09=09=09=09<tr =
+align=3D"center">=09=09=09=09=09=09=09=09<td style=3D"width:100%;padding:86=
+px 0 26px;font-size:18px;line-height:26px;color:#222;font-weight:700;text-a=
+lgin:center;">=09=09=09=09=09=09=09=09=09=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=
+=98 =EC=95=88=EC=A0=84=ED=95=9C =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=
+=A9=EC=9D=84 =EC=9C=84=ED=95=98=EC=97=AC =EC=83=88=EB=A1=9C=EC=9A=B4 =ED=99=
+=98=EA=B2=BD=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=8B=9C =EC=95=
+=88=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br/>=09=09=09=09=09=09=09=
+=09=09=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =ED=99=9C=EB=8F=99=EC=9D=B4 =EB=
+=A7=9E=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=B4=EC=A3=BC=EC=84=B8=EC=
+=9A=94.=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=
+=09=09</table>=09=09=09=09=09</td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=
+=09=09=09<td style=3D'padding:0 0 40px 0;'>=09=09=09=09=09=09<table width=
+=3D"720" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" =
+style=3D"margin:0 auto;">=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=09<=
+td style=3D"padding-bottom:14px;text-align:left;font-size:18px;line-height:=
+26px;color:#222;font-weight:700;">=EB=A1=9C=EA=B7=B8=EC=9D=B8 =EC=A0=95=EB=
+=B3=B4</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09=09=09=09=09=09=
+=09=09<tr>=09=09=09=09=09=09=09=09<td width=3D"215" style=3D"text-align:lef=
+t;padding:12px 0 12px 12px;background-color:#f1f2fa;font-size:16px;line-hei=
+ght:20px;color:#333333;font-weight:600;border-top:1px solid #cccccc;border-=
+right:1px solid #cccccc;">=EC=95=84=EC=9D=B4=EB=94=94</td>=09=09=09=09=09=
+=09=09=09<td width=3D"445" style=3D"padding:12px 0 12px 12px;font-size:16px=
+;line-height: 20px;color:#333333;border-top:1px solid #cccccc;">qkrwot***</=
+td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=
+=09<td width=3D"215" style=3D"text-align:left;padding:12px 0 12px 12px;back=
+ground-color:#f1f2fa;font-size:16px;line-height:20px;color:#333333;font-wei=
+ght:600;border-top:1px solid #cccccc;border-right:1px solid #cccccc;">=EC=
+=9D=BC=EC=8B=9C</td>=09=09=09=09=09=09=09=09<td width=3D"445" style=3D"padd=
+ing:12px 0 12px 12px;font-size:16px;line-height: 20px;color:#333333;border-=
+top:1px solid #cccccc;">2024.03.05 (=ED=99=94) 15:22</td>=09=09=09=09=09=09=
+=09</tr>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=09<td width=3D"215" =
+style=3D"text-align:left;padding:12px 0 12px 12px;background-color:#f1f2fa;=
+font-size:16px;line-height:20px;color:#333333;font-weight:600;border-top:1p=
+x solid #cccccc;border-right:1px solid #cccccc;">=EC=9A=B4=EC=98=81=EC=B2=
+=B4=EC=A0=9C</td>=09=09=09=09=09=09=09=09<td width=3D"445" style=3D"padding=
+:12px 0 12px 12px;font-size:16px;line-height: 20px;color:#333333;border-top=
+:1px solid #cccccc;">Windows nt 10.0</td>=09=09=09=09=09=09=09</tr>=09=09=
+=09=09=09=09=09<tr>=09=09=09=09=09=09=09=09<td width=3D"215" style=3D"text-=
+align:left;padding:12px 0 12px 12px;background-color:#f1f2fa;font-size:16px=
+;line-height: 20px;color:#333333;font-weight:600;border-top:1px solid #cccc=
+cc;border-right:1px solid #cccccc;">=EA=B8=B0=EA=B8=B0</td>=09=09=09=09=09=
+=09=09=09<td width=3D"445" style=3D"padding:12px 0 12px 12px;font-size:16px=
+;line-height: 20px;color:#333333;border-top:1px solid #cccccc;">Chrome 122.=
+0.0</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=
+=09=09=09<td width=3D"215" style=3D"text-align:left;padding:12px 0 12px 12p=
+x;background-color:#f1f2fa;font-size:16px;line-height: 20px;color:#333333;f=
+ont-weight:600;border-top:1px solid #cccccc;border-right:1px solid #cccccc;=
+">=EB=A1=9C=EA=B7=B8=EC=9D=B8 IP</td>=09=09=09=09=09=09=09=09<td width=3D"4=
+45" style=3D"padding:12px 0 12px 12px;font-size:16px;line-height: 20px;colo=
+r:#333333;border-top:1px solid #cccccc;">***.183.**.5(=EB=8C=80=ED=95=9C=EB=
+=AF=BC=EA=B5=AD)</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09<tr>=09=
+=09=09=09=09=09=09=09<td width=3D"215" style=3D"text-align:left;padding:12p=
+x 0 12px 12px;background-color:#f1f2fa;font-size:16px;line-height: 20px;col=
+or:#333333;font-weight:600;border-top:1px solid #cccccc;border-right:1px so=
+lid #cccccc;">=EB=94=94=EB=B0=94=EC=9D=B4=EC=8A=A4 =EC=A0=95=EB=B3=B4</td>=
+=09=09=09=09=09=09=09=09<td width=3D"445" style=3D"padding:12px 0 12px 12px=
+;font-size:16px;line-height: 20px;color:#333333;border-top:1px solid #ccccc=
+c; border-bottom:1px solid #cccccc; ">PC</td>=09=09=09=09=09=09=09</tr>=09=
+=09=09=09=09=09</table>=09=09=09=09=09</td>=09=09=09=09</tr>=09=09=09=09=09=
+=09=09=09<tr>=09=09=09=09=09<td height=3D"200" bgcolor=3D"#f5f5f5" style=3D=
+"padding:0 50px;">=09=09=09=09=09=09<table width=3D"750">=09=09=09=09=09=09=
+=09<tr>=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"line-height:26px=
+;font-size:16px;color:#454545;text-align:left;" colspan=3D"2">=E3=86=8D=EA=
+=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=B4 =EC=A0=91=EC=86=8D=ED=95=98=EC=A7=80 =EC=
+=95=8A=EC=9C=BC=EC=85=A8=EB=8B=A4=EB=A9=B4 =EB=B9=84=EB=B0=80=EB=B2=88=ED=
+=98=B8=EB=A5=BC =EB=B3=80=EA=B2=BD =ED=95=B4=EC=A3=BC=EC=84=B8=EC=9A=94.</t=
+d>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=
+=09<td style=3D"font-size:16px;line-height24px;color:#454545;text-align:lef=
+t;" colspan=3D"2">=E3=86=8D=EB=8F=99=EC=9D=BC =EB=94=94=EB=B0=94=EC=9D=B4=
+=EC=8A=A4=EB=9D=BC=EB=8F=84 =EB=8B=A4=EB=A5=B8 =EB=B8=8C=EB=9D=BC=EC=9A=B0=
+=EC=A0=80=EC=9D=98 =EA=B2=BD=EC=9A=B0=EB=8A=94 =EC=95=8C=EB=A6=BC=EC=9D=B4 =
+=EB=B0=9C=EC=86=A1=EB=90=A9=EB=8B=88=EB=8B=A4.</td>=09=09=09=09=09=09=09</t=
+r>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=09<td style=3D"font-size:1=
+6px;line-height24px;color:#454545;height:50px;">=09=09=09=09=09=09=09=09=09=
+<br>=09=09=09=09=09=09=09=09=09<!-- <button type=3D"button" style=3D"flex:1=
+;cursor:pointer;" onclick=3D"window.open('https://login.kt.com/wamui/CusFin=
+dIdSelectMemType.do?findType=3D02')">=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =
+=EB=B3=80=EA=B2=BD =EA=B0=80=EA=B8=B0</button> -->=09=09=09=09=09=09=09=09<=
+p style=3D"border-radius: 10px; font-family: 'NotoSansKR', 'MG', 'Dotum', '=
+=EB=8F=8B=EC=9B=80', 'Gulim', '=EA=B5=B4=EB=A6=BC', 'Helvetica Neue', 'Helv=
+etica', 'Arial', 'Verdana', 'Tahoma', 'sans-serif'; font-weight: 600; color=
+: #222;  letter-spacing: -0.5px;">=09=09=09=09=09=09=09=09=09<a href=3D"htt=
+ps://login.kt.com/wamui/CusFindIdSelectMemType.do?findType=3D02" style=3D"b=
+ackground-color: #5ddfde; border-radius: 5px; box-sizing: border-box; text-=
+decoration: none; color: #222; padding: 10px;">=09=09=09=09=09=09=09=09=09=
+=09=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD =EA=B0=80=EA=B8=
+=B0=09=09=09=09=09=09=09=09=09</a>=09=09=09=09=09=09=09=09</p>=09=09=09=09=
+=09=09=09</td>=09=09=09=09=09=09=09=09<td style=3D"font-size:16px;line-heig=
+ht24px;color:#454545;height:50px;">=09=09=09=09=09=09=09=09=09<br>=09=09=09=
+=09=09=09=09=09=09<!-- <button type=3D"button" style=3D"flex:1;cursor:point=
+er;" onclick=3D"window.open('https://login.kt.com/wamui/SecurityMenu.do')">=
+=EC=83=88 =EA=B8=B0=EA=B8=B0 =EC=A0=91=EC=86=8D =EC=95=8C=EB=A6=BC =EC=84=
+=A4=EC=A0=95=EA=B0=80=EA=B8=B0</button> -->=09=09=09=09=09=09=09=09=09<p st=
+yle=3D"border-radius: 10px; font-family: 'NotoSansKR', 'MG', 'Dotum', '=EB=
+=8F=8B=EC=9B=80', 'Gulim', '=EA=B5=B4=EB=A6=BC', 'Helvetica Neue', 'Helveti=
+ca', 'Arial', 'Verdana', 'Tahoma', 'sans-serif'; font-weight: 600; color: #=
+222;  letter-spacing: -0.5px;">=09=09=09=09=09=09=09=09=09=09<a href=3D"htt=
+ps://login.kt.com/wamui/SecurityMenuRedirect.do" style=3D"background-color:=
+ #5ddfde; border-radius: 5px; box-sizing: border-box; text-decoration: none=
+; color: #222; padding: 10px;">=09=09=09=09=09=09=09=09=09=09=09=EC=83=88 =
+=EA=B8=B0=EA=B8=B0 =EC=A0=91=EC=86=8D =EC=95=8C=EB=A6=BC =EC=84=A4=EC=A0=95=
+=EA=B0=80=EA=B8=B0=09=09=09=09=09=09=09=09=09=09</a>=09=09=09=09=09=09=09=
+=09=09</p>=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=
+=09=09=09</table><!-- =09=09=09=09=09=09<br>=09=09=09=09=09=09<div>=09=09=
+=09=09=09=09=09=09<button type=3D"button" style=3D"flex:1;cursor:pointer;" =
+>=EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8 =EB=B3=80=EA=B2=BD =EA=B0=80=EA=B8=B0=
+</button>=09=09=09=09=09=09=09=09<button type=3D"button" style=3D"flex:1;cu=
+rsor:pointer;" >=EC=83=88 =EA=B8=B0=EA=B8=B0 =EC=A0=91=EC=86=8D =EC=95=8C=
+=EB=A6=BC =EC=84=A4=EC=A0=95=EA=B0=80=EA=B8=B0</button>=09=09=09=09=09=09</=
+div> -->=09=09=09=09=09</td>=09=09=09=09</tr>=09=09=09=09<!-- =09=09=09=09<=
+tr>=09=09=09=09=09<td height=3D"200" bgcolor=3D"#f5f5f5" style=3D"padding:0=
+ 50px;">=09=09=09=09=09=09<table>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=
+=09=09=09<td colspan=3D"2" style=3D"padding:10px 0;">=09=09=09=09=09=09=09=
+=09=09<strong style=3D"font-size:18px;">=EC=8B=A0=EA=B7=9C =EA=B8=B0=EA=B8=
+=B0 =EC=A0=91=EC=86=8D =EC=95=8C=EB=A6=BC =EC=95=88=EB=82=B4</strong>=09=09=
+=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09<tr>=
+=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"padding:5px 0 0;" width=
+=3D"23">=09=09=09=09=09=09=09=09=09<img src=3D"http://login.kt.com/wamui/ne=
+w_resources/p/cl/src/images/mail/email-ico-caution.png" alt=3D""/>=09=09=09=
+=09=09=09=09=09</td>=09=09=09=09=09=09=09=09<td valign=3D"top" style=3D"lin=
+e-height:26px;font-size:16px;color:#454545;">=09=09=09=09=09=09=09=09=09=EB=
+=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EC=8B=A0=EA=B7=9C =EA=B8=B0=EA=B8=B0=EC=
+=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8 =EB=90=9C =EA=B2=BD=EC=9A=B0=EC=
+=97=90 =EB=B0=9C=EC=86=A1=EB=90=98=EB=A9=B0, =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=
+=9D=B4 =EC=A7=81=EC=A0=91 =EC=A0=91=EC=86=8D=ED=95=98=EC=A7=80 =EC=95=8A=EC=
+=9C=BC=EC=85=A8=EB=8A=94=EB=8D=B0 =EB=A9=94=EC=9D=BC=EC=9D=84 =EB=B0=9B=EC=
+=9C=BC=EC=8B=A0 =EA=B2=BD=EC=9A=B0 =EB=B9=84=EB=B0=80=EB=B2=88=ED=98=B8=EB=
+=A5=BC =EB=B3=80=EA=B2=BD=ED=95=98=EC=8B=9C=EA=B8=B0 =EB=B0=94=EB=9E=8D=EB=
+=8B=88=EB=8B=A4.<br/>=09=09=09=09=09=09=09=09=09=ED=95=98=EB=82=98=EC=9D=98=
+ =EA=B8=B0=EA=B8=B0=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8 =ED=96=88=
+=EB=8D=94=EB=9D=BC=EB=8F=84, =EA=B0=81=EA=B0=81 =EB=8B=A4=EB=A5=B8 =EB=B8=
+=8C=EB=9D=BC=EC=9A=B0=EC=A0=80=EC=97=90=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=
+=B8 =ED=95=9C =EA=B2=BD=EC=9A=B0 =EA=B0=9C=EB=B3=84=EC=A0=81=EC=9C=BC=EB=A1=
+=9C =EC=95=8C=EB=A6=BC=EC=9D=B4 =EB=B0=9C=EC=86=A1=EB=90=A9=EB=8B=88=EB=8B=
+=A4.=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=
+=09</table>=09=09=09=09=09</td>=09=09=09=09</tr>=09=09=09=09<tr>=09=09=09=
+=09=09<td style=3D"padding:60px 0 24px;align:cener">=09=09=09=09=09=09<tabl=
+e width=3D"720" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"c=
+enter" style=3D"table-layout:fixed;margin:0 auto;">=09=09=09=09=09=09=09<tr=
+>=09=09=09=09=09=09=09=09<td style=3D"width:100%;padding:0 0 14px 6px;font-=
+size:16px;line-height24px;color:#454545;">=09=09=09=09=09=09=09=09=09=EB=B3=
+=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 kt.com =ED=9A=8C=EC=9B=90=EB=8C=80=EC=83=81=
+=EC=9C=BC=EB=A1=9C =EB=B0=9C=EC=86=A1=EB=90=98=EB=A9=B0, =EB=B3=B4=EC=95=88=
+=EA=B8=B0=EB=8A=A5=EA=B4=80=EB=A6=AC >  =EC=8B=A0=EA=B7=9C =EA=B8=B0=EA=B8=
+=B0 =EC=A0=91=EC=86=8D =EC=95=8C=EB=A6=BC=EC=9D=84 'on' =EC=84=A4=EC=A0=95=
+=ED=95=98=EC=85=A8=EA=B8=B0=EC=97=90 =EB=B0=9C=EC=86=A1=EB=90=98=EC=97=88=
+=EC=8A=B5=EB=8B=88=EB=8B=A4.=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=
+=09</tr>=09=09=09=09=09=09=09<tr>=09=09=09=09=09=09=09=09<td style=3D"width=
+:100%;font-size:16px;line-height24px;color:#777;">=09=09=09=09=09=09=09=09=
+=09=E3=86=8D=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=
+=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=
+=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=
+=09=09</tr>=09=09=09=09=09=09</table>=09=09=09=09=09</td>=09=09=09=09</tr> =
+-->=09=09=09=09<!-- footer =EC=98=81=EC=97=AD start -->=09=09=09=09<tr>=09=
+=09=09=09=09<td style=3D"align:center;">=09=09=09=09=09=09<table width=3D"7=
+20" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" style=
+=3D"table-layout:fixed;margin:0 auto;padding:30px 0 55px;border-top:1px sol=
+id #ccc;">=09=09=09=09=09=09=09<!--  <tr>=09=09=09=09=09=09=09=09<td>=09=09=
+=09=09=09=09=09=09=09<table width=3D"500" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0" style=3D"table-layout:fixed;">=09=09=09=09=09=09=09=09=09=
+=09<tr>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:60px;padding-rig=
+ht:12px;border-right:1px solid #e5e5e5;font-size:14px;line-height22px;color=
+:#777;">=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"color:#454545;text-=
+decoration:none;">=EB=A7=88=EC=9D=B4=ED=8E=98=EC=9D=B4=EC=A7=80</a>=09=09=
+=09=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09=09=09=09=09<td style=
+=3D"width:84px;border-right:1px solid #e5e5e5;text-align:center;font-size:1=
+4px;line-height22px;color:#777;">=09=09=09=09=09=09=09=09=09=09=09=09<a sty=
+le=3D"color:#454545;text-decoration:none;">=EC=83=81=ED=92=88=EC=84=9C=EB=
+=B9=84=EC=8A=A4</a>=09=09=09=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=
+=09=09=09=09=09<td style=3D"width:82px;border-right:1px solid #e5e5e5;text-=
+align:center;font-size:14px;line-height22px;color:#777;">=09=09=09=09=09=09=
+=09=09=09=09=09=09<a style=3D"color:#454545;text-decoration:none;">=EB=A9=
+=A4=EB=B2=84=EC=8B=AD/=ED=98=9C=ED=83=9D</a>=09=09=09=09=09=09=09=09=09=09=
+=09</td>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:82px;border-rig=
+ht:1px solid #e5e5e5;text-align:center;font-size:14px;line-height22px;color=
+:#777;">=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"color:#454545;text-=
+decoration:none;">=EC=9D=B4=EB=B2=A4=ED=8A=B8</a>=09=09=09=09=09=09=09=09=
+=09=09=09</td>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:82px;bord=
+er-right:1px solid #e5e5e5;text-align:center;font-size:14px;line-height22px=
+;color:#777;">=09=09=09=09=09=09=09=09=09=09=09=09<a style=3D"color:#454545=
+;text-decoration:none;">=EA=B3=A0=EA=B0=9D=EC=A7=80=EC=9B=90</a>=09=09=09=
+=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"=
+width:82px;border-right:1px solid #e5e5e5;text-align:center;font-size:14px;=
+line-height22px;color:#777;">=09=09=09=09=09=09=09=09=09=09=09=09<a style=
+=3D"color:#454545;text-decoration:none;">Shop</a>=09=09=09=09=09=09=09=09=
+=09=09=09</td>=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09=09=
+=09</table>=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>--> <!-- =
+=ED=95=B4=EB=8B=B9 =EC=97=B0=EA=B2=B0=EC=97=90 =EB=8C=80=ED=95=9C =EA=B3=B5=
+=ED=86=B5=EA=B8=B0=EB=8A=A5 =EB=B6=80=EC=9E=AC=EB=A1=9C =EC=9D=B8=ED=95=B4 =
+=EC=A3=BC=EC=84=9D=EC=B2=98=EB=A6=AC. -->=09=09=09=09=09=09=09<!-- <tr>=09=
+=09=09=09=09=09=09=09<td style=3D"padding-top:16px;">=09=09=09=09=09=09=09=
+=09=09<table width=3D"640" cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ style=3D"table-layout:fixed;">=09=09=09=09=09=09=09=09=09=09<tr>=09=09=09=
+=09=09=09=09=09=09=09=09<td style=3D"width:184px;font-size:13px;line-height=
+24px;color:#777;">(=EC=A3=BC)=EC=BC=80=EC=9D=B4=ED=8B=B0 =EB=8C=80=ED=91=9C=
+=EC=9D=B4=EC=82=AC =EA=B9=80=EC=98=81=EC=84=AD</td>=09=09=09=09=09=09=09=09=
+=09=09=09<td style=3D"width:200px;font-size:13px;line-height24px;color:#777=
+;">=EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 : 102-81=
+-42945</td>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:230px;font-s=
+ize:13px;line-height24px;color:#777;">=ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=
+=EC=97=85=EC=8B=A0=EA=B3=A0 : 2002-=EA=B2=BD=EA=B8=B0=EC=84=B1=EB=82=A8-004=
+8</td>=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09=09=09</table=
+>=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=
+=09<tr>=09=09=09=09=09=09=09=09<td style=3D"">=09=09=09=09=09=09=09=09=09<t=
+able width=3D"530" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"table-layout:fixed;padding-top:3px;">=09=09=09=09=09=09=09=09=09=09<tr>=
+=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:400px;font-size:13px;li=
+ne-height24px;color:#777;">=EC=A3=BC=EC=86=8C : 463-711 =EA=B2=BD=EA=B8=B0=
+=EB=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=EA=B5=AC =EB=B6=88=
+=EC=A0=95=EB=A1=9C 90 (=EC=A0=95=EC=9E=90=EB=8F=99 206=EB=B2=88=EC=A7=80)</=
+td>=09=09=09=09=09=09=09=09=09=09=09<td style=3D"width:120px;font-size:13px=
+;line-height24px;color:#777;">TEL : =EA=B5=AD=EB=B2=88=EC=97=86=EC=9D=B4 10=
+0</td>=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09=09=09</table=
+>=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=
+=09<tr>=09=09=09=09=09=09=09=09<td style=3D"">=09=09=09=09=09=09=09=09=09<t=
+able width=3D"530" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=
+=3D"table-layout:fixed;padding-top:5px">=09=09=09=09=09=09=09=09=09=09<tr>=
+=09=09=09=09=09=09=09=09=09=09=09<td width=3D"265" style=3D"font-size:13px;=
+line-height22px;color:#777;">Copyright =C2=A9 2017 kt corp. All rights rese=
+rved.</td>=09=09=09=09=09=09=09=09=09=09</tr>=09=09=09=09=09=09=09=09=09</t=
+able>=09=09=09=09=09=09=09=09</td>=09=09=09=09=09=09=09</tr>=09=09=09=09=09=
+=09=09 -->=09=09=09=09=09=09=09<tr>=09=09=09=09=09            <td style=3D"=
+padding-top:16px;">=09=09=09=09=09              <table cellpadding=3D"0" ce=
+llspacing=3D"0" style=3D"table-layout:fixed;">=09=09=09=09=09              =
+  <tr style=3D"font-size:11px;line-height:24px;color:#777;text-align:left;"=
+>=09=09=09=09=09                  <td width=3D"100%">(=EC=A3=BC)=EC=BC=80=
+=EC=9D=B4=ED=8B=B0 =EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC =EA=B9=80=EC=98=81=
+=EC=84=AD =EA=B2=BD=EA=B8=B0=EB=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=
+=EB=8B=B9=EA=B5=AC =EB=B6=88=EC=A0=95=EB=A1=9C 90(=EC=A0=95=EC=9E=90=EB=8F=
+=99) =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8 : 102-=
+81-42945 =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85=EC=8B=A0=EA=B3=A0 : =
+2002-=EA=B2=BD=EA=B8=B0=EC=84=B1=EB=82=A8-0048</td>=09=09=09=09=09         =
+       </tr>=09=09=09=09=09                <tr style=3D"font-size:11px;line=
+-height:24px;color:#777;text-align:left;">=09=09=09=09=09                  =
+<td width=3D"100%">=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 : [=EB=AA=A8=EB=B0=
+=94=EC=9D=BC] =ED=9C=B4=EB=8C=80=ED=8F=B0+114(=EB=AC=B4=EB=A3=8C), 1588-001=
+0(=EC=9C=A0=EB=A3=8C) [=EC=9D=B8=ED=84=B0=EB=84=B7/TV/=EC=A0=84=ED=99=94] =
+=EC=9C=A0=EC=84=A0=EC=A0=84=ED=99=94(=EA=B5=AD=EB=B2=88=EC=97=86=EC=9D=B4) =
+100, =ED=9C=B4=EB=8C=80=ED=8F=B0(=EC=A7=80=EC=97=AD=EB=B2=88=ED=98=B8)+100 =
+</td>=09=09=09=09=09                </tr>=09=09=09=09=09=09=09=09=09<tr sty=
+le=3D"font-size:11px;line-height:24px;color:#777;text-align:left;">=09=09=
+=09=09=09                  <td width=3D"100%">Copyright=C2=A9 2022 KT Corp.=
+ All rights reserved. </td>=09=09=09=09=09                </tr>=09=09=09=09=
+=09              </table>=09=09=09=09=09            </td>=09=09=09=09=09   =
+     </tr>=09=09=09=09=09=09</table>=09=09=09=09=09</td>=09=09=09=09</tr>=
+=09=09=09=09<!-- footer =EC=98=81=EC=97=AD end -->=09=09=09</tbody>=09=09</=
+table>=09</body>=09</html>
+------=_Part_5532_2075356595.1709619774202--

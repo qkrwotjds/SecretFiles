@@ -1,0 +1,273 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1677196853;
+	cv=none; b=ZpG0AhtVVblMeGpErZwkKK8o5vGwwS1FpmY1Vt3SSTi9pGptlAcbjz/c1Dt+
+	 W/0Rky85WFalbjZhc7rlGf1SUBSG3iqZCzkYZUmKsWz2VKshJ0mrzgxAUQFTBVlazJ6OhW
+	 whVuJn7jUrlIsbWUTbX8E22mTw9a4XdWpEnyNEG7wTY+U+QD7i8DSSTIU912OgqF+5HKCx
+	 qHj2ISj7Az56bcyOoXX7LaytDfSiriyKDXI2+b6k0GLS3nBFXMO8kqeVdTorGnLErKL7W/
+	 +TLuuBTSaY2htaH71l/M/faZDGZs+jKR9nzb6SM0C603G2FRuEFjXiuwHwt0ANC3yCLjRg
+	 iQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1677196853; c=relaxed/relaxed;
+	bh=q+oBGCLE1nKzpdpaZnLEX6YdpEe2w9C5cf0hhtCNtzc=;
+	h=from:to:subject:message-id:date; b=FLmiRfWbTKAMrGyTewKG/hi8XJou5h9GzC
+	 9NBM1/ENMhek25MQesSWDlLiaynRkjrFlyPHrNSdkjt/jKtCho/nmO3fuZP/NH+S9JP3Jj
+	 7/0CkTxUIPf/oSwkU3BcN+XEr0mthfEvQuJlm9g4/ybtmbu80n6DvdG7VCL56tSA6ZsjqK
+	 M72i+gma42/bFk/IPmyKzPqKzKUXes01C/JgjIlojgWn/DgpaVUz15J0/syfm5KEXpr1FB
+	 Hg3vGpLrFe//niwJJOoct33cwDRKFa7RoV+ZbnuVV0sWbDlw7dIUd0o6Ye7OPOObq2O0qo
+	 6Ic7qhQDDU8P43kpLyN3Cq1zRzdQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender) smtp.mailfrom=me.noreply@me.co.kr
+Return-Path: <me.noreply@me.co.kr>
+Received-SPF: pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender)
+  client-ip=115.165.177.248; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of me.noreply@me.co.kr designates 115.165.177.248 as permitted sender) smtp.mailfrom=me.noreply@me.co.kr
+X-Naver-ESV: wZRn+6J4p63qMBIYFHwdbXmmKAgmFxFYkXm=
+X-Session-IP: 115.165.177.248
+Received: from smtps.hispon.com (mail2.me.co.kr [115.165.177.248])
+  by crcvmail105.nm.naver.com with ESMTP id zRQjc8fkQCCL+kdg2v4wVg
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Fri, 24 Feb 2023 00:00:53 -0000
+Received: from 127.0.0.1 (mail2.me.co.kr [115.165.177.248])
+	by smtps.hispon.com (Postfix) with ESMTP id 31EE7D4044C
+	for <1059230@naver.com>; Fri, 24 Feb 2023 09:00:52 +0900 (KST)
+From: =?UTF-8?Q?ME_=EB=AF=B8=EC=86=8C=EC=84=A4_=EB=AF?=
+	=?UTF-8?Q?=B8=ED=88=B0?= <me.noreply@me.co.kr>
+To: 1059230@naver.com
+Subject: =?utf-8?Q?[=EB=AF=B8=ED=88=B0_=EB=AF=B8=EC=86=8C?=
+	=?utf-8?Q?=EC=84=A4]_=ED=9A=8C=EC=9B=90=EB=8B=98?=
+	=?utf-8?Q?=EC=9D=98_=EC=83=9D=EC=9D=BC=EC=9D=84=20?=
+	=?utf-8?Q?=EC=A7=84=EC=8B=AC=EC=9C=BC=EB=A1=9C=20?=
+	=?utf-8?Q?=EC=B6=95=ED=95=98=ED=95=A9=EB=8B=88?=
+	=?utf-8?Q?=EB=8B=A4._=EB=AF=B8=EC=86=8C=EC=84=A4?=
+	=?utf-8?Q?=EC=97=90=EC=84=9C_=EC=A4=80=EB=B9=84?=
+	=?utf-8?Q?=ED=95=9C_=EA=B9=9C=EC=A7=9D_=EC=84=A0?=
+	=?utf-8?Q?=EB=AC=BC=EC=9D=B4_=EB=8F=84=EC=B0=A9?=
+	=?utf-8?Q?=ED=96=88=EC=96=B4=EC=9A=94!?=
+Message-ID: <7a3a88327eaabd3d67f1fbb5bc9289d9@xpertmailer.com>
+Date: Fri, 24 Feb 2023 09:00:52 +0900
+X-Mailer: XPM4 v.0.5 < www.xpertmailer.com >
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: inline
+MIME-Version: 1.0
+
+<!doctype html>
+<html lang=3D"en">
+ <head>
+  <meta charset=3D"UTF-8">
+  <meta name=3D"Generator" content=3D"EditPlus=C2=AE">
+  <meta name=3D"Author" content=3D"">
+  <meta name=3D"Keywords" content=3D"">
+  <meta name=3D"Description" content=3D"">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+.0,minimum-scale=3D1.0,maximum-scale=3D1.0,user-scalable=3Dno">
+  <title>=EC=8B=A0=EC=9E=91</title>
+  <style type=3D"text/css">
+=09html,body{width:100%; }
+=09body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button,input{m=
+argin:0;padding:0}
+=09body{font-size:13px; background-color:#fff; *word-break:break-all;-ms-wo=
+rd-break:break-all}
+=09img,fieldset,iframe{border:0 none}
+=09li{list-style:none}
+=09input,select,button{vertical-align:middle;}
+=09i,em,address{font-style:normal}
+=09label,button{cursor:pointer}
+=09button{margin:0;padding:0}
+=09a{color:#222;text-decoration:none}
+=09/* a:hover{color:#000;text-decoration:none} */
+=09header,footer,nav,section,article,aside{display:block;}
+=09input,select,button,textarea{outline: 0;}
+
+=09div,input,textarea{webkit-box-sizing: border-box;
+=09=09-moz-box-sizing: border-box;
+=09=09box-sizing: border-box;}
+
+=09/* clearfix */
+=09.clearfix {
+=09=09*zoom: 1;
+=09}
+=09.clearfix:after {
+=09=09content: '';
+=09=09display: block;
+=09=09clear: both;
+=09}
+
+=09/* Hide */
+=09.blind {
+=09=09display: block;
+=09=09position: absolute;
+=09=09left: 0;
+=09=09top: -9999em;
+=09}
+
+=09/* Skip */
+=09.skip a {
+=09=09position: absolute;
+=09=09left: 0;
+=09=09top: -9999em;
+=09=09z-index: 9999;
+=09=09display: block;
+=09=09width: 100%;
+=09=09background-color: #039;
+=09=09color: #eee;
+=09=09font-family: ;
+=09=09text-transform: uppercase;
+=09=09text-decoration: none;
+=09=09line-height: 30px;
+=09}
+=09.skip a:hover,
+=09.skip a:active,
+=09.skip a:focus {
+=09=09top: 0;
+=09}
+
+
+  </style>
+ </head>
+ <body>
+=09<div id=3D"mail_form" align=3D"center" style=3D"margin:40px auto 0; widt=
+h:100%;">
+=09=09<div class=3D"mail_form_top" style=3D"width:800px; padding:3px 0 10px=
+; margin-top:15px; border-bottom:1px solid #676767;">
+=09=09=09<h1 class=3D"logo" align=3D"left"><img src=3D"https://imagecdn.me.=
+co.kr/img/me_mail_logo1_red.png" alt=3D"ME =EB=AF=B8=EC=86=8C=EC=84=A4" sty=
+le=3D"display:block; max-width: 490px;"/></h1>
+=09=09</div><!-- mail_form_top -->
+
+=09=09<div class=3D"container" background=3D"#f4f4f4" style=3D"width:800px;=
+ background:#f4f4f4; border:1px solid #e1e1e1; margin:10px auto 0; position=
+:relative;">
+
+=09=09=09<img src=3D"https://imagecdn.me.co.kr/img/birthbay_bg_top1.png" st=
+yle=3D"width:100%; display:block;" alt=3D"" />
+
+=09=09=09<div style=3D"width:100%; max-width:800px; margin:0 auto; padding:=
+ 15px 0; background:#fff; line-height:1.4; font-size:22px; letter-spacing:-=
+0.05em; color: #404040; font-family: 'Malgun Gothic','NanumGothic','=EB=A7=
+=91=EC=9D=80 =EA=B3=A0=EB=94=95' ,'=EB=82=98=EB=88=94 =EA=B3=A0=EB=94=95',d=
+otum,Helvetica,sans-serif;">
+=09=09=09=09<span style=3D"color:blue;">1059230@naver.com=EB=8B=98</span>=
+=EC=9D=98 =EC=83=9D=EC=9D=BC=EC=9D=84 =EC=A7=84=EC=8B=AC=EC=9C=BC=EB=A1=9C=20=
+=EC=B6=95=ED=95=98=EB=93=9C=EB=A0=A4=EC=9A=94!<br />=ED=96=89=EB=B3=B5=ED=
+=95=9C =EC=B6=94=EC=96=B5=EA=B3=BC =EA=B8=B0=EC=81=A8 =EA=B0=80=EB=93=9D=20=
+=EB=88=84=EB=A6=AC=EC=8B=9C=EA=B3=A0, <br /> =EB=AF=B8=EC=86=8C=EC=84=A4=EC=
+=97=90=EC=84=9C =EC=A4=80=EB=B9=84=ED=95=9C 10=EC=BD=94=EC=9D=B8 =EC=84=A0=
+=EB=AC=BC =EB=B0=9B=EC=95=84=EA=B0=80=EC=84=B8=EC=9A=94!<br />=EB=A1=9C=EA=
+=B7=B8=EC=9D=B8 =EC=A6=89=EC=8B=9C 10=EC=BD=94=EC=9D=B8=EC=9D=B4 =EC=A7=80=
+=EA=B8=89=EB=90=A9=EB=8B=88=EB=8B=A4.
+=09=09=09</div>
+
+=09=09=09<img src=3D"https://imagecdn.me.co.kr/img/birthbay_bg_btm1.png" st=
+yle=3D"width:100%; display:block;" alt=3D"" />
+
+=09=09=09<div style=3D"width:100%; max-width:800px; background:#fff; paddin=
+g-bottom: 50px; margin-top: -15px;">
+=09=09=09=09<a href=3D"https://me.co.kr/api/mail_landing_form_api.php?opid=
+=3Dmebirthday&event=3Dindex&mem_email=3D1059230@naver.com" style=3D"display=
+:block; width:557px; margin:0 auto;" target=3D"_blank"><img src=3D"https://=
+imagecdn.me.co.kr/img/birthbay_btn1.png" style=3D"width:557px; margin:0 aut=
+o; display:block;" alt=3D"" /></a>
+=09=09=09</div>
+=09=09</div><!-- container -->
+=09=09<div style=3D"width:800px; overflow:hidden; margin-top:30px; padding-=
+bottom:0px;">
+=09=09=09<div style=3D"float:left; width: 301px; margin-right:5px;"><a href=
+=3D"https://me.co.kr/api/mail_landing_form_api.php?opid=3Dmebirthday&event=
+=3Dfill&mem_email=3D1059230@naver.com" target=3D"_blank" style=3D"display:b=
+lock;"><img src=3D"https://imagecdn.me.co.kr/img/free_btm_mail_banner1_2.pn=
+g" alt=3D"" style=3D"display:block;width:100%;"/></a></div>
+=09=09=09<ul style=3D"float:left; width: 494px; padding:0; margin:0;">
+=09=09=09=09<li style=3D"float:left; width:100%; list-style: none; margin:0=
+; margin-bottom: 5px;"><a href=3D"https://me.co.kr/api/mail_landing_form_ap=
+i.php?opid=3Dmebirthday&event=3Dsale&mem_email=3D1059230@naver.com" target=
+=3D"_blank" style=3D"display:block;"><img src=3D"https://imagecdn.me.co.kr/=
+img/free_btm_mail_banner2_1.png" alt=3D"" style=3D"display:block;width:100%=
+;"/></a></li>
+=09=09=09=09<li style=3D"float:left; width:244px; list-style: none; margin:=
+0; margin-right:5px;"><a href=3D"https://me.co.kr/api/mail_landing_form_api=
+.php?opid=3Dmebirthday&event=3Ddaily&mem_email=3D1059230@naver.com" target=
+=3D"_blank" style=3D"display:block;"><img src=3D"https://imagecdn.me.co.kr/=
+img/free_btm_mail_banner3_1.png" alt=3D"" style=3D"display:block;width:100%=
+;" /></a></li>
+=09=09=09=09<li style=3D"float:left; width:244px; list-style: none; margin:=
+0;"><a href=3D"https://me.co.kr/api/mail_landing_form_api.php?opid=3Dmebirt=
+hday&event=3Dmileage&mem_email=3D1059230@naver.com" target=3D"_blank" style=
+=3D"display:block;"><img src=3D"https://imagecdn.me.co.kr/img/free_btm_mail=
+_banner4_1.png" alt=3D"" style=3D"display:block;width:100%;" /></a></li>
+=09=09=09</ul>
+=09=09</div>
+
+=09=09<!-- <div class=3D"mail_form_bottom" align=3D"left">
+=09=09=09<div background=3D"#f9f9f9" style=3D"width:100%; border:1px solid=20=
+#e1e1e1; background:#f9f9f9; border-top:0; margin-bottom:10px;"><p class=3D=
+"bottom_top" style=3D"padding:15px 10px 13px; color:#aeaeae; border-top:3px=
+ solid #ccc; ">=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=AF=B8=ED=88=B0=EC=
+=95=A4=EB=85=B8=EB=B2=A8 =EA=B4=80=EB=A0=A8 =EC=A0=95=EC=B1=85 =EB=B3=80=EA=
+=B2=BD =EA=B1=B4=EC=9C=BC=EB=A1=9C =EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98=20=
+=EC=97=AC=EB=B6=80=EC=99=80 =EC=83=81=EA=B4=80=EC=97=86=EC=9D=B4 =EB=B0=9C=
+=EC=86=A1=EB=90=98=EB=8A=94 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.<=
+br />=EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9D=B4=EB=AF=80=EB=A1=9C =ED=
+=9A=8C=EC=8B=A0 =ED=95=98=EC=8B=A4 =EC=88=98 =EC=97=86=EC=8A=B5=EB=8B=88=EB=
+=8B=A4.<br /><span style=3D"color:#777777; display:inline-block; margin-top=
+:5px; line-height:1.7;">=EB=8D=94 =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EB=
+=AC=B8=EC=9D=98 =EC=82=AC=ED=95=AD=EC=9D=80 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=
+=84=B0 1644-9259 =EB=A1=9C =EB=AC=B8=EC=9D=98=EC=A3=BC=EC=8B=9C=EB=A9=B4=20=
+=EC=A0=95=EC=84=B1=EA=BB=8F =EB=8B=B5=EB=B3=80=ED=95=B4=EB=93=9C=EB=A6=AC=
+=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.</span></p></div>
+=09=09</div> -->
+
+=09=09<br><br>
+=09=09<!-- start footer -->
+=09=09<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"1=
+5" style=3D"border:none; width:800px; ">
+=09=09<tbody>
+=09=09<tr>
+=09=09=09<td valign=3D"middle" bgcolor=3D"#f5f5f5" style=3D"padding:15px;bo=
+rder:none;font-family:'NanumBarunGothic','Malgun Gothic','NanumGothic','=EB=
+=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95' ,'=EB=82=98=EB=88=94 =EA=B3=A0=EB=94=95=
+',dotum,Helvetica,sans-serif;font-size:12px;letter-spacing:-0.35px;color:#6=
+66">
+=09=09=09<p style=3D"margin:0;text-align:left;line-height:18px;">
+=09=09=09=EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=AF=B8=ED=88=B0=EC=95=A4=
+=EB=85=B8=EB=B2=A8 =EA=B4=80=EB=A0=A8 =EC=A0=95=EC=B1=85 =EB=B3=80=EA=B2=BD=
+ =EA=B1=B4=EC=9C=BC=EB=A1=9C =EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98 =EC=97=
+=AC=EB=B6=80=EC=99=80 =EC=83=81=EA=B4=80=EC=97=86=EC=9D=B4 =EB=B0=9C=EC=86=
+=A1=EB=90=98=EB=8A=94 =EB=A9=94=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.<br>
+=09=09=09=EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9D=B4=EB=AF=80=EB=A1=9C=20=
+=ED=9A=8C=EC=8B=A0 =ED=95=98=EC=8B=A4 =EC=88=98 =EC=97=86=EC=8A=B5=EB=8B=88=
+=EB=8B=A4.<br>
+=09=09=09=EB=8D=94 =EA=B6=81=EA=B8=88=ED=95=98=EC=8B=A0 =EB=AC=B8=EC=9D=98=20=
+=EC=82=AC=ED=95=AD=EC=9D=80 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0 1644-9259=20=
+=EB=A1=9C =EB=AC=B8=EC=9D=98=EC=A3=BC=EC=8B=9C=EB=A9=B4 =EC=A0=95=EC=84=B1=
+=EA=BB=8F =EB=8B=B5=EB=B3=80=ED=95=B4=EB=93=9C=EB=A6=AC=EA=B2=A0=EC=8A=B5=
+=EB=8B=88=EB=8B=A4.
+=09=09=09</p>
+=09=09=09<p style=3D"margin:0;text-align:left;line-height:18px;">
+=09=09=09=EB=A9=94=EC=9D=BC =EC=88=98=EC=8B=A0=EC=9D=84 =EC=9B=90=EC=B9=98=20=
+=EC=95=8A=EC=9C=BC=EC=8B=9C=EB=A9=B4 <a target=3D"_blank" href=3D"https://m=
+e.co.kr/service/mailingdisagree.php?v=3D1059230@naver.com"><b>[=EC=88=98=EC=
+=8B=A0=EA=B1=B0=EB=B6=80]</b></a>=EB=A5=BC =ED=81=B4=EB=A6=AD=ED=95=98=EC=
+=84=B8=EC=9A=94.
+=09=09=09<br>If you don't want this type of information or e-mail, please c=
+lick the <a target=3D"_blank" href=3D"https://me.co.kr/service/mailingdisag=
+ree.php?v=3D1059230@naver.com"><b>[unsubscription]</b></a></p>
+=09=09=09<p style=3D"text-align:left;line-height:18px;">=EC=82=AC=EC=97=85=
+=EC=9E=90=EB=93=B1=EB=A1=9D=EB=B2=88=ED=98=B8: 272-81-00259 | =ED=86=B5=EC=
+=8B=A0=ED=8C=90=EB=A7=A4=EC=97=85 =EC=8B=A0=EA=B3=A0=EB=B2=88=ED=98=B8 =EC=
+=A0=9C 2017-=EC=84=B1=EB=82=A8=EB=B6=84=EB=8B=B9-1125=ED=98=B8 | (13494)=20=
+=EA=B2=BD=EA=B8=B0=EB=8F=84 =EC=84=B1=EB=82=A8=EC=8B=9C =EB=B6=84=EB=8B=B9=
+=EA=B5=AC =EC=84=B1=EB=82=A8=EB=8C=80=EB=A1=9C331=EB=B2=88=EA=B8=B8 8 =ED=
+=82=A8=EC=8A=A4=ED=83=80=EC=9B=8C 1502=ED=98=B8</p>
+=09=09=09</td>
+=09=09</tr>
+=09=09</tbody>
+=09=09</table>
+=09=09<!-- end footer -->
+
+=09</div><!-- mail_form -->
+</body>
+</html>
+

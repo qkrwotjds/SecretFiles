@@ -1,0 +1,148 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1671903020;
+	cv=none; b=lviiUy6HbJBiwkjyXiXdeJq43/Pve6R/3G1h7HEeoYI4+SBnbZ4b4M+MrfNV
+	 Tv1XPjbaLHHvNNKiWnTBAyEGy+EkppHBUI3FNQsLZnk5EJdmGeq5wMcmHw4BDOJOklBOJb
+	 mZD9J7fzjjM4XGKw0Kw0KkTxTE3UxmIGNlNVmXlRbm6+j+jtnjEI1cjAUQgsLpyv83WCt2
+	 3SfpjHnqCoTxooHXLG8C9Sw+6mHBzLZcxr64A51C502mK6OgtciTWFAm+sK5wrauFBqjyx
+	 +jsAWSvUvKHkiPAhyhWGEJuF9444TVwCSzaTt8HsVhIUo5jwPXP/gwncEImS8ED66eBDbU
+	 3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1671903020; c=relaxed/relaxed;
+	bh=F2QhjwGm1Bf8pF9phy6ERPx+7sTHDNZZeYudT36t7AM=;
+	h=date:from:subject:to; b=W6wTI8qi4O0NDCG49uIWk/UExfgxQ6NGkvCIvjZn/CsWo
+	 hX9YrRuO2IbPky2KLcC+PLc30Gn8D7sQBe+WmA44oFPYZqSTYJBH9zy6I4x17LCNxkAiBu
+	 Wslp0mJyGWq+jmquPAVV6mxGHIQfCDDcnILYoCty78hXYkI9qXx5mROX/TJO9jrzMnaeQD
+	 bJ+XpEHtq3C0LFCJAVbo/MxZH788d5fhBXkextZ4AFF3BKpMwH2MQM6SBIGdhRG8aGuhFB
+	 1LUT7UUUDv88HHrFQrxOoPNU9+jIMQ4AuzldhtQQ1PXZvffcHQ0BukMZtye0Tqmp/xoSNo
+	 4A1g5xyBV6k/qdSWg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of returnmail@lmsender-4.cafe24.com designates 175.126.62.64 as permitted sender) smtp.mailfrom=returnmail@lmsender-4.cafe24.com;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cafe24shop.com
+Return-Path: <returnmail@lmsender-4.cafe24.com>
+X-Suspicious-Sender: yes
+Received-SPF: pass (mx.naver.com: domain of returnmail@lmsender-4.cafe24.com designates 175.126.62.64 as permitted sender)
+  client-ip=175.126.62.64; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of returnmail@lmsender-4.cafe24.com designates 175.126.62.64 as permitted sender) smtp.mailfrom=returnmail@lmsender-4.cafe24.com;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=cafe24shop.com
+X-Naver-ESV: wfen+6J4p63CbHmX7BwdbXFYKxbqKAUmjJ+Y
+X-Session-IP: 175.126.62.64
+Message-ID: <1671903020738.7fe9e.135351805@crcvmail205.nm>
+Received: from lmsender-4.cafe24.com (lmsender-4.cafe24.com [175.126.62.64])
+  by crcvmail205.nm.naver.com with ESMTP id DNCHOE7fRsuKwKI8aPjaUw
+  for <1059230@naver.com>;
+  Sat, 24 Dec 2022 17:30:20 -0000
+Date: Sun, 25 Dec 2022 02:30:07 +0900
+From: "=?UTF-8?B?7ZS87Yq47L+hIOqzteyLneusvA==?="<no-reply@cafe24shop.com>
+Subject: =?UTF-8?B?W+2UvO2KuOy/oSDqs7Xsi53rrLxdIOyggeumveq4iCDshozrqbgg7JWI64K0IOuplOydvOyeheuLiOuLpC4=?=
+To: "=?UTF-8?B?67CV7J6s7ISx?="<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: CosseMail ver 1.2
+Content-Type: text/html;	charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="outsideBorder" style="border:1px solid #bbc0c4;">
+<tbody><tr>
+<td style="padding:24px 14px 0;">
+<table width="670" border="0" cellpadding="0" cellspacing="0">
+<tbody><!--
+ 상단메인배너 
+-->
+<tr>
+<td class="visual">
+<IMG
+ ALT="" SRC="http://m-img.cafe24.com/images/template/admin/ko_KR/img_visual_customer_25.jpg" /=""></td>
+</tr>
+<!--
+ //상단메인배너 
+-->
+<!--
+ 인사말 
+-->
+<tr>
+<td class="greeting" style="padding:50px 0 0 10px; font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+<p style="margin-top:13px;">
+안녕하세요. <strong>박재성</strong> 고객님.</p>
+<p style="margin-top:13px;">
+<strong>피트쿡 공식물</strong> 입니다.</p>
+<p style="margin-top:13px;">
+<strong>피트쿡 공식물</strong> 이용약관에 따라 2022-01-01 23:59:59 이전에 적립받은 적립금 중 사용하시고 남은 적립금은 소멸될 예정입니다.</p>
+</td>
+</tr>
+<!--
+ //인사말 
+-->
+<tr>
+<td>
+<!--
+ 컨텐츠 
+-->
+<table width="670" border="0" cellpadding="0" cellspacing="0" style="font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+<tbody><tr>
+<td style="padding:50px 0 0;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableColor" style="font-size:12px; font-family:Gulim; line-height:15px; border-top:1px solid #d5d5d5;">
+<thead><tr>
+<th width="33%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d;">사용가능 적립금</th><th width="33%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">소멸대상 적립금</th></tr>
+</thead><tbody><tr>
+<td align="right" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#393939;">
+3,150</td>
+<td align="right" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5;border-right:1px solid #d5d5d5; color:#393939;">
+3,150</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+<tr>
+<td height="40">
+&nbsp;</td>
+</tr>
+<!--
+ 컨텐츠 공통 여백 
+-->
+</tbody></table>
+<!--
+ //컨텐츠 
+-->
+</td>
+</tr>
+<!--
+ 맺음말 
+-->
+<tr>
+<td class="closingRemarks" style="padding:0 0 60px 10px; font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+<p>
+자세한 사항은 홈페이지를 방문해서 공지사항을 확인해주시기 바랍니다.</p>
+</td>
+</tr>
+<!--
+ //맺음말 
+-->
+<!--
+ 회사소개 
+-->
+<tr>
+<td class="companyInfo" style="padding:24px 34px; font-family:Gulim; font-size:12px; line-height:18px; background-color:#cacdd4;  color:#fff;">
+<p style="{COMPANY_INFO_DISPLAY}">
+                            Tel : <strong>1600-9154</strong> | Fax : 055-314-9254<br />
+               
+            50877 경상남도 김해시 주촌면 서부로1541번길 74 피트쿡
+<br />
+               
+            대표이사 : 김상우 | 개인정보보호책임자
+: 김상우 | 사업자 등록번호 [525-87-01396]
+| 통신판매업 신고 : 제2019-경남김해-0862호
+                        
+</p>
+<p>
+Copyright(c) 피트쿡 공식물 all rights reserved. <A STYLE="color:#fff; text-decoration:none;" TARGET="_blank"HREF="http://175.126.62.64:80/filter/clickDetecter.jsp?campaignID=305431&duplicationYN=N&targetIndex=2320&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Ffitcook.co.kr&linkID=732891&type=click">fitcook.co.kr</A></p>
+</td>
+</tr>
+<!--
+ //회사소개 
+-->
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+
+<img src='http://175.126.62.64:80/filter/checker.jsp?campaignID=305431&email=1059230@naver.com&responseEnd=2023-01-01' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://175.126.62.64:80/filter/Tracker.jsp?campaignID=305431&email=1059230@naver.com&responseEnd=2023-01-01'></iframe>

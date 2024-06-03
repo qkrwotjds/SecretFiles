@@ -1,0 +1,227 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1584683704;
+	cv=none; b=pnGYeKrQtNBLCB9nwYXf4ooCRRYn9udkBnVBVrQCL6GN/8/1HghXQhbrQbaT
+	 +2+kOroOFOFQZ6lf/T1OQvhXbbnNYmjqbS5clKsbcA6vYKpZClOswCatdyxrpPx0PynWsN
+	 7p3UGgNjq+tKE+ssjjESNEwVCLvHiJmgBkYGvp91BoJvEEqSZufN1QsZxzmI/KPdfNNBds
+	 VGhMZW0bafFkrhsZUmmLetTpc1rxGdwm4OdW5eGg0Q65pt9DYyARF32bTYCCCTlnnsO/Mi
+	 Kp+9XTtUBLButdhZWK67Jh/rkh1djffb0HccSwe8l9aOU+FDL8wjccdbABLBNt5sWyHsGK
+	 ig==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1584683704; c=relaxed/relaxed;
+	bh=9FP4LHbotmpcYNKre8pwsIbtdPB7BoLEZrkUmMd5G18=; h=from:subject:to;
+	b=jFknfKUz08rNHWPpwsMz9WlYfkcg5WNAEYp1Am9KbQ8s9hK4+peOFWrop9aHXtoBdTtgu
+	 TugzGOghKI/MkHjXkizJvThjAUwltV1OzQRqJRXFFPzcs36d0rkhP3p+Gql6ynQHCKAe6r
+	 od/1LqDX3ZnEQ8n4qDv56rcUUx8xTWKR7G9n01S1VgTCIqLgXzTnJDcaEFAT6PVek2o0h+
+	 u69Ppb36a9zs/L4TIj/yyCc9n6ot54tICMQ4NIyVKDSVM4RJKOcHTas/FL5hheQl7Ndsil
+	 9wbmsYhGkpdnBjL95Q8S1mLHT6TBAjkwEuSUDMvAiUMCBS0jZJF6XR2//ZMmIfw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=none (mx.naver.com: domain of no-reply@cafe24corp.com does not designate permitted sender hosts) smtp.mailfrom=no-reply@cafe24corp.com;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=naver.com
+Return-Path: <no-reply@cafe24corp.com>
+X-Suspicious-Sender: yes
+Received-SPF: none (mx.naver.com: domain of no-reply@cafe24corp.com does not designate permitted sender hosts)
+  client-ip=222.122.81.250; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=none (mx.naver.com: domain of no-reply@cafe24corp.com does not designate permitted sender hosts) smtp.mailfrom=no-reply@cafe24corp.com;
+  dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=naver.com
+X-Naver-ESV: +dFYpB3G1H+0W4e5jAvRjAg9FxEmFHwBjg==
+X-Session-IP: 222.122.81.250
+Received: from relay-003-14.cafe24.com (relay-003-14.cafe24.com [222.122.81.250])
+  by crcvmail22.nm.naver.com with ESMTP id DpyGQv+qSlqSlWE5QOp2Sg
+  for <1059230@naver.com>;
+  Fri, 20 Mar 2020 05:55:04 -0000
+Received: from new.mail-send02.echosting.cafe24.com (unknown [14.128.143.95])
+	(using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by relay-003-14.cafe24.com (Postfix) with ESMTPS id 5D8129C27E4
+	for <1059230@naver.com>; Fri, 20 Mar 2020 14:55:03 +0900 (KST)
+Received: from mail-send.echosting.cafe24.com (unknown [183.111.153.219])
+	by new.mail-send02.echosting.cafe24.com (Postfix) with SMTP id 4C96A100055
+	for <1059230@naver.com>; Fri, 20 Mar 2020 14:55:02 +0900 (KST)
+From: "=?utf-8?B?S2F2ZWxsYQ==?=" <yunminha4566@naver.com>
+User-Agent: Cafe24 Mail System
+X-Accept-Language: ko, en
+X-Sender: yunminha4566@naver.com
+X-Mailer: PHP
+X-Priority: 1
+Reply-to: yunminha4566@naver.com
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+Subject: =?utf-8?B?W0thdmVsbGFdIOu5hO2ajOybkCDqs6DqsJ3ri5gg7IOB7ZKI7J20IOuwnOyGoeuQmOyXiOyKteuLiOuLpC4=?=
+To: "=?utf-8?B?67CV7J6s7ISx?=" <1059230@naver.com>
+
+
+<table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="outsideBorder" style=" border:1px solid #bbc0c4;">
+<tbody>
+    <tr>
+        <td style="padding:24px 14px 0;">
+            <table width="670" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+                <!-- 로고 -->
+                <tr>
+                    <td class="logoAlign" style="padding-bottom:25px;  text-align:left;"></td>
+                </tr>
+                <!-- //로고 -->
+                <!-- 상단메인배너 -->
+                <tr>
+                    <td class="visual">
+                       <img src="http://m-img.cafe24.com/images/template/admin/kr/img_visual_customer_5.jpg" alt="">
+                    </td>
+                </tr>
+                <!-- //상단메인배너 -->
+                <!-- 인사말 -->
+                <tr>
+                    <td class="greeting" style="padding:50px 0 0 10px; font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+                        <p>안녕하세요. <strong>Kavella</strong> 입니다.</p>
+                        <p style="margin-top:13px;"><strong>박재성(비회원)</strong> 고객님께서 주문하신 상품을 발송하였습니다.<br />
+                        주문 내역은 아래와 같습니다.</p>
+                    </td>
+                </tr>
+                <!-- //인사말 -->
+                <tr>
+                    <td>
+                        <!-- 컨텐츠 -->
+                        <table width="670" border="0" cellpadding="0" cellspacing="0" style="font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+                        <tbody>
+                            <tr>
+                                <td style="padding:23px 0 0;">
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableColor" style="font-size:12px; font-family:Gulim; line-height:15px;  border-top:1px solid #d5d5d5;">
+                                    <thead>
+                                        <tr>
+                                            <th width="33%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d;">주문자</th>
+                                            <th width="33%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">주문번호</th>
+                                            <th width="34%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">주문일자</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#393939;">비회원(박재성)</td>
+                                            <td align="center" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5;border-right:1px solid #d5d5d5; color:#393939;">20200302-0000014</td>
+                                            <td align="center" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">2020-03-02 01:54:35</td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr><td height="40">&nbsp;</td></tr><!-- 컨텐츠 공통 여백 -->
+                            <!-- 주문 상품 정보 -->
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0 0 20px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="19" valign="middle"><img src="http://m-img.cafe24.com/images/template/admin/kr/ico_title.gif" alt="" class="iconTitle"></td>
+                                            <td valign="middle"><strong class="contentTitle" style=" font-size:13px; font-family:Gulim; color:#1c1c1c;">주문 상품 정보</strong></td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                    
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableColor" style="font-size:12px; font-family:Gulim; line-height:15px; border-top:1px solid #d5d5d5;">
+<thead>
+    <tr>
+        <th width="50%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d;">상품명</th>
+        <th width="10%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">수량</th>
+        <th width="20%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">주문처리상태</th>
+        <th width="20%" scope="col" style="padding:13px 10px 10px; font-weight:normal; background-color:#f5f6f5; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d;">배송사</th>
+    </tr>
+</thead>
+<tbody>
+
+<tr>
+    <td align="left" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#393939;">
+        Rose 자수 니트 ver.1 <br />[색상: 블랙, 사이즈: SM]
+    </td>
+    <td align="center" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">
+        1
+    </td>
+    <td align="center" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">
+        배송중
+    </td>
+    <td align="center" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">
+        자체배송 <br />
+        <a href="http://kavella.co.kr/common/delivery_trace.php?order_id=20200302-0000014&product_no=205&opt_id=000L&invoice_no=0000000000" title="새창 열림" target="_blank" style="color:#000;">0000000000</a>
+    </td>
+</tr>
+
+    <tr>
+        <td colspan="4" align="right" valign="middle" style="padding:13px 10px 10px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#393939;">총 배송비 <strong>3,000원</strong></td>
+    </tr>
+</tbody>
+</table>
+
+                                </td>
+                            </tr>
+                            <tr><td height="20">&nbsp;</td></tr><!-- 컨텐츠 공통 여백 -->
+                            <tr>
+                                <td>
+                                     <p style="margin:0 0 0 10px; font-size:11px;"><img src="http://m-img.cafe24.com/images/template/admin/kr/ico_dot.gif" alt=""> 배송상황은 배송업체 홈페이지에서 조회하실 수 있습니다.</p>
+                                </td>
+                            </tr>
+                            <!-- //주문 상품 정보 -->
+                            <tr><td height="40">&nbsp;</td></tr><!-- 컨텐츠 공통 여백 -->
+                            <!-- 배송지 정보 -->
+                            <tr>
+                                <td>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:0 0 20px;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="19" valign="middle"><img src="http://m-img.cafe24.com/images/template/admin/kr/ico_title.gif" alt="" class="iconTitle"></td>
+                                            <td valign="middle"><strong class="contentTitle" style=" font-size:13px; font-family:Gulim; color:#1c1c1c;">배송지 정보</strong></td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tableColor" style="font-size:12px; font-family:Gulim; line-height:15px;  border-top:1px solid #d5d5d5;">
+                                    <tbody>
+                                        <tr>
+                                            <th width="22%" scope="row" align="left" valign="middle" style="padding:13px 10px 10px; font-weight:normal;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d; background-color:#f5f6f5;">받으시는분</th>
+                                            <td width="78%" colspan="3" align="left" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">박재성</td>
+                                        </tr>
+                                        <tr>
+                                            <th width="22%" scope="row" align="left" valign="middle" style="padding:13px 10px 10px; font-weight:normal;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d; background-color:#f5f6f5;">주소</th>
+                                            <td width="78%" colspan="3" align="left" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">서울특별시 강남구 선릉로 431 (역삼동) 에스케이허브오피스텔1802호</td>
+                                        </tr>
+                                        <tr>
+                                            <th width="22%" scope="row" align="left" valign="middle" style="padding:13px 10px 10px; font-weight:normal;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; border-left:1px solid #d5d5d5; color:#80878d; background-color:#f5f6f5;">일반전화</th>
+                                            <td width="28%" align="left" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">010-9413-3741</td>
+                                            <th width="22%" scope="row" align="left" valign="middle" style="padding:13px 10px 10px; font-weight:normal;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#80878d; background-color:#f5f6f5;">휴대전화</th>
+                                            <td width="28%" align="left" valign="middle" style="padding:13px 10px 10px;  border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; color:#393939;">010--</td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- //배송지 정보 -->
+                        </tbody>
+                        </table>
+                        <!-- //컨텐츠 -->
+                    </td>
+                </tr>
+                <!-- 맺음말 -->
+                <tr>
+                    <td class="closingRemarks" style="padding:30px 0 60px 10px; font-size:12px; font-family:Gulim; color:#393939; line-height:19px;">
+                        <p>항상 고객님께서 만족하실 수 있도록 정성껏 모시겠습니다.</p>
+                        <p style="margin-top:13px;">상품의 배송 기간은 지역에 따라 약간의 차이가 있을 수 있으며,<br />
+                        배송기간 중 휴일이 포함되면, 다소 지연될 수 있음을 양해 바랍니다.<br />
+                        기타 문의사항이 있으시면 저희 쇼핑몰 고객 서비스 센터로 연락 주십시오.</p>
+                        <p style="margin-top:13px;">다시 한번 저희 쇼핑몰을 이용해주신 <strong>박재성(비회원)</strong> 고객님께 진심으로 감사드립니다.</p>
+                    </td>
+                </tr>
+                <!-- //맺음말 -->
+            </tbody>
+            </table>
+        </td>
+    </tr>
+    <!-- 회사소개 -->
+    <tr>
+        <td class="companyInfo" style="padding:24px 34px; font-family:Gulim; font-size:12px; line-height:18px; background-color:#cacdd4;  color:#fff;">
+           <p>
+                Tel : <strong>070000000</strong> | Fax : <br />
+                656300 경상남도 거제시 상동동 692<br />
+                대표이사 : 윤민하  | 개인정보관리책임자 : 윤민하 | 사업자 등록번호 [6121102919] | 통신판매업 신고 : 2014-경남거제-0079
+           </p>
+           <p>Copyright(c) Kavella all rights reserved. <a href="#none" target="_blank" style="color:#fff; text-decoration:none;">kavella.co.kr</a></p>
+        </td>
+    </tr>
+    <!-- //회사소개 -->
+</tbody>
+</table>
+

@@ -1,0 +1,296 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1693543900;
+	cv=none; b=KgEGJ/OEuEX1Mm0cyCuTBhD4lLMLcACpGUbYxhoWaeBB0oeYp92BzNK3HrN0
+	 dgbaOPRgGVCVnbCr8LEhfmp4vye6+j826QfTpKOl3VAHp+tSPxPlv4t3JJhZQkIqs3rz6s
+	 rUhUQ7Qcj/1s3QfnSHByUcX8JdyhAvrycTiApNqyn7gqLsWe5B/sv+x0uYmHKC9GnIc/5T
+	 IZ+WuFEu3H2TL+yXTFSK6z+cLDxHPQSC/LJZeSGrPkKF0GRi/ecQi1QCPq7N0OxRobrrjp
+	 vndNtJWj9YjT+/JsIWbmEnQB8wVTfAHDrPCdoSL2yPSob9jPdwa2A41oJAK5Ij8W5W0QVM
+	 kQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1693543900; c=relaxed/relaxed;
+	bh=SMpt2qO4fkAiQVRKBjA+/9C3CPnp90+ScRwQmttLQOY=;
+	h=from:to:subject:date:message-id; b=as7oECZMP0srtzMZIaTACCqTTuhfZEax0H
+	 B9DAIKCGBu5CaLZ8VxOKFhKi2299ekEUp91ED5skllZPU0d+UtHQ0nIZhT+1YleTDc9guC
+	 URRIyHC9a8PjhTCzKXjxUi/pxdHu16hnHV0pUjd3NEPqtFx/jXv///sJUwH9ASgMydyKtR
+	 6Mh3ncZ6mQB7lhuowvGLCvJhD9fxzGjawCdTvMldV3sy4imgLndL6d06AeRoZ7KjwwwB1v
+	 jhhD+EO87XmUyqyWax/HV9CIyahalh7Izwu39OL6YQfZxjeALJ0dVQf/V4AQ6LwJgG+ZVG
+	 KRXQXOZuK0j9RM09p5WTZE1zGLqw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of nice_customer@nicepg.co.kr designates 121.133.126.72 as permitted sender) smtp.mailfrom=nice_customer@nicepg.co.kr
+Return-Path: <nice_customer@nicepg.co.kr>
+Received-SPF: pass (mx.naver.com: domain of nice_customer@nicepg.co.kr designates 121.133.126.72 as permitted sender)
+  client-ip=121.133.126.72; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of nice_customer@nicepg.co.kr designates 121.133.126.72 as permitted sender) smtp.mailfrom=nice_customer@nicepg.co.kr
+X-Naver-ESV: wdFn+6J4p63qMBIYFHwdbXmmFAEwFAIYkXm=
+X-Session-IP: 121.133.126.72
+Received: from mw.nice.co.kr (allthegate.com [121.133.126.72])
+  by crcvmail203.nm.naver.com with ESMTP id SMWKgcmyRF+BsQQUaIczfA
+  for <1059230@naver.com>;
+  Fri, 01 Sep 2023 04:51:40 -0000
+From: "=?utf-8?B?64KY7J207Iqk7Y6Y7J2066i87Lig?=" <nice_customer@nicepg.co.kr>
+To: "=?utf-8?B?KOyjvCnsv6DtjKHtjpjsnbQ=?=" <1059230@naver.com>
+Reply-to: <nice_customer@nicepg.co.kr>
+Subject: =?utf-8?B?67CVKuyEseuLmCwgKOyjvCnsv6DtjKHtjpjsnbTsl5DshJw=?=
+ =?utf-8?B?IOqysOygnO2VmOyLoCDrgrTsl63snoXri4jri6Qu?=
+Date: Fri, 01 Sep 2023 13:51:39 +0900
+X-WORKER_ID: <single.core.sender_Worker_10>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDkwMV8yOQ==>
+X-MEMBER_ID: <TV9JRD03MTAwNTE1NTU2Nl8xNzQ5NTEyOQ==>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202309011351394725_TMS@211.48.18.219>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html;" />
+<title>Untitled Document</title>
+</head>
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top:4px solid #0054a6;max-width:679px;margin:auto;width:100%">
+<tr>
+<td><img src="https://web.nicepay.co.kr/images/email/hd_logo_nicepay.png" width="120" height="35" style="padding:30px 39px" alt="nicepay"/></td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-top:1px solid #eee;border-bottom:1px solid #eee;">
+<tr>
+<td width="39"></td>
+<td width="600" style="font-size:28px;color:#666;padding:25px 0;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">
+<span>박*성</span>님,<br/><span style="color:#0054a6;font-weight: bold;">결제가 완료</span>되었습니다.
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="39"></td>
+<td width="600" style="font-size:15px;color:#666;word-break: keep-all;padding: 25px 0;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">고객님이 <span style="font-weight:bold">(주)쿠팡페이</span>에서 NICEPAY 결제서비스를 통해 결제하신 내역입니다.</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="39"></td>
+<td width="600">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" style="font-size:15px;color:#000;font-weight: bold;padding-bottom: 10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">결제정보</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" height="1" style="background: #000"></td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;padding-top:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">구매자명</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;padding-top:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">박*성</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">상품명</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">밀키스 제로 탄산음료  250ml  30개</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">결제일시</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">2023년 09월 01일 13시 51분</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">주문번호</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">ROCKET_PAY_29041014899</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">결제수단</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">신용카드(하나(외환))</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" height="1" style="background: #ccc"></td>
+</tr>
+<tr>
+<td width="100" style="font-size:19px;color:#666;font-weight: bold;padding:15px 0;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">결제금액</td>
+<td width="500" align="right" style="font-size:19px;color:#666;font-weight: bold;color:#0054a6;padding:15px 0;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">
+<span>18,290 원</span>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" height="1" style="background: #ccc"></td>
+</tr>
+</table>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="20px"></td>
+</tr>
+<tr>
+<td width="39" style=""></td>
+<td width="600" valign="middle" style="height:42px;background: #0054a6;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">
+<a href="https://npg.nicepay.co.kr/issue/IssueLoaderMail.do?TID=coupang01m01012309011351212eIq&type=0" target="_blank" style="color:#fff;font-size:15px;text-align:center;text-decoration: none;width:600px;display: block;">영수증 확인하기</a>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="39"></td>
+<td width="600">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td colspan="2" style="font-size:15px;color:#000;font-weight: bold;padding-bottom: 10px;padding-top:40px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">상점정보</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" height="1" style="background: #000"></td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;padding-top:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">상점명</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;padding-top:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">(주)쿠팡페이</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">사이트주소</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:10px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">http://www.coupang.com</td>
+</tr>
+<tr>
+<td width="100" style="font-size:13px;color:#666;padding-bottom:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">연락처</td>
+<td width="500" align="right" style="font-size:13px;color:#666;font-weight: bold;padding-bottom:15px;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">1577-7011</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" height="1" style="background: #ccc"></td>
+</tr>
+</table>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="20px"></td>
+</tr>
+<tr>
+<td width="39"></td>
+<td width="600" valign="middle" style="height:42px;background: #0054a6;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">
+<a href="http://www.coupang.com" target="_blank" style="color:#fff;font-size:15px;text-align:center;text-decoration: none;width:600px;display: block;">상점 바로가기</a>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #eee;">
+<tr>
+<td width="39"></td>
+<td width="600" valign="middle" style="padding:40px 0;">
+<a href="https://www.nicepay.co.kr" target="_blank" style="width:600px;display: block;">
+<img src="https://web.nicepay.co.kr/images/email/serviceBanner.jpg" alt="아시아 제 1의 금융 인프라그룹 NICEPAY는 다양하고 안전한 전자결제 서비스를 제공합니다.">
+</a>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="39"></td>
+<td width="600" style="padding:30px 0">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td valign="middle" style="font-size:15px;color:#666;line-height:15px;font-weight: bold;;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">
+<img src="https://web.nicepay.co.kr/images/email/ico_noti.png" style="border:0;vertical-align:top" width="15" height="15" alt="유의사항 아이콘">
+유의사항
+</td>
+</tr>
+<tr height="5"></tr>
+<tr>
+<td width="600" style="font-size:13px;color:#666;;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">-  본 메일은 발신전용이며, 결제내용 확인의 용도 외 어떠한 용도로도 사용되지 않습니다.<br/>-  NICEPAY는 전자결제 서비스를 제공하고 있으며, 청구서상에는 ‘NICE’로 표시됩니다.<br/>-  결제하신 물품에 대한 취소 및 배송, 반품 문의는 해당 상점에서 확인해주시기 바랍니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:#e6e5e5">
+<tr>
+<td width="39"></td>
+<td width="600">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="center" width="600" style="font-size:13px;color:#666;padding:25px 10px 25px;word-break: keep-all;;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">본 메일은 나이스페이먼츠의 전자결제인 NICEPAY에서 자동 발송하는 것으로  전자상거래 등에서의 소비자 보호에 관한 법률 제8조 3항에 따라 해당 상점과는 별도로 결제내역을 통보해드립니다.</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="39"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="39">&nbsp;</td>
+<td width="600">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="20"></td>
+<td width="150">
+<img src="https://web.nicepay.co.kr/images/email/ft_logo_nicepay.png" width="120" height="35" style="border:0;vertical-align:middle" alt="nicepay">
+</td>
+<td align="left" style="font-size:11px;color:#aaa;padding:30px 0;;font-family: '나눔고딕',NanumGothic,'맑은고딕',Malgun Gothic,'돋움',Dotum,Helvetica,'Apple SD Gothic Neo',Sans-serif;">사업자 등록번호: 815-81-00527 ㅣ 결제대금예치업 등록번호: 02-006-00041<br/>04117 서울특별시 마포구 마포대로 217 크레디트센터 5~7층 나이스페이먼츠㈜<br/>Copyright@2019 NICEPAY. All rights reserved.</td>
+<td width="20"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="39">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

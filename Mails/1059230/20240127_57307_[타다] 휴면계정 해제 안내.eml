@@ -1,0 +1,139 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1706298529;
+	cv=none; b=FmXKA2oLR3UeX4EzwA6DjsH7PaGh4UehV5OhP/Qc/q9qzW1STNvLth7oNPTB
+	 hw/ReW+B1JDb29pdWe5agicp3WpLGn+os4P7r7YCLsrvn9/2dPkdeIVF24kqYkZ2j84MFj
+	 q1wstPISOIRy+AEwf43GOsBZhOAycBR4hkw7vahjOPrz+2olt3RGVWLpp8VHQkVXVtfJG7
+	 BOlU5gLwuW8qIzuYrc8+Vk38DyGJia8wSsylaq2SKoe0YlwZaxyOHxch7831OXlFUNa+4G
+	 SMp8rMozHxNFbm3/NYOE7ix40DlCfCv0ImRsJVYM9aA/Ku1I8UW84kVvaVOty8ZwjoQKIc
+	 EQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1706298529; c=relaxed/relaxed;
+	bh=MECKqDMqR9E0f0d8FjYEggd/CO+hebvgTfL7vQDrn4o=;
+	h=date:from:to:message-id:subject; b=AsuaEWysK8s4J/Kcmt9AhUDfCAxyyKNuRV
+	 OzDyDKF9+gmrZahla+QWtuMTAoVXlw/xK8hEY1c4hjMbr7dWzXuEbO/ljEy4qtwbcfE7jl
+	 ZJKl7naBEYdzCjPWES1MVPTOGdplC+ulC1eLruUQYVllR0098Ve3P74iQSINu8+2xC/fox
+	 aFB/tpe/SQi9rasV9IhX6/YJ2LceoebBIRDYjZ2dagZKu6O1RDosIW/hbKc3PMposX9m7C
+	 SnfWp9MKBN+eAxG5caAQ9h1N0/3gRLLWJDpH8xfhyCIS0jYudastQe83bNor5myWRz0hn9
+	 ZV62Da7Q5tJFsCmOZv87YWPnKfSg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@tadatada.com designates 106.249.30.150 as permitted sender) smtp.mailfrom=noreply@tadatada.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=tadatada.com
+Return-Path: <noreply@tadatada.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@tadatada.com designates 106.249.30.150 as permitted sender)
+  client-ip=106.249.30.150; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@tadatada.com designates 106.249.30.150 as permitted sender) smtp.mailfrom=noreply@tadatada.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=tadatada.com
+X-Naver-ESV: wden+6J4p63CbHmwKBwdbXFYKxvdaAtljJ+Y
+X-Session-IP: 106.249.30.150
+Received: from smtp502.toastcloud.com (smtp502.toastcloud.com [106.249.30.150])
+  by crcvmail303.nm.naver.com with ESMTP id fM-zZLK8RTSlvo+XgPS3UQ
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Fri, 26 Jan 2024 19:48:49 -0000
+Received: from [10.161.51.22] (HELO mmsa-newbatch-wb901.svr.toastmaker.net)
+ ([10.161.51.22]) by smtp502.toastcloud.com with SMTP id d0e6869965b40ca1;
+ Sat, 27 Jan 2024 04:48:49 +0900
+Date: Sat, 27 Jan 2024 04:48:49 +0900 (KST)
+From: =?UTF-8?B?7YOA64ukIA==?= <noreply@tadatada.com>
+To:  <1059230@naver.com>
+Message-ID: <20240126165200VTVFwcS2@mmsa-newbatch-wb901>
+Subject: =?UTF-8?B?W+2DgOuLpF0g7Zy066m06rOE7KCVIO2VtOygnCDslYjrgrQ=?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Precedence: bulk
+X-Toast-Seq: 319353
+X-Toast-Return-Allow: false
+
+<div><div 100%;=3D"" text-align:center"=3D""><div style=3D"margin-right: au=
+to; margin-left: auto; max-width: 480px;"><p style=3D"text-align: center; l=
+ine-height: 1.4;"><img src=3D"https://email.api.nhncloudservice.com/attachF=
+ile/editor/429/toast-mt-2019-10-30/c9c4d1f3-2586-49e6-bee2-9c79566d7bf2" da=
+ta-filename=3D"c9c4d1f3-2586-49e6-bee2-9c79566d7bf2" style=3D"width: 498px;=
+"><br></p><p style=3D"text-align: center; line-height: 1.4;"><br></p><p sty=
+le=3D"text-align: center; line-height: 1.4;"></p></div></div><div 100%;=3D"=
+" text-align:center"=3D""><div style=3D"margin-right: auto; margin-left: au=
+to; max-width: 480px;"><p style=3D"line-height: 1.4;"><span style=3D"font-f=
+amily: &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto,=
+ &quot;Helvetica Neue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quo=
+t;;">=EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. =ED=83=80=EB=8B=A4=EC=
+=9E=85=EB=8B=88=EB=8B=A4.<br></span><span style=3D"font-family: &quot;Noto =
+Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, &quot;Helvetica N=
+eue&quot;, Arial, sans-serif, &quot;Apple Color Emoji&quot;;">=ED=83=80=EB=
+=8B=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4 =EC=A3=BC=EC=8B=9C=EB=8A=94 =EA=
+=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =EC=A7=84=EC=8B=AC=EC=9C=BC=EB=A1=9C =EA=
+=B0=90=EC=82=AC=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.</span></p><p style=3D"=
+line-height: 1.4;"><span style=3D"font-family: " noto=3D"" sans=3D"" kr",=
+=3D"" -apple-system,=3D"" blinkmacsystemfont,=3D"" roboto,=3D"" "helvetica=
+=3D"" neue",=3D"" arial,=3D"" sans-serif,=3D"" "apple=3D"" color=3D"" emoji=
+";=3D"" font-size:=3D"" 12px;"=3D""><br>23=EB=85=84 9=EC=9B=94 15=EC=9D=BC =
+=EC=8B=9C=ED=96=89=EB=90=9C =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EB=B3=B4=
+=ED=98=B8=EB=B2=95=EC=97=90 =EB=94=B0=EB=9D=BC =ED=9A=8C=EC=9B=90 =ED=9C=B4=
+=EB=A9=B4 =EC=A0=95=EC=B1=85=EC=9D=B4 =EB=B3=80=EA=B2=BD=EB=90=98=EC=96=B4 =
+=EC=95=88=EB=82=B4=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4.<br></span><span sty=
+le=3D"font-family: " noto=3D"" sans=3D"" kr",=3D"" -apple-system,=3D"" blin=
+kmacsystemfont,=3D"" roboto,=3D"" "helvetica=3D"" neue",=3D"" arial,=3D"" s=
+ans-serif,=3D"" "apple=3D"" color=3D"" emoji";=3D"" font-size:=3D"" 12px;"=
+=3D"">=ED=9C=B4=EB=A9=B4=EC=9C=BC=EB=A1=9C =EB=B6=84=EB=A5=98=EB=90=98=EC=
+=97=88=EB=8D=98 =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=
+=9D=80 24=EB=85=84 2=EC=9B=94 1=EC=9D=BC=EB=B6=80=ED=84=B0 =EC=88=9C=EC=B0=
+=A8=EC=A0=81=EC=9C=BC=EB=A1=9C =ED=99=9C=EC=84=B1 =ED=9A=8C=EC=9B=90=EC=9C=
+=BC=EB=A1=9C =EC=A0=84=ED=99=98=EB=90=A9=EB=8B=88=EB=8B=A4.<br></span><span=
+ style=3D"font-family: " noto=3D"" sans=3D"" kr",=3D"" -apple-system,=3D"" =
+blinkmacsystemfont,=3D"" roboto,=3D"" "helvetica=3D"" neue",=3D"" arial,=3D=
+"" sans-serif,=3D"" "apple=3D"" color=3D"" emoji";=3D"" font-size:=3D"" 12p=
+x;"=3D""><br>=ED=9C=B4=EB=A9=B4=EA=B3=84=EC=A0=95=EC=9C=BC=EB=A1=9C =EC=A0=
+=84=ED=99=98=EB=90=98=EA=B8=B0 =EC=A0=84 =EA=B4=91=EA=B3=A0=EC=84=B1 =EC=A0=
+=95=EB=B3=B4 =EC=88=98=EC=8B=A0 =EB=8F=99=EC=9D=98 =EC=97=AC=EB=B6=80=EB=8A=
+=94 =EC=9C=A0=EC=A7=80=EB=90=A9=EB=8B=88=EB=8B=A4.<br></span><span style=3D=
+"font-family: " noto=3D"" sans=3D"" kr",=3D"" -apple-system,=3D"" blinkmacs=
+ystemfont,=3D"" roboto,=3D"" "helvetica=3D"" neue",=3D"" arial,=3D"" sans-s=
+erif,=3D"" "apple=3D"" color=3D"" emoji";=3D"" font-size:=3D"" 12px;"=3D"">=
+=EA=B0=9C=EC=A0=95=EB=90=98=EB=8A=94 =EB=82=B4=EC=9A=A9=EC=97=90 =EB=8F=99=
+=EC=9D=98=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=A4 =EA=B2=BD=EC=9A=B0 =
+=ED=9A=8C=EC=9B=90 =ED=83=88=ED=87=B4=EB=A5=BC =ED=95=98=EC=8B=A4 =EC=88=98=
+ =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br></span><span style=3D"font-family=
+: " noto=3D"" sans=3D"" kr",=3D"" -apple-system,=3D"" blinkmacsystemfont,=
+=3D"" roboto,=3D"" "helvetica=3D"" neue",=3D"" arial,=3D"" sans-serif,=3D""=
+ "apple=3D"" color=3D"" emoji";=3D"" font-size:=3D"" 12px;"=3D""><br>=EB=8B=
+=A4=EC=8B=9C =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EC=97=AC=EC=A0=95=EC=9D=
+=84 =ED=95=A8=EA=BB=98 =ED=95=A0 =EC=88=98 =EC=9E=88=EA=B2=8C =EB=90=98=EC=
+=96=B4 =EB=B0=98=EA=B0=91=EC=8A=B5=EB=8B=88=EB=8B=A4.<br></span><span style=
+=3D"font-family: " noto=3D"" sans=3D"" kr",=3D"" -apple-system,=3D"" blinkm=
+acsystemfont,=3D"" roboto,=3D"" "helvetica=3D"" neue",=3D"" arial,=3D"" san=
+s-serif,=3D"" "apple=3D"" color=3D"" emoji";=3D"" font-size:=3D"" 12px;"=3D=
+"">=ED=8E=B8=EC=95=88=ED=95=9C =EC=9D=B4=EB=8F=99=EC=9D=B4 =EB=AA=A8=EB=91=
+=90=EC=9D=98 =EC=9D=BC=EC=83=81=EC=9D=B4 =EB=90=A0 =EC=88=98 =EC=9E=88=EB=
+=8F=84=EB=A1=9D =EB=85=B8=EB=A0=A5=ED=95=98=EB=8A=94 =ED=83=80=EB=8B=A4=EA=
+=B0=80 =EB=90=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>
+</span></p><div style=3D"margin: 11px 0 40px;">
+<a href=3D"https://tada.onelink.me/QC69/activated" target=3D"_blank" style=
+=3D"font-size: 12px; height: 18px; vertical-align: middle; color: #fff; bac=
+kground-color: #32A2FA; border-radius: 2px; padding: 11px 20px 9px; display=
+: inline-block; text-decoration: none !important; font-weight: bold;">=ED=
+=83=80=EB=8B=A4 =EC=95=B1 =EC=97=B4=EA=B8=B0 (=EB=AA=A8=EB=B0=94=EC=9D=BC=
+=EC=97=90=EC=84=9C =EA=B0=80=EB=8A=A5)</a>
+</div>
+<p style=3D"line-height: 1.4;"><span style=3D"font-family: " noto=3D"" sans=
+=3D"" kr",=3D"" -apple-system,=3D"" blinkmacsystemfont,=3D"" roboto,=3D"" "=
+helvetica=3D"" neue",=3D"" arial,=3D"" sans-serif,=3D"" "apple=3D"" color=
+=3D"" emoji";=3D"" font-size:=3D"" 12px;"=3D"">=EA=B0=90=EC=82=AC=ED=95=A9=
+=EB=8B=88=EB=8B=A4.<br>=ED=83=80=EB=8B=A4=ED=8C=80 =EB=93=9C=EB=A6=BC<br><b=
+r></span></p></div></div></div><div 100%;=3D"" text-align:center"=3D""><div=
+ style=3D"margin-right: auto; margin-left: auto; max-width: 480px;"><hr><p =
+style=3D"line-height: 1.4;"><span style=3D"color: rgb(169, 169, 169); font-=
+size: 10px;">=ED=9A=8C=EC=82=AC=EB=AA=85 : =EB=B8=8C=EC=9D=B4=EC=94=A8=EC=
+=97=94=EC=94=A8 =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC | =EB=8C=80=ED=91=9C :=
+ =EC=9D=B4=EC=A0=95=ED=96=89 | =EC=82=AC=EC=97=85=EC=9E=90=EB=93=B1=EB=A1=
+=9D=EB=B2=88=ED=98=B8 : 119-86-38202 | =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=
+=EC=B1=85=EC=9E=84=EB=8B=B4=EB=8B=B9=EC=9E=90: =EA=B9=80=EB=82=A8=ED=98=84 =
+| =EC=A3=BC=EC=86=8C : 06168 =EC=84=9C=EC=9A=B8=ED=8A=B9=EB=B3=84=EC=8B=9C =
+=EC=84=B1=EB=8F=99=EA=B5=AC =EC=83=81=EC=9B=90=EA=B8=B8 26, 7F =EB=B8=8C=EC=
+=9D=B4=EC=94=A8=EC=97=94=EC=94=A8 =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC | =
+=ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EB=B2=88=ED=98=B8 : 2015-=EC=84=9C=EC=
+=9A=B8=EA=B0=95=EB=82=A8-01065 | =EC=A0=84=ED=99=94 : 1800-8437 | E-mail: h=
+elp@tadatada.com</span></p></div></div><img style=3D'display:none;' height=
+=3D'1' width=3D'1' border=3D'0' src=3D'https://email.api.nhncloudservice.co=
+m/email/v1.0/collectors/readCheck/JqXtbWafNOqxOvO8-nkv-LIm7dbUnG-O7iHEkuCji=
+oE?ext=3Dimg.gif' loading=3D'eager'/>
+

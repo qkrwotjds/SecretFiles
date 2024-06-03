@@ -1,0 +1,77 @@
+Received: (qmail 4529 invoked from network); 1 Dec 2016 14:04:27 -0000
+Received: from 10.114.49.204 (HELO crcvmail14-1.nm.naver.com) (10.114.49.204)
+  by cmda025-2.nm.naver.com with SMTP; 1 Dec 2016 14:04:27 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of dlwlgns4gh@gmail.com designates 209.85.210.173 as permitted sender) smtp.mailfrom=dlwlgns4gh@gmail.com;
+  dkim=pass header.i=@gmail.com;
+  dmarc=pass (p=NONE) header.from=gmail.com
+X-Session-IP: 209.85.210.173
+Received: from mail-wj0-f173.google.com (mail-wj0-f173.google.com [209.85.210.173])
+  by crcvmail14-1.nm.naver.com with ESMTP id 0WPqsbnVQf6L0h04oM0DNQ
+  for <1059230@naver.com>;
+  Thu, 01 Dec 2016 14:04:27 -0000
+Received: by mail-wj0-f173.google.com with SMTP id v7so205332892wjy.2
+        for <1059230@naver.com>; Thu, 01 Dec 2016 06:04:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=3mOAkjM/DfUovCytmzUsRjKLeKXvTrmyt8aTny2BMWU=;
+        b=uWDDZvCRQswIMtiyhuW919lhDrZutxDt/47pzjWVf3yzBvyweBKTbyUyPMoG/dfIiW
+         FUpKfCgXPNuPtilQoRJ8R0QAM+v8WHidTayw78KjI82h5p55fjF6m1CWFI2K10YEphOC
+         9DpdwpxI8C9lryFZYwocjPUGuU6RdG335BWtU5i+uRtrMINwaHOkLAhyhy2ZtsyTI4Tr
+         f7+KUrRKi4LsWuxQnaLqJUvTZMboqVZfAmwUnK43lLKy2A7j2oxGpYLaG2Dn5JGSQivQ
+         fuWfzcMsP8jQhl9F7+9sNCmXstzmnYQVsZiwMWjFAqds9rG0+xIbf9aeJoAD+CDpCiDs
+         WMLg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=3mOAkjM/DfUovCytmzUsRjKLeKXvTrmyt8aTny2BMWU=;
+        b=aeBDOQfVYPl2lem57FQ5qwbkKP0OOVqSFe8gsEy9fbUw3h379tQ5PXhYtwEoYT+d9I
+         c0qNvuc8neDjf8p/VYotit98p/6PIyBF0J3TMMRcgHfaca6pYMtQ85HBvrV2jcgiiFlV
+         7oRujB9T0QEhk4VBVMvFfvyUsbLLJmkHuoXBfp3xCjIMYRyovbTtJkB3vhNEPuOHkb8C
+         gX3UJDQECKHMoW/Z+gV0nEQqJyZD5YY1ctljxBJIKFuWSkIifPCvla/PYZKUB7Ke87hK
+         3nm+OePV6gasefCuG5/6Uj4BaceZEHvQMlu7ZCcD2657AmKDSYr4WTSyMDM372+HfGgI
+         ox2w==
+X-Gm-Message-State: AKaTC02ewy6TL+aBFuY7mJvlZPLHLAdRHAkCVGjH0scbkDETYhf/ZVn6rCPlUfPKznf9/h9IrJreaYB3wzQXiQ==
+X-Received: by 10.194.26.170 with SMTP id m10mr33479359wjg.152.1480601063315;
+ Thu, 01 Dec 2016 06:04:23 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.80.140.152 with HTTP; Thu, 1 Dec 2016 06:04:23 -0800 (PST)
+From: =?UTF-8?B?7J207KeA7ZuI7J207KeA7ZuI?= <dlwlgns4gh@gmail.com>
+Date: Thu, 1 Dec 2016 23:04:23 +0900
+Message-ID: <CA+65EbCKPWqutLc22U5MrEAnWy57do6Gt8qBOKQdQJ-pbry9hg@mail.gmail.com>
+Subject: =?UTF-8?B?64KY66i47KeAIO2VnOqwnOyduO2EsOu3sCDsmIHsg4HsnYAg7Jqp65+J7J20IOy7pOyEnA==?=
+	=?UTF-8?B?IOq1rOq4gOuplOydvOuhnCDrs7TrgrTrk5zrpr3ri4jri6Qh?=
+To: 1059230@naver.com
+Content-Type: multipart/alternative; boundary=047d7b6245e66ee38f0542994ce4
+X-Naver-ESV: +X+YpB3G1H+YbXFCbHmRKxtmFAUXjJ+Y
+
+--047d7b6245e66ee38f0542994ce4
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: base64
+
+4oCLDQog7JiB642V7J247YSw67ewLey1nOyLoOyhseuwnC56aXANCjxodHRwczovL2RyaXZlLmdv
+b2dsZS5jb20vZmlsZS9kLzBCNWRLczhiZ1lObTZNVUpsTjAwMU9IRjBlRkUvdmlldz91c3A9ZHJp
+dmVfd2ViPg0K4oCLDQo=
+--047d7b6245e66ee38f0542994ce4
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">=E2=80=8B<div class=3D"gmail_chip gmail_drive_chip" style=
+=3D"width:396px;height:18px;max-height:18px;background-color:rgb(245,245,24=
+5);padding:5px;color:rgb(34,34,34);font-family:arial;font-style:normal;font=
+-weight:bold;font-size:13px;border:1px solid rgb(221,221,221);line-height:1=
+"><a href=3D"https://drive.google.com/file/d/0B5dKs8bgYNm6MUJlN001OHF0eFE/v=
+iew?usp=3Ddrive_web" target=3D"_blank" style=3D"display:inline-block;max-wi=
+dth:366px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-de=
+coration:none;padding:1px 0;border:none"><img style=3D"vertical-align: bott=
+om; border: none;" src=3D"https://ssl.gstatic.com/docs/doclist/images/icon_=
+10_generic_list.png">=C2=A0<span dir=3D"ltr" style=3D"color:rgb(17,85,204);=
+text-decoration:none;vertical-align:bottom">=EC=98=81=EB=8D=95=EC=9D=B8=ED=
+=84=B0=EB=B7=B0-=EC=B5=9C=EC=8B=A0=EC=A1=B1=EB=B0=9C.zip</span></a><img src=
+=3D"//ssl.gstatic.com/ui/v1/icons/common/x_8px.png" style=3D"opacity: 0.55;=
+ cursor: pointer; float: right; position: relative; top: -1px; display: non=
+e;"></div>=E2=80=8B<br></div>
+
+--047d7b6245e66ee38f0542994ce4--
+

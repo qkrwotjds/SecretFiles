@@ -1,0 +1,153 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1708924874;
+	cv=none; b=LXn+M4eFc5hIrtAhgitenbZu3JWC/60eL/fo1RwwQNcdW+u/njL99+ZNyWt2
+	 mKGeTG/7T4HlNV6EqtOmQ9CbE9uKwVFa+wkTO22TLJEGMZ5e0ocRGeL62uQNbYaTvYDqlr
+	 lzsdrDNRp3IUFz0Mt0xao3lKIxsgCVoPLAm4R+L1c/VvEbseJVLld9li7yxMN1g/cbWkkG
+	 0O6wCNMrdk1thEoNPqry4JwgRTEEJi4Qn3iJx2h3lNo1TlBbZnphcvdr95gmffBvqxnFkg
+	 +xVln/ubWozxe4fo1pzkq9/9JKPyn1P6vOFsaev79tRuTwOO9rRHRl/ZUt1MtiwZbVvsBh
+	 Og==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1708924874; c=relaxed/relaxed;
+	bh=qa+Jx9BjWNuCVXf2B37jcAefgW1PVd1UJnL3vPMrYtc=;
+	h=from:to:subject:date:message-id; b=ECtfPRTGMq4o5c5Sf+bFnX3mY+95tm6UcA
+	 P959c3lHKjHTdFvHAa3s1PpgnEGn4aQ2g0r1Yi2RmX2GMbhqYY1Ny81h3LyqSb+taevg3n
+	 yc8dfKD0U5rPc1oEWQ7qbxMjpNumI8tDWSwrEP9/wqak9VgEr3SQr6fQQPsRBUjqC+fvB/
+	 pP+m6E0yGt1PIh5FGD3CVDZs1thrFoM6imejth47wArEEdQNHo1x2UPY1cbHRmPnc9LKaZ
+	 1DRhDli7XuTT6syvn9PRHlT7TYj/0KTGoMvgg/OJI94//jwVq6JRkNWOe5h/ykT0QmKymj
+	 tp2QfIXcEDwguxOGax5aRy2rH1vQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender) smtp.mailfrom=noreply@twayair.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=twayair.com
+Return-Path: <noreply@twayair.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender)
+  client-ip=218.145.27.234; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@twayair.com designates 218.145.27.234 as permitted sender) smtp.mailfrom=noreply@twayair.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=twayair.com
+X-Naver-ESV: wmFn+6J4p63CbHmdKBwdbXFYKAEZKxudjJ+Y
+X-Session-IP: 218.145.27.234
+Received: from twayair.com (ems2.twayair.com [218.145.27.234])
+  by crcvmail303.nm.naver.com with ESMTP id lcA3Kn5wQtiLzSOYNu5TBw
+  for <1059230@naver.com>;
+  Mon, 26 Feb 2024 05:21:14 -0000
+From: "=?euc-kr?B?xry//sDMx9ew+A==?=" <noreply@twayair.com>
+To: "=?euc-kr?B?xry//sDMx9ew+CCw7bC0tNQ=?=" <1059230@naver.com>
+Reply-to: <noreply@twayair.com>
+Subject: =?euc-kr?B?W8a8v/7AzMfXsPhdIMjeuOkgsOjBpCC6uQ==?= =?euc-kr?B?v/ggvsizuw==?=
+Date: Mon, 26 Feb 2024 14:21:14 +0900
+X-WORKER_ID: <single.naver.com_Worker_9>
+X-MAIL_ID: <UE9TVF9JRD0yMDI0MDIxOTAwMDAx>
+X-MEMBER_ID: <TV9JRD0xMDQ4NTAw>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDI=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202402261421148200_Ems@twayair.com>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<html lang="ko" xml:lang="ko" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>휴면 계정 복원 안내</title>
+</head>
+<body style="text-align:center;">
+<table border="0" cellpadding="0" cellspacing="0" style="color:#1a1a1a; margin:0 auto; border-spacing:0; border-collapse:collapse; border:1px solid #cdcdcd; text-align:left; font-family:dotum; font-size:13px; line-height:1.3;" width="700">
+<thead>
+<tr>
+<td style="line-height:1; font-size:0;" valign="top"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/bg_top.png" style="vertical-align:top;" /></td>
+</tr>
+<tr>
+<td style="padding:30px;" valign="top"><a href="#" style="border:0"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/logo.png" /></a></td>
+</tr>
+<tr>
+<td style="padding:10px 30px 30px 30px; font-weight:bold; font-family:'맑은 고딕'; font-size:30px;" valign="top">휴면 계정 복원 안내</td>
+</tr>
+</thead>
+<tbody><!-- 메일링 인포 -->
+<tr>
+<td style="padding:10px 30px 30px 30px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" style="color:#1a1a1a; font-family:dotum; color:#4d4d4d; font-size:13px; line-height:1.3;" width="640">
+<tbody>
+<tr>
+<td style="padding-bottom:10px;">안녕하세요. 티웨이항공입니다.<br />
+<br />
+2023년 9월 15일부로 개정된 개인정보보호법에 의거하여 티웨이항공 휴면 회원 정책 변경 사항에 대해 안내드립니다.<br />
+&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;"><br />
+<b>[변경사항]</b></td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;">개인정보보호법 제39조의6(개인정보의 파기에 대한 특례) 조항 삭제에 따라 기존에 1년 동안 미로그인 시 휴면 계정으로 분리 보관되었던 계정은 2024년 2월 26일부터 순차적으로 활성 계정으로 전환 예정입니다.</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;">
+<p><br />
+<span style="color:#696969; padding-right:5px;">●</span> 휴면 상태에서 해제되더라도 회원님의 개인정보는 관련 법과 티웨이항공 개인정보처리방침에 따라 안전하게 보관됩니다.</p>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;"><br />
+<span style="color:#696969; padding-right:5px;">●</span> 휴면 상태 해제 후, 마케팅 정보 수신동의 여부에 따라 항공권 특가 정보를 받아보실 수 있습니다.</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;"><br />
+<span style="color:#696969; padding-right:5px;">●</span>&nbsp;정책 변경에 동의하지 않으실 경우, 마이페이지 &gt; 개인정보관리 메뉴에서 회원 탈퇴를 하실 수 있습니다.<br />
+<br />
+&nbsp;</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;">티웨이항공은 앞으로도 회원님의 개인정보를 안전하게 보호하기 위해 최선의 노력을 다하겠습니다.<br />
+<br />
+감사합니다.<br />
+티웨이항공 드림</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //메일링 인포 --><!-- button 2type -->
+<tr>
+<td style="text-align:center; padding:0 30px 40px 30px; border-radius:3px;">
+<table border="0" cellpadding="0" cellspacing="10" height="46" style="text-align:center; margin:0 auto;" width="500">
+<tbody>
+<tr>
+<td style="height:46px; font-family:dotum,'돋움'; font-size:14px; background-color:#d32c26; border-radius:3px;" width="240"><a href="http://ems2.twayair.com:80/Check.html?TV9JRD0xMDQ4NTAw&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDI=&UE9TVF9JRD0yMDI0MDIxOTAwMDAx&VEM9MjAyNDAzMDc=&S0lORD1D&Q0lEPTAwMg==&URL=https://www.twayair.com/app/main" style="display:block; padding:10px 0; color:#fff; font-weight:bold; text-decoration:none;" target="_blank">티웨이항공 홈페이지 바로가기 </a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- //button 2type -->
+</tbody>
+<!-- 안내성 수신동의 footer -->
+<tfoot>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="border-spacing:0; border-collapse:collapse; background-color:#f5f5f5; border-top:1px solid #ccc; padding:30px; line-height:1.7; font-size:11px;" width="700">
+<tbody>
+<tr>
+<td colspan="2" style="padding:30px 30px 15px 30px;" width="700">
+<p style="margin:0; word-break:keep-all; font-size:11px;">본 메일은 발신전용이므로, 문의사항은 <span style="color:#d22c26;">홈페이지&gt;고객의 말씀</span> 혹은 <span style="color:#d22c26;">예약센터 (+82 1688-8686)</span>를 이용해 주시기 바랍니다.</p>
+</td>
+</tr>
+<tr>
+<td style="padding:0 0 30px 30px;" valign="top" width="120"><img alt="" src="http://contents-image.twayair.com/homepage/images/mail/logo_footer.png" /></td>
+<td style="padding:0 30px 30px 0;" width="580">
+<p style="margin:0; word-break:keep-all; font-size:11px;">대표이사. 정홍근 I 사업자등록번호. 101-81-94800 I 주소. 대구광역시 중구 동덕로 167, 10층(동인동2가, KT 대구타워 신관)<br />
+통신판매업신고번호. 2017-서울강서-1292 I 개인정보 관리책임자. 경영본부장 김형이<br />
+Copyright ⓒ 2019 T&#39;way Air All Rights Reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tfoot>
+<!-- //안내성 수신동의 footer -->
+</table>
+<div style="display:none"><img src="http://ems2.twayair.com:80/Check.html?TV9JRD0xMDQ4NTAw&U1RZUEU9TUFTUw==&TElTVF9UQUJMRT1FTVNfTUFTU19TRU5EX0xJU1RfMDI=&UE9TVF9JRD0yMDI0MDIxOTAwMDAx&VEM9MjAyNDAzMDc=&S0lORD1P" width=1 height=1></div></body>
+</html>
+
+

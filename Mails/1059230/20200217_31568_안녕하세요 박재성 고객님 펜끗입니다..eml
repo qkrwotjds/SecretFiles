@@ -1,0 +1,91 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1581924141;
+	cv=none; b=f3J5NQP0pDENa8jINQ+UW/JjuxaNT57t5ArZJ3negeyEb8kGLiClA3n7dhnX
+	 nJw4tHbjY6r+Uiaz/oiELxUqlPU/Elu3ickS8TI0N0twSb2ciDQRt3DEayuRkykUaxrB0y
+	 k8psr35Cf6ujNDNG+9HQxCCdjSqPd5shLtQcxb2NNprrH2kCeJaZJ9OxP/KuJlsT6rKfkc
+	 Ov1sajNBA0YtNyx43Ynr3HRMmVJvLKnuqbI/e/zTJteBtOEti6CyAgazw/aY0O6dOCs0DY
+	 bhuzhrACupIySdLkEWuZgeLkh4VVO/wvgiaUFw1Lg8+VjGJfOCW/zpPUFC3S66wxaGyk1j
+	 MA==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1581924141; c=relaxed/relaxed;
+	bh=+LbXE4mmF6NkB2Vrct4jw+svofJSWxvx/PrCkBGPQaQ=;
+	h=date:from:to:message-id:subject; b=okENofCo4dGuaiAZqeqmMBrG2o6YpUL93p
+	 X/7OKCCmk5GjwZ4jO0iAQclV9ZqXwTYork1QNo7izfBd6LncR8/p8yxPksYIaB5TynEsQk
+	 rLgL5N7cyNX8RnS4UANJGNIo1+rTB9PnOPSJ7Hc0MslGlQsaZMlPbvlddR294mU9l1jOtA
+	 CHyox0oKVLq75DFQIwhZUV4qgqrLn26eD20OXIt0/HOIDdj6z73dlBOpuP5w10UnNbUbfc
+	 q/Lm4tDCBXNUp1xaiwwET44wXvqjGeM8mp+7Yz9WpGY9AhfkACDXhXk9gypCthfBb+DPF7
+	 BPUg0vK8SSy/b8w/GVYbpuzWH8JQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of penkkeut@daum.net designates 203.133.180.214 as permitted sender) smtp.mailfrom=penkkeut@daum.net;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=daum.net
+Return-Path: <penkkeut@daum.net>
+Received-SPF: pass (mx.naver.com: domain of penkkeut@daum.net designates 203.133.180.214 as permitted sender)
+  client-ip=203.133.180.214; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of penkkeut@daum.net designates 203.133.180.214 as permitted sender) smtp.mailfrom=penkkeut@daum.net;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=daum.net
+X-Naver-ESV: +qRYpB3G1H+qbrJmjAuwjAgXKoUZKBwBjg==
+X-Session-IP: 203.133.180.214
+Received: from mail-smail-vm30.hanmail.net (mail-smail-vm30.hanmail.net [203.133.180.214])
+  by crcvmail36.nm.naver.com with ESMTP id nTL9OI6lRhO-eo19-5FsiQ
+  for <1059230@naver.com>;
+  Mon, 17 Feb 2020 07:22:21 -0000
+Received: from mail-hmail-pgwas13 ([10.194.50.125])
+        by mail-smail-vm30.hanmail.net (8.13.8/8.9.1) with SMTP id 01H7MD1o015590
+        for <1059230@naver.com>; Mon, 17 Feb 2020 16:22:13 +0900
+X-Hermes-Message-Id: o1HGMD88d2045268894
+Date: Mon, 17 Feb 2020 16:22:13 +0900 (KST)
+From: =?UTF-8?B?7Y6c64GX?= <penkkeut@daum.net>
+To: 1059230@naver.com
+Message-ID: <20200217162213.mHvyJKsIRN2EqMlfprkZ-Q@penkkeut.hanmail.net>
+Subject: =?UTF-8?B?7JWI64WV7ZWY7IS47JqUIOuwleyerOyEsSA=?=
+ =?UTF-8?B?6rOg6rCd64uYIO2OnOuBl+yeheuLiOuLpC4=?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-Mailer: Daum Mint Web 1.0
+X-Originating-IP: [211.201.112.244]
+X-HM-UT: Cethu+BdpRIfTL/UuJi0AfCw/25zSvBRrsAl+VWfRFg=
+Received: from mail-hammer-was7.s2.krane.9rum.cc ([10.197.10.40]) by hermes of mail-hmail-pgwas13 (10.194.50.125) with ESMTP id o1HGMD88d2045268894 for <1059230@naver.com>; Mon, 17 Feb 2020 16:22:13 +0900 (KST)
+
+PGh0bWw+CjxoZWFkPgogICAgPHN0eWxlPgogICAgICAgIHB7bWFyZ2luLXRvcDowO21hcmdpbi1i
+b3R0b206MH0KICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8dGFibGUgY2xhc3M9InR4
+Yy13cmFwcGVyIiBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCIgd2lk
+dGg9IjEwMCUiPjx0cj48dGQgY2xhc3M9InR4Yy13cmFwcGVyLXRkIj48ZGl2IGNsYXNzPSJ0eGMt
+Y29udGVudC13cmFwcGVyIiBzdHlsZT0iY29sb3I6IzExMTtmb250LWZhbWlseTpBcHBsZSBTRCBH
+b3RoaWMgTmVvLE1hbGd1biBHb3RoaWMsJ+unkeydgCDqs6DrlJUnLHNhbnMtc2VyaWY7Zm9udC1z
+aXplOjEwcHQ7bGluZS1oZWlnaHQ6MS41OyI+CiAgICA8ZGl2PjxhIHRhcmdldD0iX2JsYW5rIiBo
+cmVmPSJodHRwczovL3d3dy5kb29ydG9kb29yLmNvLmtyL3BhcmNlbC9wYV8wMDQuanNwIiBjbGFz
+cz0idHgtbGluayI+aHR0cHM6Ly93d3cuZG9vcnRvZG9vci5jby5rci9wYXJjZWwvcGFfMDA0Lmpz
+cDwvYT48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PjYyODY3NTk0NzAz
+MzwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+
+66eB7YGs64qUIOuMgO2VnO2GteyatCDshqHsnqXsobDtmowg7IKs7J207Yq47J6F64uI64ukLjwv
+ZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+7JyE
+IOyIq+yekOulvCDquLDsnoXtlZjsi5zrqbQg7YOd67Cw7KGw7ZqMIOqwgOuKpe2VqeuLiOuLpC48
+L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pu2D
+neuwsOuKlCDquIjsnbwgMTd+MTjsi5wg7Lac6rOgIOuQqeuLiOuLpC48L2Rpdj48dGFibGUgYm9y
+ZGVyPSIwIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIHdpZHRoPSIxMDAlIj48dGJv
+ZHk+PHRyPjx0ZD48ZGl2IHN0eWxlPSJjb2xvcjojMTExO2ZvbnQtZmFtaWx5OkFwcGxlIFNEIEdv
+dGhpYyBOZW8sTWFsZ3VuIEdvdGhpYywn66eR7J2AIOqzoOuUlScsc2Fucy1zZXJpZjtmb250LXNp
+emU6MTBwdDtsaW5lLWhlaWdodDoxLjU7Ij48dGFibGUgYm9yZGVyPSIwIiBjZWxsc3BhY2luZz0i
+MCIgY2VsbHBhZGRpbmc9IjAiIHdpZHRoPSIxMDAlIj48dGJvZHk+PHRyPjx0ZD48ZGl2IHN0eWxl
+PSJjb2xvcjojMTExO2ZvbnQtZmFtaWx5OkFwcGxlIFNEIEdvdGhpYyBOZW8sTWFsZ3VuIEdvdGhp
+Yywn66eR7J2AIOqzoOuUlScsc2Fucy1zZXJpZjtmb250LXNpemU6MTBwdDtsaW5lLWhlaWdodDox
+LjU7Ij48ZGl2IGlkPSJ0eGMtc2lnbmF0dXJlIj48cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48
+YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8
+cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9wPgo8cD48YnI+PC9w
+Pgo8cD48YnI+PC9wPgo8cD48aW1nIGlkPSJ0eF9lbnRyeV8xMDAxMCIgc3JjPSJodHRwczovL21h
+aWwxLmRhdW1jZG4ubmV0L21haWxfdWNjL3NpZ25hdHVyZS9wZW5ra2V1dCU0MGhhbm1haWwubmV0
+LzAvMTQ3ODc1NTQ2MTQ3NjIzLzEvMTAwLnBuZyIgaW5saW5laWQ9InVuZGVmaW5lZCI+PC9wPgo8
+cD48L3A+CjxwPuyDgeyDge2VmOuKlCDrqqjrk6Ag6rKD7J2EIOq3uOugpOuTnOumveuLiOuLpC4g
+6re466a87KCc7J6RIOyghOusuO2ajOyCrCAn7Y6c64GXJyDsnoXri4jri6QuPC9wPgo8cD48YnI+
+d3d3LnBlbmtrZXV0LmNvbTxicj5UOiAwMi02NzM3LTk5OTI8YnI+RjogMDItNjQ5OS0xNDkwPGJy
+PkU6IHBlbmtrZXV0QGRhdW0ubmV0PGJyPuyEnOyauOyLnCDslpHsspzqtawg7Iug7KCVNOuPmSA5
+MTYtMTQg7JiB7J2467mM65SpIDQwM+2YuDxicj4q6rWt66+87J2A7ZaJIDQ1NzAwMS0wMS00MDk3
+MTMg7JiI6riI7KO8OiDtmITsiJjtmIEo7Y6c64GXKTwvcD4KPHA+PC9wPgo8cD48YnI+PC9wPgo8
+cD48YnI+PC9wPjwvZGl2PjxwPjxicj48L3A+PC9kaXY+PC90ZD48L3RyPjwvdGJvZHk+PC90YWJs
+ZT4KCgo8cD48YnI+PC9wPjwvZGl2PjwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+CgoKPHA+PGJy
+PjwvcD48L2Rpdj48L3RkPjwvdHI+PC90YWJsZT4KPC9ib2R5Pgo8L2h0bWw+CjxpbWcgc3JjPSJo
+dHRwczovL2NvbmZpcm0ubWFpbC5kYXVtLm5ldC9jb25maXJtYXBpL3YxL3VzZXJzL3BlbmtrZXV0
+JTQwaGFubWFpbCUyRW5ldC9jbWFpbHMvMjAyMDAyMTcxNjIyMTMlMkVtSHZ5SktzSVJOMkVxTWxm
+cHJrWi1RJTQwcGVua2tldXQlMkVoYW5tYWlsJTJFbmV0L3JlY2lwaWVudHMvMTA1OTIzMCU0MG5h
+dmVyJTJFY29tIj4=

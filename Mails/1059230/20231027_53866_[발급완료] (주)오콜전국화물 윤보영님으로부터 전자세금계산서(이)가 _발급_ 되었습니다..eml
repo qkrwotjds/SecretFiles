@@ -1,0 +1,281 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1698390725;
+	cv=none; b=IVi1VBXjQZwqqnsiWnRlBjSkeNabwgypblcSHI43p/dsXjG3gjldianYkf2X
+	 qbGCntZYsE0itbJnHp24gAEYbrzgtNl+RCd7wJmLVFlRQBgNDLsT+lcxCCdB+8NoGzvhfy
+	 g7lVfXW5yLT1EXOgA/XiDySOjZVLWB0cWmUZ7OyNUlmKaXfqFqWUYHb+FzX5qO+QgeRAzj
+	 +4jFzAVrACdgxruRx652DL2ETKARpjcrhB0431CCMxpHnp0ZgDO8vXpDw99gAdOAsnJaxd
+	 0HiJtgPrTuT31QDxY9Byr+XY/UmxrwAKYp5HM8hd+VNAIIV1ITFBEuB2jKA3fhC/nwZvxo
+	 mw==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1698390725; c=relaxed/relaxed;
+	bh=5SCv1yJtGPiGblgEOPb5CoW8kyB7B+keYUXQT7IHa0Y=;
+	h=date:from:to:message-id:subject; b=KIigV29GGx7I+2ohOMJgvYmfKPOStYPvra
+	 sg0sxZtnEr2bAeLhspFUwruLPxfJrAwfYsF5308RmPf5srBaN1Aje08aDN5axX+THKSo3u
+	 pkuq6pY17J1IYNsmYqNXXW+zV8wTXcNrZNMc5poSUhDEVF8WmI/9WskDaaXMMT1EBTFyIv
+	 1fI7QCcX2NkudTEq+WISxHIof/6Zht8YmNbOW59nJPabit06BZo6rn7aCInGWZKBglQf/V
+	 ysPKbxI4KVNAtA1QMFZSu+pF5gUKmFHqX15ujTXCSyWahwUJuFlVtncQpNC7S3Ui64EBlp
+	 6vaQtz10h3p/bOMLD4buhIlnDRRQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of baro@barobill.co.kr designates 61.100.186.252 as permitted sender) smtp.mailfrom=baro@barobill.co.kr
+Return-Path: <baro@barobill.co.kr>
+Received-SPF: pass (mx.naver.com: domain of baro@barobill.co.kr designates 61.100.186.252 as permitted sender)
+  client-ip=61.100.186.252; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of baro@barobill.co.kr designates 61.100.186.252 as permitted sender) smtp.mailfrom=baro@barobill.co.kr
+X-Naver-ESV: wd+n+6J4p63qMBIYFHwdbXmmFquZKAkYkXm=
+X-Session-IP: 61.100.186.252
+Received: from mail.barobill.co.kr (mail.barobill.co.kr [61.100.186.252])
+  by crcvmail202.nm.naver.com with ESMTP id FMmR6Gq9T22zTO3ljM91gQ
+  for <1059230@naver.com>;
+  Fri, 27 Oct 2023 07:12:05 -0000
+Return-Path: <baro@barobill.co.kr>
+Received: from da7c09f47e6d ([14.63.175.94])
+        by mail.barobill.co.kr (SoftMail Merak Server 9.2.0 (2008-04-15)) with ASMTP id WRN84606
+        for <1059230@naver.com>; Fri, 27 Oct 2023 16:12:06 +0900
+Date: Fri, 27 Oct 2023 16:12:05 +0900 (KST)
+From: =?UTF-8?B?67CU66Gc67mM?= <baro@barobill.co.kr>
+To: 1059230@naver.com
+Message-ID: <1065725852.541281.1698390725486@da7c09f47e6d>
+Subject: =?UTF-8?B?W+uwnOq4ieyZhOujjF0gKOyjvCnsmKTsvZw=?=
+ =?UTF-8?B?7KCE6rWt7ZmU66y8IOycpOuztOyYgeuLmOycvOuhnOu2gA==?=
+ =?UTF-8?B?7YSwIOyghOyekOyEuOq4iOqzhOyCsOyEnCjsnbQp?=
+ =?UTF-8?B?6rCAICfrsJzquIknIOuQmOyXiOyKteuLiOuLpC4=?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_541279_221437172.1698390725466"
+
+------=_Part_541279_221437172.1698390725466
+Content-Type: multipart/related; 
+	boundary="----=_Part_541280_345029304.1698390725466"
+
+------=_Part_541280_345029304.1698390725466
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8" />
+    </head>
+    <body style=3D"font-family:'malgun gothic','dotum',sans-serif;">
+        <div style=3D"width:750px;margin:0 auto;">
+            <a href=3D"https://www.barobill.co.kr" target=3D"_blank"><img s=
+rc=3D"https://image.barobill.co.kr/v7/mail/logo.png" style=3D"width:400px;h=
+eight:30px;"/></a>
+        </div>
+        <div style=3D"width:730px;margin:0 auto;font-size:14px;line-height:=
+1.5;letter-spacing:-1px;box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);border: 1=
+0px solid #457BEA;border-top: none;"><div style=3D"padding:35px 0;font-size=
+:21px;color:#fff;text-align:center;background: url('https://image.barobill.=
+co.kr/v7/content/mail_header1.jpg') no-repeat bottom left, url('https://ima=
+ge.barobill.co.kr/v7/content/mail_header2.jpg') no-repeat bottom right;back=
+ground-color:#457BEA;">
+    <b>=EC=A0=84=EC=9E=90=EC=84=B8=EA=B8=88=EA=B3=84=EC=82=B0=EC=84=9C</b>(=
+=EC=9D=B4)=EA=B0=80 <b>=EB=B0=9C=EA=B8=89</b>=EB=90=98=EC=97=88=EC=8A=B5=EB=
+=8B=88=EB=8B=A4.
+</div>
+<div style=3D"padding:50px 30px;margin:0;">
+    <div style=3D"text-align:left;">
+        <h2 style=3D"margin:0 0 20px 0;font-size:19px;"><b>=EC=B2=B4=ED=97=
+=98 =EC=A3=BC=EC=8B=9D=ED=9A=8C=EC=82=AC =EB=B0=95=EC=9E=AC=EC=84=B1=EB=8B=
+=98,</b></h2>
+        <p style=3D"margin-bottom:30px;font-size:15px;line-height:1.7;">(=
+=EC=A3=BC)=EC=98=A4=EC=BD=9C=EC=A0=84=EA=B5=AD=ED=99=94=EB=AC=BC =EC=9C=A4=
+=EB=B3=B4=EC=98=81=EB=8B=98=EC=9C=BC=EB=A1=9C=EB=B6=80=ED=84=B0 =EC=A0=84=
+=EC=9E=90=EC=84=B8=EA=B8=88=EA=B3=84=EC=82=B0=EC=84=9C(=EC=9D=B4)=EA=B0=80 =
+<b style=3D"color:#fc185b;">=EB=B0=9C=EA=B8=89</b> =EB=90=98=EC=97=88=EC=8A=
+=B5=EB=8B=88=EB=8B=A4.</p>
+    </div>
+    <div style=3D"float:left;width:380px;border-bottom:2px solid #B7BAC2;">
+        <table style=3D"table-layout:fixed;border-collapse:collapse;width:1=
+00%;">
+        <colgroup>
+            <col style=3D"width:85px;"/>
+            <col style=3D"width:70px;"/>
+            <col />
+        </colgroup>
+            <tr style=3D"border-top:2px solid #B7BAC2;">
+                <th style=3D"padding:7px 10px;border-right:1px solid #F1F2F=
+2;background-color: #F3F8FF;">=EC=9E=91=EC=84=B1=EC=9D=BC=EC=9E=90</th>
+                <td style=3D"padding:7px 10px;border-top:1px solid #ebebeb;=
+" colspan=3D"2">2023-10-27</td>
+            </tr>
+            <tr style=3D"border-top: 2px solid #B7BAC2;">
+                <th style=3D"padding:7px 10px;border-bottom:1px solid #ebeb=
+eb;border-right:1px solid #ebebeb;background-color: #F3F8FF;" rowspan=3D"5"=
+>=EC=9C=84=ED=83=81=EC=9E=90</th>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 5px;border-bottom:1px s=
+olid #ebebeb;border-right:2px solid #ebebeb;border-top: 2px solid #B7BAC2;"=
+>=EC=83=81=ED=98=B8</th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-top: 2px solid #B7BAC2;">=EA=B0=9C=EC=9D=B8=EC=9A=A9=
+=EB=8B=AC</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EB=8B=B4=EB=8B=B9=EC=9E=90<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">=EC=9C=A4=ED=9D=AC=ED=98=84</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EC=97=B0=EB=9D=BD=EC=B2=98<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">010-3297-3615</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-right:1px s=
+olid #ebebeb;">=EC=9D=B4=EB=A9=94=EC=9D=BC</th>
+                <td style=3D"width:100%;padding:7px 10px;">5035339859@5tax.=
+co.kr</td>
+            </tr>
+            <tr style=3D"border-top: 2px solid #B7BAC2;">
+                <th style=3D"padding:7px 10px;border-right:1px solid #ebebe=
+b;background-color: #F3F8FF;" rowspan=3D"5">=EC=88=98=ED=83=81=EC=9E=90</th=
+>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 5px;border-bottom:1px s=
+olid #ebebeb;border-right:1px solid #ebebeb;border-top: 2px solid #B7BAC2;"=
+>=EC=83=81=ED=98=B8</th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-top: 2px solid #B7BAC2;">(=EC=A3=BC)=EC=98=A4=EC=BD=9C=
+=EC=A0=84=EA=B5=AD=ED=99=94=EB=AC=BC</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EB=8B=B4=EB=8B=B9=EC=9E=90<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">=EC=9C=A4=EB=B3=B4=EC=98=81</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EC=97=B0=EB=9D=BD=EC=B2=98<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">1577-0005</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-right:1px s=
+olid #ebebeb;">=EC=9D=B4=EB=A9=94=EC=9D=BC</th>
+                <td style=3D"width:100%;padding:7px 10px;">tax@5tax.co.kr</=
+td>
+            </tr>
+            <tr style=3D"border-top: 2px solid #B7BAC2;">
+                <th style=3D"padding:7px 10px;border-bottom:1px solid #ebeb=
+eb;border-right:1px solid #ebebeb;background-color: #F3F8FF;" rowspan=3D"5"=
+>=EA=B3=B5=EA=B8=89=EB=B0=9B=EB=8A=94=EC=9E=90</th>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 5px;border-bottom:1px s=
+olid #ebebeb;border-right:2px solid #ebebeb;border-top: 2px solid #B7BAC2;"=
+>=EC=83=81=ED=98=B8</th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-top: 2px solid #B7BAC2;">=EC=B2=B4=ED=97=98 =EC=A3=BC=
+=EC=8B=9D=ED=9A=8C=EC=82=AC</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EB=8B=B4=EB=8B=B9=EC=9E=90<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">=EB=B0=95=EC=9E=AC=EC=84=B1</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EC=97=B0=EB=9D=BD=EC=B2=98<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">010-9019-2253</td>
+            </tr>
+            <tr>
+                <th style=3D"width:50px;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;border-right:1px solid #ebebeb;">=EC=9D=B4=EB=A9=94=EC=9D=BC<=
+/th>
+                <td style=3D"width:100%;padding:7px 10px;border-bottom:1px =
+solid #ebebeb;">1059230@naver.com</td>
+            </tr>
+            <tr style=3D"border-top:2px solid #B7BAC2;">
+                <th style=3D"padding:7px 10px;border-bottom:1px solid #ebeb=
+eb;border-right:1px solid #F1F2F2;background-color: #F3F8FF;">=EC=A1=B0=ED=
+=9A=8C=EC=BD=94=EB=93=9C</th>
+                <td style=3D"padding:7px 10px;border-bottom:1px solid #ebeb=
+eb;" colspan=3D"2">HK7P003N6502CZ1N</td>
+            </tr>
+        </table>
+    </div>
+    <div style=3D"float:right;width: 275px;height: 365px;">
+        <a href=3D"https://ad.knetbiz.com/ads/BAROBILL_DOCUMENT_EMAIL_A/lin=
+k" target=3D"_blank" style=3D"display:inline-block;width:275px;height:365px=
+;">
+            <img src=3D"https://ad.knetbiz.com/ads/BAROBILL_DOCUMENT_EMAIL_=
+A/image" alt=3D"=EB=B0=94=EB=A1=9C=EB=B9=8C =EB=A9=94=EC=9D=BC=EA=B4=91=EA=
+=B3=A01" style=3D"width:100%;height:100%;">
+        </a>
+    </div>
+    <div style=3D"clear:both;"></div>
+    <br/>
+    <br/>
+    <div style=3D"text-align:center;">
+        <a href=3D"https://www.barobill.co.kr/_email/?MD=3DSKN2023102716120=
+00001200DFC4C5060DAA3D1768BA6741F4FE5D5D35AD6B55" target=3D"_blank" style=
+=3D"display:inline-block;padding:12px 30px;margin-bottom:25px;border-radius=
+:3px;background-color:#3366e2;color:#fff;text-decoration:none;font-size:15p=
+x;font-weight:bold;box-shadow:5px 5px 10px 0 rgba(0,0,0,0.2);">=EC=84=B8=EA=
+=B8=88=EA=B3=84=EC=82=B0=EC=84=9C =EB=B3=B4=EA=B8=B0</a>
+        <br>
+        <p style=3D"display:inline-block;padding:5px 10px;margin:0 auto;bor=
+der-radius:8px;background-color:#f2f4f9;font-size:12px;color:#9fa9b2;">
+            =EB=A7=8C=EC=95=BD =EB=B2=84=ED=8A=BC =EC=9D=B4=EB=AF=B8=EC=A7=
+=80=EA=B0=80 =EB=B3=B4=EC=9D=B4=EC=A7=80 =EC=95=8A=EA=B1=B0=EB=82=98, =EB=
+=B2=84=ED=8A=BC =ED=81=B4=EB=A6=AD=EC=9D=B4 =EB=90=98=EC=A7=80 =EC=95=8A=EC=
+=9D=84 =EA=B2=BD=EC=9A=B0 <a href=3D"https://www.barobill.co.kr/_email/?MD=
+=3DSKN202310271612000001200DFC4C5060DAA3D1768BA6741F4FE5D5D35AD6B55" target=
+=3D"_blank" style=3D"color:#00F;"><b><u>=EC=97=AC=EA=B8=B0</u></b></a>=EB=
+=A5=BC =ED=81=B4=EB=A6=AD=ED=95=98=EC=84=B8=EC=9A=94.
+        </p>
+    </div>
+</div>        <div style=3D"background-color:#ffffff;padding: 0 30px;">
+            <div style=3D"width:100%;border-top: 2px solid #A8A8A8;"></div>
+            <div style=3D"float:left;padding:30px 0 30px 0;font-size:12px;c=
+olor:#6E6E6E;">
+                =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=
+=A0=84=EC=9A=A9=EC=9C=BC=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=
+=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.<br/>
+                =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=EC=9D=80 =EB=B0=94=EB=
+=A1=9C=EB=B9=8C =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0(1544-8385)=EB=A1=9C =
+=EB=AC=B8=EC=9D=98=ED=95=B4=EC=A3=BC=EC=8B=9C=EA=B8=B8 =EB=B0=94=EB=9E=8D=
+=EB=8B=88=EB=8B=A4.<br/>
+                <br/>
+                <span style=3D"color:#c5c5c5;">=E3=88=9C=EC=BC=80=EC=9D=B4=
+=EB=84=B7 | =EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC:=EC=9D=B4=EC=B2=9C=ED=98=
+=B8 | 416-81-38772 | =ED=86=B5=EC=8B=A0=ED=8C=90=EB=A7=A4=EB=B2=88=ED=98=B8=
+: =EC=A0=9C2010-75=ED=98=B8<br/>
+                =EA=B4=91=EC=A3=BC=EA=B4=91=EC=97=AD=EC=8B=9C =EB=B6=81=EA=
+=B5=AC =EC=B2=A8=EB=8B=A8=EA=B3=BC=EA=B8=B0=EB=A1=9C208=EB=B2=88=EA=B8=B8 4=
+3-22, B1901~1903 (=EC=98=A4=EB=A3=A1=EB=8F=99,=EC=99=80=EC=9D=B4=EC=96=B4=
+=EC=8A=A4=ED=8C=8C=ED=81=AC(=EC=A7=80=EC=8B=9D=EC=82=B0=EC=97=85=EC=84=BC=
+=ED=84=B0))<br/>
+                =EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4=EA=B4=80=EB=A6=AC=EC=
+=B1=85=EC=9E=84=EC=9E=90: =EB=B0=B1=EC=A0=95=ED=9B=88 =EC=9D=B4=EC=82=AC(ba=
+robill@knetbiz.com)<br/></span>
+                <span style=3D"color:#c5c5c5;">Copyright=E2=93=922009 BAROB=
+ILL. All rights reserved.</span>
+            </div>
+            <div style=3D"float:right;padding:70px 0 0 0;">
+                <img src=3D"https://image.barobill.co.kr/v7/mail/csnumber.g=
+if" style=3D"width:150px;height:45px;"/>
+            </div>
+            <div style=3D"clear:both;"></div>
+        </div>
+    </div>
+</body>
+</html>
+------=_Part_541280_345029304.1698390725466--
+
+------=_Part_541279_221437172.1698390725466--

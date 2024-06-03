@@ -1,0 +1,296 @@
+Received: (qmail 26889 invoked from network); 6 Jul 2016 09:45:08 -0000
+Received: from 10.114.49.220 (HELO crcvmail42-2.nm.naver.com) (10.114.49.220)
+  by cmda39-2.nm.naver.com with SMTP; 6 Jul 2016 09:45:08 -0000
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 0_1_1_1059230_naver.com@topas.net designates 211.210.89.64 as permitted sender) smtp.mailfrom=0_1_1_1059230_naver.com@topas.net
+Received: from topas.net (pssums.topas.net [211.210.89.64])
+  by crcvmail42-2.nm.naver.com with ESMTP id jJqJ2frpQzieWfBTIq-+eg
+  for <1059230@naver.com>;
+  Wed, 06 Jul 2016 09:45:08 -0000
+MIME-Version: 1.0
+Date: Wed, 6 Jul 2016 18:45:04 +0900
+Message-ID: <IWNID_0_1_3_27118803_0_20160706184504>
+Return-Path: <IWNID_0_1_3_27118803_0_20160706184504@topas.net>
+Content-Type: text/html; 
+	charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+Subject: =?UTF-8?B?6rOg6rCd64uY7J2YIO2YhOq4iOyYgeyImOymneyeheuLiOuLpC4=?=
+From: =?UTF-8?B?KOyjvCnrqqjrkZDtiKzslrTrhKTtirjsm4ztgaw867Cc7Iug7KCE7JqpPg==?=<umsadmin@topas.net>
+To: <1059230@naver.com>
+Reply-To: =?UTF-8?B?bGVlc2FldGJ5ZW9sMDkyOQ==?=<leesaetbyeol0929@gmail.com>
+X-Mailer: IMailer V2
+X-Email: <1059230@naver.com>
+X-Naver-ESV: +l+YpB3G1H+YbXFCbHmRKAvdFxg/jJ+Y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>토파스여행정보</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" />
+<meta http-equiv="p3p"
+	content='CP="CAO DSP AND SO " policyref="/w3c/p3p.xml"' />
+<link rel="stylesheet" type="text/css"
+	href="http://pssums.topas.net/UMS/css/layout.css" />
+	
+<script language="javascript" type="text/javascript"
+	src="http://pssums.topas.net/UMS/js/jquery-1.8.3.min.js"></script>
+<script language="javascript" type="text/javascript"
+	src="http://pssums.topas.net/UMS/js/calendar.js"></script>
+<script language="javascript" type="text/javascript"
+	src="http://pssums.topas.net/UMS/js/common.js"></script>
+<script language="javascript" type="text/javascript"
+	src="http://pssums.topas.net/UMS/js/securlty.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+		var initBody;
+		var hashvalue = window.location.hash;
+		
+		function beforePrint(){
+			initBody = document.body.innerHTML;
+			document.body.innerHTML = printarea.innerHTML;
+		}
+		function afterPrint(){
+			document.body.innerHTML = initBody;
+		}		
+		function printPage(){
+			printFireFoxPage();
+		}
+		
+		function setPrintPage(mqMsgNo,datSqno,documentType,svcSndSqno,userId,officeId){
+			var responseText = getHttprequest("docViewerAction.jsp?cmd=view&mqMsgNo="+mqMsgNo+"&datSqno="+datSqno+"&documentType="+documentType
+											 +"&svcSndSqno="+svcSndSqno+"&userId="+userId+"&officeId="+officeId);
+			responseText = responseText.replace(/^\s+|\s+$/g,'');
+			if(responseText=="1"){				
+				window.location.href ="docViewerAction.jsp?cmd=send&mqMsgNo="+mqMsgNo+"&datSqno="+datSqno+"&documentType="+documentType
+				 					+"&svcSndSqno="+svcSndSqno+"&userId="+userId+"&officeId="+officeId;
+				
+			}else{
+				alert("프린트사용자설정으로 지정프린트설정을 해주시기 바랍니다.");
+				return;
+			}
+			
+		}
+				
+		function ShowTabex(val){
+		  for (var i=0; i<2; i++) {
+		    var tb = document.getElementById('tab_' + i);
+		    if (i != val) tb.style.display = "none";
+		    else tb.style.display = "block";
+		  }
+		}
+		
+		
+		function printFireFoxPage() {
+			var frm = document.form2;
+			frm.action = "http://pssums.topas.net/UMS/doc/docPrint.jsp";
+			frm.target = "about:blank";
+			var sStatus = "width=770, height=760, top=0, left=0, scrollbars=1, resizable=1, toolbar=0, menubar= 0";
+		//	window.open(sUrl, sTarget, sStatus);
+		frm.submit();
+		}
+		function noNTCSubmit(){
+			var frm = document.form2;
+			frm.noNTC.value='on';
+			frm.submit();
+		}
+-->
+</script>
+</head>
+<body  oncontextmenu="return false"  topmargin=0 leftmargin=0 >
+	
+	
+	<!--서비스가 sms가 아닌 경우경우 -->
+
+	<div align="center">
+		<table border="0" cellspacing="0" cellpadding="0" width="700px">
+			<tbody>
+				<tr>
+					<td width="100%" style="text-align:right;" align="right">
+
+						 
+
+
+							
+							<a href="http://pssums.topas.net/UMS/doc/docPrint.jsp?jspFileName=docCapInfo.jsp?docMsgNo=201607064442390201&mqMsgNo=2016070644423902&datSqno=1&fadReqSqno=1&webSvcSqno=1&officeId=SELKP3300&userId=518824&documentType=CAP&svcSndSqno=2016070691490117&svcDscd=E&send&language=ko&rmkTb=B" target="popUp_viewDoc">
+								<img src="http://pssums.topas.net/img/save/doc/itr/printbutton.gif" border=0 style="padding-right:50px;" /></a>
+							
+							
+							
+						
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div id="tab_0" style="width: 700px; display: block;">
+<!-- 			<div style="width: 650px;"> -->
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>현금 영수증 문서 </title>
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1"/>
+<link rel="stylesheet" type="text/css" href="http://pssums.topas.net/UMS/css/cap.css" />
+<script type="text/javascript" src="http://pssums.topas.net/UMS/js/common.js"></script>
+<script language="javascript" type="text/javascript" src="http://pssums.topas.net/UMS/js/securlty.js"></script>
+</head>
+<body  oncontextmenu="return false" >
+<center>
+<div id="printarea">
+<br/>
+<table width='650' border='0' cellpadding='0' cellspacing='0'>
+	<tr>
+		<td><img src='http://pssums.topas.net/img/save/doc/img_01_01.gif' width='650' height='140'></td>
+	</tr>
+	<tr>
+		<td>
+		<table width='650' border='0' cellspacing='0' cellpadding='0'>
+			<tr>
+				<td width='30' align='left'><img src='http://pssums.topas.net/img/save/doc/left_01.gif' width='9' height='220'></td>
+				<td width='630'>
+				<table width='630' border='1' cellpadding='0' cellspacing='1' bordercolor='#CCCCCC' style="table-layout: fixed;">
+					<tr><!--  거래용도  -->
+						<td width='171' height='30' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/001.gif' ></td>							
+						<td width='120' style="padding-left:4px;" align='left' height='30' >개인(소득공제)</td>
+							<!--  발급일자  -->
+						<td width='171' height='30' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/002.gif'></td>
+						<td width='*' style="padding-left:4px;" align='left' height='30'>2016/07/06 18:44:56</td>
+					</tr>
+					<tr><!--  카드번호  left -->
+						<td height='30' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/004.gif'></td>
+						<td align='left' style="padding-left:4px;" height='30'>01094133741</td>
+							<!--  승인번호  -->
+						<td height='14' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/005.gif'></td>
+						<td height='14' style="padding-left:4px;" align='left'>148190963</td>
+					</tr>
+					<tr><!--  승인금액  -->
+						<td height='14' bgcolor='#d9d9d9'><img src='http://pssums.topas.net/img/save/doc/003.gif'></td>
+						<td height='14' style="padding-left:4px;" align='left'>KRW796800</td>
+						<!-- 티켓번호/tikcet no   -->
+						<td height='14' bgcolor='#d9d9d9'><img src='http://pssums.topas.net/img/save/doc/011.gif'></td>
+						<td height='14'  style="padding-left:4px;word-break:break-all;" align="left">7182276986325-28</td>
+					</tr>
+					
+					<tr><!--  예약번호  -->
+						<td height='15' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/010.gif'></td>
+						<td height='15' style="padding-left:4px;" align='left'>9413-3741</td>
+						 <!--  항공사  -->
+						<td height='14' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/006.gif'></td>
+						<td height='14' style="padding-left:4px;" align='left'>LJ</td>
+					</tr>
+					<tr><!--  여정  -->
+						<td width='171' align='left' height='14' bgcolor='#F0F0F0'><img src='http://pssums.topas.net/img/save/doc/008.gif'></td>
+						
+						<td  style="padding-left:4px;" align='left' height='14' colspan='3'>ICN/FUK/ICN</td>
+						
+					</tr>
+				</table>
+				</td>
+				<td width='22' align='right'><img src='http://pssums.topas.net/img/save/doc/right_01.gif' width='7' height='220'></td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<table width='650' border='0' cellspacing='0' cellpadding='0'>
+			<tr>
+				<td width='20' rowspan='4' align='left'><img src='http://pssums.topas.net/img/save/doc/left_01.gif' width='9' height='100'></td>
+				<td colspan='2' align='center'>&nbsp;</td>
+				<td width='26' rowspan='4' align='right'><img src='http://pssums.topas.net/img/save/doc/right_01.gif' width='7' height='100'></td>
+			</tr>
+			<tr>
+				<td width='250' valign='top'align='center'><span class='style1' >[(주)모두투어네트워크]</span>
+			</tr>
+			<tr>
+				<td width='250' valign='middle' align='center'><img src='http://pssums.topas.net/img/save/doc/blink.gif' width='8' height='8'>TEL :1688-0056
+			</tr>	
+			<tr>
+				<td width='250' valign='bottom' align='center'><img src='http://pssums.topas.net/img/save/doc/blink.gif' width='8' height='8'>FAX :02-2021-7830</td>
+				<td align='left'><img src='http://pssums.topas.net/img/save/doc/bul_01.gif' width='9' height='9' > <strong>알림/Notice</strong> : 국세청문의 http://현금영수증.KR &nbsp; Y</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+	
+		<td><img src='http://pssums.topas.net/img/save/doc/img_02.gif' width='650' height='26'></td>
+	</tr>
+</table>
+</div>
+</center>
+
+<div style="display:none;"><img src="http://pssums.topas.net:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=3&dmidx=27118803&emidx=0&duration=0&site=1" border="0" width="0" height="0"></div>
+
+<iframe frameborder="0" height="0" width="0" src="http://pssums.topas.net:8888/trace/openChecker.jsp?mailidx=0&seqidx=1&service=3&dmidx=27118803&emidx=0&duration=1&dtime=1"></iframe>
+
+</body>
+</html>
+
+
+<!-- 			</div> -->
+		</div>
+
+
+	</div>
+	
+</body>
+</html>
+
+
+
+

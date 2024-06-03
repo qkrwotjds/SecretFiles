@@ -1,0 +1,95 @@
+Received-SPF: pass (mx.naver.com: domain of man313@hanmail.net designates 211.231.106.163 as permitted sender)
+  client-ip=211.231.106.163; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of man313@hanmail.net designates 211.231.106.163 as permitted sender) smtp.mailfrom=man313@hanmail.net
+X-Naver-ESV: +X+YpB3G1H+YbXFCbHmRKxMwFxtwjJ+Y
+X-Session-IP: 211.231.106.163
+Received: from mail-smail-vm88.hanmail.net (mail-smail-vm88.daum.net [211.231.106.163])
+  by crcvmail32.nm.naver.com with ESMTP id aNenrow8SIeEWhcOIoD6QA
+  for <1059230@naver.com>;
+  Thu, 03 May 2018 16:15:41 -0000
+Received: from wwl2008.hanmail.net ([219.249.231.58])
+        by mail-smail-vm88.hanmail.net (8.13.8/8.9.1) with ESMTP id w43GFcnj032077;
+        Fri, 4 May 2018 01:15:38 +0900
+Received: (from hanadmin@localhost)
+        by wwl2008.hanmail.net (8.12.9/8.9.1) id w43GFaCI007947
+        for <1059230@naver.com>; Fri, 4 May 2018 01:15:36 +0900
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+X-Originating-IP: [124.111.35.63]
+From: "Gook" <man313@hanmail.net>
+Sender: man313@daum.net
+Organization: 
+To: <1059230@naver.com>
+Subject: =?utf-8?B?7Jio65287J24IOq0keqzoOyngOybkCDtlanri4jri6Qu?=
+X-Mailer: Daum Web Mailer 1.2
+Date: Fri, 04 May 2018 01:15:35 +0900 (KST)
+Message-Id: <20180504011535.HM.Z000000000FxSDw@man313.wwl2008.hanmail.net>
+Errors-To: <man313@daum.net>
+X-ATTBIG-SIZE: 1
+X-AttachBig: 9D+iVD1cOeFhue77fNEWhQ==, 
+	19635753:bNgOCnQjuKvkfzQJ3JnKrw==:41472:20180603011534
+X-BIGSERVER: mail-bigmail-file19.mail.daum.net
+X-HM-UT: 7eOtayG9t4eNVaqq3K9wks3EQmqA+WjF
+X-HM-FIGURE: 7eOtayG9t4dfFqPwUMC+w3Ro2NFktTV4
+MIME-Version: 1.0
+X-Hanmail-Attr: fc=1
+
+PGh0bWw+PGhlYWQ+PHN0eWxlPiBwIHttYXJnaW4tdG9wOjBweDttYXJnaW4tYm90dG9tOjBw
+eDt9IDwvc3R5bGU+PC9oZWFkPgo8Ym9keT48ZGl2IHN0eWxlPSJmb250LXNpemU6MTJweDsg
+Zm9udC1mYW1pbHk66rW066a8LOq1tOumvOyytCxHdWxpbSxCYWVrbXVrIERvdHVtLFVuZG90
+dW0sQXBwbGUgR290aGljLExhdGluIGZvbnQsc2Fucy1zZXJpZjsiPgo8dGFibGUgYm9yZGVy
+PTAgd2lkdGg9MTAwJSBzdHlsZT0nbWFyZ2luIDAgYXV0bztiYWNrZ3JvdW5kOiA7JyBjZWxs
+cGFkZGluZz0wIGNlbGxzcGFjaW5nPTA+Cgk8dHI+Cgk8dGQgdmFsaWduPXRvcCBzdHlsZT0n
+cGFkZGluZzo4cHQ7Jz4K7J2066Cl7IScJm5ic3A77LKo67aA7ZWp64uI64ukLjwvdGQ+PC90
+cj4KPC90YWJsZT4KPC9kaXY+PC9ib2R5PjwvaHRtbD4KCgo8IS0tIF9fSGFubWFpbC1zaWct
+U3RhcnRfXyAtLT4KCjwhLS0gX19IYW5tYWlsLXNpZy1FbmRfXyAtLT4KCiA8IS0tIE5FVyDr
+jIDsmqnrn4kg7LKo67aAIO2MjOydvCBTdGFydCAtLT4KPHRhYmxlIHdpZHRoPSIxMDAlIiBj
+ZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiPgo8dGJvZHk+Cjx0cj4KPHRkIHN0eWxl
+PSJwYWRkaW5nOjE2cHggMCAxMHB4IDA7Ij4KPHRhYmxlIHdpZHRoPSIxMDAlIiBjZWxsc3Bh
+Y2luZz0iMCIgY2VsbHBhZGRpbmc9IjAiIGJvcmRlcj0iMCI+Cjx0Ym9keT4KPHRyIGJnY29s
+b3I9IiNmOGY4ZjgiPgo8dGQgaGVpZ2h0PSIzMSIgc3R5bGU9InBhZGRpbmc6MXB4IDAgMCAx
+N3B4O2ZvbnQtc2l6ZToxMnB4O2NvbG9yOiMzMzM7dGV4dC1hbGlnbjpsZWZ0O2xldHRlci1z
+cGFjaW5nOi0xcHg7Ij4KPHN0cm9uZyBzdHlsZT0iZm9udC1zaXplOjEycHg7Y29sb3I6IzMz
+MztsZXR0ZXItc3BhY2luZzotMXB4OyI+64yA7Jqp65+JIOyyqOu2gO2MjOydvDwvc3Ryb25n
+Pgo8c3BhbiBzdHlsZT0ibGV0dGVyLXNwYWNpbmc6MDsiPjxzdHJvbmcgc3R5bGU9InBhZGRp
+bmctbGVmdDozcHg7Y29sb3I6IzUzNmZlNTtmb250LXdlaWdodDpub3JtYWw7Ij4x6rCcPC9z
+dHJvbmc+KDQwS0IpPC9zcGFuPgo8c3Ryb25nIHN0eWxlPSJwYWRkaW5nLWxlZnQ6N3B4O2Zv
+bnQtc2l6ZToxMXB4O2ZvbnQtZmFtaWx5OkRvdHVtLEFwcGxlR290aGljO2xldHRlci1zcGFj
+aW5nOjBweDtjb2xvcjojZmYyNTBjO2ZvbnQtd2VpZ2h0Om5vcm1hbDsiPjxzcGFuIHN0eWxl
+PSJjb2xvcjojOTk5O2xldHRlci1zcGFjaW5nOi0xcHg7Ij7ri6TsmrTroZzrk5zquLDqsIQg
+Ojwvc3Bhbj4gfiAyMDE4LjA2LjAzIDAxOjE1PC9zdHJvbmc+Jm5ic3A7CjxzcGFuIHN0eWxl
+PSJmb250LXNpemU6MTFweDtmb250LWZhbWlseTpEb3R1bSwgQXBwbGVHb3RoaWM7bGV0dGVy
+LXNwYWNpbmc6LTFweDtjb2xvcjojODg4OyI+KDxzdHJvbmcgc3R5bGU9ImNvbG9yOiNmZjI1
+MGM7Zm9udC13ZWlnaHQ6bm9ybWFsO2xldHRlci1zcGFjaW5nOjA7Ij4zMDwvc3Ryb25nPuyd
+vOqwhOuztOq0gCwgPHN0cm9uZyBzdHlsZT0iY29sb3I6I2ZmMjUwYztmb250LXdlaWdodDpu
+b3JtYWw7bGV0dGVyLXNwYWNpbmc6MDsiPjEwMDwvc3Ryb25nPu2ajCDri6TsmrTroZzrk5wg
+6rCA64qlKTwvc3Bhbj4KPC90ZD4KPC90cj4KPHRyPgo8dGQgc3R5bGU9InBhZGRpbmc6N3B4
+IDA7Ij4KPHRhYmxlIHdpZHRoPSIxMDAlIiBjZWxsc3BhY2luZz0iMCIgY2VsbHBhZGRpbmc9
+IjAiIGJvcmRlcj0iMCI+Cjx0Ym9keT4KPHRyPgo8dGQgd2lkdGg9IjE1IiBoZWlnaHQ9IjE2
+IiB2YWxpZ249InRvcCIgc3R5bGU9InBhZGRpbmc6M3B4IDBweCAxcHggMThweDsiPgo8aW1n
+IHNyYz0iaHR0cDovL21pbWcuZGF1bS1pbWcubmV0LzEwbWFpbC9pY29fYXR0YWNoX2RvY19o
+d3AuZ2lmIiB3aWR0aD0iMTUiIGhlaWdodD0iMTYiIGJvcmRlcj0iMCIgYWx0PSIiPgo8L3Rk
+Pgo8dGQgc3R5bGU9InBhZGRpbmc6M3B4IDAgNHB4IDZweDtmb250LXNpemU6MTJweDtjb2xv
+cjojMzMzO3RleHQtYWxpZ246bGVmdDtsaW5lLWhlaWdodDoxMzAlOyI+CjxhIHRhcmdldD0i
+X2JsYW5rIiBzdHlsZT0iZm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6RG90dW0sIEFwcGxl
+R290aGljO2NvbG9yOiMzMzM7dGV4dC1kZWNvcmF0aW9uOm5vbmU7IiBocmVmPSJodHRwOi8v
+ZG93bmxvYWQuYmlnbWFpbC5kYXVtLm5ldC9NYWlsLWJpbi9iaWdmaWxlX2Rvd24/dWlkPTlB
+VHJKUG1acnBjSzFhUTFXclh0WVQ1dzk2dnhQOWJ5IiB0eXBlPSJkYXVtIj4KPHN0cm9uZyBz
+dHlsZT0iZm9udC13ZWlnaHQ6Ym9sZDtjb2xvcjojNTU1O2xpbmUtaGVpZ2h0OjE4cHg7d29y
+ZC1icmVhazpicmVhay1hbGw7Ij7snbTsg4HtmLgtMS0xLmh3cDwvc3Ryb25nPgo8L2E+Cjwh
+LS0vdGVudGgvMTAxLzIwMTgwNTA0MDEvMTkxNTM0MDU4MTAwMDU5ODBiMDAtLT48IS0tZG93
+bmxvYWQuYmlnbWFpbC5kYXVtLm5ldC0tPgo8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjVw
+eDtmb250LXNpemU6MTFweDtmb250LWZhbWlseTpUYWhvbWEsIEFwcGxlR290aGljO2NvbG9y
+OiM5OTk7Ij40MEtCPC9zcGFuPgo8c3BhbiBzdHlsZT0icGFkZGluZy1sZWZ0OjIwcHg7dGV4
+dC1hbGlnbjpsZWZ0OyI+CjxhIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iZm9udC1zaXplOjEx
+cHg7Zm9udC1mYW1pbHk6RG90dW0sIEFwcGxlR290aGljO2NvbG9yOiM2NjY7dGV4dC1kZWNv
+cmF0aW9uOm5vbmU7bGV0dGVyLXNwYWNpbmc6LTFweDsiIGhyZWY9Imh0dHA6Ly9kb3dubG9h
+ZC5iaWdtYWlsLmRhdW0ubmV0L01haWwtYmluL2JpZ2ZpbGVfZG93bj91aWQ9OUFUckpQbVpy
+cGNLMWFRMVdyWHRZVDV3OTZ2eFA5YnkiPlBD7KCA7J6lPC9hPgo8L3NwYW4+CjwvdGQ+Cjwv
+dHI+CjwvdGJvZHk+CjwvdGFibGU+CjwvdGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+Cjwv
+dGQ+CjwvdHI+CjwvdGJvZHk+CjwvdGFibGU+CjwhLS0gLy8gTkVXIOuMgOyaqeufiSDssqjr
+toAg7YyM7J28IEVuZCAtLT4KPGltZyBzcmM9Imh0dHA6Ly93d2wyMDA4Lmhhbm1haWwubmV0
+OjQyODAvQGZyb209bWFuMzEzJnJjcHQ9MTA1OTIzMCU0MG5hdmVyJTJFY29tJm1zZ2lkPSUz
+QzIwMTgwNTA0MDExNTM1JTJFSE0lMkVaMDAwMDAwMDAwRnhTRHclNDBtYW4zMTMlMkV3d2wy
+MDA4JTJFaGFubWFpbCUyRW5ldCUzRSI+Cg==

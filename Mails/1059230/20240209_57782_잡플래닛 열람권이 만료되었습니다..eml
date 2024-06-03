@@ -1,0 +1,410 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1707476458;
+	cv=none; b=Jp4mX2j7innK35vC87PZptO1mhyq/AtzDN5ui0NxhV63P7rzBCmiOoMsBKTV
+	 pqQ/cB4z+v8I4RZ9MrPimIXtTkT7pzYTnagX8d3JQ3WqLeKuYQVWu3iszLSTcJsn1W5SDC
+	 aWhSu6DYUMKd5m0tAMaPx5yPf9KEMHAc9LDi4qIpqNvHU6LrzN3Cb8zO+ZAqY1ey8XGyqs
+	 O4cIKecyz4/UhJRpzguT1Z12KUupHEoQHGEeT7T4yBWxA1+XCp7S9Kwl+qQXL9LTeeS2AD
+	 JqdLHU8PwbmwBpwtIuhPkVaQ252pbxHEXrbpAUAPh4UAIojL56RRwG5XeJ0qPo29HQa7gG
+	 lg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1707476458; c=relaxed/relaxed;
+	bh=r6sPCMR4HcFuSyGiNaX1rg8yd5PfepWQY96+Zv4rBVs=;
+	h=dkim-signature:date:from:message-id:subject:to; b=iBoDHIE5hU9yM+MD8ls
+	 l0aks7wS67v44B3axnqKntNxIJJE2genMa3qtI+6QDxp9jho8UFQCK4LlIupPZQVZpXI31
+	 KHfhVQGH04wYsl26yYvVIplraPuINIIFG0H3dhAv3S2xOy/8sYgQBD7RyaSL/FbuU4nHzl
+	 gW6fuCQEU8r+o3BwZm+WRD+IaEaeY1FmRT9DyRe3wPlQfFiUVmCeXKm5e09phxUTedRF+V
+	 6VsYq5WTaknPShHroY/w0U98R6avSkaJBs06WetiVX1F1i85mrpY+5athpv/k5/3MfEeFH
+	 y/Q1saHzxCKkCKb7nfR62Brz776n7ERfLm3DYjm1ErA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr designates 167.89.105.114 as permitted sender) smtp.mailfrom=bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr;
+  dkim=pass header.i=@jobplanet.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jobplanet.co.kr
+Return-Path: <bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr>
+Received-SPF: pass (mx.naver.com: domain of bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr designates 167.89.105.114 as permitted sender)
+  client-ip=167.89.105.114; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr designates 167.89.105.114 as permitted sender) smtp.mailfrom=bounces+4464606-c958-1059230=naver.com@em9604.jobplanet.co.kr;
+  dkim=pass header.i=@jobplanet.co.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=jobplanet.co.kr
+X-Naver-ESV: wwFn+6J4p63CbHmrKBwdbXFYKxumKAE/jJ+Y
+X-Session-IP: 167.89.105.114
+Received: from o4.krmktemail.jobplanet.co.kr (o4.krmktemail.jobplanet.co.kr [167.89.105.114])
+  by crcvmail201.nm.naver.com with ESMTP id 5s2N9P6TS26UKrqeFAZ0Wg
+  for <1059230@naver.com>
+  (version=TLSv1.3 cipher=TLS_AES_128_GCM_SHA256);
+  Fri, 09 Feb 2024 11:00:58 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=jobplanet.co.kr;
+	h=from:subject:mime-version:content-type:content-transfer-encoding:
+	reply-to:to:cc:content-type:from:subject:to;
+	s=mkt; bh=r6sPCMR4HcFuSyGiNaX1rg8yd5PfepWQY96+Zv4rBVs=;
+	b=rPhvyeRX2GmRb9uG8FsSTOQXBhxik+82ZvaKSHzHKIc+EYdDKJmhDYe/HFhXa9fzG+P+
+	ke5hhXUQWONtqiypjfzfzF4cEO4lG1bA18j9icXYLuZZIegMXdu3n4hch6OenhfpZn0zmF
+	dzLhbW+csY83UJSyRPMtTV6E6NPHX0pKzpJToopPV0zF3aPDAOm/wNoFeSUjDPYoppZUwY
+	7v0wgFxEPzFjyYctLOhDijhcMXpjHeGCh7soV/GJ+sBySo1CBjbtrQnkWlc8tSQMTNNRzn
+	N5Q1xqJNUGsnP3W+cdGj/wV0qu835RMLn1Zevq/XoQnCFAY+ySaXCEGJtoy8WpEQ==
+Received: by filterdrecv-656b5b4c75-nw64g with SMTP id filterdrecv-656b5b4c75-nw64g-1-65C605E8-3
+        2024-02-09 11:00:56.226313862 +0000 UTC m=+215993.688108627
+Received: from jobplanet.co.kr (unknown)
+	by geopod-ismtpd-5 (SG) with ESMTP
+	id 7t-JQelOR5ubFbpJJn3q9Q
+	for <1059230@naver.com>;
+	Fri, 09 Feb 2024 11:00:55.787 +0000 (UTC)
+Return-Path: <mailer_errors@jobplanet.co.kr>
+Date: Fri, 09 Feb 2024 11:00:56 +0000 (UTC)
+From: =?utf-8?q?=EC=9E=A1=ED=94=8C=EB=9E=98=EB=8B=9B?=
+	<do_not_reply@jobplanet.co.kr>
+Message-ID: <65c605e76870_ad62b1b49636c643298d5@ip-172-31-29-151.mail>
+Subject: =?UTF-8?B?7J6h7ZSM656Y64ubIOyXtOuejOq2jOydtA==?=
+ =?UTF-8?B?IOunjOujjOuQmOyXiOyKteuLiOuLpC4=?=
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+raise-delivery-errors: true
+Reply-To: customer_service@jobplanet.co.kr
+X-SG-EID: 
+ =?us-ascii?Q?sWU5OesUySyDtR3dgqVwMVdTIHsNAPbjgeZEBv8L5NWnzQ5+cCYO10U6v569cl?=
+ =?us-ascii?Q?lV40dKcT87=2FyuWRgSrYlDUne575oi2pDGxULBAP?=
+ =?us-ascii?Q?Q8nLQqRtVOKyIcAsF0S+FfbHYOw1PrwMTL=2FDoy8?=
+ =?us-ascii?Q?KC2qWXcf8BpdFVsH+weIZwQ1bZDOrTZYLsedYyu?=
+ =?us-ascii?Q?13AWaf06gAawosWWTA=2FI=2F2cdUm2hvKcSfNAhzL8?=
+ =?us-ascii?Q?rrlmQnLNVJxFFiEX=2FaubJ1K34pnzfisSgBovtg?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb5RLW+omeHz0QqtZc8131teTnc+wsHJy7PvcQfpeOl?=
+ =?us-ascii?Q?1QaVxO=2FeNPFkpm6YgPiueJFAUPUCfr1K3WuygGr?=
+ =?us-ascii?Q?yiZo3k2+Wd+tcc2Piu7kiPfw9Oa34U82ehw=2FsMW?=
+ =?us-ascii?Q?oecajPrbwA=3D=3D?=
+To: 1059230@naver.com
+X-Entity-ID: ewGReymfbdVtVgloLLSv0w==
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w=
+3.org/TR/REC-html40/loose.dtd">=0D
+<html><body><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"width: 100%; min-width: 244px; padding: 0; margin: 0; border: 0; border=
+-spacing: 0; background: #ffffff; text-align: center; border-collapse: sepa=
+rate; table-layout : fixed;">=0D
+    <tbody>=0D
+    <tr align=3D"center">=0D
+      <td style=3D"padding: 0; background: #fff; padding: 0 0 30px">=0D
+        <div style=3D"margin: 0 auto; padding: 0; border: 0; max-width:624p=
+x; min-width: 244px; background: #ffffff;">=0D
+          <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" style=3D"max-width: 624px; min-width: 224px; border: 0; border-coll=
+apse: separate; table-layout: fixed; border-spacing: 0; background: #ffffff=
+; ">=0D
+            <tbody>=0D
+            <tr>=0D
+              <td width=3D"12" style=3D"width: 12px; background: #ffffff;">=
+</td>=0D
+              <td style=3D"padding: 0;">=0D
+                <table align=3D"center" border=3D"0" cellpadding=3D"0" cell=
+spacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: 0; border: 0; =
+border-collapse: separate; table-layout : fixed; border-spacing: 0;">=0D
+                  <tbody>=0D
+                  <tr>=0D
+                    <!-- logo -->=0D
+                    <td style=3D"margin: 0; padding: 24px 0 0; border: 0; w=
+idth: 100%; text-align: center;">=0D
+                      <img src=3D"https://jpassets.jobplanet.co.kr/producti=
+on/uploads/material/media/6356/jobplanet_BI.png" alt=3D"=EC=9E=A1=ED=94=8C=
+=EB=9E=98=EB=8B=9B =EB=A1=9C=EA=B3=A0" style=3D"font-family:'Apple SD Gothi=
+c Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-s=
+erif';width:90px;display:inline-block;border:none; vertical-align:bottom;">=0D
+                    </td>=0D
+                  </tr>=0D
+                  <tr>=0D
+                    <td style=3D"padding: 0;">=0D
+                      <!-- =EC=97=B4=EB=9E=8C=EA=B6=8C =EB=A7=8C=EB=A3=8C =
+=EC=9D=B4=EB=A9=94=EC=9D=BC -->=0D
+                      <table align=3D"center" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: 0; borde=
+r: 0; border-collapse: separate; table-layout : fixed; border-spacing: 0; b=
+ackground: #fff;">=0D
+                        <tbody>=0D
+                        <tr>=0D
+                          <td style=3D"margin: 0; padding: 48px 0 60px; bor=
+der: 0; text-align: left;">=0D
+                            <!-- =EC=97=B4=EB=9E=8C=EA=B6=8C =EB=A7=8C=EB=
+=A3=8C =EC=9D=B4=EB=AF=B8=EC=A7=80 -->=0D
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;margin:0;background:#58bf25;width:100%;padding:0;">=0D
+                              <img src=3D"https://jpassets.jobplanet.co.kr/=
+production/uploads/material/media/6295/head_img_6_.png" alt=3D"=EC=97=B4=EB=
+=9E=8C=EA=B6=8C =EB=A7=8C=EB=A3=8C" style=3D"font-family:'Apple SD Gothic N=
+eo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-seri=
+f';width:100%;display:inline-block;border:none; vertical-align:bottom;">=0D
+                            </div>=0D
+                            <!-- =EC=A0=9C=EB=AA=A9 -->=0D
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;margin:0;background:#fff;padding:36px 0 0 0;">=0D
+                              <div style=3D"font-family:'Apple SD Gothic Ne=
+o', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif=
+';border:none;margin:0;padding:0;border:none;font-size: 32px;font-weight: b=
+old;font-stretch: normal;font-style: normal;line-height: 1.4;color:#434447;=
+letter-spacing:0;">=EC=9E=A1=ED=94=8C=EB=9E=98=EB=8B=9B <span style=3D"font=
+-family:'Apple SD Gothic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'Dotu=
+mChe', 'Dotum', 'sans-serif';color:#00c362;">=EC=97=B4=EB=9E=8C=EA=B6=8C =
+=EC=9D=B4=EC=9A=A9=EC=9D=B4 =EB=A7=8C=EB=A3=8C</span>=EB=90=98=EC=97=88=EC=
+=8A=B5=EB=8B=88=EB=8B=A4.</div>=0D
+                            </div>=0D
+                            <!-- =EB=82=B4=EC=9A=A9 -->=0D
+                            <div style=3D"font-family:'Apple SD Gothic Neo'=
+, 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'sans-serif';=
+border:none;margin:0;background:#fff;padding:24px 0 0 0;font-size: 16px;fon=
+t-weight: normal;font-stretch: normal;font-style: normal;line-height: 1.75;=
+letter-spacing: normal;color:#4b4c50;">=0D
+                              =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94=
+ 1059230=EB=8B=98.<br>=0D
+                              =EC=95=84=EC=89=BD=EC=A7=80=EB=A7=8C 1059230=
+=EB=8B=98=EC=9D=98 =EC=9E=A1=ED=94=8C=EB=9E=98=EB=8B=9B =EC=97=B4=EB=9E=8C=
+=EA=B6=8C=EC=9D=B4 =EB=A7=8C=EB=A3=8C=EB=90=98=EC=96=B4 =EC=95=84=EB=9E=98=
+=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=95=8C=EB=A0=A4=EB=93=9C=EB=A0=A4=EC=9A=94.=0D
+                            </div>=0D
+                            <!--=EB=A7=8C=EB=A3=8C =EC=9D=B8=ED=8F=AC-->=0D
+                            <div style=3D"padding:25px 0 0">=0D
+                              <table align=3D"center" border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" style=3D"width: 100%; margin: 0 auto; padding: =
+0; border: 0; border-collapse: separate; table-layout : fixed; border-spaci=
+ng: 0; background: #fff;">=0D
+                                <tbody>=0D
+                                <tr>=0D
+                                  <td style=3D"margin: 0; padding:15px 18px=
+; border-top: 1px solid #e5e6e9; border-right: 1px solid #e5e6e9; text-alig=
+n: center; background: #f8f9fa;">=0D
+                                    <span style=3D"font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; font=
+-size: 16px;line-height: 1;color: #4b4c50; font-weight: bold">=EC=97=B4=EB=
+=9E=8C=EA=B6=8C</span>=0D
+                                  </td>=0D
+                                  <td style=3D"margin: 0; padding:15px 18px=
+; border-top: 1px solid #e5e6e9; text-align: center; background: #f8f9fa;">=0D
+                                    <span style=3D"font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; font=
+-size: 16px;line-height: 1;color:#4b4c50; font-weight: bold">=EB=A7=8C=EB=
+=A3=8C=EC=9D=BC</span>=0D
+                                  </td>=0D
+=0D
+                                </tr>=0D
+<tr>=0D
+                                  <td style=3D"margin: 0; padding:15px 18px=
+; border-top: 1px solid #e5e6e9;border-right: 1px solid #e5e6e9; border-bot=
+tom: 1px solid #e5e6e9;  text-align: center;">=0D
+                                    <span style=3D"font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; font=
+-size: 16px;line-height: 1;color: #57595b;">=EB=AA=A8=EB=93=A0 =EC=BD=98=ED=
+=85=90=EC=B8=A0</span>=0D
+                                  </td>=0D
+                                  <td style=3D"margin: 0; padding:15px 18px=
+; border-top: 1px solid #e5e6e9;  border-bottom: 1px solid #e5e6e9; text-al=
+ign: center;">=0D
+                                    <span style=3D"font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum'; font=
+-size: 16px;line-height: 1;color:#57595b;">2024-02-08</span>=0D
+                                  </td>=0D
+                                </tr>                            =20=0D
+=0D
+                                </tbody>=0D
+                              </table>=0D
+                            </div>=0D
+                            <!--=EC=95=88=EB=82=B4-->=0D
+                            <div style=3D"font-family: 'Apple SD Gothic Neo=
+', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum';font-size: 16=
+px;line-height: 1.75;color: #4b4c50;padding: 24px 0 0;">=0D
+                              =EC=A7=80=EA=B8=88 =EC=9D=B4 =EC=8B=9C=EA=B0=
+=84=EC=97=90=EB=8F=84 =EC=9E=A1=ED=94=8C=EB=9E=98=EB=8B=9B=EC=97=90=EB=8A=
+=94 1059230=EB=8B=98=EC=9D=B4 =EA=B6=81=EA=B8=88=ED=95=B4=ED=95=98=EB=8A=94=
+ =EB=8B=A4=EC=96=91=ED=95=9C =EA=B8=B0=EC=97=85 =EC=A0=95=EB=B3=B4=EA=B0=80=
+ =EC=B0=A8=EA=B3=A1=EC=B0=A8=EA=B3=A1 =EC=8C=93=EC=9D=B4=EA=B3=A0 =EC=9E=88=
+=EC=9C=BC=EB=8B=88, =EC=9E=8A=EC=A7=80 =EB=A7=90=EA=B3=A0 =EC=96=B8=EC=A0=
+=9C=EB=93=A0 =EB=8B=A4=EC=8B=9C =EC=B0=BE=EC=95=84=EC=99=80 =EC=A3=BC=EC=84=
+=B8=EC=9A=94!=0D
+                            </div>=0D
+                          </td>=0D
+                        </tr>=0D
+                        </tbody>=0D
+                      </table>=0D
+                    </td>=0D
+                  </tr>=0D
+                  <tr>=0D
+                    <td style=3D"margin: 0; padding:0 0 24px; border: 0; wi=
+dth: 100%; text-align: left;">=0D
+                      <div style=3D"margin: 0; padding:0; border: 0; width:=
+ 100%; height: 1px; background: #e5e6e9;"></div>=0D
+                      <div style=3D"margin: 0; padding:24px 0 0; border: 0;=
+ width: 100%; font-size: 11px; line-height: 24px;  font-family:'Apple SD Go=
+thic Neo', 'Nanum Barun Gothic', 'Malgun Gothic', 'DotumChe', 'Dotum', 'san=
+s-serif'; color: #85878c; webkit-font-smoothing:antialiased;">=EB=B3=B8 =EB=
+=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0 =EC=A0=84=EC=9A=A9=EC=9E=85=EB=
+=8B=88=EB=8B=A4. =EA=B4=80=EB=A0=A8 =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=EC=
+=9D=80 customer_service@jobplanet.co.kr=EC=9C=BC=EB=A1=9C =EB=B3=B4=EB=82=
+=B4=EC=A3=BC=EC=84=B8=EC=9A=94.<br>Copyright =C2=A9JOBPLANET. All rights re=
+served.</div>=0D
+                    </td>=0D
+                  </tr>=0D
+                  <tr>=0D
+                    <td style=3D"background-color: #f9f9fb; margin: 0; padd=
+ing: 24px 0 24px; border: 0; vertical-align: top;">=0D
+                      <!--=ED=95=98=EB=8B=A8 =EB=A7=81=ED=81=AC-->=0D
+                      <div style=3D"width: 100%; margin: 0; padding: 0; bor=
+der: 0;">=0D
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 296px; height: 22px; padding: 0; margin: 0 auto; bor=
+der: 0;">=0D
+                          <tbody>=0D
+<tr style=3D"margin: 0; padding: 0; border: 0;">=0D
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- instagram -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS3DwqUQAC435uhq3W3Bb5GU-3DmKg2_X1I3n-2Bp8=
+rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr=
+9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYvsQP-2BI-2BDQ=
+ulBFboz-2FcQ4zZ33SfOvejsNmH2-2B49RAXITFQzcHj-2BqWXj1VFBO4L7n8sRTWh9Hvl3Zfpz=
+xRlgqwmpm8f0PINC3Ae-2BDXjZup-2FJMCdFueB2d0O2p-2Fl99D1BavGRlBbfOvwGERpoTWShW=
+0JJFAg25Ufpl48IMYWxtGzzQM5tw9GV7j10Vikfif7BDgD" target=3D"_blank" style=3D"=
+margin: 0; vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6344/icon_ig.png" alt=3D"instagram" sty=
+le=3D"width: 22px; height: 22px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- brunch -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS4UhEU5hyVdMQSjbyWKw7ZI-3DHsWU_X1I3n-2Bp8=
+rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr=
+9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYvh1mw5kWplTpl=
+5bOhoD3CmtA7pqB63gnw-2F-2BLpSBVRkH-2Bhp-2FAN6r21587cOjWZmYt1gUbyrGxRj82UVvJ=
+LqkRTt1US2cwX8Jm0hKlcai3KXcs38AEqX-2BbQhPfjCf58LOvyVhqQOEuTrHR1Knuj3rVFZyMV=
+OwW9piorM-2Bh9HF-2BASq3Csivx7W3LewyVryt5gfTS" target=3D"_blank" style=3D"ma=
+rgin: 0; vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6345/icon_brunch.png" alt=3D"brunch" st=
+yle=3D"width: 22px; height: 22px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- facebook -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS5FYcY5LnzuIZatVepWxIUc-3DvcUM_X1I3n-2Bp8=
+rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr=
+9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYvi5OprLNuBFVd=
+21Kx-2B39Q53wX-2FfPDeqBZe2SEkBzE-2BKd9onS1Ol07rZprgGvVnVonhVPHEIu1Vfq1qB6hZ=
+dYpGAAIt0oCei2SACg8KKcsLCqkY6gWBSohYkogFm6-2BMhoYQ9i124VkQPn0Mvk3T7T0rBguZE=
+VavyXf0EYUiKnbLDvhFR-2B96Em3rKHYCMKAuyRV" target=3D"_blank" style=3D"margin=
+: 0; vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/facebook.png" alt=3D"facebook" styl=
+e=3D"width: 22px; height: 22px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- naver -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS4RR-2FkeQtOlqaXoarz3I330-3DIU3y_X1I3n-2B=
+p8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBL=
+Nr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYvsWYoEbCJdK=
+roQW2w-2F7aiTLMQvBxOJst2R1IgvuMX05mCfJCngWG16f200tocOJgGwYdnP5mGz8cVRzQwydw=
+7mEu32jeIOsqqXIPkWVFAx-2Bgf7QYEDN3E9lnjifneqd0ZAvUH0t06jE3jU19nqlOkMim6hvF4=
+Par31jNPAq30UpHk9IgFjafrDlAzMjwL6hpi" target=3D"_blank" style=3D"margin: 0;=
+ vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/naver.png" alt=3D"naver" style=3D"w=
+idth: 22px; height: 22px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                            <td style=3D"height: 22px; margin: 0; padding: =
+0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- youtube -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS8wrh46JbA10QG550BZUyLs-3DvzDW_X1I3n-2Bp8=
+rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr=
+9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYvIDjxRKUoywDr=
+h9kCtdWyCsu-2FEIgoFdaXDp3sO7fAKF8ZFCtIz3k-2Fx939r8Rz15CKsw6vP-2BN4oBBq9-2BE=
+zHaqKdSBRB7rh-2FE2e2fHd9MsBdxHvB3-2FO6QxVwDL0RfN-2BnNRAnCwIX475TQRXwX-2FpQQ=
+CbPoUga-2BBBpsawvzX5Qoc9WmmRjb6FPmx-2FSjeDY37l5S9c" target=3D"_blank" style=
+=3D"margin: 0; vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/email_medium/media/youtube.png" alt=3D"youtube" style=
+=3D"width: 22px; height: 22px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                          </tr>=0D
+                          </tbody>=0D
+</table>=0D
+                      </div>=0D
+                      <div style=3D"width: 100%; margin: 0; padding: 33px 0=
+ 0; border: 0;">=0D
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" style=3D"width: 296px; height: 33px; padding: 0; margin: 0 auto; bor=
+der: 0;">=0D
+                          <tbody>=0D
+<tr style=3D"margin: 0; padding: 0; border: 0;">=0D
+                            <td style=3D"width: 130px; height: 33px; margin=
+: 0; padding: 0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- android -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS3e17fwOGfCQuX0jTQUZSkakzrlyZWqJHf8X7fcKh=
+m2QFScnQWFS2unizJjOwzyAZKudbtmhyMzfs1mtUIVJqxo-3DK5DE_X1I3n-2Bp8rinzplOQ-2F=
+gM-2Bpqh77LcLUZ1A8f-2FqpDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr9-2Bc-2FFSq=
+tRXqVEEG-2FOJnJZBZIthSYw4VXWbJwdcqIHMi2QuFU5trTCMYYv4EbRn-2B7Kj0k778uI4SjBA=
+XgXdH4QrKJr-2FqkJwjHX3LQ0lMjdxPRzC3IZ-2FPMiKW9ytgDAfYY1bU2zr9Bl-2F7vgTb0Oak=
+Uez40wwuz-2FIVqZMjQJgydaKPxnzLIYwFOdYjURPSfGj9YdX4j-2BNsL7UEbnwpiRXpPYE7mdT=
+YsSy7NeFG-2BRwxia-2BN19Zpl8MXiCiRnB" target=3D"_blank" style=3D"margin: 0; =
+vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6349/btn_android.png" alt=3D"android" s=
+tyle=3D"width: 130px; height: 33px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                            <td style=3D"width: 36px; height: 33px; margin:=
+ 0; padding: 0; text-align: center; font-size: 0;"></td>=0D
+                            <td style=3D"width: 130px; height: 33px; margin=
+: 0; padding: 0; text-align: center; font-size: 0; vertical-align: top;">=0D
+                              <!-- ios -->=0D
+                              <a href=3D"http://url2426.jobplanet.co.kr/ls/=
+click?upn=3DOkuaBa39SkqbSXu71-2B0AS-2B4tfnNHMSAPWsuk4RnHYSFFUhsa-2BvqRWu0Ox=
+0tLbiLvsbm6iXWxsSjUo1Pu3wIyDZnfsAbQpCE0RgcY924zATw6ytiysQ8BBTpGo0-2BCELfPyT=
+PuFYbqhxWOilQ06iluxw-3D-3DTnkX_X1I3n-2Bp8rinzplOQ-2FgM-2Bpqh77LcLUZ1A8f-2Fq=
+pDDU2NgJ6MZ-2BcD-2BiTh4m7-2Bx35ZfK7cLBLNr9-2Bc-2FFSqtRXqVEEG-2FOJnJZBZIthSY=
+w4VXWbJwdcqIHMi2QuFU5trTCMYYvqbtn-2Fh6iZln7l1AnXpleJS26bov6puwa62G67JgO-2BY=
+HKJX-2FypYAlfnI7l56-2BiCEFC93tOUYwEJ0q-2FzVB-2FGCLuBeRIgkvm8sCgdjRvsnKw2O-2=
+FWJcV38hT6eHxk1QCjxxxlZCoklvNpBnC2ILS09-2F1ZR8Inmz0UE6hSoZLNu42u3795oTQoZsy=
+2euHvfFtWul6" target=3D"_blank" style=3D"margin: 0; vertical-align: top;">=0D
+                                <img src=3D"https://jpassets.jobplanet.co.k=
+r/production/uploads/material/media/6350/btn_ios.png" alt=3D"ios" style=3D"=
+width: 130px; height: 33px; vertical-align: top;">=0D
+                              </a>=0D
+                            </td>=0D
+                          </tr>=0D
+                          </tbody>=0D
+</table>=0D
+                      </div>=0D
+                    </td>=0D
+                  </tr>=0D
+                  </tbody>=0D
+                </table>=0D
+              </td>=0D
+              <td width=3D"12" style=3D"width: 12px; background: #ffffff;">=
+</td>=0D
+            </tr>=0D
+            </tbody>=0D
+          </table>=0D
+        </div>=0D
+      </td>=0D
+    </tr>=0D
+    </tbody>=0D
+  </table><img src=3D"http://url2426.jobplanet.co.kr/wf/open?upn=3DcbqRXkMX=
+ysg8cGhEiCacW4fU37Jc-2BF-2BsfI-2F8U6BbLp4aYAo9bn-2BOzCe-2Bb9iANtijW3LF515EU=
+t4KXFf-2B-2FE60VxoQ1V8fTvGhdarOwhQ5nB2OW1FYlq6yLhfY06TEdPXw70A2dahDH08-2BLx=
+p7iRg0A1ZpND5-2FKckccVFwyFORMTSulV9ApEpDpcDQA2PuSLVkSQc7XJYDUxcKE-2Bv4zExcN=
+UQDHZyXGcGNrTiuGFXExvzvA3PxEXwdcAcDL5Et6lOiCWUvSmlBgGbFOOBa5KtGB9a4tTcRghaC=
+JAf1uqU-2BJ2uFP5MRbSH-2Fle85bpjEvpwAAVt93agFmtkmPifyhvJvDA-3D-3D" alt=3D"" =
+width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:=
+1px !important;border-width:0 !important;margin-top:0 !important;margin-bot=
+tom:0 !important;margin-right:0 !important;margin-left:0 !important;padding=
+-top:0 !important;padding-bottom:0 !important;padding-right:0 !important;pa=
+dding-left:0 !important;"/></body></html>=0D

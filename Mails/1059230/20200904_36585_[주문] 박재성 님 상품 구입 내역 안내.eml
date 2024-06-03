@@ -1,0 +1,271 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1599207846;
+	cv=none; b=ivddTuPKcHinroVqlNmrPSvdcAKNyiMmrLV68yhg3rnwR/xLNvvMXzNoiX3j
+	 kxNeBSwHZFga5rybfKod45lqnkDbfP88ILo0ufIiD2kVS7vtK+pg1aO/7TvB48vPu4jDPF
+	 X5RE9bmryX5VHpGe5C04ZQllo48e0+HnsTdwTqi0gagNuVDK2XSmoojB24wntaDU6XGlux
+	 h/7KPnbPzT/RcjoqAmQkP3u+IwRfuFiSTttA5A+T4AXJCKcBbmz1tg0qpT4Zg1SrUZgOv8
+	 lVZ39Tib9hki/zotJXk6PXz6E8w5iGXa0r4CI7ARU3LKRlP9uJqaDpRbOSizS8Y6YCStCi
+	 OQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1599207846; c=relaxed/relaxed;
+	bh=ay0dzNPQAB5urn5p98f51di6YteOeVFCmcc7F7PIzns=;
+	h=date:message-id:to:subject:from; b=K0KNuUyPEWKUAW0eUAo69OcLMcP89Dnu82
+	 +RsANOovo+iLjS/tnoeg8xoaWbW9xKqBtAsy668a8fRxe2lHCxD3TjiBcBoNWPrQ/OvNkY
+	 t6ISl+D+Lf2jAF40JW6JCLVAJWOI/c8j0U0d2qGkYjw9HiIBXXajWVxTPoBwAJWj37tYzW
+	 tw5Upnhs6slOCEltQCmeA74XeVXs02smp6Fp6HC32eNVEvS+wrplz3nKDK/pI8Ld3G1HQQ
+	 aOIGMVcOS3DHybnrUszsXm1iZPlVf/BRtJjSd23HO9WoBDYFLykgZNcXyo5mtsMBUQXyBw
+	 rrT+uQkESZGddpcnSQ1Jk7SOc3Qw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=none (mx.naver.com: domain of www@localhost.localdomain does not designate permitted sender hosts) smtp.mailfrom=www@localhost.localdomain
+Return-Path: <www@localhost.localdomain>
+X-WM-Dns-Ptr: none
+Received-SPF: none (mx.naver.com: domain of www@localhost.localdomain does not designate permitted sender hosts)
+  client-ip=103.9.172.213; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=none (mx.naver.com: domain of www@localhost.localdomain does not designate permitted sender hosts) smtp.mailfrom=www@localhost.localdomain
+X-Naver-ESV: wm+n+6J4p63TWNml7BwdW4kYKA2ZFAgrjJ+Y
+X-Session-IP: 103.9.172.213
+Received: from localhost.localdomain ([103.9.172.213])
+  by crcvmail23.nm.naver.com with ESMTP id oqxZJecNT7iQQRDIBTnfEQ
+  for <1059230@naver.com>;
+  Fri, 04 Sep 2020 08:24:06 -0000
+Received: from localhost.localdomain (localhost [127.0.0.1])
+	by localhost.localdomain (8.14.4/8.14.4) with ESMTP id 0848Iqar025761
+	for <1059230@naver.com>; Fri, 4 Sep 2020 16:18:52 +0800
+Received: (from www@localhost)
+	by localhost.localdomain (8.14.4/8.14.4/Submit) id 0848IqM6025760;
+	Fri, 4 Sep 2020 16:18:52 +0800
+Date: Fri, 4 Sep 2020 16:18:52 +0800
+Message-Id: <202009040818.0848IqM6025760@localhost.localdomain>
+To: 1059230@naver.com
+Subject:  [주문] 박재성 님 상품 구입 내역 안내
+X-PHP-Originating-Script: 501:func.php
+From: 서브와치 <subwatch@nate.com>
+X-Priority: 1
+Content-Type: text/html;charset=EUCKR
+
+
+<html>
+<head>
+   <title>서브와치 홍콩명품시계쇼핑몰ㅣ레플리카전문ㅣ명품시계 로렉스 오메가 예거르꿀르뜨 피아제 파택필립</title>
+   <meta http-equiv='Content-Type' content='text/html; charset=euc-kr'>
+   <meta http-equiv='imagetoolbar' content='no'>
+   <style type='text/css'>
+   td{font-size:12px}
+   </style>
+</head>
+<body bgcolor='#FFFFFF' text='#000000' marginwidth='0' marginheight='0'>
+
+<div style='padding:15px'>
+	<div style='padding-bottom:10px;border-bottom:2px solid #000000'>
+		<div style='font-size:35px;font-weight:bolder'>
+			서브와치
+		</div>
+		<div style='padding-left:4px'><a href='http://www.watch361.info' target='_blank'>http://www.watch361.info</a></div>
+	</div>
+	<div style='padding:20px;font-size:12px'>
+
+<table width='100%' border='0' cellspacing='0' cellpadding='0' align='center' style='border:1px solid #dddddd;border-top:2px solid #737373;border-collapse:collapse'>
+  <tr>
+	<th style='width:130px;border:1px solid #dddddd;padding:6px;text-align:center;font-size:11px;background-color:#F3F3F3'>사진</th>
+	<th style=';border:1px solid #dddddd;padding:6px;text-align:center;font-size:11px;background-color:#F3F3F3'>제품명</th>
+	<th style='width:80px;border:1px solid #dddddd;padding:6px;text-align:center;font-size:11px;background-color:#F3F3F3'>합계/적립</th>
+  </tr>
+
+  <tr>
+	<td style='width:120px;border:1px solid #dddddd;padding:6px;text-align:center;background-color:#ffffff'><a href='http://www.watch361.info/mall/m_mall_detail.php?ps_ctid=35080000&ps_goid=30475' target='_blank'><img src=http://www.watch361.info/mall/./shop_image/watch1/rol0778.JPG border='0' width='120' height='120' onerror="if(this.try_cnt) return; this.try_cnt='1'; this.src='http://www.watch361.info/mall/image/no_image_50.gif'"></a></td>
+	<td style='border:1px solid #dddddd;text-align:left;padding:10px;background-color:#ffffff;'><b>[로렉스] 신상출시! 요트마스터II  옐루골드 금통  REP. 116688 화이트 다이얼 ETA-7750 오토매틱 무브먼트  rol0778 - Rolex Yacht-MasterII  Rosegold All Gold White Dial ETA-7750 Chronograph Automatic Movement </b>(rol0778)<div style='color:#ff6600'></div><div style='padding-top:3px'><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div>
+			 <table width='100%' border='0' cellspacing='0' cellpadding='0' align='center' style='margin-top:10px;border-collapse:collapse;' bgcolor='#f5f5f5'>
+			   <tr>
+				 <td style='text-align:left;border:1px solid #dddddd;padding:5px'>본품상품</td>
+				 <td style='text-align:right;width:70px;border:1px solid #dddddd;padding:5px'>938,000원</td>
+				 <td style='text-align:right;width:40px;border:1px solid #dddddd;padding:5px'>1개</td>
+				 <td style='text-align:right;width:70px;font-weight:bolder;border:1px solid #dddddd;padding:5px'>938,000원</td>
+			   </tr>
+			 </table></td>
+	<td style='width:80px;border:1px solid #dddddd;padding:6px;text-align:center;background-color:#ffffff;font-weight:bolder'>938,000원<br>46,900점</td>
+  </tr>
+  
+</table>
+
+<div style='text-align:right;border-bottom:1px solid #dddddd;padding:10px 0 10px 0;letter-spacing:0pt'>
+	상품 : <b>938,000</b>원 -
+	특별할인 : <b>46,900</b>원 +
+	배송료 : <b>0</b>원 +
+	사용적립금 : <b>10,000</b>원 -
+	쿠폰 : <b>0</b>원 - 
+	기프트카드 : <b>0</b>원
+</div>
+<div style='text-align:right;border-bottom:1px solid #dddddd;padding:10px 0 10px 0;letter-spacing:-1pt;font-weight:bolder;font-size:15px'>
+	결제총액 : <font color=red>881,100원 </font>
+</div>
+
+<style>
+#or_main .tb_1{width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444}
+#or_main .tb_2{border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt}
+</style>
+
+<div id='or_main'>			
+
+		<!--------------------- 주문자정보 --------------------->
+		<div style='margin:30px 0 0 0;font-weight:bolder;padding-bottom:5px;text-align:left'>
+			주문자정보
+		</div>
+		<table width='100%' border='0' cellspacing='0' cellpadding='0' style='border:4px solid #757575;padding:7px'>
+		  <tr>
+		    <td>
+			  <table width='100%' border='0' cellspacing='0' cellpadding='0' >
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>주문번호</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					20200904-207444753
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>이름</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					박재성
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>이메일</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					1059230@naver.com
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>전화번호</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					010-9413-3741
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>휴대전화</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					010-9413-3741
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>주문자 주소</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					[10569] 경기 고양시 덕양구 신원로 35 (삼모더프라임타워) 2108호
+				  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+
+		<div style='margin:30px 0 0 0;font-weight:bolder;padding-bottom:5px;text-align:left'>
+			배송지정보
+		</div>
+		<table width='100%' border='0' cellspacing='0' cellpadding='0' style='border:4px solid #757575;padding:7px'>
+		  <tr>
+		    <td>
+			  <table width='100%' border='0' cellspacing='0' cellpadding='0' >
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>이름</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					박재성
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>전화번호</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					010-9413-3741
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>휴대전화</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					010-9413-3741
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>배송지 주소</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					[10569] 경기 고양시 덕양구 신원로 35 (삼모더프라임타워) 2108호
+				  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+
+		<div style='margin:30px 0 0 0;font-weight:bolder;padding-bottom:5px;text-align:left'>
+			결제정보
+		</div>
+		<table width='100%' border='0' cellspacing='0' cellpadding='0' style='border:4px solid #757575;padding:7px'>
+		  <tr>
+		    <td>
+			  <table width='100%' border='0' cellspacing='0' cellpadding='0' >
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>결제방법</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					온라인입금
+				  </td>
+				</tr>
+				
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>입금인</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					박재성
+				  </td>
+				</tr>
+				
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>입금계좌</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					국민은행: 652701-04-397267 김수혁(백만볼트)
+				  </td>
+				</tr>
+				
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>입금예정일</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					2020-09-04
+				  </td>
+				</tr>
+				
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>적립포인트</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					46,400점
+				  </td>
+				</tr>
+				<tr> 
+				  <td style='width:90px;border-bottom:1px solid #E0E0E0;padding-left:10px;font-weight:bolder;color:#444444;text-align:left'>특별적립</td>
+				  <td style='border-bottom:1px solid #E0E0E0;padding:8px 0 8px 10px;letter-spacing: 0pt;text-align:left'> 
+					0점
+				  </td>
+				</tr>
+			  </table>
+			</td>
+		  </tr>
+		</table>
+
+</div>
+
+	</div>
+
+	<div style='padding:10px;border-top:1px solid #dddddd;border-bottom:1px solid #dddddd;font-size:12px;margin-top:20px'>
+		수신거부를 원하실 경우 subwatch@nate.com 으로 수신거부 회신을 주시면 홍보성 메일은 발송되지 않습니다.
+	</div>
+	<div style='padding:10px;font-size:12px;line-height:20px'>
+		상호 : 서브와치<span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		고객센터 : <b>070-7946-8983</b><span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		이메일 : <b>subwatch@nate.com</b><span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		Room 3 9F Honour House 375-381 nathon Road,YaumatiKowloon,HK(반품조소아님)<br>
+		사업자등록번호 : 659-05-01295<span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		통신판매업신고 : <span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span><br>
+		대표 : 이종욱<span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		개인정보 관리책임자 : 이종욱<span style='padding:0 10px 0 10px;color:#bfbfbf'>|</span>
+		개인정보 보호기간 : 회원탈퇴시
+
+		<div style="padding:10px 0 40px 0;font-family: 'Arial';font-size:10px;letter-spacing:1px">Copyright SUBWATCH All Rights Reserved.</div>
+	</div>
+
+</div>
+
+</body>
+</html>
+

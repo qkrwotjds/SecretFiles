@@ -1,0 +1,141 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Received-SPF: pass (mx.naver.com: domain of account-security-noreply@accountprotection.microsoft.com designates 40.107.220.53 as permitted sender)
+  client-ip=40.107.220.53; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  arc=fail (i=1);
+  spf=pass (mx.naver.com: domain of account-security-noreply@accountprotection.microsoft.com designates 40.107.220.53 as permitted sender) smtp.mailfrom=account-security-noreply@accountprotection.microsoft.com;
+  dkim=pass header.i=@accountprotection.microsoft.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=accountprotection.microsoft.com
+X-Naver-ESV: wwen+6J4p63CbHmqKBwdbXFYKoKdFxurjJ+Y
+X-Session-IP: 40.107.220.53
+Received: from NAM11-CO1-obe.outbound.protection.outlook.com (mail-co1nam11on2053.outbound.protection.outlook.com [40.107.220.53])
+  by crcvmail104.nm.naver.com with ESMTP id n1KDGHrpQvmMx7yJc7QkHg
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Sat, 23 Sep 2023 23:45:16 -0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=hQk1eMM6QgSabZ0++9Q896B2Ck8477ZmgpqT2Nr7m/7wUsCvsC5UjlLRszJ1QOgQjWD26SVnmjDtuF+q5ZgzSSoSHT2WNizWVceCnQzAIRQ52+cwY7O3YI8kTSLix3xdtWwyytZdMBOuixOCQuTBifC6SO1vvdm9CWdghI8lRXEHCTzBB3w79Qxqk11Moewv7UvvzE49dKGoQmhSqNWMzCxKNxnXwNNM7HbX79ls0dgznQYL3XJJ8VIjIVrK7QMKL/WwWBsEqA6jCnTykNsbWfdCVyHXidOBCEQldjolmvLMMY7q0oz4Thn9B2BUukXrq0gm1r7BKpTGpYKbOjVBKA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=XX8y4Mb+v/cAuqjpVL0K+xn4qEP6wh4de6HjIAJJU+0=;
+ b=ADN+nA89cteBdCpAIKjiA8kW673Avn9o/ekQ+ZhFiktaEBMepRn+fyWmd0kfdmW7KDeRcqp3Qh09eTjQaCD/IU/NJePDvOMhUnaTPpgnVbGKNH82cK5JEwfFbR/FQK0Wis5aPNzkIVs2GnNhqvpNVUsd+gRIGvBZOLow7YVbIWPptm52PcL15gSNIa6gmqhlMTIGbMZYeJeNxl0N2vnkHoIrIpUYmsZBZRchGPxuM+ZARrs1wHrElG46w/cQ23xveM8cLURYpk3/NRgrpZVJqbk02PWKOW02Raclz8W7OWb0aezCuYa7CNnyJ1/K3lnzOe9RjvL65k46O0wT53vDOw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none
+ action=none header.from=accountprotection.microsoft.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=XX8y4Mb+v/cAuqjpVL0K+xn4qEP6wh4de6HjIAJJU+0=;
+ b=Taz45EYlBeomjzyJtAaw6BwGdhJdu5Xydj5zVxw+LTQTVrnJxGeXLei4J2Pt/IZ8IiP/WZ+TDChc4bUWH6EJumL+yUMEJch2Ht3ZCUXOipUkGeSm3MeX5Evkl7gXluvRCESdsD3OP/iX/dpqDVOcQ2R1U/cqjhUFB0RuprrDTPg=
+Received: from BN9P220CA0015.NAMP220.PROD.OUTLOOK.COM (2603:10b6:408:13e::20)
+ by BY5PR16MB4001.namprd16.prod.outlook.com (2603:10b6:a03:24f::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6813.23; Sat, 23 Sep
+ 2023 23:45:14 +0000
+Received: from SN1PEPF0002BA4B.namprd03.prod.outlook.com
+ (2603:10b6:408:13e:cafe::85) by BN9P220CA0015.outlook.office365.com
+ (2603:10b6:408:13e::20) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6792.35 via Frontend
+ Transport; Sat, 23 Sep 2023 23:45:14 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 52.234.111.146)
+ smtp.mailfrom=accountprotection.microsoft.com; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none
+ header.from=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (52.234.111.146) by
+ SN1PEPF0002BA4B.mail.protection.outlook.com (10.167.242.68) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6838.14 via Frontend Transport; Sat, 23 Sep 2023 23:45:13 +0000
+From: Microsoft =?utf-8?b?6rOE7KCVIO2MgA==?=
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Sat, 23 Sep 2023 16:45:13 -0700
+Subject: Microsoft =?utf-8?b?6rOE7KCVIOuztOyViCDqsr3qs6A=?=
+To: 1059230@naver.com
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <B03D265B2LU4.8M3VMDSWDMKM@BY1PEPF00001B91>
+X-MSAMetaData:
+ =?us-ascii?q?DWcg5hG2NVlFob9k1FWYReykbyen7o7Pm9h4P0euB45HmB4fafRT2P5P!1!R4?=
+ =?us-ascii?q?lLnC0GsHFwLT1wtB9!vK8ClwIWR7IDS!sygVM205W7XgZL5lSTPdGYv!1OVFr?=
+ =?us-ascii?q?c091jwhw$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-Q2n1V5NaEQuCYxPL5Eo6KA=="
+Return-Path: account-security-noreply@accountprotection.microsoft.com
+X-MS-TrafficTypeDiagnostic:
+	SN1PEPF0002BA4B:EE_FirstParty-MicrosoftAccount-V3-System|BY5PR16MB4001:EE_FirstParty-MicrosoftAccount-V3-System
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 42efb1e6-8e49-4893-31ce-08dbbc8f21f7
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	xXWJioyUnSjDUwpof61TK1IWkeXl9rAZCoGMUttQwQaEF6poUvjFj86GzPfIhSEuCQ8Mt5IYjJ4xpM5yBoykvvZu9AUFaeOnUqvwEY4n62UZEdJCpX3P2pZLOKbQ+AUQbMRjv07k5J6EVyNFKpusEZhFq+NMgtyFVaK6zjcJCCy2BR5++MRac2p4lc3sv7gz1Vun+5gAU17EH7kkq56CHaEiHrI65zjVhZpzjfJooSlHTvR/58rm78qw7+N/g+GfMB5/nPIE5SuAdDdInAbu2eMlxtTzCiLToWE3mw02sF2/kJz1YLVu/r5nZ3NLhsSYs5+zisI8xftEjaruKEpDX9oCo5ByP7RjvXieSB/baatqu0kOYg9nEsKV9Q/r8XN70oAkDiTbbHFxwWihV6SmHxpnEcPpoW4HyNkweMfLRfR9qHAEXgIaV/eaLByINbE8iypIjhcW37dhpAu4i8HaVJtlFOXPDKLkH3+tEyk8cflG+OLG367gyWeB8ZAUB3beozuJ1D9uveWWKn424byk6VxTrp4hB/29flqjYl5po9uBLlEexLkV3xjXvH3vlEZaU7ijYe07T2rHIKGUBE74t/7kbi0/Ib3d7/mDPdc99+/kSAFXSBhtXewDmBzHUm84Gw7iLBz7/mF3ssuhV8uEyHJ0zhgC6bDyEBPHVU6ge4ZQT+9U/vDo7N1CA7XHFbCeG9HXPJ0EyZPoaxtCvyAstuS19PvhvPHias/o7Ekaz3xlv1igVB5dbfTagoyx1ZX4
+X-Forefront-Antispam-Report:
+	CIP:52.234.111.146;CTRY:US;LANG:ko;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:messagedispatchervip.MSAEAP-Prod-BY01P.BY01P.ap.gbl;CAT:NONE;SFS:(13230031)(7916004)(396003)(39860400002)(376002)(136003)(346002)(42606007)(47530400004)(230922051799003)(61400799006)(186009)(451199024)(66899024)(6486002)(33964004)(224303003)(33656002)(86362001)(85182001)(166002)(81166007)(356005)(8936002)(336012)(26005)(2906002)(6512007)(478600001)(83380400001)(966005)(121820200001)(10290500003)(9686003)(956004)(36736006)(5660300002)(41300700001)(118246002)(6916009)(33716001)(9316004)(68406010)(316002);DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	vI58Bq1vtBM7uAn6fIclLIQ3Kb0TDTVACefOtQA6XqKp1WslkBl7eWh9Sxp/0dcv4tCdJ4md8zVwo9hm1PyYTHPkXRxsyIkHIZeanqHpBoALYdR2ZztQTDTO/+pjzy/IuwUVLeSTqF1lCzxgEu8vnY8SHc/FtyKh5rKMGrxUTHZuFB0Pfrh6/rwbH/kpE9fM6Hpm6hMXkWWjRZO7hgKT9b40c9GyZOSlFC+FHW8Z4H6QmCS9L3sC65vXOn4RQT/oay9+weUKY7uosbW4rQHmyy+IoGCFq8FOy7noweQKjgEtU+BoWCsziyZ8D59K1ZSW3F1+zAzf3IaS24LMCLWtRKUNf7IrtQJt0wWTni69Ww4xDGYpMD8Avle5mealUsPSMeQyrCrRuZFXmoaPxCvwU5TUFOvNc+y3hMPEj1KmlIDA736SyMdjyBGMkqShSw57nABhp+YLZw0pMEF/438FrKOxDk0+WRzcH1Zr6N9a9v5/X/kOKai3WAbfx+GS0dS6rSt5xQA1m/HrvrQYIgOyUQ==
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Sep 2023 23:45:13.7844
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 42efb1e6-8e49-4893-31ce-08dbbc8f21f7
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[52.234.111.146];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TreatMessagesAsInternal-SN1PEPF0002BA4B.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR16MB4001
+
+--=-Q2n1V5NaEQuCYxPL5Eo6KA==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+다른 사용자가 Microsoft 계정 10**0@naver.com을(를) 액세스했을 수도 있습니다. 이 경우 보안 과제를 사용하여 본인 여부를 확인하고 다음에 로그인할 때 암호를 변경해야 합니다.
+
+다른 사용자가 계정에 액세스한 경우 암호가 유출된 것이며 개인 정보에 액세스하거나 정크 메일을 보내려 할 수도 있습니다.
+
+아직 계정을 복구하지 않은 경우 지금 복구하세요.
+
+https://account.live.com에서 계정을 복구하세요.
+
+http://go.microsoft.com/fwlink/?LinkID=263818에서 계정을 보호하는 방법을 알아봅니다.
+
+감사합니다.
+Microsoft 계정 팀 
+--=-Q2n1V5NaEQuCYxPL5Eo6KA==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:17px; color:#707070;">Microsoft 계정</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:41px; color:#2672ec;">보안 경고</td></tr>
+      <tr><td id="i3" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">다른 사용자가 Microsoft 계정 <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:10**0@naver.com">10**0@naver.com</a>을(를) 액세스했을 수도 있습니다. 이 경우 보안 과제를 사용하여 본인 여부를 확인하고 다음에 로그인할 때 암호를 변경해야 합니다.</td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">다른 사용자가 계정에 액세스한 경우 암호가 유출된 것이며 개인 정보에 액세스하거나 스팸 메일을 보내려 할 수도 있습니다.</td></tr>
+      <tr><td id="i5" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">아직 계정을 복구하지 않은 경우 지금 복구하세요.</td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">
+         <table border="0" cellspacing="0"><tr><td bgcolor="#2672ec" style="background-color:#2672ec; padding-top: 5px; padding-right: 20px; padding-bottom: 5px; padding-left: 20px; min-width:50px;"><a id="i6" style="font-family: 'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; text-align:center; text-decoration:none; font-weight:600; letter-spacing:0.02em; color:#fff;" href="https://account.live.com">계정 복구</a></td></tr></table>
+      </td></tr>
+      <tr><td id="i7" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;"><a id="iLink2" class="link" style="color:#2672ec; text-decoration:none" href="http://go.microsoft.com/fwlink/?LinkID=263818">계정을 보호</a>하는 방법을 알아봅니다.</td></tr>
+      <tr><td id="i8" style="padding:0; padding-top:25px; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">감사합니다.</td></tr>
+      <tr><td id="i9" style="padding:0; font-family:'Malgun Gothic', Gulim, Verdana, Tahoma, sans-serif; font-size:14px; color:#2a2a2a;">Microsoft 계정 팀</td></tr>
+</table>
+</body>
+</html>
+--=-Q2n1V5NaEQuCYxPL5Eo6KA==--

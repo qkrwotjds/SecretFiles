@@ -1,0 +1,145 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1569911697;
+	cv=none; b=OGwZotK2KWf4JtGJwK11iecg57DlD8nlw7DHXOnHFzSwAunhT/ek8QJyH3Wj
+	 yDmW2EOontwJL212Ec2LZC/w3s0kFDYx8K1lOxiEbIyRJzEzyuEmtexC3GDd1qgb82iplw
+	 lFi6xrJewvUztOS8cHpkuv+yg470YKUrWQri3ExAh2j0JPGIhmV3FowosKeD6MMh8ZKom1
+	 z1zMuouQR8J4BRgZjkHL7fY0fHls87IAflzCVFGTaBczHqIpMLyQkBwfpPr3cvNjOUcEST
+	 04JHPkvoh9+JW8sLaZM+lValN2NaboSD+gYm2DxgLtwCWRPywmuGN45dGXvehPx1wENcbS
+	 Ig==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1569911697; c=relaxed/relaxed;
+	bh=hKPvvZj6bmtUHkEgOusQPQ3nWhN7TyZDqPsAMn5uq3A=;
+	h=dkim-signature:date:from:to:message-id:subject; b=hS7G+FmdebEvwoaymLr
+	 dOyUWmDcqQjOy+0ctei4JPTLWgeTvrHaSYgWPhAgmdq+/AZT6gaq8Nv5p/D3p4fKKMfCQF
+	 5oUhRSAdf2DxdzWUSYR5hKtSG8kZrhYBikhfIzcN4TtWLfJkKjs8UAvXcN2M9eUAPCV3Q7
+	 18iYyOWycLn6ApYDkBFhtlpHUcuqx55tiODt+DHeV3Ya8N8L9boUu9KIuUkey3idI0Fx7p
+	 FVsj1lad+5wBC1qQ2P8Gtrjf8vcgFOegneSL7arHdIg7hBriNS5kpZ/pa/dGpMlN7fVxbo
+	 3jtpRFo6BrBWMpMAWiCe7Yc7v2g0VDJSYTps+mH76Sg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of qvan@mobileleader.com designates 209.85.210.174 as permitted sender) smtp.mailfrom=qvan@mobileleader.com;
+  dkim=pass header.i=@mobileleader-com.20150623.gappssmtp.com
+Return-Path: <qvan@mobileleader.com>
+Received-SPF: pass (mx.naver.com: domain of qvan@mobileleader.com designates 209.85.210.174 as permitted sender)
+  client-ip=209.85.210.174; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of qvan@mobileleader.com designates 209.85.210.174 as permitted sender) smtp.mailfrom=qvan@mobileleader.com;
+  dkim=pass header.i=@mobileleader-com.20150623.gappssmtp.com
+X-Naver-ESV: +PRYpB3G1H+YbXFCbHmqKAMqFAEXjJ+Y
+X-Session-IP: 209.85.210.174
+Received: from mail-pf1-f174.google.com (mail-pf1-f174.google.com [209.85.210.174])
+  by crcvmail11.nm.naver.com with ESMTP id WNQozTIaQZ2LAQ6Jqzleyg
+  for <1059230@naver.com>;
+  Tue, 01 Oct 2019 06:34:57 -0000
+Received: by mail-pf1-f174.google.com with SMTP id y22so7201704pfr.3
+        for <1059230@naver.com>; Mon, 30 Sep 2019 23:34:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobileleader-com.20150623.gappssmtp.com; s=20150623;
+        h=date:from:to:message-id:subject:mime-version
+         :content-transfer-encoding;
+        bh=hKPvvZj6bmtUHkEgOusQPQ3nWhN7TyZDqPsAMn5uq3A=;
+        b=zEuHsQG2BLvgvY4ZJE0Fw9zn8iY9sccp4YLXHFEn3PXDf4NJRc/APOAcofkEhO6rAW
+         0/bwa22MXx3Z4WmiLYu4REsUjXa4E4k8iWEdsdWvN7zFIBYNu5/j7pfCeACwgwlZ5Rj5
+         qTUE9wTPgTY7tMpQ3GvKBoFySmVfWCmP6RKeK0jcuPrGRpmycqm9rcnm+SUFuju6mphe
+         BvwSXIl66ceeO1bSwnooQHlVg+Z3iGbWcFZq4zSc+adLPhLodgQabfUTPyXf0s6jBvp9
+         9MicggW25oTdVnCjH7BHU8+ycrHmbO6VbUZUVNqfo45YtZrFA4c1Eu8PFDQZk51xx+go
+         o87Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:date:from:to:message-id:subject:mime-version
+         :content-transfer-encoding;
+        bh=hKPvvZj6bmtUHkEgOusQPQ3nWhN7TyZDqPsAMn5uq3A=;
+        b=sQGSKubD6f3hoX79h9BJ5nwLT1kH4m2e7rYtQTAHNgfci8aV/HCvUqUY2b2Z3hu35l
+         Amcp66K8/tzAQi4EX47A+82R4w2vN3TMcc0q8Ivv3soS+Ux2f89l3tjoFh1YSqQOjA75
+         KfwRT4V0dcMaThvYFcuRgSUMQc85JoTivjZJrAKV4EUawuZNFq8ljYE994/T/ITLh3mg
+         Od/h6+XadS0qj9zMmq74/hKpwteQGJcNFuiW/X+8JgrzHZtXHJYCPYN9Av1CiG7pJF5i
+         +8sEJz9DtgHNtrdYtp5yU3ihDn2e/u2lDTGPUrGprOB127eyd52aJk64CvHhdgHm1Rpu
+         KBHg==
+X-Gm-Message-State: APjAAAUga81dR0KLh5s7eVHYhLc5xBwwOZSyzNuApd+8I+e55w+JZsMC
+	s1enlDnEM7+MihIv8C8gQxlLgKoYrCE=
+X-Google-Smtp-Source: APXvYqypRgBcDPhaJ5OotgWFhn5//jOilm/QxsRuhawVqax1wQoWFxR1W3HrgaDauTgavIbAau1xUQ==
+X-Received: by 2002:a63:2406:: with SMTP id k6mr17565766pgk.420.1569911696201;
+        Mon, 30 Sep 2019 23:34:56 -0700 (PDT)
+Return-Path: <qvan@mobileleader.com>
+Received: from qvan-was1 ([211.233.61.201])
+        by smtp.gmail.com with ESMTPSA id f185sm1657252pfb.183.2019.09.30.23.34.54
+        for <1059230@naver.com>
+        (version=TLS1 cipher=ECDHE-RSA-AES128-SHA bits=128/128);
+        Mon, 30 Sep 2019 23:34:55 -0700 (PDT)
+Date: Mon, 30 Sep 2019 23:34:55 -0700 (PDT)
+From: qvan@mobileleader.com
+To: 1059230@naver.com
+Message-ID: <35854703.2411569911747947.JavaMail.qvan@qvan-was1>
+Subject: =?UTF-8?Q?[QVAN]_=EB=B2=95=EC=9D=B8?=
+ =?UTF-8?Q?_=EC=82=AC=EC=97=85=EC=9E=90_?=
+ =?UTF-8?Q?=EC=9D=B8=EC=A6=9D_=EB=A9=94=EC=9D=BC?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=EUC-KR
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w3.=
+org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/htm=
+l; charset=3Dutf-8" /><meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3D=
+edge" /><title>QVAN</title></head><body style=3D"color:#333333; margin:0;pa=
+dding:0; background: none; font-size:12px; line-height:1.2; font-family: =
+=B8=BC=C0=BA =B0=ED=B5=F1, Malgun Gothic, =B5=B8=BF=F2, Dotum, =B1=BC=B8=B2=
+, Gulim, Arial, Helvetica, sans-serif;">  <div style=3D"width: 660px; ">   =
+   <!-- mail =BF=B5=BF=AA-->=09  <div>=09=09  <div style=3D"position: relat=
+ive;">=09=09=09=09<img alt=3D"" src=3D"https://www.qvan.co.kr/images/img_ma=
+il_header02.png" width=3D"660" height=3D"150" />=09=09  </div>=09=09  <div =
+style=3D"border: 1px solid #d6d6d6; border-top: none;">=09=09=09  <div styl=
+e=3D"padding: 40px 20px 10px 20px;">=09=09=09=09 <p style=3D"font-size: 16p=
+x; line-height: 24px;">=09=09=09=09=09=BE=C8=B3=E7=C7=CF=BC=BC=BF=E4.<br/>=
+=09=09=09=09=09=B0=A1=B8=CD=C1=A1 =B0=A1=C0=D4 =BD=C5=C3=BB=BC=AD =C0=DB=BC=
+=BA =BD=C3 =BA=BB=C0=CE =BA=CE=C0=CE =B9=E6=C1=F6=B8=A6 =C0=A7=C7=CF=BF=A9 =
+=B0=F8=C0=CE=C0=CE=C1=F5=C0=CC =C7=CA=BF=E4=C7=D5=B4=CF=B4=D9.<br/><br/>=09=
+=09=09=09=09=BE=C6=B7=A1 [=B0=F8=C0=CE=C0=CE=C1=F5=C7=CF=B1=E2] =B9=F6=C6=
+=B0=C0=BB =C5=AC=B8=AF =B0=F8=C0=CE=C0=CE=C1=F5=C0=BB =C0=A7=C7=D1 =C0=A5=
+=BB=E7=C0=CC=C6=AE=BF=A1 =C1=A2=BC=D3=C7=CF=BF=A9 <br/>=09=09=09=09=09=C0=
+=CE=C1=F5 =C4=DA=B5=E5=B8=A6 =C0=D4=B7=C2=C7=CF=BD=C5 =C8=C4 =B0=F8=C0=CE=
+=C0=CE=C1=F5=BC=AD=B8=A6 =C0=CC=BF=EB=C7=CF=BF=A9 =B7=CE=B1=D7=C0=CE =C7=CF=
+=BD=CA=BD=C3=BF=C0.=09=09=09=09</p>=09=09=09  </div>=09=09=09  =09=09=09   =
+<div style=3D"padding: 0 20px;">=09=09=09=09 <h2 style=3D"font-size:18px;">=
+=BB=F3=BC=BC=B3=BB=BF=EB</h2>=09=09=09=09=09 <!-- =C0=AF=C7=FC-->=09=09  =
+=09=09=09=09<table style=3D"margin-top: 10px; border-top: 1px solid #646464=
+; border: 0 none;border-collapse: separate;border-spacing: 0;table-layout: =
+fixed;word-break: break-all;" summary=3D"">    =09=09=09=09=09<caption styl=
+e=3D"font-size: 0;height: 1px;line-height: 0;overflow: hidden;position: abs=
+olute;width: 1px;">=B3=BB=BF=EB</caption>=09=09=09=09=09<colgroup>=09=09=09=
+=09=09   <col width=3D"120px" />=09=09=09=09=09   <col width=3D"500px" />=
+=09=09=09=09=09</colgroup>=09=09=09=09=09<tbody>=09=09=09=09=09  <tr>=09=09=
+=09=09=09=09 <th style=3D"padding:2px 5px 6px 10px;background: #f1f1f1;colo=
+r: #393939;text-align: left;height: 36px;line-height: 21px;border-top: 1px =
+solid #646464;border-bottom: 1px solid #646464; font-size: 15px;">=C0=CE=C1=
+=F5=C4=DA=B5=E5</th>=09=09=09=09=09=09 <td style=3D"border-top: 1px solid #=
+646464;border-bottom: 1px solid #646464;font-size: 15px;height: 27px;line-h=
+eight: 23px;text-align: left;padding: 3px 6px 4px 5px;" >657143</td>=09=09=
+=09=09=09  </tr>=09=09=09=09=09</tbody>=09=09=09=09</table>=09=09=09=09<!--=
+ =C0=AF=C7=FC-->=09=09=09=09=09=09=09=09<div style=3D"text-align: center; m=
+argin: 30px;">=09=09=09=09=09<a href=3D"https://www.qvan.co.kr/admin/corp/l=
+ogin?authKey=3De67831618164bbd2f68a485983fa0b83" style=3D"background-color:=
+ #d8271c; padding: 10px 20px; color: #fff; font-size: 16px; text-decoration=
+: none;">=B0=F8=C0=CE=C0=CE=C1=F5 =B9=D9=B7=CE=B0=A1=B1=E2</a>=09=09=09=09<=
+/div>=09=09=09=09=09=09=09=09<div style=3D"padding-top: 10px; clear: both;"=
+>=09=09=09=09=09<p style=3D"font-size: 16px; line-height: 24px;">=09=09=09=
+=09=09=09=A1=D8 =B0=F8=C0=CE=C0=CE=C1=F5=C0=BA =BF=E4=C3=BB =B8=DE=C0=CF =
+=BC=F6=BD=C5 =C8=C4 <span style=3D"color:#d8271c; font-weight: bold;">5=C0=
+=CF =C0=CC=B3=BB</span>=BF=A1 =BF=CF=B7=E1 =C7=CF=BF=A9=BE=DF =C7=D5=B4=CF=
+=B4=D9.<br/>=B1=E2=B0=A3=C0=CC =C1=F6=B3=AD =B0=E6=BF=EC =B0=A1=C0=D4 =BD=
+=C5=C3=BB=BC=AD=B4=C2 =C0=DA=B5=BF =BB=E8=C1=A6=B5=C7=B8=E7, =B4=D9=BD=C3 =
+=BD=C5=B1=D4 =B0=A1=C0=D4=C0=BB =BD=C5=C3=BB=C7=CF=BC=C5=BE=DF =C7=D5=B4=CF=
+=B4=D9.<br/>=09=09=09=09=09=09=A1=D8 =B0=F8=C0=CE=C0=CE=C1=F5=C0=BA =C5=A9=
+=B7=D2 =BA=EA=B6=F3=BF=EC=C0=FA=BF=A1 =C3=D6=C0=FB=C8=AD=B5=C7=BE=EE =C0=D6=
+=BD=C0=B4=CF=B4=D9.<br/>=C5=A9=B7=D2 =BA=EA=B6=F3=BF=EC=C0=FA=BF=A1=BC=AD =
+=B8=DE=C0=CF=C0=BB =BF=AD=BE=EE =B0=F8=C0=CE=C0=CE=C1=F5=C0=BB =C1=F8=C7=E0=
+=C7=CF=BD=C3=B1=E2=B8=A6 =B1=C7=C0=E5=B5=E5=B8=B3=B4=CF=B4=D9.<br/>=09=09=
+=09=09=09=09=A1=D8 =C5=C2=BA=ED=B8=B4=BF=A1=BC=AD=B4=C2 =B0=F8=C0=CE=C0=CE=
+=C1=F5=C0=CC =BA=D2=B0=A1=C7=CF=BF=C0=B4=CF PC=BF=A1=BC=AD =C1=F8=C7=E0 =BA=
+=CE=C5=B9=B5=E5=B8=B3=B4=CF=B4=D9.</p>=09=09=09=09</div>=09=09=09=09=09=09=
+=09=09<div style=3D"background-color: #f0f0f0;border-radius: 5px; padding: =
+20px; margin-top: 60px; margin-bottom: 20px;">=09=09=09=09=09<p style=3D"fo=
+nt-size: 15px; line-height: 28px;margin: 0px; text-align: center;">=09=09=
+=09=09=09=BA=BB =B8=DE=C0=CF=C0=BA =B9=DF=BD=C5 =C0=FC=BF=EB =B8=DE=C0=CF=
+=C0=CC=B9=C7=B7=CE, =C8=B8=BD=C5 =B5=C7=C1=F6 =BE=CA=BD=C0=B4=CF=B4=D9.<br/=
+>=09=09=09=09=09Copyright =A8=CF 2018 Mobileleader, All Rights Reserved=09=
+=09=09=09=09</p>=09=09=09=09</div> =09=09=09=09=09=09=09  </div>=09=09=09</=
+div>  =09  </div>=09  <!-- /mail =BF=B5=BF=AA-->  </div></body></html>

@@ -1,0 +1,1030 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1694675256;
+	cv=none; b=HeRln1Rxw07NUnI/UAwiIpIgk4yq5EUpeKewGf/WBtSg3OH6KD7+6Utk82Tp
+	 WLI+xj/hAheFBseaY2YUA6A4YmnkqyWHmyPMuF3Pw6toeTHPw7baCnZXO/vXkgFncnxnbW
+	 YIxsEFoEAn++ji79JLZ5BiRqYxAzdek+ei6K7bQEQ8gGG4+B/l8RHTsCS0q9bFZztK2MGO
+	 brUnboOlCev0DEKTpoOnawzbEWCUZajA/pPb8zs+B2DQNWpp8Hwv2h8mX6Gy61bsl8ZYP7
+	 BAYP9VaGk6cuja+61v1WmS4sJ4+Rc5HFPWWmllvN8MDXsbwC9ii1kQVnOodNQ2BCZCS5Nz
+	 Qg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1694675256; c=relaxed/relaxed;
+	bh=OY4CZ0Fzp52AChIXmsutP6UlONW6d6JoUcPH6bvOYQc=;
+	h=dkim-signature:dkim-signature:date:from:to:message-id:subject; b=LfH1
+	 s4HVoCaP1C7s5dghLxzs9l8+OgsFaSFsjYGEtz5wLQLbH4mIDQHG8LdRtVrpFMCeXk55Oe
+	 yFF1nFJo2jgraVGGmLdtkgTSH/SK+jm+hk9xEk9g8mXlbH1VtBh8PvlzAdM3RAZWAifghb
+	 2l3BG1kx7nEIQm3QKdUCJ9fboNoUXcfZDQZBw/C4FPYNqAoF/4vABKUR4+HdgD6P9t61QD
+	 ovCgDr/CdlSVPmtEQnt47YCX8oAOr0BZ2NutOa64TG9d3nELCx4HWq1vCzqJt8VX237QLB
+	 XeyzM8GuD2L7vNokWKxGj9lQ31BG9EQca0VugqYvJNVWa7dfwfy+mCVybA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of 010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com designates 76.223.177.57 as permitted sender) smtp.mailfrom=010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com;
+  dkim=pass header.i=@yanolja.com;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yanolja.com
+Return-Path: <010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com>
+Received-SPF: pass (mx.naver.com: domain of 010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com designates 76.223.177.57 as permitted sender)
+  client-ip=76.223.177.57; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of 010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com designates 76.223.177.57 as permitted sender) smtp.mailfrom=010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com;
+  dkim=pass header.i=@yanolja.com;
+  dkim=pass header.i=@amazonses.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=yanolja.com
+X-Naver-ESV: wZ+n+6J4p63CbHmqKBwdbXFYKAbmFqKrjJ+Y
+X-Session-IP: 76.223.177.57
+Received: from c177-57.smtp-out.ap-northeast-2.amazonses.com (c177-57.smtp-out.ap-northeast-2.amazonses.com [76.223.177.57])
+  by crcvmail204.nm.naver.com with ESMTP id nN62tXi3Semxx6igDyeY-w
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES128-SHA256);
+  Thu, 14 Sep 2023 07:07:36 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=wpla5msz3yo6xrv7x2aib4o4h6kmpzuy; d=yanolja.com; t=1694675256;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=4pz9DuK/CIjMYJpa3ix1CEsLCsUsD+d/H9LB7ZwCrbM=;
+	b=CGXMGM9QFJ1vvX3RIoJ3zVigt+0OZEVXsvBR4ZnmXNTC1YpDeZObxdms0Y4tv8r3
+	DQsWIA1+O+6cR5dijsUKByupT7j1hGt6lE1Rcd8c9Lhv/qkIQmV8HRAxDDiAvf+jN4Y
+	+7hIzdbylfb4COAB5Xo2wfPOhWQkIw1dyHxP0dEM=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=fjorytowieawoqs5yj2get7wp7ckelq7; d=amazonses.com; t=1694675256;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=4pz9DuK/CIjMYJpa3ix1CEsLCsUsD+d/H9LB7ZwCrbM=;
+	b=Cc8H8LHAgEeN0Nfg/R0OegoSLeTRgpTWQp5+9VNz6GvW7NMX6wcKZMl+aAH+gid0
+	LuRBY1NPXQ7xJDzC/P09UVuHzfxwprg9CivRKeCOYTMNjwY44hQuP0VWYoGh1k28TpT
+	76I4VrHBCr5XhmE2BJeYWEqdWMB5o5bNIGTy5s+E=
+Date: Thu, 14 Sep 2023 07:07:36 +0000
+From: =?UTF-8?B?7JW864aA7J6Q?= <no_reply@yanolja.com>
+To: 1059230@naver.com
+Message-ID: <010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000@ap-northeast-2.amazonses.com>
+Subject: =?UTF-8?B?7JW864aA7J6QIOyEnOu5hOyKpCDsnbTsmqnslb3qtIAg67CPIOyghA==?=
+ =?UTF-8?B?7J6Q6riI7Jy16rGw656YIOydtOyaqeyVveq0gCDqsJzsoJUg7JWI64K0?=
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_7474040_1806349006.1694675256088"
+Feedback-ID: 1.ap-northeast-2.imRBT4h4z+aX/o3P5cCdnatxWiygDD1t0ZwanrfvShE=:AmazonSES
+X-SES-Outgoing: 2023.09.14-76.223.177.57
+
+------=_Part_7474040_1806349006.1694675256088
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+  <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+">
+
+
+</head>
+
+<body style=3D"-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%">
+  <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" id=
+=3D"bodyTable" style=3D"margin:0 auto;mso-table-lspace:0;mso-table-rspace:0=
+;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%">
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"line-height:56px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <img src=3D"https://yaimg.yanolja.com/template/email/home-ya-=
+logo.png" alt=3D"yanolja" width=3D"120" style=3D"-ms-interpolation-mode:bic=
+ubic">
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:24px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <span class=3D"large-font text bold gray800" style=3D"font-we=
+ight:700;font-style:normal;font-stretch:normal;line-height:normal;color:#33=
+3333;letter-spacing:-.5px;font-size:32px">=EC=95=BC=EB=86=80=EC=9E=90 =EC=
+=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80 =EB=B0=8F =EC=
+=A0=84=EC=9E=90=EA=B8=88=EC=9C=B5=EA=B1=B0=EB=9E=98 =EC=9D=B4=EC=9A=A9=EC=
+=95=BD=EA=B4=80 =EA=B0=9C=EC=A0=95 =EC=95=88=EB=82=B4</span>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:24px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p class=3D"text middle-font gray800" style=3D"-ms-text-size-=
+adjust:100%;-webkit-text-size-adjust:100%;margin:0;font-style:normal;font-s=
+tretch:normal;line-height:1.5;color:#333333;letter-spacing:-.5px;font-size:=
+14px"> =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94, (=EC=A3=BC)=EC=95=BC=
+=EB=86=80=EC=9E=90=EC=9E=85=EB=8B=88=EB=8B=A4.<br><br> =EC=95=BC=EB=86=80=
+=EC=9E=90 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4 =
+=EC=A3=BC=EC=8B=9C=EB=8A=94 =ED=9A=8C=EC=9B=90=EB=B6=84=EB=93=A4=EA=BB=98 =
+=EA=B0=90=EC=82=AC=EC=9D=98 =EC=9D=B8=EC=82=AC=EB=A5=BC =EB=93=9C=EB=A6=BD=
+=EB=8B=88=EB=8B=A4. 2023=EB=85=84 11=EC=9B=94 1=EC=9D=BC=EC=9E=90=EB=A1=9C =
+=EC=95=BC=EB=86=80=EC=9E=90 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=
+=EC=95=BD=EA=B4=80 =EB=B0=8F =EC=A0=84=EC=9E=90=EA=B8=88=EC=9C=B5=EA=B1=B0=
+=EB=9E=98 =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80=EC=9D=84 =EC=9D=BC=EB=B6=80 =
+=EA=B0=9C=EC=A0=95=ED=95=98=EA=B2=8C =EB=90=98=EC=96=B4 =EC=95=84=EB=9E=98=
+=EC=99=80 =EA=B0=99=EC=9D=B4 =EC=95=88=EB=82=B4=EB=93=9C=EB=A6=AC=EA=B3=A0=
+=EC=9E=90 =ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:40px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+     <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"line-height:40px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%"><span class=3D"bold middle-fon=
+t gray900" style=3D"font-size:14px;line-height:1.5;font-weight:700;color:#2=
+e2e2e">1. =EA=B0=9C=EC=A0=95 =EC=82=AC=EC=9C=A0</span></td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p class=3D"text middle-font gray600" style=3D"color:#333333;=
+-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font-style=
+:normal;font-stretch:normal;line-height:1.5;letter-spacing:-.5px;font-size:=
+14px"> =EC=95=BC=EB=86=80=EC=9E=90 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9E=A5=EA=
+=B8=B0 =EB=AF=B8=EC=9D=B4=EC=9A=A9 =ED=9A=8C=EC=9B=90=EC=97=90 =EB=8C=80=ED=
+=95=9C =EC=9D=B4=EC=9A=A9 =EC=A0=9C=ED=95=9C =EC=A0=95=EC=B1=85=EC=9D=B4 =
+=EB=B3=80=EA=B2=BD=EB=90=A9=EB=8B=88=EB=8B=A4. =EA=B8=B0=EC=A1=B4=EC=97=90=
+=EB=8A=94 =EC=95=BC=EB=86=80=EC=9E=90 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =
+=EC=B5=9C=EC=A2=85 =EC=9D=B4=EC=9A=A9 =ED=9B=84 1=EB=85=84 =EB=8F=99=EC=95=
+=88 =EC=9D=B4=EC=9A=A9 =EA=B8=B0=EB=A1=9D=EC=9D=B4 =EC=97=86=EB=8A=94 =EA=
+=B2=BD=EC=9A=B0=EC=97=90 =ED=83=88=ED=87=B4 =EC=B2=98=EB=A6=AC =EB=90=98=EC=
+=97=88=EC=9C=BC=EB=82=98, =EC=95=9E=EC=9C=BC=EB=A1=9C=EB=8A=94 3=EB=85=84 =
+=EC=9D=B4=EC=83=81 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=
+=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0=EC=97=90 =ED=83=88=
+=ED=87=B4 =EC=B2=98=EB=A6=AC=EB=90=A9=EB=8B=88=EB=8B=A4. =EB=98=90=ED=95=9C=
+, =EC=A0=84=EC=9E=90=EA=B8=88=EC=9C=B5=EA=B1=B0=EB=9E=98 =EC=9D=B4=EC=9A=A9=
+=EC=95=BD=EA=B4=80=EC=9D=98 =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8F=84 =EC=9E=A5=
+=EA=B8=B0 =EB=AF=B8=EC=9D=B4=EC=9A=A9 =ED=9A=8C=EC=9B=90=EC=97=90 =EB=8C=80=
+=ED=95=9C =EC=9D=B4=EC=9A=A9 =EC=A0=95=EC=B1=85 =EB=B3=80=EA=B2=BD =EB=B0=
+=8F =EA=B8=88=EC=9C=B5=EA=B0=90=EB=8F=85=EC=9B=90=EC=9D=98 =EC=9D=B4=EC=9A=
+=A9=EC=9E=90 =EC=9E=90=EA=B8=88 =EB=B3=B4=ED=98=B8 =EA=B4=80=EB=A0=A8 =EA=
+=B0=80=EC=9D=B4=EB=93=9C =EB=93=B1=EC=9D=84 =EC=95=BD=EA=B4=80=EC=97=90 =EB=
+=B0=98=EC=98=81=ED=95=98=EC=98=80=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>
+            </p></td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:20px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+     <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <span class=3D"bold middle-font gray800" style=3D"font-size:1=
+4px;line-height:1.5;font-weight:700;color:#2e2e2e">2. =EA=B0=9C=EC=A0=95 =
+=EB=82=B4=EC=9A=A9</span>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:12px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;</td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <span class=3D"bold middle-font gray800" style=3D"font-size:1=
+4px;line-height:1.5;font-weight:700;color:#2e2e2e">&lt;=EC=95=BC=EB=86=80=
+=EC=9E=90 =EC=84=9C=EB=B9=84=EC=8A=A4 =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80&=
+gt;</span>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter table" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-ad=
+just:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0=
+ auto;border-top:#616161 1px solid;border-collapse:collapse" width=3D"100%"=
+>
+          <tr>
+            <th style=3D"width:50%;border-right:1px solid #e6e6e6;padding:1=
+6px 0 16px 0;background-color:#f8f8f8;color:#2e2e2e;font-size:14px;text-ali=
+gn:center;width:42%" class=3D"right-border" width=3D"50%" bgcolor=3D"#f8f8f=
+8" align=3D"center">=EA=B0=9C=EC=A0=95 =EC=A0=84</th>
+            <th style=3D"padding:16px 0 16px 0;background-color:#f8f8f8;col=
+or:#2e2e2e;font-size:14px;text-align:center;width:42%" bgcolor=3D"#f8f8f8" =
+align=3D"center">=EA=B0=9C=EC=A0=95 =ED=9B=84</th>
+          </tr>
+          <tr>
+             <td class=3D"right-bottom-border" style=3D"text-align:center;m=
+so-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text=
+-size-adjust:100%;border-right:1px solid #e6e6e6;border-bottom:1px solid #e=
+6e6e6;vertical-align:top" valign=3D"top" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:21px">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C24=EC=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4 =EC=
+=9D=B4=EC=9A=A9 =EC=A0=9C=ED=95=9C)<br>
+                    =E2=91=A1 =ED=9A=8C=EC=82=AC=EB=8A=94 =ED=9A=8C=EC=9B=
+=90=EC=9D=B4 =EA=B3=84=EC=86=8D=ED=95=B4=EC=84=9C 1=EB=85=84 =EC=9D=B4=EC=
+=83=81 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=98=EC=
+=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94, =EC=A0=95=
+=EB=B3=B4=ED=86=B5=EC=8B=A0=EB=A7=9D=EB=B2=95=EC=97=90 =EB=94=B0=EB=9D=BC =
+=ED=95=84=EC=9A=94=ED=95=9C =EC=A1=B0=EC=B9=98=EB=A5=BC =EC=B7=A8=ED=95=A0 =
+=EC=88=98 =EC=9E=88=EA=B3=A0, =ED=9A=8C=EC=9B=90=EC=A0=95=EB=B3=B4=EC=9D=98=
+ =EB=B3=B4=ED=98=B8 =EB=B0=8F =EC=9A=B4=EC=98=81=EC=9D=98 =ED=9A=A8=EC=9C=
+=A8=EC=84=B1=EC=9D=84 =EC=9C=84=ED=95=B4 =EC=9D=B4=EC=9A=A9=EC=9D=84 =EC=A0=
+=9C=ED=95=9C=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+                </span>
+              </p>
+            </td>
+            <td class=3D"bottom-border" style=3D"text-align:center;mso-tabl=
+e-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-size-a=
+djust:100%;border-bottom:1px solid #e6e6e6;vertical-align:top" valign=3D"to=
+p" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:1.5">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C24=EC=A1=B0 (=EC=84=9C=EB=B9=84=EC=8A=A4 =EC=
+=9D=B4=EC=9A=A9 =EC=A0=9C=ED=95=9C)<br>
+                    =E2=91=A1 =ED=9A=8C=EC=82=AC=EB=8A=94 =ED=9A=8C=EC=9B=
+=90=EC=9D=B4 =EA=B3=84=EC=86=8D=ED=95=B4=EC=84=9C <u>3=EB=85=84</u> =EC=9D=
+=B4=EC=83=81 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=
+=98=EC=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94, <u>=
+=EA=B0=9C=EC=9D=B8=EC=A0=95=EB=B3=B4 =EB=B3=B4=ED=98=B8=EB=B2=95 =EB=B0=8F =
+=ED=9A=8C=EC=82=AC=EC=9D=98 =EB=B0=A9=EC=B9=A8</u>=EC=97=90 =EB=94=B0=EB=9D=
+=BC =ED=95=84=EC=9A=94=ED=95=9C =EC=A1=B0=EC=B9=98=EB=A5=BC =EC=B7=A8=ED=95=
+=A0 =EC=88=98 =EC=9E=88=EA=B3=A0, =ED=9A=8C=EC=9B=90=EC=A0=95=EB=B3=B4=EC=
+=9D=98 =EB=B3=B4=ED=98=B8 =EB=B0=8F =EC=9A=B4=EC=98=81=EC=9D=98 =ED=9A=A8=
+=EC=9C=A8=EC=84=B1=EC=9D=84 =EC=9C=84=ED=95=B4 =EC=9D=B4=EC=9A=A9=EC=9D=84 =
+=EC=A0=9C=ED=95=9C=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+                    <br>
+                </span>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%"><span class=3D"bold middle-fon=
+t gray900" style=3D"font-size:13px;line-height:1.5;font-weight:400;color:#7=
+f7f7f">* =EA=B0=9C=EC=A0=95=EB=90=9C =EC=95=BD=EA=B4=80=EC=9D=98 =EC=A0=84=
+=EB=AC=B8=EC=9D=80 <a style=3D"color:#ff2c63" href=3D"https://vkqtkmre.r.ap=
+-northeast-2.awstrack.me/L0/https:%2F%2Fboard.yanolja.com%2Finfo%2Fcontent%=
+2Findex.html%3Fid=3DINFO-406/1/010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c=
+012ae5f2f-000000/n1VOflAdrgVKhJxZEMcnjQ7hPDc=3D124"><u>=EC=9D=B4=EA=B3=B3</=
+u></a>=EC=97=90=EC=84=9C =ED=99=95=EC=9D=B8=ED=95=98=EC=8B=A4 =EC=88=98 =EC=
+=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</span></td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;</td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;</td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <span class=3D"bold middle-font gray800" style=3D"font-size:1=
+4px;line-height:1.5;font-weight:700;color:#2e2e2e">&lt;=EC=A0=84=EC=9E=90=
+=EA=B8=88=EC=9C=B5=EA=B1=B0=EB=9E=98 =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80&g=
+t;</span>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;</td>
+          </tr>
+        </table>
+      </td>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter table" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-ad=
+just:100%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0=
+ auto;border-top:#616161 1px solid;border-collapse:collapse" width=3D"100%"=
+>
+          <tr>
+            <th style=3D"width:50%;border-right:1px solid #e6e6e6;padding:1=
+6px 0 16px 0;background-color:#f8f8f8;color:#2e2e2e;font-size:14px;text-ali=
+gn:center;width:42%" class=3D"right-border" width=3D"50%" bgcolor=3D"#f8f8f=
+8" align=3D"center">=EA=B0=9C=EC=A0=95 =EC=A0=84</th>
+            <th style=3D"padding:16px 0 16px 0;background-color:#f8f8f8;col=
+or:#2e2e2e;font-size:14px;text-align:center;width:42%" bgcolor=3D"#f8f8f8" =
+align=3D"center">=EA=B0=9C=EC=A0=95 =ED=9B=84</th>
+          </tr>
+          <tr>
+            <td class=3D"right-bottom-border" style=3D"text-align:center;ms=
+o-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-=
+size-adjust:100%;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6=
+e6e6;vertical-align:top" valign=3D"top" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:21px">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 19 =EC=A1=B0 (=EB=B3=B4=EC=9C=A0 =ED=95=9C=EB=
+=8F=84 =EB=B0=8F =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84)<br>
+                    =E2=91=A3 =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=8A=
+=B8=EB=8A=94 =EB=B0=9C=ED=96=89=EC=9D=BC=EB=A1=9C=EB=B6=80=ED=84=B0 5=EB=85=
+=84 =EC=B4=88=EA=B3=BC =EC=8B=9C =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=
+=B4 =EB=A7=8C=EB=A3=8C=EB=90=98=EB=A9=B0 =EB=A7=8C=EB=A3=8C=EB=90=9C =ED=8F=
+=AC=EC=9D=B8=ED=8A=B8=EB=8A=94 =EC=9D=B4=EC=9A=A9 =EB=B0=8F =ED=99=98=EB=B6=
+=88 =EC=8B=A0=EC=B2=AD=EC=9D=B4 =EB=B6=88=EA=B0=80=ED=95=A9=EB=8B=88=EB=8B=
+=A4. =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=
+=8A=B8=EC=9D=98 =EC=9C=84 =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=B4 =EB=
+=A7=8C=EB=A3=8C=EB=90=98=EA=B8=B0 30=EC=9D=BC =EC=A0=84 =EC=A0=84=EC=9E=90=
+=EC=A0=81 =EC=88=98=EB=8B=A8(=EC=9D=B4=EB=A9=94=EC=9D=BC, =EB=AC=B8=EC=9E=
+=90, =EC=95=8C=EB=A6=BC=ED=86=A1 =EB=93=B1)=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=
+=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=98 =EB=8F=84=EB=9E=98 =EC=82=AC=EC=
+=8B=A4 =EB=B0=8F =EC=86=8C=EB=A9=B8 =EC=8B=9C=EA=B8=B0 =EB=93=B1=EC=9D=84 =
+=EC=95=88=EB=82=B4=ED=95=A9=EB=8B=88=EB=8B=A4.
+                </span>
+              </p>
+            </td>
+            <td class=3D"bottom-border" style=3D"text-align:center;mso-tabl=
+e-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-size-a=
+djust:100%;border-bottom:1px solid #e6e6e6;vertical-align:top" valign=3D"to=
+p" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:1.5">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 19 =EC=A1=B0 (=EB=B3=B4=EC=9C=A0 =ED=95=9C=EB=
+=8F=84 =EB=B0=8F =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84)<br>
+                    =E2=91=A3 =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=8A=
+=B8=EB=8A=94 =EB=B0=9C=ED=96=89=EC=9D=BC=EB=A1=9C=EB=B6=80=ED=84=B0 5=EB=85=
+=84 =EC=B4=88=EA=B3=BC =EC=8B=9C =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=
+=B4 =EB=A7=8C=EB=A3=8C=EB=90=98=EB=A9=B0 =EB=A7=8C=EB=A3=8C=EB=90=9C =ED=8F=
+=AC=EC=9D=B8=ED=8A=B8=EB=8A=94 =EC=9D=B4=EC=9A=A9 =EB=B0=8F =ED=99=98=EB=B6=
+=88 =EC=8B=A0=EC=B2=AD=EC=9D=B4 =EB=B6=88=EA=B0=80=ED=95=A9=EB=8B=88=EB=8B=
+=A4. =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=
+=8A=B8=EC=9D=98 =EC=9C=84 =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=B4 =EB=
+=A7=8C=EB=A3=8C=EB=90=98=EA=B8=B0 <u>30=EC=9D=BC=EC=A0=84 =ED=86=B5=EC=A7=
+=80=EB=A5=BC =ED=8F=AC=ED=95=A8=ED=95=98=EC=97=AC 3=ED=9A=8C =EC=9D=B4=EC=
+=83=81 =EC=A0=84=EC=9E=90=EC=A0=81 =EC=88=98=EB=8B=A8</u>(=EC=9D=B4=EB=A9=
+=94=EC=9D=BC, =EB=AC=B8=EC=9E=90, =EC=95=8C=EB=A6=BC=ED=86=A1 =EB=93=B1)=EC=
+=9D=84 =ED=86=B5=ED=95=B4 =EC=9C=A0=ED=9A=A8=EA=B8=B0=EA=B0=84=EC=9D=98 =EB=
+=8F=84=EB=9E=98 =EC=82=AC=EC=8B=A4 =EB=B0=8F =EC=86=8C=EB=A9=B8 =EC=8B=9C=
+=EA=B8=B0 =EB=93=B1=EC=9D=84 =EC=95=88=EB=82=B4=ED=95=A9=EB=8B=88=EB=8B=A4.
+                    <br>
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class=3D"right-bottom-border" style=3D"text-align:center;ms=
+o-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-=
+size-adjust:100%;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6=
+e6e6;vertical-align:top" valign=3D"top" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:21px">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 21 =EC=A1=B0 (=EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=
+=9D=B8=ED=8A=B8=EC=9D=98 =EA=B5=AC=EB=A7=A4 =EC=B7=A8=EC=86=8C, =ED=99=98=
+=EB=B6=88)<br>
+                    =E2=91=A1 =EC=9D=B4=EC=9A=A9=EC=9E=90=EB=8A=94 =EC=B6=
+=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9D=98 60% =EC=9D=B4=EC=83=81=EC=
+=9D=84 =EC=82=AC=EC=9A=A9=ED=95=9C =EA=B2=BD=EC=9A=B0 =EC=9E=94=EC=95=A1=EC=
+=9D=98 =ED=99=98=EB=B6=88=EC=9D=84 =ED=9A=8C=EC=82=AC=EC=97=90 =EC=9A=94=EC=
+=B2=AD=ED=95=A0 =EC=88=98 =EC=9E=88=EA=B3=A0, =ED=99=98=EB=B6=88=EC=88=98=
+=EC=88=98=EB=A3=8C =EA=B3=B5=EC=A0=9C =EC=97=86=EC=9D=B4 =EC=B6=A9=EC=A0=84=
+ =ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=9E=94=EC=95=A1=EC=9D=84 =ED=99=98=EB=B6=88=
+ =EB=B0=9B=EC=9D=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4. =EC=9D=
+=B4=EB=95=8C =ED=9A=8C=EC=82=AC=EB=8A=94 =ED=9A=8C=EC=82=AC=EA=B0=80 =EC=A0=
+=95=ED=95=9C =EC=A0=95=EC=B1=85=EC=97=90 =EB=94=B0=EB=9D=BC =EC=9D=B4=EC=9A=
+=A9=EC=9E=90 =EB=B3=B8=EC=9D=B8 =EB=AA=85=EC=9D=98 =ED=86=B5=EC=9E=A5 =EC=
+=9D=B8=EC=A6=9D =EB=93=B1=EC=9D=84 =EC=9A=94=EA=B5=AC=ED=95=A0 =EC=88=98 =
+=EC=9E=88=EA=B3=A0, =EA=B2=80=EC=A6=9D=EC=9D=B4 =EC=99=84=EB=A3=8C=EB=90=9C=
+ =ED=86=B5=EC=9E=A5=EC=9C=BC=EB=A1=9C =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=
+=ED=8A=B8 =EC=9E=94=EC=95=A1=EC=9D=84 =ED=99=98=EB=B6=88=ED=95=98=EC=97=AC =
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =EB=8B=A8, =ED=9A=8C=EC=82=AC=EA=B0=
+=80 =EB=AC=B4=EC=83=81=EC=9C=BC=EB=A1=9C =EC=A0=9C=EA=B3=B5=ED=95=9C =EC=A0=
+=81=EB=A6=BD =ED=8F=AC=EC=9D=B8=ED=8A=B8=EB=8A=94 =ED=99=98=EB=B6=88=EB=8C=
+=80=EC=83=81=EC=97=90=EC=84=9C =EC=A0=9C=EC=99=B8=EB=90=98=EB=A9=B0, =EC=9D=
+=B4=EC=9A=A9=EC=9E=90=EA=B0=80 =EC=B6=A9=EC=A0=84=ED=8F=AC=EC=9D=B8=ED=8A=
+=B8 =EC=A0=81=EB=A6=BD =EA=B8=88=EC=95=A1=EC=9D=84 60% =EB=AF=B8=EB=A7=8C=
+=EC=9C=BC=EB=A1=9C =EC=82=AC=EC=9A=A9=ED=95=9C =EA=B2=BD=EC=9A=B0=EC=97=90=
+=EB=8F=84 =ED=99=98=EB=B6=88=EC=9D=B4 =EB=B6=88=EA=B0=80=ED=95=A9=EB=8B=88=
+=EB=8B=A4.</br></br>
+                  =E2=91=A3 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=9E=A5=EA=B8=B0 =
+=EB=AF=B8=EC=9D=B4=EC=9A=A9 =EC=9D=B4=EC=9A=A9=EC=9E=90=EC=9D=98 =EA=B2=BD=
+=EC=9A=B0 =EB=A7=88=EC=A7=80=EB=A7=89 =EC=A0=91=EC=86=8D=EC=9D=BC=EB=A1=9C=
+=EB=B6=80=ED=84=B0 1=EB=85=84 =EB=8F=84=EA=B3=BC =EC=8B=9C =EC=9E=90=EB=8F=
+=99 =ED=83=88=ED=87=B4 =EC=B2=98=EB=A6=AC(=EB=8B=A8, =EC=9E=A5=EA=B8=B0 =EB=
+=AF=B8=EC=9D=B4=EC=9A=A9=EC=8B=9C=EC=97=90=EB=8F=84 =EA=B3=84=EC=A0=95 =EC=
+=9C=A0=EC=A7=80=EB=A5=BC =EC=84=A0=ED=83=9D=ED=95=9C =EC=9D=B4=EC=9A=A9=EC=
+=9E=90=EB=8A=94 =EC=A0=9C=EC=99=B8) =ED=95=98=EA=B3=A0 =EC=9E=88=EC=9C=BC=
+=EB=A9=B0, =EC=9E=90=EB=8F=99 =ED=83=88=ED=87=B4 =EC=B2=98=EB=A6=AC 30=EC=
+=9D=BC =EC=A0=84, =EC=A0=84=EC=9E=90=EC=A0=81 =EC=88=98=EB=8B=A8(=EC=9D=B4=
+=EB=A9=94=EC=9D=BC, =EB=AC=B8=EC=9E=90, =EC=95=8C=EB=A6=BC=ED=86=A1 =EB=93=
+=B1)=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=9E=90=EB=8F=99 =ED=83=88=ED=87=B4=EA=
+=B0=80 =EC=98=88=EC=A0=95=EB=90=9C =EC=82=AC=EC=8B=A4 =EB=B0=8F =EA=B3=84=
+=EC=A0=95 =EC=9C=A0=EC=A7=80 =EC=A0=88=EC=B0=A8=EC=99=80 =EC=B6=A9=EC=A0=84=
+ =ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9D=98 =EC=A0=9C19=EC=A1=B0 =EC=A0=9C4=ED=95=
+=AD=EC=9D=98 =EA=B8=B0=EC=A4=80=EC=97=90 =EB=94=B0=EB=A5=B8 =ED=99=98=EB=B6=
+=88 =EB=8C=80=EC=83=81 =EC=97=AC=EB=B6=80 =EB=B0=8F =ED=99=98=EB=B6=88 =EC=
+=A0=88=EC=B0=A8=EB=A5=BC =EC=95=88=EB=82=B4=ED=95=A9=EB=8B=88=EB=8B=A4.
+                </span>
+              </p>
+            </td>
+            <td class=3D"bottom-border" style=3D"text-align:center;mso-tabl=
+e-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-size-a=
+djust:100%;border-bottom:1px solid #e6e6e6;vertical-align:top" valign=3D"to=
+p" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:1.5">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 21 =EC=A1=B0 (=EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=
+=9D=B8=ED=8A=B8=EC=9D=98 =EA=B5=AC=EB=A7=A4 =EC=B7=A8=EC=86=8C, =ED=99=98=
+=EB=B6=88)<br>
+                    =E2=91=A1 =EC=9D=B4=EC=9A=A9=EC=9E=90=EB=8A=94 =EC=B6=
+=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9D=98 60% =EC=9D=B4=EC=83=81=EC=
+=9D=84 =EC=82=AC=EC=9A=A9=ED=95=9C =EA=B2=BD=EC=9A=B0 =EC=9E=94=EC=95=A1=EC=
+=9D=98 =ED=99=98=EB=B6=88=EC=9D=84 =ED=9A=8C=EC=82=AC=EC=97=90 =EC=9A=94=EC=
+=B2=AD=ED=95=A0 =EC=88=98 =EC=9E=88=EA=B3=A0, =ED=99=98=EB=B6=88=EC=88=98=
+=EC=88=98=EB=A3=8C =EA=B3=B5=EC=A0=9C =EC=97=86=EC=9D=B4 =EC=B6=A9=EC=A0=84=
+ =ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=9E=94=EC=95=A1=EC=9D=84 =ED=99=98=EB=B6=88=
+ =EB=B0=9B=EC=9D=84 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4. =EC=9D=
+=B4=EB=95=8C =ED=9A=8C=EC=82=AC=EB=8A=94 =ED=9A=8C=EC=82=AC=EA=B0=80 =EC=A0=
+=95=ED=95=9C =EC=A0=95=EC=B1=85=EC=97=90 =EB=94=B0=EB=9D=BC =EC=9D=B4=EC=9A=
+=A9=EC=9E=90 =EB=B3=B8=EC=9D=B8 =EB=AA=85=EC=9D=98 =ED=86=B5=EC=9E=A5 =EC=
+=9D=B8=EC=A6=9D =EB=93=B1=EC=9D=84 =EC=9A=94=EA=B5=AC=ED=95=A0 =EC=88=98 =
+=EC=9E=88=EA=B3=A0, =EA=B2=80=EC=A6=9D=EC=9D=B4 =EC=99=84=EB=A3=8C=EB=90=9C=
+ =ED=86=B5=EC=9E=A5=EC=9C=BC=EB=A1=9C =EC=B6=A9=EC=A0=84 =ED=8F=AC=EC=9D=B8=
+=ED=8A=B8 =EC=9E=94=EC=95=A1=EC=9D=84 =ED=99=98=EB=B6=88=ED=95=98=EC=97=AC =
+=EB=93=9C=EB=A6=BD=EB=8B=88=EB=8B=A4. =EB=8B=A8, =EC=9D=B4=EC=9A=A9=EC=9E=
+=90=EA=B0=80 =EC=B6=A9=EC=A0=84=ED=8F=AC=EC=9D=B8=ED=8A=B8 =EC=A0=81=EB=A6=
+=BD =EA=B8=88=EC=95=A1=EC=9D=84 60% =EB=AF=B8=EB=A7=8C=EC=9C=BC=EB=A1=9C =
+=EC=82=AC=EC=9A=A9=ED=95=9C =EA=B2=BD=EC=9A=B0=EC=97=90=EB=8A=94 =ED=99=98=
+=EB=B6=88=EC=9D=B4 =EB=B6=88=EA=B0=80=ED=95=A9=EB=8B=88=EB=8B=A4.</br></br>
+                    =E2=91=A3 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=9E=A5=EA=B8=
+=B0 =EB=AF=B8=EC=9D=B4=EC=9A=A9 =EC=9D=B4=EC=9A=A9=EC=9E=90=EC=9D=98 =EA=B2=
+=BD=EC=9A=B0 =EB=A7=88=EC=A7=80=EB=A7=89 =EC=A0=91=EC=86=8D=EC=9D=BC=EB=A1=
+=9C=EB=B6=80=ED=84=B0 <u>3=EB=85=84</u> =EB=8F=84=EA=B3=BC =EC=8B=9C =EC=9E=
+=90=EB=8F=99 =ED=83=88=ED=87=B4 =EC=B2=98=EB=A6=AC(=EB=8B=A8, =EC=9E=A5=EA=
+=B8=B0 =EB=AF=B8=EC=9D=B4=EC=9A=A9=EC=8B=9C=EC=97=90=EB=8F=84 =EA=B3=84=EC=
+=A0=95 =EC=9C=A0=EC=A7=80=EB=A5=BC =EC=84=A0=ED=83=9D=ED=95=9C =EC=9D=B4=EC=
+=9A=A9=EC=9E=90=EB=8A=94 =EC=A0=9C=EC=99=B8) =ED=95=98=EA=B3=A0 =EC=9E=88=
+=EC=9C=BC=EB=A9=B0, =EC=9E=90=EB=8F=99 =ED=83=88=ED=87=B4 =EC=B2=98=EB=A6=
+=AC 30=EC=9D=BC =EC=A0=84, =EC=A0=84=EC=9E=90=EC=A0=81 =EC=88=98=EB=8B=A8(=
+=EC=9D=B4=EB=A9=94=EC=9D=BC, =EB=AC=B8=EC=9E=90, =EC=95=8C=EB=A6=BC=ED=86=
+=A1 =EB=93=B1)=EC=9D=84 =ED=86=B5=ED=95=B4 =EC=9E=90=EB=8F=99 =ED=83=88=ED=
+=87=B4=EA=B0=80 =EC=98=88=EC=A0=95=EB=90=9C =EC=82=AC=EC=8B=A4 =EB=B0=8F =
+=EA=B3=84=EC=A0=95 =EC=9C=A0=EC=A7=80 =EC=A0=88=EC=B0=A8=EC=99=80 =EC=B6=A9=
+=EC=A0=84 =ED=8F=AC=EC=9D=B8=ED=8A=B8=EC=9D=98 =EC=A0=9C19=EC=A1=B0 =EC=A0=
+=9C4=ED=95=AD=EC=9D=98 =EA=B8=B0=EC=A4=80=EC=97=90 =EB=94=B0=EB=A5=B8 =ED=
+=99=98=EB=B6=88 =EB=8C=80=EC=83=81 =EC=97=AC=EB=B6=80 =EB=B0=8F =ED=99=98=
+=EB=B6=88 =EC=A0=88=EC=B0=A8=EB=A5=BC =EC=95=88=EB=82=B4=ED=95=A9=EB=8B=88=
+=EB=8B=A4.</br></br>
+                    <u>=E2=91=A4 =EC=9C=84 =EC=A0=9C1=ED=95=AD =EB=82=B4=EC=
+=A7=80 4=ED=95=AD=EC=97=90 =EB=B6=88=EA=B5=AC=ED=95=98=EA=B3=A0 =ED=9A=8C=
+=EC=82=AC=EA=B0=80 =EB=AC=B4=EC=83=81=EC=9C=BC=EB=A1=9C =EC=A0=9C=EA=B3=B5=
+=ED=95=9C =EC=A0=81=EB=A6=BD =ED=8F=AC=EC=9D=B8=ED=8A=B8=EB=8A=94 =ED=99=98=
+=EB=B6=88=EB=8C=80=EC=83=81=EC=97=90=EC=84=9C =EC=A0=9C=EC=99=B8=EB=90=A9=
+=EB=8B=88=EB=8B=A4.</u>
+                    <br>
+                </span>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class=3D"right-bottom-border" style=3D"text-align:center;ms=
+o-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-=
+size-adjust:100%;border-right:1px solid #e6e6e6;border-bottom:1px solid #e6=
+e6e6;vertical-align:top" valign=3D"top" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:21px">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 27 =EC=A1=B0 (=EC=84=A0=EB=B6=88=EC=B6=A9=EC=
+=A0=84=EA=B8=88=EC=9D=98 =EC=8B=A0=ED=83=81 =EB=98=90=EB=8A=94 =EC=A7=80=EA=
+=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=ED=97=98)<br>
+                    =E2=91=A0 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=84=A0=EB=B6=
+=88=EC=B6=A9=EC=A0=84=EA=B8=88=EC=9D=98 50% =EC=9D=B4=EC=83=81=EC=9D=84 =EC=
+=9D=B4=EC=9A=A9=EC=9E=90=EB=A5=BC =EC=88=98=EC=9D=B5=EC=9E=90=EB=A1=9C =ED=
+=95=98=EC=97=AC =EC=8B=A0=ED=83=81=ED=95=98=EA=B1=B0=EB=82=98 =EC=9D=B4=EC=
+=9A=A9=EC=9E=90=EB=A5=BC =ED=94=BC=EB=B3=B4=ED=97=98=EC=9E=90=EB=A1=9C =ED=
+=95=98=EC=97=AC =EC=A7=80=EA=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=ED=97=98=EC=
+=97=90 =EA=B0=80=EC=9E=85=ED=95=98=EC=97=AC=EC=95=BC =ED=95=A9=EB=8B=88=EB=
+=8B=A4.</br></br>
+                    =E2=91=A1 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=84=A0=EB=B6=
+=88=EC=B6=A9=EC=A0=84=EA=B8=88=EC=9D=84 =EC=9B=90=EC=B9=99=EC=A0=81=EC=9C=
+=BC=EB=A1=9C =EC=8B=A0=ED=83=81=ED=95=98=EB=90=98, =EB=B6=88=EA=B0=80=ED=94=
+=BC=ED=95=9C =EA=B2=BD=EC=9A=B0 =EC=A7=80=EA=B8=89=EB=B3=B4=EC=A6=9D=EC=9D=
+=98 =EB=B0=A9=EC=8B=9D=EC=9D=84 =ED=98=BC=ED=95=A9=ED=95=A0 =EC=88=98 =EC=
+=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</br></br>
+                    =E2=91=A2 =ED=9A=8C=EC=82=AC=EA=B0=80 =EC=84=A0=EB=B6=
+=88=EC=B6=A9=EC=A0=84=EA=B8=88=EC=9D=84 =EC=8B=A0=ED=83=81=ED=95=98=EB=8A=
+=94 =EA=B2=BD=EC=9A=B0 =EB=8C=80=EC=83=81=EA=B8=88=EC=95=A1=EC=9D=84 =EC=A0=
+=84=EC=95=A1 =EC=8B=A0=ED=83=81=ED=95=98=EC=97=AC=EC=95=BC =ED=95=98=EB=A9=
+=B0, =EC=9D=BC=EB=B6=80=EB=A5=BC =EC=A7=80=EA=B8=89=EC=A4=80=EB=B9=84=EA=B8=
+=88 =EC=9A=A9=EB=8F=84=EB=A1=9C =EC=98=88=EC=B9=98=ED=95=A0 =EC=88=98 =EC=
+=97=86=EC=8A=B5=EB=8B=88=EB=8B=A4.</br></br>
+                    =E2=91=A3 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=8B=A0=ED=83=
+=81 =EB=98=90=EB=8A=94 =EC=A7=80=EA=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=ED=97=
+=98=EC=97=90 =EA=B0=80=EC=9E=85=ED=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =EB=82=
+=98=EB=A8=B8=EC=A7=80 =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88=EC=9D=
+=84 =EC=9A=B4=EC=9A=A9=ED=95=98=EB=8A=94 =EA=B2=BD=EC=9A=B0 =EC=95=88=EC=A0=
+=84=EC=9E=90=EC=82=B0=EC=9C=BC=EB=A1=9C =EC=9A=B4=EC=9A=A9=ED=95=98=EC=97=
+=AC=EC=95=BC =ED=95=A9=EB=8B=88=EB=8B=A4.
+                </span>
+              </p>
+            </td>
+            <td class=3D"bottom-border" style=3D"text-align:center;mso-tabl=
+e-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:100%;-webkit-text-size-a=
+djust:100%;border-bottom:1px solid #e6e6e6;vertical-align:top" valign=3D"to=
+p" align=3D"center">
+              <p style=3D"text-align:left;-ms-text-size-adjust:100%;-webkit=
+-text-size-adjust:100%;margin:0;padding:10px;color:#616161;font-size:14px;l=
+ine-height:1.5">
+                <span class=3D"gray900" style=3D"color:#1a1a1a">
+                    =EC=A0=9C 27 =EC=A1=B0 (=EC=84=A0=EB=B6=88=EC=B6=A9=EC=
+=A0=84=EA=B8=88=EC=9D=98 =EC=8B=A0=ED=83=81 =EB=98=90=EB=8A=94 =EC=A7=80=EA=
+=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=ED=97=98)<br>
+                    <u>=E2=91=A0 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=9D=B4=EC=
+=9A=A9=EC=9E=90=EC=9D=98 =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88 =EC=
+=A0=84=EB=B6=80=EB=A5=BC =EC=8B=A0=ED=83=81=ED=95=98=EC=97=AC=EC=95=BC =ED=
+=95=98=EB=A9=B0, =EC=8B=A0=ED=83=81=EC=97=85=EC=9E=90=EC=97=90=EA=B2=8C =EC=
+=95=88=EC=A0=84=EC=9E=90=EC=82=B0=EC=9C=BC=EB=A1=9C =EC=9A=B4=EC=9A=A9=ED=
+=95=98=EB=8F=84=EB=A1=9D =EC=A7=80=EC=8B=9C=ED=95=A9=EB=8B=88=EB=8B=A4. =EB=
+=8B=A4=EB=A7=8C, =EC=A0=84=EC=9B=94=EB=A7=90 =EA=B8=B0=EC=A4=80 =EC=A0=84=
+=EC=B2=B4 =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88(=EC=A0=9C4=ED=95=AD=
+=EC=97=90 =EB=94=B0=EB=A5=B8 =EC=A7=80=EA=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=
+=ED=97=98=EC=97=90 =EA=B0=80=EC=9E=85=ED=95=9C =EA=B8=88=EC=95=A1=EC=9D=80 =
+=EC=A0=9C=EC=99=B8)=EC=9D=98 1/10=EC=97=90 =ED=95=B4=EB=8B=B9=ED=95=98=EB=
+=8A=94 =EA=B8=88=EC=95=A1(=EC=9D=B4=ED=95=98 =E2=80=98=EC=A7=80=EA=B8=89=EC=
+=A4=80=EB=B9=84=EA=B8=88=E2=80=99=EC=9D=B4=EB=9D=BC=EA=B3=A0 =ED=95=A9=EB=
+=8B=88=EB=8B=A4)=EA=B9=8C=EC=A7=80=EB=8A=94 =EB=B3=B4=ED=86=B5=EC=98=88=EA=
+=B8=88 =EB=93=B1 =EC=95=88=EC=A0=84=EC=9E=90=EC=82=B0 =EC=A4=91 =EC=88=98=
+=EC=8B=9C=EC=9E=85=EC=B6=9C=EC=9D=B4 =EA=B0=80=EB=8A=A5=ED=95=9C =ED=98=95=
+=ED=83=9C=EB=A1=9C =EC=8B=A0=ED=83=81=ED=9A=8C=EC=82=AC=EC=97=90 =EC=98=88=
+=EC=B9=98=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</u></br>=
+</br>
+                    <u>=E2=91=A1 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=8B=A0=ED=
+=83=81=EB=90=9C =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88(=EC=A7=80=EA=
+=B8=89=EC=A4=80=EB=B9=84=EA=B8=88 =EC=A0=9C=EC=99=B8)=EC=9D=98 =EC=88=98=EC=
+=9D=B5=EC=9E=90=EB=A5=BC =EC=9D=B4=EC=9A=A9=EC=9E=90=EB=A1=9C =EC=A7=80=EC=
+=A0=95=ED=95=98=EC=97=AC=EC=95=BC =ED=95=A9=EB=8B=88=EB=8B=A4. =EB=8B=A4=EB=
+=A7=8C, =EA=B0=9C=EB=B3=84 =EC=9D=B4=EC=9A=A9=EC=9E=90=EB=A5=BC =EC=88=98=
+=EC=9D=B5=EC=9E=90=EB=A1=9C =EC=A7=80=EC=A0=95=ED=95=98=EA=B8=B0 =EA=B3=A4=
+=EB=9E=80=ED=95=9C =EA=B2=BD=EC=9A=B0 =ED=9A=8C=EC=82=AC=EC=99=80 =EC=9D=B4=
+=ED=95=B4=EA=B4=80=EA=B3=84=EA=B0=80 =EC=97=86=EB=8A=94 =ED=8A=B9=EC=88=98=
+=EB=AA=A9=EC=A0=81=EB=B2=95=EC=9D=B8(SPC)=EB=A5=BC =EC=88=98=EC=9D=B5=EC=9E=
+=90=EB=A1=9C =EC=A7=80=EC=A0=95=ED=95=A0 =EC=88=98 =EC=9E=88=EC=8A=B5=EB=8B=
+=88=EB=8B=A4.</u></br></br>
+                    <u>=E2=91=A2 =ED=9A=8C=EC=82=AC=EB=8A=94 =EB=8B=B9=EC=
+=9D=BC =EC=9D=B4=EC=9A=A9=EC=9E=90 =EB=B0=8F =EC=9E=90=EA=B8=88=EC=9D=98 =
+=EB=B3=80=EB=8F=99 =EB=82=B4=EC=97=AD=EC=9D=84 =EC=8B=A0=EC=86=8D=ED=95=98=
+=EA=B2=8C =EC=9D=B5=EC=9D=BC=EA=B9=8C=EC=A7=80 =EC=8B=A0=ED=83=81=ED=95=A9=
+=EB=8B=88=EB=8B=A4.</u></br></br>
+                    <u>=E2=91=A3 =EC=A0=9C1=ED=95=AD=EC=97=90=EB=8F=84 =EB=
+=B6=88=EA=B5=AC=ED=95=98=EA=B3=A0 =EB=B6=88=EA=B0=80=ED=94=BC=ED=95=9C =EC=
+=82=AC=EC=9C=A0=EB=A1=9C =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88 =EC=
+=A4=91 =EC=9D=BC=EB=B6=80=EB=A5=BC =EC=8B=A0=ED=83=81=ED=95=98=EC=A7=80 =EC=
+=95=84=EB=8B=88=ED=95=98=EA=B3=A0 =EC=A7=81=EC=A0=91 =EC=9A=B4=EC=9A=A9(=EC=
+=A7=80=EA=B8=89=EC=A4=80=EB=B9=84=EA=B8=88 =EC=A0=9C=EC=99=B8)=ED=95=98=EB=
+=8A=94 =EA=B2=BD=EC=9A=B0 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=9A=B4=EC=9A=A9=EB=
+=8C=80=EC=83=81 =EA=B8=88=EC=95=A1 =EC=A0=84=EB=B6=80=EC=97=90 =EB=8C=80=ED=
+=95=B4 =EC=A7=80=EA=B8=89=EB=B3=B4=EC=A6=9D=EB=B3=B4=ED=97=98=EC=97=90 =EA=
+=B0=80=EC=9E=85=ED=95=98=EC=97=AC=EC=95=BC =ED=95=98=EB=A9=B0, =EC=9D=B4 =
+=EA=B2=BD=EC=9A=B0=EC=97=90=EB=8F=84 =ED=9A=8C=EC=82=AC=EB=8A=94 =EC=9A=B4=
+=EC=9A=A9=EB=8C=80=EC=83=81 =EC=84=A0=EB=B6=88=EC=B6=A9=EC=A0=84=EA=B8=88=
+=EC=9D=84 =EC=95=88=EC=A0=84=EC=9E=90=EC=82=B0=EC=9C=BC=EB=A1=9C =EC=9A=B4=
+=EC=9A=A9=ED=95=A9=EB=8B=88=EB=8B=A4.</u>
+                    <br>
+                </span>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%"><span class=3D"bold middle-fon=
+t gray900" style=3D"font-size:13px;line-height:1.5;font-weight:400;color:#7=
+f7f7f">* =EA=B0=9C=EC=A0=95=EB=90=9C =EC=95=BD=EA=B4=80=EC=9D=98 =EC=A0=84=
+=EB=AC=B8=EC=9D=80 <a style=3D"color:#ff2c63" href=3D"https://vkqtkmre.r.ap=
+-northeast-2.awstrack.me/L0/https:%2F%2Fboard.yanolja.com%2Finfo%2Fcontent%=
+2Findex.html%3Fid=3DINFO-406/2/010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c=
+012ae5f2f-000000/jGuIk2WUVlhxDLW9rjzDuAiEFRg=3D124"><u>=EC=9D=B4=EA=B3=B3</=
+u></a>=EC=97=90=EC=84=9C =ED=99=95=EC=9D=B8=ED=95=98=EC=8B=A4 =EC=88=98 =EC=
+=9E=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</span></td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"line-height:40px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+                <span class=3D"bold middle-font gray900" style=3D"font-size=
+:14px;line-height:1.5;font-weight:700;color:#2e2e2e">
+                    3. =EA=B0=9C=EC=A0=95 =EC=A0=81=EC=9A=A9=EC=8B=9C=EA=B8=
+=B0 =EB=B0=8F =EB=8C=80=EC=83=81<br><br>
+                </span>
+              </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%">
+                <p class=3D"text middle-font gray600" style=3D"color:#33333=
+3;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font-sty=
+le:normal;font-stretch:normal;line-height:1.5;letter-spacing:-.5px;font-siz=
+e:14px">
+                    =EC=83=88=EB=A1=AD=EA=B2=8C =EA=B0=9C=EC=A0=95=EB=90=9C=
+ =EC=95=BD=EA=B4=80=EC=9D=80 2023=EB=85=84 9=EC=9B=94 15=EC=9D=BC =EC=A0=84=
+ =EA=B0=80=EC=9E=85 =EA=B3=A0=EA=B0=9D=EC=9D=84 =EB=8C=80=EC=83=81=EC=9C=BC=
+=EB=A1=9C <strong>2023=EB=85=84 11=EC=9B=94 1=EC=9D=BC=EB=B6=80=ED=84=B0 =
+=EC=A0=81=EC=9A=A9=EB=90=A0 =EC=98=88=EC=A0=95</strong>=EC=9E=85=EB=8B=88=
+=EB=8B=A4. 2023=EB=85=84 9=EC=9B=94 15=EC=9D=BC=EB=B6=80=ED=84=B0 =EC=95=BC=
+=EB=86=80=EC=9E=90=EC=97=90 =EC=8B=A0=EA=B7=9C=EB=A1=9C =EA=B0=80=EC=9E=85=
+=ED=95=98=EC=8B=9C=EB=8A=94 =ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=80 =EA=B0=80=
+=EC=9E=85=EC=9D=84 =EC=9C=84=ED=95=9C =EC=9D=B4=EC=9A=A9=EC=95=BD=EA=B4=80 =
+=EB=8F=99=EC=9D=98 =EC=8B=9C=EC=97=90 =EA=B0=9C=EC=A0=95=EB=90=9C =EC=95=BD=
+=EA=B4=80=EC=9C=BC=EB=A1=9C =EC=A0=81=EC=9A=A9=EB=90=A9=EB=8B=88=EB=8B=A4.<=
+br><br>
+                    1) =EA=B0=9C=EC=A0=95 =EA=B3=B5=EC=A7=80=EC=9D=BC : 202=
+3. 9. 12.<br>
+                    2) =EA=B0=9C=EC=A0=95 =EC=8B=9C=ED=96=89=EC=9D=BC : 202=
+3. 11. 1.<br><br>
+                </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"line-height:40px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%"><span class=3D"bold middle-fon=
+t gray900" style=3D"font-size:14px;line-height:1.5;font-weight:700;color:#2=
+e2e2e">4. =EC=9D=B4=EC=9D=98=EC=A0=9C=EA=B8=B0 =EB=B0=8F =EB=AC=B8=EC=9D=98=
+</span></td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+                <ul>
+                  <li>
+                    <p class=3D"text middle-font gray600" style=3D"color:#3=
+33333;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font=
+-style:normal;font-stretch:normal;line-height:1.5;letter-spacing:-.5px;font=
+-size:14px">
+                      =EA=B0=9C=EC=A0=95=EB=90=9C =EC=95=BD=EA=B4=80=EC=97=
+=90 =EB=8C=80=ED=95=9C =EC=9D=B4=EC=9D=98 =EC=A0=9C=EA=B8=B0 =EB=B0=8F =EB=
+=AC=B8=EC=9D=98 =EC=82=AC=ED=95=AD=EC=9D=B4 =EC=9E=88=EC=9C=BC=EC=8B=A0 =EA=
+=B2=BD=EC=9A=B0, <strong>=EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=B0(1644-1346)</s=
+trong>=EB=A1=9C =EB=AC=B8=EC=9D=98=ED=95=98=EC=97=AC =EC=A3=BC=EC=8B=9C=EA=
+=B8=B0 =EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4.
+                    </p>
+                  </li>
+                  <li>
+                    <p class=3D"text middle-font gray600" style=3D"color:#3=
+33333;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font=
+-style:normal;font-stretch:normal;line-height:1.5;letter-spacing:-.5px;font=
+-size:14px">
+                    <strong><u>=EA=B0=9C=EC=A0=95 =EA=B3=B5=EC=A7=80=EC=9D=
+=BC=EB=B6=80=ED=84=B0 2023. 10. 31=EA=B9=8C=EC=A7=80 =EA=B0=9C=EC=A0=95 =EC=
+=95=BD=EA=B4=80=EC=97=90 =EB=8C=80=ED=95=98=EC=97=AC =EB=8F=99=EC=9D=98 =EB=
+=98=90=EB=8A=94 =EA=B1=B0=EB=B6=80=EC=9D=98 =EC=9D=98=EC=82=AC=ED=91=9C=EC=
+=8B=9C=EB=A5=BC =ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=A4 =EA=B2=BD=EC=
+=9A=B0 =EA=B0=9C=EC=A0=95 =EC=95=BD=EA=B4=80=EC=97=90 =EB=AA=A8=EB=91=90=EC=
+=97=90 =EB=8F=99=EC=9D=98=ED=95=9C =EA=B2=83=EC=9C=BC=EB=A1=9C =EA=B0=84=EC=
+=A3=BC</u></strong>=ED=95=A9=EB=8B=88=EB=8B=A4.
+                    </p>
+                  </li>
+                  <li>
+                    <p class=3D"text middle-font gray600" style=3D"color:#3=
+33333;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font=
+-style:normal;font-stretch:normal;line-height:1.5;letter-spacing:-.5px;font=
+-size:14px">
+                    =EA=B0=9C=EC=A0=95 =EC=95=BD=EA=B4=80=EC=97=90 =EB=8F=
+=99=EC=9D=98=ED=95=98=EC=A7=80 =EC=95=8A=EC=9C=BC=EC=8B=9C=EB=8A=94 =EA=B2=
+=BD=EC=9A=B0 =EC=95=BD=EA=B4=80=EC=9D=98 =EC=84=9C=EB=B9=84=EC=8A=A4 =ED=95=
+=B4=EC=A7=80=EB=A5=BC =EC=9A=94=EC=B2=AD=ED=95=98=EC=8B=A4 =EC=88=98 =EC=9E=
+=88=EC=8A=B5=EB=8B=88=EB=8B=A4.
+                    </p>
+                  </li>
+                </ul>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:20px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p class=3D"text middle-font gray900" style=3D"-ms-text-size-=
+adjust:100%;-webkit-text-size-adjust:100%;margin:0;font-style:normal;font-s=
+tretch:normal;line-height:1.5;color:#2e2e2e;letter-spacing:-.5px;font-size:=
+14px">
+                  =EB=8A=98 =EC=95=BC=EB=86=80=EC=9E=90=EB=A5=BC =EC=95=84=
+=EA=BB=B4 =EC=A3=BC=EC=8B=9C=EB=8A=94 =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98 =
+=EA=B0=90=EC=82=AC=EB=93=9C=EB=A6=AC=EB=A9=B0,<br>
+                  =EB=8D=94=EC=9A=B1 =EC=A2=8B=EC=9D=80 =EC=84=9C=EB=B9=84=
+=EC=8A=A4=EB=A5=BC =EC=A0=9C=EA=B3=B5=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4 =
+=EB=85=B8=EB=A0=A5=ED=95=98=EB=8A=94 =EC=95=BC=EB=86=80=EC=9E=90=EA=B0=80 =
+=EB=90=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>
+                  =EA=B0=90=EC=82=AC=ED=95=A9=EB=8B=88=EB=8B=A4.<br>
+                  =EC=95=BC=EB=86=80=EC=9E=90 =EB=93=9C=EB=A6=BC<br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:16px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <div style=3D"background-color:#e6e6e6;height:1px;width:100%"=
+></div>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:16px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adjust:1=
+00%;-webkit-text-size-adjust:100%;width:100%;max-width:600px;margin:0 auto"=
+ width=3D"100%">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p class=3D"gray700 text small-font" style=3D"-ms-text-size-a=
+djust:100%;-webkit-text-size-adjust:100%;margin:0;font-style:normal;font-st=
+retch:normal;line-height:1.5;color:#616161;letter-spacing:-.43px;font-size:=
+12px"> * =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 2023=EB=85=84 2=EC=9B=94 21=
+=EC=9D=BC =EA=B8=B0=EC=A4=80 =EA=B0=80=EC=9E=85=EB=90=98=EC=96=B4=EC=9E=88=
+=EB=8A=94 =ED=9A=8C=EC=9B=90=EC=9D=84 =EB=8C=80=EC=83=81=EC=9C=BC=EB=A1=9C =
+=EB=B0=9C=EC=86=A1=EB=90=98=EC=97=88=EC=9C=BC=EB=A9=B0, =EC=9D=B4=ED=9B=84 =
+=ED=83=88=ED=87=B4 =EC=8B=9C=EC=97=90=EB=8F=84 =EB=B3=B8 =EB=A9=94=EC=9D=BC=
+=EC=9D=84 =EC=88=98=EC=8B=A0=ED=95=A0 =EC=88=98 =EC=9E=88=EC=9C=BC=EB=8B=88=
+ =EC=9D=B4=EC=A0=90 =EC=96=91=EC=A7=80 =EB=B6=80=ED=83=81=EB=93=9C=EB=A6=BD=
+=EB=8B=88=EB=8B=A4.<br> *  =EB=B3=B8 =EB=A9=94=EC=9D=BC=EC=9D=80 =EA=B3=A0=
+=EA=B0=9D=EB=8B=98=EC=9D=98 =EC=9D=B4=EB=A9=94=EC=9D=BC =EC=88=98=EC=8B=A0=
+=EB=8F=99=EC=9D=98 =EC=97=AC=EB=B6=80=EC=99=80 =EA=B4=80=EA=B3=84=EC=97=86=
+=EC=9D=B4 =EB=B0=9C=EC=86=A1=EB=90=A9=EB=8B=88=EB=8B=A4.<br> * =EB=B3=B8 =
+=EB=A9=94=EC=9D=BC=EC=9D=80 =EB=B0=9C=EC=8B=A0=EC=A0=84=EC=9A=A9=EC=9C=BC=
+=EB=A1=9C =ED=9A=8C=EC=8B=A0=EB=90=98=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=
+=EB=8B=A4. =EB=AC=B8=EC=9D=98=EC=82=AC=ED=95=AD=EC=9D=80 <a target=3D"_blan=
+k" href=3D"https://vkqtkmre.r.ap-northeast-2.awstrack.me/L0/https:%2F%2Fwww=
+.yanolja.com%2Fmypage/1/010c018a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f=
+2f-000000/U7kOxcjXuTlHkpVJzzMxfahfpTk=3D124" class=3D"gray700 bold" style=
+=3D"-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-decoration=
+:underline;cursor:pointer;font-weight:700;color:#616161">=EA=B3=A0=EA=B0=9D=
+=EC=84=BC=ED=84=B0</a>=EB=A5=BC =EC=9D=B4=EC=9A=A9=ED=95=B4=EC=A3=BC=EC=84=
+=B8=EC=9A=94. </p>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:16px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-size-adju=
+st:100%;-webkit-text-size-adjust:100%">
+        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"ce=
+nter" style=3D"background-color:#f8f8f8;mso-table-lspace:0;mso-table-rspace=
+:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;width:100%;max-w=
+idth:600px;margin:0 auto" width=3D"100%" bgcolor=3D"#f8f8f8">
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p style=3D"padding:20px 20px 0 20px;-ms-text-size-adjust:100=
+%;-webkit-text-size-adjust:100%;margin:0;font-style:normal;font-stretch:nor=
+mal;line-height:1.5;color:#616161;letter-spacing:-.43px;font-size:12px" cla=
+ss=3D"gray700 text small-font"> (=EC=A3=BC)=EC=95=BC=EB=86=80=EC=9E=90<br> =
+=EB=8C=80=ED=91=9C=EC=9D=B4=EC=82=AC : =EC=9D=B4=EC=88=98=EC=A7=84 | =EC=82=
+=AC=EC=97=85=EC=9E=90=EB=B2=88=ED=98=B8 : 220-87-42885 | =ED=86=B5=EC=8B=A0=
+=ED=8C=90=EB=A7=A4 : =EA=B0=95=EB=82=A8-14211=ED=98=B8<br> =EC=A3=BC=EC=86=
+=8C : (06176) =EC=84=9C=EC=9A=B8=ED=8A=B9=EB=B3=84=EC=8B=9C =EA=B0=95=EB=82=
+=A8=EA=B5=AC =ED=85=8C=ED=97=A4=EB=9E=80=EB=A1=9C 108=EA=B8=B8 42<br>
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:8px;mso-table-lspace:0;mso-table-rspac=
+e:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+          <tr>
+            <td style=3D"mso-table-lspace:0;mso-table-rspace:0;-ms-text-siz=
+e-adjust:100%;-webkit-text-size-adjust:100%">
+              <p class=3D"small-font gray500" style=3D"padding:0 0 0 20px;-=
+ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;margin:0;font-size:1=
+2px;letter-spacing:-.43px;line-height:1.5;color:#ababab"> Copyright yanolja=
+ Corp. All rights reserved. </p>
+            </td>
+          </tr>
+          <tr>
+            <td style=3D"line-height:20px;mso-table-lspace:0;mso-table-rspa=
+ce:0;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td style=3D"line-height:56px;mso-table-lspace:0;mso-table-rspace:0;-=
+ms-text-size-adjust:100%;-webkit-text-size-adjust:100%"> &nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp; </td>
+    </tr>
+  </table>
+<img alt=3D"" src=3D"https://vkqtkmre.r.ap-northeast-2.awstrack.me/I0/010c0=
+18a92844320-8d0cc5ef-6316-46ca-b86a-d2c012ae5f2f-000000/oLyl46B90IXvGMdC7HD=
+5Rc-EM8A=3D124" style=3D"display: none; width: 1px; height: 1px;">
+</body>
+
+</html>
+
+------=_Part_7474040_1806349006.1694675256088--

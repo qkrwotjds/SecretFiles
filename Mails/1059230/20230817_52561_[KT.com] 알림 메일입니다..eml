@@ -1,0 +1,229 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1692236310;
+	cv=none; b=Xe5uJ1LLNrSL5cHZgntPhdM9QAowjgm5/1P3rBnfbrK1ly9rl04qt8+mTezz
+	 Drv+CSyWo5kK48Xs1a4O0joBkl2qjbA1gTzfCXluIHFlz1Do5Ide1ga1f/jEFgtSLYQAS0
+	 VNUVAaB8wK5qyRr/nIGR84wfuYzmnsD3/xQxUBm2QoFt4HucDuBWDW2M5uUHarAaM5Ht7A
+	 3SWOO7omjG9vZoBVIv87C3xLoxASfUgNKi6CB731Hmjk9oCIOBx4tLQSnFdM51chdtTkF+
+	 mvSRt/i4MqPEHD4t+P39p6dZdGfQFhg1v2R/r8U+1b573e+yeL3oJY7FOupFlw89vh/wZ/
+	 8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1692236310; c=relaxed/relaxed;
+	bh=8NqKNEFstEi+6rypojN3Fec6xwrJz7e4CrCjWLtF0Cg=;
+	h=from:to:message-id:subject; b=C8Qx3UBXVk2kifIdAmDnZbI4bpI2ZY/QzAtHSbZ
+	 14eHN8R+Bh/Ed6L6VuEgrALk2gHRtvgc/SZ8GdZI+kdXs/r9CWe6foOrWJImWyINdFqotK
+	 bxI2Z/R48wqiTpy972Dk1ob4Rp6DOBi8zflPD33z59yxGiSUpih3iG7hETMjRT77+X04XH
+	 ZZpFU5bOyyqYSMz+FutOw8A5eHu+J5BtX+qZff4HLuXyHbOSXyhi6NpCzHrj/4ytTmpjtM
+	 iW51QF84X0x+wY7B3ZvpjQbMaPmytpqHjfhvKkgVHqoP5fDiwiS02T/8quVePowwrZ60wX
+	 2wZfnmvFa8ITLFAOhIn0rLg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+Return-Path: <noreply@kt.com>
+Received-SPF: pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender)
+  client-ip=14.63.245.52; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of noreply@kt.com designates 14.63.245.52 as permitted sender) smtp.mailfrom=noreply@kt.com
+X-Naver-ESV: wd+n+6J4p63qMBIYFHwdbXmmKxK/KqIYkXm=
+X-Session-IP: 14.63.245.52
+Date: Thu, 17 Aug 2023 10:38:30 +0900
+Received: from relayfilter1.kt.com (relayfilter1.kt.com [14.63.245.52])
+  by crcvmail102.nm.naver.com with ESMTP id rCfkHHBkQ6C5Z6JgNYeudA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Thu, 17 Aug 2023 01:38:30 -0000
+Received: from external ([172.31.20.69])
+	by relayfilter1.kt.com (1.0) id 37H1bAW00B26;
+	Thu, 17 Aug 2023 10:37:10 +0900
+From: kt <noreply@kt.com>
+To: 1059230@naver.com
+Message-ID: <619057073.163707.1692236230685.JavaMail.scapui@DR-L3-SCUIAP01>
+Subject: =?UTF-8?Q?[KT.com]_?= =?UTF-8?Q?=EC=95=8C=EB=A6=BC_=EB=A9=94?=
+ =?UTF-8?Q?=EC=9D=BC=EC=9E=85=EB=8B=88=EB=8B=A4.?=
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_163706_2006458902.1692236230666"
+
+------=_Part_163706_2006458902.1692236230666
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html lang=3D"ko-KR">
+ <head>
+  <title> =EC=95=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94. KT=EC=9E=85=EB=8B=
+=88=EB=8B=A4. </title>
+=09<meta charset=3D"utf-8">
+=09<meta http-equiv=3D"Expires" content=3D"-1">
+=09<meta http-equiv=3D"Pragma" content=3D"no-cache">
+=09<meta http-equiv=3D"Cache-Control" content=3D"No-Cache">
+=09<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+ </head>
+
+ <body>
+ <table width=3D'780px' cellpadding=3D'0' cellspacing=3D'0' border=3D'0' al=
+ign=3D'center'>
+  <thead>
+    <tr>
+      <th width=3D"780px" height=3D"112" style=3D"background:#fff;border:1p=
+x solid #ccc;border-top:3px solid #d92330; margin:0; padding:0; line-height=
+:0; font-size:0;text-align:left;">
+        <div style=3D"margin:0 50px;padding:0 0 0 0">
+          <span style=3D"padding:42px 0 30px 0;">
+            <img src=3D"https://login.kt.com/wamui/new_resources/p/cl/src/i=
+mages/mail/email-logo.jpg" alt=3D"kt" border=3D"0" width=3D"49" height=3D"4=
+0"/>
+          </span>
+          <span style=3D"display:inline-block;width:625px;font-family:=EB=
+=A7=91=EC=9D=80=EA=B3=A0=EB=94=95,Malgun Gothic,dotum,=EB=8F=8B=EC=9B=80,gu=
+lim,=EA=B5=B4=EB=A6=BC,sans-serif;margin:0 0 0 0;padding:0;font-size:16px;c=
+olor:#666;text-align:right;line-height:40px;vertical-align:top;">
+            =EC=96=B8=EC=A0=9C =EC=96=B4=EB=94=94=EC=84=9C=EB=82=98 =EC=84=
+=B8=EC=83=81=EA=B3=BC <span style=3D'color:#d71826;'>=EC=86=8C=ED=86=B5</sp=
+an>=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94 =EC=B5=9C=EC=83=81=EC=9D=98 =EA=
+=B2=BD=ED=97=98
+          </span>
+        </div>
+      </th>
+    </tr>
+  </thead>
+  <table width=3D"780px" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"border:1px solid #ccc;border-top:3px; ">
+=09<tr>
+=09=09<td></td>
+=09=09<td><p style=3D"padding:24px 0 0;">=EC=95=88=EB=85=95=ED=95=98=EC=84=
+=B8=EC=9A=94. KT=EC=9E=85=EB=8B=88=EB=8B=A4. <br><br>=EA=B3=A0=EA=B0=9D=EB=
+=8B=98=EC=9D=98 =EC=95=84=EC=9D=B4=EB=94=94 =EB=8F=84=EC=9A=A9=EC=9D=84 =EB=
+=A7=89=EA=B3=A0 =EC=86=8C=EC=A4=91=ED=95=9C =EC=A0=95=EB=B3=B4=EB=A5=BC =EB=
+=B3=B4=ED=98=B8=ED=95=98=EA=B8=B0 =EC=9C=84=ED=95=B4, <br> =EC=8B=A0=EC=B2=
+=AD=ED=95=98=EC=8B=A0 =EA=B3=A0=EA=B0=9D=EB=8B=98=EA=BB=98=EB=A7=8C =EC=A0=
+=9C=EA=B3=B5=ED=95=98=EB=8D=98 '=EC=83=88=EA=B8=B0=EA=B8=B0 =EB=A1=9C=EA=B7=
+=B8=EC=9D=B8 =EC=95=8C=EB=A6=BC' =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC 8=EC=
+=9B=94 17=EC=9D=BC=EB=B6=80=ED=84=B0=EB=8A=94 <br>=EC=97=B0=EB=9D=BD=EC=B2=
+=98=EA=B0=80 =EB=93=B1=EB=A1=9D=EB=90=9C =EB=AA=A8=EB=93=A0 =EA=B3=A0=EA=B0=
+=9D=EB=8B=98=EB=93=A4=EA=BB=98 =EA=B8=B0=EB=B3=B8 =EC=A0=9C=EA=B3=B5=ED=95=
+=98=EA=B2=8C =EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br></p></td=
+>
+=09=09<td></td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"24px">&nbsp;</td>
+=09=09<td>
+=09=09<table width=3D"706px" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"left">
+=09=09=09<tr>
+=09=09=09=09<td colspan=3D"2" valign=3D"top" style=3D"padding:0;"><img src=
+=3D"https://www.kt.com/images/area/A000000814/C000010004v10.png" alt=3D"" s=
+tyle=3D"vertical-align:top;"></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#f8f8f8" width=3D"26px" style=3D"padding:0 0 0 2=
+6px;"><img src=3D"https://www.kt.com/images/area/A000000814/C000010002v9.pn=
+g" alt=3D"" style=3D"vertical-align:top;width:1rem;"></td>
+=09=09=09=09<td bgcolor=3D"#f8f8f8"><p style=3D"margin:0; padding:0 0 6px; =
+line-height:24px; color:#fe2e36">=EC=83=88=EA=B8=B0=EA=B8=B0 =EB=A1=9C=EA=
+=B7=B8=EC=9D=B8 =EC=95=8C=EB=A6=BC =EA=B8=B0=EB=8A=A5=EC=9D=B4=EB=9E=80?</p=
+></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#f8f8f8" colspan=3D"2" style=3D"padding:0 0 0 16=
+px;">
+=09=09=09=09=09<table width=3D"680px" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" align=3D"left">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td width=3D"10px" valign=3D"top">&middot; </td>
+=09=09=09=09=09=09<td><p style=3D"margin:0;">=EC=82=AC=EC=9A=A9=ED=95=98=EC=
+=8B=A0 =EC=A0=81=EC=9D=B4 =EC=97=86=EB=8A=94 PC=EB=82=98 =EB=AA=A8=EB=B0=94=
+=EC=9D=BC =EA=B8=B0=EA=B8=B0(=EB=B8=8C=EB=9D=BC=EC=9A=B0=EC=A0=80)=EC=97=90=
+=EC=84=9C =EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=8B=9C, <br>=ED=9A=8C=EC=9B=90=EC=
+=A0=95=EB=B3=B4=EC=97=90 =EB=93=B1=EB=A1=9D=EB=90=9C SMS=EC=99=80 =EC=9D=B4=
+=EB=A9=94=EC=9D=BC=EB=A1=9C =EC=95=88=EB=82=B4=EB=93=9C=EB=A6=AC=EB=8A=94 =
+=EA=B8=B0=EB=8A=A5=EC=9E=85=EB=8B=88=EB=8B=A4.</p></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td colspan=3D"2"><img src=3D"https://www.kt.com/images/area/A0=
+00000814/C000010005v10.png" alt=3D"" style=3D"vertical-align:top;"></td>
+=09=09=09</tr>
+=09=09</table>
+=09=09</td>
+=09=09<td width=3D"24px">&nbsp;</td>
+=09</tr>
+=09<tr>
+=09=09<td>&nbsp;</td>
+=09=09<td>&nbsp;</td>
+=09=09<td>&nbsp;</td>
+=09</tr>
+=09<tr>
+=09=09<td width=3D"24px">&nbsp;</td>
+=09=09<td>
+=09=09<table width=3D"706px" cellpadding=3D"0" cellspacing=3D"0" border=3D"=
+0" align=3D"left">
+=09=09=09<tr>
+=09=09=09=09<td colspan=3D"2"><img src=3D"https://www.kt.com/images/area/A0=
+00000814/C000010004v10.png" alt=3D"" style=3D"vertical-align:top;"></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#f8f8f8" width=3D"26px" style=3D"padding:0 0 0 2=
+6px;"><img src=3D"https://www.kt.com/images/area/A000000814/C000010002v9.pn=
+g" alt=3D"" style=3D"vertical-align:top;width:1rem;"></td>
+=09=09=09=09<td bgcolor=3D"#f8f8f8"><p style=3D"margin:0; padding:0 0 6px; =
+line-height:24px; color:#fe2e36">=EC=83=88=EA=B8=B0=EA=B8=B0 =EB=A1=9C=EA=
+=B7=B8=EC=9D=B8 =EC=95=8C=EB=A6=BC =EC=84=A4=EC=A0=95 =EC=95=88=EB=82=B4</p=
+></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#f8f8f8" colspan=3D"2" style=3D"padding:0 0 0 26=
+px;">
+=09=09=09=09=09<table width=3D"680px" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" align=3D"left">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td width=3D"60px" valign=3D"top"><p style=3D"margin:0;">=
+&middot; =EC=84=A4=EC=A0=95 : </p></td>
+=09=09=09=09=09=09<td><p style=3D"margin:0;">=EB=A1=9C=EA=B7=B8=EC=9D=B8 &g=
+t; =ED=9A=8C=EC=9B=90=EC=A0=95=EB=B3=B4=EC=88=98=EC=A0=95 &gt; =EB=B3=B4=EC=
+=95=88=EA=B8=B0=EB=8A=A5 =EA=B4=80=EB=A6=AC &gt; =EC=83=88=EA=B8=B0=EA=B8=
+=B0 =EC=A0=91=EC=86=8D=EC=95=8C=EB=A6=BC <br>=EA=B8=B0=EB=8A=A5=EC=97=90=EC=
+=84=9C ON/OFF =EA=B0=80=EB=8A=A5=ED=95=A9=EB=8B=88=EB=8B=A4.</p></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#f8f8f8" colspan=3D"2" style=3D"padding:6px 0 0 =
+26px;">
+=09=09=09=09=09<table width=3D"680px" cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" align=3D"left">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td width=3D"10px" valign=3D"top">&middot; </td>
+=09=09=09=09=09=09<td><p style=3D"margin:0;">=EC=A0=91=EC=86=8D=EC=95=8C=EB=
+=A6=BC=EC=9D=84 ON=EC=9C=BC=EB=A1=9C =ED=95=98=EB=8D=94=EB=9D=BC=EB=8F=84, =
+=EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=8B=9C =EC=9E=90=EC=A3=BC =EC=82=AC=EC=9A=A9=
+=ED=95=98=EB=8A=94 =EA=B8=B0=EA=B8=B0=EB=A1=9C =EB=93=B1=EB=A1=9D=ED=95=98=
+=EC=8B=9C=EB=A9=B4 <br>=ED=95=B4=EB=8B=B9 =EA=B8=B0=EA=B8=B0(=EB=B8=8C=EB=
+=9D=BC=EC=9A=B0=EC=A0=80)=EC=97=90=EC=84=9C=EB=8A=94 =EC=95=8C=EB=A6=BC=EC=
+=9D=B4 =EC=98=A4=EC=A7=80 =EC=95=8A=EC=8A=B5=EB=8B=88=EB=8B=A4.</p></td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table></td>
+=09=09=09</tr>
+=09=09=09<tr>
+=09=09=09=09<td colspan=3D"2"><img src=3D"https://www.kt.com/images/area/A0=
+00000814/C000010005v10.png" alt=3D"" style=3D"vertical-align:top;"></td>
+=09=09=09</tr>
+=09=09</table>
+=09=09</td>
+=09=09<td width=3D"24px">&nbsp;</td>
+=09</tr>
+=09<tr>
+=09=09<td></td>
+=09=09<td><p style=3D"padding:24px 0;">=EA=B3=A0=EA=B0=9D =EC=97=AC=EB=9F=
+=AC=EB=B6=84=EA=BB=98 =EB=8D=94=EC=9A=B1 =EC=8B=A0=EB=A2=B0=EB=B0=9B=EB=8A=
+=94 =EC=84=9C=EB=B9=84=EC=8A=A4=EB=A5=BC =EC=A0=9C=EA=B3=B5=ED=95=A0 =EC=88=
+=98 =EC=9E=88=EB=8F=84=EB=A1=9D =EC=B5=9C=EC=84=A0=EC=9D=84 =EB=8B=A4=ED=95=
+=98=EA=B2=A0=EC=8A=B5=EB=8B=88=EB=8B=A4.<br><br>=EA=B0=90=EC=82=AC=ED=95=A9=
+=EB=8B=88=EB=8B=A4.</p></td>
+=09=09<td></td>
+=09</tr>
+  </table>
+ </body>
+</html>
+
+
+------=_Part_163706_2006458902.1692236230666--

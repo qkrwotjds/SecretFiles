@@ -1,0 +1,158 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1672652519;
+	cv=none; b=b6D15Sg44Hu+dm5/vCyhw9FZrsG3Iq0GNZPJhPM8KkdRAKaFVfuiKSdpp1KJ
+	 wGJ8gw/FyxlJzGh5nKceVMaKX19tq/ntcuc1j3dQIiTbdEPZzR0jPzGO8/uiiuWFbI7k5H
+	 xBMsbilbzQul5/udQ+SzQDvZJE9HaFzi//iYE7synTBPk3fEbjhKSkkEpN/4IHURN4Bv2a
+	 qAU0TndIEFeQgXUluevXIs1iyc0SX8PpkwsCgPg6+MB3lyp4s1yeDU7T4z33En4HcuE9wL
+	 nk4GH/gh+GlTO1s0p4jS6a9XzjwqCZzsfhfERYsb0+zdvta4fuHv/ZZx+Zpx6r1qgsLM/h
+	 1g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1672652519; c=relaxed/relaxed;
+	bh=sdah4RbMQ+PHcNmTDzWs/855SDsXi/wdZ8mQDb86mPQ=;
+	h=message-id:from:to:subject:date; b=W0gC+e+77f5iFlHj9ZZfYNQv8lnSuY+677
+	 GOE4E0bNWEv2G+QNM8CNMZiWsIDt5d/h4bex1ToX+DiPm0i52RKhA2QJNRnK9eaUJTqgqm
+	 LzM0YdKfTHxYe8ftJUalNjLMDLq8qiRsNGxMXOukaL71OEtqZ1w8KnW2WoegYWMsLcH2P+
+	 Hk3g1j4kh6GmRS9MmTKm3wJycTB/p6k0364tbN3X4Q0mGhCjDYJM0fKRU0jtKzGpHRI/IR
+	 1WCuJTHQrYpy257LDyzZ6UAX7KoeBka9uwoXPoMz6UUy1X+dTe432+SoYdtBEPXcbtMJ3A
+	 jpaA42CEdX1kadvLbGkF7RQFUCrw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender) smtp.mailfrom=mail@imas.inicis.com
+Return-Path: <mail@imas.inicis.com>
+Received-SPF: pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender)
+  client-ip=203.238.37.180; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of mail@imas.inicis.com designates 203.238.37.180 as permitted sender) smtp.mailfrom=mail@imas.inicis.com
+X-Naver-ESV: wX+n+6J4p63qMBIYKXwdbXmmaxtwFx0YkXm=
+X-Session-IP: 203.238.37.180
+Received: from inicis.com (imas.inicis.com [203.238.37.180])
+  by crcvmail305.nm.naver.com with ESMTP id 2Oae94JcTP+frB8PpMikUA
+  for <1059230@naver.com>;
+  Mon, 02 Jan 2023 09:41:59 -0000
+Message-ID: <1672652455244.9580238@imas>
+From: "=?euc-kr?B?S0fAzLTPvcO9ug==?=" <mail@imas.inicis.com>
+To: "=?euc-kr?B?udrA57y6?=" <1059230@naver.com>
+Subject: =?euc-kr?B?W0tHwMy0z73DvbogILDhwabIrsDOXSC52sDnvLq01Cwgwda9xMi4u+fHyg==?=
+	=?euc-kr?B?v/7AzL+hvK0gw+u80sfPvcUgs7u/qiDIrsDOudm2+LTPtNku?=
+Date: Mon, 02 Jan 2023 18:40:55 +0900
+MIME-Version: 1.0
+X-MNWISE-CAMPAIGN_NO: 000000000000063
+X-MNWISE-RESULT_SEQ: 1672652447780719
+X-MNWISE-USER_ID: des64fShz964JwD/IjqWLN8RHng==
+X-MNWISE-LIST_SEQ: des6486vu7GqIHKn6uYJIDhSoAg==
+X-MNWISE-RECORD_SEQ: des649AseupUOO8s=
+X-MNWISE-CLIENT_TYPE: ec
+Content-Type: text/html; charset=euc-kr
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KG Inicis</title>
+</head>
+<body>
+<div align="left" width="780px" style="font-family:'KG_inicis','나눔고딕','돋움'; font-size:14px;">
+<div name="view_kor">
+<table width="780" border="0" cellpadding="0" cellspacing="0" align="center">
+  <tr>
+    <td colspan="3"><div align="center"><img src="http://www.inicis.com/2016/sobomail/head_logo.jpg" width="780" height="114" border="0" usemap="#Map" /></div></td>
+  </tr>
+  <tr>
+      <td width="10" rowspan="8" bgcolor="#f2f2f2">&nbsp;</td>
+    <td><img src="http://www.inicis.com/2016/sobomail/table_top.jpg" width="760" height="62" /></td>
+    <td width="10" rowspan="8" bgcolor="#f2f2f2">&nbsp; </td>
+    </tr>
+  <tr>
+    <td>
+<img src="http://www.inicis.com/2016/sobomail/head_line_2.jpg" width="760" height="100" />
+</td>
+  </tr>
+  <tr>
+    <td style="padding:20px 30px;font-size:13px;"><b>박재성</b>고객님이 <b>주식회사필웨이</b>에서 KG이니시스 결제시스템을 통해 취소하신 내역입니다.<br>
+                  KG이니시스는 온라인 결제를 대행하는 업체로 구매하신 상품의 취소 및 배송 문의는 실제 구입하신 상점에 문의해 주십시오.<br>
+				                     </td>
+  </tr>
+  <tr>
+    <td><img src="http://www.inicis.com/2016/sobomail/dot_line.jpg" width="760" height="24"  border="0" /></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="700px" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="4" height="15px"></td>
+      </tr>
+	  		<tr>
+        <td colspan="2" style="border-bottom:solid 3px #b2b2b2;color:#90278c; font-size:22px;font-weight: bolder;text-align:left;padding:5px 10px;">결제금액</td>
+        <td colspan="2" style="border-bottom:solid 3px #b2b2b2;color:#4d1f79; font-size:42px;font-weight: bolder;text-align:right;padding:5px 10px">
+			  		     		 1,556,000원
+      		 		</td>
+    </tr>
+		       <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">결제 수단</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 신용카드   3747-23XX-XXXX-382 </td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">구매자명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">박재성</td>
+      </tr>
+      <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">결제 일시</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">
+                2022년 12월 29일&nbsp;20시56분<br />
+                 </td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">주문 상품명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">HERMES 여성벨트</td>
+      </tr>
+      <tr>
+        <td width="111" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">할부 기간</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 일시불 <br /></td>
+        <td width="120" style="border-bottom:solid 1px #b2b2b2;padding:15px 10px;">구매 상점명</td>
+        <td width="242" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">
+                	주식회사필웨이                </td>
+      </tr>
+	   		<tr>
+        <td width="111" style="border-bottom:solid 3px #b2b2b2;padding:15px 10px;">승인 번호</td>
+        <td width="227" style="border-bottom:solid 1px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;"> 08456094 </td>
+        <td width="120" style="border-bottom:solid 3px #b2b2b2;padding:15px 10px;">연락처</td>
+        <td width="242" style="border-bottom:solid 3px #b2b2b2;border-right:solid 1px #b2b2b2;padding:15px 10px;font-weight: bolder;">1544-9192</td>
+        </tr>
+		    </table></td>
+  </tr>
+  <tr>
+        <td align="center">
+    <table width="700" border="0" cellpadding="0" cellspacing="0" style="text-align:center;">
+      <tr>
+        <td colspan="2" height="10px"></td>
+      </tr>
+      <tr>
+        <td style="text-align:left;">
+        <a href="https://iniweb.inicis.com/mall/cr/cm/mCmReceipt_head.jsp?noTid=INIMX_CARDfeelway90020221229205648425170&noMethod=1" target="_blank" >
+        <img src="http://www.inicis.com/2016/sobomail/btn_1.jpg" width="344" height="60" border="0" /></a></td>
+        <td style="text-align:right;">
+				<a href="http://www.feelway.com" target="_blank" >
+				<img src="http://www.inicis.com/2016/sobomail/btn_2.jpg" width="344" height="60" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td colspan="2" height="10px"></td>
+      </tr>
+    </table></td>
+      </tr>
+        <tr>
+    <td><img src="http://www.inicis.com/2016/sobomail/table_bottom.jpg" width="760" height="62" /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#f2f2f2" style="padding:10px 10px;font-size:13px;">ㆍ본 메일은 발신전용 메일 이므로 회신을 통한 문의는 처리되지 않습니다. <br><br>
+            ㆍ본 메일은 전자상거래 결제 대행 업체인 ㈜KG이니시스에서 자동 발송되는 것으로 '전자상거래 등 에서의 소비자 보호법에<br>
+            &nbsp;&nbsp;관한 법률 제 8조 3항'에 의거, 결제 시 메일 발송에 대한 고객의 동의를 얻은 것으로, 해당 쇼핑몰과는 별도로 발송됩니다. <br><br>
+            ㆍ본 메일을 임의로 위, 변조하여 사용할 경우 형사 처벌의 대상이 될 수 있습니다. </p>
+            <p>ㆍ고객님은 2022년 12월 29일&nbsp;20시56분
+				 기준으로 이니시스 결제 진행 시 광고 수신에 동의하였습니다.<br>
+         &nbsp;&nbsp;만약 더 이상 광고 수신을 원치 않으시면, 여기  <a href="https://iniweb-api.inicis.com/WiseU/userUnsubscribe.jsp?iUserId=-5888134751&transactionInfo=INIMX_CARDfeelway90020221229205648425170&iEmail=1059230@naver.com&emailType=00" target="_blank">[수신거부/동의철회]</a> 를 눌러 수신거부 처리하시기 바랍니다.<br/>
+&nbsp;&nbsp;(If you don't want to receive this ads e-mail anymore, <a href="https://iniweb-api.inicis.com/WiseU/userUnsubscribe.jsp?iUserId=-5888134751&transactionInfo=INIMX_CARDfeelway90020221229205648425170&iEmail=1059230@naver.com&emailType=00" target="_blank">click here</a>)</p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3"><img src="http://www.inicis.com/2016/sobomail/info.jpg" width="780" height="92" border="0" usemap="#Map2" /></td>
+  </tr>
+</table>
+</div>
+<br><IMG width=0 height=0 src='http://203.238.37.180:9000/servlet/ReceiveConfirmEC?SEND_MODE=R&RESULT_SEQ=1672652447780719&CAMPAIGN_NO=000000000000063&START_DATE=20230102184049&END_DATE=20230109184049&LIST_SEQ=0000000001&RECORD_SEQ=0&CUSTOMER_ID=des64fShz964JwD/IjqWLN8RHng=='>
+</body>
+</html>
+

@@ -1,0 +1,815 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1690187081;
+	cv=none; b=L4G4GJFattKBhb4xfT4IDsgdFMToHDBEob7eIXFUte5WZCCiM+9ZSA6EC8JU
+	 eG2Dyc7wytgWJ0GH26lejzNQg5uKxMfXfDVsJMD2fUnwCQbQEHl6TOHtHX+HA/2KmmQ5zZ
+	 yfYAjCMZpqM2yySmp+soryjO9vJVUT7e+bUYizkgMRAHgQg645q9sCH43zO4rxKHD2Lw7D
+	 jO4idl2qqJdEJOVqUnOJhB4dIAtilgSdwgH1C53k4Ige6DjKjeDLrwOZhjNThG+O6qhStp
+	 kFW5L2nvpH3FHTR7Y2eXvIRV7cw3cFEmF865DvIaB+aXxfeR07kS99KGRykOiblEhSpCEs
+	 1g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1690187081; c=relaxed/relaxed;
+	bh=e9vDdMp+n65SsE2v1DvOKo85dfYEI7m6ZG0xv/+fMUU=;
+	h=dkim-signature:from:date:subject:message-id:to; b=oMmVNkKQrtYnr8hI9Qe
+	 8TO2kVA0Ec5KBg90SrL45TPrAD7yIpqE1jfEuw9ozhbkvpLMC4lGjwFizsGsqNfReC69cB
+	 p9ySgNyStt+S5MpDblFRvU97D5GGeGBIh8RwSQv3mw5ANklbrZrmrDyNkU0te+fTlxfq8k
+	 maegKIfXOB5+wfz0iaA5fHXZ6CvlsboGnaSQl0VK0LJ/mMghAvYfudgOcj+MDsaC9TUnaU
+	 5DFIsi5qzZWenDvTjXCUfWiZ8oCdlnQB2OD1GCFeYH508uGgCCF2plaVBh9I/fkZgOjOVn
+	 Eqf7ai86AHDEGtaT08XCU9ynwJPs3RORtTrFgKDwwZQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of service-noreply@teamviewer.com designates 188.172.233.6 as permitted sender) smtp.mailfrom=service-noreply@teamviewer.com;
+  dkim=pass header.i=@teamviewer.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=teamviewer.com
+Return-Path: <service-noreply@teamviewer.com>
+Received-SPF: pass (mx.naver.com: domain of service-noreply@teamviewer.com designates 188.172.233.6 as permitted sender)
+  client-ip=188.172.233.6; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of service-noreply@teamviewer.com designates 188.172.233.6 as permitted sender) smtp.mailfrom=service-noreply@teamviewer.com;
+  dkim=pass header.i=@teamviewer.com;
+  dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=teamviewer.com
+X-Naver-ESV: wZFn+6J4p63CbHmrKBwdbXFYKA2ZFAtwjJ+Y
+X-Session-IP: 188.172.233.6
+Received: from mail0601.teamviewer.com (mail0601.teamviewer.com [188.172.233.6])
+  by crcvmail105.nm.naver.com with ESMTP id hhQXJDSNQZKxBDl-inCxeA
+  for <1059230@naver.com>
+  (version=TLSv1.2 cipher=ECDHE-RSA-AES256-GCM-SHA384);
+  Mon, 24 Jul 2023 08:24:41 -0000
+Received: from dw1sdwk0006Y7 (unknown [20.79.77.152])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mail0601.teamviewer.com (Postfix) with ESMTPSA id 429668041A
+	for <1059230@naver.com>; Mon, 24 Jul 2023 10:24:38 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=teamviewer.com;
+	s=anexia2022; t=1690187078;
+	bh=iE5Asddq0PPxqsbOm/HA10R9MZlVGZTN0Fyqodkf2bg=;
+	h=From:Date:Subject:To:From;
+	b=V8t1wPXUokqvEKpn20ZWiH4dFgIXeSjfRZr3uDSE2vUvttKDcLB36Xkp5DgOCpGbp
+	 48d9rsqjONrqh2g2KSiJwLNGiyiOEwQkutciKZbd3hOwi3emBOw2fnbDAXSNqmT2u4
+	 3D/fXEUEVcqyVVUW+naexFeoBp6AY1tXpJgfUgIsEhrzFMO2nrUlLySFWTJkAGFY6d
+	 /vkA0G11S9TW57SbhrWsNVB0ZCATdca9C4C3aLFv4sMHZlFheQLuuyiRYtW/qoRbmk
+	 VSSURDn/DAvoTAAGGc5Le8Sqjomd9Qzo5z9RyrZfKS9GVe2prq64/CUFTQrgvXLrLY
+	 SRfL9LRmn3Mjw==
+From: service-noreply@teamviewer.com
+Date: Mon, 24 Jul 2023 08:24:38 +0000
+Subject: =?utf-8?b?7IOIIOyepey5mOyXkCDroZzqt7jsnbjtlZjshLjsmpQ=?=
+Message-Id: <023339f1-5b2b-4ba4-885f-5907fd988d79@teamviewer.com>
+To: 1059230@naver.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>
+     =20
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+    <style type=3D"text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+   =20
+   =20
+    <style type=3D"text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=3D"screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width:=
+ 100%; }
+    </style>
+   =20
+ =20
+    <style type=3D"text/css">
+   =20
+   =20
+
+    @media only screen and (max-width:480px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+ =20
+    </style>
+    <style type=3D"text/css">
+    a {
+            text-decoration: none;
+						color: #0564C8;
+          }
+    </style>
+   =20
+  </head>
+  <body style=3D"word-spacing:normal;">
+   =20
+   =20
+      <div
+         style=3D""
+      >
+       =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px=
+;" width=3D"600" bgcolor=3D"#ffffff" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"background:#ffffff;background-color:#ffffff;margin:0px=
+ auto;border-radius:8px;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#ffffff;background-color:#fffff=
+f;width:100%;border-radius:8px;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:20px 0;text-a=
+lign:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:600px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"vertical-align:top;padding-right:20px;padding-lef=
+t:20px;">
+             =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   style=3D"font-size:0px;padding:0;word-break:break-word;"
+                >
+                 =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:560px=
+;" width=3D"560" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:560px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;text-align:=
+center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:560px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+word-break:break-word;"
+                >
+                 =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"border-collapse:collapse;border-spacing:0px;"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"width:144px;">
+             =20
+      <img
+         alt=3D"TeamViewer Logo" height=3D"auto" src=3D"https://s7g10.scene=
+7.com/is/image/teamviewergmbh/logo-teamviewer-2?fmt=3Dpng-alpha&amp;dpr=3Do=
+ff" style=3D"border:0;display:block;outline:none;text-decoration:none;heigh=
+t:auto;width:100%;font-size:13px;" width=3D"144"
+      />
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   style=3D"font-size:0px;padding:0;word-break:break-word;"
+                >
+                 =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:560px=
+;" width=3D"560" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-h=
+eight-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:560px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:0;text-align:=
+center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:560px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"vertical-align:top;" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:32px 20px =
+24px 20px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:28px;line-height:36px;text-=
+align:left;color:#3B3D40;"
+      >Hi =ED=9A=8C=EC=82=AC=EC=BB=B4=EC=9E=85=EB=8B=88=EB=8B=B9,</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 20px;=
+word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:16px;line-height:22px;text-=
+align:left;color:#62656A;"
+      >=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9D=B4 <st=
+rong>2023-07-24 08:24:37 UTC</strong> =EC=97=90 =EC=83=88 =EC=9E=A5=EC=B9=98=
+ =EB=98=90=EB=8A=94 =EB=B8=8C=EB=9D=BC=EC=9A=B0=EC=A0=80=EC=97=90 =EB=A1=9C=
+=EA=B7=B8=EC=9D=B8=ED=95=98=EB=8A=94 =EB=8D=B0 =EC=82=AC=EC=9A=A9=EB=90=98=EC=
+=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4.</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 20px;=
+padding-bottom:0;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:16px;line-height:22px;text-=
+align:left;color:#62656A;"
+      >=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EA=B3=84=EC=A0=95=EC=9D=B4 =EC=
+=9D=B4=EC=A0=84=EC=97=90 =EC=9D=B4 =EC=9E=A5=EC=B9=98=EC=97=90=EC=84=9C =EC=
+=82=AC=EC=9A=A9=EB=90=98=EC=97=88=EB=8A=94=EC=A7=80 =ED=99=95=EC=9D=B8=ED=95=
+=A0 =EC=88=98 =EC=97=86=EC=8A=B5=EB=8B=88=EB=8B=A4. <br/><br/>=EA=B3=84=EC=A0=
+=95=EC=9D=98 =EB=B3=B4=EC=95=88=EC=9D=84 =EC=9C=A0=EC=A7=80=ED=95=98=EB=A0=A4=
+=EB=A9=B4 =EB=A1=9C=EA=B7=B8=EC=9D=B8=EC=9D=84 =EC=99=84=EB=A3=8C=ED=95=98=EA=
+=B8=B0 =EC=A0=84=EC=97=90 =EC=9D=B4 =EC=9E=A5=EC=B9=98=EB=A5=BC =EC=8B=A0=EB=
+=A2=B0=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94 =EC=9E=A5=EC=B9=98=EC=97=90 =EC=
+=B6=94=EA=B0=80=ED=95=B4=EC=95=BC =ED=95=A9=EB=8B=88=EB=8B=A4. <br/><br/>=EC=
+=9D=B4 =EC=9E=A5=EC=B9=98 =EB=98=90=EB=8A=94 =EB=B8=8C=EB=9D=BC=EC=9A=B0=EC=
+=A0=80=EB=A5=BC =EC=8B=A0=EB=A2=B0=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94 =EC=
+=9E=A5=EC=B9=98 =EB=AA=A9=EB=A1=9D=EC=97=90 =EC=B6=94=EA=B0=80=ED=95=98=EB=A0=
+=A4=EB=A9=B4 =EC=95=84=EB=9E=98 =EB=B2=84=ED=8A=BC=EC=9D=84 =ED=81=B4=EB=A6=
+=AD=ED=95=98=EC=84=B8=EC=9A=94.</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" vertical-align=3D"middle" style=3D"font-s=
+ize:0px;padding:32px 20px;word-break:break-word;"
+                >
+                 =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"border-collapse:separate;line-height:100%;"
+      >
+        <tbody>
+          <tr>
+            <td
+               align=3D"center" bgcolor=3D"#0564C8" role=3D"presentation" s=
+tyle=3D"border:none;border-radius:8px;cursor:auto;height:44px;mso-padding-a=
+lt:10px 20px;background:#0564C8;" valign=3D"middle"
+            >
+              <a
+                 href=3D"https://account.teamviewer.com/link/authorizedevic=
+e?token=3DBQ8BBAAAADZZNQ0CBAAAAFETAAADCQAAAEd3YW5hay1ndQQCAAAAS1IFDwAAADIwM=
+jMwNzI0VDA4MjQzNwYCAAAAa28HEAAAANR6XZNHQaUW3djktuD7o2sIQAAAACnYDkkJ8q4NIUrx=
+3sLvCSclTqRgKLWiXoXeIuIR4ECpCA4BMzXi2boXTj3XrrfIIWq_gs_ItPmcLQ19JFaCWwIJEgA=
+AAO2ajOyCrOy7tOyeheuLiOuLuQoMAAAAAQIDBAUGBwkLDA0KCxAAAADHdmnyn_rzQ6_gFD9qW1=
+JJDA4AAAAxMTIuMTcxLjE4LjEzMg0yAAAADAQBBgAAAENocm9tZQIOAAAAR3dhbmFrLWd1IChLU=
+ikDBwAAAFdpbmRvd3P-AQAAABAOEAAAAFxIOg7TkUnptfwaD-aNr0P-AQAAACw&amp;version=3D=
+1&amp;redirect_uri=3Dhttps://teamviewer-internal-loginservice&amp;email=3D1=
+059230@naver.com&amp;lng=3Dko" style=3D"display:inline-block;background:#05=
+64C8;color:#ffffff;font-family:Verdana;font-size:14px;font-weight:normal;li=
+ne-height:120%;margin:0;text-decoration:none;text-transform:none;padding:10=
+px 20px;mso-padding-alt:0px;border-radius:8px;" target=3D"_blank"
+              >
+                =EC=8B=A0=EB=A2=B0=ED=95=A0 =EC=88=98 =EC=9E=88=EB=8A=94 =EC=
+=9E=A5=EC=B9=98=EB=A1=9C =EC=B6=94=EA=B0=80
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 20px;=
+padding-top:0;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:16px;line-height:22px;text-=
+align:left;color:#62656A;"
+      >=EC=9D=B4 =EC=9E=A5=EC=B9=98=EC=97=90 =EB=A1=9C=EA=B7=B8=EC=9D=B8=ED=
+=95=98=EC=A7=80 =EC=95=8A=EC=9D=80 =EA=B2=BD=EC=9A=B0 =EB=8D=B0=EC=9D=B4=ED=
+=84=B0=EB=A5=BC =EC=95=88=EC=A0=84=ED=95=98=EA=B2=8C =EB=B3=B4=ED=98=B8=ED=95=
+=98=EA=B8=B0 =EC=9C=84=ED=95=B4 =EA=B3=84=EC=A0=95=EC=9D=98 =EC=95=94=ED=98=
+=B8=EB=A5=BC =EB=B3=80=EA=B2=BD=ED=95=98=EB=8A=94 =EA=B2=83=EC=9D=B4 =EC=A2=
+=8B=EC=8A=B5=EB=8B=88=EB=8B=A4.</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 20px;=
+padding-bottom:0;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:16px;line-height:22px;text-=
+align:left;color:#62656A;"
+      >=EC=A3=BC=EC=9D=98=EC=82=AC=ED=95=AD: TeamViewer=EB=8A=94 =EC=A0=88=EB=
+=8C=80 =EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=98 =EB=A1=9C=EA=B7=B8=EC=9D=B8 =EC=
+=A0=95=EB=B3=B4=EB=A5=BC =EC=9A=94=EA=B5=AC=ED=95=98=EC=A7=80 =EC=95=8A=EC=8A=
+=B5=EB=8B=88=EB=8B=A4.</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 20px;=
+padding-top:32px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:16px;line-height:22px;text-=
+align:left;color:#62656A;"
+      >=EC=97=B0=EA=B2=B0=EC=9D=84 =EC=A6=90=EA=B2=A8=EB=B3=B4=EC=84=B8=EC=9A=
+=94.<br/>TeamViewer</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" st=
+yle=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-s=
+ize:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"margin:0px auto;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"width:100%;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:20px 0;paddin=
+g-left:0;padding-right:0;text-align:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:600px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"vertical-align:top;padding-right:0;padding-left:0=
+;">
+             =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+padding-right:0;padding-left:0;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:13px;line-height:1;text-ali=
+gn:left;color:#000000;"
+      ><!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+  <head>
+    <title>
+     =20
+    </title>
+    <!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1">
+    <style type=3D"text/css">
+      #outlook a { padding:0; }
+      body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size=
+-adjust:100%; }
+      table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-r=
+space:0pt; }
+      img { border:0;height:auto;line-height:100%; outline:none;text-decora=
+tion:none;-ms-interpolation-mode:bicubic; }
+      p { display:block;margin:13px 0; }
+    </style>
+    <!--[if mso]>
+    <noscript>
+    <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+    </xml>
+    </noscript>
+    <![endif]-->
+    <!--[if lte mso 11]>
+    <style type=3D"text/css">
+      .mj-outlook-group-fix { width:100% !important; }
+    </style>
+    <![endif]-->
+   =20
+   =20
+    <style type=3D"text/css">
+      @media only screen and (min-width:480px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+      }
+    </style>
+    <style media=3D"screen and (min-width:480px)">
+      .moz-text-html .mj-column-per-100 { width:100% !important; max-width:=
+ 100%; }
+    </style>
+   =20
+ =20
+    <style type=3D"text/css">
+   =20
+   =20
+    </style>
+    <style type=3D"text/css">
+   =20
+    </style>
+   =20
+  </head>
+  <body style=3D"word-spacing:normal;">
+   =20
+   =20
+      <div
+         style=3D""
+      >
+       =20
+     =20
+      <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px=
+;" width=3D"600" bgcolor=3D"#EDEBE9" ><tr><td style=3D"line-height:0px;font=
+-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+   =20
+     =20
+      <div  style=3D"background:#EDEBE9;background-color:#EDEBE9;margin:0px=
+ auto;border-radius:8px;max-width:600px;">
+       =20
+        <table
+           align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"background:#EDEBE9;background-color:#EDEBE=
+9;width:100%;border-radius:8px;"
+        >
+          <tbody>
+            <tr>
+              <td
+                 style=3D"direction:ltr;font-size:0px;padding:1px;text-alig=
+n:center;"
+              >
+                <!--[if mso | IE]><table role=3D"presentation" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-a=
+lign:top;width:598px;" ><![endif]-->
+           =20
+      <div
+         class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-siz=
+e:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top=
+;width:100%;"
+      >
+       =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" width=3D"100%"
+      >
+        <tbody>
+          <tr>
+            <td  style=3D"background-color:#f8f8f8;border-radius:8px;vertic=
+al-align:top;padding-right:20px;padding-left:20px;">
+             =20
+      <table
+         border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"" width=3D"100%"
+      >
+        <tbody>
+         =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+padding-bottom:6px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:12px;line-height:16px;text-=
+align:left;color:#3B3D40;"
+      >Our team is available to speak to you in more than 12 languages. <a =
+href=3D"https://www.teamviewer.com/support">Call us</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+padding-top:6px;padding-bottom:2px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:12px;line-height:16px;text-=
+align:left;color:#3B3D40;"
+      ><a href=3D"https://teamviewer.com">www.teamviewer.com</a></div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:0 25px;wor=
+d-break:break-word;"
+                >
+                 =20
+      <table
+         cellpadding=3D"0" cellspacing=3D"0" width=3D"200" border=3D"0" sty=
+le=3D"color:#3B3D40;font-family:Verdana;font-size:12px;line-height:22px;tab=
+le-layout:auto;width:200px;border:none;"
+      >
+        <tr style=3D"line-height:32px"><td style=3D"white-space:nowrap;padd=
+ing-right:8px">Follow us</td><td style=3D"padding:0 4px"><a href=3D"https:/=
+/www.facebook.com/teamviewer"><img valign=3D"middle" src=3D"https://mcocdn-=
+test.teamviewer.com/staticresources/facebook-icon.png" alt=3D"Facebook"/></=
+a></td><td style=3D"padding:0 4px"><a href=3D"https://www.instagram.com/tea=
+mviewer/"><img valign=3D"middle" src=3D"https://mcocdn-test.teamviewer.com/=
+staticresources/insta-icon.png" alt=3D"Instagram"/></a></td><td style=3D"pa=
+dding:0 4px"><a href=3D"https://twitter.com/TeamViewer"><img valign=3D"midd=
+le" src=3D"https://mcocdn-test.teamviewer.com/staticresources/twitter-icon.=
+png" alt=3D"Twitter"/></a></td><td style=3D"padding:0 4px"><a href=3D"https=
+://www.linkedin.com/company/teamviewer"><img valign=3D"middle" src=3D"https=
+://mcocdn-test.teamviewer.com/staticresources/linkedin-icon.png" alt=3D"Lin=
+kedIn"/></a></td><td style=3D"padding:0 4px"><a href=3D"https://www.youtube=
+.com/user/teamviewer"><img valign=3D"middle" src=3D"https://mcocdn-test.tea=
+mviewer.com/staticresources/youtube-icon.png" alt=3D"Youtube"/></a></td></t=
+r>
+      </table>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+padding-top:12px;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:12px;line-height:16px;text-=
+align:left;color:#62656A;"
+      >TeamViewer Germany GmbH, Bahnhofsplatz 2, 73033 G=C3=B6ppingen, Germ=
+any</div>
+   =20
+                </td>
+              </tr>
+           =20
+              <tr>
+                <td
+                   align=3D"left" style=3D"font-size:0px;padding:10px 25px;=
+padding-top:0;word-break:break-word;"
+                >
+                 =20
+      <div
+         style=3D"font-family:Verdana;font-size:10px;line-height:12px;text-=
+align:left;color:#62656A;"
+      >Copyright =C2=A9 2022 TeamViewer Germany GmbH</div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+      </div>
+   =20
+  </body>
+</html>
+  </div>
+   =20
+                </td>
+              </tr>
+           =20
+        </tbody>
+      </table>
+   =20
+            </td>
+          </tr>
+        </tbody>
+      </table>
+   =20
+      </div>
+   =20
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+       =20
+      </div>
+   =20
+     =20
+      <!--[if mso | IE]></td></tr></table><![endif]-->
+   =20
+   =20
+      </div>
+   =20
+  </body>
+</html>
+ =20=

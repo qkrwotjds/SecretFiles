@@ -1,0 +1,367 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1594353615;
+	cv=none; b=SN6YHKMSk3qfxmpfCYgkslXMePROQNnYWDhYzgPKVunK4m6kOezmFmFgkAwS
+	 HHnMrf9USB7C2I/l/bb+YpLqYfx43UjGDAtAawPpB4nI+zuQeCNKtpjIyWgI212PyfLdAg
+	 awkIDDvyJ28QFdgqOl17mfZOnklHij/GVfnJufGq4M8/MyUPQG13CuHhM558AGepYVCLHi
+	 nG/3zCIcVS0mmkvJWTEB2amPbXlQ28udX3h9mYUqop1dDXLsw+fvd4uaSpRQl3XR5xz+jF
+	 8yolZm/ZPMIwRmfyJubPqk73rKRqKD0sFR7nQttxXLe7+0OBls7cGLleOasLdQsMvQl7ip
+	 zg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1594353615; c=relaxed/relaxed;
+	bh=WaxlFVLZUthhvTf5oaRLWkQPS85A/K6/VsN2xIdIfY4=;
+	h=dkim-signature:to:message-id:date:subject:from; b=f9/QEp+bX6itbB2Sy4J
+	 9l3lb+eWU12eBdToAPN3oxU20aNYdsEKc/OyZVLhzHeH+/d8sbZJs/M8k/ayy1VhQ63y6q
+	 SjUlxemiL/eOaSB2va4zLcp4rJ09Qe16Tx8wMFdZWGkeEeiCpBUl/vCZCFVcwpBUUF63mI
+	 c8LpeESkTO8+xf7RxduHDNEI0iSvcdD+uVl0751O51FAR3/7YLK23CkTjxux2A+qmiZ2/g
+	 aZHkxnntsPj7C+2AhiWhzsczcBWsOipM9fRmShJCstMyyp/MhcqUAfKZmNu4KvQOLABeyp
+	 6M+ab6vHcMZ2+LVGJdfaWJ0rjxaENNDJP27lWpWLcxg==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com designates 147.253.210.66 as permitted sender) smtp.mailfrom=msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com;
+  dkim=pass header.i=@roomster.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=roomster.com
+Return-Path: <msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com>
+Received-SPF: pass (mx.naver.com: domain of msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com designates 147.253.210.66 as permitted sender)
+  client-ip=147.253.210.66; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com designates 147.253.210.66 as permitted sender) smtp.mailfrom=msprvs1=18460CMdZBA6-=bounces-236911@bounces.roomster.com;
+  dkim=pass header.i=@roomster.com;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=roomster.com
+X-Naver-ESV: wfFn+6J4p63CbHmqKBwdbXFYKAtmKAu9jJ+Y
+X-Session-IP: 147.253.210.66
+Received: from mta-210-66.sparkpostmail.com (mta-210-66.sparkpostmail.com [147.253.210.66])
+  by crcvmail26.nm.naver.com with ESMTP id 3le-dgcQQXOj6sfk8b-miA
+  for <1059230@naver.com>;
+  Fri, 10 Jul 2020 04:00:15 -0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=roomster.com;
+	s=scph1218; t=1594353613; i=@roomster.com;
+	bh=WaxlFVLZUthhvTf5oaRLWkQPS85A/K6/VsN2xIdIfY4=;
+	h=Content-Type:To:Message-ID:Date:Subject:From;
+	b=w6HNfMpf8gBLq9zwOg6fgL5TDjK3+uF0yXwFAnv4sRsbsRL33VutY2PRQSa74H0+h
+	 11dQqv7cUf562/IRssEh8OeXvRpnos8O7FemWRrd7d0H4knSekOSNjlN/XsxWi0/kv
+	 jO5qABUZP0jpdS5twTrxo/Kpy9avEHxlqzJ1keKM=
+X-MSFBL: 62l7zcCzRbhB/F1IQ+TZyHarNxo58zfo/YEDUiicKBY=|eyJyIjoiMTA1OTIzMEB
+	uYXZlci5jb20iLCJzdWJhY2NvdW50X2lkIjoiMCIsIm1lc3NhZ2VfaWQiOiIwMDF
+	jY2RlNzA3NWZjMTAxZjAxNSIsImN1c3RvbWVyX2lkIjoiMjM2OTExIiwidGVuYW5
+	0X2lkIjoic3BjIn0=
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: =?utf-8?B?7J6s7ISxIOuwlQ==?= <1059230@naver.com>
+Message-ID: <0F.51.00449.DC7E70F5@ab.mta1vrest.cc.prd.sparkpost>
+Date: Fri, 10 Jul 2020 04:00:13 +0000
+MIME-Version: 1.0
+Reply-To: hello@roomster.com
+Subject: =?utf-8?B?7J6s7ISxLCBSb29tc3RlciAyNC83IOqzoOqwneyEvO2EsOuhnA==?=
+	=?utf-8?B?67aA7YSwIOyDiCDrqZTsi5zsp4DqsIAg64+E7LCp7ZaI7Iq164uI64ukLg==?=
+From: "Roomster" <hello@roomster.com>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html xmlns=3D"http://www.=
+w3.org/1999/xhtml" style=3D"background-color: #f0f0f0; color: #565a5c; font=
+-size: 16px; line-height: 150%">=0D=0A<head>=0D=0A    <meta http-equiv=3D"C=
+ontent-Type" content=3D"text/html; charset=3Dutf-8">=0D=0A    <!-- The foll=
+owing conditional block is for windows phone. It is excluded from MS Outloo=
+k because it causes rendering problems. -->=0D=0A    <!--[if !mso]><!-->=0D=
+=0A    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">=0D=0A   =
+ <!--<![endif]-->=0D=0A    <!-- Title tag specified to make it valid xhtml,=
+ but empty because it is used for some native android clients in the prehea=
+der.-->=0D=0A    <title></title>=0D=0A    <!-- Collapse borders on Outlook.=
+ -->=0D=0A    <!--[if (gte mso 9)|(IE)]>=0D=0A        <style type=3D"text/c=
+ss">=0D=0A            table { border-collapse: collapse; }=0D=0A        </s=
+tyle>=0D=0A    <![endif]-->=0D=0A</head>=0D=0A<body dir=3D"ltr" style=3D"ba=
+ckground-color: #f0f0f0; color: #565a5c; font-size: 16px; line-height: 150%=
+; margin: 0; min-width: 100%; padding: 0;">=0D=0A<div style=3D"color:transp=
+arent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;wid=
+th:1px;margin:0px;padding:0px;border-width:0px!important;display:none!impor=
+tant;line-height:0px!important;"><img border=3D"0" width=3D"1" height=3D"1"=
+ src=3D"http://trac.roomster.com/q/Z9Ja1pjKXKewCFpt7xBLOw~~/AAOdbwA~/RgRg6m=
+zNPVcDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~"></div>=0D=
+=0A=0D=0A    <!-- Wrapper tag for global style properties because body some=
+times gets stripped. -->=0D=0A    <center style=3D"-ms-text-size-adjust: 10=
+0%; -webkit-text-size-adjust: 100%; table-layout: fixed; width: 100%;">=0D=
+=0A        <!-- Webkit tag for webkit powered clients (apple mail 6 and bel=
+ow) -->=0D=0A        <div style=3D"background-color: white; border-color: #=
+f0f0f0; border-style: solid; border-width: 1px; max-width: 600px;">=0D=0A  =
+          <!--[if (gte mso 9)|(IE)]>=0D=0A                <table width=3D"6=
+00" align=3D"center">=0D=0A                <tr>=0D=0A                <td bg=
+color=3D"#ffffff">=0D=0A            <![endif]-->=0D=0A            <!-- Logo=
+ Table Starts -->=0D=0A            <table align=3D"center" style=3D"border-=
+spacing: 0; color: #e0e0e0; font-family: sans-serif; margin: 0 auto; max-wi=
+dth: 600px; padding-bottom: 20px; width: 100%;">=0D=0A                <tr>=
+=0D=0A                    <td style=3D"border-bottom-color: #f7f7f7; border=
+-bottom-style: solid; border-bottom-width: 1px; padding-bottom: 0; padding-=
+left: 1em;">=0D=0A                        <a href=3D"http://trac.roomster.c=
+om/f/a/SgxQ2jDhiaEJt2uFqN8Z3Q~~/AAOdbwA~/RgRg6mzNP0QZaHR0cHM6Ly93d3cucm9vbX=
+N0ZXIuY29tL1cDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~" sty=
+le=3D"color: #565a5c; text-decoration: none">=0D=0A                        =
+    <img alt=3D"Roomster Logo" src=3D"https://d1frv26ioc12ph.cloudfront.net=
+/Content/images/email/logo.png" style=3D"border: 0; height: 43px; width: 14=
+0px">=0D=0A                        </a>=0D=0A                    </td>=0D=
+=0A                    <td style=3D"border-bottom-color: #f7f7f7; border-bo=
+ttom-style: solid; border-bottom-width: 1px; color: #4ba106; font-size: 16p=
+x; padding: 0; padding-bottom: 3px; padding-right: 20px; text-align: right;=
+ vertical-align: bottom;">=0D=0A                        #LiveTogether #Live=
+Better=0D=0A                    </td>=0D=0A                </tr>=0D=0A     =
+       </table>=0D=0A            <!-- Logo Table Ends -->=0D=0A=0D=0A      =
+      <table align=3D"center" style=3D"border-spacing: 0; color: #e0e0e0; f=
+ont-family: sans-serif; line-height: 150%; margin: 0 auto; max-width: 600px=
+; width: 90%;">=0D=0A                <tr>=0D=0A                    <td styl=
+e=3D"padding: 0">=0D=0A                        <!-- Title Section Starts --=
+>=0D=0A                        <table align=3D"center" style=3D"border-spac=
+ing: 0; color: #e0e0e0; font-family: sans-serif; line-height: 150%; margin:=
+ 0 auto; max-width: 600px; padding-bottom: 0px; width: 100%;">=0D=0A       =
+                     <tr>=0D=0A                                <td align=3D=
+"center" style=3D"padding: 0">=0D=0A                                    <p =
+style=3D"color: #787b7d; font-family: 'Helvetica neue', helvetica, arial, s=
+ans-serif; font-size: 22px; line-height: 29px; margin: 0; margin-bottom: 10=
+px; max-width: 100%;">=0D=0A                                        =EC=95=
+=88=EB=85=95=ED=95=98=EC=84=B8=EC=9A=94 =EF=BB=BF=EC=9E=AC=EC=84=B1! =0D=0A=
+                                    </p>=0D=0A                             =
+   </td>=0D=0A                            </tr>=0D=0A                      =
+      <tr>=0D=0A                                <td align=3D"center" style=
+=3D"padding: 0">=0D=0A                                    <!--[if (gte mso =
+9)|(IE)]>=0D=0A                                    <table cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" align=3D"center">=0D=0A                    =
+                <tr>=0D=0A                                    <td width=3D"=
+500" style=3D"border-radius: 10px; font-family: 'Helvetica neue', helvetica=
+, arial, sans-serif; padding-bottom: 15px; padding-top: 15px;" align=3D"cen=
+ter">=0D=0A                                    <![endif]-->=0D=0A          =
+                          <p style=3D"color: #787b7d; font-family: 'Helveti=
+ca neue', helvetica, arial, sans-serif; font-size: 22px; line-height: 29px;=
+ margin: 0; margin-bottom: 10px; width: 500px; text-align: left;">=0D=0A   =
+                                     24/7 =EA=B3=A0=EA=B0=9D=EC=84=BC=ED=84=
+=B0 =EC=83=81=EB=8B=B4=EC=9B=90=EC=9C=BC=EB=A1=9C=EB=B6=80=ED=84=B0 =EC=83=
+=88 =EB=A9=94=EC=8B=9C=EC=A7=80=EA=B0=80 =EB=8F=84=EC=B0=A9=ED=96=88=EC=8A=
+=B5=EB=8B=88=EB=8B=A4.=0D=0A                                    </p>=0D=0A =
+                                   <!--[if (gte mso 9)|(IE)]>=0D=0A        =
+                            </td>=0D=0A                                    =
+</tr>=0D=0A                                    </table>=0D=0A              =
+                      <![endif]-->=0D=0A                                </t=
+d>=0D=0A                            </tr>=0D=0A                        </ta=
+ble>=0D=0A                        <!-- Title Section Ends -->=0D=0A        =
+            </td>=0D=0A                </tr>=0D=0A                <!-- One =
+Column Row Starts -->=0D=0A                <tr>=0D=0A                    <t=
+d style=3D"padding: 0">=0D=0A                        <a href=3D"http://trac=
+.roomster.com/f/a/Lm5mUkg-7nCOK5vFCjenIA~~/AAOdbwA~/RgRg6mzNP0QraHR0cHM6Ly=
+9ibmMubHQvZGlObS93NXpoeEFKbm1HP3BhdGg9c3VwcG9ydFcDc3BjQgoAHM3nB1_BAfAVUhExM=
+DU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~" style=3D"text-decoration: none">=0D=0A    =
+                        <div style=3D"display: inline-block; max-width: 600=
+px; vertical-align: top; width: 100%;">=0D=0A                              =
+  <table width=3D"100%" style=3D"border-spacing: 0; color: #e0e0e0; font-fa=
+mily: sans-serif; line-height: 150%">=0D=0A                                =
+    <tr>=0D=0A                                        <td style=3D"padding:=
+ 0">=0D=0A                                            <table style=3D"borde=
+r-spacing: 0; color: #e0e0e0; font-family: sans-serif; font-size: 14px; lin=
+e-height: 150%; text-align: left; width: 100%;">=0D=0A                     =
+                           <tr>=0D=0A                                      =
+              <td style=3D"padding: 0; text-align: center;">=0D=0A         =
+                                               <img src=3D"https://d1frv26i=
+oc12ph.cloudfront.net/Content/images/email/tpl/welcome/contactus.jpg" width=
+=3D"540" alt=3D"" style=3D"border: 0; height: auto; max-width: 540px;">=0D=
+=0A                                                    </td>=0D=0A         =
+                                       </tr>=0D=0A                         =
+                       <tr>=0D=0A                                          =
+          <td style=3D"font-size: 14px; padding: 0; padding-bottom: 10px; p=
+adding-top: 10px; text-align: left; width: 100%;">=0D=0A                   =
+                                     <div style=3D"color: #44484a; font-fam=
+ily: 'Helvetica neue', helvetica, arial, sans-serif; font-size: 20px; line-=
+height: 1px">=0D=0A                                                        =
+    =C2=A0=0D=0A                                                        </d=
+iv>=0D=0A                                                    </td>=0D=0A   =
+                                             </tr>=0D=0A                   =
+                         </table>=0D=0A                                    =
+    </td>=0D=0A                                    </tr>=0D=0A             =
+                   </table>=0D=0A                            </div>=0D=0A  =
+                      </a>=0D=0A                    </td>=0D=0A            =
+    </tr>=0D=0A                <!-- One Column Row Ends -->=0D=0A          =
+      <!-- Button Starts -->=0D=0A                <tr>=0D=0A               =
+     <td align=3D"center" style=3D"border: none; padding: 0; padding-bottom=
+: 50px; text-align: center;">=0D=0A=0D=0A                        <!--[if (g=
+te mso 9)|(IE)]>=0D=0A                <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" align=3D"center">=0D=0A                <tr>=0D=0A      =
+          <td bgcolor=3D"#4ba106" width=3D"500" height=3D"70px;" style=3D"b=
+order-radius: 10px; font-family: 'Helvetica neue', helvetica, arial, sans-s=
+erif; padding-bottom: 15px; padding-top: 15px;" align=3D"center">=0D=0A    =
+        <![endif]-->=0D=0A                        <center>=0D=0A           =
+                 <a href=3D"http://trac.roomster.com/f/a/Lm5mUkg-7nCOK5vFCj=
+enIA~~/AAOdbwA~/RgRg6mzNP0QraHR0cHM6Ly9ibmMubHQvZGlObS93NXpoeEFKbm1HP3BhdGg=
+9c3VwcG9ydFcDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~" styl=
+e=3D"background-color: #4ba106; border-radius: 10px; color: white; display:=
+ block; font-size: 24px; height: 70px; line-height: 70px; margin: 0 auto; t=
+ext-align: center; text-decoration: none; width: 500px;">=0D=0A            =
+                    =EB=A9=94=EC=8B=9C=EC=A7=80 =EC=9D=BD=EA=B8=B0=0D=0A   =
+                         </a>=0D=0A                        </center>=0D=0A =
+                       <!--[if (gte mso 9)|(IE)]>=0D=0A                </td=
+>=0D=0A                </tr>=0D=0A                </table>=0D=0A           =
+ <![endif]-->=0D=0A                    </td>=0D=0A                </tr>=0D=
+=0A                <!-- Button Ends -->=0D=0A                <!-- Big Divid=
+er Starts -->=0D=0A                <tr>=0D=0A                    <td style=
+=3D"background-color: #f0f0f0; padding: 0;">=0D=0A=0D=0A                   =
+     <!--[if (gte mso 9)|(IE)]>=0D=0A                            <table wid=
+th=3D"600" border=3D"0">=0D=0A                            <tr>=0D=0A       =
+                     <td style=3D"height: 13px; width: 600px">=0D=0A       =
+                 <![endif]-->=0D=0A                        <div style=3D"he=
+ight: 13px; width: 600px;">=C2=A0</div>=0D=0A                        <!--[i=
+f (gte mso 9)|(IE)]>=0D=0A                            </td>=0D=0A          =
+                  </tr>=0D=0A                            </table>=0D=0A    =
+                    <![endif]-->=0D=0A=0D=0A                    </td>=0D=0A=
+                </tr>=0D=0A                <!-- Big Divider Ends -->=0D=0A =
+               <!-- Footer Starts -->=0D=0A                <tr>=0D=0A      =
+              <td align=3D"center" style=3D"border: none; padding: 0; paddi=
+ng-bottom: 50px;padding-top: 20px; text-align: center;">=0D=0A             =
+           <table cellpadding=3D"10" style=3D"border-spacing: 0; color: #e0=
+e0e0; font-family: sans-serif; line-height: 150%; margin: auto; padding: 10=
+px;" align=3D"center">=0D=0A                            <tr>=0D=0A         =
+                       <td align=3D"center" style=3D"padding: 0">=0D=0A    =
+                                <table cellpadding=3D"5" style=3D"border-sp=
+acing: 0; color: #e0e0e0; font-family: sans-serif; line-height: 150%; max-w=
+idth: 600px; width: auto;">=0D=0A                                        <t=
+r>=0D=0A                                            <td style=3D"padding: 0=
+; padding: 5px;">=0D=0A                                                <a h=
+ref=3D"http://trac.roomster.com/f/a/VpqpqbuhmJOTu6ExPv-VqQ~~/AAOdbwA~/RgRg6=
+mzNP0QlaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL1Jvb21zdGVyQ29ycFcDc3BjQgoAHM3nB1_B=
+AfAVUhExMDU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~" title=3D"Facebook" style=3D"color=
+: #4ba106; text-decoration: none">=0D=0A                                   =
+                 <img alt=3D"Facebook" height=3D"42" src=3D"https://d1frv26=
+ioc12ph.cloudfront.net/Content/images/email/social/facebook_64.png" width=
+=3D"42" style=3D"border: 0">=0D=0A                                         =
+       </a>=0D=0A                                            </td>=0D=0A=0D=
+=0A                                            <td style=3D"padding: 0; pad=
+ding: 5px;">=0D=0A                                                <a href=
+=3D"http://trac.roomster.com/f/a/oVqI0hjcRbp6tFuJ79TJOg~~/AAOdbwA~/RgRg6mzN=
+P0QcaHR0cHM6Ly90d2l0dGVyLmNvbS9yb29tc3RlclcDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjM=
+wQG5hdmVyLmNvbVgEAAAAAA~~" title=3D"Twitter" style=3D"color: #4ba106; text-=
+decoration: none">=0D=0A                                                   =
+ <img alt=3D"Twitter" height=3D"42" src=3D"https://d1frv26ioc12ph.cloudfron=
+t.net/Content/images/email/social/twitter_64.png" width=3D"42" style=3D"bor=
+der: 0">=0D=0A                                                </a>=0D=0A   =
+                                         </td>=0D=0A=0D=0A                 =
+                           <td style=3D"padding: 0; padding: 5px;">=0D=0A  =
+                                              <a href=3D"http://trac.roomst=
+er.com/f/a/ZU1M-_wXClgPd194WUxeeA~~/AAOdbwA~/RgRg6mzNP0QtaHR0cHM6Ly9wbHVzLm=
+dvb2dsZS5jb20vMTEwNzYwNjM2NjIwNTA4OTQyNjkyVwNzcGNCCgAczecHX8EB8BVSETEwNTkyM=
+zBAbmF2ZXIuY29tWAQAAAAA" title=3D"Google Plus" style=3D"color: #4ba106; tex=
+t-decoration: none">=0D=0A                                                 =
+   <img alt=3D"Google Plus" height=3D"42" src=3D"https://d1frv26ioc12ph.clo=
+udfront.net/Content/images/email/social/google-plus_64.png" width=3D"42" st=
+yle=3D"border: 0">=0D=0A                                                </a=
+>=0D=0A                                            </td>=0D=0A=0D=0A       =
+                                     <td style=3D"padding: 0; padding: 5px;=
+">=0D=0A                                                <a href=3D"http://t=
+rac.roomster.com/f/a/dM0dMO2GaLz3UOQWHNMbJw~~/AAOdbwA~/RgRg6mzNP0QjaHR0cHM6=
+Ly92aW1lby5jb20vcm9vbXN0ZXJyb29tbWF0ZXNXA3NwY0IKABzN5wdfwQHwFVIRMTA1OTIzMEB=
+uYXZlci5jb21YBAAAAAA~" title=3D"Vimeo" style=3D"color: #4ba106; text-decora=
+tion: none">=0D=0A                                                    <img =
+alt=3D"Vimeo" height=3D"42" src=3D"https://d1frv26ioc12ph.cloudfront.net/Co=
+ntent/images/email/social/vimeo_64.png" width=3D"42" style=3D"border: 0">=
+=0D=0A                                                </a>=0D=0A           =
+                                 </td>=0D=0A=0D=0A                         =
+                   <td style=3D"padding: 0; padding: 5px;">=0D=0A          =
+                                      <a href=3D"http://trac.roomster.com/f=
+/a/AHKkIPNo9GCDKW5jgkbVoA~~/AAOdbwA~/RgRg6mzNP0QuaHR0cHM6Ly93d3cueW91dHViZS=
+5jb20vdXNlci9Sb29tc3RlclJvb21tYXRlc1cDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjMwQG5hd=
+mVyLmNvbVgEAAAAAA~~" title=3D"YouTube" style=3D"color: #4ba106; text-decora=
+tion: none">=0D=0A                                                    <img =
+alt=3D"YouTube" height=3D"42" src=3D"https://d1frv26ioc12ph.cloudfront.net/=
+Content/images/email/social/youtube_64.png" width=3D"42" style=3D"border: 0=
+">=0D=0A                                                </a>=0D=0A         =
+                                   </td>=0D=0A=0D=0A                       =
+                     <td style=3D"padding: 0; padding: 5px;">=0D=0A        =
+                                        <a href=3D"http://trac.roomster.com=
+/f/a/iOQswVFBM0t_JqW3Q3hWVw~~/AAOdbwA~/RgRg6mzNP0QjaHR0cHM6Ly93d3cucGludGVy=
+ZXN0LmNvbS9yb29tc3Rlci9XA3NwY0IKABzN5wdfwQHwFVIRMTA1OTIzMEBuYXZlci5jb21YBAA=
+AAAA~" title=3D"Pinterest" style=3D"color: #4ba106; text-decoration: none">=
+=0D=0A                                                    <img alt=3D"Pinte=
+rest" height=3D"42" src=3D"https://d1frv26ioc12ph.cloudfront.net/Content/im=
+ages/email/social/pinterest_64.png" width=3D"42" style=3D"border: 0">=0D=0A=
+                                                </a>=0D=0A                 =
+                           </td>=0D=0A=0D=0A                               =
+             <td style=3D"padding: 0; padding: 5px;">=0D=0A                =
+                                <a href=3D"http://trac.roomster.com/f/a/amb=
+Kj-yxCHk3h4dTkuZAwA~~/AAOdbwA~/RgRg6mzNP0QbaHR0cDovL3Jvb21zdGVyLnR1bWJsci5j=
+b20vVwNzcGNCCgAczecHX8EB8BVSETEwNTkyMzBAbmF2ZXIuY29tWAQAAAAA" title=3D"Tumb=
+lr" style=3D"color: #4ba106; text-decoration: none">=0D=0A                 =
+                                   <img alt=3D"Tumblr" height=3D"42" src=3D=
+"https://d1frv26ioc12ph.cloudfront.net/Content/images/email/social/tumblr_6=
+4.png" width=3D"42" style=3D"border: 0">=0D=0A                             =
+                   </a>=0D=0A                                            </=
+td>=0D=0A=0D=0A                                            <td style=3D"pad=
+ding: 0; padding: 5px;">=0D=0A                                             =
+   <a href=3D"http://trac.roomster.com/f/a/-FTtOivKs8KcXJc5Q6hZhQ~~/AAOdbwA=
+~/RgRg6mzNP0QjaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9yb29tc3Rlci9XA3NwY0IKABzN5=
+wdfwQHwFVIRMTA1OTIzMEBuYXZlci5jb21YBAAAAAA~" title=3D"Instagram" style=3D"c=
+olor: #4ba106; text-decoration: none">=0D=0A                               =
+                     <img alt=3D"Instagram" height=3D"42" src=3D"https://d1=
+frv26ioc12ph.cloudfront.net/Content/images/email/social/instagram_64.png" w=
+idth=3D"42" style=3D"border: 0">=0D=0A                                     =
+           </a>=0D=0A                                            </td>=0D=
+=0A=0D=0A                                        </tr>=0D=0A               =
+                     </table>=0D=0A                                </td>=0D=
+=0A                            </tr>=0D=0A                        </table>=
+=0D=0A                        <table cellpadding=3D"10" style=3D"border-spa=
+cing: 0; color: #e0e0e0; font-family: sans-serif; line-height: 150%; margin=
+: auto; padding: 10px;" align=3D"center">=0D=0A                            =
+<tr>=0D=0A                                <td>=0D=0A                       =
+             <a href=3D"http://trac.roomster.com/f/a/cCvfz1FJ2D3Wb5YtDfxTpA=
+~~/AAOdbwA~/RgRg6mzNP0RLaHR0cHM6Ly9pdHVuZXMuYXBwbGUuY29tL3VzL2FwcC9yb29tc3R=
+lci1hcHAvaWQxMDQ1NTQ4MDEzP3JlZmVycmVyPTAwMDAxYmM0VwNzcGNCCgAczecHX8EB8BVSET=
+EwNTkyMzBAbmF2ZXIuY29tWAQAAAAA">=0D=0A                                     =
+   <img alt=3D"Download on the App Store" src=3D"https://d1frv26ioc12ph.clo=
+udfront.net/Content/images/email/Download_on_the_App_Store_Badge_US_UK.png"=
+ height=3D"50">=0D=0A                                    </a>=0D=0A        =
+                        </td>=0D=0A                                <td>=0D=
+=0A                                    <a href=3D"http://trac.roomster.com/=
+f/a/c7uQAzc9LT78MtDP_3YQsw~~/AAOdbwA~/RgRg6mzNP0TeaHR0cHM6Ly9wbGF5Lmdvb2dsZ=
+S5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWNvbS5yb29tc3RlciZyZWZlcnJlcj0wMDAwMWJj=
+NCZ1dG1fc291cmNlPWdsb2JhbF9jbyZ1dG1fbWVkaXVtPXBydG5yJnV0bV9jb250ZW50PU1hcjI=
+1MTUmdXRtX2NhbXBhaWduPVBhcnRCYWRnZSZwY2FtcGFpZ25pZD1NS1QtQUMtZ2xvYmFsLW5vbm=
+UtYWxsLWNvLXByLXB5LVBhcnRCYWRnZXMtT2N0MTUxNS0xVwNzcGNCCgAczecHX8EB8BVSETEwN=
+TkyMzBAbmF2ZXIuY29tWAQAAAAA">=0D=0A                                        =
+<img alt=3D"Get it on Google Play" src=3D"https://play.google.com/intl/en_u=
+s/badges/images/apps/en-play-badge.png" height=3D"50">=0D=0A               =
+                     </a>=0D=0A                                </td>=0D=0A =
+                           </tr>=0D=0A                        </table>=0D=
+=0A                        <table style=3D"border-spacing: 0; color: #e0e0e=
+0; font-family: sans-serif; line-height: 150%; margin: auto">=0D=0A        =
+                    <tr>=0D=0A                                <td style=3D"=
+padding: 0"></td>=0D=0A                                <td style=3D"max-wid=
+th: 610px !important; padding: 0;">=0D=0A                                  =
+  <div style=3D"color: #9ca299; font-size: 14px; padding-bottom: 5px; paddi=
+ng-left: 5px; padding-right: 5px; padding-top: 0px; text-align: center; tex=
+t-shadow: 0 1px #ffffff">=0D=0A                                        Room=
+ster Corp., West Broadway, New York, New York, 10013, USA=0D=0A            =
+                            <br>=0D=0A                                     =
+   Roomster Ltd., Woodberry Grove, North Finchley, London N12 0DR, England,=
+ UK=0D=0A                                        <br>=0D=0A                =
+                        <br>=0D=0A                                        =
+=EA=B3=A0=EA=B0=9D=EB=8B=98=EC=9D=80 Roomster =ED=9A=8C=EC=9B=90=EC=9D=B4=
+=EB=AF=80=EB=A1=9C =EC=9D=B4 =EB=A9=94=EC=8B=9C=EC=A7=80=EB=A5=BC =EB=B0=9B=
+=EC=9C=BC=EC=85=A8=EC=8A=B5=EB=8B=88=EB=8B=A4.=0D=0A                       =
+                 <br>=0D=0A                                        <a href=
+=3D"http://trac.roomster.com/f/a/-STVKyK2CHel_4llVeOuFg~~/AAOdbwA~/RgRg6mzN=
+P0QvaHR0cHM6Ly93d3cucm9vbXN0ZXIuY29tL1NldHRpbmdzL05vdGlmaWNhdGlvbnNXA3NwY0I=
+KABzN5wdfwQHwFVIRMTA1OTIzMEBuYXZlci5jb21YBAAAAAA~" style=3D"color: #9ca299;=
+ text-decoration: underline;">=0D=0A                                       =
+     =EC=95=8C=EB=A6=BC =EC=84=A4=EC=A0=95=0D=0A                           =
+             </a>=0D=0A                                        =C2=A0=C2=A0=
+=0D=0A                                        <a href=3D"http://trac.roomst=
+er.com/f/a/7B6fLmzFMf71Xx7aEwABmg~~/AAOdbwA~/RgRg6mzNP0SmaHR0cHM6Ly93d3cucm=
+9vbXN0ZXIuY29tL3NldHRpbmdzL3Vuc3Vic2NyaWJlL1ZIRjZWREl4VVdWck5XUnZOa3BITTA5V=
+01EWkVNbU5wVG1KblRVaG5URXhQVlZCSFYyNVlkR3M0U0VWNVdYSjZhREpPWkZvMllUQlZkVVJQ=
+V0VWVWJUUndVWFl3YTB4MU9UY3pVRzR4VUU4NVkwOXdLMUU5UFE9PVcDc3BjQgoAHM3nB1_BAfA=
+VUhExMDU5MjMwQG5hdmVyLmNvbVgEAAAAAA~~" style=3D"color: #9ca299; text-decora=
+tion: underline;">=0D=0A                                            =EB=B0=
+=94=EB=A1=9C =EA=B5=AC=EB=8F=85 =EC=B7=A8=EC=86=8C=0D=0A                   =
+                     </a>=0D=0A                                    </div>=
+=0D=0A                                </td>=0D=0A                          =
+      <td style=3D"padding: 0"></td>=0D=0A                            </tr>=
+=0D=0A                        </table>=0D=0A                        <div st=
+yle=3D"color: #EEEEEE; font-size: 1px; height: 1px; line-height: 1px">=0D=
+=0A                            2020-07-10T04:00:13=0D=0A                   =
+     </div>=0D=0A                    </td>=0D=0A                </tr>=0D=0A=
+                <!-- Footer Ends -->=0D=0A            </table>=0D=0A       =
+     <!--[if (gte mso 9)|(IE)]>=0D=0A                </td>=0D=0A           =
+     </tr>=0D=0A                </table>=0D=0A            <![endif]-->=0D=
+=0A        </div>=0D=0A    </center>=0D=0A=0D=0A<img border=3D"0" width=3D"=
+1" height=3D"1" alt=3D"" src=3D"http://trac.roomster.com/q/ygOhYvaUaEyvytHz=
+tm5S3Q~~/AAOdbwA~/RgRg6mzNPlcDc3BjQgoAHM3nB1_BAfAVUhExMDU5MjMwQG5hdmVyLmNvb=
+VgEAAAAAA~~">=0D=0A</body>=0D=0A</html>=0A
+

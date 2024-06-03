@@ -1,0 +1,678 @@
+Received: (qmail 8680 invoked from network); 4 Nov 2015 12:58:16 -0000
+Received: from 10.114.49.204 (HELO crcvmail14-1.nm.naver.com) (10.114.49.204)
+  by cmda28-2.nm.naver.com with SMTP; 4 Nov 2015 12:58:16 -0000
+Received: from mta1.global.expediamail.com ([66.231.85.66])
+  by crcvmail14-1.nm.naver.com with ESMTP id vnTQacvaQsiCSu6ykQCRbg
+  for <1059230@naver.com>;
+  Wed, 04 Nov 2015 12:58:16 -0000
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=200608; d=expediamail.com;
+ h=From:To:Subject:Date:List-Unsubscribe:MIME-Version:Reply-To:Message-ID:Content-Type; i=Expedia@kr.expediamail.com;
+ bh=xq1cYChC+wJvAt0GkULewaZenFw=;
+ b=stTXUwJoWEt5zOG7K/qULqkRH8DfiKDOnIq0zhaYb7ooAqHGE3qi3/1h58TAy1WZtSfhWubXL+gi
+   5GvBnrGFPDqHc3XXBuCKWCLS0Mvl66lG8+Ep0XD2zAJ9ZCgKDG/pipPnfGUvOp81/CjnwnqmUXHR
+   /V9xPS5DAZWH+OMZiAE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=200608; d=expediamail.com;
+ b=VPxTyG0p2tNpab7ub9zvC4xPmUXUIHG2ggJs6ozpEF7l3m31Jbs5A2ZgQ7vbcYTb6idR9cc9hYze
+   uITrL8RM4FZh6ru7dK7Jk1egPlfp8IAhgAauiQL2XzWYrsgEQsJmxVgJOFOqEnlXLIclI/j93ya7
+   jfr4e67+XGpAwgbppuk=;
+Received: by mta1.global.expediamail.com id h780eg163hs9 for <1059230@naver.com>; Wed, 4 Nov 2015 04:10:33 -0600 (envelope-from <bounce-857_HTML-401937888-1129986-260184-780@bounce.global.expediamail.com>)
+From: =?UTF-8?B?7J217Iqk7ZS865SU7JWEIOy9lOumrOyVhA==?=
+ <Expedia@kr.expediamail.com>
+To: <1059230@naver.com>
+Subject: =?UTF-8?B?7J2867O4IO2YuO2FlCDsl7Drp5Ag7IS47J28ISDsnoTtlLzrpqw=?=
+ =?UTF-8?B?7Ja8IO2MsOumrOyKpCDshJzsmrgg64uo64+F7Yq56rCA64+EIOunjOuCmA==?=
+ =?UTF-8?B?67O07IS47JqUIQ==?=
+Date: Wed, 04 Nov 2015 04:10:33 -0600
+List-Unsubscribe: <mailto:leave-fd471c75720b5c392848-fe1f1070746d077a7d1c78-fe8b1571776d0d7573-feca167675650c79-ff60137875@leave.global.expediamail.com>
+MIME-Version: 1.0
+Reply-To: "Expedia" <reply-fe8b1571776d0d7573-857_HTML-401937888-260184@kr.expediamail.com>
+x-job: 260184_1129986
+Message-ID: <64160433-06c6-4ec3-979a-7a5d0d49882c@xtinmta1257.xt.local>
+Content-Type: multipart/alternative;
+	boundary="6SeovuvIYx4w=_?:"
+X-Naver-ESV: +/RYpB3G1H+YbXFCbHmRKxU9aAurjJ+Y
+
+This is a multi-part message in MIME format.
+
+--6SeovuvIYx4w=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+
+--6SeovuvIYx4w=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=" />
+<meta name="viewport" content="width=device-width; maximum-scale=1.0;">
+<meta charset="utf-8">
+<title>Expedia.co.kr</title>
+<style type="text/css">
+.ReadMsgBody {width:100%;}
+.ExternalClass {width:100%;}
+.nowhite a{ color:#ffffff !important;}
+.locktext a{ color:#ffffff !important;}
+.noblack a{ color:#010101 !important;}
+.prclr a{ color:#0065b8 !important;}
+.noblack a{ color:#000000 !important;}
+.noblue a{ color:#00335f !important;}
+.noblue1 a{ color:#0065b8 !important;}
+
+/* /\/\/\/\/\/\/\/\/ Mobile Styles /\/\/\/\/\/\/\/\/ */
+
+/* /\/\/\/\/\/\/\/\/ Wrapper /\/\/\/\/\/\/\/\/ */
+@media only screen and (max-device-width: 600px)  {
+*[class="Split"]{float:left !important; width:100% !important;}
+*[class="Phone"]{padding-left:10px !important; padding-right:10px !important; padding-bottom:15px;}
+*[class="SplitPhoneTagline"]{float:left !important; width:100% !important; padding-left:0px !important;padding-right:0px !important; padding-top:2px !important; text-align:center !important;}
+*[class="logo_split"]{float:left !important; width:100% !important; padding-left:0px !important; }
+
+body {margin:0; padding:0; min-width:100% !important; font-family:Arial, Helvetica, sans-serif;}
+
+table[id="wrapper"]{width:100% !important; overflow:hidden;}
+table[class="w125"]{width:125px !important; float:left !important;}
+table[class="w150"]{width:140px !important;}
+
+table[class="hide"],td[class="hide"],a[class="hide"],img[class="hide"]{display:none !important;}
+table[class="cta"] {width:100% !important;}
+table[class="RWM"]{ float: left !important;} /*For RWM module - US */
+
+td[class="clear"] {float: left !important; clear: both !important; width: 100% !important;}
+td[class="clear_header"] {float: left !important; clear: both !important; width: 100% !important; padding-bottom:10px !important;padding-top :0px !important;}
+td[class="social"]{ float: left !important;} /*social footer */
+td[class="RWM"]{ float: left !important;} /*For RWM module - US */
+td[class="RWM_Padding"]{ float: left !important; padding-top:0px !important;} /*For RWM module - US */
+td[class="countdown"] {padding-bottom:0px !important;}   		 
+td[class="body14"] {font-size:14px !important;}   		 
+td[class="body16"] {font-size:16px !important;}   		 
+td[class="bg"] {background:#00355f !important;}
+
+/* /\/\/\/\/\/\/\/\/ Wrapper /\/\/\/\/\/\/\/\/ */
+
+/* /\/\/\/\/\/\/\/\/ Generic /\/\/\/\/\/\/\/\/ */	
+
+a[class="msg"] {font-size:13px !important; font-weight:bold !important;}
+a[class="cta"] {font-size:16px !important; font-weight:bold !important;}
+a[class="hdr"] {font-size:22px !important; font-weight:bold !important;}
+
+a[class="prc"] {font-size:24px !important; font-weight:bold !important;} 
+.alr a{color:#6b6b6b; text-decoration:none;} 
+
+img[class="flx"]{width:100% !important; height:auto !important; line-height:no₩al !important;}
+
+img[class="plogo"] {width:100% !important; height:auto !important; line-height:no₩al !important;}
+	 
+img[class="logo_loy"] {max-width:180px !important; height:auto !important; display:block !important; overflow:hidden !important;}
+img[class="logo"] {max-width:180px !important; height:auto !important; display:block !important; overflow:hidden !important; width:144px !important;}
+img[class="partner"] {height:auto !important; display:block !important;overflow:hidden !important; max-width: 120px !important;}
+	  		 
+div[class="swap2"]{width:100% !important; height:auto !important; max-height:156px!important; display:block !important; overflow:hidden !important;} /* mobile version image replacement - please remember to adjust the max-height based on the image height and add +10px - eg. if image height 156 - max-height should be 166px*/   		 
+	  		 
+span[class="hdr"] {font-size:18px !important; font-weight:bold !important;}
+span[class="newhdr"] {font-size: 14px !important;font-weight: bold !important;}
+
+/* /\/\/\/\/\/\/\/\/ Generic /\/\/\/\/\/\/\/\/ */	
+
+
+/* Mobile Download Banner*/
+*[class="divsize"] { display:block !important; width:35px !important; height:20px !important;}
+	
+*[class="ShowMblDwnlTopClr"]{ background-color:#ffcb00;}
+
+*[class="ShowMblDwnlTop"]{ background-image:url(http://media.expedia.com/media/content/expus/graphics/mail/general/banner_expediaapp_krkr_y_320x52_new.jpg); width:320px !important; height:46px !important; max-height:46px !important;  margin:auto; clear:both; display:block !important; float:left !important; }   
+
+*[class="mblDwnl2"]{width:100px !important; height:30px !important; float:right; display:block !important; border:0!important; margin-top:11px; margin-right:5px;}
+*[class="mblDwnl3"]{width:85px !important; height:30px !important; float:right; display:block !important; border:0!important; margin-top:11px; margin-right:6px;}
+/* Mobile Download Banner*/
+
+/* Additional Mobile Download Banner*/
+*[class="ShowMblDwnla"] { width:276px !important; background-color:#ffcb00 !important; height:69px !important; margin-top:0px; margin-right:auto; margin-bottom:17px; margin-left:auto; clear:both; display:block !important; max-height:69px !important; overflow:visible !important; }
+*[class="mblDwnl01a"] { width:100% !important; height:15px !important; display:block !important; border:0!important; margin-top:10px; text-align:center !important; font-size:12px !important; line-height:12px !important; font-family:Arial, Helvetica, sans-serif !important; color:#000000 !important; visibility:visible !important; }
+*[class="mblDwnl2a"] { float:left; display:block !important; border:0!important; margin-top:05px; margin-left:0px !important; overflow:visible !important; }
+*[class="mblDwnl3a"] { float:right; display:block !important; border:0!important; margin-top:05px; margin-right:0px !important; overflow:visible !important; }
+*[class="imageblocka"] { display:block !important; overflow:visible !important; }
+*[class="mblDwnloffera"] { width:100% !important; height:18px !important; float:none; display:block !important; border:0!important; padding-top:7px !important; margin-bottom:0px !important; text-align:center !important; overflow : visible !important; line-height:15px !important; font-size:12px !important; max-height:15px !important; }
+/* Additional Mobile Download Banner*/
+
+td[class="noclear"] {float: left !important;}
+td[class="sociala"]{ float: right !important;}
+table[class="w125a"]{width: auto !important; float:right !important;} 
+*[class="LoyaltyReg"]{text-align:center !important; padding-top:10px; width:195px; margin:auto;}
+*[class="PartnerPadding"]{text-align:center !important; padding-top:0px !important; padding-bottom:0px !important; margin:auto; max-width: 200px !important; vertical-align:middle !important;}
+*[class="PartnerPadding1"]{text-align:right !important; padding-top:0px !important; padding-bottom:0px !important; margin:auto; max-width: 140px !important; vertical-align:middle !important;}
+*[class="alncenter"]{width:252px !important; height:auto!important; text-align:center !important; padding-top:10px !important;}
+*[class="FlexWidth100"]{width:100% !important; height:auto!important; line-height:no₩al!important;}
+*[class="TemplatePadding"]{padding:10px !important;}
+*[class="MobilePadding10"]{padding:10px !important;}
+div[class="swap_banner"]{width:180px !important; height:auto !important; max-height:auto !important; display:block !important; overflow:hidden !important;}
+div[class="swap_banner1"]{max-width:180px !important; height:auto !important; max-height:auto !important; display:block !important; overflow:hidden !important; float:left;}
+*[class="HideAll"]{display:none !important;}
+*[class="LegalPadding"]{ padding-top:10px !important; padding-bottom:0px !important; padding-left: 10px !important; padding-right:10px !important;}
+*[class="swap_logo"] { display:block!important; width:auto!important; max-width:180px !important; overflow:visible!important; height:auto!important; max-height:inherit!important; visibility: visible !important;}
+*[class="swap_logo_center"] {display:block!important; width:100% !important; max-width:auto !important; overflow:visible!important; height:auto!important; max-height:inherit!important; visibility: visible !important;}
+*[class="clear_header_loy"] {float: left !important; clear: both !important; width: 100% !important; padding-bottom:0px !important;padding-top :10px !important;padding-left :0px !important;padding-right :0px !important;}
+*[class="clear_header_loy1"] {float: left !important; clear: both !important; width: 100% !important; padding-bottom:10px !important;padding-top :10px !important;padding-left :0px !important;padding-right :0px !important;}
+*[class="ImgResize"]{ width:50% !important; height:auto !important;}
+*[class="headernewlogo"]{text-align:center !important;margin-left: auto !important; margin-right: auto !important;}
+table[class="fullwidth_main"] { width:100% !important; float:none !important; }
+table[class="fullwidth3"] { width:270px !important; float:none !important; margin:0px auto !important;}	
+
+table[class="coupon_code"]{ width:100% !important; margin: 0 auto; float:none !important}
+table[class="dcount"]{ width:50% !important; margin: 0 auto; float:none !important}
+table[class="dcount_table"]{ width:90% !important; margin: 0 auto; float:none !important}
+*[class="bx2IMG"]{width:100% !important ; margin:0 auto !important;}
+*[class="tImg"]{width:98% !important ; height:auto !important;}
+*[class="With95P"]{width:95% !important ; height:auto !important;}
+.CLeftFlex{width:90% !important ;}
+.CCode{width:40% !important ;}
+.CRightFlex{width:90% !important ;}
+
+table[class="destinationTable"] {float:none !important; width:100% !important; margin:0px auto !important; border:none !important;}
+table[class="destinationTable1"] { float:none !important; width:100% !important; margin:0px auto !important;}
+
+
+img[class="mainbanner"]{ width:100% !important;}
+.mobliebanner{ width:100% !important }
+}
+
+
+
+@media only screen and (max-device-width: 480px) {
+img[class="mainbanner"]{ overflow:hidden !important; display:none !important;}
+.mobliebanner{ width:100% !important; display:block!important; max-height:100% !important; font-size: medium!important; float:none !important; overflow: visible !important;}
+}
+
+/* /\/\/\/\/\/\/\/\/ Mobile Styles /\/\/\/\/\/\/\/\/ */
+
+
+/* IF REQUIRED ADD EXTRA STYLES HERE */
+</style>
+</head>
+<body leftmargin="0" topmargin="0" marginheight="0" bgcolor="#ffffff">
+<!-- ET Tracking -->
+<img src="http://click.global.expediamail.com/open.aspx?ffcb10-fe8b1571776d0d7573-fdf815757160017e7c157371-feca167675650c79-ff5b1c7572-fe1f1070746d077a7d1c78-ff60137875&d=20008" width="1" height="1">
+<table id="wrapper" width="100%" border="0" cellpadding="0" cellspacing="0" style=" background-color:#ffffff;">
+<tr>
+<td>
+<!-- Meso Tracking Links -->
+
+<!-- Return Path Tracking -->
+
+
+	<img src="http://pixel.inbox.exacttarget.com/pixel.gif?r=ad9b715058b66ee2e7508eb0b7513cd2b6853efc&s=206040109&c=CM_M_16_327_X_M_KO&CM=M&TPID=16" width="1" height="1" />
+
+<!--MESO TRACKING-->
+
+
+
+<!-- Meso Tracking - 4714 -->
+
+<style>
+  *[class="hidden"] {
+    max-height:0 !important;    /* Gmail */
+    display:none !important;    /* Generic */
+    mso-hide:all !important;    /* Outlook clients */
+    overflow:hidden !important; /* Generic */
+    width: 0px !important;      /* Generic */
+  }
+</style>
+
+<table class="hidden">
+<tr>
+<td>
+
+
+
+
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+<tr>
+<td align="center">
+<table width="598" id="Table1" border="0" cellpadding="0" cellspacing="0" class="FlexWidth100">
+<tr>
+<td align="center">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" style="-webkit-font-smoothing:antialiased; -webkit-text-size-adjust:none; -ms-text-size-adjust:none; mso-table-lspace:0pt; mso-table-rspace:0pt;">
+<tr>
+<td align="center">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+
+<tr>
+<td align="left" valign="top" class="ShowMblDwnlTopClr">
+
+<!-- Mobile Banner Start -->
+
+<div class="ShowMblDwnlTop" style="display:none; width:0; height:0; max-height:0;" align="left">
+<a href="http://click.global.expediamail.com/?qs=d7e48db61ada769790026573ef23e079a2a009e84960ca0d31a6d83538dce4aa5de27076ac9aee85848c3766ed713ec7"  class="mblDwnl3" target="_blank"></a>
+<a href="http://click.global.expediamail.com/?qs=d7e48db61ada76975f0cc55e8b28f56fb5f38e28db6d2b5d43ede63356eea66048b9413f462226b3a8e0d8fab3bf93e5"  class="mblDwnl2" target="_blank"></a>
+</div>
+<!-- Mobile Banner  End-->
+
+</td>
+</tr>
+
+
+<tr>
+<td align="center" valign="top" bgcolor="#F5F5F5">
+<!-- Preheader Start -->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="hide" align="center" bgcolor="#f5f5f5" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:11px; text-decoration:none; padding-top:5px; padding-bottom:5px;">
+
+세계적인 글로벌 온라인 여행 사이트
+
+
+
+
+
+ |  이 이메일을 웹브라우저에서 <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769733a6d55f1d4a1eaf4df97c559be2bee73e0cfd74e72d040710825102baffc724" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:11px; text-decoration:underline;">보기</a> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span style="color:#0065b8;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</span>
+
+
+</td>
+</tr>
+</table>
+<!-- Preheader End-->
+</td>
+</tr>
+
+
+<!-- Responsive US App Banner Start -->
+
+<!-- Responsive US App Banner End -->
+<tr>
+<td align="left" valign="top" style="border-bottom:1px solid #c7c7c7; border-top:5px solid #feca43; overflow:hidden;" bgcolor="#ffffff">
+<!-- BEGIN headerflag_old / headerflag_new changes (20150709 Doug) -->
+<!-- Header Start -->
+<table border="0" cellpadding="0" cellspacing="0" align="left" class="FlexWidth100">
+<tr>
+<table align="left" border="0" cellpadding="0" cellspacing="0" class="FlexWidth100">
+    <tr>
+<td bgcolor="#FFFFFF">
+
+<!-- Logo Start -->
+
+
+<table border="0" cellpadding="0" cellspacing="0" class="FlexWidth100">
+    <tr>
+        <td>
+          <table border="0" cellpadding="0" cellspacing="0" class="HideAll">
+	        <tr>
+		        <td valign="middle" style="padding:10px 0px 10px 15px;" align="center" width="221">
+                <a   href="http://click.global.expediamail.com/?qs=d7e48db61ada769703fdbb4b43b5ea46dfff8e0338fb75c7aae608825a53e32ebe77168459dc288b9d0980abdefc053c" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#006699; text-decoration:none;">
+                    
+                    <img src="http://image2.global.expediamail.com/lib/feca167675640c78/m/7/Logo_Expedia_kr_221x60.jpg" width="221" height="60" alt="Expedia.co.kr" border="0" style="display:block;" /></a>
+                </td>
+            </tr>
+          </table>
+  
+   		<!--[if !mso 9]><!-->
+              <div class="swap_logo_center" style="mso-hide: all !important; overflow: hidden; max-height: 0; width: 0; display: none; line-height: 0; visibility: hidden; height:0;">
+              <table cellspacing="0" cellpadding="0" border="0" height="0" border="0" cellpadding="0" cellspacing="0" align="center" >
+                <tr>
+                <td style="mso-hide: all !important; font-size:0px;line-height:0px; padding:20px 0px 20px 0px;">
+                
+                 <center>
+                        <a   href="http://click.global.expediamail.com/?qs=d7e48db61ada769703fdbb4b43b5ea46dfff8e0338fb75c7aae608825a53e32ebe77168459dc288b9d0980abdefc053c" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#006699; text-decoration:none;">
+                        
+
+                        <img src="http://image2.global.expediamail.com/lib/feca167675640c78/m/7/Logo_Mobile_Expedia_KR_GW.jpg" width="0" alt="Expedia.co.kr" border="0" height="0" style="display:block;" class="logo" />
+
+                        </a>
+                  </center>
+                        </td>
+                </tr></table>
+            </div> 
+                <!--<![endif]-->
+        
+        </td>
+    </tr>
+</table>
+
+
+<!-- Logo End -->
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+<!-- Header End -->
+<!-- END headerflag_old / headerflag_new changes (20150709 Doug) -->
+</td>
+</tr>
+<tr>
+<td align="left" bgcolor="#E5E5E5">
+
+<!-- Nav Start -->
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">                          
+                                <tr>
+                                    <td align="center">
+                        	<table width="100%" border="0" cellpadding="0" cellspacing="0">                          
+                                <tr>
+                                    <td align="center" valign="top" bgcolor="#e5e5e5">
+                                      <table border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                        <td class="show" align="center" valign="top" style="border-left:1px solid #d8d8d8; padding:10px 7px 10px 7px; border-right:1px solid #d8d8d8;"> <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada76978c5aab97d87edc3a4b5989271ee0061b6733ce6faf5f38fac1534e4b44a6c6b2f72c169603f44a4b" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:12px; text-decoration:none;"> <span style="color:#0065b8;">홈</span></a></td>
+                                        
+                                        <td class="show" align="center" valign="top" style=" border-right:1px solid #d8d8d8; padding:10px 7px 10px 7px;"> <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769727ca2655b382f72ea21e409d0d169c5e7eca45ded6489481c281e86e9df4ed8aafc0d354213c3269" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:12px; text-decoration:none;">  <span style="color:#0065b8;">호텔</span></a></td>
+                                        
+                                        <td class="show" align="center" valign="top" style=" border-right:1px solid #d8d8d8; padding:10px 7px 10px 7px;"><a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769755cee24bd55dd375a7724888c513746cd699d0b6534ff85cbe8882200132bbcf1fd41c8d40b1135f" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:12px; text-decoration:none;"> <span style="color:#0065b8;">국내호텔</span></a></td>
+                                        
+                                        <td class="hide" align="center" valign="top" style="border-right:1px solid #d8d8d8; padding:10px 7px 10px 7px;"><a  href="http://click.global.expediamail.com/?qs=d7e48db61ada76976d1f2aa6c898c4d403bc39b73dfcba35ddc5fc1bdb27a9a3b28c386eec87366c24e4cd8a110bc39b" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:12px; text-decoration:none;"> <span style="color:#0065b8;">마감 특가 상품</span></a></td>
+                                            
+                                            <td class="hide" align="center" valign="top" style="border-right:1px solid #d8d8d8; padding:10px 7px 10px 7px;"><a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697a8ad494e2adc806ed0a9c10d277505816c05f91c8d6b97a979fcff3530193ced7e42bdf4b7b6fba9" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size:12px; text-decoration:none;"> <span style="color:#0065b8;">온라인 예약 안내</span></a></td>
+                                            
+                                            
+                                             
+                                             
+                                             
+                                             
+                                            
+                                        </tr>
+                                   	 </table>
+                                    </td>
+                                	</tr>           
+                                 </table>
+                                    </td>
+                                    </tr>           
+                                  </table>
+
+
+
+<!-- Nav End -->
+
+</td>
+</tr>
+
+
+  <tr>
+                  <td bgcolor="#FFFFFF" align="center" valign="middle" style="padding:0px 0px 0px 0px;">
+                       <!-- Body Start-->
+                       <!-- PASTE BODY COPY HERE -->  
+                       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#ffffff">
+
+<!--/\/\-------- 560px Responsive Hero --------/\/\-->
+<tr>
+  <td valign="top" bgcolor="#f5f5f5" ><a href="http://click.global.expediamail.com/?qs=d7e48db61ada7697e2d810a9c8160017b75013978390d845ddab4497211a4fbb24619a54a163efbd154eae053cba12cc" target="_blank" ><img src="http://image2.in.expediamail.com/lib/fec6167675640d75/m/5/kr-top1.jpg" alt="[5일 한정] 일본 연말 세일! 최대 50% 할인!" border="0" class="FlexWidth100" style="display:block" />
+</a></td></tr>
+<tr>
+  <td valign="top" bgcolor="#ffffff" style="font-size:0px; line-height:0px;" height="10" ></td></tr>
+<tr>
+  <td valign="top" bgcolor="#f5f5f5" ><a href="http://click.global.expediamail.com/?qs=d7e48db61ada7697f7d12c8110eeca7045de8f18b6429bb713448ef95d3ab19129f946743f4cffff77abbdbb2b70cc5f" target="_blank" ><img src="http://image2.in.expediamail.com/lib/fec6167675640d75/m/5/kr-middle2.jpg" alt="[당일 예약 가능] 11월 국내 호텔 최대 55% 할인" border="0" class="FlexWidth100" style="display:block" />
+</a></td></tr>
+<tr>
+  <td valign="top" bgcolor="#ffffff" style="font-size:0px; line-height:0px;" height="10" ></td></tr>
+<tr>
+  <td valign="top" bgcolor="#f5f5f5" ><a href="http://click.global.expediamail.com/?qs=d7e48db61ada76978867453a4811b5e5474083c370d6367a5013b07ce90aa7e9b69c750fcc1c5234fcf37943b9cd1d54" target="_blank" ><img src="http://image2.global.expediamail.com/lib/feca167675650c79/m/5/ImperialPalace_151104.jpg" alt="seoul hotel" border="0" class="FlexWidth100" style="display:block" />
+</a></td></tr>
+
+</table>
+
+	  <!-- End BODY -->  
+    
+    </td></tr>
+
+
+        
+        
+										
+
+
+</table>
+</td>
+</tr>
+
+
+
+
+
+
+
+        	 <tr>
+                  <td bgcolor="#FFFFFF" align="center"><!-- Social Start--> 
+                    
+
+<table width="100%" border="0" cellpadding="12" cellspacing="0" style="border-top: 1px solid #CCCCCC;">
+	<tr>
+		<td class="TemplatePadding" align="left" valign="top" bgcolor="#FFFFFF" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" >
+	<tr>
+    <td align="left" valign="middle" bgcolor="#FFFFFF">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td width="40" align="left" valign="middle" style="padding: 0px 0px 0px 0px;">
+                <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697214bb500217ec74e684d21770776038c6843ef1b4cc00b54f1c54bb1249a35ed9e37b39281673475"> <img alt="Mobile App" src="http://image2.global.expediamail.com/lib/feca167675640c78/m/5/Icon_ExpediaApp_30x31.jpg" width="30" height="31" border="0" style="display:block;"></a></td>
+				<td align="left" valign="middle"><a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769780e1391c31e86bb865cf0d87f9ee7a592d10cc1e29e8c85e73839842060d782a216076832e31cb71" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6b6b6b; font-weight:bold; text-decoration:none; line-height:1.1em;">  무료앱 다운로드<br>
+				</a></td>
+			</tr>
+		</table>
+		</td>
+        
+        <td align="right" valign="middle" class="Hide300" bgcolor="#FFFFFF">
+		<table border="0" cellpadding="0" cellspacing="0" align="right" valign="middle" >
+			<tr>
+				<td align="left" class="show" valign="middle" style="padding:0px 0px 0px 10px;" width="20">
+                <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697bba407df0fecf1b07eee275dab69557e179982ab46fb8d839bffc914b9cc795826c45f6eb02a107d"><img alt="Facebook" src="http://media.expedia.com/media/content/expus/graphics/mail/logos/footer_facebook_20x20.jpg" width="20" height="20" border="0" style="display:block;"></a></td>
+				
+				<td align="right" class="show" valign="middle" width="30">
+                <a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769756ca2e496f61a20840c933d0ce0381b549e6feffbfa25174ed658fd03e08c7168c7df710a52acb18"> <img alt="Twitter" src="http://media.expedia.com/media/content/expus/graphics/mail/logos/footer_twitter_20x20.jpg" width="20" height="20" border="0" style="display:block;"></a></td>
+				
+                
+				
+				
+				
+                
+			</tr>
+		</table>
+		</td>
+        
+	</tr>
+</table>
+            </td>
+	</tr>
+</table>
+
+ 
+                    <!-- Social End--></td>
+                  </tr>
+             
+
+
+
+<tr>
+    	<td>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tr> <td align="left" valign="top" bgcolor="#FFFFFF">
+<!-- Useful Links Start -->
+
+
+
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#FFFFFF" align="left" valign="middle" style="font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#6b6b6b; text-decoration:none; padding:15px 20px 15px 20px;">
+<a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697ea0780e561502c5195eaad01c4bafbf5de6fe4659e531fb7cf98af87f64aa3d60fbc568b86b9e4f7" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size: 11px; font-weight:normal; text-decoration: underline;">내 계정</a> | 
+
+<a  href="http://click.global.expediamail.com/?qs=d7e48db61ada76971039f0ed6425c9e7a7db5a0329833e407f2df3c256c58e76bf5654833aed7218d6f9e25bec070bac" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size: 11px; font-weight:normal; text-decoration: underline;">내 일정</a> | 
+
+<a  href="http://click.global.expediamail.com/?qs=d7e48db61ada769739a8edc741aaf9137736292c7bf22f1f78bbf5770c2bc1124b143706ed935515b669189794fbf702" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size: 11px; font-weight:normal; text-decoration: underline;">수신거부</a> | 
+
+
+<a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697fd96c72883f7704f00c8118f418d50094ff91dadac615c5bf9f6e52fb2d486ac6517cdcb33fa7ac7" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size: 11px; font-weight:normal; text-decoration: underline;">개인정보 취급방침</a> | 
+
+
+
+<a  href="http://click.global.expediamail.com/?qs=d7e48db61ada7697573d819f79b5644135d424c5207f010f5552715c1fdbc5b322b885a0c9791b5d5321861c2d4af54a" style="font-family:Arial, Helvetica, sans-serif; color:#0065b8; font-size: 11px; font-weight:normal; text-decoration: underline;">
+
+고객지원</a>
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+
+<!-- Useful Links Centre End-->
+</td>  </tr> 
+
+<!-- Body End-->
+
+
+<tr>
+<td bgcolor="#FFFFFF" align="left">
+<!-- Legal Footer Start -->
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr> 
+		<td bgcolor="#FFFFFF" align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; color:#6b6b6b ; font-size: 11px; text-decoration: none; padding:0px 20px 10px 20px;">
+                해당 상품의 가격은 발행 시점에 책정된 것이며, 이용 상황에 따라 변경될 수 있습니다.            
+    <br />
+	<br />
+     
+     본 메일은 정보통신망 이용촉진 및 정보보호 등에 관한 법률 시행규칙에 의거하여, [04/11/2015] 으로 회원님의 메일 수신동의 여부를 확인한 결과, 회원님께서 수신을 동의하셨기에 발송되었습니다. 
+   <br />
+	<br />
+    본 메일은 발신 전용 메일로서 회신되지 않습니다.
+<br /><br />
+            &copy; 2015, Expedia Inc. All rights reserved.<br />
+외부 웹사이트의 콘텐츠에 대해서 본사는 책임을 지지 않습니다. 
+		</td>
+	</tr>
+</table>
+
+
+<!-- Legal Footer End -->
+</td>
+</tr>
+
+
+
+
+<tr>
+<td bgcolor="#FFFFFF" align="left" valign="top">
+<!-- Footer EMID Start -->
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+               <tr>
+                     <td align="left" bgcolor="#ffffff" style="font-family:Arial, Helvetica, sans-serif; color:#6b6b6b; font-size:11px; text-decoration:none; padding-top:5px; padding-bottom:5px; padding-left:20px;">
+						<span class="alr">(EMID: MR-CM-M-teid16.0-issu327-test1-langKR-versX-mcidM-segaX-segbX-segmX-key7005030141260-paid206040109)(MD: 20151104041033)(ETID: 1129986)    </span>                  
+                  </td>
+            </tr>
+   </table>
+
+
+<!-- Footer EMID End -->
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>
+</td>
+</tr>
+
+</table>
+
+</body>
+</html>
+
+--6SeovuvIYx4w=_?:--
+
+

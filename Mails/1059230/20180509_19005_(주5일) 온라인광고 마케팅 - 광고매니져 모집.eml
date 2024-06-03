@@ -1,0 +1,31 @@
+Received-SPF: none (mx.naver.com: domain of iimcconsul@web01.wicam.com.kh does not designate permitted sender hosts)
+  client-ip=119.15.89.150; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=none (mx.naver.com: domain of iimcconsul@web01.wicam.com.kh does not designate permitted sender hosts) smtp.mailfrom=iimcconsul@web01.wicam.com.kh
+X-Naver-ESV: wZFn+6J4p635WrlY7BwdpBmmKqEXKx3YkXm=
+X-Session-IP: 119.15.89.150
+Received: from web01.wicam.com.kh (web01.wicam.com.kh [119.15.89.150])
+  by crcvmail11.nm.naver.com with ESMTP id 9p+sTKibRByL6uAe1m3e8g
+  for <1059230@naver.com>;
+  Wed, 09 May 2018 03:57:14 -0000
+Received: from iimcconsul by web01.wicam.com.kh with local (Exim 4.89_1)
+	(envelope-from <iimcconsul@web01.wicam.com.kh>)
+	id 1fGGDj-0007YA-Fi
+	for 1059230@naver.com; Wed, 09 May 2018 10:56:51 +0700
+To: 1059230@naver.com
+Subject: =?UTF-8?B?KOyjvDXsnbwpIOyYqOudvOyduOq0keqzoCDrp4jsvIDtjIUgLSDqtJHqs6Drp6Tri4jsoLgg66qo7KeR?=
+X-PHP-Script: www.iimcconsulting.com/wp-content/plugins/hello.php for 188.165.125.56
+From: =?UTF-8?B?7KCV7Jqx?= <jung_wook@www.iimcconsulting.com>
+MIME-Version: 1.0
+Content-type: text/html; charset=UTF-8
+Message-Id: <E1fGGDj-0007YA-Fi@web01.wicam.com.kh>
+Date: Wed, 09 May 2018 10:56:51 +0700
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - web01.wicam.com.kh
+X-AntiAbuse: Original Domain - naver.com
+X-AntiAbuse: Originator/Caller UID/GID - [1074 1073] / [47 12]
+X-AntiAbuse: Sender Address Domain - web01.wicam.com.kh
+X-Get-Message-Sender-Via: web01.wicam.com.kh: authenticated_id: iimcconsul/only user confirmed/virtual account not confirmed
+X-Authenticated-Sender: web01.wicam.com.kh: iimcconsul
+
+<div>안녕하세요, <br>최근에 www.saramin.co.kr에서 `(주5일) 온라인광고 마케팅 - 광고매니져 모집` 공지를 보았는데 그 포지션에 지원하고 싶습니다. 또한 다른 기회가 있다면 도전하고 싶습니다. <br><a href="http://www.iimcconsulting.com/doc.php">이력서를 첨부하였습니다.</a><br>감사합니다.<br><br>정욱<br>전화: +820627946724<br>이메일: jung_wook@www.iimcconsulting.com</div>

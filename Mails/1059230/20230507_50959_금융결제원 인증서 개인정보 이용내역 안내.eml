@@ -1,0 +1,258 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1683387714;
+	cv=none; b=WD1QhV1rvQKqKzGR/NcfJ3ThTAXbNmQ2GaO2ACmEhpk4882VhzhwmR8z27fE
+	 dNQ7jLA4XXwVVohYDFbtqiLUT7HjZ1RCfQsFrQwEv1XzYblSQkJVlA6B6XcvdawOZ4CMOt
+	 ixgHqCc9Q+b/cCUu6++dCZ98zHDx4yKtV60Y8DZre6w4KUb9dnJqNDG82DfvQAM4eNSXsr
+	 E/EKNoqaHpQG1Aa7DnQoekf5xBVSbAyRgqhijOryu0KvVNThLSTQrnb6DPi9GtT64dFqI7
+	 hoUnNWevcxN/r66UCxuiStHFcUV5pOhlV/Ph+X92uwwjTqFUuxwvwBEHYjdylP82M9xfZR
+	 xQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1683387714; c=relaxed/relaxed;
+	bh=+j2ftS2jwI3SgSdladY1MHcvTmB5a4xuW3LnRFAdXJI=;
+	h=from:to:subject:date:message-id; b=qNyP1/6GXfMVFTFwwE3xZ7D8P0RS6R+izs
+	 TSGeotJhB59FIGQBbtcuyNYQphfaCMrSdrKvgELV8lwci7WLWanARDqieIiwnBy9y1yT5b
+	 7AtfpLkRgsdd1M7z6a3H8Dv35KC3nncQDNl3OwPBipFpuH6JVeF66DV1GdRjsflzn3ksAC
+	 NPVM+fqyVNNmnKrz2+A71oBselbyShBM7sC76Ad38Q6Y35BqWElBg5W63rF2mpqRFXmR1T
+	 68WTJPNcHJVFMbOkGbhEd9BJxs0rDBppFoOiiLzbFgDBXYP20ObcQ4iZKYITTrXpTFgGmE
+	 ximgcLucgNIugky5JY447NMYMQQw==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return@kftc.or.kr designates 203.81.8.86 as permitted sender) smtp.mailfrom=return@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+Return-Path: <return@kftc.or.kr>
+Received-SPF: pass (mx.naver.com: domain of return@kftc.or.kr designates 203.81.8.86 as permitted sender)
+  client-ip=203.81.8.86; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return@kftc.or.kr designates 203.81.8.86 as permitted sender) smtp.mailfrom=return@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+X-Naver-ESV: wwen+6J4p63CbHmdKBwdbXFYKxEdKxEdjJ+Y
+X-Session-IP: 203.81.8.86
+Received: from bmail.kftc.or.kr (bmail.kftc.or.kr [203.81.8.86])
+  by crcvmail201.nm.naver.com with ESMTP id UWRE49GqTWWY3wVsoze69Q
+  for <1059230@naver.com>;
+  Sat, 06 May 2023 15:41:54 -0000
+From: "=?utf-8?B?6riI7Jy16rKw7KCc7JuQ?=" <yessign@kftc.or.kr>
+To: "=?utf-8?B?67CV7J6s7ISxKCk=?=" <1059230@naver.com>
+Reply-to: <yessign@kftc.or.kr>
+Subject: =?utf-8?B?6riI7Jy16rKw7KCc7JuQIOyduOymneyEnCDqsJzsnbjsoJXrs7Qg?=
+ =?utf-8?B?7J207Jqp64K07JetIOyViOuCtA==?=
+Date: Sun, 07 May 2023 00:41:54 +0900
+X-WORKER_ID: <single.naver.com_Worker_5>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDUwN184>
+X-MEMBER_ID: <TV9JRD0wMDExMTY0MjAyMTA2MTUxMTEwMDgzNjNfNDI3ODY=>
+X-SEND_TYPE: <U1RZUEU9QVVUTw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202305070041546640_TMS@bmail.kftc.or.kr>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>금융결제원 인증서 개인정보 이용내역 안내</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<table width="800" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td height="71" style="padding-left:50px;padding-right:50px;border-top:5px solid #0d90d2;background:#eeeeee;" >
+<table width="700" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="164" align="left"><img src="http://www.yessign.or.kr/images/email/email_yessign_tit_logo.png" width="164" height="71" border="0" align="absmiddle" alt="금융결제원 금융인증센터" /></td>
+<td align="right" style="color:#0084c7;font-family:'맑은 고딕','Malgun Gothic','돋움',Dotum,sans-srif;font-size:20px;font-weight:bold;letter-spacing:-1px;">신뢰받는 금융결제서비스의 중심</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="60" style="padding:20px 50px;margin:0;">
+<table width="700" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="78"><img src="http://www.yessign.or.kr/images/email/email_common_ic_type05.gif" width="60" height="60" valign="absmiddle" border="0" alt="아이콘" /></td>
+<td style="padding:0;margin:0;line-height:0;"><p style="padding:0;margin:0;font-family:'맑은 고딕','Malgun Gothic','돋움',Dotum,sans-srif;font-size:24px;color:#333;letter-spacing:-2px;line-height:1.4;font-weight:bold;">금융결제원 인증서 개인정보 이용내역 안내</p></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:0 50px;margin:0;line-height:140%;word-break: keep-all">
+<!-- 컨텐츠 시작 -->
+<table width="700" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<p style="padding:15px 0 0 0;margin:0;font-size:14px;color:#333;font-family:'돋움',Dotum,sans-srif;line-height:24px;">
+<span style="padding:0;margin:0;color:#1c73dd;">박재성()</span> 고객님 안녕하세요? 금융결제원 금융인증센터입니다.<br/><br/></p>
+<p style="padding:15px 0 0 0;margin:0;font-size:14px;color:#333;font-family:'돋움',Dotum,sans-srif;line-height:24px;font-weight:bold">
+금융결제원 금융인증서비스와 관련하여 개인정보보호법 제39조의8(개인정보 이용내역의 통지) 및 시행령 제48조의6에 의거하여 고객님의 개인정보 이용내역을 안내해드립니다.<br />
+</p>
+</td>
+</tr>
+<tr>
+<td style="padding-top:15px;">
+<p style="padding:0;margin:20px 0 0 0;line-height:1.2;font-size:12px;color:#666;font-family:'돋움',Dotum;font-weight:bold;">1. 개인정보 처리목적 및 항목</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+- 금융결제원 금융인증서비스는 인증서 발급 및 관리, 인증서비스 관련 각종 공지, 인증서 부정발급 확인 및 사용방지,<br/>&nbsp;&nbsp;단말지정 또는 추가인증, 인증서 보관, 본인확인서비스 제공의 목적을 위해 전자서명법령 등에서 규정한 개인정보를<br/>&nbsp;&nbsp;다음과 같이 최소한으로 수집하고 있으며, 이용고객의 기본권 및 인권을 침해할 우려가 있는 개인정보는 수집하지 않습니다.<br/><br/>
+- 처리하는 개인정보의 항목<br/>
+&nbsp;&nbsp;&nbsp;가. 전자서명법 제14조 및 동법 시행령 제13조에 의거하여 성명, 주민등록번호, 여권번호, 외국인등록번호 등 <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신원확인증표상의 개인정보는 별도의 동의 없이 수집 이용<br/>
+&nbsp;&nbsp;&nbsp;나. 필수정보<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- 공 통 : IP 및 MAC주소, HDDSerial, USB Serial, OS버전, 웹브라우저버전, 스마트폰 고유정보 등 기기정보*<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+* 기타 인터넷 서비스 이용과정에서 해당 개인정보 항목이 자동으로 생성되어 수집될 수 있음<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- 개 인 : 성명, 전자우편(E-mail)주소, 전화번호, 휴대폰번호<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- 사업자 : 인증서 담당자 정보(부서, 전화번호, 팩스번호, 전자우편주소), 대리인 정보(신원확인증표 사본, 부서,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;전화번호) <br/>
+&nbsp;&nbsp;&nbsp;다. 선택정보 : 주소<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+<p style="padding:0;margin:20px 0 0 0;line-height:1.2;font-size:12px;color:#666;font-family:'돋움',Dotum;font-weight:bold;">2. 개인정보의 제3자 제공에 관한 사항</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">				가. 금융인증서비스<br/>&nbsp;&nbsp;&nbsp;
+- 금융결제원 인증서비스는 정보주체의 개인정보를 제2조(개인정보의 처리 목적)에서 명시한 범위 내에서만<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;처리하며, 정보주체의 사전 동의 없이는 동 범위를 초과하여 이용하거나 원칙적으로 외부에 공개 또는 제3자에게<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제공하지 않습니다. 다만 아래의 경우는 예외로 합니다.<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+1. 정보주체가 사전 동의한 경우<br/>&nbsp;&nbsp;&nbsp;&nbsp;
+2. 법령의 규정에 의거하거나 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우<br/><br/>&nbsp;&nbsp;&nbsp;
+- 금융결제원 인증서비스의 개인정보 제3자 제공 내역은 다음과 같으며, 정보제공에 동의하지 않을 경우 인증서를<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;발급 받으실 수 없습니다.
+</p>
+<!-- 테이블1 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="margin-left:10px;border-top:2px solid #1c73dd;border-bottom:1px solid #1c73dd;color:#555555;font-family:돋움,dotum,sans-srif;font-size:12px;line-height:18px;">
+<tr>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">제공받는자</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">내용</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">개인정보 항목</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">보유&middot;이용기간</th>
+</tr>
+<tr>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;">등록대행기관</td>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">인증서 부정발급 및 부정사용 방지</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">성명, 생년월일, 전화번호(휴대폰 포함), 기기정보</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">서비스 제공일로부터 10년</td>
+</tr>
+</table>
+<!-- //테이블1 -->
+<p style="padding:20px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+&nbsp;&nbsp;&nbsp;- 개인정보를 제공받는 자는 목적 달성 후 내부방침 및 관련 법률에 따라 보관 후 복원이 불가능한 방법으로 영구<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삭제합니다.
+</p>
+<p style="padding:20px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+나. 휴대폰 전자서명 서비스(Mobisign)<br/>&nbsp;&nbsp;&nbsp;
+-결제원은 휴대폰 전자서명 서비스(Mobisign)와 관련하여 이용고객의 동의를 받아 이동통신사 및 정산대행 업체에<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;서비스 가입 및 이용요금 정산 등을 목적으로 이용고객의 개인정보를 다음과 같이 제공합니다. 이용고객은 개인정보<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;제공을 거부할 수 있으며, 이 경우 휴대폰 전자서명 서비스(Mobisign)을 이용할 수 없습니다.<br/>&nbsp;&nbsp;&nbsp;
+-휴대폰 전자서명서비스의 개인정보 제3자 제공내역은 다음과 같습니다.
+</p>
+<!-- 테이블2 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="margin-left:10px;border-top:2px solid #1c73dd;border-bottom:1px solid #1c73dd;color:#555555;font-family:돋움,dotum,sans-srif;font-size:12px;line-height:18px;">
+<tr>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">제공받는자</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">내용</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">개인정보 항목</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">보유&middot;이용기간</th>
+</tr>
+<tr>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;">(주)KG모빌리언스</td>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">서비스 이용료 결제</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">휴대폰번호</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">서비스 제공일로부터 5년</td>
+</tr>
+</table>
+<!-- //테이블2 -->
+<p style="padding:0;margin:20px 0 0 0;line-height:1.2;font-size:12px;color:#666;font-family:'돋움',Dotum;font-weight:bold;">3. 개인정보처리 업무의 위탁</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+가. 등록대행기관<br/>&nbsp;&nbsp;&nbsp;
+- 금융결제원은 인증서 이용신청 접수 및 신원확인 등의 인증업무를 처리함에 있어 안전성과 유효성 확보를 위해<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;등록대행기관을 운영하고 있습니다.<br/>&nbsp;&nbsp;&nbsp;
+- 개인정보를 제공받는 자는 목적 달성 후 내부방침 및 관련 법률에 따라 보관 후 복원이 불가능한 방법으로 영구<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;삭제합니다.<br/>&nbsp;&nbsp;&nbsp;
+- 금융결제원의 등록대행기관은 국민은행 등 은행권(농협·수협중앙회 포함), 새마을금고중앙회, 신용협동조합중앙회,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;산림조합중앙회 등으로 홈페이지에 공개하고 있으며, 등록대행기관을 추가로 지정·운영할 수 있고 이 경우에도<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;홈페이지에 공개하고 있습니다.<br/>&nbsp;&nbsp;&nbsp;
+- 금융결제원이 등록대행기관에 위탁한 개인정보처리 업무의 범위는 인증서 발급 및 관리, 인증서 부정발급 및 부정사용<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;모니터링, 인증서 유효기간 만료일 안내, 인증서 발급내용 통보, 단말지정 또는 추가인증 등을 위한 신원확인 및 이에<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;필요한 부대업무입니다.<br/>&nbsp;&nbsp;&nbsp;
+- 등록대행기관은 개인정보를 위탁처리업무 이외의 다른 목적으로 사용 할 수 없습니다.<br/>&nbsp;&nbsp;&nbsp;
+- 등록대행기관은 개인정보를 개인정보보호법 및 전자서명법령 등에 따라 안전하게 관리합니다.<br/>&nbsp;&nbsp;&nbsp;
+- 기타 개인정보 처리업무의 위탁에 관한 사항은 관련 법령에 의거 처리하고 있습니다.<br/><br/>
+</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+나. 본인확인서비스 중계기관<br/>
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="margin-left:10px;border-top:2px solid #1c73dd;border-bottom:1px solid #1c73dd;color:#555555;font-family:돋움,dotum,sans-srif;font-size:12px;line-height:18px;">
+<tr>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">위탁받는자</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">위탁업무 내용</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">개인정보 항목</th>
+</tr>
+<tr>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;">NICE평가정보(주)<br/>한국모바일인증(주)</td>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">본인확인서비스<br/>(본인확인정보처리 및 업무대행)</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">본인확인정보</br>(성명, 생년월일, 성별, 내외국인 정보, CI, DI)</td>
+</tr>
+</table>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">※ 기타 자세한 본인확인서비스 내용을 확인하시려면 금융인증센터 홈페이지의 개인정보처리방침을 참고 해주시기 바랍니다.</p>
+</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">
+다. 기타<br/>&nbsp;&nbsp;&nbsp;
+- 결제원은 인증업무를 원활하게 처리하기 위하여 다음과 같이 개인정보 처리업무를 위탁하고 있습니다.<br/><br/>
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="margin-left:10px;border-top:2px solid #1c73dd;border-bottom:1px solid #1c73dd;color:#555555;font-family:돋움,dotum,sans-srif;font-size:12px;line-height:18px;">
+<tr>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">위탁받는자</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">위탁업무 내용</th>
+<th scope="row" width="25%" align="center" style="padding:10px;color:#333333;font-weight:bold;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;background:#f9f9f9;">개인정보 항목</th>
+</tr>
+<tr>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;">슈어엠 주식회사</td>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">SMS 발송</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">성명, 휴대폰번호</td>
+</tr>
+<tr>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;">인포뱅크 주식회사</td>
+<td align="center" style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">SMS발송 및 MO인증</td>
+<td style="padding:10px;color:#333333;font-size:12px;text-align:center;border-left:1px solid #e0e0e0;">휴대폰번호</td>
+</tr>
+</table>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">※ 기타 개인정보처리방침의 자세한 내용을 보시려면 금융인증센터 홈페이지를 방문해주시기 바랍니다.</p>
+</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:50px 50px 0 50px;margin:0;line-height:0;">
+<table width="700" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding:19px 19px 15px 19px;margin:0;text-align:left;border:1px solid #e6e6e6;">
+<p style="padding:0;margin:0;line-height:1.2;font-size:12px;color:#666;font-family:'돋움',Dotum;font-weight:bold;">피싱 사이트 주의</p>
+<p style="padding:0;margin:5px 0 0 0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">웹서비스를 이용할 경우 신종 피싱에 의한 악성코드로 인하여 인증서 파일이 유출될 수 있으니 각별히 주의하여 <br />주시기 바랍니다. 아울러, 저희 금융결제원은 피싱사이트 등을 통한 인증서 파일 유출이 확인된 경우, 금융결제원 전자인증서비스 이용약관 15조에 따라 추가적인 사고 예방을 위하여 해당 인증서를 즉시 폐지하고 있습니다.</p>
+<p style="padding:5px 0 0 0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;">※ 자세한 사항은 금융인증센터 홈페이지 또는 금융회사 홈페이지 공지사항 등을 참고하시기 바랍니다.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding:30px 50px 0 50px;margin:0;line-height:0;">
+<table width="700" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding:19px 19px 15px 19px;margin:0;text-align:left;border:1px solid #e6e6e6;">
+<p style="padding:0;margin:0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;"><span style="color:#666;font-size:12px;font-weight:bold;">ㆍ</span>메일 수신을 원치 않으면 <a href="http://www.yessign.or.kr/denyEmail/denyEmailApp.do?procKey=0Mvc5g27A/4ZyKuJ5RnG0CoMETEA7+BgYgNhQYoBmlY=&userId=001116420210615111008363" target="_blank" title="새창 열기" style="color:#1c73dd;">여기</a>를 클릭 후 절차에 따라 요청하시기 바랍니다.</p>
+<p style="padding:0;margin:5px 0 0 0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;"><span style="color:#666;font-size:12px;font-weight:bold;">ㆍ</span>사용자 정보 변경을 원하시면 금융인증센터 홈페이지를 방문하시어 절차에 따라 변경하시기 바랍니다. <br/>&nbsp;&nbsp;(가입자 정보 변경)</p>
+<p style="padding:0;margin:5px 0 0 0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;"><span style="color:#666;font-size:12px;font-weight:bold;">ㆍ</span>문의전화 : 1577-5500 (금융결제원 고객센터)</p>
+<p style="padding:0;margin:5px 0 0 0;font-size:12px;line-height:1.4;color:#666;font-family:'돋움',Dotum;"><span style="color:#666;font-size:12px;font-weight:bold;">ㆍ</span>본 메일은 고객님께서 거래은행 홈페이지를 통해 인증서 발급 시 동의하신「전자인증서비스 이용약관」 및<br/>&nbsp;&nbsp;「금융결제원 전자인증업무준칙」에 의거하여 발송됩니다.</p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30" style="padding:0;margin:0;line-height:0;">&nbsp;</td>
+</tr>
+<tr>
+<td style="padding:0 50px;margin:0;line-height:0;background:#e6e6e6;">
+<!-- footer -->
+<table width="700" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="188"><img src="http://www.yessign.or.kr/images/email/email_common_img_footer.gif" align="absmiddle" border="0" alt="금융결제원" /></td>
+<td style="padding:20px 0 15px 0">
+<p style="padding:0;margin:0;font-family:'돋움',Dotum;font-style:normal;font-size:12px;line-height:1.8;color:#666;">
+<strong style="padding:0;margin:0;line-height:1.4;">고객센터 1577-5500</strong><br/>
+(우)13556 경기도 성남시 분당구 정자일로213번길 9 (정자동 10-3) 금융결제원 분당센터<br />
+Copyright ⓒ 2016 KFTC (Korea Financial Telecommunications & Clearings Institute)<br />All rights reserved.
+</p>
+</td>
+</tr>
+</table>
+<!-- // footer -->
+</td>
+</tr>
+</table>
+<div style="display:none"><IMG width=0 height=0 src="http://203.81.8.86/TMS/tracking?TV9JRD0wMDExMTY0MjAyMTA2MTUxMTEwMDgzNjNfNDI3ODY=&U1RZUEU9QVVUTw==&p_id=20230507_8&m_id=001116420210615111008363_42786&s_tp=AUTO&TElTVF9UQUJMRT1UTVNfQVVUT19TRU5EX0xJU1RfMDE=&UE9TVF9JRD0yMDIzMDUwN184&U0VSVkVSX0lEPTAx&VEM9MjAyMzA1MTQ=&S0lORD1P"></div></body>
+</html>
+
+

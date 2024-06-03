@@ -1,0 +1,104 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1587945288;
+	cv=none; b=fWbEWVnEcgPmXT9U7cWIDHTdjAFu9rDIFyef9OGcIJtoOe9L+g736ImkH2sX
+	 iOLxD5j9Js7JacIAy3AR/iQA94/ft+yMdJvZWb+6Gg23ciVW263vwC6FcZP6D95adlfv/W
+	 eRd4J37nT+gNCoalPa9Btm+LFIHDtwgdRU48miBRPUvNs9uR5J8BBPCnrto3c7Djs40zoi
+	 hG6cfOAFEylE/ZP77rNobbvTgF5P+JQSAfg6rRGpOU1ByBHaTn04i8aje4DyvEKPtCdZFx
+	 rM/cbkNPn10/qYjpqXZD9fW4D8YlJx0/NXe5x9kY4kDcaA6oYfz/RD55pibX5nCwIOrXBb
+	 ug==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1587945288; c=relaxed/relaxed;
+	bh=mZItiAR810CLltr5rmzsw98X+Ibje71VexppZZOc0kI=;
+	h=dkim-signature:from:to:subject:date:message-id; b=WMb0oADbN5S8zXZ48VF
+	 z2P0V/yVRgMZ08GFEbUKnf2iuB69nX/404LFtB9aRm/GuAlwVBRyZCYaGwXaEfqGG0A4a1
+	 3v9epJy18P+H50712bmnwoZY0+gk0oA2oL0R6800+/RM5pxJ+0th3m3QHCDZMIIycAoMo9
+	 0L2gF6+CP+OXh39YGcXFkpMgohBssLnnneEZpxo7+cQ6PS3K60IuoTkIKHGiRS3dEPfPqA
+	 A6y+V1gx0rsbq8/29fwKc8O3jOINKrh8tTtV0X36RbC162yUdk07hGeHyxzOh6R3YZQvHr
+	 L0TegC6EBejdQ2eJM05Yo4i3gZFtAMJ8heCxKvCAo1Q==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of return_postman0427085251@return.postman.co.kr designates 119.207.76.45 as permitted sender) smtp.mailfrom=return_postman0427085251@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+Return-Path: <return_postman0427085251@return.postman.co.kr>
+Received-SPF: pass (mx.naver.com: domain of return_postman0427085251@return.postman.co.kr designates 119.207.76.45 as permitted sender)
+  client-ip=119.207.76.45; x-iptype=white;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of return_postman0427085251@return.postman.co.kr designates 119.207.76.45 as permitted sender) smtp.mailfrom=return_postman0427085251@return.postman.co.kr;
+  dkim=pass header.i=@postman.co.kr
+X-Naver-ESV: +P+YpB3G1H+YbXFCbHmwKoK9FAt/jJ+Y
+X-Session-IP: 119.207.76.45
+Received: from send45.postman.co.kr (send45.postman.co.kr [119.207.76.45])
+  by crcvmail26.nm.naver.com with ESMTP id cz1c+lTXQrqSWMCtYYrT3g
+  for <1059230@naver.com>;
+  Sun, 26 Apr 2020 23:54:48 -0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1587945289;
+	s=sender; d=postman.co.kr;
+	h=From:To:Reply-to:Subject:Date:List-Unsubscribe:Feedback-Id:Precedence:MIME-Version:Content-Type:Content-Transfer-Encoding;
+	bh=mZItiAR810CLltr5rmzsw98X+Ibje71VexppZZOc0kI=;
+	b=OA5kXPSGvhr3lP9nB4XxbEDooQ6rNLi+0uFfHsmWdvVKtFMuFClY3s81li+/8G5n
+	YOenAu6FaKP8LKmxtc64haPz605UhMwC0PDTuS5V2UIls152e5jd1BCUY8373+58svc
+	KVmC6isnSKhNA7Nfj8ZE6bNJP+ZOe+5qIIKKtVNU=
+From: "=?euc-kr?B?vNvA573C?=" <jsocean@openpress.co.kr>
+To: "=?euc-kr?B?udrA57y6ILTrx6U=?=" <1059230@naver.com>
+Reply-to: <jsocean@openpress.co.kr>
+Subject: =?euc-kr?B?W7S6vbrEs726xq5dILnawOe8uiC068eltNQ=?= =?euc-kr?B?LCAxMDC4uL/4ILvztOfAxyBQUrno?= =?euc-kr?B?s8oguau34SDBprD4IMDMuqXGriDB+Mfgx9U=?= =?euc-kr?B?tM+02SE=?=
+Date: Mon, 27 Apr 2020 08:54:49 +0900
+X-WORKER_ID: <single.naver.com_Worker_3>
+X-MAIL_ID: <UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA==>
+X-MEMBER_ID: <TV9JRD0xMDg4NDcwMDg2OQ==>
+X-SEND_TYPE: <U1RZUEU9TUFTUw==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1FQkFEMDQ2MA==>
+List-Unsubscribe: <mailto:postman@fbl.humuson.com?subject=dyco7^^20200427100012872704^^10884700869>, <https://mkt.tason.com/open/postman_unsubscription.jsp?user_id=dyco7&customer_id=10884700869&post_id=20200427100012872704>
+Feedback-Id: dyco7:20200427100012872704:10884700869:postman
+Precedence: bulk
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202004270854496270@send45.postman.co.kr>
+Content-Type: text/html; 	charset=euc-kr
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<div style=3D"margin: 0px auto; width:700px !important;">
+<div style=3D"width:700px !important; height:80px; margin-bottom:20px;"><img alt=3D"" border=3D"0" height=3D"80" src=3D"http://www.newscast.co.kr/img/email/201909_top.jpg" usemap=3D"#top" width=3D"700" /> <map name=3D"top">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwMQ=3D=3D&URL=3Dhttp://newscast.co.kr/main/index.php" shape=3D"rect" coords=3D"0,27,101,53" target=3D"_blank" alt=3D"=B4=BA=BD=BA=C4=B3=BD=BA=C6=AE">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwMg=3D=3D&URL=3Dhttp://newscast.co.kr/service/naver.php" shape=3D"rect" coords=3D"197,33,278,50" target=3D"_blank" alt=3D"=B1=B9=B3=BB=BE=F0=B7=D0=C8=AB=BA=B8">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwMw=3D=3D&URL=3Dhttp://newscast.co.kr/service/world.php" shape=3D"rect" coords=3D"290,33,369,50" target=3D"_blank" alt=3D"=C7=D8=BF=DC=BE=F0=B7=D0=C8=AB=BA=B8">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwNA=3D=3D&URL=3Dhttp://newscast.co.kr/service/online_fullpackage.php" shape=3D"rect" coords=3D"381,33,449,50" target=3D"_blank" alt=3D"=BF=C2=B6=F3=C0=CE=B1=A4=B0=ED">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwNQ=3D=3D&URL=3Dhttp://newscast.co.kr/service/ad_signboard3.php" shape=3D"rect" coords=3D"461,33,540,50" target=3D"_blank" alt=3D"=BF=C0=C7=C1=B6=F3=C0=CE=B1=A4=B0=ED">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwNg=3D=3D&URL=3Dhttp://newscast.co.kr/search/sitesearch.php" shape=3D"rect" coords=3D"552,33,610,50" target=3D"_blank" alt=3D"=B0=CB=BB=F6=B1=A4=B0=ED">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwNw=3D=3D&URL=3Dhttp://newscast.co.kr/viral/blog.php" shape=3D"rect" coords=3D"623,33,699,50" target=3D"_blank" alt=3D"=B9=D9=C0=CC=B7=B2=B8=B6=C4=C9=C6=C3">
+</map></div>
+</div>
+
+<div style=3D"margin: 0px auto; width:700px !important;">
+<div style=3D"width:700px !important;"><img alt=3D"" src=3D"http://www.newscast.co.kr/img/event04.jpg" usemap=3D"#body_01" width=3D"700" /> <map name=3D"body_01">
+<area href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwOA=3D=3D&URL=3Dhttp://newscast.co.kr/customer/apply1.php" shape=3D"rect" coords=3D"230,1180,480,1230" target=3D"_blank" alt=3D"=BC=AD=BA=F1=BD=BA =BB=F3=B4=E3=BD=C5=C3=BB">
+</map></div>
+</div>
+&nbsp;<br />
+<br />
+<a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAwOQ=3D=3D&URL=3Dhttp://www.openpress.co.kr/" target=3D"_blank"><img border=3D"0" src=3D"http://www.openpress.co.kr/signature/jsocean.png" /></a>
+<div class=3D"erase_tag_element" align=3D"center">
+<table width=3D"600" align=3D"center" style=3D"font-size:12px; line-height:140%; border:1px solid #cccccc;">
+<tr align=3D"center">
+<td style=3D"font-color:#4C4C4C; font-size: 12px; font-family:'=B5=B8=BF=F2','helvetica';">=BA=BB =B8=DE=C0=CF=C0=BA =C8=B8=BF=F8=B4=D4=C0=C7 =BC=F6=BD=C5=B5=BF=C0=C7 =BF=A9=BA=CE=B8=A6 =C8=AE=C0=CE=C7=D1 =B0=E1=B0=FA =C8=B8=BF=F8=B4=D4=B2=B2=BC=AD =BC=F6=BD=C5=B5=BF=C0=C7=C7=CF=BC=CC=B1=E2=BF=A1 =B9=DF=BC=DB=B5=C7=BE=FA=BD=C0=B4=CF=B4=D9.
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr>
+<td align=3D"center" style=3D"color:#666666;">
+<p>=B8=DE=C0=CF =BC=F6=BD=C5=C0=BB =BF=F8=C7=CF=C1=F6 =BE=CA=C0=B8=BD=C3=B8=E9, =BF=A9=B1=E2 [<a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAxMA=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D10884700869&amp;reject_script=3DK&amp;post_id=3D20200427100012872704" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#ff6600; font-weight:bold">=BC=F6=BD=C5=B0=C5=BA=CE</span></a>]=B8=A6 =B4=AD=B7=AF =C1=D6=BD=CA=BD=C3=BF=C0.<br />To unsubscribe <a href=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1D&Q0lEPTAxMQ=3D=3D&URL=3Dhttps://mkt.tason.com/open/unsubscription.jsp?user_id=3Ddyco7&amp;customer_id=3D10884700869&amp;reject_script=3DE&amp;p=
+ost_id=3D20200427100012872704" target=3D"_blank" style=3D"text-decoration:none;"><span style=3D"color:#666666; font-weight:bold;">click here</span></a>.</p>
+</td>
+</tr>
+<tr><td bgcolor=3D"#DADADA" height=3D"1"></td></tr>
+<tr align=3D"center">
+<td style=3D"font-size: 11px; font-family:'=B5=B8=BF=F2','helvetica'; font-color:#4C4C4C;">=BC=AD=BF=EF=C6=AF=BA=B0=BD=C3 =BC=BA=B5=BF=B1=B8 =BB=F3=BF=F81=B1=E6 26, =BC=AD=BF=EF=BD=A3A=C5=B8=BF=F6 405~7=C8=A3 / 02-922-9591
+</td>
+</tr>
+</table>
+</div><img src=3D"https://trk-mkt.tason.com/CheckNew.html?TV9JRD0xMDg4NDcwMDg2OQ=3D=3D&U1RZUEU9TUFTUw=3D=3D&TElTVF9UQUJMRT1FQkFEMDQ2MA=3D=3D&UE9TVF9JRD0yMDIwMDQyNzEwMDAxMjg3MjcwNA=3D=3D&VEM9MjAyMDA1MTE=3D&S0lORD1P" width=3D1 height=3D1></body>
+</html>
+

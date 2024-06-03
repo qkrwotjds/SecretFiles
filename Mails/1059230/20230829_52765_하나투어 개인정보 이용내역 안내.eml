@@ -1,0 +1,253 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1693307148;
+	cv=none; b=TIIN0fxKjU2aT+uFEztZ0T7SyraXjAaXxDosY4fYM4RgzCm7p5T+Pn2zR8Lr
+	 Ta139AprEZkVlKJkVOCj5J1LMUuNGKMCrAkHnJOf6UL6IiqCIkym8LgtG4C/+s3KaVWbeW
+	 w+HnIZfiWdrUeB5xu6i6LHjNv9Zn+sNzj0Q3UHGM+TUU2xXUdEL4HWc7Vw1ezmm/D9mEZk
+	 oyyZoTF+08hrGdcJxwIo95U2UJGoBKxYlCGt7rico4u2YMWID7wDk8DKRmhOTEyDePUzFI
+	 mTXU7e/rfL+djrlGj1j65rAUzVw7x7P7q4s3QPaJ3TwesGuQjrHDWggPTco8qNAIvbLBvc
+	 Yg==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1693307148; c=relaxed/relaxed;
+	bh=WLHnhT58a85p5mxzwiahdaxpYZKQvqYxnTEYfG3XKGQ=;
+	h=from:to:subject:date:message-id; b=X5IgkHp9Ksacgyk1+OgvuJfZIiLSFVGHJ7
+	 smceXlaIxhF1JO4oiHeYRqLRoSdmq4VJQFxRZuovPpGhz1ZBrORlqqWfyMubXt4ggtQ2ij
+	 OOorP5hsCT8367msaDptpL0n+WIxkJpxn4ONeGXmr2Y1te+O+WOU1hG9vnf9UIhkpC0Ddm
+	 SUQg/eF/omB2Ome2Dt4afk8O8y0JR65Dg2gmHCOsoygxa29uKM0BMHTD/AhT3u+xtqES0F
+	 rNm619aj/LgC3ERch2YW5bTVGpAhzf6614O66x6o264Oes7X18x8CVj2fhJBYJA+M2i8IO
+	 qVmDSPhrcf3HT6zLduFhUQ23qxZQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of reply@hanatour.com designates 203.245.32.211 as permitted sender) smtp.mailfrom=reply@hanatour.com;
+  dmarc=pass (p=NONE sp=REJECT dis=NONE) header.from=hanatour.com
+Return-Path: <reply@hanatour.com>
+Received-SPF: pass (mx.naver.com: domain of reply@hanatour.com designates 203.245.32.211 as permitted sender)
+  client-ip=203.245.32.211; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of reply@hanatour.com designates 203.245.32.211 as permitted sender) smtp.mailfrom=reply@hanatour.com;
+  dmarc=pass (p=NONE sp=REJECT dis=NONE) header.from=hanatour.com
+X-Naver-ESV: wwRn+6J4p63CbHmdKBwdbXFYKxumFxt/jJ+Y
+X-Session-IP: 203.245.32.211
+Received: from tmsapi.hanatour.com (tmsapi.hanatour.com [203.245.32.211])
+  by crcvmail202.nm.naver.com with ESMTP id Ks9dAEK8S820wifTtJFjRw
+  for <1059230@naver.com>;
+  Tue, 29 Aug 2023 11:05:48 -0000
+From: "=?euc-kr?B?x8+zqsX1vu4=?=" <15771233@hanatour.com>
+To: "=?euc-kr?B?udrA57y6?=" <1059230@naver.com>
+Reply-to: <15771233@hanatour.com>
+Subject: =?euc-kr?B?x8+zqsX1vu4gsLPAzsGkurggwMy/67O7v6og?=
+ =?euc-kr?B?vsizuw==?=
+Date: Tue, 29 Aug 2023 20:05:48 +0900
+X-WORKER_ID: <single.naver.com_Worker_9>
+X-MAIL_ID: <UE9TVF9JRD0yMDIzMDgyOTAwMDE5>
+X-MEMBER_ID: <TV9JRD1DMjAxMzc4NTk4>
+X-SEND_TYPE: <U1RZUEU9Q0FNUA==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDg=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202308292005486989@tmsapi.hanatour.com_Ems@tmsapi.hanatour.com>
+Content-Type: text/html;
+	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ko">
+<head>
+<title>하나투어 :: 1등 여행사 (주)하나투어</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">/* =Reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0}
+body,h1,h2,h3,h4,h5,h6,th,td,select,input,textarea,button{font-family:'Noto Sans KR', 'Malgun Gothic', 'AppleSDGothicNeo', Arial, Helvetica, serif , sans-serif;letter-spacing:-.4px}/* 'Nanum Gothic' */
+body{/*-webkit-text-size-adjust:none;*/font-size:14px;font-weight:normal;color:#333;word-break:break-all;line-height:1;letter-spacing:-.4px}
+input,select,textarea,button{font-size:14px;vertical-align:top}
+button,input,textarea{-webkit-border-radius:0;border-radius:0}
+button{background-color:transparent;cursor:pointer}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+table{width:100%;border-collapse:collapse;border-spacing:0}
+ol,ul,li{list-style:none}
+dt,dd{line-height:1}
+em,address{font-style:normal}
+em{color:#e81f6f}
+img,fieldset,iframe{border:0}
+img{max-width:100%;height:auto;vertical-align:top}
+a{color:#333;text-decoration:none}
+area{outline:0}
+p{line-height:1.8;}
+strong{font-weight:bold}
+</style>
+</head>
+<body data-grammar="true"><tbod> </tbod>
+<p></p>
+<table border="0" cellpadding="0" cellspacing="0" style="margin:50px auto;width:750px;">
+<tbody>
+<tr>
+<td colspan="3">
+<div style="height: 84px; overflow: hidden;"><a href="https://tms.hanatour.com/TMS/resources/base/Check.jsp?TV9JRD1DMjAxMzc4NTk4&U1RZUEU9Q0FNUA==&p_id=2023082900019&m_id=C201378598&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyOTAwMDE5&U0VSVkVSX0lEPTAx&VEM9MjAyMzA5MDU=&S0lORD1D&Q0lEPTAwMQ==&c_id=001&amc_s_key=&amc_c_key=&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=http://www.hanatour.com" target="_blank"><img alt="" src="https://image.hanatour.com/usr/manual/mail/2021/mail_logo.jpg" style="width: 750px;" /></a></div>
+</td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr height="74">
+<td width="40"></td>
+<td style="font-size:31px;color:#111;line-height:140%" width="670">하나투어 회원 <span style="color:#5e2bb8">개인정보 이용내역 </span> 안내</td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="font-size:16px;line-height:30px;color:#1b1b1b" width="670">안녕하세요, 하나투어입니다.<br />
+항상 하나투어를 이용해 주시는 고객님께 진심으로 감사의 말씀 드립니다.<br />
+개인정보보호법 제39조의8(개인정보 이용내역의 통지)에 따라 고객님의 개인정보 이용내역을<br />
+다음과 같이 안내드립니다.<br />
+자세한 사항은 아래 자세히 보기 버튼을 통해 확인하실 수 있습니다.<br />
+&nbsp;</td>
+</tr>
+<tr height="66">
+<td width="40"></td>
+<td style="color:#666;font-size:14px;padding:20px;border: 1px solid #dddddd;text-align:left" width="630">하나투어는 고객님의 개인정보를 소중히 관리하고, 관련 법령에 따라 안전하게 보호합니다.<br />
+<span style="float: left;color: #111;font-size: 16px;font-weight: 600;margin: 35px 10px 0 0;">▶ 하나투어 개인정보 처리방침</span><a href="https://tms.hanatour.com/TMS/resources/base/Check.jsp?TV9JRD1DMjAxMzc4NTk4&U1RZUEU9Q0FNUA==&p_id=2023082900019&m_id=C201378598&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyOTAwMDE5&U0VSVkVSX0lEPTAx&VEM9MjAyMzA5MDU=&S0lORD1D&Q0lEPTAwMg==&c_id=002&amc_s_key=&amc_c_key=&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.hanatour.com/els/prv/CHPC0PRV0002M200" style="float: left;margin-top: 20px;" target="_blank"><img alt="자세히보기" src="https://image.hanatour.com/usr/mail/img/mail_07_btn02.png" /></a></td>
+<td width="30"></td>
+</tr>
+<tr>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750">
+<p></p>
+<p></p>
+<p></p>
+<br />
+<br />
+<br />
+&nbsp;
+<p></p>
+</td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="color:#333;font-size:16px;line-height:px;font-weight:600;color:#1b1b1b" width="670">※ 개인정보 이용내역 안내 FAQ</td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="font-size:16px;font-weight:600;line-height:22px;color:#1b1b1b" width="670">(1) 개인정보 이용내역이 무엇인가요?</td>
+<td width="40"></td>
+</tr>
+<tr height="7">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="line-height:22px;color:#1b1b1b" width="670">
+<p>- 개인정보 보호법 제39조의8(개인정보 이용내역 통지) 및 동법 시행령</p>
+<p>&nbsp; 제48조의6(개인정보 이용내역의 통지)에 따라 법적 의무 준수를 위해</p>
+<p>&nbsp; 하나투어에 가입되어 있으신 모든 고객님께 서비스 이용을 위해 제공해주신<br />
+&nbsp; 개인정보의 수집 및 이용, 제3자 제공, 위탁의 내용을 안내하는 메일입니다.</p>
+</td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="font-size:16px;font-weight:600;line-height:22px;color:#1b1b1b" width="670">(2) 하나투어 회원가입을 하지 않았는데 메일을 받았습니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="7">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="line-height:22px;color:#1b1b1b" width="670">- 본 메일은 하나투어 회원의 회원정보에 등록된 이메일 주소로 발송된 메일입니다.<br />
+&nbsp;&nbsp;다른 분께서 이메일 주소를 잘못 기재하는 경우 메일을 받으실 수 있으니<br />
+&nbsp; 회원가입을 하신 적이 없다면 고객센터(1577-1233)로 문의하여 주시기 바랍니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="font-size:15px;font-weight:600;line-height:22px;color:#1b1b1b" width="670">(3) 이메일 수신을 거부했는데 메일을 받았습니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="7">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="line-height:22px;color:#1b1b1b" width="670">
+<p>- 개인정보 이용내역 안내는 개인정보 보호법 제39조의8(개인정보 이용내역 통지)에 따른</p>
+<p>&nbsp; 의무 통지사항으로, 수신거부를 하셨더라도 해당 메일을 수신하게 됩니다.</p>
+</td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="font-size:16px;font-weight:600;line-height:22px;color:#1b1b1b" width="670">(4) 회원정보를 변경하고 싶습니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="7">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="40"></td>
+<td style="line-height:22px;color:#1b1b1b" width="670">- 회원정보의 변경이 필요하신 경우 하나투어 닷컴 내 [마이페이지]에서 직접 변경이 가능합니다.<br />
+&nbsp;&nbsp;로그인이 불가능하실 경우 고객센터(1577-1233)으로 문의하여 주시기 바랍니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="5">
+<td colspan="3" width="750"></td>
+</tr>
+<tr height="40" style="vertical-align:bottom">
+<td width="40"></td>
+<td style="font-size:13px;color:#666" width="670">※ 본 메일은 2023년 08월 28일 기준으로 작성되었습니다. 이후 회원탈퇴를 하셨더라도 메일이 발송될 수 있습니다.</td>
+<td width="40"></td>
+</tr>
+<tr height="10">
+<td colspan="3" width="750"></td>
+</tr>
+<tr height="66">
+</tr>
+<tr height="22">
+<td colspan="3" width="750"></td>
+</tr>
+<tr height="2">
+<td width="40"></td>
+<td style="background-color:#838998" width="670"></td>
+<td width="40"></td>
+</tr>
+<tr height="20">
+<td colspan="3" width="750"></td>
+</tr>
+<tr>
+<td width="33px"></td>
+<td style="font-size:14px;color:#999">&middot;<img alt="" border="0" src="https://image.hanatour.com/usr/mail/img/mail_ci_new.gif" valign="top" /></td>
+</tr>
+<tr>
+<td colspan="2" height="30px"></td>
+</tr>
+<tr height="125">
+<td width="40"></td>
+<td width="670"><img alt="" src="https://image.hanatour.com/usr/static/img/mail/include/footer_txt.gif" usemap="#ft_txt" /><map name="ft_txt"><area alt="사업자정보 확인" coords="457,24,551,42" href="https://tms.hanatour.com/TMS/resources/base/Check.jsp?TV9JRD1DMjAxMzc4NTk4&U1RZUEU9Q0FNUA==&p_id=2023082900019&m_id=C201378598&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyOTAwMDE5&U0VSVkVSX0lEPTAx&VEM9MjAyMzA5MDU=&S0lORD1D&Q0lEPTAwMw==&c_id=003&amc_s_key=&amc_c_key=&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.ftc.go.kr/info/bizinfo/communicationViewPopup.jsp?wrkr_no=1028139440" shape="rect" target="_blank" title="사업자정보 확인" /></map></td>
+<td width="40"></td>
+</tr>
+<tr>
+<td colspan="2" height="60px"></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p></p>
+<p><grammar-mirror data-generated="whale-grammar"></grammar-mirror></p>
+<div style="display:none"><IMG width=0 height=0 src="https://tms.hanatour.com/TMS/resources/base/Check.jsp?TV9JRD1DMjAxMzc4NTk4&U1RZUEU9Q0FNUA==&p_id=2023082900019&m_id=C201378598&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDg=&UE9TVF9JRD0yMDIzMDgyOTAwMDE5&U0VSVkVSX0lEPTAx&VEM9MjAyMzA5MDU=&S0lORD1P"><IMG width=0 height=0 src='https://trk-amc.tason.com/amc.gif?sid=tmshanatour&p=w&t=opn&key=null&msgKey=2023082900019&data=%7B%22p_id%22%3A%222023082900019%22%2C%22m_id%22%3A%22C201378598%22%2C%22enc_email%22%3A%2274133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100%22%7D&userId=C201378598'></div></body>
+</html>
+
+

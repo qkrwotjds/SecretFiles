@@ -1,0 +1,348 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1675052642;
+	cv=none; b=QmvIrj9HIdv8bSkP/ALSbLCQiWF7WbTv4ixjYVTHDip2aWhGqzbXpTcsed+a
+	 Kad2mhrH+Gmnx1EDinQDXu41lb7yqm0NrXYp9jM4uNAgvmG5pKG0O5OVzVGaGmjvnNKvZT
+	 058NXyxMNTMd74/hVQHUqrAMRTmZw6NGNjYLTpa8Bj0KZfR55VkGroDC5bgp9JPUBloXHA
+	 hV6R7ZbUilYzmW1h5xHkkkRY9NoeXRvxhdoH2BWAMYGigAD6YXmA0jjghXGwtXUB/7994N
+	 2jub/M5Jsejf9Klt2Z/9s48MQNfBAWi3Jm13GVjTmzkvgtGViIGDag4vMZSaSvRVPIj+pE
+	 4g==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1675052642; c=relaxed/relaxed;
+	bh=LMC5aaX5uWhL8qLeBtFqLE+4meL8ckOyZpWCcttWBg4=;
+	h=date:from:subject:to; b=EqC+qhjO6RGaVhgpiM6OV0d6jePKo3lEen6MAN34qnvpW
+	 A1BwI5z2GqXH/bbvPUvXNUBacp0+Bt3Yh3APbN/Bb1rp8qVq6YgVYx9IVCa5VTsR1giq+w
+	 EJuhqEuIGT3qU4ZPKY9HlzGFa2L43lJyUTKgWY6DtcygjT4ZkCd6wH7KzIC6EWKNPlWquO
+	 ccAPaLWexGv7oygof4EzyOcAgIVoAyj4OyscxZrdZsBGvm08uDlJiOJcrDPS3MGKzZ4h2s
+	 Q4Bq0lhd5adDs+jkHqPBq7ZEACeyhsskgz1eO0zt/gmvJQyKxt27UZUZGSNfYRakia2nDm
+	 3eiY5yCTylD09KtNQ==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender) smtp.mailfrom=returnmail@sender-004.cafe24.com
+Return-Path: <returnmail@sender-004.cafe24.com>
+Received-SPF: pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender)
+  client-ip=218.236.58.151; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of returnmail@sender-004.cafe24.com designates 218.236.58.151 as permitted sender) smtp.mailfrom=returnmail@sender-004.cafe24.com
+X-Naver-ESV: wZRn+6J4p63qMBIYKHwdbXmmFAUdKAiYkXm=
+X-Session-IP: 218.236.58.151
+Message-ID: <1675052642317.7f337.84634741@crcvmail103.nm>
+Received: from sender-004.cafe24.com (sender-004.cafe24.com [218.236.58.151])
+  by crcvmail103.nm.naver.com with ESMTP id +6nTxZZwRGKXrWEhomk9Bg
+  for <1059230@naver.com>;
+  Mon, 30 Jan 2023 04:24:02 -0000
+Date: Mon, 30 Jan 2023 13:23:53 +0900
+From: "=?euc-kr?B?KMHWKb+hwMzEob+kv6G9ug==?="<help@hlstory.co.kr>
+Subject: =?euc-kr?B?W7+hwMzEob+kv6G9ul0gSFK+xr/0vNK9zCDBpr7IteW4s7TPtNku?=
+To: "=?euc-kr?B?J8Okv+u047TnwNonILTU?="<1059230@naver.com>
+MIME-Version: 1.0
+X-Mailer: ThunderMail ver 4.5
+Content-Type: text/html;	charset="euc-kr"
+Content-Transfer-Encoding: 8bit
+
+<table cellpadding="10" cellspacing="0">
+<tr>
+<td>
+<p>
+<p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:13.6pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">안녕하세요</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">? </span></span></span></span><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:
+major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;
+mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
+굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">㈜에이치엘에스 마케팅팀 유미경실장입니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:
+major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;
+mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
+굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:
+major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;
+mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
+굴림;color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:
+major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;
+mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
+굴림;color:#404040;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">저희 ㈜에이치엘에스는 </span></span><b><ins><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">서울</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">경기권</span></span></ins></b><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">을
+</span></span></span><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:
+major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;
+mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:major-latin;mso-bidi-font-family:
+굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">중심으로 </span></span><b><ins><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">물류</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">유통</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">제조</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">콜센터</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">판매</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, IT</span></span></span></ins></b></span><span lang="EN-US" style="font-size:11.0pt;
+mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-fareast-theme-font:major-latin;mso-hansi-font-family:&quot;맑은 고딕&quot;;
+mso-hansi-theme-font:major-latin;mso-bidi-font-family:굴림;color:#1F497D;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span></span><span style="font-size:11.0pt;mso-ascii-font-family:
+&quot;맑은 고딕&quot;;mso-ascii-theme-font:major-latin;mso-fareast-font-family:&quot;맑은 고딕&quot;;
+mso-fareast-theme-font:major-latin;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-hansi-theme-font:
+major-latin;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">분야의 </span></span></span><b><u><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">업무위탁</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">/</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">도급</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">/</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">인력파견</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">/</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">채용대행</span></span></span></u></b><span style="font-size:11.0pt;mso-ascii-font-family:
+&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">을 전문으로 하는 </span></span><b style="mso-bidi-font-weight:normal"><ins><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">종합 </span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">HR</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">아웃소싱 업체입니다</span></span></ins></b></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span><span lang="EN-US" style="font-size:11.0pt;
+font-family:굴림;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">혹시 유통</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">물류</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">제조</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">판매</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">주방</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">홀서빙</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, CS</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">상담 등에 </span></span></span><b><span style="font-size:11.0pt;mso-ascii-font-family:
+&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">아웃소싱 인원이 필요하시면</span></span></span></b><b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> 연락 주시면 성심껏 지원해 드리도록 하겠습니다</span></span></span></b><span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">당사는 </span></span><b><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">SK 11</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">번가</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">,
+SK</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">플래닛</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, SK</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">텔레콤외 진단키트</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">제조</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">물류</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">베이커리</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">건물관리
+</span></span></b></span><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;
+mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:
+굴림;color:#404040;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">등 전체</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> 500</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">여명의 인원을 관리하고
+있습니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span><span lang="EN-US" style="font-size:11.0pt;
+font-family:굴림;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b style="mso-bidi-font-weight:normal"><u><span style="font-size:11.0pt;
+mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:
+&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">아웃소싱의 이점</span></span></span></u></b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">을 말씀드리자면 당사가 근로자의 전반적인 인사</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">노무에 관한
+업무를 전담해 드림으로써</span></span></span><span lang="EN-US" style="font-size:11.0pt;font-family:굴림;
+mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></b></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">첫째 채용하고 관리하는 과정에서 필요한 시간과 비용을 절약할 수 있고</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span></span></b><span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">둘째 비 핵심업무는 아웃소싱 직원을 활용함으로써 회사는 핵심사업에 집중할 수 있으며</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">,</span></span></span></span></b><span lang="EN-US" style="font-size:11.0pt;
+font-family:굴림;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">셋째 아웃소싱 직원 중 능력 있는 사원은 정규직으로 전환함으로써 검증된 핵심인력을 확보하실 수 있습니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span></b><span lang="EN-US" style="font-size:11.0pt;
+font-family:굴림;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">만약 의뢰하게 되시면 진행프로세스는 다음과 같습니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span><span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<b><u><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">의뢰요청</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">--&gt;</span></span></span></span></u></b><b><u><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">계약진행 </span></span></span></u></b><b><u><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">--&gt; </span></span></span></u></b><b><u><span style="font-size:11.0pt;
+mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:
+&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">인재수급</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">--&gt;</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">인력추천</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">(</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">이력서</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">)--&gt;</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">고객사
+검토</span></span></span></u></b><b><u><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:
+&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">/</span></span></span></u></b><b><u><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">면접</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">--&gt;</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">채용확정</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">--&gt;</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">정산</span></span></span></u></b><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span></span><span lang="EN-US" style="font-size:11.0pt;
+font-family:굴림;mso-bidi-font-family:굴림;color:#404040;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;font-family:굴림;mso-bidi-font-family:굴림;
+color:#404040;mso-font-kerning:0pt"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p style="background:white">
+<strong><span style="font-size:11.0pt;font-family:
+&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">이렇게 메일을 통하여 인사를 드리게 됨을 송구하게 생각하며</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">, </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">추후에 방문하여 인사 드릴 수 있는 기회를 주시면 감사하겠습니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span></strong><span lang="EN-US" style="font-size:11.0pt;font-family:&quot;맑은 고딕&quot;"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p style="background:white">
+<strong><span lang="EN-US" style="font-size:11.0pt;
+font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;font-weight:normal;mso-bidi-font-weight:
+bold"><p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></p>
+</span></strong></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:left;line-height:12.0pt;mso-pagination:widow-orphan;background:white;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;mso-font-kerning:
+0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">혹시 메일을 원치 않으시면 수신거부를 눌러 주시면 메일 드리지 않도록 하겠습니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.</span></span></span></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:
+&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;
+mso-bidi-font-family:굴림;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormal" align="left" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:left;line-height:11.0pt;mso-pagination:widow-orphan;background:
+white;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><br />
+</span></span></p>
+<p class="MsoNormal" align="left" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;text-align:left;line-height:11.0pt;mso-pagination:widow-orphan;background:
+white;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">감사합니다</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">.^^ </span></span><p>
+</p>
+</span></span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormalCxSpMiddle" align="left" style="margin-bottom:0cm;margin-bottom:
+.0001pt;mso-add-space:auto;text-align:left;line-height:12.0pt;mso-pagination:
+widow-orphan;layout-grid-mode:char;background:white;mso-layout-grid-align:none;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><br />
+</span></span></p>
+<p class="MsoNormalCxSpMiddle" align="left" style="margin-bottom:0cm;margin-bottom:
+.0001pt;mso-add-space:auto;text-align:left;line-height:12.0pt;mso-pagination:
+widow-orphan;layout-grid-mode:char;background:white;mso-layout-grid-align:none;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">(</span></span></span><span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">주</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">)</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">에이치엘에스 유미경</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> / </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">마케팅실장</span></span></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormalCxSpMiddle" align="left" style="margin-bottom:0cm;margin-bottom:
+.0001pt;mso-add-space:auto;text-align:left;line-height:12.0pt;mso-pagination:
+widow-orphan;layout-grid-mode:char;background:white;mso-layout-grid-align:none;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">경기도 화성시 동탄대로</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> 646-6 </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">메가비즈타워</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> B</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">동</span></span><span lang="EN-US"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"> 303</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">호</span></span></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormalCxSpMiddle" align="left" style="margin-bottom:0cm;margin-bottom:
+.0001pt;mso-add-space:auto;text-align:left;line-height:12.0pt;mso-pagination:
+widow-orphan;layout-grid-mode:char;background:white;mso-layout-grid-align:none;
+text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">Tel. 02-7864-2614
+</span></span><span style="mso-spacerun:yes"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp;</span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">Fax. 02-6455-4688</span></span></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p>
+</p>
+</span></p>
+<span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);"></span></span><p class="MsoNormalCxSpMiddle" align="left" style="mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;mso-add-space:auto;text-align:left;line-height:12.0pt;
+mso-pagination:widow-orphan;tab-stops:203.0pt;layout-grid-mode:char;background:
+white;text-autospace:ideograph-numeric ideograph-other;word-break:keep-all">
+<span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;
+mso-themecolor:text1;mso-font-kerning:0pt;mso-bidi-font-weight:bold"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">Mobile.
+010-4069-1184</span></span><span style="mso-spacerun:yes"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">&nbsp; </span></span></span><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">Mail. </span></span></span><span lang="EN-US"><A HREF="http://sender-004.cafe24.com:80/filter/clickDetecter1.jsp?campaignID=46347&duplicationYN=Y&targetIndex=12&encoding=yes&maillink=true&email=1059230%40naver.com&url=help%40hlstory.co.kr&linkID=421136&type=click"><span style="font-size:11.0pt;
+mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:&quot;맑은
+ 고딕&quot;;mso-hansi-font-family:
+&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:black;mso-themecolor:text1;mso-font-kerning:
+0pt;mso-bidi-font-weight:bold;text-decoration:none;text-underline:none"><span style="font-family: Tahoma;"><span style="color: rgb(0, 0, 0);">help@hlstory.co.kr</span></span></span></A></span><span lang="EN-US" style="font-size:11.0pt;mso-ascii-font-family:&quot;맑은 고딕&quot;;mso-fareast-font-family:
+&quot;맑은 고딕&quot;;mso-hansi-font-family:&quot;맑은 고딕&quot;;mso-bidi-font-family:굴림;color:#404040;
+mso-font-kerning:0pt"><p>
+</p>
+</span></p>
+</p>
+</td>
+</tr>
+<tr>
+<td style="font:11px">
+메일 수신을 원치 않으시면 <A HREF="http://sender-004.cafe24.com:80/filter/clickDetecter1.jsp?campaignID=46347&duplicationYN=Y&targetIndex=12&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fadmin.sendmail.cafe24.com%2Flink.php&linkID=421137&type=reject">수신거부</A> 를 클릭하십시오.<br />
+If you don't want to receive this mail anymore, click here <A HREF="http://sender-004.cafe24.com:80/filter/clickDetecter1.jsp?campaignID=46347&duplicationYN=Y&targetIndex=12&encoding=yes&maillink=false&email=1059230%40naver.com&url=http%3A%2F%2Fadmin.sendmail.cafe24.com%2Flink.php&linkID=421138&type=reject">unsubscription</A></td>
+</tr>
+<tr>
+<td style="font:11px">
+경기도 화성시 동탄대로 646-4
+메가비즈타워B동 303호 (주)에이치에렝스 대표전화 : 070-7864-2629
+<br />
+이메일 : help@hlstory.co.kr</td>
+</tr>
+</table>
+
+<img src='http://sender-004.cafe24.com:80/filter/checker.jsp?campaignID=46347&duplicationYN=Y&targetIndex=12&email=1059230@naver.com&responseEnd=2023-02-06' width=0 height=0>
+<iframe frameborder=0 height=0 width=0 src='http://sender-004.cafe24.com:80/filter/Tracker.jsp?campaignID=46347&duplicationYN=Y&targetIndex=12&email=1059230@naver.com&responseEnd=2023-02-06'></iframe>

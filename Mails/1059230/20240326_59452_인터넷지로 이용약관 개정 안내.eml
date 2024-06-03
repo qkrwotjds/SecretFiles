@@ -1,0 +1,188 @@
+ARC-Seal: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730; t=1711437291;
+	cv=none; b=KLypi+qnCXwCtnvgUWCg8BmwU4VWXrM0snVB+V4Puzfe1aaO8Ue56keBadEN
+	 E0+fT94/WjE0WIa52GRViKK+a8qBt7A9aOVZzJ2i6y7d9x+jNY2afxsVsX7eEaSWHnBFTy
+	 yoYbxzsaUYjmzJsGncQD4LomZrnT/VEjZy1OOlD2COu0hsYfIw4j2kPTKzBy1wCLmF3px+
+	 yNM+cLr72kA2sHYALYOp05z4s/JFqnwusR4vsOXnZn440+EKo99WN9kT0EM6+5qystO2+v
+	 h53kU2k16wiNTDm5XaYyHAMVhpBeUVEesnrSy/BE7gsF0P/qUPQ6vqUIJEzIodB/dxL6Yx
+	 Ig==
+ARC-Message-Signature: i=1; a=rsa-sha256; d=naver.com; s=arc-20180730;
+	t=1711437291; c=relaxed/relaxed;
+	bh=MQK6UCROCMOU7Cd/w3fxTvR3fenx02FB1O1UzbsAE30=;
+	h=from:to:subject:date:message-id; b=KJfmffbqnn6kbtzVEjxFgqlaK+0TYDUhbi
+	 yLEOe7wP6izDUTCQUqmTWbUcN4v+XfOCcNubH5uyeVub7vTnjkUQCHSjGEhw2KKCqZ8msP
+	 1bIppqsRo2d2eMVXtwIfMy2OHdfwvw56vW1/vltsoORFiulCKS7tYCvfWNWYPiJ0pBPRrO
+	 o4JeWRAeR/OpsZ57eOoZthpC3ildhop6vkp0QzXayY6mx/v7Foto4L9H70BLC/JSxxC4rz
+	 3MIpnjNsYvScb2ebNgwTrrfeItiBzCWPB+eANqYfZ4J6O7ccG822qZyxTRvGFBKsZjOUuM
+	 hF+kmc6voS4p64qc4ev7zfHQ80WA==
+ARC-Authentication-Results: i=1; mx.naver.com; 
+  spf=pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender) smtp.mailfrom=igiromail@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+Return-Path: <igiromail@kftc.or.kr>
+Received-SPF: pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender)
+  client-ip=203.81.11.91; x-iptype=default;
+Authentication-Results: mx.naver.com;
+  spf=pass (mx.naver.com: domain of igiromail@kftc.or.kr designates 203.81.11.91 as permitted sender) smtp.mailfrom=igiromail@kftc.or.kr;
+  dmarc=pass (p=NONE sp=NONE dis=NONE) header.from=kftc.or.kr
+X-Naver-ESV: ww+n+6J4p63CbHmdKBwdbXFYKAbwFAEwjJ+Y
+X-Session-IP: 203.81.11.91
+Received: from ymail.kftc.or.kr (ymail.kftc.or.kr [203.81.11.91])
+  by crcvmail101.nm.naver.com with ESMTP id 3qJu6sjkR0u3v6PlcgtTgg
+  for <1059230@naver.com>;
+  Tue, 26 Mar 2024 07:14:51 -0000
+From: "=?utf-8?B?6riI7Jy16rKw7KCc7JuQ?=" <igiromail@kftc.or.kr>
+To: "=?utf-8?B?KOyjvCnslaDrk5zslaTsm5Trk5w=?=" <1059230@naver.com>
+Reply-to: <igiromail@kftc.or.kr>
+Subject: =?utf-8?B?7J247YSw64S37KeA66GcIOydtOyaqeyVveq0gCDqsJzsoJUg7JWI?=
+ =?utf-8?B?64K0?=
+Date: Tue, 26 Mar 2024 16:14:51 +0900
+X-WORKER_ID: <single.naver.com_Worker_3>
+X-MAIL_ID: <UE9TVF9JRD0yMDI0MDMyNjAwMDA1>
+X-MEMBER_ID: <TV9JRD1xa3J3b3RqZGZz>
+X-SEND_TYPE: <U1RZUEU9Q0FNUA==>
+X-LIST_TABLE: <TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDM=>
+X-Mailer: eMsSMTP Ver6.5( PLUTO-build 0322 )
+MIME-Version: 1.0
+Message-ID: <202403261614517456_TMS@ymail.kftc.or.kr>
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title></title>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="800">
+<tbody>
+<tr>
+<td height="71" style="border-top: rgb(13,144,210) 5.0px solid;background: rgb(238,238,238);padding-left: 50.0px;padding-right: 50.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td align="left" width="142"><img alt="INTERNET GIRO" border="0" height="71" src="https://www.giro.or.kr/giro_mail/2016/email_giro_tit_logo.png" width="102" /></td>
+<td align="right" style="font-size: 20.0px;font-weight: bold;color: rgb(0,132,199);letter-spacing: -1.0px;">공과금 및 지로요금 납부는 인터넷지로에서</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="60" style="padding-bottom: 20.0px;padding-top: 20.0px;padding-left: 50.0px;margin: 0.0px;padding-right: 50.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td width="78"><img alt="아이콘" border="0" height="60" src="https://www.giro.or.kr/giro_mail/2016/email_common_ic_type02.gif" width="60" /></td>
+<td style="padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 0;padding-right: 0.0px;">
+<p style="font-size: 24.0px;font-weight: bold;color: rgb(51,51,51);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;letter-spacing: -2.0px;line-height: 1.4;padding-right: 0.0px;">이용약관 개정 안내</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 50.0px;margin: 0.0px;line-height: 140.0%;padding-right: 50.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td>
+<p style="font-size: 14.0px;color: rgb(51,51,51);padding-bottom: 0.0px;padding-top: 15.0px;padding-left: 0.0px;margin: 0.0px;line-height: 24.0px;padding-right: 0.0px;">항상 인터넷지로를 이용해주셔서 감사합니다.<br />
+인터넷지로 이용약관의 개정을 안내드리오니 이용에 참고하여 주시기 바랍니다.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(28,115,221);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin-top: 10.0px;line-height: 1.2;padding-right: 0.0px;">적용시기</p>
+<p style="font-size: 14.0px;color: rgb(51,51,51);margin: 0.0px;line-height: 24.0px;">개정된 이용약관은 2024년 5월 7일부터 효력이 발생합니다.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(28,115,221);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin-top: 30.0px;line-height: 1.2;padding-right: 0.0px;">이용약관 개정 사유</p>
+<p style="font-size: 14.0px;color: rgb(51,51,51);margin: 0.0px;line-height: 24.0px;">부정 사용자의 서비스 이용을 즉시 차단할 수 있도록 관련 내용을 인터넷지로 이용약관에 반영</p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(28,115,221);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin-top: 30.0px;line-height: 1.2;padding-right: 0.0px;">주요 변경 내용</p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 20.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td style="border-top: rgb(224,224,224) 1.0px solid;border-right: rgb(224,224,224) 1.0px solid;background: rgb(249,249,249);border-bottom: rgb(224,224,224) 1.0px solid;padding-bottom: 20.0px;padding-top: 20.0px;padding-left: 20.0px;border-left: rgb(224,224,224) 1.0px solid;padding-right: 20.0px;">
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(51,51,51);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 22.0px;padding-right: 0.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>회원자격 상실 사유 추가</p>
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(51,51,51);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 22.0px;padding-right: 0.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>회원자격 즉시 상실 처리 근거 마련</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<p style="font-size: 14.0px;font-weight: bold;color: rgb(28,115,221);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin-top: 30.0px;line-height: 1.2;padding-right: 0.0px;">약관에 대한 이의제기 및 동의</p>
+<p style="font-size: 14.0px;color: rgb(51,51,51);margin: 0.0px;line-height: 24.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>개정 약관에 대한 문의사항이 있으신 경우 고객센터(1577-5500)로 문의하여 주시기 바랍니다.</p>
+<p style="font-size: 14.0px;color: rgb(51,51,51);margin: 0.0px;line-height: 24.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>개정 약관에 동의하지 않는 경우 회원 탈퇴를 요청하실 수 있습니다.</p>
+<p style="font-size: 14.0px;color: rgb(51,51,51);margin: 0.0px;line-height: 24.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>개정 약관 시행일 전까지 별도의 의사표시를 하지 않는 경우 본 개정 약관에 동의하여<br />
+<span style="padding-left: 12.0px;">지속적인 서비스 이용 의사가 있는 것으로 간주됩니다.</span></p>
+</td>
+</tr>
+<tr>
+<td style="padding-top: 30.0px;">
+<p style="font-size: 14.0px;color: rgb(51,51,51);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;line-height: 24.0px;padding-right: 0.0px;">자세한 사항은 하단의 링크를 통해 확인하시기 바랍니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom: 20.0px;padding-top: 20.0px;padding-left: 50.0px;padding-right: 50.0px;"><a href="http://203.81.11.91/TMS/tracking?TV9JRD1xa3J3b3RqZGZz&U1RZUEU9Q0FNUA==&p_id=2024032600005&m_id=qkrwotjdfs&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDM=&UE9TVF9JRD0yMDI0MDMyNjAwMDA1&U0VSVkVSX0lEPTAx&VEM9MjAyNDA0MDI=&S0lORD1D&Q0lEPTAwMQ==&c_id=001&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.giro.or.kr/html/popup/20240322/provision_20240322.pdf" rel="noopener noreferrer" style="font-size: 15.0px;text-decoration: none;border-top: rgb(23,98,189) 1.0px solid;border-right: rgb(23,98,189) 1.0px solid;border-bottom: rgb(23,98,189) 1.0px solid;font-weight: bold;color: rgb(23,98,189);padding-bottom: 8.0px;padding-top: 8.0px;padding-left: 20.0px;border-left: rgb(23,98,189) 1.0px solid;padding-right: 20.0px;" target="_blank" title="새창으로 열기">인터넷지로 이용약관 개정 전문</a> <a href="http://203.81.11.91/TMS/tracking?TV9JRD1xa3J3b3RqZGZz&U1RZUEU9Q0FNUA==&p_id=2024032600005&m_id=qkrwotjdfs&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDM=&UE9TVF9JRD0yMDI0MDMyNjAwMDA1&U0VSVkVSX0lEPTAx&VEM9MjAyNDA0MDI=&S0lORD1D&Q0lEPTAwMg==&c_id=002&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.giro.or.kr/html/popup/20240322/provision_diff_20240322.pdf" rel="noopener noreferrer" style="font-size: 15.0px;text-decoration: none;border-top: rgb(23,98,189) 1.0px solid;border-right: rgb(23,98,189) 1.0px solid;border-bottom: rgb(23,98,189) 1.0px solid;font-weight: bold;color: rgb(23,98,189);padding-bottom: 8.0px;padding-top: 8.0px;padding-left: 20.0px;margin-left: 5.0px;border-left: rgb(23,98,189) 1.0px solid;padding-right: 20.0px;" target="_blank" title="새창으로 열기">인터넷지로 이용약관 신&middot;구조문 대비표</a> </td>
+</tr>
+<tr>
+<td align="center" style="padding-top: 40.0px;"><a href="http://203.81.11.91/TMS/tracking?TV9JRD1xa3J3b3RqZGZz&U1RZUEU9Q0FNUA==&p_id=2024032600005&m_id=qkrwotjdfs&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDM=&UE9TVF9JRD0yMDI0MDMyNjAwMDA1&U0VSVkVSX0lEPTAx&VEM9MjAyNDA0MDI=&S0lORD1D&Q0lEPTAwMw==&c_id=003&enc_email=74133a8e0ab061ca1c716fba97a185cf3058d094cfa7969ac3b6e17948e88100&URL=https://www.giro.kr/" rel="noopener noreferrer" target="_blank" title="새창으로 열기"><img alt="인터넷지로 바로가기" border="0" src="https://www.giro.or.kr/giro_mail/2016/email_btn_girogo.png" /></a></td>
+</tr>
+<tr>
+<td style="padding-bottom: 0.0px;padding-top: 80.0px;padding-left: 50.0px;margin: 0.0px;line-height: 0;padding-right: 50.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td style="border-top: rgb(230,230,230) 1.0px solid;border-right: rgb(230,230,230) 1.0px solid;border-bottom: rgb(230,230,230) 1.0px solid;padding-bottom: 15.0px;text-align: left;padding-top: 19.0px;padding-left: 19.0px;margin: 0.0px;border-left: rgb(230,230,230) 1.0px solid;padding-right: 19.0px;">
+<p style="font-size: 12.0px;color: rgb(102,102,102);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 1.4;padding-right: 0.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>본 메일은 발신전용 메일입니다. 편리한 서비스를 제공하기 위하여 노력하겠습니다.</p>
+<p style="font-size: 12.0px;color: rgb(102,102,102);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 5.0px 0.0px 0.0px;line-height: 1.4;padding-right: 0.0px;"><span style="font-size: 12.0px;font-weight: bold;color: rgb(51,51,51);">ㆍ</span>잘못 발송된 메일은 금융결제원 고객센터(☎ 1577-5500)로 연락주시면 조치하겠습니다.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td height="30" style="padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 0;padding-right: 0.0px;"></td>
+</tr>
+<tr>
+<td style="background: rgb(230,230,230);padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 50.0px;margin: 0.0px;line-height: 0;padding-right: 50.0px;">
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+<tbody>
+<tr>
+<td width="188"><img alt="금융결제원" border="0" src="https://www.giro.or.kr/giro_mail/2016/email_common_img_footer.gif" /></td>
+<td style="padding-bottom: 15.0px;padding-top: 20.0px;padding-left: 0.0px;padding-right: 0.0px;">
+<p style="font-size: 12.0px;color: rgb(102,102,102);padding-bottom: 0.0px;font-style: normal;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 1.8;padding-right: 0.0px;"><strong style="padding-bottom: 0.0px;padding-top: 0.0px;padding-left: 0.0px;margin: 0.0px;line-height: 1.4;padding-right: 0.0px;">고객센터 1577-5500</strong><br />
+(우)06220 서울특별시 강남구 테헤란로 202 (역삼동 717번지)<br />
+Copyright ⓒ 2016 KFTC (Korea Financial Telecommunications &amp; Clearings Institute)<br />
+All rights reserved.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="display:none"><IMG width=0 height=0 src="http://203.81.11.91/TMS/tracking?TV9JRD1xa3J3b3RqZGZz&U1RZUEU9Q0FNUA==&p_id=2024032600005&m_id=qkrwotjdfs&s_tp=MASS&TElTVF9UQUJMRT1UTVNfQ0FNUF9TRU5EX0xJU1RfMDM=&UE9TVF9JRD0yMDI0MDMyNjAwMDA1&U0VSVkVSX0lEPTAx&VEM9MjAyNDA0MDI=&S0lORD1P"></div></body>
+</html>
+
+
